@@ -12,7 +12,11 @@ parser.add_argument('original', type=Path)
 parser.add_argument('--output', type=Path, required=True)
 parser.add_argument('--include-followup', action='store_true',
                     help="Use the validated importer for Lucia's meteor warning")
+parser.add_argument('--include-town', action='store_true',
+                    help='Add Karu and two town conversations; implies --include-followup')
 args = parser.parse_args()
+if args.include_town:
+    args.include_followup = True
 ROOT = Path(__file__).resolve().parent
 OUT = args.output.resolve()
 if OUT == args.original.resolve() or args.original.resolve() in OUT.parents:
@@ -113,6 +117,15 @@ storage = [
                            ('COSMA', [81])]),
     (0x114BF, 0x114C9, [('JOE', [6, 7])]),
 ]
+if args.include_town:
+    # Repack only already-used name spans; preserve the later Karu variant ID 5.
+    storage = [
+        (0x111DB, 0x111EA, [('COSMA', [81])]),
+        (0x11207, 0x11214, [('LUCIA', [12, 13])]),
+        (0x11235, 0x1125A, [('MAMON', [14, 15]), ('JIDO', [16]),
+                           ('SION', [0, 1]), ('JOE', [6, 7])]),
+        (0x114BF, 0x114C9, [('KARU', [4])]),
+    ]
 assert original[0x11255:0x1125A] == 'ジド'.encode('cp932') + b'\0'
 assert struct.unpack_from('<H', original, 0x104A2)[0] == 0x14BF
 names = []
@@ -149,7 +162,29 @@ if args.include_followup:
         raise ValueError('Importer changed bytes outside the follow-up entry')
     system[a:a+n] = imported[a:a+n]
     followup = dict(entry_id=entry['id'], translation=token['translation'],
-                    status='Static validation passed; emulator check pending')
+                    status='User verified follow-up display and dismissal on 2026-09-20')
+
+town = []
+if args.include_town:
+    from profiles.alshark.layout import validate_dialogue
+    document = export_disk(original)
+    edits = json.loads((ROOT / 'town-draft.json').read_text(encoding='utf-8'))
+    for entry in document['entries']:
+        if entry['id'] not in edits:
+            continue
+        by_id = {t['id']: t for t in entry['tokens']}
+        for token_id, translation in edits[entry['id']].items():
+            if by_id[token_id]['kind'] != 'text':
+                raise ValueError('Town draft targets a non-text token')
+            by_id[token_id]['translation'] = translation
+        validate_dialogue(entry['tokens'], {0: 'SION', 4: 'KARU'})
+        town.append(dict(entry_id=entry['id'], offset=entry['offset'], size=entry['size']))
+    if len(town) != len(edits):
+        raise ValueError('Missing town draft entries')
+    imported = import_disk(original, document)
+    for entry in town:
+        a, n = entry['offset'], entry['size']
+        system[a:a+n] = imported[a:a+n]
 
 opening = bytearray(images['Alshark (Opening Disk).hdm'])
 for old, new, offsets in [
@@ -187,7 +222,7 @@ def make_ips(old, new):
 
 
 manifest = dict(status='Reflowed after screenshot review; revised wrapping awaiting runtime verification',
-                dialogue=dialogue_manifest, names=names, followup=followup,
+                dialogue=dialogue_manifest, names=names, followup=followup, town=town,
                 scene_original_bytes=len(scene), scene_used_bytes=len(new_scene), disks=[])
 for name, original in images.items():
     modified = {'Alshark (System Disk).hdm': system,
@@ -205,7 +240,10 @@ for name, original in images.items():
 (OUT / 'patch-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n')
 (OUT / 'Alshark-dialogue-test.cmd').write_text('np2kai ' + ' '.join(
     '"'+str(OUT/f'Alshark ({n} Disk).hdm')+'"' for n in ['Opening', 'Data'])+'\n')
-print(f'Built ten speech turns, farewell, five names and Cosma title: scene {len(new_scene)}/{len(scene)} bytes; IPS round-trips pass.')
+print(f'Built ten speech turns, farewell, {len(names)-1} character names and Cosma title: scene {len(new_scene)}/{len(scene)} bytes; IPS round-trips pass.')
 
 if followup:
     print('Included Lucia follow-up via the script importer; branch and entry allocation preserved.')
+
+if town:
+    print(f'Included {len(town)} town conversations via importer; layout checks passed.')

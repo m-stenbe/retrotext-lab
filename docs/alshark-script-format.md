@@ -34,9 +34,10 @@ side is edited separately. Names themselves stay Japanese in this tool. Speaker,
 page and event commands remain immutable; this format does not allow changing
 page breaks, branch logic, or name reference order.
 
-Entries `051000:000` (opening breakfast) and `051000:001` (Lucia's follow-up
-warning) are editable. The follow-up has static branch analysis but still awaits
-an emulator check. All other entries remain research-only until their references
+Entries `051000:000` (opening breakfast), `051000:001` (Lucia's follow-up),
+`051000:007`, `051000:009` (town residents), and `051000:010` (Karu) are editable.
+The user verified Lucia's follow-up display and return to movement. The three
+new entries still await visual verification. All other entries remain research-only until their references
 have been checked. The document format is now `retrotext-alshark-v2`; re-export
 from the original disk when using this decoder. Older documents are rejected.
 
@@ -111,7 +112,7 @@ The branch target itself has not been translated by this change.
 - Unchanged import reproduced all 1,261,568 System-disk bytes exactly.
 - A local follow-up translation changes only the 64-byte allocation starting
   at 0x51243. Its command payloads, names and table pointers remain identical.
-- Fourteen synthetic tests cover token framing, binary arguments, text changes,
+- Eighteen synthetic tests cover token framing, binary arguments, text changes,
   unchanged import, branch preservation, read-only entries, metadata tampering,
   malformed input, overflow and unsupported translation characters.
 - The default demo still reproduces the previous six output images exactly.
@@ -133,6 +134,44 @@ After starting a new game and finishing breakfast, speak to Lucia to look for
 the warning. Its conditional branch means a later story state may select another
 conversation instead. Use this build's System disk when swapping.
 
-The newly imported warning still awaits an emulator check. The original demo
+The user verified the imported warning displays correctly and dismisses back to normal movement. The original demo
 remains available, and existing playable images are unchanged. Next: validate
 the follow-up in-game and map more branch targets before enabling broader edits.
+
+## Karu and town test — 2026-09-20
+
+`--include-town` implies `--include-followup`. English-only drafts live in
+`profiles/alshark/town-draft.json`; extracted Japanese stays in ignored work files.
+
+| Entry | Content | Review |
+| --- | --- | --- |
+| 051000:007 | Greenery and dangerous bugs near the lake | No event commands; fixed allocation |
+| 051000:009 | Canyon to the north | No event commands; fixed allocation |
+| 051000:010 | Karu observes Sion's pulse/sweat and asks what he is plotting | #B branches by entry index; #Z portrait/settings; immutable payloads |
+
+Karu's #B branches retain argument pairs (16, 19) and (2, 16). These select other
+entries under other story flags, so not all possible responses are translated.
+The original short name reads カル (Karu); this spelling and SAXEN remain draft
+romanizations. The short English wording is constrained by the current font and
+allocation. The lake warning is condensed, retaining greenery, large bugs, the
+lake location and danger. Karu's last question becomes PLOTTING?
+
+The town build repacks only the existing demo name-storage spans. It adds name
+ID 4 as full-width KARU and preserves the other translated display strings.
+Name ID 5, its pointer and original storage are untouched. Since ID 4 is shared,
+the short name changes wherever that ID is used, including untranslated dialogue.
+
+The new layout checker includes expanded names, distinguishes speaker headers
+from body text, and does not clear rows at the wait opcode `0`. It intentionally
+rejects unreviewed display modes; it is not a universal rendering simulator.
+
+All three edited command streams remain byte-identical when text is excluded.
+Only their allocations, selected name pointers and existing name-storage spans
+change relative to the previous importer test. Original disk and pointer tables
+remain intact. The default demo output still matches the previous six images.
+
+A separate local town-test launcher is prepared. The running importer test is
+not modified or restarted. To check: launch the new build, use its System/Data
+disks, start fresh, speak to Karu and the two town residents. Confirm layout and
+normal movement after dismissing each conversation. New town coverage remains
+unverified in the emulator until those checks are performed.
