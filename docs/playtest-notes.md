@@ -92,3 +92,31 @@ Specific editorial debts in the new temporary drafts:
 Shoko's short/full-name IDs both display SHOKO for now, matching the existing
 prototype convention. Preserve her full name in future glossary work. Earlier
 Karu and lake-warning wording issues remain open.
+
+## Playthrough screenshots 17:53–17:58 — 2026-09-20
+
+Reviewed all 13 supplied Desktop screenshots; images stay local. The player
+reports leaving town and approaching the cave. The field screenshots show
+Shoko in the party and a completed battle. This demonstrates progress on the
+accepted-invitation path, not coverage of every branch.
+
+| Time | Observation / follow-up |
+| --- | --- |
+| 17.53.01 | Entry `051000:018` fits the box. Its inherited elderly-man speaker label remains Japanese (`051000:005`). Include that header in the next batch. |
+| 17.53.54 | The second page of `051000:006` fits; wording/detail debts remain as recorded above. |
+| 17.54.03 | The two-line HAND MEDICAL pickup fits, with FOUND on the second line. HAND is yellow but MEDICAL is white: investigate colour state across newlines before claiming item highlighting is preserved. Item name remains provisional. |
+| 17.54.32 | Untranslated refusal: “I can't just take someone else's things.” Known shared helper `061000:021`; queue for translation. |
+| 17.54.50 | Shoko's invitation and name render within the box. Choice labels remain Japanese: top Yes, bottom No. |
+| 17.55.02 | Sion's canyon/Gigi reply fits. The choice window is still visible after accepting; establish whether this is original behaviour before treating it as a patch defect. |
+| 17.56.02 | Inventory names remain Japanese: Hand Medical and Handgun. Pickup labels and inventory labels are separate coverage. |
+| 17.56.17 | All six English field-menu rows are visible and PLAN is highlighted. Multiple underlying windows remain visible; investigate only if the user reports failed dismissal or persistent corruption. |
+| 17.56.21 | PLAN opens “Talk” / “Change formation.” Prefer PARTY as the eventual parent label; current PLAN is too vague for this field submenu. |
+| 17.56.38 | Character selection heading means “Whose?” (contextual English could be “Who?”). SION and SHOKO display correctly here. |
+| 17.56.48 | Same selection view, but SHOKO's first glyph appears partly overwritten compared with 17.56.38. Record as a possible redraw issue; cause and reproducibility unconfirmed. |
+| 17.57.21 | Battle menu remains Japanese: Attack / Special Abilities / Items / Equipment / Status / Retreat. Distinct from the translated field menu. |
+| 17.58.03 | Battle-result text remains Japanese. It lists 2 experience, 4 credits, 0 scrap; preserve numeric substitutions and colours when translating. |
+
+Next coverage priorities from this run: Yes/No, party/formation and character
+selection labels, inventory names, shared pickup refusals, battle menu/results,
+and the cave/meteor story sequence. No disk rebuild accompanies this review;
+continue collecting context through the longer playthrough.
