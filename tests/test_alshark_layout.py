@@ -26,3 +26,10 @@ class LayoutTests(unittest.TestCase):
     def test_unknown_layout_mode_rejected(self):
         with self.assertRaises(ValueError):
             validate_dialogue([{'kind': 'control', 'raw': '2f'}], {})
+
+    def test_colour_change_keeps_current_column(self):
+        tokens = [{'kind': 'control', 'raw': '33'}, text('PROTECTOR'),
+                  {'kind': 'control', 'raw': '36'}, text(' FOUND!')]
+        validate_dialogue(tokens, {}, columns=16)
+        with self.assertRaises(ValueError):
+            validate_dialogue(tokens, {}, columns=14)

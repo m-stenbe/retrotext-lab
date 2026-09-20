@@ -14,7 +14,11 @@ parser.add_argument('--include-followup', action='store_true',
                     help="Use the validated importer for Lucia's meteor warning")
 parser.add_argument('--include-town', action='store_true',
                     help='Add Karu and two town conversations; implies --include-followup')
+parser.add_argument('--include-pickups', action='store_true',
+                    help='Add starting-house pickup messages; implies --include-town')
 args = parser.parse_args()
+if args.include_pickups:
+    args.include_town = True
 if args.include_town:
     args.include_followup = True
 ROOT = Path(__file__).resolve().parent
@@ -186,6 +190,37 @@ if args.include_town:
         a, n = entry['offset'], entry['size']
         system[a:a+n] = imported[a:a+n]
 
+pickups = []
+if args.include_pickups:
+    document = export_disk(original)
+    edits = json.loads((ROOT / 'pickup-draft.json').read_text(encoding='utf-8'))
+    by_entry = {e['id']: e for e in document['entries']}
+    for entry_id, translations_by_token in edits.items():
+        entry = by_entry[entry_id]
+        by_token = {t['id']: t for t in entry['tokens']}
+        for token_id, translation in translations_by_token.items():
+            if by_token[token_id]['kind'] != 'text':
+                raise ValueError('Pickup draft targets a non-text token')
+            by_token[token_id]['translation'] = translation
+        pickups.append(dict(entry_id=entry_id, offset=entry['offset'], size=entry['size']))
+    suffix = by_entry['051000:041']['tokens']
+    for entry_id in edits:
+        if entry_id == '051000:041':
+            continue
+        # Inline only the reviewed bank-0/entry-41 call for layout checking.
+        tokens = []
+        for token in by_entry[entry_id]['tokens']:
+            if token['kind'] == 'command' and token['raw'] == '2350020029':
+                tokens.extend(t for t in suffix if t['kind'] != 'end')
+            else:
+                tokens.append(token)
+        # Pickup-specific 16-cell draft; emulator verification is still required.
+        validate_dialogue(tokens, {}, columns=16)
+    imported = import_disk(original, document)
+    for entry in pickups:
+        a, n = entry['offset'], entry['size']
+        system[a:a+n] = imported[a:a+n]
+
 opening = bytearray(images['Alshark (Opening Disk).hdm'])
 for old, new, offsets in [
     ('最初から始める', 'ＳＴＡＲＴ', [0x470C, 0x4B0C]),
@@ -222,7 +257,7 @@ def make_ips(old, new):
 
 
 manifest = dict(status='Reflowed after screenshot review; revised wrapping awaiting runtime verification',
-                dialogue=dialogue_manifest, names=names, followup=followup, town=town,
+                dialogue=dialogue_manifest, names=names, followup=followup, town=town, pickups=pickups,
                 scene_original_bytes=len(scene), scene_used_bytes=len(new_scene), disks=[])
 for name, original in images.items():
     modified = {'Alshark (System Disk).hdm': system,
@@ -247,3 +282,6 @@ if followup:
 
 if town:
     print(f'Included {len(town)} town conversations via importer; layout checks passed.')
+
+if pickups:
+    print('Included four pickup labels and shared coloured FOUND message; visual verification pending.')

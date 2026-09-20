@@ -24,9 +24,10 @@ have IDs based on their position in the original entry. Each text token contains
 Only change `translation`. Leave null to preserve the original bytes exactly.
 An empty string deliberately removes that text span.
 
-Translations currently accept uppercase A–Z, spaces, newline characters and
+Translations currently accept uppercase A–Z, digits 0–9, spaces, newline characters and
 `, . ? ! '`. Newlines become the game's `@` instruction; punctuation is encoded
-as full-width CP932. Lowercase, ASCII digits and command characters are rejected rather
+as full-width CP932. Digits encode as full-width CP932 glyphs, never ASCII script opcodes.
+Lowercase and command characters are rejected rather
 than silently interpreted as script instructions. Spaces are not removed.
 
 Name references are separate immutable tokens with `name_id`, so text on either
@@ -112,7 +113,7 @@ The branch target itself has not been translated by this change.
 - Unchanged import reproduced all 1,261,568 System-disk bytes exactly.
 - A local follow-up translation changes only the 64-byte allocation starting
   at 0x51243. Its command payloads, names and table pointers remain identical.
-- Eighteen synthetic tests cover token framing, binary arguments, text changes,
+- Twenty synthetic tests cover token framing, binary arguments, text changes,
   unchanged import, branch preservation, read-only entries, metadata tampering,
   malformed input, overflow and unsupported translation characters.
 - The default demo still reproduces the previous six output images exactly.
@@ -175,3 +176,54 @@ not modified or restarted. To check: launch the new build, use its System/Data
 disks, start fresh, speak to Karu and the two town residents. Confirm layout and
 normal movement after dismissing each conversation. New town coverage remains
 unverified in the emulator until those checks are performed.
+
+## Starting-house pickups — 2026-09-20
+
+`--include-pickups` implies `--include-town` and `--include-followup`. It adds
+editable entries 051000:034, :035, :036, :037 and :041. Re-export documents when
+updating the tool so their read-only metadata matches the current profile.
+English-only drafts live in `profiles/alshark/pickup-draft.json`.
+
+The labels are SURVIVAL / KNIFE, HAND / MEDICAL, PROTECTOR, and 80 / CREDITS.
+The common suffix is a space followed by FOUND! Item labels retain control `3`
+(yellow in the observed game); the suffix retains control `6` (blue). Inventory
+and equipment menu names are outside this patch. HAND MEDICAL is a provisional
+literal item label; its gameplay function has not been checked.
+
+### Call and award preservation
+
+All four entries call bank 0, entry 41 through `#P` with payload 00 29. The
+handler at System offset 0xDA3F saves SI/current bank, consumes a bank number and
+entry index, loads the bank, resolves its relative-pointer table at RAM 0x23EB,
+calls the display interpreter, restores the bank/SI and advances SI by two.
+The translation does not change this call or the item-award/branch payloads.
+Exactly four decoded calls to this bank/entry pair were found in the selected
+inventory. This does not prove absence of callers in opaque or unscanned data.
+
+All five rebuilt entries preserve their complete non-text token sequences.
+The image differs from the town build only in these allocations, with no pointer
+table, name, file-size, or other image changes. Unchanged full-disk import is
+still byte-identical to the original.
+
+### Layout and validation limits
+
+Long labels split before the suffix call. The suffix itself does not insert a
+newline: the #P handler enters the display interpreter with the current cursor,
+so its line origin is not necessarily the left edge of the box.
+
+The pickup draft uses a 16-cell budget instead of the conservative 14 used for
+conversation text. PROTECTOR FOUND! occupies all 16 cells and specifically needs
+an emulator check; the budget is experimental, not a proven general box width.
+The layout checker inlines the reviewed suffix for measurement and preserves
+columns across colour changes. It is not a full interpreter for arbitrary calls.
+
+Digits now use the game's original full-width numeral encoding. A synthetic
+test confirms that 80 becomes the two CP932 glyphs rather than executable ASCII
+`8`/`0` bytes. A colour-layout test checks that switching colour does not reset
+the current column. All 20 tests pass.
+
+The local pickup-test launcher is ready. Start a fresh game, use its System and
+Data images, search the starting-house shelves, and verify the translated labels,
+yellow/blue colours, message dismissal and awarded equipment/credits. The current
+session is not restarted and earlier test images are not overwritten. In-game
+verification of these new pickup messages remains pending.

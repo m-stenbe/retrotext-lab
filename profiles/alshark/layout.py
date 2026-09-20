@@ -16,7 +16,7 @@ def validate_dialogue(tokens, names, columns=14, rows=4):
             if raw in ('34', '35', '5f'):
                 row = column = 0
                 header = raw == '34'
-            elif raw != '30':
+            elif raw not in ('30', '31', '32', '33', '36'):
                 raise ValueError(f'Unreviewed layout control {raw}')
             continue
         if kind in ('command', 'end', 'opaque_tail'):

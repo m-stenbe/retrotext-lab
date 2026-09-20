@@ -50,7 +50,7 @@ class ScriptTests(unittest.TestCase):
 
     def test_overflow_and_command_injection_rejected(self):
         raw = b'5HI0\0'
-        for translation in ['TOO LONG', '#N', '$', 'lowercase', '\r', '0']:
+        for translation in ['TOO LONG', '#N', '$', 'lowercase', '\r', '@']:
             tokens = decode_entry(raw)
             tokens[1]['translation'] = translation
             with self.subTest(translation=translation), self.assertRaises(ValueError):
@@ -123,3 +123,13 @@ class ImportTests(unittest.TestCase):
             mutate(document)
             with self.assertRaises(ValueError):
                 import_disk(self.data, document)
+
+
+class DigitTests(unittest.TestCase):
+    def test_digits_are_glyphs_not_script_opcodes(self):
+        from profiles.alshark.script import encode_translation
+        encoded = encode_translation('80')
+        self.assertEqual(encoded, '８０'.encode('cp932'))
+        tokens = decode_entry(encoded + b'\0')
+        self.assertEqual(tokens[0]['kind'], 'text')
+        self.assertEqual(tokens[0]['source'], '８０')

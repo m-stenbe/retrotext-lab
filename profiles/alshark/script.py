@@ -84,7 +84,7 @@ def encode_translation(text):
             result.append(0x40)
         elif c == ' ' or 'A' <= c <= 'Z':
             result.extend(c.encode('ascii'))
-        elif c in ",.?!'":
+        elif c in ",.?!'0123456789":
             result.extend(chr(ord(c)+0xfee0).encode('cp932'))
         else:
             raise ValueError(f'Unsupported translation character {c!r}; use uppercase English')
