@@ -49,3 +49,46 @@ notes.
 - Editorial direction: “It's nice to see so much more greenery lately, but I
   hear large insects are breeding near the lake. It's dangerous out there.”
 - Status: deferred to the next editorial/layout batch.
+
+## Area draft build — 2026-09-20
+
+The optional `--include-area` build adds 19 entries from the starting bank,
+including Shoko's invitation, accept/refuse/reconsider branches, her handgun
+conversation, town warnings, rest dialogue and selected later responses. This
+is partial area coverage, not a complete town or next-area translation. Boot
+with the new Opening disk as well as using the new System disk: UI edits live
+on both. Existing play sessions and their disk images remain separate.
+
+The field menu now uses STAT / ITEM / PLAN / EQP / ABIL / SYS. The System menu
+uses SAVE / LOAD / TEXT / FORMAT (the original User Disk formatting operation).
+Text speed uses FAST / NORM / SLOW. Abbreviations accommodate fixed storage;
+fuller labels are a later UI improvement. Inventory-empty, no-equipment and
+no-abilities messages are drafted. Equipment names such as Shirt, save/load
+prompts, tactics screens and other submenus remain Japanese.
+
+All new text is awaiting in-game review. Check menu selection/highlighting and
+returning to the field, both answers to Shoko's invitation, speaking to her
+again after refusing, her joining the party, and conversations with townspeople.
+The invitation's yes/no prompt may still be Japanese. Later scenes, including
+the main meteor-site event and Karu's subsequent joining scene, remain Japanese.
+Record these coverage gaps as well as wording/layout issues during a longer run.
+
+Specific editorial debts in the new temporary drafts:
+
+- `051000:002`: retain Shoko's frustration at being treated as a child at 18.
+  The first meteor remark is shortened; review her voice in context.
+- `051000:004`: WYURIA and ZOLIAS are provisional spellings. The source
+  identifies a kingdom and an empire; the compact draft omits these titles.
+- `051000:006`: the source specifically describes radioactive waste near
+  Hamack and Gigi made aggressive by mutation at Dust. The draft compresses
+  this to pollution and wild mutant Gigi; restore detail when space permits.
+- `051000:011`: Shoko says she "borrowed" two guns from her father's drawer.
+  The fitting draft says she took two from Dad; restore the euphemism and
+  drawer detail in the editorial pass.
+- `051000:018`: the elder has lived on Hom for years and has never seen
+  anything like this meteor. The draft retains the northern canyon location
+  and surprise but omits Hom and the explicit length of residence.
+
+Shoko's short/full-name IDs both display SHOKO for now, matching the existing
+prototype convention. Preserve her full name in future glossary work. Earlier
+Karu and lake-warning wording issues remain open.

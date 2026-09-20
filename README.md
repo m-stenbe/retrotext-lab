@@ -15,7 +15,9 @@ engines. **No other game or PC-88 format is currently supported.**
 - Reproducible Alshark demo: START/LOAD menu, breakfast conversation, selected
   shared names and Cosma location title. Builds local images and IPS patches.
 - Conservative command-aware export/import with immutable commands, stable IDs,
-  exact unchanged roundtrip, and eleven opening/town/pickup entries enabled for editing.
+  exact unchanged roundtrip, and thirty opening/town/pickup entries enabled for editing.
+- Optional area draft: nineteen more conversations/branches, Shoko's name,
+  basic field/system/text-speed menus and three common UI messages.
 - Synthetic tests for block slicing and script validation.
 
 The script decoder is partial and the importer keeps existing entry allocations.
@@ -38,6 +40,8 @@ python3 profiles/alshark/build_demo.py /path/to/original --output work/importer-
 python3 profiles/alshark/build_demo.py /path/to/original --output work/town-test --include-town
 # Adds four starting-house pickup labels and their shared found message
 python3 profiles/alshark/build_demo.py /path/to/original --output work/pickup-test --include-pickups
+# Larger temporary batch, including the previous drafts and basic menus
+python3 profiles/alshark/build_demo.py /path/to/original --output work/area-draft-test --include-area
 ```
 
 Provide your own original disk images. The demo expects the six filenames and

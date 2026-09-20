@@ -87,10 +87,14 @@ class ImportTests(unittest.TestCase):
         from profiles.alshark.script_tool import export_disk
         data = bytearray(0x84000)
         base = 0x51000
-        struct.pack_into('<3H', data, base, 6, 32, 60)
-        for offset, raw in [(6, b'5HELLO WORLD0\0'),
-                            (32, b'#B\x02\x02\x0e5HELLO WORLD0\0'),
-                            (60, b'5READ ONLY0\0')]:
+        struct.pack_into('<2H', data, base, 4, 32)
+        for offset, raw in [(4, b'5HELLO WORLD0\0'),
+                            (32, b'#B\x02\x02\x0e5HELLO WORLD0\0')]:
+            data[base+offset:base+offset+len(raw)] = raw
+        base = 0x52000
+        struct.pack_into('<2H', data, base, 4, 32)
+        raw = b'5READ ONLY0\0'
+        for offset in (4, 32):
             data[base+offset:base+offset+len(raw)] = raw
         self.data = bytes(data)
         # Synthetic fixture only: production still requires the original disk hash.

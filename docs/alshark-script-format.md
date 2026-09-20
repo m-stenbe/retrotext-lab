@@ -253,3 +253,41 @@ the new image differs from pickup v2 only in this one entry. New English dialogu
 awaits visual verification. The prior screenshot confirms PROTECTOR FOUND fits
 with both colours. Finding an item does not by itself confirm it was awarded:
 Lucia can interrupt the attempt. Award/branch commands are unchanged.
+
+## Larger area draft and fixed UI strings — 2026-09-20
+
+`--include-area` implies all earlier demo flags and adds the 19 entries listed
+in `area-draft.json`. The editable allowlist now contains 30 entries. Re-export
+older documents before editing: the importer rejects stale editable metadata.
+
+New choice paths retain `#Y` argument bytes. Disassembly at System `0xD858`
+saves/restores SI around the choice UI, indexes the counted payload with the
+selected answer, then jumps to `0xD723`. That routine resolves an entry index
+through the existing relative-pointer table at RAM `0x23EB`. Thus the two
+choice targets remain entries 11/12 when text within entry 2 or 13 changes.
+`#S`, `#M` and `#N` iterate counted flag arguments; `#W` consumes its one-byte
+argument and preserves SI across its calls. `#X` processes its counted payload
+and returns at its end. These commands, existing conditional entry branches,
+name references, wait/clear controls and entry allocations stay unchanged.
+This structural review does not replace testing every game-state branch.
+
+Shoko name IDs 2/3 reuse only their original combined `0x111EA..0x111FD` storage,
+with full-width SHOKO. Both resolve to the same given name in this prototype.
+
+`menu_patch.py` uses a separate full-width CP932 encoder. Its eight guarded
+replacements cover the field, System and text-speed menu strings, two copies
+of the no-equipment message, empty inventory, and the name separator/body of
+the no-abilities message. Complete menu strings retain their start addresses,
+row counts and order; their internal row positions change. They are terminated
+and padded within the original allocation. Source mismatches and overflow
+fail before that string is mutated. No UI code or disk size changes.
+Selection/highlighting and any possible internal UI references still need
+runtime confirmation. Abbreviations and remaining untranslated UI are listed
+in the playtest notes.
+
+Validation: 24 synthetic tests pass, original System export/import is exact,
+all 19 new entry command/name/control streams match their originals, and the
+new System differences against pickup-v3 are confined to the declared entries,
+Shoko storage/pointers and three UI message areas. The default six demo images
+still match the earlier default build. Each generated IPS independently
+reproduces its output image. New runtime coverage remains unverified.

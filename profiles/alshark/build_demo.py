@@ -16,7 +16,11 @@ parser.add_argument('--include-town', action='store_true',
                     help='Add Karu and two town conversations; implies --include-followup')
 parser.add_argument('--include-pickups', action='store_true',
                     help='Add starting-house pickup messages; implies --include-town')
+parser.add_argument('--include-area', action='store_true',
+                    help='Add 19 town/branch drafts and basic menus; implies --include-pickups')
 args = parser.parse_args()
+if args.include_area:
+    args.include_pickups = True
 if args.include_pickups:
     args.include_town = True
 if args.include_town:
@@ -132,6 +136,11 @@ if args.include_town:
     ]
 assert original[0x11255:0x1125A] == 'ジド'.encode('cp932') + b'\0'
 assert struct.unpack_from('<H', original, 0x104A2)[0] == 0x14BF
+if args.include_area:
+    # IDs 2/3 already occupy this contiguous span. Both use the given name in
+    # this draft; no other names or pointers share these original strings.
+    assert original[0x111ea:0x111fd] == 'ｼｮｰｺ\0ｼｮｰｺ・ペﾝﾛｰズ\0'.encode('cp932')
+    storage.append((0x111ea, 0x111fd, [('SHOKO', [2, 3])]))
 names = []
 for a, z, entries in storage:
     data = bytearray()
@@ -224,6 +233,27 @@ if args.include_pickups:
         a, n = entry['offset'], entry['size']
         system[a:a+n] = imported[a:a+n]
 
+area = []
+if args.include_area:
+    document = export_disk(original)
+    edits = json.loads((ROOT / 'area-draft.json').read_text(encoding='utf-8'))
+    for entry in document['entries']:
+        if entry['id'] not in edits:
+            continue
+        by_token = {t['id']: t for t in entry['tokens']}
+        for token_id, translation in edits[entry['id']].items():
+            if by_token[token_id]['kind'] != 'text':
+                raise ValueError('Area draft targets a non-text token')
+            by_token[token_id]['translation'] = translation
+        validate_dialogue(entry['tokens'], {0: 'SION', 2: 'SHOKO', 4: 'KARU', 12: 'LUCIA'})
+        area.append(dict(entry_id=entry['id'], offset=entry['offset'], size=entry['size']))
+    if len(area) != len(edits):
+        raise ValueError('Missing area draft entries')
+    imported = import_disk(original, document)
+    for entry in area:
+        a, n = entry['offset'], entry['size']
+        system[a:a+n] = imported[a:a+n]
+
 opening = bytearray(images['Alshark (Opening Disk).hdm'])
 for old, new, offsets in [
     ('最初から始める', 'ＳＴＡＲＴ', [0x470C, 0x4B0C]),
@@ -232,6 +262,11 @@ for old, new, offsets in [
     for off in offsets:
         assert opening[off:off+14] == old.encode('cp932')
         opening[off:off+14] = new.ljust(7, '\u3000').encode('cp932')
+
+menus = []
+if args.include_area:
+    from profiles.alshark.menu_patch import patch_menus
+    menus = patch_menus(opening, system)
 
 
 def make_ips(old, new):
@@ -261,6 +296,7 @@ def make_ips(old, new):
 
 manifest = dict(status='Reflowed after screenshot review; revised wrapping awaiting runtime verification',
                 dialogue=dialogue_manifest, names=names, followup=followup, town=town, pickups=pickups,
+                area=area, menus=menus,
                 scene_original_bytes=len(scene), scene_used_bytes=len(new_scene), disks=[])
 for name, original in images.items():
     modified = {'Alshark (System Disk).hdm': system,
@@ -288,3 +324,6 @@ if town:
 
 if pickups:
     print('Included four pickup labels, shared FOUND message and Lucia interruption; visual verification pending.')
+
+if area:
+    print(f'Included {len(area)} additional town/branch entries and {len(menus)} UI strings; runtime verification pending.')

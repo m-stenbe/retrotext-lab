@@ -10,6 +10,12 @@ from retrotext.banks import relative_table
 from profiles.alshark.script import Unsupported, decode_entry, digest, rebuild_entry
 
 SYSTEM_HASH = '7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5'
+EDITABLE_IDS = {
+    f'051000:{index:03d}' for index in (
+        0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+        20, 21, 24, 25, 26, 28, 34, 35, 36, 37, 41,
+    )
+} | {'061000:019'}
 
 
 def export_disk(data):
@@ -29,7 +35,7 @@ def export_disk(data):
                 skipped.append({'id': ident, 'reason': str(exc)})
                 continue
             entries.append({'id': ident, 'offset': base+a, 'size': len(raw),
-                            'sha256': digest(raw), 'editable': ident in ('051000:000', '051000:001', '051000:007', '051000:009', '051000:010', '051000:034', '051000:035', '051000:036', '051000:037', '051000:041', '061000:019'), 'tokens': tokens})
+                            'sha256': digest(raw), 'editable': ident in EDITABLE_IDS, 'tokens': tokens})
     return {'format': 'retrotext-alshark-v2', 'source_sha256': digest(data),
             'entries': entries, 'skipped': skipped}
 
