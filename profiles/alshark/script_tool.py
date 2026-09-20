@@ -29,8 +29,8 @@ def export_disk(data):
                 skipped.append({'id': ident, 'reason': str(exc)})
                 continue
             entries.append({'id': ident, 'offset': base+a, 'size': len(raw),
-                            'sha256': digest(raw), 'editable': ident == '051000:000', 'tokens': tokens})
-    return {'format': 'retrotext-alshark-v1', 'source_sha256': digest(data),
+                            'sha256': digest(raw), 'editable': ident in ('051000:000', '051000:001'), 'tokens': tokens})
+    return {'format': 'retrotext-alshark-v2', 'source_sha256': digest(data),
             'entries': entries, 'skipped': skipped}
 
 

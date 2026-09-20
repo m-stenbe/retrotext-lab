@@ -10,6 +10,8 @@ import struct
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('original', type=Path)
 parser.add_argument('--output', type=Path, required=True)
+parser.add_argument('--include-followup', action='store_true',
+                    help="Use the validated importer for Lucia's meteor warning")
 args = parser.parse_args()
 ROOT = Path(__file__).resolve().parent
 OUT = args.output.resolve()
@@ -127,6 +129,28 @@ for a, z, entries in storage:
     assert len(data) <= z-a
     system[a:z] = data.ljust(z-a, b'\0')
 
+# Build the next conversation through the command-aware importer. Transplant
+# only its unchanged allocation into this demo's independently patched image.
+followup = None
+if args.include_followup:
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+    from profiles.alshark.script_tool import export_disk, import_disk
+    document = export_disk(original)
+    entry = next(e for e in document['entries'] if e['id'] == '051000:001')
+    token = next(t for t in entry['tokens'] if t['id'] == 't006')
+    token['translation'] = ',\nGO PLAY, BUT\nSTAY AWAY FROM\nTHE METEOR!'
+    rendered = 'SION' + token['translation']
+    if len(rendered.splitlines()) > 4 or any(len(line) > 14 for line in rendered.splitlines()):
+        raise ValueError('Follow-up text exceeds the tested layout')
+    imported = import_disk(original, document)
+    a, n = entry['offset'], entry['size']
+    if imported[:a] != original[:a] or imported[a+n:] != original[a+n:]:
+        raise ValueError('Importer changed bytes outside the follow-up entry')
+    system[a:a+n] = imported[a:a+n]
+    followup = dict(entry_id=entry['id'], translation=token['translation'],
+                    status='Static validation passed; emulator check pending')
+
 opening = bytearray(images['Alshark (Opening Disk).hdm'])
 for old, new, offsets in [
     ('最初から始める', 'ＳＴＡＲＴ', [0x470C, 0x4B0C]),
@@ -163,7 +187,7 @@ def make_ips(old, new):
 
 
 manifest = dict(status='Reflowed after screenshot review; revised wrapping awaiting runtime verification',
-                dialogue=dialogue_manifest, names=names,
+                dialogue=dialogue_manifest, names=names, followup=followup,
                 scene_original_bytes=len(scene), scene_used_bytes=len(new_scene), disks=[])
 for name, original in images.items():
     modified = {'Alshark (System Disk).hdm': system,
@@ -182,3 +206,6 @@ for name, original in images.items():
 (OUT / 'Alshark-dialogue-test.cmd').write_text('np2kai ' + ' '.join(
     '"'+str(OUT/f'Alshark ({n} Disk).hdm')+'"' for n in ['Opening', 'Data'])+'\n')
 print(f'Built ten speech turns, farewell, five names and Cosma title: scene {len(new_scene)}/{len(scene)} bytes; IPS round-trips pass.')
+
+if followup:
+    print('Included Lucia follow-up via the script importer; branch and entry allocation preserved.')

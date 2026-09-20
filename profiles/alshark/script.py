@@ -42,9 +42,14 @@ def decode_entry(data):
                 raise Unsupported(f'Truncated name reference at {i}')
             tokens.append({'kind': 'name', 'name_id': data[i+1], 'raw': data[i:i+2].hex()})
             i += 2
-        elif b in b'045_':
+        elif b in b'0123456_!>/':
             tokens.append({'kind': 'control', 'raw': data[i:i+1].hex()})
             i += 1
+        elif b in b'(=':
+            if i+2 > len(data):
+                raise Unsupported(f'Truncated indexed display control at {i}')
+            tokens.append({'kind': 'display_argument', 'raw': data[i:i+2].hex()})
+            i += 2
         else:
             chars = []
             while i < len(data):

@@ -15,7 +15,7 @@ engines. **No other game or PC-88 format is currently supported.**
 - Reproducible Alshark demo: START/LOAD menu, breakfast conversation, selected
   shared names and Cosma location title. Builds local images and IPS patches.
 - Conservative command-aware export/import with immutable commands, stable IDs,
-  exact unchanged roundtrip, and opening-scene editing.
+  exact unchanged roundtrip, and two opening conversations enabled for editing.
 - Synthetic tests for block slicing and script validation.
 
 The script decoder is partial and the importer keeps existing entry allocations.
@@ -32,6 +32,8 @@ Python 3.10+; standard library only. From the repository root:
 python3 -m unittest discover -s tests -v
 python3 profiles/alshark/audit.py /path/to/original --output work/audit
 python3 profiles/alshark/build_demo.py /path/to/original --output work/demo
+# Optional: adds Lucia's follow-up through the new importer
+python3 profiles/alshark/build_demo.py /path/to/original --output work/importer-test --include-followup
 ```
 
 Provide your own original disk images. The demo expects the six filenames and

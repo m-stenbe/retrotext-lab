@@ -44,7 +44,7 @@ class ScriptTests(unittest.TestCase):
             rebuild_entry(raw, tokens)
 
     def test_unknown_truncated_and_unterminated_entries_rejected(self):
-        for raw in [b'!HELLO\0', b'#N\x03\0', b'$', b'\x81', b'HELLO']:
+        for raw in [b';HELLO\0', b'#N\x03\0', b'$', b'\x81', b'HELLO']:
             with self.subTest(raw=raw), self.assertRaises(Unsupported):
                 decode_entry(raw)
 
@@ -59,3 +59,67 @@ class ScriptTests(unittest.TestCase):
     def test_wrong_disk_rejected(self):
         with self.assertRaisesRegex(ValueError, 'SHA-256'):
             export_disk(b'not the supported image')
+
+    def test_display_controls_do_not_consume_following_text(self):
+        raw = b'1236!>/HELLO0\0'
+        tokens = decode_entry(raw)
+        self.assertEqual([t['raw'] for t in tokens[:7]],
+                         [bytes([c]).hex() for c in b'1236!>/'])
+        self.assertEqual(tokens[7]['source'], 'HELLO')
+        self.assertEqual(rebuild_entry(raw, tokens), raw)
+
+    def test_display_arguments_can_be_zero_or_command_bytes(self):
+        raw = b'(\0=\x23HELLO\0'
+        tokens = decode_entry(raw)
+        self.assertEqual([t['kind'] for t in tokens],
+                         ['display_argument', 'display_argument', 'text', 'end'])
+        self.assertEqual(rebuild_entry(raw, tokens), raw)
+        for raw in (b'(', b'='):
+            with self.assertRaises(Unsupported):
+                decode_entry(raw)
+
+
+class ImportTests(unittest.TestCase):
+    def setUp(self):
+        import struct
+        from unittest.mock import patch
+        from profiles.alshark.script import digest
+        from profiles.alshark.script_tool import export_disk
+        data = bytearray(0x84000)
+        base = 0x51000
+        struct.pack_into('<3H', data, base, 6, 32, 60)
+        for offset, raw in [(6, b'5HELLO WORLD0\0'),
+                            (32, b'#B\x02\x02\x0e5HELLO WORLD0\0'),
+                            (60, b'5READ ONLY0\0')]:
+            data[base+offset:base+offset+len(raw)] = raw
+        self.data = bytes(data)
+        # Synthetic fixture only: production still requires the original disk hash.
+        self.supported = patch('profiles.alshark.script_tool.SYSTEM_HASH', digest(self.data))
+        self.supported.start()
+        self.addCleanup(self.supported.stop)
+        self.document = export_disk(self.data)
+
+    def test_roundtrip_and_second_entry_branch_preservation(self):
+        from profiles.alshark.script_tool import import_disk
+        self.assertEqual(import_disk(self.data, self.document), self.data)
+        entry = self.document['entries'][1]
+        self.assertTrue(entry['editable'])
+        next(t for t in entry['tokens'] if t['kind']=='text')['translation'] = 'HI'
+        rebuilt = import_disk(self.data, self.document)
+        a, n = entry['offset'], entry['size']
+        self.assertEqual(rebuilt[:a], self.data[:a])
+        self.assertEqual(rebuilt[a+n:], self.data[a+n:])
+        self.assertEqual(rebuilt[a:a+5], b'#B\x02\x02\x0e')
+
+    def test_read_only_and_metadata_tampering_rejected(self):
+        from profiles.alshark.script_tool import import_disk
+        for mutate in (
+            lambda d: d['entries'][2]['tokens'][1].update(translation='HI'),
+            lambda d: d['entries'][2].update(editable=True),
+            lambda d: d['entries'][1].update(offset=1),
+            lambda d: d.update(format='retrotext-alshark-v1'),
+        ):
+            document = copy.deepcopy(self.document)
+            mutate(document)
+            with self.assertRaises(ValueError):
+                import_disk(self.data, document)
