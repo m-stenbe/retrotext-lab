@@ -18,7 +18,11 @@ parser.add_argument('--include-pickups', action='store_true',
                     help='Add starting-house pickup messages; implies --include-town')
 parser.add_argument('--include-area', action='store_true',
                     help='Add 19 town/branch drafts and basic menus; implies --include-pickups')
+parser.add_argument('--include-review', action='store_true',
+                    help='Include screenshot-review UI and combat drafts; implies --include-area')
 args = parser.parse_args()
+if args.include_review:
+    args.include_area = True
 if args.include_area:
     args.include_pickups = True
 if args.include_pickups:
@@ -203,6 +207,11 @@ pickups = []
 if args.include_pickups:
     document = export_disk(original)
     edits = json.loads((ROOT / 'pickup-draft.json').read_text(encoding='utf-8'))
+    if args.include_review:
+        # Single-line names avoid the observed colour reset after a newline.
+        # Match the short labels used in the inventory table in this draft.
+        edits['051000:034']['t001'] = 'KNIFE'
+        edits['051000:035']['t001'] = 'MEDS'
     by_entry = {e['id']: e for e in document['entries']}
     for entry_id, translations_by_token in edits.items():
         entry = by_entry[entry_id]
@@ -237,6 +246,11 @@ area = []
 if args.include_area:
     document = export_disk(original)
     edits = json.loads((ROOT / 'area-draft.json').read_text(encoding='utf-8'))
+    if args.include_review:
+        edits.update({
+            '051000:005': {'t001': 'ELDER'},
+            '061000:021': {'t004': "NOT MINE.\nCAN'T TAKE IT"},
+        })
     for entry in document['entries']:
         if entry['id'] not in edits:
             continue
@@ -264,9 +278,13 @@ for old, new, offsets in [
         opening[off:off+14] = new.ljust(7, '\u3000').encode('cp932')
 
 menus = []
+combat_text = []
 if args.include_area:
     from profiles.alshark.menu_patch import patch_menus
-    menus = patch_menus(opening, system)
+    menus = patch_menus(opening, system, reviewed=args.include_review)
+if args.include_review:
+    from profiles.alshark.combat_text import patch_combat_text
+    combat_text = patch_combat_text(system, original)
 
 
 def make_ips(old, new):
@@ -296,7 +314,7 @@ def make_ips(old, new):
 
 manifest = dict(status='Reflowed after screenshot review; revised wrapping awaiting runtime verification',
                 dialogue=dialogue_manifest, names=names, followup=followup, town=town, pickups=pickups,
-                area=area, menus=menus,
+                area=area, menus=menus, combat_text=combat_text,
                 scene_original_bytes=len(scene), scene_used_bytes=len(new_scene), disks=[])
 for name, original in images.items():
     modified = {'Alshark (System Disk).hdm': system,

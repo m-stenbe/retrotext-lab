@@ -142,3 +142,37 @@ Next coverage additions: location names, complete multi-page level-up messages,
 and save/load/disk-swap prompts. Dynamic stats and shared name substitutions
 must remain intact. A player at the last prompt should place the current build's
 User Disk in FDD2, retaining System in FDD1, and follow subsequent prompts.
+
+## Screenshot-review build — 2026-09-20
+
+`--include-review` includes the previous area draft and addresses the observed
+coverage gaps in a separate build. New strings await runtime verification.
+
+- Field menu: PARTY replaces PLAN; BAG replaces ITEM to recover the required
+  storage. PARTY opens TALK / ROW (change formation). Character selection says
+  WHO?; formation screens use ORDER / REORDER / NEW ORDER.
+- Choice prompt: Y / N. Battle menu: ATTACK / ABIL / ITEM / EQP / STAT / FLEE.
+- Save/load prompts name the User Disk and drive 2; the completion prompt
+  requests Data Disk in drive 2. These preserve the original three-line format.
+- Inventory names: KNIFE, GUN and MEDS. KNIFE and MEDS pickup messages now use
+  the same short labels on one line, avoiding the observed newline colour reset.
+  These are temporary abbreviated names, not a final item glossary. Other
+  equipment names, including Shirt and Protector, remain Japanese.
+- Location labels: HOM and SAXEN, abbreviated to the current storage limits.
+- Elderly-man header: ELDER. The shared item refusal now reads
+  “NOT MINE. / CAN'T TAKE IT”.
+- Shared battle-result and level-up text is translated. Existing stat labels,
+  numeric values, colour commands, name substitutions and page waits remain.
+  Fixed-width text replacements leave every runtime field at its original
+  byte position; display remains to be checked in the emulator.
+
+The possible Shoko redraw issue remains unconfirmed. Karu/lake-warning editorial
+debts, later cave/meteor events, additional abilities and other UI remain open.
+This build does not attempt to resolve those by shortening meaning further.
+
+Local launcher: `work/Launch Reviewed Draft.command`; disks are in
+`work/review-draft-test`. Boot its Opening disk and use its System/Data disks
+when prompted. A snapshot of the prior area's on-disk User Disk was copied to
+this new folder without changing the source. At snapshot time it was identical
+to the original supplied User Disk; this does not establish a saved game.
+No live emulator state was transferred or restarted.

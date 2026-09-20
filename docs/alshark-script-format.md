@@ -291,3 +291,32 @@ new System differences against pickup-v3 are confined to the declared entries,
 Shoko storage/pointers and three UI message areas. The default six demo images
 still match the earlier default build. Each generated IPS independently
 reproduces its output image. New runtime coverage remains unverified.
+
+## Screenshot-review UI and runtime fields — 2026-09-20
+
+`--include-review` implies `--include-area`. It adds two editable event entries
+(the elder's header and shared pickup refusal), bringing the allowlist to 32.
+Their counted command payloads, waits and entry allocations remain unchanged.
+Re-export older translation documents after this allowlist change.
+
+The UI patch list grows to 24 guarded string regions. Selected item/location
+strings are edited in place without repointing their name tables. Choice/menu
+row counts and ordering remain unchanged. Some short labels are deliberately
+abbreviated; see playtest notes for scope and outstanding gaps.
+
+Shared result scripts at System `0x1EDF..0x1F28` and `0x1F28..0x1FD8` are
+handled separately by `combat_text.py`. In particular, the level-up name ID can
+change at runtime (the screenshots show both Sion and Shoko). Repacking this
+script could move a field addressed by the game, so every edited text token
+retains its original byte length. ASCII uppercase and equivalent full-width
+CP932 uppercase glyphs are mixed to fill the span without adding visible cells.
+This relies on the script renderer's existing support for both forms; it is
+not a narrower font or an expanded allocation. Insufficient/excess capacity
+rejects the edit. All edits in a script are checked before mutation.
+
+Verification: 27 synthetic tests pass. A fixture simulates a runtime name-ID
+write at its original address after text replacement. Local image checks verify
+all non-text token bytes and offsets in both result scripts, normalized English
+text, original export/import roundtrip, allowed disk-change regions, IPS
+roundtrips and unchanged output of the previous `--include-area` build.
+Screenshots are still needed to verify the new UI and result text visually.

@@ -12,10 +12,10 @@ from profiles.alshark.script import Unsupported, decode_entry, digest, rebuild_e
 SYSTEM_HASH = '7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5'
 EDITABLE_IDS = {
     f'051000:{index:03d}' for index in (
-        0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
         20, 21, 24, 25, 26, 28, 34, 35, 36, 37, 41,
     )
-} | {'061000:019'}
+} | {'061000:019', '061000:021'}
 
 
 def export_disk(data):
