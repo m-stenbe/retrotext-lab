@@ -57,6 +57,8 @@ are distributed here. Keep generated research under ignored `work/`.
 ## Research and next steps
 
 See [Alshark research](docs/alshark-research.md) for measured findings and limits.
+See [playtest notes](docs/playtest-notes.md) for context, wording and layout
+issues, and the workflow for reviewing longer sections together.
 The first inventory has 48 candidate windows, 2,249 pointer entries and 1,322
 named-speech markers in those windows. These are not word/page totals.
 
