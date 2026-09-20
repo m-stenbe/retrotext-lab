@@ -14,10 +14,15 @@ engines. **No other game or PC-88 format is currently supported.**
   text, source hashes and per-disk marker counts.
 - Reproducible Alshark demo: START/LOAD menu, breakfast conversation, selected
   shared names and Cosma location title. Builds local images and IPS patches.
-- Synthetic tests for table detection and lossless block slicing.
+- Conservative command-aware export/import with immutable commands, stable IDs,
+  exact unchanged roundtrip, and opening-scene editing.
+- Synthetic tests for block slicing and script validation.
 
-This is not yet a command-aware extractor, general reinserter, or full English
-translation. Physical roundtrip validation does not prove safe text relocation.
+The script decoder is partial and the importer keeps existing entry allocations.
+This is not a general reinserter or full English translation. Physical roundtrip
+validation does not prove safe text relocation. See the
+[script format and usage](docs/alshark-script-format.md) for editing instructions
+and current limitations.
 
 ## Run
 
