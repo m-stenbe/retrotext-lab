@@ -237,3 +237,19 @@ and the pickup layout budget is 15 cells. A regression test rejects the former
 16-cell text. This revision is built separately to avoid changing mounted images;
 the revised right-edge spacing still needs visual verification. Item awards and
 message dismissal are not established by the screenshot alone.
+
+### Lucia interruption after searching the shelves
+
+User screenshots at 15:31 show Lucia asking Sion what he is doing and Sion
+reacting that he has been caught. The shared entry is 061000:019, called through
+bank 16/entry 19 by the Protector pickup. It contains only the already-reviewed
+#Z settings command, speaker/name/display controls and text. It is now editable
+and included with --include-pickups.
+
+The 48-byte allocation allows 29 bytes of text. The concise draft is SION! /
+WHAT'S GOING / ON? followed by BUSTED. Both fit the 14-cell conversation limit
+and the original allocation. Command bytes and name references remain identical;
+the new image differs from pickup v2 only in this one entry. New English dialogue
+awaits visual verification. The prior screenshot confirms PROTECTOR FOUND fits
+with both colours. Finding an item does not by itself confirm it was awarded:
+Lucia can interrupt the attempt. Award/branch commands are unchanged.

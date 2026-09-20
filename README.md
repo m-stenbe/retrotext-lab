@@ -15,7 +15,7 @@ engines. **No other game or PC-88 format is currently supported.**
 - Reproducible Alshark demo: START/LOAD menu, breakfast conversation, selected
   shared names and Cosma location title. Builds local images and IPS patches.
 - Conservative command-aware export/import with immutable commands, stable IDs,
-  exact unchanged roundtrip, and ten opening/town/pickup entries enabled for editing.
+  exact unchanged roundtrip, and eleven opening/town/pickup entries enabled for editing.
 - Synthetic tests for block slicing and script validation.
 
 The script decoder is partial and the importer keeps existing entry allocations.

@@ -215,7 +215,10 @@ if args.include_pickups:
             else:
                 tokens.append(token)
         # Screenshot review: 16 cells clips the final punctuation; use 15.
-        validate_dialogue(tokens, {}, columns=15)
+        if entry_id == '061000:019':
+            validate_dialogue(tokens, {0: 'SION', 12: 'LUCIA'}, columns=14)
+        else:
+            validate_dialogue(tokens, {}, columns=15)
     imported = import_disk(original, document)
     for entry in pickups:
         a, n = entry['offset'], entry['size']
@@ -284,4 +287,4 @@ if town:
     print(f'Included {len(town)} town conversations via importer; layout checks passed.')
 
 if pickups:
-    print('Included four pickup labels and shared coloured FOUND message; visual verification pending.')
+    print('Included four pickup labels, shared FOUND message and Lucia interruption; visual verification pending.')
