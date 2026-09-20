@@ -214,8 +214,8 @@ if args.include_pickups:
                 tokens.extend(t for t in suffix if t['kind'] != 'end')
             else:
                 tokens.append(token)
-        # Pickup-specific 16-cell draft; emulator verification is still required.
-        validate_dialogue(tokens, {}, columns=16)
+        # Screenshot review: 16 cells clips the final punctuation; use 15.
+        validate_dialogue(tokens, {}, columns=15)
     imported = import_disk(original, document)
     for entry in pickups:
         a, n = entry['offset'], entry['size']

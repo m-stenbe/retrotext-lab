@@ -227,3 +227,13 @@ Data images, search the starting-house shelves, and verify the translated labels
 yellow/blue colours, message dismissal and awarded equipment/credits. The current
 session is not restarted and earlier test images are not overwritten. In-game
 verification of these new pickup messages remains pending.
+
+### Pickup screenshot correction, 15:25
+
+The user's screenshot confirms the yellow item label and blue suffix. The final
+exclamation mark in PROTECTOR FOUND! clips at the right border, so the 16-cell
+trial was too wide. The suffix is now a space followed by FOUND (no punctuation),
+and the pickup layout budget is 15 cells. A regression test rejects the former
+16-cell text. This revision is built separately to avoid changing mounted images;
+the revised right-edge spacing still needs visual verification. Item awards and
+message dismissal are not established by the screenshot alone.

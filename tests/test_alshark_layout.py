@@ -29,7 +29,11 @@ class LayoutTests(unittest.TestCase):
 
     def test_colour_change_keeps_current_column(self):
         tokens = [{'kind': 'control', 'raw': '33'}, text('PROTECTOR'),
-                  {'kind': 'control', 'raw': '36'}, text(' FOUND!')]
-        validate_dialogue(tokens, {}, columns=16)
+                  {'kind': 'control', 'raw': '36'}, text(' FOUND')]
+        validate_dialogue(tokens, {}, columns=15)
         with self.assertRaises(ValueError):
             validate_dialogue(tokens, {}, columns=14)
+
+    def test_pickup_punctuation_exceeds_revised_limit(self):
+        with self.assertRaises(ValueError):
+            validate_dialogue([text('PROTECTOR FOUND!')], {}, columns=15)
