@@ -120,3 +120,25 @@ Next coverage priorities from this run: Yes/No, party/formation and character
 selection labels, inventory names, shared pickup refusals, battle menu/results,
 and the cave/meteor story sequence. No disk rebuild accompanies this review;
 continue collecting context through the longer playthrough.
+
+## Canyon, level-up and defeat screenshots 18:00–18:06 — 2026-09-20
+
+Reviewed all eight supplied Desktop screenshots; images stay local. The player
+reports that the last screen appeared after dying. No new disk build is made
+for this review.
+
+| Time | Observation / translation |
+| --- | --- |
+| 18.00.58 | Location title: Planet Hom. Add the shared location-title string to coverage. |
+| 18.01.01 | Location title: Saxen Canyon (current provisional romanization). This identifies the next area reached. |
+| 18.02.16 | Level up, Sion: PP +6, MP +3, IQ +3. Name substitution renders in English; heading, Japanese particle after the name, and “points” suffixes remain Japanese. |
+| 18.02.20 | Sion continuation: R.Str +1, L.Str +10, Agl +7, Drb +4. Closing text means “Stats increased.” Preserve the separate numeric fields and page break. |
+| 18.02.25 | Only the Level Up heading is visible. May be a transitional frame before the next character's text; a still image does not establish a missing-text defect. |
+| 18.02.31 | Level up, Shoko: PP +8, MP +2, IQ +5. Her English name renders correctly in this context. |
+| 18.02.35 | Shoko continuation: R.Str +4, L.Str +0, Agl +2, Drb +3; “Stats increased.” Zero gains can be displayed and must remain valid in the translation. |
+| 18.06.09 | Post-defeat load prompt: “Loading data. Insert the User Disk into drive 2, then press any key.” This is a disk request, not evidence of an emulator crash. The screenshot does not establish whether a saved game exists. |
+
+Next coverage additions: location names, complete multi-page level-up messages,
+and save/load/disk-swap prompts. Dynamic stats and shared name substitutions
+must remain intact. A player at the last prompt should place the current build's
+User Disk in FDD2, retaining System in FDD1, and follow subsequent prompts.
