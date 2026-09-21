@@ -233,3 +233,29 @@ On the next test, check ATTACK fully inside its border, the highlight across
 all six battle rows, normal field-menu navigation, entering/leaving submenus,
 and returning to the map after cancellation. Capture any leftover borders or
 highlight fragments. No claim of a redraw fix is made before this comparison.
+
+## Wider menu and recovery follow-up — 2026-09-21, 13:40–14:03
+
+Reviewed five new Desktop screenshots. No disk rebuild accompanies this review.
+
+- 13.40.26: opening handoff still requests System Disk in drive 1 and Data Disk
+  in drive 2, followed by any key. This prompt remains Japanese.
+- 13.43.53: ATTACK now fits fully inside the battle-menu border. Its selected
+  row highlight is aligned with the widened menu. All six labels are visible.
+  This verifies this battle-menu state, not every highlight row or cancellation
+  redraw; normal field-menu width remains only partially visible in this batch.
+- 13.54.09: Camp Kit is present in the inventory, with its tent icon and
+  untranslated Japanese item name.
+- 13.54.20: inventory contains MEDS and Camp Kit; Use / Discard still needs
+  translation. The WHO? target selector shows Sion and Shoko, with Shoko
+  selected. The still does not establish which item is being used or its effect.
+  Overlapping open windows alone are not evidence of a redraw bug.
+- 14.03.38: untranslated Karu greeting: “Welcome back, Sion. Hello, Shoko.”
+  Shared English names render within the Japanese dialogue. Match this return
+  visit against the script before choosing the next translation target.
+
+Player reports that reaching level 2 outside town helped, and that the elder
+provided camping gear after leaving and re-entering town. Record this as an
+observed successful sequence, not proof that re-entry alone unlocks the gift,
+that level 2 is required, or that the gift can be obtained repeatedly. Exact
+Camp Kit recovery, consumption and replenishment behavior remain unverified.
