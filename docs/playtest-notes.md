@@ -215,3 +215,21 @@ do not promise Lucia remains available after the meteor event. A Cosma medicine
 shop has not been established. Guides for other ports describe the Camp Kit
 as party recovery, but their exact mechanics/timing must not be assumed for
 this build. Healing ability availability at Shoko's current stats is unverified.
+
+## Wider menu test prepared — 2026-09-21
+
+A separate `--widen-menus` build increases the normal field and on-foot battle
+menu interiors from five to six full-width cells, with matching selection
+highlights. The alternate field-menu record also widens because it shares the
+highlight code. Exactly five bytes differ from the reviewed build; text and
+menu action order are unchanged. ATTACK should now fit, pending runtime review.
+
+Local launcher: `work/Launch Wide Menu Test.command`. Boot the new Opening disk,
+then mount this build's System/Data disks at the prompt. Existing sessions are
+not restarted. The reviewed build's on-disk User Disk was copied into the new
+folder as a snapshot; this is not a transfer of unsaved live progress.
+
+On the next test, check ATTACK fully inside its border, the highlight across
+all six battle rows, normal field-menu navigation, entering/leaving submenus,
+and returning to the map after cancellation. Capture any leftover borders or
+highlight fragments. No claim of a redraw fix is made before this comparison.

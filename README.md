@@ -44,6 +44,8 @@ python3 profiles/alshark/build_demo.py /path/to/original --output work/pickup-te
 python3 profiles/alshark/build_demo.py /path/to/original --output work/area-draft-test --include-area
 # Screenshot-review batch: battle/results, party UI, selected items and disk prompts
 python3 profiles/alshark/build_demo.py /path/to/original --output work/review-draft-test --include-review
+# Optional six-cell battle/field menu experiment (includes the reviewed draft)
+python3 profiles/alshark/build_demo.py /path/to/original --output work/wide-menu-test --widen-menus
 ```
 
 Provide your own original disk images. The demo expects the six filenames and

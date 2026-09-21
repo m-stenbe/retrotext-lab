@@ -320,3 +320,40 @@ all non-text token bytes and offsets in both result scripts, normalized English
 text, original export/import roundtrip, allowed disk-change regions, IPS
 roundtrips and unchanged output of the previous `--include-area` build.
 Screenshots are still needed to verify the new UI and result text visually.
+
+## Menu geometry experiment — 2026-09-21
+
+The six-byte menu records start at Opening disk `0x3FD9`, loaded as driver
+address `0x1FD9`. Fields are width, row count, screen-position word and a
+little-endian text pointer. Driver `0x1F0C` multiplies the menu ID in BL by six,
+reads width into CL, rows into BL and position into DI, then calls the animated
+box renderer at `0x150B` (Opening file `0x350B`). That renderer stores the target
+width/height at `0x13AC/0x13AD` and draws 16-pixel-wide tiles until reaching them.
+Text rendering starts at the unchanged box origin plus `0x0504`.
+
+| Menu | ID | Opening record | Original bytes | New width |
+| --- | --- | --- | --- | --- |
+| Normal field | 00 | 3FD9 | 05 06 04 0F 58 21 | 6 |
+| Alternate field | 01 | 3FDF | 05 07 04 0F 4D 21 | 6 |
+| On-foot battle | 0B | 401B | 05 06 04 0F F8 23 | 6 |
+
+The selection highlight is separate. System `0x1730` reads a byte count from
+`0x1D3E` and XORs the corresponding VRAM width. The battle caller at `0x81CE`
+and shared field caller at `0x98B6` each contain `C6 06 3E 1D 0A`, setting ten
+VRAM bytes (80 pixels / five full-width cells). The experiment changes only
+the immediate to `0C`, making the highlight twelve bytes / six cells wide.
+Both field records must widen because their paths share that width assignment.
+Text pointers, menu heights, positions and action-index dispatch remain intact.
+
+`--widen-menus` implies `--include-review`. `menu_layout.py` guards all three
+complete records and both complete instructions before changing either image.
+The actual output differs from the reviewed build at exactly five byte offsets:
+Opening `3FD9`, `3FDF`, `401B` (05 to 06), System `81D2`, `98BA` (0A to 0C).
+Other content disks are identical. Tests cover atomic rejection, exact changed
+fields and matched box/highlight widths. All 30 tests pass; six-row field and
+battle labels fit the new six-cell interior in the local build check.
+
+Runtime confirmation is still needed for box animation/borders, selected-row
+highlighting, opening submenus, cancellation and screen restoration. This
+experiment adds screen room only; it does not expand label storage or translate
+additional text. Later vehicle/ship battle menus are outside this patch.
