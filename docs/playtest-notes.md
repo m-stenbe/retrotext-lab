@@ -259,3 +259,24 @@ provided camping gear after leaving and re-entering town. Record this as an
 observed successful sequence, not proof that re-entry alone unlocks the gift,
 that level 2 is required, or that the gift can be obtained repeatedly. Exact
 Camp Kit recovery, consumption and replenishment behavior remain unverified.
+
+## Expanded menu labels prepared — 2026-09-21
+
+`--expand-menu-labels` implies the wider-menu and reviewed translation builds.
+It relocates six menu strings into a guarded resident-driver pool, preserving
+row order, box position and action dispatch. Field/battle menus use the tested
+six-cell geometry; the other affected boxes already accommodate these labels.
+
+- Field: STATUS / ITEMS / PARTY / EQUIP / SKILLS / SYSTEM.
+- Alternate field: DATA followed by the same six rows.
+- Battle: ATTACK / SKILLS / ITEMS / EQUIP / STATUS / FLEE.
+- Choice: YES / NO, replacing Y / N.
+- System heading: SYSTEM; text speed: NORMAL instead of NORM.
+
+Other item names and Use / Discard are unchanged. Local launcher:
+`work/Launch Full Menu Test.command`, images in `work/full-menu-test`.
+Use its Opening and System disks on the next restart. Existing sessions and
+prior builds are untouched. Runtime checks needed: both YES and NO choices,
+each field/battle highlight, submenu navigation/cancellation, and labels after
+the Opening-to-System handoff. This is a text-relocation experiment, not a
+claim that arbitrary unused-looking disk bytes are safe storage.

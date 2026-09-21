@@ -22,7 +22,11 @@ parser.add_argument('--include-review', action='store_true',
                     help='Include screenshot-review UI and combat drafts; implies --include-area')
 parser.add_argument('--widen-menus', action='store_true',
                     help='Test six-cell field/battle boxes and matching highlights; implies --include-review')
+parser.add_argument('--expand-menu-labels', action='store_true',
+                    help='Test relocated full menu labels including YES/NO; implies --widen-menus')
 args = parser.parse_args()
+if args.expand_menu_labels:
+    args.widen_menus = True
 if args.widen_menus:
     args.include_review = True
 if args.include_review:
@@ -295,6 +299,11 @@ if args.widen_menus:
     from profiles.alshark.menu_layout import widen_menus
     menu_geometry = widen_menus(opening, system)
 
+menu_strings = []
+if args.expand_menu_labels:
+    from profiles.alshark.menu_strings import expand_menu_strings
+    menu_strings = expand_menu_strings(opening)
+
 
 def make_ips(old, new):
     patch = bytearray(b'PATCH')
@@ -324,6 +333,7 @@ def make_ips(old, new):
 manifest = dict(status='Reflowed after screenshot review; revised wrapping awaiting runtime verification',
                 dialogue=dialogue_manifest, names=names, followup=followup, town=town, pickups=pickups,
                 area=area, menus=menus, combat_text=combat_text, menu_geometry=menu_geometry,
+                menu_strings=menu_strings,
                 scene_original_bytes=len(scene), scene_used_bytes=len(new_scene), disks=[])
 for name, original in images.items():
     modified = {'Alshark (System Disk).hdm': system,
@@ -357,3 +367,5 @@ if area:
 
 if menu_geometry:
     print('Widened field/battle menus from five to six cells and highlights from 10 to 12 VRAM bytes; runtime verification pending.')
+if menu_strings:
+    print('Relocated six menus with expanded labels including YES/NO; runtime verification pending.')

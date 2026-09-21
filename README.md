@@ -46,6 +46,8 @@ python3 profiles/alshark/build_demo.py /path/to/original --output work/area-draf
 python3 profiles/alshark/build_demo.py /path/to/original --output work/review-draft-test --include-review
 # Optional six-cell battle/field menu experiment (includes the reviewed draft)
 python3 profiles/alshark/build_demo.py /path/to/original --output work/wide-menu-test --widen-menus
+# Expanded menu labels using a guarded resident string pool (experimental)
+python3 profiles/alshark/build_demo.py /path/to/original --output work/full-menu-test --expand-menu-labels
 ```
 
 Provide your own original disk images. The demo expects the six filenames and

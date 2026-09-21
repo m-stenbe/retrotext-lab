@@ -357,3 +357,19 @@ Runtime confirmation is still needed for box animation/borders, selected-row
 highlighting, opening submenus, cancellation and screen restoration. This
 experiment adds screen room only; it does not expand label storage or translate
 additional text. Later vehicle/ship battle menus are outside this patch.
+# Resident menu text relocation experiment
+
+`--expand-menu-labels` adds a scoped exception to fixed-allocation UI editing.
+Opening boot code reads sixteen 0x400-byte sectors starting at disk 0x2000
+into segment 0800, covering disk 0x2000–0x5fff. The new string pool occupies
+at most 0x200 bytes of the zero-filled tail at disk 0x4c00 (driver 0x2c00).
+`menu_strings.py` checks the entire pool and all six expected menu records
+before writing. It changes only each record's little-endian string pointer
+and the pool bytes; old strings remain available at their original addresses.
+Per-record row counts and character widths are validated before mutation.
+
+This avoids expanding strings over adjacent data. Source hashes, load coverage,
+synthetic pointer-resolution tests and IPS roundtrips are checked; they do not
+prove that no runtime code uses the pool as scratch space. In-game validation
+across menu use and disk handoff remains required. The earlier fixed-allocation
+build flags keep their behavior; script-bank relocation is not implemented.
