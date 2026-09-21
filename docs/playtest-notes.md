@@ -176,3 +176,42 @@ when prompted. A snapshot of the prior area's on-disk User Disk was copied to
 this new folder without changing the source. At snapshot time it was identical
 to the original supplied User Disk; this does not establish a saved game.
 No live emulator state was transferred or restarted.
+
+## Meteor-site playthrough — 2026-09-21, 13:11–13:27
+
+Reviewed all 16 Desktop screenshots for today plus the attached 13.27.09 image.
+Player reached the meteor-site cinematic and aftermath, then reported difficulty
+returning with Sion at 7 PP and Shoko at 6 PP. No new build accompanies review.
+
+- 13.11.14: GUN renders in equipment selection; Shirt remains Japanese.
+- 13.13.33: confirmed ATTACK overlaps/clips the battle-menu right border.
+  Generic 14-column UI validation is insufficient for this narrower menu.
+  Next patch should use a measured per-menu limit (candidate ATK) or widen it.
+- 13.17.15: KNIFE renders; action submenu still says Use / Discard in Japanese.
+  These actions need priority translation because they affect item use.
+- 13.19.02: untranslated meteor-site arrival, `051000:029`.
+- 13.19.09: requests Opening Disk in drive 2; this event-specific prompt is
+  separate from the translated save/load prompts.
+- 13.19.49 and 13.19.52: cinematic narration begins with Sion and Shoko hiding
+  behind rocks to observe the scene; partial captures while text is appearing.
+- 13.20.00: narration describes an unidentified spaceship alongside the
+  expedition's jet hovercraft. This uses the separate cinematic text path.
+- 13.20.05: Shoko asks what the ship is and whether it belongs to the Federation
+  military. Speaker label and dialogue remain Japanese in this renderer.
+- 13.24.34: requests Data Disk in drive 2 after the cinematic.
+- 13.25.00, .05 and .09: untranslated Jido/Sion aftermath, `051000:030`;
+  English shared names already substitute inside Japanese dialogue.
+- 13.25.27: interaction reports no reply.
+- 13.25.46: Zolias soldier gives a confused, halting response; untranslated.
+- 13.25.54: meteor is emitting white smoke at the bottom of a huge crater.
+- Attached 13.27.09: GUN and KNIFE display in the status panel, Shirt remains
+  Japanese. Stacked menus obscure underlying panels; this alone does not prove
+  failed redraw or corruption. Both party members are critically low on PP.
+
+Recovery research: the local PC-98 script explicitly contains the elder's Camp
+Kit gift (`051000:017`, reached conditionally through `051000:005`) and Lucia's
+early rest conversation (`051000:014`). Availability depends on story flags;
+do not promise Lucia remains available after the meteor event. A Cosma medicine
+shop has not been established. Guides for other ports describe the Camp Kit
+as party recovery, but their exact mechanics/timing must not be assumed for
+this build. Healing ability availability at Shoko's current stats is unverified.
