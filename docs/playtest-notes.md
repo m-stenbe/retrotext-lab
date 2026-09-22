@@ -346,3 +346,15 @@ consistent. Record this as overall editorial feedback, not per-entry runtime
 approval for every line in batch 01. Next coverage priorities are the complete
 formatting interaction and remaining inventory/equipment names, retaining the
 canonical/context-review/adaptation workflow. Canyon feedback is still pending.
+
+## Location-label consistency feedback — 2026-09-22
+
+Player noticed the difference between Saxen Canyon in dialogue and the short
+area label, and questioned Hom on the world map. Checked original System text:
+0x11723 names the canyon explicitly; 0x11329 explicitly says Planet Hom.
+The current patch inserts SAXEN (not SAXON) and HOM, both storage-driven
+abbreviations. Canonical context should remain Saxen Canyon and Planet Hom.
+The glossary already marks the Latin spellings provisional; no official spelling
+has been established by this check. Do not silently change Hom to Home or Saxen
+to Saxon. Restore the geographic qualifiers through the location-label fitting
+adapter, keeping the name consistent across dialogue, glossary and map headers.
