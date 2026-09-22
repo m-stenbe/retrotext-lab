@@ -131,6 +131,34 @@ demo and does not patch shared names; use `build_demo --localization` for playte
 
 ## Migration and bible
 
+### Building a reviewed section independently
+
+`profiles/alshark/adaptations-batch-01.json` holds the first separately authored
+in-game adaptations, bound to exact canonical scene-review fingerprints. Apply it
+to the complete reviewed catalog, then explicitly select its complete scenes:
+
+```sh
+python3 profiles/alshark/localization_tool.py adapt /path/to/original work/editorial-reviewed.json \
+  --adaptation-pack profiles/alshark/adaptations-batch-01.json --output work/adapted-batch-01.json
+python3 profiles/alshark/localization_tool.py validate /path/to/original work/adapted-batch-01.json \
+  --scenes story-canyon-directions story-lucia-rest story-work-interactions story-dead-gigi
+python3 profiles/alshark/build_demo.py /path/to/original --output work/editorial-batch-01-test \
+  --expand-menu-labels --localization work/adapted-batch-01.json \
+  --localization-scenes story-canyon-directions story-lucia-rest story-work-interactions story-dead-gigi
+```
+
+Selection never modifies canonical text or review status. Every selected scene
+must be completely adapted, and all source/editorial/ROM checks still run.
+Unselected reviewed units remain explicit in the manifest's `localization_scope`
+as deferred; their current legacy game text is retained. Without scene selection,
+the existing strict whole-catalog build behavior remains. This makes a partial
+test build explicit rather than marking blocked translations as solved.
+
+Adaptation notes document omitted secondary detail. The batch covers seven
+entries: 051000:009, 014, 015, 024, 025, 026 and 028. The canonical script stays
+unchanged. Playtesting is still required; byte/layout validation cannot confirm
+all runtime branch/display behavior.
+
 The user subsequently requested a review of all existing drafts. That review is
 stored in `profiles/alshark/editorial-review.json` (English only) and presented in
 `docs/editorial-review-2026-09-22.md`. Apply it to a fresh local source catalog:

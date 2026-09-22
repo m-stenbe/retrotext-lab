@@ -26,7 +26,11 @@ parser.add_argument('--expand-menu-labels', action='store_true',
                     help='Test relocated full menu labels including YES/NO; implies --widen-menus')
 parser.add_argument('--localization', type=Path,
                     help='Overlay reviewed canonical-derived script adaptations; implies --include-review')
+parser.add_argument('--localization-scenes', nargs='+',
+                    help='Explicit complete scenes to build; other reviewed work is listed as deferred')
 args = parser.parse_args()
+if args.localization_scenes and not args.localization:
+    parser.error('--localization-scenes requires --localization')
 if args.localization:
     args.include_review = True
 if args.expand_menu_labels:
@@ -314,7 +318,8 @@ if args.localization:
     localization_document = json.loads(args.localization.read_text(encoding='utf-8'))
     localized, localization_records = compile_adaptations(
         {disk: images[f'Alshark ({disk} Disk).hdm'] for disk in ('Opening', 'System')},
-        localization_document, json.loads(BIBLE.read_text(encoding='utf-8')))
+        localization_document, json.loads(BIBLE.read_text(encoding='utf-8')),
+        scenes=args.localization_scenes)
     for record in localization_records:
         a, n = record['offset'], record['size']
         system[a:a+n] = localized[a:a+n]
@@ -350,6 +355,11 @@ manifest = dict(status='Reflowed after screenshot review; revised wrapping await
                 area=area, menus=menus, combat_text=combat_text, menu_geometry=menu_geometry,
                 menu_strings=menu_strings,
                 localization=localization_records,
+                localization_scope=dict(selected_scenes=args.localization_scenes,
+                    deferred=[dict(id=r['id'], status=r['target']['status'], reason=r['target']['reason'])
+                              for r in localization_document['records']
+                              if r['canonicalEnglish'] is not None and args.localization_scenes is not None
+                              and r['scene'] not in args.localization_scenes]) if args.localization else None,
                 scene_original_bytes=len(scene), scene_used_bytes=len(new_scene), disks=[])
 for name, original in images.items():
     modified = {'Alshark (System Disk).hdm': system,

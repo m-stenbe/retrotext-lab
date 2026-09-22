@@ -280,3 +280,34 @@ prior builds are untouched. Runtime checks needed: both YES and NO choices,
 each field/battle highlight, submenu navigation/cancellation, and labels after
 the Opening-to-System handoff. This is a text-relocation experiment, not a
 claim that arbitrary unused-looking disk bytes are safe storage.
+
+## Canonical-derived adaptation batch 01 — 2026-09-22
+
+Seven entries across four reviewed sections now have separately authored,
+validated adaptations: canyon directions (009), Lucia rest/suspicion (014/015),
+work/inventory interactions (024–026), and the dead-Gigi exchange (028), all in
+bank 051000. Full canonical wording is unchanged. The adaptation pack records
+omissions, such as the inventory-full observation being implicit in the polite
+request to make room, and Shoko's disgust expressed by “Ugh!” rather than an
+additional “creepy.” Natural English and the important interaction remain.
+
+Local launcher: `work/Launch Editorial Batch 01.command`; disk folder:
+`work/editorial-batch-01-test`. Boot that Opening disk and use its System/Data
+disks. Fifty tests pass; IPS roundtrips pass. Relative to the expanded-menu build,
+253 changed bytes are confined to the seven selected allocations; Opening is
+identical. Commands, name references, branch payloads, pointer tables, opaque
+tails and image sizes retain the existing importer's checks.
+
+The manifest lists 69 reviewed units as deferred, including the opening, Karu
+and lake warning, and pending UI/name work. Their existing game text remains
+provisional. This is not a claim that the full editorial review now fits.
+
+Check the seven interactions when their story states are reachable. In particular,
+verify Lucia's post-rest farewell, the suspicion branch, the highlighted/name
+boundaries in Shoko's corpse reaction, and dismissal/return to movement. None has
+been marked runtime-verified. Existing sessions were not restarted.
+
+The copied User Disk comes from `full-menu-test`; at preparation time it is
+identical to the supplied original and contains no verified personal save.
+Live emulator state is not transferred. Use a separately saved current User Disk
+if continuing personal progress rather than starting a new playtest.

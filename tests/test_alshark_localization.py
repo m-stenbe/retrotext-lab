@@ -2,7 +2,8 @@ import copy
 import unittest
 from unittest.mock import patch
 
-from profiles.alshark.localization import validate_sources, apply_editorial_review
+from profiles.alshark.localization import (validate_sources, apply_editorial_review,
+                                          apply_adaptation_pack, compile_adaptations)
 from retrotext.localization import FORMAT, make_record, fingerprint, validate_editorial
 
 
@@ -98,3 +99,42 @@ class EditorialPackTests(unittest.TestCase):
             pack['scenes'][0]['records'] = members
             with self.assertRaises(ValueError):
                 apply_editorial_review(document, pack, bible)
+
+    def adaptation_fixture(self):
+        document, editorial, bible = self.fixture()
+        reviewed = apply_editorial_review(document, editorial, bible)
+        pack = dict(format='retrotext-adaptations-v1', scenes=['scene'], records=[
+            dict(id=r['id'], basedOn=r['review']['basis'], inGameEnglish={'t001': 'NEW'},
+                 notes=['Shortened after canonical review.']) for r in reviewed['records']])
+        return reviewed, pack, bible
+
+    def test_adaptation_pack_preserves_canonical_source_and_requires_entire_scene(self):
+        reviewed, pack, bible = self.adaptation_fixture()
+        adapted = apply_adaptation_pack(reviewed, pack, bible)
+        for before, after in zip(reviewed['records'], adapted['records']):
+            for key in ('source', 'canonicalEnglish', 'context', 'review'):
+                self.assertEqual(before[key], after[key])
+            self.assertEqual(after['target']['status'], 'adapted')
+            self.assertEqual(before['target']['status'], 'draft')
+        pack['records'].pop()
+        with self.assertRaisesRegex(ValueError, 'complete selected scenes'):
+            apply_adaptation_pack(reviewed, pack, bible)
+
+    def test_adaptation_pack_rejects_stale_basis_without_partial_changes(self):
+        reviewed, pack, bible = self.adaptation_fixture()
+        before = copy.deepcopy(reviewed)
+        pack['records'][-1]['basedOn'] = 'stale'
+        with self.assertRaisesRegex(ValueError, 'basis mismatch'):
+            apply_adaptation_pack(reviewed, pack, bible)
+        self.assertEqual(reviewed, before)
+
+    def test_scene_selection_rejects_unknown_names_and_pending_selected_work(self):
+        reviewed, _, bible = self.adaptation_fixture()
+        # Isolate scope policy from source/catalog construction, already covered above.
+        with patch('profiles.alshark.localization.validate_sources'), patch(
+                'profiles.alshark.localization.export_disk', return_value={'entries': []}):
+            for selection in ([], ['missing'], ['scene', 'scene']):
+                with self.assertRaisesRegex(ValueError, 'scene selection'):
+                    compile_adaptations({'System': b''}, reviewed, bible, scenes=selection)
+            with self.assertRaisesRegex(ValueError, 'no approved adaptation'):
+                compile_adaptations({'System': b''}, reviewed, bible, scenes=['scene'])

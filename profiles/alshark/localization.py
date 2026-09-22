@@ -154,19 +154,50 @@ def validate_sources(images, document):
                 raise ValueError('Changed legacy text must follow the canonical/review/adaptation workflow')
 
 
-def compile_adaptations(images, document, bible):
+def apply_adaptation_pack(document, pack, bible):
+    """Attach separately authored fitting decisions to their exact review basis."""
+    if pack['format'] != 'retrotext-adaptations-v1':
+        raise ValueError('Unsupported adaptation pack')
+    validate_editorial(document, bible)
+    result = copy.deepcopy(document)
+    records = index_unique(result['records'], 'record')
+    edits = index_unique(pack['records'], 'adaptation')
+    scenes = index_unique(result['scenes'], 'scene')
+    selected = pack['scenes']
+    if not selected or len(set(selected)) != len(selected) or set(selected) - scenes.keys():
+        raise ValueError('Invalid adaptation scene selection')
+    if {i for s in selected for i in scenes[s]['records']} != edits.keys():
+        raise ValueError('Adaptations must cover complete selected scenes')
+    for ident, edit in edits.items():
+        record = records[ident]
+        if record['review'] is None or edit['basedOn'] != record['review']['basis']:
+            raise ValueError(f'{ident}: adaptation review basis mismatch')
+        record['target'].update(status='adapted', inGameEnglish=copy.deepcopy(edit['inGameEnglish']),
+                                basedOn=edit['basedOn'], reason=None, playtest=[])
+        record['target']['notes'].extend(edit['notes'])
+    validate_editorial(result, bible)
+    return result
+
+
+def compile_adaptations(images, document, bible, *, scenes=None):
     """Return validated original-based bytes and selected allocations; no writes."""
     validate_sources(images, document)
     validate_editorial(document, bible)
+    if scenes is not None:
+        known = index_unique(document['scenes'], 'scene')
+        if not scenes or len(set(scenes)) != len(scenes) or set(scenes) - known.keys():
+            raise ValueError('Unknown, empty or duplicate localization scene selection')
     exported = export_disk(images['System'])
     entries = {e['id']: e for e in exported['entries']}
     changed = []
     for record in document['records']:
+        if scenes is not None and record['scene'] not in scenes:
+            continue
         target = record['target']
         if target['status'] == 'DOES_NOT_FIT':
             raise ValueError(f"{record['id']}: DOES_NOT_FIT: {target['reason']}")
         if target['status'] != 'adapted':
-            if record['canonicalEnglish'] is not None:
+            if scenes is not None or record['canonicalEnglish'] is not None:
                 raise ValueError(f"{record['id']}: canonical work has no approved adaptation; cannot silently reuse the legacy draft")
             continue
         if record['kind'] != 'script':

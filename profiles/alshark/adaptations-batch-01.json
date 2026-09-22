@@ -1,0 +1,86 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "story-canyon-directions",
+    "story-lucia-rest",
+    "story-work-interactions",
+    "story-dead-gigi"
+  ],
+  "records": [
+    {
+      "id": "script:051000:009",
+      "basedOn": "5393d626de57a81367cce7266ca447d3b5718ac043dda2c453b12634e6103ba5",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": "SAXEN CANYON?\nTHE BIG ONE\nUP NORTH?"
+      },
+      "notes": [
+        "Retains the confirming question and full working canyon name. Natural line breaks only."
+      ]
+    },
+    {
+      "id": "script:051000:014",
+      "basedOn": "dee45b6880ea5079b29b4b0a6ce45c8c2dad46df6027ddac29cb7bf72f914013",
+      "inGameEnglish": {
+        "t001": "YOU BOTH LOOK\nTIRED. WHAT'S\nWRONG? COME\nREST HERE.",
+        "t010": "TAKE CARE!"
+      },
+      "notes": [
+        "Retains concern/question and offer of rest. TAKE CARE conveys the conventional send-off after resting; the invitation is slightly shorter."
+      ]
+    },
+    {
+      "id": "script:051000:015",
+      "basedOn": "dee45b6880ea5079b29b4b0a6ce45c8c2dad46df6027ddac29cb7bf72f914013",
+      "inGameEnglish": {
+        "t000": "YOU TWO ARE\nACTING ODD...\nOFF TO SEE THE\nMETEOR?!"
+      },
+      "notes": [
+        "Retains the suspicious question and implied plan to see the meteor. Contractions and an elliptical spoken question preserve the pointed tone."
+      ]
+    },
+    {
+      "id": "script:051000:024",
+      "basedOn": "e1c8496f723adbdf4959e818c5892d28bb8df6ea22103049095149155100b6c4",
+      "inGameEnglish": {
+        "t001": "PLEASE MAKE\nROOM AND COME\nBACK."
+      },
+      "notes": [
+        "Omits the explicit observation that inventory is full; make room conveys the restriction in the item interaction. Retains courtesy and the return instruction."
+      ]
+    },
+    {
+      "id": "script:051000:025",
+      "basedOn": "e1c8496f723adbdf4959e818c5892d28bb8df6ea22103049095149155100b6c4",
+      "inGameEnglish": {
+        "t000": "WHERE WERE\nYOU? THE WOMAN\nAT THE COUNTER\nWAS FURIOUS!"
+      },
+      "notes": [
+        "Retains the absent-player reproach, woman at the counter, and past-tense anger."
+      ]
+    },
+    {
+      "id": "script:051000:026",
+      "basedOn": "e1c8496f723adbdf4959e818c5892d28bb8df6ea22103049095149155100b6c4",
+      "inGameEnglish": {
+        "t000": "ASK AT THE\nCOUNTER ABOUT\nWORK."
+      },
+      "notes": [
+        "Counter context supplies the person to ask; core direction and work topic remain."
+      ]
+    },
+    {
+      "id": "script:051000:028",
+      "basedOn": "9128532fcc63a8908db5cb4ae87a159f9522098d919b7190d08ea59d02412161",
+      "inGameEnglish": {
+        "t003": "WHY IS A DEAD\nGIGI HERE?",
+        "t009": "UGH! GET RID\nOF IT NOW,\n",
+        "t011": "!",
+        "t017": "ALL RIGHT,\nALL RIGHT."
+      },
+      "notes": [
+        "Retains the question, disgust through UGH, urgency through NOW, and Sion's resigned repetition. Omits the explicit word creepy and I get it; emotional intent remains in the reaction and repetition."
+      ]
+    }
+  ]
+}
