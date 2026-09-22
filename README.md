@@ -19,6 +19,16 @@ engines. **No other game or PC-88 format is currently supported.**
 - Optional area draft: nineteen more conversations/branches, Shoko's name,
   basic field/system/text-speed menus and three common UI messages.
 - Synthetic tests for block slicing and script validation.
+- Separate canonical English, connected-scene context, editorial review,
+  terminology impact and technical adaptations. See the
+  [localization workflow](docs/localization-workflow.md) and
+  [Alshark localization bible](profiles/alshark/localization-bible.json).
+
+New translation work follows source/context → canonical English → editorial
+review → technical adaptation → ROM validation → playtest → editorial feedback.
+Existing compressed drafts remain provisional. Unacceptable fitting is recorded
+as `DOES_NOT_FIT`, not solved by silently degrading English. The generic editorial
+layer lives in `retrotext/localization.py`; encoding/layout remain profile-specific.
 
 The script decoder is partial and the importer keeps existing entry allocations.
 This is not a general reinserter or full English translation. Physical roundtrip
@@ -48,6 +58,8 @@ python3 profiles/alshark/build_demo.py /path/to/original --output work/review-dr
 python3 profiles/alshark/build_demo.py /path/to/original --output work/wide-menu-test --widen-menus
 # Expanded menu labels using a guarded resident string pool (experimental)
 python3 profiles/alshark/build_demo.py /path/to/original --output work/full-menu-test --expand-menu-labels
+# Source-preserving localization sidecar; no automatic translation or ROM edits
+python3 profiles/alshark/localization_tool.py export /path/to/original work/localization.json
 ```
 
 Provide your own original disk images. The demo expects the six filenames and

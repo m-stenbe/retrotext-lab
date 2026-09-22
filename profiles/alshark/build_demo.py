@@ -24,7 +24,11 @@ parser.add_argument('--widen-menus', action='store_true',
                     help='Test six-cell field/battle boxes and matching highlights; implies --include-review')
 parser.add_argument('--expand-menu-labels', action='store_true',
                     help='Test relocated full menu labels including YES/NO; implies --widen-menus')
+parser.add_argument('--localization', type=Path,
+                    help='Overlay reviewed canonical-derived script adaptations; implies --include-review')
 args = parser.parse_args()
+if args.localization:
+    args.include_review = True
 if args.expand_menu_labels:
     args.widen_menus = True
 if args.widen_menus:
@@ -304,6 +308,17 @@ if args.expand_menu_labels:
     from profiles.alshark.menu_strings import expand_menu_strings
     menu_strings = expand_menu_strings(opening)
 
+localization_records = []
+if args.localization:
+    from profiles.alshark.localization import BIBLE, compile_adaptations
+    localization_document = json.loads(args.localization.read_text(encoding='utf-8'))
+    localized, localization_records = compile_adaptations(
+        {disk: images[f'Alshark ({disk} Disk).hdm'] for disk in ('Opening', 'System')},
+        localization_document, json.loads(BIBLE.read_text(encoding='utf-8')))
+    for record in localization_records:
+        a, n = record['offset'], record['size']
+        system[a:a+n] = localized[a:a+n]
+
 
 def make_ips(old, new):
     patch = bytearray(b'PATCH')
@@ -334,6 +349,7 @@ manifest = dict(status='Reflowed after screenshot review; revised wrapping await
                 dialogue=dialogue_manifest, names=names, followup=followup, town=town, pickups=pickups,
                 area=area, menus=menus, combat_text=combat_text, menu_geometry=menu_geometry,
                 menu_strings=menu_strings,
+                localization=localization_records,
                 scene_original_bytes=len(scene), scene_used_bytes=len(new_scene), disks=[])
 for name, original in images.items():
     modified = {'Alshark (System Disk).hdm': system,
