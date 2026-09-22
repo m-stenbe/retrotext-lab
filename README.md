@@ -33,6 +33,9 @@ layer lives in `retrotext/localization.py`; encoding/layout remain profile-speci
 The [2026-09-22 editorial review](docs/editorial-review-2026-09-22.md) covers all
 76 previously drafted dialogue/UI/name/result units, with canonical English,
 context, findings and unresolved terms. It does not change the current ROM build.
+The [abbreviation audit](docs/abbreviation-audit-2026-09-22.md) checks the effective
+menu pointers and labels in the built disks, separates storage from geometry,
+and prioritizes restorations without expanding familiar abbreviations blindly.
 
 The script decoder is partial and the importer keeps existing entry allocations.
 This is not a general reinserter or full English translation. Physical roundtrip
