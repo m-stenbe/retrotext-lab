@@ -311,3 +311,38 @@ The copied User Disk comes from `full-menu-test`; at preparation time it is
 identical to the supplied original and contains no verified personal save.
 Live emulator state is not transferred. Use a separately saved current User Disk
 if continuing personal progress rather than starting a new playtest.
+
+## Expanded-menu and item coverage feedback — 2026-09-22, 19:03–19:12
+
+Reviewed the five named Desktop screenshots. No rebuild or emulator operation
+accompanies this review; the player is continuing through the canyon.
+
+- 19.03.53: YES and NO render fully inside the choice box during Shoko's
+  invitation/acceptance interaction. Player confirms the display looks good.
+  The still does not verify both branch outcomes or every selection highlight.
+- 19.04.13: STATUS / ITEMS / PARTY / EQUIP / SKILLS / SYSTEM all fit within the
+  expanded field menu. EQUIP's highlight stays aligned with the interior width.
+  Player confirms the menu looks good. Other rows' selected states and all
+  submenu dismissal paths are not established by this one frame.
+- 19.08.02: selecting FORMAT opens an untranslated User Disk creation prompt:
+  it asks for a blank disk in drive 2, followed by any key. This is disk
+  initialization, not ordinary saving. Opening 0x421c is the three-line prompt;
+  0x4268 contains another related creation message. Review the whole formatting
+  interaction, including completion/error/cancellation, before translating it.
+  The already-reviewed canonical menu label is Format User Disk, while the
+  in-game label still says FORMAT. No successful format or save is inferred.
+- 19.11.53: the untranslated inventory entry is Camp Kit, alongside MEDS. Its
+  compact shared label is at System 0x10cb0. The elder's translated gift text
+  and this inventory name use separate storage; translating one did not cover
+  the other. This screenshot does not establish the kit's recovery mechanics.
+- 19.12.00: the untranslated equipped garment is Shirt, at System 0x10a99.
+  GUN and KNIFE remain readable, and the helmet slot is empty. Shirt's current
+  source name uses three half-width bytes; full-width SHIRT cannot simply be
+  substituted in place. Preserve canonical wording and investigate allocation
+  or pointer handling when this item-name batch is adapted.
+
+The player reports that conversations generally flow better and feel more
+consistent. Record this as overall editorial feedback, not per-entry runtime
+approval for every line in batch 01. Next coverage priorities are the complete
+formatting interaction and remaining inventory/equipment names, retaining the
+canonical/context-review/adaptation workflow. Canyon feedback is still pending.
