@@ -30,6 +30,10 @@ Existing compressed drafts remain provisional. Unacceptable fitting is recorded
 as `DOES_NOT_FIT`, not solved by silently degrading English. The generic editorial
 layer lives in `retrotext/localization.py`; encoding/layout remain profile-specific.
 
+The [2026-09-22 editorial review](docs/editorial-review-2026-09-22.md) covers all
+76 previously drafted dialogue/UI/name/result units, with canonical English,
+context, findings and unresolved terms. It does not change the current ROM build.
+
 The script decoder is partial and the importer keeps existing entry allocations.
 This is not a general reinserter or full English translation. Physical roundtrip
 validation does not prove safe text relocation. See the

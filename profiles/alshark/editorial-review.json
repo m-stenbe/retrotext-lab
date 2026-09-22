@@ -1,0 +1,2483 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "reviewer": "Codex contextual editorial pass",
+  "scope": "All existing English drafts through expanded-menu commit 8d7c5ec. No new runtime translations are applied by this review.",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "scenes": [
+    {
+      "id": "story-breakfast",
+      "records": [
+        "script:051000:000",
+        "script:051000:001"
+      ],
+      "participants": [
+        "Lucia",
+        "Jido",
+        "Sion"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Before the meteor expedition leaves; before Shoko joins.",
+      "purpose": "Establish family warmth, Sion's curiosity, Joe's connection to the family, and Lucia's prohibition.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.sion",
+        "character.lucia",
+        "character.jido",
+        "character.mamon",
+        "character.joe",
+        "place.dust"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-shoko-invitation",
+      "records": [
+        "script:051000:002",
+        "script:051000:011",
+        "script:051000:012",
+        "script:051000:013"
+      ],
+      "participants": [
+        "Shoko",
+        "Sion"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Before departure; invitation, acceptance/refusal, then a possible repeat invitation.",
+      "purpose": "Establish Shoko's frustration at being treated as a child, her initiative, Sion's caution, and the borrowed weapons.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [
+        "Entry 002 offers choice targets 011 (accept) and 012 (refuse). Entry 013 offers the same choice again. Do not read 011 then 012 as one conversation."
+      ],
+      "terminology": [
+        "character.shoko",
+        "character.sion",
+        "place.saxen",
+        "creature.gigi",
+        "weapon.handgun"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-young-man",
+      "records": [
+        "script:051000:003",
+        "script:051000:020"
+      ],
+      "participants": [
+        "Young man",
+        "Sion"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Entry 003 before the expedition aftermath; conditional alternative 020 later.",
+      "purpose": "Provide expedition information, then react to Sion's changed appearance.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [
+        "Entry 003 has a conditional branch to 020. These are different story states."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "place.saxen"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-war-news",
+      "records": [
+        "script:051000:004"
+      ],
+      "participants": [
+        "Old woman"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Ambient town conversation; no exact flag prerequisite established.",
+      "purpose": "Convey secondhand news of war and anxiety about the world.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "faction.wyuria",
+        "faction.zolias"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-pollution",
+      "records": [
+        "script:051000:006"
+      ],
+      "participants": [
+        "Woman"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Ambient town conversation.",
+      "purpose": "Connect development and greenery with a specific radioactive-waste warning.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.hom",
+        "place.hamack",
+        "place.dust",
+        "creature.gigi"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-lake-warning",
+      "records": [
+        "script:051000:007"
+      ],
+      "participants": [
+        "Young woman"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Ambient town conversation.",
+      "purpose": "Friendly observation about greenery followed by a reported local danger.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-wasteland-and-return",
+      "records": [
+        "script:051000:008",
+        "script:051000:021"
+      ],
+      "participants": [
+        "Old woman",
+        "Sion"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Entry 008 before the return-state branch; 021 after the relevant story flag.",
+      "purpose": "Warn about creatures outside town; later report seeing Sion's mother leave.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [
+        "Entry 008 conditionally branches to 021; these are not consecutive lines."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.lucia"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-canyon-directions",
+      "records": [
+        "script:051000:009"
+      ],
+      "participants": [
+        "Girl"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Ambient town conversation.",
+      "purpose": "Identify the canyon to the north.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.saxen"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-old-man",
+      "records": [
+        "script:051000:005",
+        "script:051000:017",
+        "script:051000:018"
+      ],
+      "participants": [
+        "Old man"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Conditional gift and ambient meteor discussion.",
+      "purpose": "Show an older resident anticipating the party's needs and recalling an unprecedented meteor.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [
+        "Entry 005 is a speaker/dispatch entry with conditional routes to 017 and 018; the gift is not automatically followed by the meteor comment."
+      ],
+      "terminology": [
+        "item.camp_kit",
+        "place.hom"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-karu-diagnostic",
+      "records": [
+        "script:051000:010",
+        "script:051000:016"
+      ],
+      "participants": [
+        "Karu",
+        "Sion",
+        "Shoko"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Diagnostic conversation with a conditional Shoko greeting.",
+      "purpose": "Let Karu notice Sion's agitation and ask a suspicious question.",
+      "previousContext": [
+        "Following return scene 051000:019 has Karu refer to itself by name; Sion identifies it as an older model without image-playback equipment. This supports a measured machine voice, without inventing model details."
+      ],
+      "followingContext": [
+        "051000:019 establishes limited recall, an older model and absent image-playback equipment; 051000:027 shows Karu agreeing to work alongside Sion."
+      ],
+      "branchAlternatives": [
+        "Entry 010 can branch to 016; the later return conversation 019 is context only and remains outside the already-translated scope."
+      ],
+      "terminology": [
+        "character.karu",
+        "character.sion",
+        "character.shoko"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-lucia-rest",
+      "records": [
+        "script:051000:014",
+        "script:051000:015"
+      ],
+      "participants": [
+        "Lucia",
+        "Sion",
+        "Shoko"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Conditional follow-ups from the initial meteor warning.",
+      "purpose": "Offer rest or express suspicion depending on story state.",
+      "previousContext": [
+        "051000:001 branches to 014, which has a conditional route to 015. Recovery commands occur before the farewell in 014."
+      ],
+      "followingContext": [],
+      "branchAlternatives": [
+        "014: rest and send-off; 015: suspicion branch. Do not treat the suspicion as necessarily spoken after resting."
+      ],
+      "terminology": [
+        "character.lucia",
+        "character.sion",
+        "character.shoko"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-found-items",
+      "records": [
+        "script:051000:034",
+        "script:051000:035",
+        "script:051000:036",
+        "script:051000:037",
+        "script:051000:041",
+        "script:061000:019",
+        "script:061000:021"
+      ],
+      "participants": [
+        "System narrator",
+        "Lucia",
+        "Sion"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Starting-house pickups and related item-taking interactions; separate item branches.",
+      "purpose": "Name discoveries, preserve shared pickup composition, and distinguish being caught from refusing to take someone else's property.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [
+        "034–037 call the shared found suffix at 041. The name and suffix are components of one message, not separate dialogue.",
+        "The Lucia interruption at 061000:019 and refusal at 061000:021 are related interactions, not asserted to follow every pickup."
+      ],
+      "terminology": [
+        "weapon.survival_knife",
+        "item.hand_medical",
+        "item.protector",
+        "currency.credits",
+        "character.lucia",
+        "character.sion"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-work-interactions",
+      "records": [
+        "script:051000:024",
+        "script:051000:025",
+        "script:051000:026"
+      ],
+      "participants": [
+        "Unconfirmed shop/workplace speakers",
+        "Sion"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Work-related branches; not necessarily reachable during the first town visit.",
+      "purpose": "Explain inventory capacity and direct the player to the person handling work.",
+      "previousContext": [
+        "Untranslated surrounding entries 022/023 concern dismissal/pay, and 027 concerns accepting work while Shoko waits at a hotel. These contextual entries are not newly translated in this review."
+      ],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [
+        "Exact speaker identities and entry 024's calling context still require runtime/caller verification."
+      ],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "story-dead-gigi",
+      "records": [
+        "script:051000:028"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko"
+      ],
+      "location": "Cosma and opening-area interactions",
+      "storyState": "Interaction with a Gigi corpse; exact location not established by this entry.",
+      "purpose": "Sion notices something odd; Shoko reacts with disgust and presses him to remove it.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "creature.gigi",
+        "character.sion",
+        "character.shoko"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "ui-menus-and-messages",
+      "records": [
+        "ui:Opening:00414d",
+        "ui:Opening:004158",
+        "ui:Opening:004294",
+        "ui:Opening:0042d5",
+        "ui:Opening:004306",
+        "ui:Opening:004348",
+        "ui:Opening:0043f8",
+        "ui:Opening:004637",
+        "ui:Opening:0046ec",
+        "ui:Opening:004aec",
+        "ui:Opening:0048af",
+        "ui:Opening:0048b6",
+        "ui:Opening:00470c",
+        "ui:Opening:00471b",
+        "ui:Opening:004b0c",
+        "ui:Opening:004b1b",
+        "ui:System:001d72",
+        "ui:System:001d7c",
+        "ui:System:001dac",
+        "ui:System:001db7",
+        "ui:System:001dc7",
+        "ui:System:001e2b",
+        "ui:System:001e2f",
+        "ui:System:001e98",
+        "ui:System:0107aa",
+        "ui:System:010875",
+        "ui:System:010b74",
+        "ui:System:011329",
+        "ui:System:011723"
+      ],
+      "participants": [
+        "UI / system"
+      ],
+      "location": null,
+      "storyState": "Field/battle menus, startup, inventory, formation, saves and loads.",
+      "purpose": "Keep commands clear, distinguish selection roles, and preserve complete disk instructions.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "mechanic.abilities",
+        "weapon.survival_knife",
+        "weapon.handgun",
+        "item.hand_medical",
+        "place.hom",
+        "place.saxen"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "reference-shared-names",
+      "records": [
+        "name:0",
+        "name:1",
+        "name:2",
+        "name:3",
+        "name:4",
+        "name:6",
+        "name:7",
+        "name:12",
+        "name:13",
+        "name:14",
+        "name:15",
+        "name:16",
+        "name:81"
+      ],
+      "participants": [
+        "Shared character/location references"
+      ],
+      "location": null,
+      "storyState": "Names reused across dialogue and UI; no new story chronology.",
+      "purpose": "Keep short names, full names, epithets and location qualifiers distinct.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.sion",
+        "character.lucia",
+        "character.shoko",
+        "character.mamon",
+        "character.joe",
+        "character.karu",
+        "character.jido",
+        "place.cosma",
+        "surname.asmaan",
+        "surname.penrose"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    },
+    {
+      "id": "ui-battle-results",
+      "records": [
+        "fixed:System:001edf",
+        "fixed:System:001f28"
+      ],
+      "participants": [
+        "System"
+      ],
+      "location": null,
+      "storyState": "Battle rewards and level-up pages.",
+      "purpose": "Report gains clearly while keeping all dynamic numeric and character fields.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "currency.credits",
+        "material.scrap"
+      ],
+      "evidence": [
+        "Original PC-98 source entries and immutable control tokens",
+        "Existing draft build and recorded playtest notes"
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Reading order groups related interactions; branch alternatives are not consecutive spoken lines."
+      ],
+      "reviewNote": "Read the source and connected alternatives, then reviewed this canonical English for flow, voice, omissions, hearsay, terminology and unsupported inference. Unresolved interpretations remain explicit; no technical-fit or runtime approval is implied."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:051000:000",
+      "sourceFingerprint": "8a274395635ea769c6f0ea6c20249156ff30c9b4def08f66c3dd6cc6877f5d52",
+      "canonicalEnglish": "Lucia: Have you finished eating already, dear?\nJido: Yes. I'm going with Mamon and the others to investigate the meteor that fell yesterday.\nSion: You're so lucky! I want to see the meteor too!\nLucia: Hee hee... No, Sion. You're still too young.\nJido: Oh, Sion. It looks like I can finally take a day off tomorrow. Shall I take you to see Joe?\nSion: Joe? You mean Uncle Joe, who lives in Dust?\nLucia: Oh, you remember him, Sion? He used to spend a lot of time playing with you.\nSion: Of course I remember! He made all sorts of toys for me out of scrap.\nSion: I like Uncle Joe!\nJido: Joe will be glad to hear that. Well, I'd better get going.",
+      "context": {
+        "speaker": "Lucia / Jido / Sion",
+        "listener": "Family members",
+        "intent": "Warm breakfast conversation leading into the expedition and a promised visit.",
+        "tone": "Affectionate adults and an eager child.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "Ten constrained breakfast turns plus Jido farewell in build_demo.py; reviewed directly against the complete source entry.",
+      "findings": [
+        "Existing draft loses Mamon “and the others,” the rarity/tentativeness of Jido's day off, and some affectionate/playful delivery.",
+        "“YOU REMEMBER SION?” is an ambiguous vocative. Make the remembered person explicit: “You remember him, Sion?”",
+        "The final response means Joe would be happy to hear Sion likes him. Jido then announces his own departure; these are not unrelated stock phrases.",
+        "Keep “Uncle Joe” as Sion's familiar address, without asserting biological kinship."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:001",
+      "sourceFingerprint": "9723abce748d1808c8233423648e395caeeab5c4c1c408de401cc90d26398227",
+      "canonicalEnglish": "Lucia: Sion, you can go out and play, but you are absolutely not to go and see that meteor!",
+      "context": {
+        "speaker": "Lucia",
+        "listener": "Sion",
+        "intent": "Allow ordinary play while firmly forbidding the meteor visit.",
+        "tone": "Protective and emphatic.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t006": ",\nGO PLAY, BUT\nSTAY AWAY FROM\nTHE METEOR!"
+      },
+      "findings": [
+        "“GO PLAY, BUT STAY AWAY FROM THE METEOR!” retains the main instruction, but canonical English should preserve the explicit permission/firm prohibition contrast."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:002",
+      "sourceFingerprint": "39dd2ca18dc546299eb8ef4d81aee7575a261d35f12ed8ae7db61976b73b940c",
+      "canonicalEnglish": "Shoko: Oh, hello, Sion. That meteor last night was something, wasn't it?\nShoko: Dad said he was going to investigate it this morning, so I asked him to take me along. And he just said, “No!”\nShoko: I'm eighteen, and he still treats me like a child! Honestly!\nShoko: Say, why don't we go together?",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Sion",
+        "intent": "Invite Sion after expressing indignation at her father's refusal.",
+        "tone": "Animated, indignant, then conspiratorial.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t006": "HI, ",
+        "t008": ".",
+        "t010": "\nWHAT A METEOR!",
+        "t016": "DAD WENT TO\nINVESTIGATE.\nI ASKED TO GO.\nHE SAID NO.",
+        "t022": "I'M EIGHTEEN!\nHE STILL\nTREATS ME AS\nA CHILD!",
+        "t028": "SHALL WE GO\nTOGETHER?"
+      },
+      "findings": [
+        "The draft keeps the facts but turns an expressive complaint into a report. Restore the quoted refusal and indignation.",
+        "Eighteen is explicit; do not write Shoko as a small child."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:011",
+      "sourceFingerprint": "9913914ac45cf71c7e6ac1fe64ae746c0d86139fe8d6558fd49157ccdee4531f",
+      "canonicalEnglish": "Shoko: Then it's settled! What's wrong?\nSion: Well... I was just thinking about all the Gigi in Saxen Canyon...\nShoko: We'll be fine. Look.\nSion: That's a handgun! What are you doing with that?!\nShoko: Hee hee... I just “borrowed” them from Dad's drawer. There are two, so we can protect ourselves.\nShoko: Come on, let's go!",
+      "context": {
+        "speaker": "Shoko / Sion",
+        "listener": "Each other",
+        "intent": "Contrast Sion's caution with Shoko's confidence and mischievous weapon reveal.",
+        "tone": "Sion hesitant/alarmed; Shoko teasing and confident.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t004": "IT'S SETTLED!",
+        "t006": "\nWHAT IS IT?",
+        "t012": "BUT THERE ARE\nSO MANY GIGI\nIN SAXEN\nCANYON...",
+        "t018": "WE'LL BE FINE.\nLOOK!",
+        "t024": "A ",
+        "t026": "HANDGUN",
+        "t028": "?!\nWHY DO YOU\nHAVE THAT?!",
+        "t034": "I TOOK TWO\nFROM DAD. FOR\nPROTECTION.",
+        "t036": "\nLET'S GO!"
+      },
+      "findings": [
+        "“I TOOK TWO FROM DAD” loses both the drawer and the knowingly euphemistic “borrowed.” This is characterization, not expendable filler.",
+        "Do not imply she received permission or that Dad handed the guns to her.",
+        "The handgun reveal is an exclamation followed by an alarmed question; retain the reaction across the highlighted item name."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:012",
+      "sourceFingerprint": "8df399ce69d9d8b5b6f2be8eb1a3a206192782119cbcd370221d1e21147fb937",
+      "canonicalEnglish": "Shoko: What? You coward... Some man you are!",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Sion",
+        "intent": "Rebuke his refusal with an explicitly gendered taunt.",
+        "tone": "Annoyed and goading.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t004": "YOU COWARD!\nSOME MAN\nYOU ARE!"
+      },
+      "findings": [
+        "Current “YOU COWARD! SOME MAN YOU ARE!” conveys the intended sting. Do not neutralize the taunt or invent stronger abuse."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:013",
+      "sourceFingerprint": "488dd18ef6c5bbc12695920d8ebf74165e8c6182d08a8f009f518ddcd8de79a0",
+      "canonicalEnglish": "Shoko: Hee hee... Changed your mind? You want to go after all, don't you?",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Sion",
+        "intent": "Tease him when the invitation is revisited.",
+        "tone": "Knowing, teasing.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t000": "SO, YOU WANT\nTO GO NOW?"
+      },
+      "findings": [
+        "“SO, YOU WANT TO GO NOW?” preserves the question but loses her knowing amusement and “after all.”"
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:003",
+      "sourceFingerprint": "f7a6717e06e5aa04420cbc3fff2dce710eeeca53ced5851efaa2736195082988",
+      "canonicalEnglish": "Young man: Hey, Sion. That meteor last night was something, huh? Looks like my dad went to Saxen Canyon with Dr. Penrose and the others to investigate it.",
+      "context": {
+        "speaker": "Young man",
+        "listener": "Sion",
+        "intent": "Casual news about the expedition.",
+        "tone": "Casual, familiar.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "MAN",
+        "t003": "HEY, ",
+        "t005": ".\n",
+        "t007": "WHAT A METEOR\nLAST NIGHT!",
+        "t010": "DAD WENT WITH\nDR. PENROSE TO\nSAXEN CANYON\nTO STUDY IT"
+      },
+      "findings": [
+        "Restore “looks like” and “the others”: the draft makes secondhand news categorical and reduces the group to two people.",
+        "The source speaker label is Young Man, not a named character. Dr. Penrose is not a separate new canonical name without cross-checking shared names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:020",
+      "sourceFingerprint": "31871b9722c0c6b1c4b9618ef1be48b47e1f46401e5269fa520ae0e4828e140e",
+      "canonicalEnglish": "Young man: What's wrong? You look pale. Did something happen?",
+      "context": {
+        "speaker": "Young man",
+        "listener": "Sion",
+        "intent": "Notice distress and ask about it.",
+        "tone": "Concerned.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t000": "YOU LOOK PALE.\nWHAT HAPPENED?"
+      },
+      "findings": [
+        "The current draft is a reasonable concise adaptation; canonical restores the opening concern."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:004",
+      "sourceFingerprint": "72067c500601bbcfa8d9049019be867d6341112c3dc7c89f71a07b463f2b38e3",
+      "canonicalEnglish": "Old woman: I hear war has finally broken out between the Kingdom of {faction.wyuria} and the {faction.zolias} Empire. What a dangerous world we live in.",
+      "context": {
+        "speaker": "Old woman",
+        "listener": "Player party",
+        "intent": "Report war as news she has heard, preserving the state titles.",
+        "tone": "Worried, reflective.",
+        "terminology": [
+          "faction.wyuria",
+          "faction.zolias"
+        ],
+        "uncertainty": [
+          "Romanizations remain unresolved; the source explicitly distinguishes a kingdom and an empire."
+        ],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": "WYURIA AND\nZOLIAS ARE\nAT WAR NOW.\nDARK TIMES."
+      },
+      "findings": [
+        "The draft drops Kingdom/Empire, the reported nature of the news, and the sense that the conflict has finally broken out.",
+        "The braces deliberately defer uncertain English spellings to the glossary. Existing WYURIA/ZOLIAS are not official romanizations."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:006",
+      "sourceFingerprint": "b5c7f689315236b1a1c84751d653713cd8d2d9b92c8309baf1e1a2a7f32a04c1",
+      "canonicalEnglish": "Woman: So much of Hom has been developed now, and it's getting greener. But I hear the area around Hamack, the town to the west, is contaminated with radioactive waste.\nWoman: Especially Dust, the waste-disposal site. They say it's full of Gigi that have mutated and become vicious.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "Give geographic and environmental context without asserting unreported causes.",
+        "tone": "Conversational concern.",
+        "terminology": [
+          "place.hamack",
+          "place.dust",
+          "creature.gigi"
+        ],
+        "uncertainty": [
+          "Hamack spelling remains provisional; Gigi's exact creature classification remains open."
+        ],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "WOMAN",
+        "t003": "HOM IS GREENER\nNOW, BUT WASTE\nPOLLUTES THE\nHAMACK AREA.",
+        "t006": "MUTANT GIGI\nRUN WILD AT\nTHE DUST WASTE\nDISPOSAL SITE."
+      },
+      "findings": [
+        "Restore radioactive waste, Hamack's western location, development on Hom, and reported rather than firsthand knowledge.",
+        "Mutations making Gigi vicious matter; “MUTANT GIGI RUN WILD” is compressed but does not explain the relationship as clearly.",
+        "Do not call the development terraforming or say greenery caused the mutations; those mechanisms are not established here."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:007",
+      "sourceFingerprint": "dc110272c5d15bc5914cb8f1c961af4d6aff849996de6db07abed2c5ccaa0832",
+      "canonicalEnglish": "Young woman: It's nice to see so much more greenery lately. But I hear there are lots of large insects breeding near the lake, and it's dangerous out there.",
+      "context": {
+        "speaker": "Young woman",
+        "listener": "Player party",
+        "intent": "Welcome the greenery, then warn about prolific large insects.",
+        "tone": "Friendly, then cautionary.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "WOMAN",
+        "t003": "MORE GREENERY,\nBUT HUGE BUGS\nNEAR THE LAKE.\nIT'S NOT SAFE!"
+      },
+      "findings": [
+        "Current text loses the positive opening, breeding, abundance and hearsay; it sounds like a list of facts.",
+        "The speaker is labeled a young woman, distinct from the girl in entry 009.",
+        "Do not imply the vegetation itself causes monsters."
+      ],
+      "adaptationAssessment": {
+        "status": "DOES_NOT_FIT",
+        "reason": "The current single four-row, 14-cell body cannot naturally retain the positive observation, breeding insects and reported danger. Add display space/pages or narrower rendering rather than reducing the canonical line to fragments."
+      }
+    },
+    {
+      "id": "script:051000:008",
+      "sourceFingerprint": "2f4ae5a8dfd43ec93bc5e2c3c728fbbcd18a1deb2359f67bd3bd9723cc08e2b0",
+      "canonicalEnglish": "Old woman: Don't go outside town! There are fearsome insects from the canyon roaming the wasteland.",
+      "context": {
+        "speaker": "Old woman",
+        "listener": "Sion / player party",
+        "intent": "Give a firm safety warning with the creatures' origin.",
+        "tone": "Stern and protective.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "OLD WOMAN",
+        "t004": "STAY IN TOWN!\nTHE WASTELAND\nIS FULL OF\nCANYON BUGS."
+      },
+      "findings": [
+        "“CANYON BUGS” can sound like a species name. The source says the insects came from the canyon."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:021",
+      "sourceFingerprint": "c23fb74601a35d177b607ec0d83b3b4d4caee1bb6e408e56608b5b3617cf5bf9",
+      "canonicalEnglish": "Old woman: Your mother? She wandered out of town in a daze, as though something had possessed her.",
+      "context": {
+        "speaker": "Old woman",
+        "listener": "Sion",
+        "intent": "Describe observed behavior through a simile, not diagnose possession.",
+        "tone": "Troubled recollection.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t000": "YOUR MOM LEFT\nTOWN IN A DAZE\nAS IF SHE WERE\nPOSSESSED."
+      },
+      "findings": [
+        "The existing adaptation largely retains this meaning. Keep “as if/as though” so the comparison does not become an established supernatural fact."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:009",
+      "sourceFingerprint": "ae86a482d7b1fe27788cff99b979c0a86dc17217b6371e40d3232d5ec5fc299b",
+      "canonicalEnglish": "Girl: Saxen Canyon? That's the big canyon to the north, isn't it?",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Player party",
+        "intent": "Confirm the place being discussed.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "GIRL",
+        "t003": "SAXEN CANYON?\nTHE BIG CANYON\nUP NORTH?"
+      },
+      "findings": [
+        "The draft is close; the full canonical sentence should keep the conversational confirmation."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:005",
+      "sourceFingerprint": "06f44c099619d7e92b534901de181aaa61b8ddda297b97c6da170414c291e24d",
+      "canonicalEnglish": "Old Man",
+      "context": {
+        "speaker": "Old man",
+        "listener": "Player party",
+        "intent": "Speaker label for the conditional elder interactions.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "ELDER"
+      },
+      "findings": [
+        "ELDER implies a formal community role that the generic Japanese label does not establish. Prefer Old Man as the canonical label."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:017",
+      "sourceFingerprint": "5f015e691292d461ecb76508c243dbb97170a0e0d65c7dba25b718276f750c1f",
+      "canonicalEnglish": "Old man: You needn't say a word. I understand. Here, take this Camp Kit with you.",
+      "context": {
+        "speaker": "Old man",
+        "listener": "Player party",
+        "intent": "Offer equipment with a knowing, reassuring attitude.",
+        "tone": "Knowing and helpful.",
+        "terminology": [
+          "item.camp_kit"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t000": "I KNOW.\nHERE, TAKE\nTHIS ",
+        "t002": "CAMP KIT",
+        "t004": "."
+      },
+      "findings": [
+        "“I KNOW” loses the warm implication that he understands without being told.",
+        "The source gift does not promise unlimited replacements or specify recovery mechanics."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:018",
+      "sourceFingerprint": "f8f31e631fb0fb653dfd7d3ecd797e46761acd9c5d86e69eb48f2abe803e37ff",
+      "canonicalEnglish": "Old man: That meteor seems to have fallen in the canyon north of town. I've lived on Hom for many years, but I've never seen anything like it.",
+      "context": {
+        "speaker": "Old man",
+        "listener": "Player party",
+        "intent": "Locate the meteor and stress how extraordinary it is in his experience.",
+        "tone": "Reflective, impressed.",
+        "terminology": [
+          "place.hom"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t000": "IT FELL IN THE\nNORTH CANYON.\nI'VE NEVER\nSEEN THE LIKE!"
+      },
+      "findings": [
+        "Restore “seems,” north of this town, and his long residence on Hom. The draft presents the location as certain and drops the life-experience context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:010",
+      "sourceFingerprint": "3ec9b6c4d43b7319959e00a9d12bcb8389803e3115e52ffa3bb1c459acc25e53",
+      "canonicalEnglish": "Karu: Sion, your heart rate and perspiration are higher than usual. Are you up to something?",
+      "context": {
+        "speaker": "Karu",
+        "listener": "Sion",
+        "intent": "Report physiological changes, then question whether he is plotting something.",
+        "tone": "Measured diagnostic delivery, followed by suspicion.",
+        "terminology": [
+          "character.karu",
+          "character.sion"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t007": ",\nPULSE, SWEAT\nABOVE NORMAL.",
+        "t009": "\nPLOTTING?"
+      },
+      "findings": [
+        "“PULSE, SWEAT ABOVE NORMAL. PLOTTING?” is a provisional technical abbreviation, not an acceptable canonical voice.",
+        "Higher than usual is relative to Sion's usual state; do not turn it into a diagnosis of illness.",
+        "The suspicious question can be mildly comic without making Karu accusatory or omniscient."
+      ],
+      "adaptationAssessment": {
+        "status": "DOES_NOT_FIT",
+        "reason": "With SION substituted at the start, the existing four-row/14-cell body and non-clearing wait cannot carry both the complete diagnostic observation and a natural suspicious question. Investigate more display space or narrower Latin text."
+      }
+    },
+    {
+      "id": "script:051000:016",
+      "sourceFingerprint": "ff4680c29622b22f9634ef20252bb13f9f70babd693f2cf97c761d5496c12b79",
+      "canonicalEnglish": "Karu: Shoko, how are you?",
+      "context": {
+        "speaker": "Karu",
+        "listener": "Shoko",
+        "intent": "Greet Shoko and ask how she is.",
+        "tone": "Simple, measured friendliness.",
+        "terminology": [
+          "character.karu",
+          "character.shoko"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": ",\nHI!"
+      },
+      "findings": [
+        "“HI!” drops the question. The canonical greeting must retain the friendly inquiry."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:014",
+      "sourceFingerprint": "697d537d28c3517f05afff3559a96f48555bf1b43c81540a142438a60730be48",
+      "canonicalEnglish": "Lucia: Oh my, you both look exhausted. What happened? Come over here and rest a while.\n[After resting]\nLucia: Off you go, then. Take care!",
+      "context": {
+        "speaker": "Lucia",
+        "listener": "Sion and Shoko",
+        "intent": "Express concern, offer rest, then send them on their way.",
+        "tone": "Maternal and caring.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "YOU BOTH LOOK\nTIRED. COME\nOVER HERE AND\nHAVE A REST.",
+        "t010": "OFF YOU GO!"
+      },
+      "findings": [
+        "The existing draft omits her question about what happened.",
+        "The farewell is the conventional send-off for someone leaving; it does not mean Lucia herself is leaving."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:015",
+      "sourceFingerprint": "61d2ce03c402082a169db036b401c913159c61e7a89384de48f662ec6a9b7017",
+      "canonicalEnglish": "Lucia: There's something odd about you two... You're not planning to go and see that meteor, are you?!",
+      "context": {
+        "speaker": "Lucia",
+        "listener": "Sion and Shoko",
+        "intent": "Voice a strong suspicion as a question.",
+        "tone": "Suspicious and protective.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t000": "YOU TWO ARE\nACTING ODD.\nGOING TO SEE\nTHE METEOR?!"
+      },
+      "findings": [
+        "The draft communicates the suspicion, but fuller English better preserves the disbelieving, pointed question."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:034",
+      "sourceFingerprint": "504a0b9f2350a76c4eac719a83c72bf0e02de95d605774b499e698343d4c6769",
+      "canonicalEnglish": "Survival Knife",
+      "context": {
+        "speaker": "System narrator",
+        "listener": "Player",
+        "intent": "Item/amount component in the shared discovery message.",
+        "tone": null,
+        "terminology": [
+          "weapon.survival_knife"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "KNIFE"
+      },
+      "findings": [
+        "KNIFE drops the weapon's identifying qualifier; keep Survival Knife in canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:035",
+      "sourceFingerprint": "9cd8964b36cdbe16411397eddc019ea3a1acd38b1cd172e81d37844bc54bea93",
+      "canonicalEnglish": "{item.hand_medical}",
+      "context": {
+        "speaker": "System narrator",
+        "listener": "Player",
+        "intent": "Item/amount component in the shared discovery message.",
+        "tone": null,
+        "terminology": [
+          "item.hand_medical"
+        ],
+        "uncertainty": [
+          "Canonical name unresolved; placeholder is intentional."
+        ],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "MEDS"
+      },
+      "findings": [
+        "MEDS is a provisional display label, not a determination that this is loose medicine. Resolve the item's nature before choosing a canonical English name."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_context",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:036",
+      "sourceFingerprint": "8cb6429bd18fb479bb3cb9b60185f37e7c5bff9bf7a256e549299cc05f807ecf",
+      "canonicalEnglish": "{item.protector}",
+      "context": {
+        "speaker": "System narrator",
+        "listener": "Player",
+        "intent": "Item/amount component in the shared discovery message.",
+        "tone": null,
+        "terminology": [
+          "item.protector"
+        ],
+        "uncertainty": [
+          "Canonical name unresolved; placeholder is intentional."
+        ],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t002": "PROTECTOR"
+      },
+      "findings": [
+        "PROTECTOR is a provisional transliteration. Confirm the equipment type before replacing it with a specific armor name."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_context",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:037",
+      "sourceFingerprint": "8a1dfc0bf242953969755e7a6f85b6de04a49c6e5a85142cf3ba66ece05803e4",
+      "canonicalEnglish": "80 credits",
+      "context": {
+        "speaker": "System narrator",
+        "listener": "Player",
+        "intent": "Item/amount component in the shared discovery message.",
+        "tone": null,
+        "terminology": [
+          "currency.credits"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "80\nCREDITS"
+      },
+      "findings": [
+        "The source amount is 80; keep the number and currency together in the semantic message. The old line split is technical only."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:041",
+      "sourceFingerprint": "98cb18664ab15694a092931d7d026742dde1935d509e9690337779d05582c39c",
+      "canonicalEnglish": "You found {item_or_amount}.",
+      "context": {
+        "speaker": "System narrator",
+        "listener": "Player",
+        "intent": "Complete discovery message composed with the preceding highlighted item or amount.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": " FOUND"
+      },
+      "findings": [
+        "The source is a suffix. Canonical English describes the complete message, not the fragment “FOUND.”",
+        "A natural adaptation may use “{item} found.” The current engine emits the item first; moving “You found” before it is an engineering change, not a text-only replacement."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:019",
+      "sourceFingerprint": "d112f439df3d55ca533b06a6572924db0cc79fa6e55463e7006969e752813160",
+      "canonicalEnglish": "Lucia: Sion! What are you doing?!\nSion: Tch. She caught me.",
+      "context": {
+        "speaker": "Lucia / Sion",
+        "listener": "Sion / aside",
+        "intent": "Catch Sion in the act and preserve his annoyed response.",
+        "tone": "Lucia sharp; Sion annoyed at being caught.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t006": "!\nWHAT'S GOING\nON?",
+        "t012": "BUSTED."
+      },
+      "findings": [
+        "“WHAT'S GOING ON?” is less direct than Lucia's challenge about what he is doing.",
+        "“BUSTED.” is a plausible colloquial adaptation of being caught, but the canonical line should retain the irritated reaction."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:021",
+      "sourceFingerprint": "89567ae515b3bbc95daf53566ac2c53ea2413a67f7f4b8982b3a2f4707d57c9b",
+      "canonicalEnglish": "I can't just take someone else's things without asking.",
+      "context": {
+        "speaker": "Unlabeled thought; likely player character",
+        "listener": null,
+        "intent": "Refuse to take another person's property without permission.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [
+          "This entry clears a speaker header rather than naming a speaker; do not claim a voiced Sion line as established."
+        ],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t004": "NOT MINE.\nCAN'T TAKE IT"
+      },
+      "findings": [
+        "“NOT MINE. CAN'T TAKE IT” conveys the restriction but loses the permission/moral nuance and sounds mechanical."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:024",
+      "sourceFingerprint": "edbafcffdc298cf0549dbc2731b9a90055aab8b8f29d382ed0f11ba5cf521269",
+      "canonicalEnglish": "Oh, it looks like you're carrying too much. Please make some room and come back.",
+      "context": {
+        "speaker": "Unconfirmed speaker",
+        "listener": "Player party",
+        "intent": "Politely ask the player to free inventory space before returning.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t001": "YOUR BAGS ARE\nFULL. MAKE\nSOME ROOM."
+      },
+      "findings": [
+        "The current draft is too brusque for the polite request and omits coming back. Do not invent a physical bag-count mechanic."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:025",
+      "sourceFingerprint": "dd2b2a96746785b26ec5af13f07790d687391bc15108934d574ea71eb71402b2",
+      "canonicalEnglish": "Where on earth have you been?! The woman at the counter was furious!",
+      "context": {
+        "speaker": "Unconfirmed speaker",
+        "listener": "Sion / player party",
+        "intent": "Reproach an absence and report someone else's anger.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t000": "WHERE WERE\nYOU?! THE GIRL\nAT THE COUNTER\nWAS FURIOUS!"
+      },
+      "findings": [
+        "“The girl at the counter” may imply an age not established by the colloquial address. Use woman unless later context identifies her.",
+        "Keep the past tense: the line reports how she reacted."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:026",
+      "sourceFingerprint": "291caa516ac165036a02aedd73b3d2f03ca35a80a9ab7fc7d996bdbc0e12ad12",
+      "canonicalEnglish": "Ask the woman at the counter about work.",
+      "context": {
+        "speaker": "Unconfirmed speaker",
+        "listener": "Player party",
+        "intent": "Direct the player to the person responsible for work.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t000": "ASK AT THE\nCOUNTER\nABOUT WORK."
+      },
+      "findings": [
+        "The old adaptation is serviceable. Canonical English restores the person being referred to."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:028",
+      "sourceFingerprint": "f53741076ed7d73bebdcaaeae4d39ca2e4d66c160feba8b804a2cf1f49dc94dd",
+      "canonicalEnglish": "Sion: Huh? What's a dead Gigi doing here?\nShoko: Ugh, it's creepy! Hurry up and get rid of it, Sion!\nSion: All right, all right. I get it.",
+      "context": {
+        "speaker": "Sion / Shoko",
+        "listener": "Each other",
+        "intent": "Preserve surprise, disgust and Sion's mildly put-upon response.",
+        "tone": "Sion puzzled then put-upon; Shoko disgusted.",
+        "terminology": [
+          "creature.gigi"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": {
+        "t009": "HOW CREEPY!\nGET RID OF IT,\n",
+        "t011": "!",
+        "t017": "ALL RIGHT,\nALL RIGHT.",
+        "t003": "WHY IS THERE\nA DEAD GIGI\nHERE?"
+      },
+      "findings": [
+        "The draft broadly works, but Shoko's urgency and Sion's resigned response should remain conversational rather than a bare command/acknowledgment."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00414d",
+      "sourceFingerprint": "409f7d534a2385054f1b5ecd68ecc4e549dec1f13d71fa3bd02ac8d8c13a37f3",
+      "canonicalEnglish": "Data Display\nStatus\nItems\nParty\nEquipment\nAbilities\nSystem",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "DATA\nSTATUS\nITEMS\nPARTY\nEQUIP\nSKILLS\nSYSTEM",
+      "findings": [
+        "DATA is ambiguous without knowing the display command. Keep its exact behavior flagged; other rows match the normal field menu."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_context",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004158",
+      "sourceFingerprint": "f816a20afa68d05d119849d81311429b04800099658fc4afc2186359a637be79",
+      "canonicalEnglish": "Status\nItems\nParty\nEquipment\nAbilities\nSystem",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "STATUS\nITEMS\nPARTY\nEQUIP\nSKILLS\nSYSTEM",
+      "findings": [
+        "Expanded labels are clearer. SKILLS is a constrained synonym for canonical Abilities; keep one canonical category across field and battle.",
+        "PARTY is supported by the actual Talk/Formation submenu, despite the broader Japanese label."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004294",
+      "sourceFingerprint": "5e15d44646c0bc5f33ff29e0b4f46244a95a9f690ab96409cad5cd360af0ce05",
+      "canonicalEnglish": "The operation is complete. Put the Data Disk back in drive 2, then press any key.",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "DATA DISK\nDRIVE 2\nPRESS ANY KEY",
+      "findings": [
+        "Restore the completion and “back” information; the draft only gives the disk instruction."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0042d5",
+      "sourceFingerprint": "3a6fbeae68d72fadd4a206ac6c1d6c0af4e8c870d6d59e0ca5e4153ca74769ca",
+      "canonicalEnglish": "System\nSave\nLoad\nText Speed\nFormat User Disk",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "SYSTEM\nSAVE\nLOAD\nTEXT\nFORMAT",
+      "findings": [
+        "FORMAT hides which disk is affected. The canonical option must explicitly identify the User Disk.",
+        "TEXT opens message speed; Text Speed is clearer. Treat space needed for a clear formatting option as a UI task."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004306",
+      "sourceFingerprint": "feb1d780c94cec4af31c399df59922390dd248246042e6cfcaf7b9d48ff5101d",
+      "canonicalEnglish": "To save your game, insert the User Disk into drive 2, then press any key.",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "SAVE USER DISK\nDRIVE 2\nPRESS KEY",
+      "findings": [
+        "SAVE USER DISK can read as an instruction to save the disk itself. Restore the operation and insertion instruction."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004348",
+      "sourceFingerprint": "cd6d99458d435fe73ec4ad6e896ed01c99a94b823553d086c5e0834645842658",
+      "canonicalEnglish": "To load your game, insert the User Disk into drive 2, then press any key.",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "LOAD USER DISK\nDRIVE 2\nPRESS KEY",
+      "findings": [
+        "LOAD USER DISK lacks the insertion instruction; canonical should distinguish loading game data from changing disks."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0043f8",
+      "sourceFingerprint": "715084a7dbd4490a2f40c0ea7e6f2140861bb8d46c47e0d1041ecd0081238a4c",
+      "canonicalEnglish": "Attack\nAbilities\nItems\nEquipment\nStatus\nFlee",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "ATTACK\nSKILLS\nITEMS\nEQUIP\nSTATUS\nFLEE",
+      "findings": [
+        "These are commands/categories, so concise labels are natural English. SKILLS remains a technical adaptation of Abilities, not a change in the canonical mechanic."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004637",
+      "sourceFingerprint": "ad4ee0ee1d98aa6adf887946ea97786acf9f0aa4280d29d6921bdb114bce3eaa",
+      "canonicalEnglish": "Text Speed\nFast\nNormal\nSlow",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "SPEED\nFAST\nNORMAL\nSLOW",
+      "findings": [
+        "NORMAL is an improvement over NORM. Canonical heading should say what speed is being adjusted."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0046ec",
+      "sourceFingerprint": "41d1c36b48537b6ff7c1209a0ac458e73dab47999e71a4b7a9898694b761a462",
+      "canonicalEnglish": "There are no items available to equip.",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "NO GEAR\nTO EQUIP",
+      "findings": [
+        "NO GEAR TO EQUIP is a reasonable compact UI adaptation. Do not say the character is unable to equip anything in general."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004aec",
+      "sourceFingerprint": "bea3b6d16998ac0d2c0e101b895622c00558292ca533551f1460b5179433c8e1",
+      "canonicalEnglish": "There are no items available to equip.",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "NO GEAR\nTO EQUIP",
+      "findings": [
+        "Duplicate message: keep identical terminology and meaning in both storage locations."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0048af",
+      "sourceFingerprint": "70596770e7b773a17fa8065053b6acb306a96111fcd323a4c2255dd9cdbd8474",
+      "canonicalEnglish": "Yes\nNo",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "YES\nNO",
+      "findings": [
+        "Expanded YES/NO is appropriate. These options inherit the meaning of the preceding question; do not reinterpret the branch targets."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0048b6",
+      "sourceFingerprint": "8ada7830c1907137e1585e0da7ea2806d516055ca15e6f4321b5c6a98e526389",
+      "canonicalEnglish": "Talk\nFormation",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "TALK\nROW",
+      "findings": [
+        "ROW is not a good canonical label for changing party formation. Keep the two commands distinct."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00470c",
+      "sourceFingerprint": "e6ae3abc53744ad87a9c5e8acc30e6e5ee43d2099d628e6f37f9a389c9a033bb",
+      "canonicalEnglish": "New Game",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "START",
+      "findings": [
+        "START is serviceable but less explicit than New Game."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00471b",
+      "sourceFingerprint": "56337cf27f554f6ac01f010e7593fa95b1331df5d958ed89dc58c98bdd277ad3",
+      "canonicalEnglish": "Load Game",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "LOAD",
+      "findings": [
+        "LOAD is a reasonable constrained menu label."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004b0c",
+      "sourceFingerprint": "885f6ba984650c1c7c786762d1eb2063bf654ce3d37728d10e1921a5e49e8e16",
+      "canonicalEnglish": "New Game",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "START",
+      "findings": [
+        "Second start-menu copy; must agree with the first."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004b1b",
+      "sourceFingerprint": "796b9e31fa2c29d45ddab2c9d587bf3dad6cc4bdd70bc566faf222d413ebfc49",
+      "canonicalEnglish": "Load Game",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "LOAD",
+      "findings": [
+        "Second load-menu copy; must agree with the first."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001d72",
+      "sourceFingerprint": "a66671d59f8b1c80b041228b1ee3c752cf761bc1f34395077cf82c4be83089f2",
+      "canonicalEnglish": "Select a character",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "WHO?",
+      "findings": [
+        "The source asks “whose?”; this is the owner/subject selector. WHO? loses its distinction from the recipient selector."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001d7c",
+      "sourceFingerprint": "cc92f8e117a7298e45fda3925e2b7ee2ed23e82503d288a75f25e913a0d343c1",
+      "canonicalEnglish": "Select a recipient",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "WHO?",
+      "findings": [
+        "The source asks “to whom?”; keep recipient selection distinct from selecting whose information/equipment to inspect."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001dac",
+      "sourceFingerprint": "85926e31a2ba612b074e8ed4b223370093a3f26a28afaae294981d357d55b0ed",
+      "canonicalEnglish": "Current Formation",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "ORDER",
+      "findings": [
+        "ORDER is understandable but less specific than the canonical party-formation heading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001db7",
+      "sourceFingerprint": "4972962f363a8f0412a7b121922bd62dfe0053fcbaa048a4b97a9e87424f499b",
+      "canonicalEnglish": "Change the party formation.",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "REORDER",
+      "findings": [
+        "REORDER is a compact instruction, not the full canonical message."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001dc7",
+      "sourceFingerprint": "2d85353a84e6158bc3d6b56deadd226185948786aaa607162a8d400ecb39faf8",
+      "canonicalEnglish": "New Formation\n1\n2\n3\n4\n5",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "NEW ORDER\n1\n2\n3\n4\n5",
+      "findings": [
+        "The numbered positions must remain in order. Do not rename this command as an attack order without evidence."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001e2b",
+      "sourceFingerprint": "6344b1b80223243032238c9483b0c9acb84c6095140b747c7c3cf1993c887ac6",
+      "canonicalEnglish": "{character}",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": " ",
+      "findings": [
+        "Subject component of the following ability-unavailable sentence; Japanese particles have no standalone English equivalent. Keep the runtime name, not an English replacement particle."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001e2f",
+      "sourceFingerprint": "00031eafdaff85de7d5e02cb703f523d31bbb5c97c698fc96dfe22d0b4c94ea2",
+      "canonicalEnglish": "cannot use abilities.",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "NO SKILLS.",
+      "findings": [
+        "Compose with {character} to form a complete sentence. NO SKILLS asserts a lack of skills; the source states inability to use abilities, which is not necessarily the same condition."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001e98",
+      "sourceFingerprint": "0071d22b96d88679b93e631a9921c4c8242c2745e090198369533a7a85c853c9",
+      "canonicalEnglish": "You are not carrying any items.",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "NO ITEMS.",
+      "findings": [
+        "NO ITEMS is an acceptable compact system message."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0107aa",
+      "sourceFingerprint": "0c31cd39b849d36acb35140f87de439e80700796bb287423efbde1a55fb18c31",
+      "canonicalEnglish": "Survival Knife",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [
+          "weapon.survival_knife"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "KNIFE",
+      "findings": [
+        "Use the same canonical weapon name as the pickup; KNIFE remains a constrained adaptation."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:010875",
+      "sourceFingerprint": "cedc8a727213059a2895625cb90c4eb1c4e3c80b81742ceff1d76c8c66c4472e",
+      "canonicalEnglish": "Handgun",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [
+          "weapon.handgun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "GUN",
+      "findings": [
+        "GUN is broader than the source; preserve Handgun as the canonical item name."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:010b74",
+      "sourceFingerprint": "ddfd1eb6c7e4440892e9c82438ee475f618568d19ecc81e1706c4e4b3d326806",
+      "canonicalEnglish": "{item.hand_medical}",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [
+          "item.hand_medical"
+        ],
+        "uncertainty": [
+          "Exact medical-item name unresolved."
+        ],
+        "notes": []
+      },
+      "legacyEnglish": "MEDS",
+      "findings": [
+        "MEDS is provisional. The source does not by itself settle whether this is medicine, a kit or a device."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_context",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:011329",
+      "sourceFingerprint": "f1a51801ee541cf091a5955802c1601fbecb324ee7fa4b27c3ede2d6bece960d",
+      "canonicalEnglish": "Planet Hom",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [
+          "place.hom"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "HOM",
+      "findings": [
+        "HOM omits the planet qualifier. Preserve it in canonical location text."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:011723",
+      "sourceFingerprint": "6e245bdfaa7b7efa7baa20d1b41711092039df82d14c58b496b67d66ea967ed9",
+      "canonicalEnglish": "Saxen Canyon",
+      "context": {
+        "speaker": "UI / system",
+        "listener": "Player",
+        "intent": "Menu label, message or explicitly documented message component.",
+        "tone": null,
+        "terminology": [
+          "place.saxen"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "SAXEN",
+      "findings": [
+        "SAXEN drops the geographic feature; use the full working name consistently."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:0",
+      "sourceFingerprint": "deed26c30ac543e44b39753f4e2df68adf14d39aa882286788011366cdf0f2f6",
+      "canonicalEnglish": "Sion",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.sion"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "SION",
+      "findings": [
+        "Current given-name form is consistent with the working glossary; no claim of official romanization."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:1",
+      "sourceFingerprint": "6729809330b50e85734e1ec59708620069c6062d9810d72ab55000c308f595fe",
+      "canonicalEnglish": "Sion {surname.asmaan}",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.sion",
+          "surname.asmaan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "SION",
+      "findings": [
+        "The original is a full name. Legacy SION discards the surname. Preserve a glossary placeholder until its English spelling is decided."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_context",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:2",
+      "sourceFingerprint": "74d0c9cb5614a0fdafdc7be01a01ed8564ebf57286c5dd647d0e4a4be89f4bc0",
+      "canonicalEnglish": "Shoko",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.shoko"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "SHOKO",
+      "findings": [
+        "Current given-name form is consistent with the working glossary; no claim of official romanization."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:3",
+      "sourceFingerprint": "8125bb349a81243ba3328039d45ef613ef32693d1e8f0878ba18d663c7ab038b",
+      "canonicalEnglish": "Shoko Penrose",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.shoko",
+          "surname.penrose"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "SHOKO",
+      "findings": [
+        "The original full name must not collapse to SHOKO in the canonical layer. Penrose is a working rendering, not a claim of an official spelling."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:4",
+      "sourceFingerprint": "2bc5f8c3bd10e53d9a9b349f48e47e3d7a39c0aa51f3f5832cf239359899ff10",
+      "canonicalEnglish": "Karu",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.karu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "KARU",
+      "findings": [
+        "Working transliteration remains provisional; use consistently pending contrary evidence."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:6",
+      "sourceFingerprint": "64d22164c94241fbeea09b11908891c086e6a03c4f0bd09bd794c7309f91d46e",
+      "canonicalEnglish": "Joe",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "JOE",
+      "findings": [
+        "Current given-name form is consistent with the working glossary; no claim of official romanization."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:7",
+      "sourceFingerprint": "be6b0583b5295c8c1d98aeb28e9dfcea8cc058cfdc1b0e2981d793afc9c9293a",
+      "canonicalEnglish": "Scrap Joe",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "JOE",
+      "findings": [
+        "The full/name-variant source contains the Scrap epithet. JOE currently loses this identifying nickname."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:12",
+      "sourceFingerprint": "d67a341cb5fecf4c90dfa4dee0e71f934448a4d8588ae37268a2c947a10335f4",
+      "canonicalEnglish": "Lucia",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.lucia"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "LUCIA",
+      "findings": [
+        "Current given-name form is consistent with the working glossary; no claim of official romanization."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:13",
+      "sourceFingerprint": "d124bec10f8c3d84a249e680a7976ca6195e7aff7d220a728ac8cd0957a74299",
+      "canonicalEnglish": "Lucia {surname.asmaan}",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.lucia",
+          "surname.asmaan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "LUCIA",
+      "findings": [
+        "Restore the shared surname in the canonical full-name slot; romanization unresolved."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_context",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:14",
+      "sourceFingerprint": "53bcf5ec224d287a670eadd71e61c52683d77bad7a9847d36256ebbca6da78d4",
+      "canonicalEnglish": "Mamon",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.mamon"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "MAMON",
+      "findings": [
+        "Current given-name form is consistent with the working glossary; no claim of official romanization."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:15",
+      "sourceFingerprint": "04886bd99ec588d89e71d7c9e3ceb0a3970cbb14bd17684d5f4086a2ce9ccbeb",
+      "canonicalEnglish": "Mamon Penrose",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.mamon",
+          "surname.penrose"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "MAMON",
+      "findings": [
+        "The original full-name slot contains Penrose. MAMON is only the current constrained form."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:16",
+      "sourceFingerprint": "f3bb4c7b0be287ec6c794a96f8dc4c5412f0959f830fb02676aad7982327c9ae",
+      "canonicalEnglish": "Jido",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "character.jido"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "JIDO",
+      "findings": [
+        "Working romanization remains provisional. Source ID 16 supplies a given name, not a full name."
+      ],
+      "adaptationAssessment": {
+        "status": "acceptable_provisional",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:81",
+      "sourceFingerprint": "e28cd69834db9b1713c740aff74080916c5e6823a6c788935f2a9bf0b36e8cdf",
+      "canonicalEnglish": "Town of Cosma",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Canonical shared name or location label.",
+        "tone": null,
+        "terminology": [
+          "place.cosma"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "legacyEnglish": "COSMA",
+      "findings": [
+        "The original location label explicitly identifies a town. COSMA is a shorter display form."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "fixed:System:001edf",
+      "sourceFingerprint": "998e0c1607f65f4424a3f57c67e32377f87c6929ce9cba71f21662786fb560e9",
+      "canonicalEnglish": "Each party member gained {experience} experience points.\nCredits gained: {credits}\nScrap gained: {scrap}",
+      "context": {
+        "speaker": "System",
+        "listener": "Player",
+        "intent": "Explain per-character experience and report the displayed rewards.",
+        "tone": null,
+        "terminology": [],
+        "uncertainty": [
+          "Whether credits and scrap are pooled or awarded per member needs mechanics confirmation."
+        ],
+        "notes": []
+      },
+      "legacyEnglish": "Fixed-span battle strings in combat_text.py; reviewed directly against original tokens and runtime fields.",
+      "findings": [
+        "“PARTY GAINS EXP” loses the explicit each-member wording. Make experience distribution clear.",
+        "The Japanese sentence includes “each,” but actual credit/scrap distribution needs a gameplay/code check before describing them as separate per-character awards.",
+        "Keep numeric fields 0, 1 and 2 at their existing byte offsets; this canonical prose is not an insertion recipe."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "fixed:System:001f28",
+      "sourceFingerprint": "ae2b9955340388295a793d0221d4ab704daefd0f26633b66235d41b79663af90",
+      "canonicalEnglish": "Level up!\n{character}\nPP +{pp_gain}\nMP +{mp_gain}\nIQ +{iq_gain}\nR.Str. +{right_strength_gain}\nL.Str. +{left_strength_gain}\nAgility +{agility_gain}\n{stat.drb} +{drb_gain}\nStats increased.",
+      "context": {
+        "speaker": "System",
+        "listener": "Player",
+        "intent": "Present the named character's stat increases across the existing pages.",
+        "tone": null,
+        "terminology": [
+          "stat.drb"
+        ],
+        "uncertainty": [
+          "Full expansion/mechanics of PP, MP, IQ and Drb are not established by this review."
+        ],
+        "notes": []
+      },
+      "legacyEnglish": "Fixed-span battle strings in combat_text.py; reviewed directly against original tokens and runtime fields.",
+      "findings": [
+        "PTS is a defensible technical abbreviation; canonical gains should be visibly gains, not current totals.",
+        "Do not expand PP/MP/IQ into guessed mechanics. “Drb” also needs a verified full English stat name; preserve a glossary reference rather than guessing.",
+        "Name substitution, numbers 3–9, page waits, and compact stat-rendering controls must remain intact. Zero gains are valid."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,8 +1,10 @@
 """Alshark catalog adapter. Existing importer remains the authority on bytes."""
+import copy
 import json
 from pathlib import Path
 
-from retrotext.localization import FORMAT, make_record, validate_editorial
+from retrotext.localization import (FORMAT, make_record, validate_editorial, fingerprint,
+                                   index_unique, review_scene)
 from profiles.alshark.script_tool import export_disk, import_disk
 from profiles.alshark.script import decode_entry, digest
 from profiles.alshark.layout import validate_dialogue
@@ -54,6 +56,13 @@ def catalog(images):
         spans['Opening', address] = (end-address, 'menu')
     for r in ui:
         spans.setdefault((r['disk'], r['offset']), (r['size'], 'ui'))
+    # Both copies of the start menu are patched by the existing demo builder.
+    for offset, text in ((0x470c, 'START'), (0x471b, 'LOAD'),
+                         (0x4b0c, 'START'), (0x4b1b, 'LOAD')):
+        # These are individually patched 14-byte labels, even where a table
+        # pointer also addresses the combined two-row menu starting here.
+        spans['Opening', offset] = (14, 'menu')
+        drafts['Opening', offset] = text
     for (disk, offset), (size, kind) in sorted(spans.items()):
         raw = images[disk][offset:offset+size]
         source = dict(disk=disk, offset=offset, size=size, raw=raw.hex(),
@@ -77,11 +86,56 @@ def catalog(images):
     return dict(format=FORMAT, profile='alshark', sourceHashes={k: digest(v) for k, v in images.items()},
                 scenes=[], records=records,
                 coverageNotes=[
-                    'All entries supported by the existing bank exporter; all resident menu-table strings; reviewed UI; selected shared names; two fixed combat scripts.',
+                    'All entries supported by the existing bank exporter; all resident menu-table strings; both start-menu copies; reviewed UI; selected shared names; two fixed combat scripts.',
                     'Cinematic extraction, remaining item/ability/name tables and other undiscovered text remain research tasks.',
                     'Legacy adaptations are not canonical translations. Some hardcoded legacy scenes/fixed combat drafts have not been migrated.',
                     'Only supported script records can be applied through this adapter; other kinds can be localized/reviewed now but require a verified fitting adapter.'
                 ])
+
+
+def apply_editorial_review(document, pack, bible):
+    """Hydrate a public English-only review into a local source-preserving catalog.
+
+    This records editorial review, never technical fit or a runtime approval.
+    Return a copy so a failed late source guard cannot partially modify input.
+    """
+    if pack['format'] != 'retrotext-editorial-review-v1':
+        raise ValueError('Unsupported editorial review pack')
+    if pack['sourceHashes'] != document['sourceHashes']:
+        raise ValueError('Editorial pack source hashes do not match')
+    result = copy.deepcopy(document)
+    records = index_unique(result['records'], 'record')
+    edits = index_unique(pack['records'], 'editorial record')
+    scenes = index_unique(pack['scenes'], 'editorial scene')
+    existing_scenes = index_unique(result['scenes'], 'scene')
+    if existing_scenes.keys() & scenes.keys():
+        raise ValueError('Review scenes already exist; use a fresh catalog to hydrate a revised pack')
+    members = [i for scene in scenes.values() for i in scene['records']]
+    if len(members) != len(set(members)) or set(members) != edits.keys():
+        raise ValueError('Every editorial record must belong to exactly one review scene')
+    for ident, edit in edits.items():
+        record = records[ident]
+        if fingerprint(record['source']) != edit['sourceFingerprint']:
+            raise ValueError(f'{ident}: editorial source fingerprint mismatch')
+        if record['canonicalEnglish'] is not None or record['scene'] is not None:
+            raise ValueError(f'{ident}: existing editorial work would be overwritten')
+        record['canonicalEnglish'] = edit['canonicalEnglish']
+        record['context'] = copy.deepcopy(edit['context'])
+        record['target']['status'] = 'draft'
+        record['target']['notes'].extend(edit['findings'])
+        record['target']['notes'].append('Editorial review only; existing ROM text is unchanged.')
+    result['scenes'].extend(copy.deepcopy(pack['scenes']))
+    for scene in pack['scenes']:
+        for ident in scene['records']:
+            records[ident]['scene'] = scene['id']
+        review_scene(result, scene['id'], bible, pack['reviewer'], scene['reviewNote'])
+    for ident, edit in edits.items():
+        if edit['adaptationAssessment']['status'] == 'DOES_NOT_FIT':
+            record = records[ident]
+            record['target'].update(status='DOES_NOT_FIT', basedOn=record['review']['basis'],
+                                    reason=edit['adaptationAssessment']['reason'])
+    validate_editorial(result, bible)
+    return result
 
 
 def validate_sources(images, document):

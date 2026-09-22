@@ -6,13 +6,14 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from profiles.alshark.localization import BIBLE, catalog, load_images, validate_sources, compile_adaptations
+from profiles.alshark.localization import (BIBLE, catalog, load_images, validate_sources,
+                                          compile_adaptations, apply_editorial_review)
 from retrotext.localization import index_unique, review_scene, terminology_impact, validate_editorial
 
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('action', choices=['export', 'scene', 'review', 'validate', 'compile', 'impact'])
+    p.add_argument('action', choices=['export', 'scene', 'review', 'apply-review', 'validate', 'compile', 'impact'])
     p.add_argument('original', type=Path, help='Directory of original disks')
     p.add_argument('document', type=Path, help='Local localization JSON, normally in work/')
     p.add_argument('--output', type=Path)
@@ -22,6 +23,7 @@ def main():
     p.add_argument('--reviewer')
     p.add_argument('--note')
     p.add_argument('--term')
+    p.add_argument('--review-pack', type=Path)
     args = p.parse_args()
     try:
         images = load_images(args.original)
@@ -33,7 +35,11 @@ def main():
             document = json.loads(args.document.read_text())
             validate_sources(images, document)
             destination = args.output
-            if args.action == 'scene':
+            if args.action == 'apply-review':
+                if args.review_pack is None:
+                    raise ValueError('--review-pack is required')
+                result = apply_editorial_review(document, json.loads(args.review_pack.read_text()), bible)
+            elif args.action == 'scene':
                 if not args.scene_id or not args.records:
                     raise ValueError('--scene-id and --records required')
                 if args.scene_id in index_unique(document['scenes'], 'scene'):
@@ -73,6 +79,8 @@ def main():
             raise ValueError('Output must be outside the original disk directory')
         if dest == args.bible.resolve() or (args.action != 'export' and dest == args.document.resolve()):
             raise ValueError('Output must be separate from inputs')
+        if args.review_pack is not None and dest == args.review_pack.resolve():
+            raise ValueError('Output must not overwrite the editorial pack')
         destination.parent.mkdir(parents=True, exist_ok=True)
         if isinstance(result, bytes):
             destination.write_bytes(result)

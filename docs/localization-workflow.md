@@ -131,6 +131,23 @@ demo and does not patch shared names; use `build_demo --localization` for playte
 
 ## Migration and bible
 
+The user subsequently requested a review of all existing drafts. That review is
+stored in `profiles/alshark/editorial-review.json` (English only) and presented in
+`docs/editorial-review-2026-09-22.md`. Apply it to a fresh local source catalog:
+
+```sh
+python3 profiles/alshark/localization_tool.py export /path/to/original work/review-source-catalog.json
+python3 profiles/alshark/localization_tool.py apply-review /path/to/original work/review-source-catalog.json \
+  --review-pack profiles/alshark/editorial-review.json --output work/editorial-reviewed.json
+```
+
+Source fingerprints and disk hashes are checked before attaching the English.
+Existing editorial work cannot be overwritten by this action. It records the
+pack's editorial attestation, preserves old adaptations for comparison, and leaves
+them in draft/DOES_NOT_FIT states. It does not approve fitting or modify disks.
+The catalog now includes both separately patched startup-menu copies; re-export
+older catalogs before applying this pack rather than editing preservation fields.
+
 Do not spend the current reverse-engineering effort rewriting every old draft.
 When a scene is next touched, reconstruct/review canonical English from Japanese
 and context, then reconsider its existing constrained adaptation. In particular,

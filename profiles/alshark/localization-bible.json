@@ -3,30 +3,422 @@
   "profile": "alshark",
   "policy": "Working localization decisions, not claims of official romanization. Null means unknown. Preserve full names separately from temporary in-game given names.",
   "terms": [
-    {"id":"character.sion","category":"character","english":"Sion","fullName":null,"status":"working","relationships":["Lucia addresses Sion as her child in the opening scene.","Sion knows Joe and remembers toys made from scrap."],"voice":"Young and curious in the opening; do not exaggerate slang or childishness.","evidence":["Opening breakfast scene; initial town playtest"],"uncertainty":["Full name and official Latin spelling need source review."]},
-    {"id":"character.lucia","category":"character","english":"Lucia","fullName":null,"status":"working","relationships":["Sion's mother, based on opening dialogue and subsequent references."],"voice":"Warm and protective in the opening. Preserve affection alongside warnings.","evidence":["Opening breakfast, meteor warning and item-taking interruption"],"uncertainty":[]},
-    {"id":"character.karu","category":"character","english":"Karu","fullName":null,"status":"provisional","relationships":["Recognizes Sion and Shoko; encountered in the starting house."],"voice":"Measured diagnostic phrasing in the pulse/perspiration conversation. Natural English; robotic characterization is a working interpretation, not permission to omit grammar.","evidence":["051000:010; 2026-09-20 14:45 screenshot; 2026-09-21 14:03 screenshot"],"uncertainty":["Exact nature/model and official romanization unresolved; player described appearance as a robot dog."]},
-    {"id":"character.shoko","category":"character","english":"Shoko","fullName":null,"status":"working","relationships":["Knows Sion and accompanies him toward the meteor site."],"voice":"Establish from connected invitation/acceptance/refusal scenes; do not infer a general personality from abbreviated drafts.","evidence":["051000:002, 011, 012, 013; meteor-site playtest"],"uncertainty":["Full-name source exists at shared name ID 3; surname romanization still needs review. Legacy patch collapses short/full IDs."]},
-    {"id":"character.jido","category":"character","english":"Jido","fullName":null,"status":"provisional","relationships":["Participates in family breakfast and meteor expedition discussion."],"voice":null,"evidence":["Opening scene; 051000:030"],"uncertainty":["Confirm family relationship and spelling from complete source context."]},
-    {"id":"character.mamon","category":"character","english":"Mamon","fullName":null,"status":"provisional","relationships":["Named in opening expedition discussion."],"voice":null,"evidence":["Opening scene; shared name IDs 14/15"],"uncertainty":["Full name and romanization unresolved."]},
-    {"id":"character.joe","category":"character","english":"Joe","fullName":null,"status":"working","relationships":["Sion remembers him making toys from scrap; legacy dialogue calls him Uncle Joe."],"voice":null,"evidence":["Opening breakfast scene; shared name IDs 6/7"],"uncertainty":["Do not assume literal kinship from the current English draft; review Japanese form of address."]},
-    {"id":"place.cosma","category":"location","english":"Cosma","status":"provisional","evidence":["Starting town; shared location ID 81"],"uncertainty":["Official spelling unknown."]},
-    {"id":"place.saxen","category":"location","english":"Saxen Canyon","status":"provisional","evidence":["051000:009; System location string 0x11723"],"uncertainty":["Romanization needs review; SAXEN is only the legacy display abbreviation."]},
-    {"id":"place.hom","category":"location","english":"Hom","status":"provisional","evidence":["Planet label at System 0x11329"],"uncertainty":["Official spelling unknown; preserve planet context in canonical prose."]},
-    {"id":"faction.wyuria","category":"nation_or_faction","english":"Wyuria","status":"unresolved","evidence":["Existing area-draft research"],"uncertainty":["Spelling, political classification and context need review before canonical commitment."]},
-    {"id":"faction.zolias","category":"nation_or_faction","english":"Zolias","status":"unresolved","evidence":["Area draft and meteor aftermath playtest"],"uncertainty":["Spelling and faction/nation relationship unresolved."]},
-    {"id":"faction.federation","category":"faction","english":"Federation","status":"provisional","evidence":["2026-09-21 13:20 cinematic screenshot"],"uncertainty":["Shoko asks whether the ship belongs to its military; this is not confirmation of ownership."]},
-    {"id":"item.camp_kit","category":"item","english":"Camp Kit","status":"working","evidence":["051000:017 elder gift; 2026-09-21 inventory screenshot"],"uncertainty":["Exact PC-98 recovery, consumption and repeat-gift rules unverified. Leaving and re-entering town preceded one successful gift."]},
-    {"id":"item.hand_medical","category":"item","english":null,"legacyLabel":"MEDS","status":"unresolved","evidence":["System 0x10b74; pickup 051000:035"],"uncertainty":["Determine whether medicine, medical kit or another device from gameplay before choosing canonical terminology."]},
-    {"id":"weapon.survival_knife","category":"weapon","english":"Survival Knife","legacyLabel":"KNIFE","status":"working","evidence":["System 0x107aa; pickup 051000:034"],"uncertainty":[]},
-    {"id":"weapon.handgun","category":"weapon","english":"Handgun","legacyLabel":"GUN","status":"working","evidence":["System 0x10875; Shoko invitation branch"],"uncertainty":[]},
-    {"id":"item.protector","category":"equipment","english":null,"legacyLabel":"PROTECTOR","status":"unresolved","evidence":["Pickup 051000:036"],"uncertainty":["Determine exact protective equipment type; do not infer a specific armor piece."]},
-    {"id":"mechanic.abilities","category":"ability","english":"Abilities","legacyLabel":"SKILLS","status":"working","evidence":["Field and battle menu ability category"],"uncertainty":["Individual ability/spell names and mechanics remain to be cataloged; do not assume they are all magic."]},
-    {"id":"technology.jet_hovercraft","category":"technology","english":"Jet Hovercraft","status":"provisional","evidence":["2026-09-21 13:20 cinematic screenshot"],"uncertainty":["Review complete cinematic narration before locking terminology."]}
+    {
+      "id": "character.sion",
+      "category": "character",
+      "english": "Sion",
+      "fullName": "Sion {surname.asmaan}",
+      "status": "working",
+      "relationships": [
+        "Lucia is Sion's mother (051000:019).",
+        "Jido is Sion's father (051000:030).",
+        "Sion knows Joe and remembers toys made from scrap; 'Uncle' does not establish biological kinship."
+      ],
+      "voice": "Young and curious in the opening; do not exaggerate slang or childishness.",
+      "evidence": [
+        "Opening breakfast scene; initial town playtest"
+      ],
+      "uncertainty": [
+        "Surname spelling remains unresolved; source has a distinct full-name form at ID 1."
+      ]
+    },
+    {
+      "id": "character.lucia",
+      "category": "character",
+      "english": "Lucia",
+      "fullName": "Lucia {surname.asmaan}",
+      "status": "working",
+      "relationships": [
+        "Sion's mother, based on opening dialogue and subsequent references."
+      ],
+      "voice": "Warm and protective in the opening. Preserve affection alongside warnings.",
+      "evidence": [
+        "Opening breakfast, meteor warning and item-taking interruption",
+        "Full-name ID 13; mother reference in 051000:019"
+      ],
+      "uncertainty": []
+    },
+    {
+      "id": "character.karu",
+      "category": "character",
+      "english": "Karu",
+      "fullName": null,
+      "status": "provisional",
+      "relationships": [
+        "Recognizes Sion and Shoko; encountered in the starting house."
+      ],
+      "voice": "Measured diagnostic phrasing, ordinary social greetings, and self-reference by name in the later return conversation. Use comprehensible English; do not manufacture ungrammatical speech as a substitute for machine characterization.",
+      "evidence": [
+        "051000:010; 2026-09-20 14:45 screenshot; 2026-09-21 14:03 screenshot",
+        "051000:019: older model, no image-playback equipment; 051000:027: works alongside Sion"
+      ],
+      "uncertainty": [
+        "Exact model/type and official spelling unresolved; the player described a robot-dog appearance."
+      ]
+    },
+    {
+      "id": "character.shoko",
+      "category": "character",
+      "english": "Shoko",
+      "fullName": "Shoko Penrose",
+      "status": "working",
+      "relationships": [
+        "Knows Sion and accompanies him toward the meteor site."
+      ],
+      "voice": "Eighteen, indignant at being treated as a child; animated and knowing in the invitation, teasing on refusal/reconsideration, confident about the guns. Preserve her euphemistic claim to have borrowed them.",
+      "evidence": [
+        "051000:002, 011, 012, 013; meteor-site playtest"
+      ],
+      "uncertainty": [
+        "Penrose is a working English rendering from full-name ID 3, not an official romanization claim.",
+        "Mamon shares her surname; verify the explicit father/name link before treating it as settled."
+      ]
+    },
+    {
+      "id": "character.jido",
+      "category": "character",
+      "english": "Jido",
+      "fullName": null,
+      "status": "provisional",
+      "relationships": [
+        "Sion's father, explicitly addressed as Dad in 051000:030."
+      ],
+      "voice": "Matter-of-fact but affectionate in the breakfast scene; preserve the warm response about Joe and the tentative prospect of a rare day off.",
+      "evidence": [
+        "Opening scene; 051000:030"
+      ],
+      "uncertainty": [
+        "Official romanization and full name remain unverified."
+      ]
+    },
+    {
+      "id": "character.mamon",
+      "category": "character",
+      "english": "Mamon",
+      "fullName": "Mamon Penrose",
+      "status": "provisional",
+      "relationships": [
+        "Named in opening expedition discussion."
+      ],
+      "voice": null,
+      "evidence": [
+        "Opening scene; shared name IDs 14/15"
+      ],
+      "uncertainty": [
+        "Mamon spelling provisional; Penrose working from full-name ID 15.",
+        "Possible father of Shoko based on shared surname and expedition context; direct identification still to be verified."
+      ]
+    },
+    {
+      "id": "character.joe",
+      "category": "character",
+      "english": "Joe",
+      "fullName": "Scrap Joe (epithet; legal full name unknown)",
+      "status": "working",
+      "relationships": [
+        "Sion remembers him making toys from scrap; legacy dialogue calls him Uncle Joe."
+      ],
+      "voice": null,
+      "evidence": [
+        "Opening breakfast scene; shared name IDs 6/7",
+        "Shared name ID 7; 051000:030 explicitly uses Scrap Joe"
+      ],
+      "uncertainty": [
+        "Do not assume literal kinship from the current English draft; review Japanese form of address."
+      ]
+    },
+    {
+      "id": "place.cosma",
+      "category": "location",
+      "english": "Cosma",
+      "status": "provisional",
+      "evidence": [
+        "Starting town; shared location ID 81"
+      ],
+      "uncertainty": [
+        "Official spelling unknown."
+      ]
+    },
+    {
+      "id": "place.saxen",
+      "category": "location",
+      "english": "Saxen Canyon",
+      "status": "provisional",
+      "evidence": [
+        "051000:009; System location string 0x11723"
+      ],
+      "uncertainty": [
+        "Romanization needs review; SAXEN is only the legacy display abbreviation."
+      ]
+    },
+    {
+      "id": "place.hom",
+      "category": "location",
+      "english": "Hom",
+      "status": "provisional",
+      "evidence": [
+        "Planet label at System 0x11329"
+      ],
+      "uncertainty": [
+        "Official spelling unknown; preserve planet context in canonical prose."
+      ]
+    },
+    {
+      "id": "faction.wyuria",
+      "category": "kingdom",
+      "english": "Wyuria",
+      "status": "unresolved",
+      "evidence": [
+        "Existing area-draft research"
+      ],
+      "uncertainty": [
+        "Romanization unresolved. Kingdom status is explicit in 051000:004."
+      ]
+    },
+    {
+      "id": "faction.zolias",
+      "category": "empire",
+      "english": "Zolias",
+      "status": "unresolved",
+      "evidence": [
+        "Area draft and meteor aftermath playtest"
+      ],
+      "uncertainty": [
+        "Romanization unresolved. Empire status is explicit in 051000:004."
+      ]
+    },
+    {
+      "id": "faction.federation",
+      "category": "faction",
+      "english": "Federation",
+      "status": "provisional",
+      "evidence": [
+        "2026-09-21 13:20 cinematic screenshot"
+      ],
+      "uncertainty": [
+        "Shoko asks whether the ship belongs to its military; this is not confirmation of ownership."
+      ]
+    },
+    {
+      "id": "item.camp_kit",
+      "category": "item",
+      "english": "Camp Kit",
+      "status": "working",
+      "evidence": [
+        "051000:017 elder gift; 2026-09-21 inventory screenshot"
+      ],
+      "uncertainty": [
+        "Exact PC-98 recovery, consumption and repeat-gift rules unverified. Leaving and re-entering town preceded one successful gift."
+      ]
+    },
+    {
+      "id": "item.hand_medical",
+      "category": "item",
+      "english": null,
+      "legacyLabel": "MEDS",
+      "status": "unresolved",
+      "evidence": [
+        "System 0x10b74; pickup 051000:035"
+      ],
+      "uncertainty": [
+        "Determine whether medicine, medical kit or another device from gameplay before choosing canonical terminology."
+      ]
+    },
+    {
+      "id": "weapon.survival_knife",
+      "category": "weapon",
+      "english": "Survival Knife",
+      "legacyLabel": "KNIFE",
+      "status": "working",
+      "evidence": [
+        "System 0x107aa; pickup 051000:034"
+      ],
+      "uncertainty": []
+    },
+    {
+      "id": "weapon.handgun",
+      "category": "weapon",
+      "english": "Handgun",
+      "legacyLabel": "GUN",
+      "status": "working",
+      "evidence": [
+        "System 0x10875; Shoko invitation branch"
+      ],
+      "uncertainty": []
+    },
+    {
+      "id": "item.protector",
+      "category": "equipment",
+      "english": null,
+      "legacyLabel": "PROTECTOR",
+      "status": "unresolved",
+      "evidence": [
+        "Pickup 051000:036"
+      ],
+      "uncertainty": [
+        "Determine exact protective equipment type; do not infer a specific armor piece."
+      ]
+    },
+    {
+      "id": "mechanic.abilities",
+      "category": "ability",
+      "english": "Abilities",
+      "legacyLabel": "SKILLS",
+      "status": "working",
+      "evidence": [
+        "Field and battle menu ability category"
+      ],
+      "uncertainty": [
+        "Individual ability/spell names and mechanics remain to be cataloged; do not assume they are all magic."
+      ]
+    },
+    {
+      "id": "technology.jet_hovercraft",
+      "category": "technology",
+      "english": "Jet Hovercraft",
+      "status": "provisional",
+      "evidence": [
+        "2026-09-21 13:20 cinematic screenshot"
+      ],
+      "uncertainty": [
+        "Review complete cinematic narration before locking terminology."
+      ]
+    },
+    {
+      "id": "surname.asmaan",
+      "category": "surname",
+      "english": null,
+      "status": "unresolved",
+      "evidence": [
+        "Original full-name IDs 1 and 13 share the same surname."
+      ],
+      "uncertainty": [
+        "Long vowel in Japanese; Asmaan is a candidate identifier, not an approved English spelling. Do not discard the surname because the current ROM patch uses given names."
+      ]
+    },
+    {
+      "id": "surname.penrose",
+      "category": "surname",
+      "english": "Penrose",
+      "status": "working",
+      "evidence": [
+        "Original full-name IDs 3 and 15; Dr. Penrose in 051000:003."
+      ],
+      "uncertainty": [
+        "Working rendering, not verified official spelling."
+      ]
+    },
+    {
+      "id": "place.dust",
+      "category": "location",
+      "english": "Dust",
+      "status": "working",
+      "evidence": [
+        "Joe lives there in 051000:000; waste-disposal site in 051000:006."
+      ],
+      "uncertainty": [
+        "Exact administrative/geographic classification is not established; do not invent a town/city designation."
+      ]
+    },
+    {
+      "id": "place.hamack",
+      "category": "location",
+      "english": "Hamack",
+      "status": "provisional",
+      "evidence": [
+        "051000:006 explicitly describes a town to the west, with radioactive contamination nearby."
+      ],
+      "uncertainty": [
+        "Official spelling unknown."
+      ]
+    },
+    {
+      "id": "creature.gigi",
+      "category": "creature_term",
+      "english": "Gigi",
+      "status": "working",
+      "evidence": [
+        "051000:006, 011 and 028."
+      ],
+      "uncertainty": [
+        "Exact scope/species classification unresolved. Do not equate all large insects with Gigi automatically."
+      ]
+    },
+    {
+      "id": "currency.credits",
+      "category": "currency",
+      "english": "credits",
+      "status": "working",
+      "evidence": [
+        "80-credit pickup and battle reward text."
+      ],
+      "uncertainty": []
+    },
+    {
+      "id": "material.scrap",
+      "category": "resource",
+      "english": "scrap",
+      "status": "working",
+      "evidence": [
+        "Breakfast toys and battle reward resource."
+      ],
+      "uncertainty": [
+        "Do not infer per-character distribution from the reward sentence without a gameplay/code check."
+      ]
+    },
+    {
+      "id": "stat.drb",
+      "category": "stat",
+      "english": null,
+      "status": "unresolved",
+      "evidence": [
+        "Compact Drb label in the fixed level-up renderer."
+      ],
+      "uncertainty": [
+        "Full meaning unverified. Retain Drb as the display abbreviation until resolved."
+      ]
+    }
   ],
   "storyStages": [
-    {"id":"opening","known":["A meteor is discussed at breakfast; Sion wants to see it and is told not to go."],"doNotAssume":["Later revelations or ship ownership."]},
-    {"id":"town_departure","known":["Shoko can accompany Sion; branches include acceptance and refusal.","The elder has a conditional Camp Kit gift."],"doNotAssume":["Level 2 is required for the gift.","The elder gives unlimited replacements."]},
-    {"id":"meteor_arrival","known":["Sion and Shoko observe an expedition and an unidentified ship."],"doNotAssume":["Shoko's speculation about the ship is established fact.","Early town recovery options remain available after this event."]}
-  ]
+    {
+      "id": "opening",
+      "known": [
+        "A meteor is discussed at breakfast; Sion wants to see it and is told not to go."
+      ],
+      "doNotAssume": [
+        "Later revelations or ship ownership."
+      ]
+    },
+    {
+      "id": "town_departure",
+      "known": [
+        "Shoko can accompany Sion; branches include acceptance and refusal.",
+        "The elder has a conditional Camp Kit gift."
+      ],
+      "doNotAssume": [
+        "Level 2 is required for the gift.",
+        "The elder gives unlimited replacements."
+      ]
+    },
+    {
+      "id": "meteor_arrival",
+      "known": [
+        "Sion and Shoko observe an expedition and an unidentified ship."
+      ],
+      "doNotAssume": [
+        "Shoko's speculation about the ship is established fact.",
+        "Early town recovery options remain available after this event."
+      ]
+    }
+  ],
+  "editorialReview": {
+    "date": "2026-09-22",
+    "scope": "All prior English drafts; see editorial-review.json and docs/editorial-review-2026-09-22.md.",
+    "decisions": [
+      "Canonical speaker label Old Man replaces the unsupported formal role implied by ELDER.",
+      "Abilities is the canonical menu category; SKILLS is only a possible constrained label.",
+      "Full-name forms and the Scrap Joe epithet must remain distinct from given names.",
+      "Unresolved medical/equipment names use glossary placeholders instead of guessing from compressed labels."
+    ]
+  }
 }
