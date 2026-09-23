@@ -11,19 +11,21 @@
       "canonicalEnglish": "Insert the {disk} Disk in drive {drive}, then press any key.",
       "context": {
         "intent": "Identify the requested disk and drive; preserve dynamic substitution.",
-        "notes": []
+        "notes": [
+          "Disk labels match image names, including Opening. Seven-cell labels use a separate resident pool."
+        ]
       },
       "review": {
-        "basis": "f0a5fff3c93a31eadf6f0c36ebc78c5c06d637c45a3684237b83e48d30c3128f",
+        "basis": "282b6354fedc730d6ef5864dac323ae492bdce8d7447149a8666731464876de6",
         "reviewer": "Codex",
-        "note": "Reviewed both prompts together and all six disk labels; disk/drive placeholders remain dynamic."
+        "note": "Reviewed both dynamic instructions and all six labels against image names; Opening is spelled in full. Technical adaptation keeps drive numbers explicit."
       },
       "target": {
         "status": "adapted",
-        "basedOn": "f0a5fff3c93a31eadf6f0c36ebc78c5c06d637c45a3684237b83e48d30c3128f",
-        "inGameEnglish": "      \nIN DRIVE 1\nPRESS ANY KEY.",
+        "basedOn": "282b6354fedc730d6ef5864dac323ae492bdce8d7447149a8666731464876de6",
+        "inGameEnglish": "       \nIN DRIVE 1\nPRESS ANY KEY.",
         "notes": [
-          "Six-cell names remain fixed; templates supply drive instructions. Disk noun is implicit in the constrained prompt."
+          "Seven-cell name copies; dual prompt preserves the 35-byte row stride. Disk noun is implicit."
         ],
         "runtime_verified": false
       }
@@ -38,19 +40,21 @@
       "canonicalEnglish": "Insert the {disk1} Disk in drive {drive1} and the {disk2} Disk in drive {drive2}, then press any key.",
       "context": {
         "intent": "Identify the requested disk and drive; preserve dynamic substitution.",
-        "notes": []
+        "notes": [
+          "Disk labels match image names, including Opening. Seven-cell labels use a separate resident pool."
+        ]
       },
       "review": {
-        "basis": "42ee447bf99469a36351d7850bf80c4898b7cddfb0be83b07abde1ca319ee4f6",
+        "basis": "a58281a8b10789274c0f27376a7c525f22667ff7e12e91f543ba7b36af9b74da",
         "reviewer": "Codex",
-        "note": "Reviewed both prompts together and all six disk labels; disk/drive placeholders remain dynamic."
+        "note": "Reviewed both dynamic instructions and all six labels against image names; Opening is spelled in full. Technical adaptation keeps drive numbers explicit."
       },
       "target": {
         "status": "adapted",
-        "basedOn": "42ee447bf99469a36351d7850bf80c4898b7cddfb0be83b07abde1ca319ee4f6",
-        "inGameEnglish": "       IN DRIVE 1\n       IN DRIVE 2\nPRESS ANY KEY.",
+        "basedOn": "a58281a8b10789274c0f27376a7c525f22667ff7e12e91f543ba7b36af9b74da",
+        "inGameEnglish": "        DRIVE 1  \n        DRIVE 2  \nPRESS ANY KEY.",
         "notes": [
-          "Six-cell names remain fixed; templates supply drive instructions. Disk noun is implicit in the constrained prompt."
+          "Seven-cell name copies; dual prompt preserves the 35-byte row stride. Disk noun is implicit."
         ],
         "runtime_verified": false
       }
@@ -66,20 +70,20 @@
       "context": {
         "intent": "Identify the requested disk and drive; preserve dynamic substitution.",
         "notes": [
-          "INTRO denotes the Opening Disk image."
+          "Disk labels match image names, including Opening. Seven-cell labels use a separate resident pool."
         ]
       },
       "review": {
-        "basis": "f0f3400f3074c90014b84d64286d65796751ab291fdbfd1eb88145c17339ff47",
+        "basis": "a8377ed70d75ae850698b7d4fbfc52f3f802fb25615712c160d5eb40531e55cb",
         "reviewer": "Codex",
-        "note": "Reviewed both prompts together and all six disk labels; disk/drive placeholders remain dynamic."
+        "note": "Reviewed both dynamic instructions and all six labels against image names; Opening is spelled in full. Technical adaptation keeps drive numbers explicit."
       },
       "target": {
         "status": "adapted",
-        "basedOn": "f0f3400f3074c90014b84d64286d65796751ab291fdbfd1eb88145c17339ff47",
-        "inGameEnglish": "INTRO ",
+        "basedOn": "a8377ed70d75ae850698b7d4fbfc52f3f802fb25615712c160d5eb40531e55cb",
+        "inGameEnglish": "OPENING",
         "notes": [
-          "Six-cell names remain fixed; templates supply drive instructions. Disk noun is implicit in the constrained prompt."
+          "Seven-cell name copies; dual prompt preserves the 35-byte row stride. Disk noun is implicit."
         ],
         "runtime_verified": false
       }
@@ -94,19 +98,21 @@
       "canonicalEnglish": "System",
       "context": {
         "intent": "Identify the requested disk and drive; preserve dynamic substitution.",
-        "notes": []
+        "notes": [
+          "Disk labels match image names, including Opening. Seven-cell labels use a separate resident pool."
+        ]
       },
       "review": {
-        "basis": "9787c6e8e5ca13e710e7ff55df95adf7d93191e903e3ab40223c6f7acec0ea35",
+        "basis": "b49672b0eaa8f51eeff6cdd9ba6ab526df9f9d8ce5c1436dfd977b2568422139",
         "reviewer": "Codex",
-        "note": "Reviewed both prompts together and all six disk labels; disk/drive placeholders remain dynamic."
+        "note": "Reviewed both dynamic instructions and all six labels against image names; Opening is spelled in full. Technical adaptation keeps drive numbers explicit."
       },
       "target": {
         "status": "adapted",
-        "basedOn": "9787c6e8e5ca13e710e7ff55df95adf7d93191e903e3ab40223c6f7acec0ea35",
-        "inGameEnglish": "SYSTEM",
+        "basedOn": "b49672b0eaa8f51eeff6cdd9ba6ab526df9f9d8ce5c1436dfd977b2568422139",
+        "inGameEnglish": "SYSTEM ",
         "notes": [
-          "Six-cell names remain fixed; templates supply drive instructions. Disk noun is implicit in the constrained prompt."
+          "Seven-cell name copies; dual prompt preserves the 35-byte row stride. Disk noun is implicit."
         ],
         "runtime_verified": false
       }
@@ -121,19 +127,21 @@
       "canonicalEnglish": "Data",
       "context": {
         "intent": "Identify the requested disk and drive; preserve dynamic substitution.",
-        "notes": []
+        "notes": [
+          "Disk labels match image names, including Opening. Seven-cell labels use a separate resident pool."
+        ]
       },
       "review": {
-        "basis": "9fac4771bbe44cdb1470b50ff163022a15440baff6e10ba516f1c2e9920f88f6",
+        "basis": "d19d9932e99954f7022e88768128c51feb5e2e3a075a14436ce076bb8347b522",
         "reviewer": "Codex",
-        "note": "Reviewed both prompts together and all six disk labels; disk/drive placeholders remain dynamic."
+        "note": "Reviewed both dynamic instructions and all six labels against image names; Opening is spelled in full. Technical adaptation keeps drive numbers explicit."
       },
       "target": {
         "status": "adapted",
-        "basedOn": "9fac4771bbe44cdb1470b50ff163022a15440baff6e10ba516f1c2e9920f88f6",
-        "inGameEnglish": "DATA  ",
+        "basedOn": "d19d9932e99954f7022e88768128c51feb5e2e3a075a14436ce076bb8347b522",
+        "inGameEnglish": "DATA   ",
         "notes": [
-          "Six-cell names remain fixed; templates supply drive instructions. Disk noun is implicit in the constrained prompt."
+          "Seven-cell name copies; dual prompt preserves the 35-byte row stride. Disk noun is implicit."
         ],
         "runtime_verified": false
       }
@@ -148,19 +156,21 @@
       "canonicalEnglish": "Visual",
       "context": {
         "intent": "Identify the requested disk and drive; preserve dynamic substitution.",
-        "notes": []
+        "notes": [
+          "Disk labels match image names, including Opening. Seven-cell labels use a separate resident pool."
+        ]
       },
       "review": {
-        "basis": "0011a7f493dd9a8d18056f8c22b7019fedfc506de5962d254c86600a35d64cbb",
+        "basis": "387c74ff0a33342f0487cab89c5ce428337822c222bf36099a5f53938f4f51d1",
         "reviewer": "Codex",
-        "note": "Reviewed both prompts together and all six disk labels; disk/drive placeholders remain dynamic."
+        "note": "Reviewed both dynamic instructions and all six labels against image names; Opening is spelled in full. Technical adaptation keeps drive numbers explicit."
       },
       "target": {
         "status": "adapted",
-        "basedOn": "0011a7f493dd9a8d18056f8c22b7019fedfc506de5962d254c86600a35d64cbb",
-        "inGameEnglish": "VISUAL",
+        "basedOn": "387c74ff0a33342f0487cab89c5ce428337822c222bf36099a5f53938f4f51d1",
+        "inGameEnglish": "VISUAL ",
         "notes": [
-          "Six-cell names remain fixed; templates supply drive instructions. Disk noun is implicit in the constrained prompt."
+          "Seven-cell name copies; dual prompt preserves the 35-byte row stride. Disk noun is implicit."
         ],
         "runtime_verified": false
       }
@@ -175,19 +185,21 @@
       "canonicalEnglish": "Ending",
       "context": {
         "intent": "Identify the requested disk and drive; preserve dynamic substitution.",
-        "notes": []
+        "notes": [
+          "Disk labels match image names, including Opening. Seven-cell labels use a separate resident pool."
+        ]
       },
       "review": {
-        "basis": "056d69df57edb11961b967febaa06d1cc37f6020b17a290e90f3991eb50ef8d4",
+        "basis": "6979baf1361084aa8097aaded1603596978c0c93a5d4c7a79ad2e87db7e60b16",
         "reviewer": "Codex",
-        "note": "Reviewed both prompts together and all six disk labels; disk/drive placeholders remain dynamic."
+        "note": "Reviewed both dynamic instructions and all six labels against image names; Opening is spelled in full. Technical adaptation keeps drive numbers explicit."
       },
       "target": {
         "status": "adapted",
-        "basedOn": "056d69df57edb11961b967febaa06d1cc37f6020b17a290e90f3991eb50ef8d4",
-        "inGameEnglish": "ENDING",
+        "basedOn": "6979baf1361084aa8097aaded1603596978c0c93a5d4c7a79ad2e87db7e60b16",
+        "inGameEnglish": "ENDING ",
         "notes": [
-          "Six-cell names remain fixed; templates supply drive instructions. Disk noun is implicit in the constrained prompt."
+          "Seven-cell name copies; dual prompt preserves the 35-byte row stride. Disk noun is implicit."
         ],
         "runtime_verified": false
       }
@@ -202,19 +214,21 @@
       "canonicalEnglish": "User",
       "context": {
         "intent": "Identify the requested disk and drive; preserve dynamic substitution.",
-        "notes": []
+        "notes": [
+          "Disk labels match image names, including Opening. Seven-cell labels use a separate resident pool."
+        ]
       },
       "review": {
-        "basis": "aed845bd809ccc8b0f81e4565a05897a824759ed4b9893b74b208d0a83b41eb6",
+        "basis": "eac3a987efa91ee739fea46132f1c04fa77d66f10cbf49a8f494246c4c53b7a4",
         "reviewer": "Codex",
-        "note": "Reviewed both prompts together and all six disk labels; disk/drive placeholders remain dynamic."
+        "note": "Reviewed both dynamic instructions and all six labels against image names; Opening is spelled in full. Technical adaptation keeps drive numbers explicit."
       },
       "target": {
         "status": "adapted",
-        "basedOn": "aed845bd809ccc8b0f81e4565a05897a824759ed4b9893b74b208d0a83b41eb6",
-        "inGameEnglish": "USER  ",
+        "basedOn": "eac3a987efa91ee739fea46132f1c04fa77d66f10cbf49a8f494246c4c53b7a4",
+        "inGameEnglish": "USER   ",
         "notes": [
-          "Six-cell names remain fixed; templates supply drive instructions. Disk noun is implicit in the constrained prompt."
+          "Seven-cell name copies; dual prompt preserves the 35-byte row stride. Disk noun is implicit."
         ],
         "runtime_verified": false
       }

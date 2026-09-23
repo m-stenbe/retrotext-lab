@@ -358,3 +358,27 @@ The glossary already marks the Latin spellings provisional; no official spelling
 has been established by this check. Do not silently change Hom to Home or Saxen
 to Saxon. Restore the geographic qualifiers through the location-label fitting
 adapter, keeping the name consistent across dialogue, glossary and map headers.
+
+## Meteor-site coverage and disk naming — 2026-09-23
+
+Reviewed all five screenshots dated today on Desktop. These show genuine missing
+coverage in the meteor-site sequence, not evidence of an old savestate. Earlier
+Dust/Hamack work did not translate this intervening event. Existing English name
+substitutions alone do not mean a dialogue entry has been translated.
+
+| Screenshot | Finding | Source / next work |
+| --- | --- | --- |
+| 13.46.38 | Arrival narration still Japanese | System `051000:029`, untranslated and locked; include with the connected meteor event. |
+| 13.47.06 | Single-drive prompt works, but INTRO does not match Opening Disk filename | Correct to OPENING through seven-cell label relocation and guarded copy-count changes. |
+| 13.47.57 | Cinematic establishing narration remains Japanese | Separate Opening cinematic path; text describes the quiet meteor crash site in the canyon. |
+| 13.48.20 | Shoko's cinematic dialogue remains Japanese | She speculates that the unfamiliar ship belongs to the Federation military; preserve her uncertainty. Opening contains the military term at 0xD08CA; this is a search anchor, not a validated string boundary. |
+| 13.51.10 | Jido's aftermath dialogue remains Japanese despite English name substitutions | System `051000:030`, tokens t012..t016 match the screenshot. Read the entire scene and branch 033 before canonical localization. |
+
+Next narrative batch should bridge arrival → cinematic → aftermath, rather than
+skipping farther ahead to more Hamack NPCs. Gather the entire cinematic and
+surrounding script first; map its separate renderer/commands before insertion.
+Do not present the isolated screenshot lines as a reviewed complete scene or
+claim a new cinematic adapter exists. This audit adds no new story translations.
+
+The user also confirmed that the 4× EXP multiplier works in-game. This confirms
+observed multiplier behavior, not exhaustive character, cap or stat-growth tests.

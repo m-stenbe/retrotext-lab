@@ -31,9 +31,16 @@ SPECS = {'single': {'offset': 10327,
                'size': 13,
                'sha256': '3fa3fd08f0bd99f4cf56f693760ca7356b94afc4a9beaf67da6db30ed6ea18a2'}}
 # Only absolute destinations of existing one-byte digit writes change.
-WRITES = ((0x2529, '883e6f08', '883e7708'),
-          (0x2558, '883eb108', '883ebb08'),
-          (0x255c, '882ed408', '882ede08'))
+WRITES = ((0x2529, '883e6f08', '883e7908'),
+          (0x2558, '883eb108', '883eb708'),
+          (0x255c, '882ed408', '882eda08'))
+
+# Separate from the menu pool (0x4c00..0x4dff), within the same resident load.
+NAME_POOL = 0x4e00
+NAME_POOL_SIZE = 6 * 15
+NAME_TABLE = 0x27fd
+NAME_POINTERS = bytes.fromhex('09081608230830083d084a08')
+COPY_WRITES = tuple((a, 'b90600', 'b90700') for a in (0x2538, 0x2571, 0x2588))
 
 
 def patch_disk_prompts(opening, pack=None):
@@ -44,6 +51,11 @@ def patch_disk_prompts(opening, pack=None):
     if records.keys() != SPECS.keys():
         raise ValueError('Disk prompt record set changed')
     pending, manifest = [], []
+    if opening[NAME_POOL:NAME_POOL+NAME_POOL_SIZE] != bytes(NAME_POOL_SIZE):
+        raise ValueError('Resident disk name pool is not empty')
+    if opening[NAME_TABLE:NAME_TABLE+12] != NAME_POINTERS:
+        raise ValueError('Disk name pointer table mismatch')
+    name_index = 0
     for ident, spec in SPECS.items():
         r = records[ident]
         a, size = spec['offset'], spec['size']
@@ -58,26 +70,34 @@ def patch_disk_prompts(opening, pack=None):
         text = r['target']['inGameEnglish']
         lines = text.split('\n')
         if ident.startswith('name-'):
-            if len(lines)!=1 or len(text)!=6:
-                raise ValueError('Disk names must occupy exactly six cells')
+            if len(lines)!=1 or len(text)!=7:
+                raise ValueError('Disk names must occupy exactly seven cells')
         else:
             if len(lines)!=3 or any(len(line) > (17 if ident=='dual' else 15) for line in lines):
                 raise ValueError('Disk prompt geometry exceeded')
             # Preserve name destinations and exact low-byte positions for drive writes.
-            expected = ('       IN DRIVE 1', '       IN DRIVE 2') if ident=='dual' else ('      ', 'IN DRIVE 1')
+            expected = ('        DRIVE 1  ', '        DRIVE 2  ') if ident=='dual' else ('       ', 'IN DRIVE 1')
             if tuple(lines[:2]) != expected:
                 raise ValueError('Disk prompt runtime fields moved')
         encoded = encode_ui(text)+b'\0'
-        if len(encoded)>size:
+        destination, allocation = a, size
+        if ident.startswith('name-'):
+            destination, allocation = NAME_POOL + name_index * 15, 15
+            pending.append((NAME_TABLE + name_index * 2,
+                            (destination-0x2000).to_bytes(2, 'little')))
+            name_index += 1
+        if len(encoded)>allocation:
             raise ValueError('Disk prompt allocation exceeded')
-        pending.append((a, encoded.ljust(size,b'\0')))
-        manifest.append(dict(id=ident,offset=a,size=size,canonicalReview=basis,
+        pending.append((destination, encoded.ljust(allocation,b'\0')))
+        manifest.append(dict(id=ident,offset=destination,size=allocation,source_offset=a,canonicalReview=basis,
                              adaptationHash=fingerprint(text),runtime_verified=False))
-    for a, before, after in WRITES:
-        if opening[a:a+4] != bytes.fromhex(before):
+    for a, before, after in WRITES + COPY_WRITES:
+        if opening[a:a+len(bytes.fromhex(before))] != bytes.fromhex(before):
             raise ValueError('Disk prompt instruction guard mismatch')
         pending.append((a,bytes.fromhex(after)))
     # All source, editorial and instruction guards pass before any mutation.
     for a, data in pending:
         opening[a:a+len(data)] = data
-    return dict(records=manifest,drive_write_offsets=[a for a,_,_ in WRITES],runtime_verified=False)
+    return dict(records=manifest,drive_write_offsets=[a for a,_,_ in WRITES],
+                copy_write_offsets=[a for a,_,_ in COPY_WRITES],
+                name_pointer_table=NAME_TABLE,name_pool=NAME_POOL,runtime_verified=False)

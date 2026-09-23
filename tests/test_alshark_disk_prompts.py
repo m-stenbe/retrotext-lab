@@ -19,42 +19,52 @@ class DiskPromptTests(unittest.TestCase):
             specs[r['id']] = copy.deepcopy(r['source'])
             basis = fingerprint({k:r[k] for k in ('source','canonicalEnglish','context')})
             r['review']['basis'] = r['target']['basedOn'] = basis
-        for a,before,_ in prompts.WRITES:data[a:a+4] = bytes.fromhex(before)
+        for a,before,_ in prompts.WRITES + prompts.COPY_WRITES:
+            raw=bytes.fromhex(before);data[a:a+len(raw)] = raw
+        data[prompts.NAME_TABLE:prompts.NAME_TABLE+12]=prompts.NAME_POINTERS
         return data,pack,specs
 
     def test_runtime_substitution_all_names_and_drives(self):
         data,pack,specs = self.fixture()
         with patch.object(prompts,'SPECS',specs):prompts.patch_disk_prompts(data,pack)
+        for a,_,after in prompts.COPY_WRITES:
+            self.assertEqual(data[a:a+3],bytes.fromhex(after))
         names=[r for r in pack['records'] if r['id'].startswith('name-')]
         for r in names:
-            a=r['source']['offset'];label=r['target']['inGameEnglish']
+            index=names.index(r)
+            a=int.from_bytes(data[prompts.NAME_TABLE+index*2:prompts.NAME_TABLE+index*2+2], 'little')+0x2000
+            label=r['target']['inGameEnglish']
             for drive in (1,2):
                 mem=bytearray(data)
-                mem[0x2857:0x2863]=data[a:a+12]
+                mem[0x2857:0x2865]=data[a:a+14]
                 dest=int.from_bytes(mem[0x252b:0x252d],'little')+0x2000
                 mem[dest]=0x4f+drive
                 text=bytes(mem[0x2857:mem.index(0,0x2857)]).decode('cp932')
                 normalize=lambda s:s.replace('　',' ').translate(str.maketrans({chr(i+0xfee0):chr(i) for i in range(33,127)})).replace('@','\n')
                 self.assertEqual(normalize(text),f'{label}\nIN DRIVE {drive}\nPRESS ANY KEY.')
                 for other in names:
-                    dual=bytearray(data);b=other['source']['offset']
-                    dual[0x289a:0x28a6]=data[a:a+12]
-                    dual[0x28bd:0x28c9]=data[b:b+12]
+                    dual=bytearray(data);index=names.index(other)
+                    b=int.from_bytes(data[prompts.NAME_TABLE+index*2:prompts.NAME_TABLE+index*2+2], 'little')+0x2000
+                    dual[0x289a:0x28a8]=data[a:a+14]
+                    dual[0x28bd:0x28cb]=data[b:b+14]
                     for ins,value in ((0x2558,drive),(0x255c,3-drive)):
                         dest=int.from_bytes(dual[ins+2:ins+4],'little')+0x2000
                         dual[dest]=0x4f+value
                     text=bytes(dual[0x289a:dual.index(0,0x289a)]).decode('cp932')
-                    self.assertEqual(normalize(text),f'{label} IN DRIVE {drive}\n{other["target"]["inGameEnglish"]} IN DRIVE {3-drive}\nPRESS ANY KEY.')
+                    self.assertEqual(normalize(text),f'{label} DRIVE {drive}  \n{other["target"]["inGameEnglish"]} DRIVE {3-drive}  \nPRESS ANY KEY.')
 
     def test_guards_fail_before_any_write(self):
-        for mode in ('source','instruction','review','slot','overflow'):
+        for mode in ('source','instruction','review','slot','overflow','pool','pointer','copy'):
             data,pack,specs=self.fixture()
             if mode=='source':data[0x2857]=0
             if mode=='instruction':data[0x255c]=0
+            if mode=='pool':data[prompts.NAME_POOL]=1
+            if mode=='pointer':data[prompts.NAME_TABLE]=0
+            if mode=='copy':data[prompts.COPY_WRITES[0][0]]=0
             r=pack['records'][0]
             if mode=='review':r['canonicalEnglish']='Changed instruction'
             if mode=='slot':r['target']['inGameEnglish']='BAD\nIN DRIVE 1\nPRESS ANY KEY.'
-            if mode=='overflow':r['target']['inGameEnglish']='      \nIN DRIVE 1\n'+'X'*16
+            if mode=='overflow':r['target']['inGameEnglish']='       \nIN DRIVE 1\n'+'X'*16
             before=bytes(data)
             with patch.object(prompts,'SPECS',specs), self.assertRaises(ValueError):
                 prompts.patch_disk_prompts(data,pack)
