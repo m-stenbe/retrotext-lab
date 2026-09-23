@@ -189,3 +189,49 @@ When a term changes, `impact` identifies direct users and their scene peers;
 review fingerprints also invalidate affected reviewed scenes. Legacy drafts with
 no term references still need a text search/manual migration audit. Public bible
 and workflow files contain English notes; original source remains local.
+
+## Preparing larger batches
+
+Use an explicit batch plan to group connected scenes into a work queue. The
+reusable `retrotext/batches.py` layer collects canonical reading copies, original
+records with preservation metadata, scene context, referenced bible terms, and
+separately identified context-only records. It never guesses narrative order from
+adjacent offsets, translates automatically, approves editorial work, or shortens
+English. Unknown links still require script/branch investigation.
+
+The first plan covers existing town scenes and canyon lead-up, with Karu's return
+and meteor-related entries supplied as context. It does not claim canyon interior
+or cinematic coverage:
+
+```sh
+python3 profiles/alshark/batch_tool.py /path/to/original work/adapted-batch-01.json \
+  --plan profiles/alshark/batch-town-and-canyon.json --output work/town-batch-01
+```
+
+Outputs stay in a new ignored `work/` directory because `packet.json` contains
+original Japanese/raw source. `review-and-playtest.md` provides continuous
+canonical text per scene, blockers, and a checklist. Scene branches remain
+alternatives, not an asserted linear conversation. Document/bible fingerprints
+identify the snapshot; regenerate after edits. The packet is a reading artifact,
+not a replacement catalog or an import format.
+
+Readiness requires current global editorial validation, a complete adaptation for
+every scene member, and the existing Alshark compiler's source/layout/allocation
+and preservation checks. Ready scenes are also compiled together in memory.
+Missing canonical work, missing review, missing adaptations, explicit
+DOES_NOT_FIT and unsupported fitting adapters are reported without changing text.
+Compiler errors are the first failing diagnostic for that scene, not an exhaustive
+engineering audit. No disks are written or emulator sessions touched.
+
+Work through each scene's source/context and canonical English together; review
+using the existing review workflow, then produce an adaptation pack using the
+existing format. Regenerate the batch to check readiness. To build, explicitly
+pass the packet's `readyScenes` to `build_demo --localization-scenes` with the
+same catalog and normal desired build flags. The builder reruns all safeguards;
+packet readiness is never accepted as authority. Deferred scenes remain deferred
+in the build manifest. Record the actual build manifest/hash and visited branches
+on the playtest sheet. Editorial corrections go back to canonical English first.
+
+This automates gathering, reporting and technical checking. Translation and
+continuous-scene editorial judgment remain deliberate work; no external model
+service, credential, or automatic approval is introduced.

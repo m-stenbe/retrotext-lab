@@ -1,0 +1,30 @@
+{
+  "format": "retrotext-batch-plan-v1",
+  "id": "town-and-canyon-leadup",
+  "scenes": [
+    "story-breakfast",
+    "story-shoko-invitation",
+    "story-young-man",
+    "story-war-news",
+    "story-pollution",
+    "story-lake-warning",
+    "story-wasteland-and-return",
+    "story-canyon-directions",
+    "story-old-man",
+    "story-karu-diagnostic",
+    "story-lucia-rest",
+    "story-found-items",
+    "story-work-interactions",
+    "story-dead-gigi"
+  ],
+  "contextRecords": [
+    "script:051000:019",
+    "script:051000:029",
+    "script:051000:030"
+  ],
+  "notes": [
+    "Work order only; inspect branch commands and story state before treating entries as continuous dialogue.",
+    "Extra context covers Karu return dialogue and meteor-related entries; these are not selected for insertion.",
+    "Canyon interior and cinematic coverage still need mapping."
+  ]
+}
