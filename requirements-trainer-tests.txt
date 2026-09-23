@@ -1,0 +1,2 @@
+# Optional, test-only 16-bit x86 execution. The patch builder uses standard Python.
+unicorn==2.1.4

@@ -24,6 +24,8 @@ parser.add_argument('--widen-menus', action='store_true',
                     help='Test six-cell field/battle boxes and matching highlights; implies --include-review')
 parser.add_argument('--expand-menu-labels', action='store_true',
                     help='Test relocated full menu labels including YES/NO; implies --widen-menus')
+parser.add_argument('--exp-multiplier', type=int, choices=(1, 2, 4, 8), default=1,
+                    help='Optional battle EXP trainer (386+); default preserves normal progression')
 parser.add_argument('--translate-disk-prompts', action='store_true',
                     help='Apply reviewed dynamic boot-driver disk prompts')
 parser.add_argument('--localization', type=Path,
@@ -332,6 +334,9 @@ if args.localization:
         system[a:a+n] = localized[a:a+n]
 
 
+from profiles.alshark.trainer import patch_exp_multiplier
+trainer = patch_exp_multiplier(system, args.exp_multiplier, reviewed_text=args.include_review)
+
 def make_ips(old, new):
     patch = bytearray(b'PATCH')
     i = 0
@@ -361,7 +366,7 @@ manifest = dict(status='Reflowed after screenshot review; revised wrapping await
                 dialogue=dialogue_manifest, names=names, followup=followup, town=town, pickups=pickups,
                 area=area, menus=menus, combat_text=combat_text, menu_geometry=menu_geometry,
                 menu_strings=menu_strings,
-                localization=localization_records, disk_prompts=disk_prompts,
+                localization=localization_records, disk_prompts=disk_prompts, trainer=trainer,
                 localization_scope=dict(selected_scenes=args.localization_scenes,
                     deferred=[dict(id=r['id'], status=r['target']['status'], reason=r['target']['reason'])
                               for r in localization_document['records']
