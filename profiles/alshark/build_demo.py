@@ -24,6 +24,8 @@ parser.add_argument('--widen-menus', action='store_true',
                     help='Test six-cell field/battle boxes and matching highlights; implies --include-review')
 parser.add_argument('--expand-menu-labels', action='store_true',
                     help='Test relocated full menu labels including YES/NO; implies --widen-menus')
+parser.add_argument('--translate-disk-prompts', action='store_true',
+                    help='Apply reviewed dynamic boot-driver disk prompts')
 parser.add_argument('--localization', type=Path,
                     help='Overlay reviewed canonical-derived script adaptations; implies --include-review')
 parser.add_argument('--localization-scenes', nargs='+',
@@ -312,6 +314,11 @@ if args.expand_menu_labels:
     from profiles.alshark.menu_strings import expand_menu_strings
     menu_strings = expand_menu_strings(opening)
 
+disk_prompts = None
+if args.translate_disk_prompts:
+    from profiles.alshark.disk_prompts import patch_disk_prompts
+    disk_prompts = patch_disk_prompts(opening)
+
 localization_records = []
 if args.localization:
     from profiles.alshark.localization import BIBLE, compile_adaptations
@@ -354,7 +361,7 @@ manifest = dict(status='Reflowed after screenshot review; revised wrapping await
                 dialogue=dialogue_manifest, names=names, followup=followup, town=town, pickups=pickups,
                 area=area, menus=menus, combat_text=combat_text, menu_geometry=menu_geometry,
                 menu_strings=menu_strings,
-                localization=localization_records,
+                localization=localization_records, disk_prompts=disk_prompts,
                 localization_scope=dict(selected_scenes=args.localization_scenes,
                     deferred=[dict(id=r['id'], status=r['target']['status'], reason=r['target']['reason'])
                               for r in localization_document['records']
