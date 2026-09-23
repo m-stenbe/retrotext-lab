@@ -137,3 +137,55 @@ class DigitTests(unittest.TestCase):
         tokens = decode_entry(encoded + b'\0')
         self.assertEqual(tokens[0]['kind'], 'text')
         self.assertEqual(tokens[0]['source'], '８０')
+
+
+class HamackBranchTests(unittest.TestCase):
+    def test_new_scope_preserves_branch_targets_names_tables_and_tail(self):
+        import struct
+        from unittest.mock import patch
+        from profiles.alshark.script import digest
+        from profiles.alshark.script_tool import export_disk, import_disk
+        data = bytearray(0x84000)
+        base = 0x52000
+        count = 46
+        starts = [count * 2 + i * 80 for i in range(count)]
+        struct.pack_into('<46H', data, base, *starts)
+        for start in starts:
+            data[base+start:base+start+6] = b'HELLO\0'
+        raw = b'#B\x02\x07\x2c#B\x02\x08\x2d4GIRL5HELLO0#Y\x02\x2b\x2a\0'
+        data[base+starts[13]:base+starts[13]+len(raw)] = raw
+        response = b'_HELLO $\x00#S\x01\x07\0'
+        data[base+starts[43]:base+starts[43]+len(response)] = response
+        data = bytes(data)
+        with patch('profiles.alshark.script_tool.SYSTEM_HASH', digest(data)):
+            doc = export_disk(data)
+            self.assertEqual(len(doc['entries']), 46)
+            self.assertEqual(import_disk(data, doc), data)
+            for entry in doc['entries']:
+                if entry['id'] in ('052000:013', '052000:043'):
+                    self.assertTrue(entry['editable'])
+                    for t in entry['tokens']:
+                        if t['kind'] == 'text':
+                            t['translation'] = 'HI'
+            changed = import_disk(data, doc)
+            self.assertEqual(changed[base:base+count*2], data[base:base+count*2])
+            spans = [(base+starts[i], base+starts[i]+80) for i in (13, 43)]
+            self.assertTrue(all(any(a <= i < z for a,z in spans)
+                                for i,(a,b) in enumerate(zip(data,changed)) if a != b))
+            for idx in (13,43):
+                start = base+starts[idx]
+                before = decode_entry(data[start:start+80])
+                after = decode_entry(changed[start:start+80])
+                immutable = lambda tokens: [(t['kind'],t['raw']) for t in tokens
+                    if t['kind'] not in ('text','opaque_tail')]
+                self.assertEqual(immutable(before), immutable(after))
+                end = 0
+                for token in before:
+                    end += len(bytes.fromhex(token['raw']))
+                    if token['kind'] == 'end':
+                        break
+                self.assertEqual(changed[start+end:start+80], data[start+end:start+80])
+            # A neighboring, unreviewed conversation must remain locked.
+            doc['entries'][0]['tokens'][0]['translation'] = 'NO'
+            with self.assertRaisesRegex(ValueError, 'edits disabled'):
+                import_disk(data, doc)

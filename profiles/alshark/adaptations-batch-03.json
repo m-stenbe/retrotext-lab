@@ -1,0 +1,127 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "route-karu-dust",
+    "hamack-jane",
+    "hamack-scrap",
+    "hamack-informants",
+    "hamack-soldiers",
+    "hamack-greenery"
+  ],
+  "records": [
+    {
+      "id": "script:082000:001",
+      "basedOn": "b0be8341ea84bc301c1e699de0a6921b103c743bc7c443cc78b0a041d267b7c1",
+      "inGameEnglish": {
+        "t019": ", DO YOU\nKNOW ",
+        "t021": "?",
+        "t027": "YES.\n",
+        "t029": " SHOULD BE\nIN DUST, SOUTH\nOF HAMACK."
+      },
+      "notes": [
+        "Preserves both runtime names, south of Hamack and should be. Omits the familiar Uncle address and waste facility in the constrained reply; canonical retains it."
+      ]
+    },
+    {
+      "id": "script:052000:013",
+      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "inGameEnglish": {
+        "t003": "GIRL",
+        "t005": "THIS IS\nHAMACK.",
+        "t007": "\nI'M JANE.\nAND YOU?",
+        "t009": "",
+        "t012": "GIVE NAME?"
+      },
+      "notes": [
+        "The original name prompt uses the header area; kept within one row. Empty text span before the header retains its token and all controls. The town, self-introduction and question remain."
+      ]
+    },
+    {
+      "id": "script:052000:043",
+      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "inGameEnglish": {
+        "t001": "NICE NAME!\nHI, ",
+        "t003": "."
+      },
+      "notes": [
+        "Shortens the meeting greeting to HI while keeping the compliment and runtime Sion reference."
+      ]
+    },
+    {
+      "id": "script:052000:042",
+      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "inGameEnglish": {
+        "t001": "HOW RUDE!"
+      },
+      "notes": [
+        "Keeps the offended response; omits the separate introductory exclamation."
+      ]
+    },
+    {
+      "id": "script:052000:044",
+      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "inGameEnglish": {
+        "t001": "JANE",
+        "t004": ",\nDOING OK?"
+      },
+      "notes": [
+        "Uses a natural short greeting without implying a particular quest outcome."
+      ]
+    },
+    {
+      "id": "script:052000:045",
+      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "inGameEnglish": {
+        "t001": "JANE",
+        "t003": "NEED ANYTHING?"
+      },
+      "notes": [
+        "Keeps the question; does not invent anger beyond the refusal branch."
+      ]
+    },
+    {
+      "id": "script:052000:001",
+      "basedOn": "ccdc28d00f95bf656953bd9438764e6a87c30d6d4e27eef3d088d57bd79bb4fb",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": "MONEY MATTERS.\nSO DOES SCRAP!"
+      },
+      "notes": [
+        "Compresses the warning not to dismiss scrap into an emphatic comparison; both kinds of value remain."
+      ]
+    },
+    {
+      "id": "script:052000:009",
+      "basedOn": "e64e0e0bed0289f07cfe9b4760ef3a2e34a41cee16e5f13b58932dd5a847e751",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t003": "INFORMANTS?\nTRY THE BAR\nUNDERGROUND."
+      },
+      "notes": [
+        "TRY preserves a suggestion rather than guaranteeing an informant will be present."
+      ]
+    },
+    {
+      "id": "script:052000:014",
+      "basedOn": "75cf27dc4c3e92982db5dec4ad09471e9e255848a281fb7d401aaa88f91cea71",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "ZOLIAS TROOPS\nWERE HERE. I\nTHOUGHT THEY'D\nKILL ME!"
+      },
+      "notes": [
+        "Fear is conveyed by thought they would kill me. Omits the precise recent-time phrase and the separate terrifying description."
+      ]
+    },
+    {
+      "id": "script:052000:015",
+      "basedOn": "d80ad21c9dd3e1ed204982d2eb14413082c4bb7fe9124fafd6af06015b44582a",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "SOON THIS\nWHOLE PLANET\nWILL BE GREEN!"
+      },
+      "notes": [
+        "Soon compresses a few more years; confidence and whole-planet scope remain."
+      ]
+    }
+  ]
+}

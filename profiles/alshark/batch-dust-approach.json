@@ -1,0 +1,25 @@
+{
+  "format": "retrotext-batch-plan-v1",
+  "id": "dust-approach-and-hamack",
+  "scenes": [
+    "route-karu-dust",
+    "hamack-jane",
+    "hamack-scrap",
+    "hamack-informants",
+    "hamack-soldiers",
+    "hamack-greenery",
+    "return-karu-joins",
+    "route-joe-hamack",
+    "hamack-joe-rumor"
+  ],
+  "contextRecords": [
+    "script:051000:000",
+    "script:051000:021",
+    "script:051000:030",
+    "script:051000:006"
+  ],
+  "notes": [
+    "Work order, not a proven chronological traversal. Joe first encounter and exact map/event triggers still need mapping.",
+    "Includes deferred Karu-joining and Joe route context; only validated complete scenes go in the build."
+  ]
+}

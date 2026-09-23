@@ -377,6 +377,31 @@
       "uncertainty": [
         "Full meaning unverified. Retain Drb as the display abbreviation until resolved."
       ]
+    },
+    {
+      "id": "character.jane",
+      "category": "character",
+      "english": "Jane",
+      "status": "working",
+      "evidence": [
+        "052000:013 identifies herself; name headers in 044/045."
+      ],
+      "uncertainty": [
+        "Official romanization not verified."
+      ]
+    },
+    {
+      "id": "route.dust_approach",
+      "category": "story",
+      "english": "Dust approach",
+      "status": "source-supported",
+      "evidence": [
+        "082000:001: Karu believes Joe lives at the waste facility Dust, south of Hamack.",
+        "082000:002: Joe proposes asking informants at the Hamack bar about Lucia."
+      ],
+      "uncertainty": [
+        "Exact event flags and map route not runtime-verified."
+      ]
     }
   ],
   "storyStages": [
@@ -408,6 +433,18 @@
       "doNotAssume": [
         "Shoko's speculation about the ship is established fact.",
         "Early town recovery options remain available after this event."
+      ]
+    },
+    {
+      "id": "search_for_lucia",
+      "known": [
+        "051000:019: Karu agrees to accompany Sion in looking for Lucia.",
+        "082000:001: Dust is south of Hamack; Joe is expected there.",
+        "082000:002: with Joe present, the party discusses asking Hamack bar informants."
+      ],
+      "doNotAssume": [
+        "Every adjacent bank entry is the next chronological scene.",
+        "Joe encounter trigger or the required map path is already verified."
       ]
     }
   ],

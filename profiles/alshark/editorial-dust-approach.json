@@ -1,0 +1,572 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "Codex editorial review, 2026-09-23",
+  "scenes": [
+    {
+      "id": "route-karu-dust",
+      "records": [
+        "script:082000:001"
+      ],
+      "participants": [
+        "Sion",
+        "Karu"
+      ],
+      "location": "Party conversation; exact map trigger unverified",
+      "storyState": "Karu accompanies Sion; the party is looking for Joe.",
+      "purpose": "Point the party toward Dust south of Hamack.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.sion",
+        "character.karu",
+        "character.joe",
+        "place.hamack",
+        "place.dust",
+        "route.dust_approach"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    },
+    {
+      "id": "hamack-jane",
+      "records": [
+        "script:052000:013",
+        "script:052000:043",
+        "script:052000:042",
+        "script:052000:044",
+        "script:052000:045"
+      ],
+      "participants": [
+        "Jane",
+        "Sion"
+      ],
+      "location": "Hamack",
+      "storyState": "First meeting and repeat interactions; conditions preserved.",
+      "purpose": "Introduce the town and Jane, with response-dependent follow-ups.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [
+        "013 #Y selects entry 43 or 42; #B redirects to 44/45 after flags 7/8; responses #S set those flags."
+      ],
+      "terminology": [
+        "character.jane",
+        "character.sion",
+        "place.hamack"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [
+        "043 is the name-sharing response; 042 is refusal. 044/045 are conditional repeat interactions, not consecutive dialogue."
+      ],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    },
+    {
+      "id": "hamack-scrap",
+      "records": [
+        "script:052000:001"
+      ],
+      "participants": [
+        "Old woman"
+      ],
+      "location": "Hamack",
+      "storyState": "Available NPC interaction; exact flag state not independently verified.",
+      "purpose": "Explain that scrap also has value.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.hamack",
+        "material.scrap"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    },
+    {
+      "id": "hamack-informants",
+      "records": [
+        "script:052000:009"
+      ],
+      "participants": [
+        "Outlaw"
+      ],
+      "location": "Hamack",
+      "storyState": "Available NPC interaction; exact flag state not independently verified.",
+      "purpose": "Suggest where to look for information.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.hamack"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    },
+    {
+      "id": "hamack-soldiers",
+      "records": [
+        "script:052000:014"
+      ],
+      "participants": [
+        "Woman"
+      ],
+      "location": "Hamack",
+      "storyState": "Available NPC interaction; exact flag state not independently verified.",
+      "purpose": "Describe fear during a recent visit by soldiers.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.hamack",
+        "faction.zolias"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    },
+    {
+      "id": "hamack-greenery",
+      "records": [
+        "script:052000:015"
+      ],
+      "participants": [
+        "Man"
+      ],
+      "location": "Hamack",
+      "storyState": "Available NPC interaction; exact flag state not independently verified.",
+      "purpose": "Express confidence about the planet becoming green.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.hamack"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    },
+    {
+      "id": "return-karu-joins",
+      "records": [
+        "script:051000:019"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Karu"
+      ],
+      "location": "Starting house",
+      "storyState": "After Lucia has left; Karu joins the search.",
+      "purpose": "Establish Lucia missing, Karu's limitations and decision to accompany Sion.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.karu",
+        "character.lucia"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    },
+    {
+      "id": "route-joe-hamack",
+      "records": [
+        "script:082000:002"
+      ],
+      "participants": [
+        "Joe",
+        "Sion"
+      ],
+      "location": "Party conversation; exact map trigger unverified",
+      "storyState": "Joe is present; the party seeks information about Lucia.",
+      "purpose": "Direct the search toward Hamack bar informants.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.joe",
+        "character.sion",
+        "character.lucia",
+        "place.hamack",
+        "route.dust_approach"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    },
+    {
+      "id": "hamack-joe-rumor",
+      "records": [
+        "script:052000:019",
+        "script:052000:084"
+      ],
+      "participants": [
+        "Girl"
+      ],
+      "location": "Hamack",
+      "storyState": "Conditional rumor about Joe; later branch is only a greeting.",
+      "purpose": "Give a local's disparaging hearsay about Joe at Dust.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.joe",
+        "place.dust",
+        "place.hamack"
+      ],
+      "evidence": [
+        "Original decoded entries and preserved name/control/command tokens."
+      ],
+      "uncertainty": [
+        "Runtime route and branch activation need playtesting."
+      ],
+      "notes": [
+        "#B flag 15 selects entry 84; 84 has an opaque tail that must remain untouched."
+      ],
+      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:082000:001",
+      "sourceFingerprint": "f8ca5101524197e468e49b51a20fd17e1461effe24c0f7a3de8f5c16ea29bdce",
+      "canonicalEnglish": "Sion: Karu, do you know Uncle Joe?\nKaru: Yes. Joe should be living at Dust, the waste facility south of Hamack.",
+      "context": {
+        "speaker": "Sion / Karu",
+        "listener": "Sion / player party",
+        "intent": "Ask about Joe and give a qualified location.",
+        "tone": "Familiar question; measured factual reply.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Preserves both runtime names, south of Hamack and should be. Omits the familiar Uncle address and waste facility in the constrained reply; canonical retains it."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:013",
+      "sourceFingerprint": "a7dc68b8a583d372753ecb6e0916bdd9e2cfe3ec1796332fd2d59eecaa31b0f4",
+      "canonicalEnglish": "Girl: This is Hamack. My name's Jane. What's yours?\nPrompt: Tell her your name?",
+      "context": {
+        "speaker": "Jane / system prompt",
+        "listener": "Sion / player party",
+        "intent": "Friendly introduction and player choice.",
+        "tone": "Friendly and direct.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "The original name prompt uses the header area; kept within one row. Empty text span before the header retains its token and all controls. The town, self-introduction and question remain."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:043",
+      "sourceFingerprint": "844e712f0b0d8104654def4ce79dfd14c159fb189a82c4365a6da4917c4f42b2",
+      "canonicalEnglish": "Jane: Oh, that's a nice name. Pleased to meet you, Sion.",
+      "context": {
+        "speaker": "Jane",
+        "listener": "Sion / player party",
+        "intent": "Warm response when Sion shares his name.",
+        "tone": "Friendly.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Shortens the meeting greeting to HI while keeping the compliment and runtime Sion reference."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:042",
+      "sourceFingerprint": "31f52985d8110de3d4903acf9c23de5b2b34002fd444d3b6d19a52dde61acd71",
+      "canonicalEnglish": "Jane: Well! How rude.",
+      "context": {
+        "speaker": "Jane",
+        "listener": "Sion / player party",
+        "intent": "React to refusal to give a name.",
+        "tone": "Offended.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Keeps the offended response; omits the separate introductory exclamation."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:044",
+      "sourceFingerprint": "052400d20537b0284994c11cbda95f4bb6893d739310527c6d2b65fdfc830e16",
+      "canonicalEnglish": "Jane: Sion, how are you getting on?",
+      "context": {
+        "speaker": "Jane",
+        "listener": "Sion / player party",
+        "intent": "Friendly repeat greeting after exchanging names.",
+        "tone": "Familiar.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Uses a natural short greeting without implying a particular quest outcome."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:045",
+      "sourceFingerprint": "8777093daed8b92cec69e670e1bfdc7839f709a7fc57bc95392a40de36561cb2",
+      "canonicalEnglish": "Jane: Oh? Did you want something?",
+      "context": {
+        "speaker": "Jane",
+        "listener": "Sion / player party",
+        "intent": "Ask what the player wants on the alternative repeat branch.",
+        "tone": "Reserved question.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Keeps the question; does not invent anger beyond the refusal branch."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:001",
+      "sourceFingerprint": "9e4955f58d396357a5b6c8e2658dd8262747c14598d5f67b8dd7e502711af13b",
+      "canonicalEnglish": "Old woman: Money matters, of course, but don't underestimate scrap.",
+      "context": {
+        "speaker": "Old woman",
+        "listener": "Sion / player party",
+        "intent": "Explain that scrap also has value.",
+        "tone": "Practical advice.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Compresses the warning not to dismiss scrap into an emphatic comparison; both kinds of value remain."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:009",
+      "sourceFingerprint": "91b061f7309343102752c59c3ee34bf553f9c4814a0215565f57e4a7465f68ae",
+      "canonicalEnglish": "Outlaw: Looking for an informant? You might find one at the underground bar.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Sion / player party",
+        "intent": "Suggest where to look for information.",
+        "tone": "Casual suggestion.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "TRY preserves a suggestion rather than guaranteeing an informant will be present."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:014",
+      "sourceFingerprint": "9ab33451842c2cf07da5bd120f15f8136a9bff16be6f03b383b1a52c45247212",
+      "canonicalEnglish": "Woman: Some Zolias soldiers came here a little while ago. They were terrifying. I thought they were going to kill me.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Sion / player party",
+        "intent": "Describe fear during a recent visit by soldiers.",
+        "tone": "Frightened recollection.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Fear is conveyed by thought they would kill me. Omits the precise recent-time phrase and the separate terrifying description."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:015",
+      "sourceFingerprint": "c8fa5fcb8e82af0f5b1596c787fd873e1f58f3a494d3505b03aaa7f4fe9c2111",
+      "canonicalEnglish": "Man: In a few more years, this whole planet is bound to be covered in greenery.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion / player party",
+        "intent": "Express confidence about the planet becoming green.",
+        "tone": "Optimistic.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Soon compresses a few more years; confidence and whole-planet scope remain."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:019",
+      "sourceFingerprint": "ad975c854bff1054ae5bb1b6ee3b8412e58993abf67beefb8c4ba73311c40eda",
+      "canonicalEnglish": "Karu: Welcome home, Sion. Hello, Shoko.\nSion: Karu! Where did Mom go?\nKaru: Karu does not know.\nShoko: Your mother's gone out?\nKaru: She left without saying anything.\nSion: She didn't even say where she was going?\nKaru: Karu does not know.\nSion: No use. Karu's an older model with no image playback... Nothing we can do about that. Karu, will you come help me look for Mom?\nKaru: Karu will go with Sion.",
+      "context": {
+        "speaker": "Sion / Shoko / Karu",
+        "listener": "Sion / player party",
+        "intent": "Connect the search for Lucia with Karu joining.",
+        "tone": "Concerned questioning; measured named self-reference from Karu.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "DOES_NOT_FIT",
+        "reason": "Sion's single existing page combines older-model/image-playback explanation, resignation, Karu name substitution and invitation to search for Mom. Preserving these naturally exceeds 14 cells by four rows; requires verified extra paging or narrower rendering. Control-flow review for reinsertion also remains pending."
+      }
+    },
+    {
+      "id": "script:082000:002",
+      "sourceFingerprint": "5c4c98e7057d65e12a617ff3bffff2802ad392a9b4766d79d62f97fffc443456",
+      "canonicalEnglish": "Joe: Let's head into Hamack and ask around about Lucia.\nSion: But where do we even start?\nJoe: There should be informants at the bar. They might know something.",
+      "context": {
+        "speaker": "Joe / Sion",
+        "listener": "Sion / player party",
+        "intent": "Provide the next information-gathering lead.",
+        "tone": "Joe practical and informal; Sion uncertain.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Canonical reviewed; not enabled for reinsertion. This dispatcher includes #O and many conditional targets that require control-flow review. No fitting claim yet."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:019",
+      "sourceFingerprint": "a6bbb55540572d783d1461cb6499b356f18e0b114e862b2319265a930fe453b4",
+      "canonicalEnglish": "Girl: I hear there's a weird old man called Scrap Joe at Dust, the waste facility. He's always building shady-looking things.",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Sion / player party",
+        "intent": "Present local hearsay, not an objective judgment about Joe.",
+        "tone": "Dismissive gossip.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "The insult is rendered as weird old man in the tinkering context; this does not assert sexual misconduct. Runtime name 7 currently renders only JOE, a separate known epithet omission."
+      ],
+      "adaptationAssessment": {
+        "status": "DOES_NOT_FIT",
+        "reason": "The waste-facility location, hearsay, disparaging description, runtime name and recurring suspicious inventions cannot all fit naturally into one 14-cell/four-row page. Name 7 also still lacks the Scrap epithet in the current build."
+      }
+    },
+    {
+      "id": "script:052000:084",
+      "sourceFingerprint": "228e735bd70243827f61cbe65210e170624ddd182448174342086afe4ab2d471",
+      "canonicalEnglish": "Girl: Oh, hello.",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Sion / player party",
+        "intent": "Simple greeting on the conditional alternative.",
+        "tone": "Friendly.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Grouped with the rumor branch; no adaptation released separately from its blocked scene. Opaque trailing bytes remain preserved."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}
