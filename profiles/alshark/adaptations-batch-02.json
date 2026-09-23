@@ -1,0 +1,83 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "story-shoko-invitation",
+    "story-wasteland-and-return"
+  ],
+  "records": [
+    {
+      "id": "script:051000:002",
+      "basedOn": "19e00307a2c95e3bb262b0a4fcef4e0a8b90fe1e2e074896a18e50b30cf03b8b",
+      "inGameEnglish": {
+        "t006": "HI, ",
+        "t008": ".",
+        "t010": "\nWHAT A METEOR\nLAST NIGHT!",
+        "t016": "DAD'S OFF TO\nSTUDY IT. I\nASKED TO GO.\nHE SAID 'NO!'",
+        "t022": "I'M EIGHTEEN!\nHE TREATS ME\nLIKE A CHILD!",
+        "t028": "LET'S GO\nTOGETHER!"
+      },
+      "notes": [
+        "Preserves the meteor timing, quoted refusal, age, indignation and invitation. Omits this morning and the separate Honestly exclamation; indignation remains in the age/child complaint."
+      ]
+    },
+    {
+      "id": "script:051000:011",
+      "basedOn": "19e00307a2c95e3bb262b0a4fcef4e0a8b90fe1e2e074896a18e50b30cf03b8b",
+      "inGameEnglish": {
+        "t004": "IT'S SETTLED!",
+        "t006": "\nWHAT'S WRONG?",
+        "t012": "BUT ALL THOSE\nGIGI IN SAXEN\nCANYON...",
+        "t018": "WE'LL BE FINE.\nLOOK.",
+        "t024": "A ",
+        "t026": "HANDGUN",
+        "t028": "?!\nWHY DO YOU\nHAVE THAT?!",
+        "t034": "I 'BORROWED'\nTWO FROM DAD\nTO PROTECT US.",
+        "t036": "\nLET'S GO!"
+      },
+      "notes": [
+        "Retains hesitation, alarm, the euphemistic borrowed, two weapons, Dad as owner and protection. Omits the laugh and drawer detail; quotation marks preserve the mischievous euphemism. Existing wait before LET'S GO is not a page clear."
+      ]
+    },
+    {
+      "id": "script:051000:012",
+      "basedOn": "19e00307a2c95e3bb262b0a4fcef4e0a8b90fe1e2e074896a18e50b30cf03b8b",
+      "inGameEnglish": {
+        "t004": "WHAT? COWARD!\nSOME MAN\nYOU ARE!"
+      },
+      "notes": [
+        "Keeps the surprised reproach and explicitly gendered taunt."
+      ]
+    },
+    {
+      "id": "script:051000:013",
+      "basedOn": "19e00307a2c95e3bb262b0a4fcef4e0a8b90fe1e2e074896a18e50b30cf03b8b",
+      "inGameEnglish": {
+        "t000": "HEH...\nCOMING AFTER\nALL?"
+      },
+      "notes": [
+        "Keeps the teasing laugh and knowing question when the invitation is revisited."
+      ]
+    },
+    {
+      "id": "script:051000:008",
+      "basedOn": "7030a83d6bd8ca43bbf075adc337cb9dd8ca620f3a363e76b7bbc01bf96dfdaa",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t004": "STAY IN TOWN!\nVICIOUS CANYON\nBUGS ROAM THE\nWASTELAND."
+      },
+      "notes": [
+        "Keeps the firm warning, danger, canyon origin and wasteland location. Vicious conveys the threat; bugs remains conversational rather than a species classification."
+      ]
+    },
+    {
+      "id": "script:051000:021",
+      "basedOn": "7030a83d6bd8ca43bbf075adc337cb9dd8ca620f3a363e76b7bbc01bf96dfdaa",
+      "inGameEnglish": {
+        "t000": "YOUR MOM LEFT\nTOWN IN A DAZE\nAS IF SHE WERE\nPOSSESSED."
+      },
+      "notes": [
+        "Retains the dazed departure and explicit simile rather than claiming possession as fact. Reuses the legacy wording after checking it against canonical intent."
+      ]
+    }
+  ]
+}
