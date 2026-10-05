@@ -1,0 +1,169 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r06-zajil-town-aftermath"
+  ],
+  "records": [
+    {
+      "id": "script:05a000:019",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "WELL DONE! I\nKNEW YOU COULD\nDO IT!"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:020",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": ".\nA GREAT TOWN!"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:021",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "YOU'RE THE\nBEST!"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:022",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "I WANT HONEST\nWORK. KNOW ANY\nJOBS?"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:023",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "ANY QUESTIONS?\nJUST ASK!"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:024",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "STAY FOR TEA\nAND CHAT WITH\nTHE OLD MAN."
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:025",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "YOU'RE LIKE ME\nAS A LAD."
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:026",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "IT'S NOT MUCH,\nBUT TAKE THIS.",
+        "t005": "100 CREDITS!"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:027",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "THANK YOU! OUR\nTOWN CAN LIVE\nIN PEACE."
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05a000:028",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "GO ON!"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05b000:039",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "HEY,\nPRESIDENT!\nCOME OVER!"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05b000:040",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "I'LL STAY A\nLITTLE LONGER."
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05b000:041",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "FEDS COME\nTHROUGH"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05b000:042",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "KIDUN'S GONE.\nTOO BAD.\n"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05b000:044",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "THANK YOU SO\nMUCH. NOW WE\nCAN LIVE IN\nPEACE."
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    },
+    {
+      "id": "script:05b000:045",
+      "basedOn": "02b4e556ed33d403bb20171dc1f350be3da948c5cfb23126b8e4a64956393d11",
+      "inGameEnglish": {
+        "t000": "AS GOOD AS\nTHEY SAY!"
+      },
+      "notes": [
+        "Separate fitting adaptation; preserves the core reaction and original branch/reward commands. Tiny9-byte encouragement uses GO ON!;20-byte Federation reaction uses FEDS COME THROUGH. Canonical English retains full nuance."
+      ]
+    }
+  ]
+}

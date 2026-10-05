@@ -1,0 +1,657 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R05 manager source/context and connected-scene editorial review",
+  "scenes": [
+    {
+      "id": "r05-port-initial",
+      "records": [
+        "script:05f000:001",
+        "script:05f000:002",
+        "script:05f000:003",
+        "script:05f000:004",
+        "script:05f000:005",
+        "script:05f000:006",
+        "script:05f000:007",
+        "script:05f000:008",
+        "script:05f000:009",
+        "script:05f000:010",
+        "script:05f000:013",
+        "script:05f000:014",
+        "script:05f000:015",
+        "script:05f000:018",
+        "script:05f000:019",
+        "script:05f000:020",
+        "script:05f000:021",
+        "script:05f000:022",
+        "script:05f000:027",
+        "script:05f000:050",
+        "script:05f000:057"
+      ],
+      "participants": [
+        "Counter clerk and travelers"
+      ],
+      "location": "Zajil Spaceport",
+      "storyState": "First Zajil assignment, through Saibal kidnapping, before pursuing Tomyu.",
+      "purpose": "Ticket services and initial travelers, including refusals and departure text.",
+      "previousContext": [
+        "CS Station first briefing completed."
+      ],
+      "followingContext": [
+        "Post-kidnapping pursuit and exploration after taking a bus off Zajil are beyond this section."
+      ],
+      "branchAlternatives": [
+        "Source-bound alternatives; not a single consecutive conversation."
+      ],
+      "terminology": [
+        "place.zajil_spaceport",
+        "place.zajil",
+        "place.mars",
+        "place.stea",
+        "faction.mars_federation",
+        "people.myuntos"
+      ],
+      "evidence": [
+        "docs/r05-re-source-evidence.md; docs/r05-qa-source-inventory.md; original r05_flow bounded closure."
+      ],
+      "uncertainty": [
+        "Official romanizations unverified; full runtime traversal pending."
+      ],
+      "notes": [],
+      "reviewNote": "Read original Japanese and complete English scene alternatives together; checked tone, shop roles, pre-victory story state, destination/fare values and refusal branches. Technical shortening is separately documented."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05f000:001",
+      "sourceFingerprint": "d38dcf176d08543e6bc082f693b507b0ccb9487203ca8ce4e260cdfa86fd0661",
+      "canonicalEnglish": "Counter Clerk: Welcome. Will you be taking the interstellar bus?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:002",
+      "sourceFingerprint": "53b027b47b2bc7f65310a0c7091fa5d48f7eed2ec6583a49bc053d65d677e58a",
+      "canonicalEnglish": "Counter Clerk: To use the interstellar bus, please buy a ticket and proceed to the gate.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:003",
+      "sourceFingerprint": "00d050d4309477d598a30b91c3dedd2c4092b9497321e44c6b0e79c80e40995a",
+      "canonicalEnglish": "Counter Clerk: For the interstellar bus, please use the departure gate.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:004",
+      "sourceFingerprint": "a7b1898cc523b8fe5b3d20a1dc5d0265afcae68896628045d8bac1936efb97ca",
+      "canonicalEnglish": "Man: Mars is the Federation's main planet. You can get an interstellar bus there from here.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:005",
+      "sourceFingerprint": "7372cf423d5b1d8deb9d17d22ab9bed8a6afddc6e05e62b41374fc4b0d9ba0ba",
+      "canonicalEnglish": "Woman: The interstellar bus is handy if you want to go to Stea.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:006",
+      "sourceFingerprint": "849e77c72a194c0643ed4aacfbb8a2a61bedff3e1572b8839f5ed527b8e0e00a",
+      "canonicalEnglish": "Young Man: I hear Stea has a large native Myuntos population.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:007",
+      "sourceFingerprint": "89f66adf324dd26dc3c49ad7602bce4190c2f2fe89e8c0cab2d455c663d59896",
+      "canonicalEnglish": "Girl: The interstellar bus can get you to most planets in the Mars Federation in an instant!",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:008",
+      "sourceFingerprint": "37d29e7eb17a91269e943c964d6f59893043c29e8f64b0abb18e3f9bf9892d0d",
+      "canonicalEnglish": "Counter Clerk: These interstellar bus services depart from Zajil:\nMars: 100 credits\nStea: 150 credits\nWhich would you like?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:009",
+      "sourceFingerprint": "50f6b2f993caddba430f92a087bfb824d21df6a632930643055cc2fe0b249c7e",
+      "canonicalEnglish": "Counter Clerk: We hope to see you again.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:010",
+      "sourceFingerprint": "a72916898ea3333cce02885903e4db5af55ad0ea89357cb4a603517bbcd425a1",
+      "canonicalEnglish": "Mars\nStea\nDo Not Buy",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:013",
+      "sourceFingerprint": "77cdd22c51dac76ccccaff38f7bfca03984e368bc72e41ffa58a63ca08b1c04d",
+      "canonicalEnglish": "Counter Clerk: I'm afraid you don't have enough money...",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:014",
+      "sourceFingerprint": "bf9819482c9cc4bc7462d4401e2c4f3633b84b2a85bf59a9575f2bb09a8f75ce",
+      "canonicalEnglish": "Counter Clerk: Oh, I got it ready for you, but if you can't carry it, there's nothing I can do.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:015",
+      "sourceFingerprint": "423585ae98a1eaef75025c3546bf6a6772416a6191e41509ce50b5ea0fec5c5b",
+      "canonicalEnglish": "Counter Clerk: Thank you very much.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:018",
+      "sourceFingerprint": "4b2cc348144676b57b3b0a8f6658cc8975a1f33f4ea53141bd5ab7ac2c09ec3a",
+      "canonicalEnglish": "Counter Clerk: Will you be taking the interstellar bus?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:019",
+      "sourceFingerprint": "2b42db80ee983a3ce34d94e70f2a67f5a9dd19dafc64354c935dc105d209f5ba",
+      "canonicalEnglish": "Counter Clerk",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:020",
+      "sourceFingerprint": "cf62e8f62624a4f2cce7df85da57c3518120f14c693a6c03cccdf4e218c483bd",
+      "canonicalEnglish": "Counter Clerk: Take care, and have a safe trip.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:021",
+      "sourceFingerprint": "2a053937ac4fe334605912f9608e9e15d4604e04abff873d6a35779110e9f480",
+      "canonicalEnglish": "Counter Clerk: Which destination will you be traveling to?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:022",
+      "sourceFingerprint": "30548ebf6d53cb1f054ddc5b806926636f273941c1c03f59192ceb351995528d",
+      "canonicalEnglish": "Mars\nStea\nCancel",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:027",
+      "sourceFingerprint": "cc508838c8df28571d73eff8b75b605ef23f247b9c794af9e3db66f517e2c1ff",
+      "canonicalEnglish": "Counter Clerk: You don't seem to have a ticket...",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:050",
+      "sourceFingerprint": "d503da193735fbac3ce55ccb408f7d6c03343658185b0885fd609846296d6d8e",
+      "canonicalEnglish": "They boarded the interstellar bus bound for Mars.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:057",
+      "sourceFingerprint": "0e57bfd027862464c073573376bc21b3fe7b16e5cfb73feaba6422b4e233aeb5",
+      "canonicalEnglish": "They boarded the interstellar bus bound for Stea.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.zajil_spaceport",
+          "place.zajil",
+          "place.mars",
+          "place.stea",
+          "faction.mars_federation",
+          "people.myuntos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "cosmic-hawk-induction",
+    "cosmic-hawk-station-tour",
+    "cosmic-hawk-first-briefing",
+    "cosmic-hawk-party-conversations"
+  ],
+  "records": [
+    {
+      "id": "script:05c000:000",
+      "basedOn": "4296c5804f769d1933d3c8ff955d2d0aaced8e8a317fdb126c2c61d520502c82",
+      "inGameEnglish": {
+        "t001": [
+          "I WILL CALL\nSOON. LET\nMURETTS SHOW\nYOU THE BASE",
+          "UNTIL THEN."
+        ]
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:001",
+      "basedOn": "4296c5804f769d1933d3c8ff955d2d0aaced8e8a317fdb126c2c61d520502c82",
+      "inGameEnglish": {
+        "t002": " AND\nFRIENDS\nENTERED. ",
+        "t004": "A MAN\nSTOOD ",
+        "t006": [
+          "AND",
+          "OFFERED JOE\n"
+        ],
+        "t008": "HIS HAND.",
+        "t011": [
+          "BRIGADIER\nGENERAL ROY\nBESTER,\nCHAUSNOMYU",
+          "COMMANDER."
+        ],
+        "t017": "JOE COMPSON.\nFOLKS CALL ME\nSCRAP JOE.",
+        "t020": "I HAVE HEARD\nMUCH ABOUT\nYOU.",
+        "t025": " SHOOK\nHANDS. ",
+        "t027": "THE\nYOUTHFUL CHIEF\nSMILED ",
+        "t029": [
+          "AND",
+          "PRAISED HIM."
+        ],
+        "t033": ", ",
+        "t035": "\nAND ",
+        "t037": ". YOU\nARE VERY\nLUCKY.",
+        "t040": [
+          "ILLEGAL SHIPS\nLIKE YOURS ARE\nDESTROYED ON\nSIGHT. THE",
+          "CREW IS\nSEVERELY\nPUNISHED..."
+        ],
+        "t046": "...SO THAT IS\nIT.",
+        "t049": "WISE ",
+        "t051": ". YOU\nUNDERSTAND.",
+        "t054": [
+          "MARS\nFEDERATION\nSPACE NAVY HQ\nORDERS YOU TO",
+          "SERVE IN\nCHAUSNOMYU."
+        ],
+        "t060": "WHAT?! ",
+        "t062": "!",
+        "t068": "Y... YEAH...",
+        "t071": "MEET OUR ACE.\nSHE WILL JOIN\nYOUR TEAM.",
+        "t073": [
+          "\nMURETTS! COME",
+          "IN!"
+        ],
+        "t081": "ROY CALLED IN\n",
+        "t083": "THE HUGE\nWOMAN.",
+        "t089": "OUR MINDER?\nOUR WATCHDOG?",
+        "t095": "YOUR\nBABYSITTER.",
+        "t101": "NO CHOICE. WE\nCANNOT DEFY\nTHE MILITARY.",
+        "t104": "THAT SUMS IT\nUP.",
+        "t106": " I WILL\nSEND YOUR\nORDERS LATER."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Rank, full-name disclosure, military coercion, illegal-ship threat and minder/babysitter joke remain. Opening narration omits table position and right-hand detail; the youthful commander’s complimentary smile remains."
+      ]
+    },
+    {
+      "id": "script:05c000:002",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t002": "ON DUTY. DO\nNOT DISTURB\nME."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:003",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t002": "ANOTHER SOS!\n",
+        "t004": "WAR WITH\nZOLIAS LOOKS\nINEVITABLE."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:004",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t003": "NEW HERE? KNOW\nWHAT\nCHAUSNOMYU\nMEANS?"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:005",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t003": "OH, ",
+        "t005": "!",
+        "t011": "ON A RECRUIT\nTOUR. EXCUSE\nUS."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "The fitted tour line is compact but retains new recruits and the polite excuse."
+      ]
+    },
+    {
+      "id": "script:05c000:006",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t002": "SOLDIER",
+        "t004": "THE STATION\nCONTROL ROOM."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:007",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t002": "SCIENTIST",
+        "t006": [
+          "MATCH WYURIA\nON THIS\nRESEARCH\nBUDGET?",
+          "IMPOSSIBLE!"
+        ]
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "The scientist’s complaint retains the research budget; matching Wyuria implies catching up with its science."
+      ]
+    },
+    {
+      "id": "script:05c000:008",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t002": "SOLDIER",
+        "t004": "WITH MARS GEAR\nWE BARELY\nMATCH ZOLIAS\nTROOPS."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Standard is omitted before Mars gear; the inability to match Zolias troops remains."
+      ]
+    },
+    {
+      "id": "script:05c000:010",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t007": "COMMANDER'S\nPRIVATE ROOM.\nNEED ANYTHING?\nASK ME."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:011",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t003": "ON LEAVE? I\nARRANGE YOUR\nTRAVEL."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:012",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t004": "SOLDIER",
+        "t006": "NO ENTRY.\nATRAIA IS\nBEING\nINSPECTED."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:013",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t002": "SHIP TRAFFIC\nIS TOUGH."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:014",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t006": " GOT A\nCALL.",
+        "t012": "YES, SIR.",
+        "t018": "FIRST JOB! TO\nTHE\nCOMMANDER'S\nPRIVATE ROOM."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "The terse acknowledgement omits the pause; first assignment, summons and private room remain."
+      ]
+    },
+    {
+      "id": "script:05c000:016",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t005": "ENOUGH! GET\nMOVING!"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:017",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t000": "NO BUSINESS?\nNO LOITERING"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:018",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t000": "DO US PROUD."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "DO US PROUD is a compact idiomatic expression of the commander’s expectation."
+      ]
+    },
+    {
+      "id": "script:05c000:020",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t000": "WE ORBIT MARS.",
+        "t003": [
+          "ZAJIL IS THE\nOUTERMOST MARS\nPLANET. LUSH\nAND FIT TO",
+          "SETTLE."
+        ],
+        "t005": " TAKE\nCARE."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Outermost Mars planet means the Mars system’s outermost orbit. Habitability and greenery remain."
+      ]
+    },
+    {
+      "id": "script:05c000:021",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t000": "IS MY SHIFT\nOVER YET?"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:022",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t001": "GOOD! ",
+        "t003": "A TRUE\nCOSMIC HAWK\nMEMBER."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:023",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t001": [
+          "CHAU IS COSMIC\nHAWK. SNOMYU\nIS MARS\nFEDERATION",
+          "SPACE NAVY."
+        ]
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:024",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t001": "SOLDIER",
+        "t003": "GO RIGHT IN."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:026",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t001": "OPERATOR"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05c000:036",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t002": "SEC"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "SEC is the technical abbreviation of Secretary in a four-byte header allocation."
+      ]
+    },
+    {
+      "id": "script:05c000:037",
+      "basedOn": "209f2e272b1b3260a1b199ecaa350560bbf155945eb581c182c3163b17e4f772",
+      "inGameEnglish": {
+        "t002": "ROY"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:05d000:000",
+      "basedOn": "c407e2663b8bd1c621943c4459ef98914278ee69ce0ade22a2789d063fd7f043",
+      "inGameEnglish": {
+        "t000": "YOUR FIRST\nASSIGNMENT.",
+        "t006": "BESTER DIMMED\nTHE LIGHTS,\n",
+        "t008": "TURNED ON THE\nSCREEN ",
+        "t010": [
+          "AND",
+          "BEGAN "
+        ],
+        "t012": "THE\nBRIEFING.",
+        "t015": "LOOK AT THIS\nPHOTO.",
+        "t019": "A PHOTO\nAPPEARED ",
+        "t021": "ON\nTHE SCREEN.",
+        "t024": "OUR AGENTS GOT\nTHIS FILM\nINSIDE A ZAJIL\nDRUG RING.",
+        "t028": "A DOMED\nPLANTATION,\n",
+        "t030": "THICK ",
+        "t032": "WITH\nKIDUN.",
+        "t036": "KIDUN, A DRUG\n",
+        "t038": "FROM ZOLIAS.\n",
+        "t040": "ADDICTIVE.\n",
+        "t042": [
+          "REGULAR USERS",
+          "SUFFER SEVERE\n"
+        ],
+        "t044": "HALLUCINATIONS",
+        "t048": "ITS WORST\nEFFECT ",
+        "t050": "WAS\nBIOJUNK.",
+        "t054": "BIOJUNK. A\nCOMPOUND ",
+        "t056": "IN\nKIDUN ",
+        "t058": "MUTATES\nGENES. ",
+        "t060": [
+          "THE",
+          "BODY RAPIDLY\nEVOLVES AND\nDEGENERATES,\n"
+        ],
+        "t062": [
+          "INSIDE AND",
+          "OUT."
+        ],
+        "t066": "MOST DIE\n",
+        "t068": "HORRIBLY. ",
+        "t070": [
+          "ONE\nIN TENS OF",
+          "THOUSANDS\n"
+        ],
+        "t072": "BECOMES A\nSAVAGE ",
+        "t074": "BIO\nBEAST.",
+        "t079": [
+          "MASS KILLINGS\nACROSS THE\nMARS",
+          "FEDERATION\n"
+        ],
+        "t081": "FOLLOWED IN\n",
+        "t083": [
+          "THE LAST TWO\nOR THREE",
+          "MONTHS."
+        ],
+        "t086": "YOU KNOW WHAT\nTHIS IS, I\nTAKE IT.",
+        "t089": [
+          "WE HAD RUMORS\nOF A HUGE\nKIDUN FARM RUN\nBY A ZAJIL",
+          "DRUG RING."
+        ],
+        "t092": [
+          "WE LACKED\nPROOF.\nREPEATED\nATTEMPTS TO",
+          "INFILTRATE IT\nALL FAILED."
+        ],
+        "t099": "SO WE FIND\nTHIS DRUG RING\nAND WIPE IT\nOUT?",
+        "t105": "WHAT DO WE\nKNOW SO FAR?",
+        "t108": "HERE IS WHAT\nWE KNOW.",
+        "t111": [
+          "THE ZAJIL RING\nIS KARILAS.\nITS BOSS IS\nTOMYU, A",
+          "MYUNTOS."
+        ],
+        "t114": "BE CAREFUL.\nALL THREE\nAGENTS SENT IN\nWERE KILLED.",
+        "t120": [
+          "WITH ME THERE,\nWE WILL BE\nFINE. UNLESS\nTHIS LOT GETS",
+          "IN MY WAY."
+        ],
+        "t126": "...",
+        "t129": "I EXPECT A\nGOOD REPORT."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Briefing retains drug addiction, hallucinations, mutation, evolution/degeneration, gruesome death, rare bio-beasts, massacres, three killed agents and syndicate/leader information.",
+        "The original two-to-three-month period and habitual-user restriction are retained explicitly."
+      ]
+    },
+    {
+      "id": "script:05d000:001",
+      "basedOn": "c407e2663b8bd1c621943c4459ef98914278ee69ce0ade22a2789d063fd7f043",
+      "inGameEnglish": {
+        "t002": "ROY"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:07d000:030",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t000": "THE FEDERATION\nSAW ATRAIA WAS\nGOOD. SMART!",
+        "t007": ", HOW CAN\nYOU BE SO\nCALM?",
+        "t013": "WHAT WILL BE,\nWILL BE. WE\nCAN USE THE\nMILITARY."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Uncle address is omitted around the immutable Joe name, without adding biological kinship."
+      ]
+    },
+    {
+      "id": "script:07d000:031",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t000": "WE HAVE NO\nTIME FOR\nTHIS...",
+        "t006": "CAREFUL, MISS.\nSIT TIGHT AND\nWAIT FOR OUR\nCHANCE."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:081000:000",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t000": "SLOW ME DOWN\nAND I'LL DUMP\nYOU!",
+        "t006": "THAT'S AWFUL!",
+        "t012": "THEN PRACTICE\nSHOOTING!",
+        "t018": "WHERE DO WE\nINVESTIGATE?",
+        "t024": "NO HALF\nMEASURES FOR\nME!",
+        "t030": "WE HIT SAIBAL\nON ZAJIL AND\nCRUSH THE\nSYNDICATE!"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:081000:001",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t000": "WHAT IS ZAJIL\nLIKE...?",
+        "t006": "CAN WE TAKE ON\nA CRIME RING?",
+        "t012": "LEAVE IT TO\nME. ONLY YOU\nLOT MIGHT DIE!"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:081000:002",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t000": "THAT ",
+        "t002": "\nLOOKS TOUGH.\nBEST KEEP OUR\nHEADS DOWN."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:082000:003",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t056": "QUIT GRUMBLING\nAND MOVE!"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:083000:002",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t013": "SHUT UP AND\nFLY!"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:083000:007",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t000": "I KNOW YOU ARE\nWORRIED.",
+        "t003": "QUIT\nFLATTERING ME.\nGO CHECK ON\nTHE GIRL.",
+        "t006": "SHE MUST HURT\nFAR MORE THAN\nYOU."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "The fitting compresses the rhetorical suggestion into blunt advice; concern for Shoko and her greater distress remain."
+      ]
+    },
+    {
+      "id": "script:083000:008",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t004": "ATRAIA,\nLAUNCHING."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Preserves the core meaning, speaker intent and original fixed-name order."
+      ]
+    },
+    {
+      "id": "script:083000:012",
+      "basedOn": "e9bc7ef05789d62a52acb5c8e7bc700c4a9b1680935551bd72f669733cd04d49",
+      "inGameEnglish": {
+        "t000": "I SHOULD HAVE\nGOTTEN A COMMS\nLICENSE."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "COMMS LICENSE is the constrained abbreviation of communications technician’s license; the hindsight conditional becomes should have."
+      ]
+    }
+  ]
+}

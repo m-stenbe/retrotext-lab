@@ -1,0 +1,395 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "byuto-mission-briefing",
+    "byuto-interstellar-engine",
+    "byuto-mine-and-aftermath",
+    "byuto-party",
+    "byuto-atraia-upgrades"
+  ],
+  "records": [
+    {
+      "id": "script:05c000:025",
+      "basedOn": "c73de6d857e507a3ce71055f86b61916436abcbd3516a265d74edfca414bb30e",
+      "inGameEnglish": {
+        "t001": "MISSION DONE\nSAFELY. WELL\nDONE.",
+        "t004": [
+          "FEDERATION\nINQUIRIES\nSUGGEST GEIST\nAT ZAJIL HAD",
+          "CORRUPT ZOLIAS\nTIES."
+        ],
+        "t011": " WAS\nTAKEN. DO YOU\nKNOW WHY?",
+        "t014": "UNCLEAR. THEY\nSEEM TO HAVE\nMEANT TO HAND\nHER TO ZOLIAS.",
+        "t017": "PERHAPS TO\nBARGAIN WITH.",
+        "t023": "AS I\nTHOUGHT...",
+        "t026": "AS YOU\nTHOUGHT?",
+        "t028": " HAVE\nYOU AN IDEA?",
+        "t034": "NO... WHAT\nELSE? SUCH A\nPRETTY GIRL!\nGAHAHA...",
+        "t037": "I SEE. IF THAT\nIS\nALL...",
+        "t039": [
+          "SORRY,\nBUT GO",
+          "STRAIGHT TO\nPLANET BYUTO."
+        ],
+        "t045": "THE MINING\nWORLD UNDER\nCIVILIAN RULE?",
+        "t048": "YES. CREATURES\nMUTATE AND\nATTACK PEOPLE,\nI HEAR.",
+        "t051": "MONSTERS NOW.\nFEEL FREE TO\nLET LOOSE.",
+        "t057": "GOT IT! LEAVE\nIT TO US!",
+        "t064": ", YOU\nSOUND EAGER.",
+        "t070": "I GET TO SEE\n",
+        "t072": " IN\nACTION AGAIN!",
+        "t078": "HAH! HOW\nSILLY."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Roy\u2019s formal praise and apology are shortened. Federation investigation, corrupt ties, uncertainty about the planned handover, possible bargaining motive and Joe\u2019s deflection remain. Byuto civilian rule, reported mutations and attacks, Shoko\u2019s eagerness to watch Welda and Welda\u2019s dismissal remain."
+      ]
+    },
+    {
+      "id": "script:05c000:035",
+      "basedOn": "c73de6d857e507a3ce71055f86b61916436abcbd3516a265d74edfca414bb30e",
+      "inGameEnglish": {
+        "t000": [
+          "BYUTO IS IN\nM861, TARGET\nOF MARS\nFEDERATION'S",
+          "FIRST\nDEVELOPMENT\nPLAN."
+        ],
+        "t003": "THE LAB SHOULD\nISSUE YOU AN\nINTERSTELLAR\nENGINE."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "M861 retains the established system label; first development plan and lab engine directions remain."
+      ]
+    },
+    {
+      "id": "script:05c000:038",
+      "basedOn": "72e9a97141caa0daf9e1092a74df2b3d2f85246ddadd82ec8d9d85c86c29bfd0",
+      "inGameEnglish": {
+        "t000": "GEAR FOR YOU.\nCLEAR THE\nHANGAR"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Have something to issue becomes gear for you. The inventory-full response still asks the player to clear the hangar."
+      ]
+    },
+    {
+      "id": "script:05c000:039",
+      "basedOn": "72e9a97141caa0daf9e1092a74df2b3d2f85246ddadd82ec8d9d85c86c29bfd0",
+      "inGameEnglish": {
+        "t002": [
+          "AN\nINTERSTELLAR\nENGINE. MARS\nFEDERATION",
+          "MILITARY\nISSUE."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05c000:040",
+      "basedOn": "72e9a97141caa0daf9e1092a74df2b3d2f85246ddadd82ec8d9d85c86c29bfd0",
+      "inGameEnglish": {
+        "t000": "DO NOT ENTER\nZOLIAS STAR\nSYSTEMS!"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05c000:041",
+      "basedOn": "c73de6d857e507a3ce71055f86b61916436abcbd3516a265d74edfca414bb30e",
+      "inGameEnglish": {
+        "t001": "TAKE CARE"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05c000:029",
+      "basedOn": "c73de6d857e507a3ce71055f86b61916436abcbd3516a265d74edfca414bb30e",
+      "inGameEnglish": {
+        "t000": "GOOD WORK. ROY\nIS WAITING."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Commander becomes Roy in the compact display line; the original shared Secretary header remains."
+      ]
+    },
+    {
+      "id": "script:060000:021",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t001": "AN EERIE ",
+        "t003": "GROWL\nECHOES ",
+        "t005": "DEEP IN\nTHE MINE.",
+        "t012": ", A HIDDEN\nPATH IS BELOW\nUS."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Spine-chilling is reduced to eerie in the narration. Deep-mine growl and downward hidden-passage direction remain."
+      ]
+    },
+    {
+      "id": "script:060000:022",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t001": "THINGS FALL\n",
+        "t003": "FROM THE MINE\nROOF!",
+        "t007": "EIBE",
+        "t009": " ",
+        "t011": "AMBUSH",
+        "t013": "!",
+        "t022": ", A HIDDEN\nPATH IS TO THE\nRIGHT."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Suddenly and tumbling are omitted; things falling from the mine ceiling, Eibe ambush and rightward passage remain."
+      ]
+    },
+    {
+      "id": "script:060000:023",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t004": "THIS SEEMS TO\nBE IT.",
+        "t010": "THE MONSTERS\nPOUR OUT FROM\nHERE.",
+        "t016": "BUT WHAT COULD\nBE IN\nTHERE...?",
+        "t022": "COME ON! LET'S\nGO!",
+        "t027": "WITH WELDA,\n",
+        "t029": "THE PARTY WENT\nON. ",
+        "t031": [
+          "A CREATURE\nSPRAYED",
+          "RED GREEN\n"
+        ],
+        "t033": "OOZE, ",
+        "t035": "SPAWNING\nENDLESS\nMONSTERS.",
+        "t044": "DONE. LET'S\nGO!"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Narration condenses the party moving with Welda at its center to with Welda; red-green putrid fluid becomes red green ooze. The creature spawning endless monsters remains explicit."
+      ]
+    },
+    {
+      "id": "script:060000:024",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t000": "THANK YOU SO\nMUCH! YOU BEAT\nTHAT MONSTER! "
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:060000:025",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t000": "THEY SHOULD\nSTOP BREEDING.\nWE'LL KILL THE\nREST."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:060000:026",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t000": "WELL DONE!\nTHANKS TO YOU,\nPEACE MAY\nRETURN HERE."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:060000:027",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t000": "WELL, I'M SO\nGLAD."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "The incidental whatever-the-case phrase is reduced to well; relief remains."
+      ]
+    },
+    {
+      "id": "script:060000:028",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t000": "FEDERATION\nELITE! I AM\nIMPRESSED."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:060000:029",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t004": "HEY, ",
+        "t006": ". A\nHIDDEN PATH\nHERE TOO"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:060000:031",
+      "basedOn": "206196150c9af33b6a6ab0124bfc59bd5da56f590b27aa6036fa2a91f5bb690c",
+      "inGameEnglish": {
+        "t001": "GIVE ME A\nBREAK!"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:013",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": [
+          "AWW! WE JUST\nBEAT THE\nSYNDICATE, NOW\nANOTHER",
+          "MISSION!"
+        ]
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "All that trouble becomes the weary complaint Aww followed by just beat the syndicate; immediate new assignment remains."
+      ]
+    },
+    {
+      "id": "script:081000:014",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": "WE MUST MAKE\nTHE BEST OF IT\nAND DO OUR\nDUTY.",
+        "t006": "WE MAY HEAR OF\n",
+        "t008": " WITH\nLUCK."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "A lead on Lucia becomes may hear of Lucia; it does not promise finding Lucia herself."
+      ]
+    },
+    {
+      "id": "script:081000:015",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": [
+          "BYUTO IS A\nCOLONY IN\nM861, THE\nSYSTEM OF YOUR",
+          "HOME, HOM."
+        ],
+        "t006": "MINING GREW.\nIT IS ALL\nPRIVATE NOW, I\nHEAR."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:016",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": "MINE MONSTERS\nHAVE EVERYONE\nIN A PANIC.\nPOOR FOLK!"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Monsters pouring out of the mine is condensed to mine monsters; panic and sympathy remain."
+      ]
+    },
+    {
+      "id": "script:081000:017",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": [
+          "CALLED EIBES,\nI HEAR. IN\nNUMBERS, THEY\nCOULD BE",
+          "TOUGH."
+        ],
+        "t006": "HMPH. SMALL\nFRY! I'LL\nCRUSH THEM!",
+        "t012": "STILL, A\nSUDDEN\nOUTBREAK?\nSUSPICIOUS.",
+        "t018": "THE MINE MAY\nHOLD THE\nANSWER."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:018",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": "SEARCH EVERY\nINCH OF THE\nMINE!"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:019",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": "THAT MONSTER\nSPAWNED EIBES.\nCASE SOLVED!"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:020",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": [
+          "THAT ODD THING\nCANNOT JUST\nAPPEAR. I\nSUSPECT ZOLIAS",
+          "AGAIN."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:021",
+      "basedOn": "96177b5870c05296ff1c318397b69c4e41c574623b791bd68aee1a5ad1d12e83",
+      "inGameEnglish": {
+        "t000": "MISSION DONE!\nLET'S PULL\nOUT. NO\nDAWDLING!"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:083000:013",
+      "basedOn": "4bf62affb9088becdceef0e5b756e14ae61e6aeba9984258dea1aa066df08fc7",
+      "inGameEnglish": {
+        "t000": "FOR REAL SPACE\nCOMBAT, WE\nMUST IMPROVE\nOUR ARMAMENT."
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:083000:014",
+      "basedOn": "4bf62affb9088becdceef0e5b756e14ae61e6aeba9984258dea1aa066df08fc7",
+      "inGameEnglish": {
+        "t000": [
+          "NO TIME TO\nWORK ON HER.\nSWAP PARTS TO\nBOOST HER",
+          "POWER WITHOUT\nLIMIT!"
+        ],
+        "t006": "I'LL MAKE SHIP\nWEAPONS SOON.\nLOOK FORWARD\nTO IT!"
+      },
+      "notes": [
+        "Separate adaptation from reviewed canonical English; original commands and runtime-name order preserved.",
+        "The original little time for modifications becomes no time to work on her. Unlimited improvement claim and promised ship weapons remain."
+      ]
+    }
+  ]
+}

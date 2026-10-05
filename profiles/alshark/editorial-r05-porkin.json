@@ -1,0 +1,831 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R05 manager source/context and connected-scene editorial review",
+  "scenes": [
+    {
+      "id": "r05-porkin-initial",
+      "records": [
+        "script:05a000:000",
+        "script:05a000:001",
+        "script:05a000:002",
+        "script:05a000:003",
+        "script:05a000:004",
+        "script:05a000:005",
+        "script:05a000:006",
+        "script:05a000:007",
+        "script:05a000:008",
+        "script:05a000:009",
+        "script:05a000:010",
+        "script:05a000:011",
+        "script:05a000:013",
+        "script:05a000:015",
+        "script:05a000:016",
+        "script:05a000:018",
+        "script:05a000:029",
+        "script:05a000:030",
+        "script:05a000:031",
+        "script:05a000:032",
+        "script:05a000:033",
+        "script:05a000:034",
+        "script:05a000:035",
+        "script:05a000:036",
+        "script:05a000:037",
+        "script:05a000:038"
+      ],
+      "participants": [
+        "Local residents and merchants"
+      ],
+      "location": "Porkin",
+      "storyState": "First Zajil assignment, through Saibal kidnapping, before pursuing Tomyu.",
+      "purpose": "Complete initial optional town and shop interactions.",
+      "previousContext": [
+        "CS Station first briefing completed."
+      ],
+      "followingContext": [
+        "Post-kidnapping pursuit and exploration after taking a bus off Zajil are beyond this section."
+      ],
+      "branchAlternatives": [
+        "Source-bound alternatives; not a single consecutive conversation."
+      ],
+      "terminology": [
+        "place.porkin",
+        "place.zajil",
+        "shop.weporkin",
+        "faction.chausnomyu",
+        "character.tomyu",
+        "people.myuntos",
+        "item.hand_medical"
+      ],
+      "evidence": [
+        "docs/r05-re-source-evidence.md; docs/r05-qa-source-inventory.md; original r05_flow bounded closure."
+      ],
+      "uncertainty": [
+        "Official romanizations unverified; full runtime traversal pending."
+      ],
+      "notes": [
+        "The inherited MEDS item display remains provisional."
+      ],
+      "reviewNote": "Read original Japanese and complete English scene alternatives together; checked tone, shop roles, pre-victory story state, destination/fare values and refusal branches. Technical shortening is separately documented."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05a000:000",
+      "sourceFingerprint": "26e40e0d3af50e2df7e63710171c4acc03ebf68c88592e47dc1277e0b0ffcf6c",
+      "canonicalEnglish": "Porkin Mart: Welcome! What can I get you?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:001",
+      "sourceFingerprint": "bad1d7a6c1526871cd0565979f4ef7d3b1a9afd8bd50f276650c0159a72b57a3",
+      "canonicalEnglish": "Porkin Mart: Welcome! What are you looking for?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:002",
+      "sourceFingerprint": "cb5b3e69624d7e788f4cac7e7744ccdfde6972d18aa26e3d3f0b3a17094d2d61",
+      "canonicalEnglish": "Clerk: The counter on the left has useful supplies like {item.hand_medical}. On the right, we stock the slightly more dangerous things you can use as weapons!",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:003",
+      "sourceFingerprint": "b386781fdfd5e1acdb562749e6b3222ae5e1f4c998362cd747b280c8b0e57e82",
+      "canonicalEnglish": "Young Man: This is Porkin, a country town on Zajil. It was a really nice place before they came.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:004",
+      "sourceFingerprint": "5abb4c37ef632c2f764178f2233d2ae7642399497f4360abd411e705d55bc816",
+      "canonicalEnglish": "Weporkin: Come on in! Zajil's most stylish shop! This is the place to buy your weapons!",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:005",
+      "sourceFingerprint": "008c6505c5bf15b701f8cccdcabecbb6b27b0b5ea528e3b27ab6728224c2e473",
+      "canonicalEnglish": "Syndicate Member: Huh? What do you want?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:006",
+      "sourceFingerprint": "4541e231757d061cc8c7b29d4046869f3261ba184b13c365d7cd8cc03e50d60f",
+      "canonicalEnglish": "Call Girl: Plenty of people are after you lot. Watch yourselves.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:007",
+      "sourceFingerprint": "948868dc3396b679bd38cbdcc4de0611e930e16c86048f280260fdb90836bd27",
+      "canonicalEnglish": "Outlaw: Heh. You think you can cross the syndicate and live?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:008",
+      "sourceFingerprint": "a75964b0907bdeec3b13132b46e5157e685333b91b3ebf4455c1c51308829397",
+      "canonicalEnglish": "Scrapper: Sorry. I don't do business with outsiders. Try somewhere else.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:009",
+      "sourceFingerprint": "580ab170a84eb30ab91216499d2e885eef1f77d9e137f185e1401c0b1c434eb2",
+      "canonicalEnglish": "Man: I-I don't know anything!",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:010",
+      "sourceFingerprint": "8b930662c452d4e84a09f9356a5506b423dd17a155e69401f528dea699e34d8d",
+      "canonicalEnglish": "Woman: Just leave, please. You're making trouble for us.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:011",
+      "sourceFingerprint": "6358e132ae9897eb0f5925768a3be4721a8fb3574bc837b5858d237fd5d10aff",
+      "canonicalEnglish": "Old Man: If I were a little younger, I'd run those thugs off with my bare fists...",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:013",
+      "sourceFingerprint": "fed8126cc5044b70a6f6065977624dd5d66afb9f39d5f12f3067bc00d4500ad1",
+      "canonicalEnglish": "Thug: What? What? What'd I do?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:015",
+      "sourceFingerprint": "a43153d754392719605cdd0f817903e9d251f24757a53d00bb7a97f33af5229a",
+      "canonicalEnglish": "Man: Please, find some way to drive those people out!",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:016",
+      "sourceFingerprint": "3d81989a917e8cafa578831260257548574f4e65f36cb8d499eb8536cb349ed3",
+      "canonicalEnglish": "Girl: That Myuntos man, Tomyu? He's always coming and going from that house with some dangerous-looking people.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:018",
+      "sourceFingerprint": "ee1b78bf10744f26b8a79d9dd7f8f92ff913cfe53379ae5d80b45f3f4f91cee8",
+      "canonicalEnglish": "Syndicate Member: I haven't seen you arou... Y-you! You're Chausnomyu! Damn it! I'll take you on!",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:029",
+      "sourceFingerprint": "54524b06de5d87ffff01027f877c066baa17899a6fe51d47df85ce6230435c8f",
+      "canonicalEnglish": "Buy Weapons\nBuy Armor\nLeave",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:030",
+      "sourceFingerprint": "254e11b95adb40840ef381b5ed550743158f8fac24f3815cbd285bc24329ccc9",
+      "canonicalEnglish": "Weporkin: Anything else catch your eye?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:031",
+      "sourceFingerprint": "85b1b20a5fa72c3cde25ebf784493f2a91cc660b0ca497df832a487a0dfab08f",
+      "canonicalEnglish": "Weporkin: Anything else catch your eye?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:032",
+      "sourceFingerprint": "7b0fedbaa61c8434c1411ee4e70bc85bb04ca518ab60c5a9309e5448e0a5263d",
+      "canonicalEnglish": "Weporkin: Come back anytime.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:033",
+      "sourceFingerprint": "1ec32b606e098b22242e76ae156403fdc43f51719b743184219cffce30ef5308",
+      "canonicalEnglish": "Buy Tools\nLeave",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:034",
+      "sourceFingerprint": "06b6d1e2f465283e9e53076137694c71327dc6205568fe95869b434c36768a7e",
+      "canonicalEnglish": "Porkin Mart: Is there anything else you need?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:035",
+      "sourceFingerprint": "e18d7b3ba7ac9fd2120887755860324619ae0ca30e328e664e9e1b73b774b78f",
+      "canonicalEnglish": "Porkin Mart: Thank you very much.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:036",
+      "sourceFingerprint": "c6f6d7fc93372682b3b4766f5818742c62978706d17a8315d887fa15cfb60431",
+      "canonicalEnglish": "Porkin Mart: Is there anything else you need?",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:037",
+      "sourceFingerprint": "985a4541c6f3ac7a5f7328cc93d83d7893e389f3933c739c0c60f26d7f020871",
+      "canonicalEnglish": "Weporkin: Looks like you're short of cash.",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:038",
+      "sourceFingerprint": "40abd7f5549c297e1d919e2626f0cb58169da67da68901cd7c5e72ba8a88c71b",
+      "canonicalEnglish": "Porkin Mart: Um, you do need money for this...",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [
+          "place.porkin",
+          "place.zajil",
+          "shop.weporkin",
+          "faction.chausnomyu",
+          "character.tomyu",
+          "people.myuntos",
+          "item.hand_medical"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

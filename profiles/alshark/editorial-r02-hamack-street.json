@@ -1,0 +1,373 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Luna localization proposal, R02",
+  "scenes": [
+    {
+      "id": "hamack-street-voices",
+      "records": [
+        "script:052000:000",
+        "script:052000:002",
+        "script:052000:003",
+        "script:052000:004",
+        "script:052000:005",
+        "script:052000:006",
+        "script:052000:007",
+        "script:052000:010",
+        "script:052000:011",
+        "script:052000:016",
+        "script:052000:017",
+        "script:052000:018",
+        "script:052000:020"
+      ],
+      "participants": [
+        "Sion",
+        "Hamack residents"
+      ],
+      "location": "Hamack street; independent optional NPC interactions, not a linear conversation.",
+      "storyState": "Sion and companions are gathering information in Hamack before seeking a spaceport lead.",
+      "purpose": "Translate complete, source-grounded ambient conversations encountered on the Hamack street route.",
+      "previousContext": [
+        "Sion, Shoko and Karu are searching for Lucia after the events at Dust."
+      ],
+      "followingContext": [
+        "The underground bar and its informants provide the next clue; job and post-Joe party branches are separate connected packets."
+      ],
+      "branchAlternatives": [
+        "The listed NPC conversations are separate map interactions. Entry adjacency does not imply order. The drunk’s alternate responses in 052000:010 remain alternative lines from one NPC."
+      ],
+      "terminology": [
+        "place.ulyria",
+        "place.wisperard",
+        "character.wey_dumna"
+      ],
+      "evidence": [
+        "Fresh replay of the original disks; exact source fingerprints and decoded text spans for each listed entry.",
+        "RE map48 proof: these are independently reachable Hamack exterior interactions."
+      ],
+      "uncertainty": [
+        "Ulyria, Wisperard, and Wey Dumna remain provisional spellings in the bible, not official romanization claims.",
+        "No dialogue has runtime playtest evidence yet."
+      ],
+      "notes": [
+        "The rumor branch 052000:019/084 is handled in the separate hamack-joe-rumor scene."
+      ],
+      "reviewNote": "Read each Japanese entry and the complete set continuously as independent optional Hamack interactions. Reviewed source meaning, voice, uncertainty, retained jokes and the separation between local opinion and verified fact. Branch- and control-flow-dependent conversations are reviewed in their own packets."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:052000:000",
+      "sourceFingerprint": "11a0dc680729a63d4ec4312090ef5ca2031892288ea49cecb3ae02f9e4ee5d0e",
+      "canonicalEnglish": "Older Woman: I could really use a new helper robot, but the economy is so bad... I could get one cheaply on Ulyria, though.",
+      "context": {
+        "speaker": "Older Woman",
+        "listener": "Sion / player party",
+        "intent": "Wish aloud about an unavailable helper robot.",
+        "tone": "Wistful, conversational.",
+        "terminology": [
+          "place.ulyria"
+        ],
+        "uncertainty": [
+          "The helper-robot model and the local economy are unspecified."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [
+        "Ulyria is the working spelling recorded in the bible; its official English form is unverified."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:002",
+      "sourceFingerprint": "83f0ff7922e39a81f66f017b68ebb1533c9aa16e91692cb027ebec2ec7bb0543",
+      "canonicalEnglish": "Young Man: I need a steady income before I can propose to her. I’m thinking of running a scrap shop and making a fortune.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Sion / player party",
+        "intent": "Explain his plan to run a scrap business to earn money before proposing.",
+        "tone": "Earnest and hopeful.",
+        "terminology": [],
+        "uncertainty": [
+          "“Her” is unnamed; do not invent a partner’s identity."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [
+        "Running a scrap shop is explicit; the source does not say he is merely an employee."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:003",
+      "sourceFingerprint": "5634f899114f04d5ec77761963c5523460aa0f7b79d6871318a76dc5186a6bee",
+      "canonicalEnglish": "Young Woman: Honestly, he's not some old geezer. Doesn't he know running a scrap shop is totally out of fashion these days?",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Sion / player party",
+        "intent": "Complain about her boyfriend’s plan to work at a scrap shop.",
+        "tone": "Dismissive, mildly exasperated.",
+        "terminology": [],
+        "uncertainty": [
+          "This is a character’s opinion about what is fashionable, not an objective claim."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:004",
+      "sourceFingerprint": "1878066993c7e927884b2bd81e426d0446d650fda53d48120347fa209e3f0507",
+      "canonicalEnglish": "Older Woman: I ordered canned food from the shop. It still hasn’t arrived...",
+      "context": {
+        "speaker": "Older Woman",
+        "listener": "Sion / player party",
+        "intent": "Ask about a delayed canned-food order.",
+        "tone": "Mildly impatient.",
+        "terminology": [],
+        "uncertainty": [
+          "The shop and delivery are not identified."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:005",
+      "sourceFingerprint": "0ee685034f3763c2e84f486108ddfefbca07a3db2d774446917f3afdadc0727c",
+      "canonicalEnglish": "Woman in Heavy Makeup: Oh, young man. A bunch of scary fellows hang out in the underground bar down this way. Best keep your distance.",
+      "context": {
+        "speaker": "Woman in Heavy Makeup",
+        "listener": "Sion / player party",
+        "intent": "Warn a young visitor about intimidating men at the underground bar.",
+        "tone": "Teasing but cautionary.",
+        "terminology": [],
+        "uncertainty": [
+          "The source uses an affectionate “boy” address; it does not identify the men or the bar’s operator."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:006",
+      "sourceFingerprint": "ad086f4a908441119a8aedb32b8b51aab25977c940d19f2a3cd8961957d0675e",
+      "canonicalEnglish": "Man: If you're strong, you'd be better off with a sword than a gun. Well, I suppose that's no concern of a kid.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion / player party",
+        "intent": "Offer practical advice about choosing a sword over a gun.",
+        "tone": "Blunt, lightly dismissive.",
+        "terminology": [],
+        "uncertainty": [
+          "He assumes the listener is a child; this does not establish Sion’s exact age."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:007",
+      "sourceFingerprint": "5c0b257b0b10011bfc846a607a87a89ca0418b0fa9657e69a9904635c603dfb1",
+      "canonicalEnglish": "Outlaw: Hey, you! Still haven’t found it? The sun’s going down!",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Sion / player party",
+        "intent": "Ask whether the listener has found an unspecified target.",
+        "tone": "Impatient, time-conscious.",
+        "terminology": [],
+        "uncertainty": [
+          "The object of “it” is unstated; do not identify it."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:010",
+      "sourceFingerprint": "a0a2f078df67e7e4dd896c633c3c48ba6d2f324942b1c52153189f31620de469",
+      "canonicalEnglish": "Drunk: Hic...\nHuh? Need something from me?\n...What? Got a problem with me?\nLeave me alone... Zzz.",
+      "context": {
+        "speaker": "Drunk",
+        "listener": "Sion / player party",
+        "intent": "React to the visitor, then tell them to leave him alone.",
+        "tone": "Slurred, irritable, then sleepy.",
+        "terminology": [],
+        "uncertainty": [
+          "The lines are conditional/repeated responses from the same man, not a single uninterrupted monologue."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:011",
+      "sourceFingerprint": "5dbc6d09e54dd4794a8936075dd81bf6bd763207b7d35f377fb41d662717ea9d",
+      "canonicalEnglish": "Older Woman: The monster-sized bugs on this planet eat anything... They say their bellies are even stuffed with scrap!",
+      "context": {
+        "speaker": "Older Woman",
+        "listener": "Sion / player party",
+        "intent": "Repeat a rumor about the planet’s large insects eating scrap.",
+        "tone": "Wondering, then amused.",
+        "terminology": [],
+        "uncertainty": [
+          "The scrap-filled-belly claim is reported hearsay, not verified biology."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:016",
+      "sourceFingerprint": "a255cf0b2034cb826cfc2cd92544615ce86be06c518cd0ef060e92d53736bfa7",
+      "canonicalEnglish": "Outlaw: This world is too set in its ways for a man to live free.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Sion / player party",
+        "intent": "Complain that the world constrains a free life.",
+        "tone": "Rebellious, dissatisfied.",
+        "terminology": [],
+        "uncertainty": [
+          "Do not infer a specific plan or destination."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:017",
+      "sourceFingerprint": "7a4357b111e979ab822774f82f64dbc951e648d93601a557c8b9fdc54dd722fe",
+      "canonicalEnglish": "Man: Wey Dumna, Wisperard's founding pioneer, opened up this world 300 years ago. If its peoples go to war, it'll all be over.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion / player party",
+        "intent": "Reflect on the planet’s settlement and warn against war between its peoples.",
+        "tone": "Grave, civic-minded.",
+        "terminology": [
+          "place.wisperard",
+          "character.wey_dumna"
+        ],
+        "uncertainty": [
+          "Wisperard and Wey Dumna are working spellings from the bible, not claims of official romanization."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [
+        "Wisperard and Wey Dumna follow the manager's provisional bible spellings."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:018",
+      "sourceFingerprint": "82e77b7f31923fe33a797580a6e7a21ae0545b46b76628339b99955b6b58f816",
+      "canonicalEnglish": "Older Woman: War leaves no room for mercy. If you don’t harden yourself, you’ll be the one who dies.",
+      "context": {
+        "speaker": "Older Woman",
+        "listener": "Sion / player party",
+        "intent": "Warn that mercy is fatal in war.",
+        "tone": "Severe and ominous.",
+        "terminology": [],
+        "uncertainty": [
+          "This is her hard-edged warning, not a general gameplay instruction."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:020",
+      "sourceFingerprint": "786e456204c375804122af3b1ba7ae530ecff76c1829a73882379a21b2757a60",
+      "canonicalEnglish": "Young Man: I’ll work and work until I can get my own ship, then fly out across the vast ocean of space!",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Sion / player party",
+        "intent": "Share an ambition to earn a ship and leave the planet.",
+        "tone": "Energetic, idealistic.",
+        "terminology": [],
+        "uncertainty": [
+          "The ship is an ambition; ownership or a concrete departure plan is not established."
+        ],
+        "notes": [
+          "Optional Hamack street interaction; no chronological link to adjacent map objects is asserted."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

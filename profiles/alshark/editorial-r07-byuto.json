@@ -1,0 +1,816 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R07 connected-scene source editorial review",
+  "scenes": [
+    {
+      "id": "byuto-mission-briefing",
+      "records": [
+        "script:05c000:025",
+        "script:05c000:035",
+        "script:05c000:041",
+        "script:05c000:029"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Roy",
+        "Secretary"
+      ],
+      "location": "CS Station",
+      "storyState": "After Shoko’s military-station rescue; Roy assigns Byuto and sets flag29. Laboratory issues engine and sets49.",
+      "purpose": "Roy’s post-rescue report and Byuto assignment",
+      "previousContext": [
+        "The party rescued Shoko from Geist; Shoko reported apparent Kidun trade with Zolias. Sion and Joe suspected an unstated connection."
+      ],
+      "followingContext": [
+        "The party receives an interstellar engine to reach Byuto in the M861 System."
+      ],
+      "branchAlternatives": [
+        "Secretary directions before engine issue and brief farewell after issue are alternatives.",
+        "Scientist checks hangar capacity before issuing the engine; later interactions warn against Zolias systems."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.roy_bester",
+        "character.geist",
+        "faction.zolias",
+        "faction.mars_federation",
+        "place.byuto",
+        "system.m861",
+        "technology.interstellar_engine"
+      ],
+      "evidence": [
+        "Original script05c000025,035,038–041;025 sets29 and039 sets49.",
+        "Source025 names Byuto, civilian control, mutations, and attacks;035 names M861 and the First Development Plan."
+      ],
+      "uncertainty": [
+        "Official spellings remain provisional.",
+        "Joe deflects Roy’s question; his actual inference is not disclosed."
+      ],
+      "notes": [
+        "No implied romantic relationship is inferred from Shoko’s enthusiasm for Welda."
+      ],
+      "reviewNote": "Reviewed the Japanese report, evasive kidnapping exchange, new mission and logistical alternatives continuously against canonical English. Preserve uncertainty in Roy’s findings, Joe’s deflection, Shoko’s eagerness and Welda’s curt dismissal. Canonical English is independent of ROM constraints."
+    },
+    {
+      "id": "byuto-interstellar-engine",
+      "records": [
+        "script:05c000:038",
+        "script:05c000:039",
+        "script:05c000:040"
+      ],
+      "participants": [
+        "Scientist",
+        "Party"
+      ],
+      "location": "CS Station",
+      "storyState": "After Shoko’s military-station rescue; Roy assigns Byuto and sets flag29. Laboratory issues engine and sets49.",
+      "purpose": "Laboratory engine issue and warning",
+      "previousContext": [
+        "The party rescued Shoko from Geist; Shoko reported apparent Kidun trade with Zolias. Sion and Joe suspected an unstated connection."
+      ],
+      "followingContext": [
+        "The party receives an interstellar engine to reach Byuto in the M861 System."
+      ],
+      "branchAlternatives": [
+        "Secretary directions before engine issue and brief farewell after issue are alternatives.",
+        "Scientist checks hangar capacity before issuing the engine; later interactions warn against Zolias systems."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.roy_bester",
+        "character.geist",
+        "faction.zolias",
+        "faction.mars_federation",
+        "place.byuto",
+        "system.m861",
+        "technology.interstellar_engine"
+      ],
+      "evidence": [
+        "Original script05c000025,035,038–041;025 sets29 and039 sets49.",
+        "Source025 names Byuto, civilian control, mutations, and attacks;035 names M861 and the First Development Plan."
+      ],
+      "uncertainty": [
+        "Official spellings remain provisional.",
+        "Joe deflects Roy’s question; his actual inference is not disclosed."
+      ],
+      "notes": [
+        "No implied romantic relationship is inferred from Shoko’s enthusiasm for Welda."
+      ],
+      "reviewNote": "Reviewed the Japanese report, evasive kidnapping exchange, new mission and logistical alternatives continuously against canonical English. Preserve uncertainty in Roy’s findings, Joe’s deflection, Shoko’s eagerness and Welda’s curt dismissal. Canonical English is independent of ROM constraints."
+    },
+    {
+      "id": "byuto-mine-and-aftermath",
+      "records": [
+        "script:060000:021",
+        "script:060000:022",
+        "script:060000:023",
+        "script:060000:024",
+        "script:060000:025",
+        "script:060000:026",
+        "script:060000:027",
+        "script:060000:028",
+        "script:060000:029",
+        "script:060000:031"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Byuto residents"
+      ],
+      "location": "Byuto and Atraia",
+      "storyState": "Byuto assignment29; town information33; monster victory2c.",
+      "purpose": "Mine hidden passages, ambush, monster source and town aftermath",
+      "previousContext": [
+        "The party rescued Shoko from Geist; Shoko reported apparent Kidun trade with Zolias. Sion and Joe suspected an unstated connection."
+      ],
+      "followingContext": [
+        "The party receives an interstellar engine to reach Byuto in the M861 System."
+      ],
+      "branchAlternatives": [
+        "Party triads are alternative character interactions gated by29,33 and2c.",
+        "Hidden-passage hints and ceiling ambush are optional mine encounters.",
+        "Town thanks are post-victory variants; they are not one continuous conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.roy_bester",
+        "character.geist",
+        "faction.zolias",
+        "faction.mars_federation",
+        "place.byuto",
+        "system.m861",
+        "creature.eibe"
+      ],
+      "evidence": [
+        "Original060000021–031 and081000013–021; original083000013–014.",
+        "RE traces map46 town, map97 mine, boss023 setting2c;082043–051 supply Shoko/Joe/Welda party headers."
+      ],
+      "uncertainty": [
+        "Eibe is a provisional source-based creature spelling, not an official romanization.",
+        "Joe suspects Zolias; the scene does not confirm responsibility."
+      ],
+      "notes": [
+        "No implied romantic relationship is inferred from Shoko’s enthusiasm for Welda."
+      ],
+      "reviewNote": "Reviewed complete Japanese and canonical sequence, preserving optional encounters, Eibe numbers and source, Joe’s suspicions as suspicions, directional hints and the residents’ relief. Party speakers follow proven wrapper headers; adjacent records are not presumed one conversation."
+    },
+    {
+      "id": "byuto-party",
+      "records": [
+        "script:081000:013",
+        "script:081000:014",
+        "script:081000:015",
+        "script:081000:016",
+        "script:081000:017",
+        "script:081000:018",
+        "script:081000:019",
+        "script:081000:020",
+        "script:081000:021"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Byuto residents"
+      ],
+      "location": "Byuto and Atraia",
+      "storyState": "Byuto assignment29; town information33; monster victory2c.",
+      "purpose": "Party discussion before investigation, after town information and after victory",
+      "previousContext": [
+        "The party rescued Shoko from Geist; Shoko reported apparent Kidun trade with Zolias. Sion and Joe suspected an unstated connection."
+      ],
+      "followingContext": [
+        "The party receives an interstellar engine to reach Byuto in the M861 System."
+      ],
+      "branchAlternatives": [
+        "Party triads are alternative character interactions gated by29,33 and2c.",
+        "Hidden-passage hints and ceiling ambush are optional mine encounters.",
+        "Town thanks are post-victory variants; they are not one continuous conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.roy_bester",
+        "character.geist",
+        "faction.zolias",
+        "faction.mars_federation",
+        "place.byuto",
+        "system.m861",
+        "creature.eibe"
+      ],
+      "evidence": [
+        "Original060000021–031 and081000013–021; original083000013–014.",
+        "RE traces map46 town, map97 mine, boss023 setting2c;082043–051 supply Shoko/Joe/Welda party headers."
+      ],
+      "uncertainty": [
+        "Eibe is a provisional source-based creature spelling, not an official romanization.",
+        "Joe suspects Zolias; the scene does not confirm responsibility."
+      ],
+      "notes": [
+        "No implied romantic relationship is inferred from Shoko’s enthusiasm for Welda."
+      ],
+      "reviewNote": "Reviewed complete Japanese and canonical sequence, preserving optional encounters, Eibe numbers and source, Joe’s suspicions as suspicions, directional hints and the residents’ relief. Party speakers follow proven wrapper headers; adjacent records are not presumed one conversation."
+    },
+    {
+      "id": "byuto-atraia-upgrades",
+      "records": [
+        "script:083000:013",
+        "script:083000:014"
+      ],
+      "participants": [
+        "Joe",
+        "Welda",
+        "Sion"
+      ],
+      "location": "Atraia",
+      "storyState": "After assignment flag29.",
+      "purpose": "Ship armament and development advice",
+      "previousContext": [
+        "The party rescued Shoko from Geist; Shoko reported apparent Kidun trade with Zolias. Sion and Joe suspected an unstated connection."
+      ],
+      "followingContext": [
+        "The party receives an interstellar engine to reach Byuto in the M861 System."
+      ],
+      "branchAlternatives": [
+        "Atraia083002 header Welda branches29→013;083004 header Joe branches29→014."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.roy_bester",
+        "character.geist",
+        "faction.zolias",
+        "faction.mars_federation",
+        "place.byuto",
+        "system.m861"
+      ],
+      "evidence": [
+        "Original083000002/004 shared name headers8/6 and branches29 to013/014."
+      ],
+      "uncertainty": [
+        "Joe describes unlimited improvement rhetorically; no numeric gameplay limit is asserted."
+      ],
+      "notes": [
+        "No implied romantic relationship is inferred from Shoko’s enthusiasm for Welda."
+      ],
+      "reviewNote": "Reviewed complete Japanese and canonical sequence, preserving optional encounters, Eibe numbers and source, Joe’s suspicions as suspicions, directional hints and the residents’ relief. Party speakers follow proven wrapper headers; adjacent records are not presumed one conversation."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05c000:025",
+      "sourceFingerprint": "96126f8d7e6b0d545e50ffe38090f7788413260561ed06e308943c3e6dd8c992",
+      "canonicalEnglish": "Roy: I see you completed your mission safely. You did very well indeed.\nThe Federation's subsequent investigation found that Commander Geist of Zajil's military station apparently had close, corrupt ties to Zolias.\nSion: Do you know why they kidnapped Shoko?\nRoy: The details are unclear, but it seems they intended to hand her over to Zolias. Perhaps they meant to use her as a bargaining chip.\nJoe: So I was right...\nRoy: Right? Do you have some idea what this was about?\nJoe: ...No, I just can't think of any other explanation. After all, she's such a pretty girl. Gahahaha...\nRoy: I see. Well, if that's all...\nNow, I'm sorry to send you straight out again, but I'd like you to head to Planet Byuto.\nWelda: The mining planet that was turned over to civilian control?\nRoy: That's right. There are reports of creatures mutating and attacking people there.\nThis time you're up against monsters, so feel free to let loose.\nShoko: Understood! Leave it to us!\nSion: You're awfully enthusiastic, Shoko.\nShoko: Well, I'll get to see Welda in action again!\nWelda: Hah! Ridiculous.",
+      "context": {
+        "speaker": "Speakers identified by source headers and canonical dialogue",
+        "listener": "Party / present characters",
+        "intent": "Report the rescue, assign the Byuto investigation, and prepare interstellar travel",
+        "tone": "Formal briefing, evasive humor, enthusiasm and practical instruction",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:035",
+      "sourceFingerprint": "35f4021404fc3c969900103a95c4c6342e5e364125f963fb247c57ef84b6c168",
+      "canonicalEnglish": "Secretary: Planet Byuto is in the M861 System, the target of the Mars Federation's First Development Plan.\nIf you go to the laboratory, they should issue you an engine capable of interstellar travel.",
+      "context": {
+        "speaker": "Speakers identified by source headers and canonical dialogue",
+        "listener": "Party / present characters",
+        "intent": "Report the rescue, assign the Byuto investigation, and prepare interstellar travel",
+        "tone": "Formal briefing, evasive humor, enthusiasm and practical instruction",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:038",
+      "sourceFingerprint": "08126fd80b1b28ba2fea3adca3db5d49cc433d89dabc58efbc3cc2e4913a1df6",
+      "canonicalEnglish": "Scientist: I have something to issue you. Make room in your hangar.",
+      "context": {
+        "speaker": "Speakers identified by source headers and canonical dialogue",
+        "listener": "Party / present characters",
+        "intent": "Report the rescue, assign the Byuto investigation, and prepare interstellar travel",
+        "tone": "Formal briefing, evasive humor, enthusiasm and practical instruction",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:039",
+      "sourceFingerprint": "9b0f80ab6fd82515157dc126f97af6830f008a67128021326f49b9ae93fff137",
+      "canonicalEnglish": "Scientist: I’ll issue you an engine used for interstellar travel as standard equipment by the Mars Federation military.",
+      "context": {
+        "speaker": "Speakers identified by source headers and canonical dialogue",
+        "listener": "Party / present characters",
+        "intent": "Report the rescue, assign the Byuto investigation, and prepare interstellar travel",
+        "tone": "Formal briefing, evasive humor, enthusiasm and practical instruction",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:040",
+      "sourceFingerprint": "b26554a5cf690f8ac95dd6b90553038226336b35f384fd9a42b68be91dd0b819",
+      "canonicalEnglish": "Scientist: Whatever you do, don't go into a Zolias star system!",
+      "context": {
+        "speaker": "Speakers identified by source headers and canonical dialogue",
+        "listener": "Party / present characters",
+        "intent": "Report the rescue, assign the Byuto investigation, and prepare interstellar travel",
+        "tone": "Formal briefing, evasive humor, enthusiasm and practical instruction",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:041",
+      "sourceFingerprint": "749dab3cdbc6a35f2d62f116583aa15c7bfe7d5132a46f13dd7d06520dffa0a9",
+      "canonicalEnglish": "Secretary: Take care.",
+      "context": {
+        "speaker": "Speakers identified by source headers and canonical dialogue",
+        "listener": "Party / present characters",
+        "intent": "Report the rescue, assign the Byuto investigation, and prepare interstellar travel",
+        "tone": "Formal briefing, evasive humor, enthusiasm and practical instruction",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:029",
+      "sourceFingerprint": "ec71078d2621c9276134282132fb219f65d064ef55717fa1bc70aee534aa5c1c",
+      "canonicalEnglish": "Secretary: Thank you for your service. The commander is waiting for you.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:021",
+      "sourceFingerprint": "ea13673d3178e5fe0b7fed13665fe07ad38adcc0f90140cb6a17515e3e2bc5aa",
+      "canonicalEnglish": "Narration: An eerie, spine-chilling growl echoes from deep within the mine.\nShoko: Sion, there seems to be a hidden passage below us.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:022",
+      "sourceFingerprint": "826f98333c84812fb03f070bff2b05ad3ca9fe24091a38f3f2ce4ee9cc163cf9",
+      "canonicalEnglish": "Narration: Suddenly, something comes tumbling down from the mine ceiling. An ambush by the Eibes!\n[Battle.]\nShoko: Sion, there seems to be another hidden passage to the right.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:023",
+      "sourceFingerprint": "7342efc1880ce2ce5bfadd2e0367bfea88871881daa2feffc4fcb95cacba0c27",
+      "canonicalEnglish": "Welda: Looks like this is the place.\nJoe: So this is where those monsters are pouring out from.\nShoko: But what could be in there...?\nWelda: Come on! Let's go!\nNarration: With Welda at their center, Sion and the others pushed deeper into the mine. What they found was a creature spawning endless monsters as it sprayed red-green putrid fluid.\n[Battle.]\nWelda: Good, that's taken care of. We're pulling out!",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:024",
+      "sourceFingerprint": "a4ae27c3d12a0f3a4315955fbdad27ea2a8beb5535d51cf4da94bf47f292218c",
+      "canonicalEnglish": "Thank you so much. You defeated that monster!",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:025",
+      "sourceFingerprint": "b55ef8ad74a4004948e3d8ed2afff64717f1380c1da7ca59e20ab00c93a61fc8",
+      "canonicalEnglish": "That should stop the monsters multiplying. We'll take care of the rest ourselves.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:026",
+      "sourceFingerprint": "d4eae598de3a01add47eb9c01f4255e5ce72e33eca2f7c90470b8473d3e9dac6",
+      "canonicalEnglish": "You really did well. Thanks to you, this planet should be peaceful again.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:027",
+      "sourceFingerprint": "090bebb4cbfc7dfaf405a2d991e98ef6a01d9c34e19e82e6234e79801fa99d78",
+      "canonicalEnglish": "Well, whatever the case, I'm truly glad it worked out.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:028",
+      "sourceFingerprint": "7b60ef0f6a5d3dc70293a1bc72da7a9e17019af7a35f04373a3d2129688006c7",
+      "canonicalEnglish": "Just what I'd expect of the Federation's elite! I'm impressed.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:029",
+      "sourceFingerprint": "7cf35ff167740a7aaecb708106293c121348b4d2f238032bc7a5a97cdf4559fc",
+      "canonicalEnglish": "Joe: Hey, Sion. Looks like there’s a hidden passage here, too.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:031",
+      "sourceFingerprint": "0bbad5db15387c49334e6526fbef4abb01ee832631655360977d669193334416",
+      "canonicalEnglish": "Hey, come on. Give me a break!",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:013",
+      "sourceFingerprint": "02f1ab3bdd468a0be959f275d8e1dd4095a4dd86a3d54237a5f5ba8d0c158c99",
+      "canonicalEnglish": "Shoko: Aww, after all that trouble defeating the syndicate, they send us straight out on another mission!",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:014",
+      "sourceFingerprint": "064ec2be8739b09f707cde1a8b360e0850b506d91482fab80203531128a27363",
+      "canonicalEnglish": "Joe: Now that it's come to this, we'll just have to make the best of it and carry out our orders. With any luck, we might pick up a lead on Lucia, too.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:015",
+      "sourceFingerprint": "42089fc548cbc1f551aaaf0ff5f7712b96486a2c87886110f370608dbc442173",
+      "canonicalEnglish": "Welda: Planet Byuto is a colony in M861, the same star system as Hom, where you lived. Mining has expanded there, and apparently it’s all privately run now.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:016",
+      "sourceFingerprint": "c5eb09853acc13fcdda21a9b850c0b971517d93371c951e681ee574cba52b28f",
+      "canonicalEnglish": "Shoko: Everyone’s in a panic about monsters pouring out of the mine. The poor people...",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:017",
+      "sourceFingerprint": "5ed4013663da149fb69342032193c22a416aa4c01a150cbc16aef3a9f5b71b2d",
+      "canonicalEnglish": "Joe: Those monsters are called Eibes, apparently. They could give us a tough fight if they come in numbers.\nWelda: Hmph. Small fry like that? I'll crush them!\nJoe: Still, something's suspicious about this sudden outbreak, with no warning at all.\nSion: The answer is probably somewhere in the mine.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:018",
+      "sourceFingerprint": "0fae146703b20dc5e3c0e83f6ebf1bb299f987fdef3b313b8045315dccf58b46",
+      "canonicalEnglish": "Welda: Listen up. We're going to search every inch of that mine!",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:019",
+      "sourceFingerprint": "47a78c0f3bf5da76d5bb3168a93c109bfc260d219162fa10772269ba73367cf2",
+      "canonicalEnglish": "Shoko: So that monster was spawning the Eibes. That solves the case!",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:020",
+      "sourceFingerprint": "97cd7eaf0c797320d6f40c03698fb554f46c0b38cadd25c91b681d28f83eb7d4",
+      "canonicalEnglish": "Joe: There's no way a monster that strange just appeared out of nowhere. I can't help thinking Zolias is involved again.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:021",
+      "sourceFingerprint": "3bef6a56c4cd21b36e6388e6f3da74104c04a368c2786bf4ab2a2cd54ebd26e1",
+      "canonicalEnglish": "Welda: Good. Mission accomplished. We're pulling out now. No dawdling!",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:013",
+      "sourceFingerprint": "962509c3a3cd2c478a5065ef97f954b0768891948bc102a10d1f370eb4210755",
+      "canonicalEnglish": "Welda: Once we start doing serious fighting in space, we'll have to strengthen this ship's armament, too.",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:014",
+      "sourceFingerprint": "d355a2fc535db3dc5bac00180b064df181f10d150e3dd856901a315eb08d5629",
+      "canonicalEnglish": "Joe: I haven't had time to do much work on her, but swapping out her various parts can raise this ship's combat power without limit. I'll develop shipboard weapons for you before long, too. Look forward to it!",
+      "context": {
+        "speaker": "Source headers and RE wrapper evidence; residents remain unnamed",
+        "listener": "Sion / party",
+        "intent": "Investigate the mine and discuss the mission or its aftermath",
+        "tone": "Context-dependent; alarm, confidence, suspicion or relief",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

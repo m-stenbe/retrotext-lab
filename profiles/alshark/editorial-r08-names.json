@@ -1,0 +1,214 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R08 manager source/name editorial review",
+  "scenes": [
+    {
+      "id": "r08-mars-location-and-jaguma-labels",
+      "records": [
+        "name:17",
+        "name:18",
+        "r08-location:8",
+        "r08-location:40",
+        "r08-location:61",
+        "r08-location:73",
+        "r08-location:3"
+      ],
+      "participants": [],
+      "location": "Mars surface, port, mainland towns and shared building interiors",
+      "storyState": "Mars leave and video-letter investigation before crossing to Daina.",
+      "purpose": "Identify all new route locations and Jaguma references in geopolitical dialogue.",
+      "previousContext": [
+        "Planet Mars is already a known travel destination."
+      ],
+      "followingContext": [
+        "Daina sea crossing begins the following section."
+      ],
+      "branchAlternatives": [
+        "Short and full Jaguma source names have distinct canonical records and share the reviewed in-game given name."
+      ],
+      "terminology": [
+        "character.jaguma",
+        "character.jaguma_full_name",
+        "place.mars",
+        "place.begi",
+        "place.teswil"
+      ],
+      "evidence": [
+        "r08_names.py exact source extents, all pointer aliases, nonoverlap and shared17/18 allocation.",
+        "Original name18 middle dot separates Jaguma and Dorian; official spelling unverified."
+      ],
+      "uncertainty": [
+        "Working source-based romanizations; no additional personal relationships inferred."
+      ],
+      "notes": [],
+      "reviewNote": "Read each original label and its aliases. Retain full Jaguma Dorian separately from the given-name display, and keep Planet/Spaceport/Building qualifiers canonical even where display fields abbreviate them."
+    }
+  ],
+  "records": [
+    {
+      "id": "name:17",
+      "sourceFingerprint": "10460da9c0808d077a49b2dff960df4d8ea94fed468ecef2a68e2d0447713310",
+      "canonicalEnglish": "Jaguma",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a person or current route location.",
+        "tone": "Concise name/label.",
+        "terminology": [
+          "character.jaguma"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed source label and every source alias against established terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:18",
+      "sourceFingerprint": "9a74e1800fa8f0f446c3a1a29bea66987ca18b9b36449ad1e88d0003c8bce079",
+      "canonicalEnglish": "Jaguma Dorian",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a person or current route location.",
+        "tone": "Concise name/label.",
+        "terminology": [
+          "character.jaguma_full_name"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed source label and every source alias against established terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r08-location:8",
+      "sourceFingerprint": "34602d8a785587a83e787d7d16f5f397ca9e093a16a80e7e0306186bab716a55",
+      "canonicalEnglish": "Planet Mars",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a person or current route location.",
+        "tone": "Concise name/label.",
+        "terminology": [
+          "place.mars"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed source label and every source alias against established terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r08-location:40",
+      "sourceFingerprint": "044549496b419fc71dd6b256309afbb377dd56b359a4ed59a89fa68fd37ca9ae",
+      "canonicalEnglish": "Mars Spaceport",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a person or current route location.",
+        "tone": "Concise name/label.",
+        "terminology": [
+          "place.mars"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed source label and every source alias against established terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r08-location:61",
+      "sourceFingerprint": "3e527d57f5458c7407dccb8d11b1cc37546fcc5e01508459156d4339f70c785f",
+      "canonicalEnglish": "Begi",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a person or current route location.",
+        "tone": "Concise name/label.",
+        "terminology": [
+          "place.begi"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed source label and every source alias against established terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r08-location:73",
+      "sourceFingerprint": "c18657fba5cc8e5763021c50ef1773a05534e5784fe0120cebb1eb1890c8bd3d",
+      "canonicalEnglish": "Teswil",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a person or current route location.",
+        "tone": "Concise name/label.",
+        "terminology": [
+          "place.teswil"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed source label and every source alias against established terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r08-location:3",
+      "sourceFingerprint": "90665dc9d8c29d1cfbb11c90b8593d301a1ff5cabda5be7fcb691e3efb45d65c",
+      "canonicalEnglish": "Teswil Building",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a person or current route location.",
+        "tone": "Concise name/label.",
+        "terminology": [
+          "place.teswil"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed source label and every source alias against established terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

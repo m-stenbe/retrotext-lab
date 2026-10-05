@@ -1,0 +1,419 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "hamack-shops-jobs-and-fortunes"
+  ],
+  "records": [
+    {
+      "id": "script:052000:022",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t003": "HAMACK ARMS",
+        "t005": "BUY A GOOD\nWEAPON, EVEN\nSPEND MORE.\n",
+        "t007": "WHAT'LL IT BE?"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:023",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t004": "ITEM SHOP",
+        "t006": "WELCOME!\nNEED ANYTHING?"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:025",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "BARKEEP",
+        "t004": "A DRINK?"
+      },
+      "notes": [
+        "Uses BARKEEP as a compact role label for the bartender."
+      ]
+    },
+    {
+      "id": "script:052000:026",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "MANAGER",
+        "t004": "PT HOTEL\nCHEAP, CLEAN,\nSAFE. 10 CR.\nSTAYING?"
+      },
+      "notes": [
+        "Shortens Credits to CR. to fit the service box; canonical says PT Hotel and 10 credits."
+      ]
+    },
+    {
+      "id": "script:052000:027",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "MORE?"
+      },
+      "notes": [
+        "Shortens the canonical question “What else would you like?” to fit the original byte allocation."
+      ]
+    },
+    {
+      "id": "script:052000:028",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "TRY THE\nHAMACK ARMS!"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:029",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "EARN MORE CASH"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:030",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "MORE?"
+      },
+      "notes": [
+        "Shortens the canonical question “What else would you like?” to fit the original byte allocation."
+      ]
+    },
+    {
+      "id": "script:052000:031",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "DON'T GET\nOLD MAN'S FUN."
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:033",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "KEEP AT IT!"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:034",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:039",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "LOW ON CASH."
+      },
+      "notes": [
+        "Shortens the canonical insufficient-money message to fit the original byte allocation."
+      ]
+    },
+    {
+      "id": "script:052000:040",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "STAY AT OUR\nHOTEL FOR THE\nTOP SERVICE ON\nPLANET HOM."
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:041",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "I'LL SHOW YOU\nTO YOUR ROOM.",
+        "t009": " AND\nFRIENDS STAYED\nTHE NIGHT.",
+        "t012": "\nFULLY HEALED",
+        "t018": "COME AGAIN!"
+      },
+      "notes": [
+        "The shared caption cursor requires an explicit newline before FULLY HEALED. The overnight stay and full recovery are both explicit; narration attributes are restored after each newline by the guarded compiler."
+      ]
+    },
+    {
+      "id": "script:052000:046",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "KIND AT HEART,\nTEMPER FLARES",
+        "t002": "\nHMM...",
+        "t004": "\nYOU GO ALL IN."
+      },
+      "notes": [
+        "Compresses the fortune’s nuances: kind nature, fiery temper, and intense interests remain."
+      ]
+    },
+    {
+      "id": "script:052000:047",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "YOU LIKE FUN,\nBUT PLAY FAIR.",
+        "t002": "\nSEEM RESERVED,\nMAYBE STUBBORN"
+      },
+      "notes": [
+        "Compresses the fortune wording; fair conduct, reserved appearance, and possible stubbornness remain."
+      ]
+    },
+    {
+      "id": "script:052000:048",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "HONEST, SOLID",
+        "t002": "\nDUTIFUL.\nSKILLED\nNOT FLEXIBLE"
+      },
+      "notes": [
+        "Compresses the fortune and omits explicit “success anywhere” wording; preserves honesty, duty, substance, ability, and lack of flexibility."
+      ]
+    },
+    {
+      "id": "script:052000:049",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "LOW ON CASH..."
+      },
+      "notes": [
+        "Shortens the canonical insufficient-money message to fit the original byte allocation."
+      ]
+    },
+    {
+      "id": "script:052000:050",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "COME BACK\nANYTIME!"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:051",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "NO DRINKING\nFOR MINORS."
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:052",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "THAT'LL BE 20\nCREDITS."
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:053",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "MILK, HUH?\n10 CREDITS."
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:054",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "IT'S BUSINESS."
+      },
+      "notes": [
+        "Shortens “it is a business, after all” to fit the original byte allocation."
+      ]
+    },
+    {
+      "id": "script:052000:055",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "GLUG...",
+        "t008": "JUICE? ONLY\n",
+        "t010": "FRESH",
+        "t012": " WILL DO!"
+      },
+      "notes": [
+        "Shortens the sipping sound and expands the juice line to form “Juice? Only fresh will do!” around the immutable emphasized word."
+      ]
+    },
+    {
+      "id": "script:052000:056",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "GLUG, GLUG...",
+        "t008": "MAYBE MILK'S\nMY THING.\n",
+        "t010": "GURGLE...\nUGH, MY GUT..."
+      },
+      "notes": [
+        "Shortens the stomach sound to “GURGLE” and rewords the complaint as “my gut” to fit the original byte allocation."
+      ]
+    },
+    {
+      "id": "script:052000:059",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "SO BUSY!"
+      },
+      "notes": [
+        "Shortens the repeated busy phrase to fit the original byte allocation."
+      ]
+    },
+    {
+      "id": "script:052000:060",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t005": "WE'VE WAITED\nHERE A WHILE.\n",
+        "t007": "SHALL WE GO?"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:063",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "NEW PART TIMER",
+        "t004": "\nLET'S START!",
+        "t008": "DELIVER\n",
+        "t010": "CANNED FOOD",
+        "t012": [
+          "\nTO OLD LADY'S\nHOME UP NORTH.",
+          "NO DETOURS!"
+        ],
+        "t014": ""
+      },
+      "notes": [
+        "Uses the existing wait to split the address and no-detours warning across two pages. Keeps the canned-food delivery to the old woman’s home up north; the spoken warning is on the second page."
+      ]
+    },
+    {
+      "id": "script:052000:065",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "WHERE IS\n",
+        "t003": "CANNED FOOD",
+        "t005": "?\n"
+      },
+      "notes": [
+        "Connects naturally around the immutable CANNED FOOD item token as “Where is canned food?” to fit the tiny original byte allocation."
+      ]
+    },
+    {
+      "id": "script:052000:066",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "DELIVER FAST!"
+      },
+      "notes": [
+        "Shortens “hurry and deliver it” to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:052000:067",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t001": "COUNTER GIRL"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:071",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "GO ON, ",
+        "t002": "!"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:074",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t002": "CANNED FOOD",
+        "t004": "\nDELIVERED?"
+      },
+      "notes": [
+        "The item label plus “Delivered?” forms a compact question whose full “did you deliver it?” wording is retained in canonical English."
+      ]
+    },
+    {
+      "id": "script:052000:075",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t003": "CAN",
+        "t005": "\nDELIVERED.\nTHANKS!"
+      },
+      "notes": [
+        "Uses the approved short CAN item label (canonical Canned Food) and follows it with “Delivered. Thanks!” to keep both the delivery result and gratitude within the original allocation."
+      ]
+    },
+    {
+      "id": "script:052000:076",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "SO CONVENIENT\nTHESE DAYS."
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:078",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "ARMS\nARMOR\nEXIT"
+      },
+      "notes": [
+        "ARMS is the approved short menu label for Weapons; ARMOR and EXIT retain their menu meanings."
+      ]
+    },
+    {
+      "id": "script:052000:079",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "TOOLS\nEXIT"
+      },
+      "notes": [
+        "Adapted into concise, natural menu or dialogue English while preserving the canonical meaning."
+      ]
+    },
+    {
+      "id": "script:052000:080",
+      "basedOn": "5b69f83b2c395fe8d426aeab4b388606586226fe2ad374cab3f55b0604f05edc",
+      "inGameEnglish": {
+        "t000": "BOOZE\nJUICE\nMILK"
+      },
+      "notes": [
+        "BOOZE shortens Alcohol for the three-choice menu."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "atraia-bridge-menus",
+    "atraia-joe-services"
+  ],
+  "records": [
+    {
+      "id": "ui:Opening:0048c6",
+      "basedOn": "d0eaf092b0193da8edc1739afb799b436021b1a7c8223c1164402b96ccd5cb37",
+      "inGameEnglish": "HANGAR\nEQUIP\nREPAIR\nDEVELOP\nSCRAP\nSYSTEM",
+      "notes": [
+        "Full action nouns are supplied by the selected-item context; the guarded bridge menu widens to seven cells. SCRAP is the verb for disassembly."
+      ]
+    },
+    {
+      "id": "ui:Opening:0044b1",
+      "basedOn": "d0eaf092b0193da8edc1739afb799b436021b1a7c8223c1164402b96ccd5cb37",
+      "inGameEnglish": "UNLOAD\nSTORE",
+      "notes": [
+        "Guarded hangar actions widen to six cells."
+      ]
+    },
+    {
+      "id": "ui:Opening:00451a",
+      "basedOn": "d0eaf092b0193da8edc1739afb799b436021b1a7c8223c1164402b96ccd5cb37",
+      "inGameEnglish": " ATRAIA\n\n",
+      "notes": [
+        "Preserves the two blank runtime vehicle rows."
+      ]
+    },
+    {
+      "id": "ui:Opening:0045d0",
+      "basedOn": "d0eaf092b0193da8edc1739afb799b436021b1a7c8223c1164402b96ccd5cb37",
+      "inGameEnglish": " HANGAR\n\n",
+      "notes": [
+        "The header shortens Hangar Items to Hangar; preserves two blank runtime vehicle rows."
+      ]
+    },
+    {
+      "id": "ui:Opening:00445c",
+      "basedOn": "d0eaf092b0193da8edc1739afb799b436021b1a7c8223c1164402b96ccd5cb37",
+      "inGameEnglish": "TANK IS\nLOADED",
+      "notes": [
+        "The loaded state conveys the already-carried refusal within nine cells and two rows."
+      ]
+    },
+    {
+      "id": "ui:System:0174c3",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "JOE\n",
+      "notes": [
+        "Speaker header. Preserve the final newline."
+      ]
+    },
+    {
+      "id": "ui:System:0174c9",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "WELL, SION.\nWHAT NEXT?",
+      "notes": [
+        "Bridge service greeting."
+      ]
+    },
+    {
+      "id": "ui:System:0174ea",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "HEY, SION!\nTHE HANGAR\nIS EMPTY!",
+      "notes": [
+        "Empty hangar refusal."
+      ]
+    },
+    {
+      "id": "ui:System:017519",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "TOO MUCH GEAR!\nHEAVY, EH?\nSORT IT OUT!",
+      "notes": [
+        "Inventory-full refusal preserves Joe\u2019s impatient practical advice."
+      ]
+    },
+    {
+      "id": "ui:System:017553",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "I WILL UNLOAD\n         \nFROM HANGAR.",
+      "notes": [
+        "Keep row 1\u2019s first nine cells blank for the item name."
+      ]
+    },
+    {
+      "id": "ui:System:01757c",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "THE HANGAR IS\nFULL. NO ROOM!",
+      "notes": [
+        "Full hangar refusal."
+      ]
+    },
+    {
+      "id": "ui:System:0175a3",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "YOU HAVE NO\nGEAR WE CAN\nSTORE!",
+      "notes": [
+        "No eligible inventory items."
+      ]
+    },
+    {
+      "id": "ui:System:0175cc",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "I WILL STORE\n         \nIN HANGAR.",
+      "notes": [
+        "Keep row 1\u2019s first nine cells blank for the item name."
+      ]
+    },
+    {
+      "id": "ui:System:0175f2",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "LEAVE IT TO\nSCRAP JOE!\nANYTHING DONE\nIN NO TIME!",
+      "notes": [
+        "Development greeting retains his boast and epithet."
+      ]
+    },
+    {
+      "id": "ui:System:017633",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "SION! NO ROOM\nIN THE HANGAR\nFOR NEW ARMS!",
+      "notes": [
+        "New weapon needs hangar capacity."
+      ]
+    },
+    {
+      "id": "ui:System:017669",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "         ?\nBUILDING NEEDS\n       SCRAP.",
+      "notes": [
+        "Keep row 0\u2019s first nine cells blank for item and row 2\u2019s first six cells blank for amount."
+      ]
+    },
+    {
+      "id": "ui:System:0176a1",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "SION! GENIUS\nOR NOT, I NEED\nSCRAP TO WORK!",
+      "notes": [
+        "Insufficient scrap refusal."
+      ]
+    },
+    {
+      "id": "ui:System:0176e8",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "            \nBUILT AND\nSTORED.",
+      "notes": [
+        "Keep row 0 cells 3 through 11 blank for the item name. Hangar location supplied by the development interface."
+      ]
+    },
+    {
+      "id": "ui:System:017777",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "SION! THERE IS\nNO FIGHTER\nHERE!",
+      "notes": [
+        "No fighter available."
+      ]
+    },
+    {
+      "id": "ui:System:0177a8",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "SION! THERE IS\nNO TANK HERE!",
+      "notes": [
+        "No tank available."
+      ]
+    },
+    {
+      "id": "ui:System:0177d5",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "OK! WHAT\nNEEDS REPAIR?",
+      "notes": [
+        "Repair target selection."
+      ]
+    },
+    {
+      "id": "ui:System:0177f0",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "NOTHING IS\nDAMAGED!",
+      "notes": [
+        "Repair unnecessary refusal."
+      ]
+    },
+    {
+      "id": "ui:System:01780a",
+      "basedOn": "02a40b285d5b3da9016ffb823ad8f9addf172b1c5d18540d22e6e4dce81ae47e",
+      "inGameEnglish": "BAD DAMAGE!\nCOST      \nSCRAP TO FIX.\n        FIX?",
+      "notes": [
+        "Keep row 1 cells 5 through 9 blank for amount and row 3 first eight cells blank for the runtime Yes/No choices."
+      ]
+    }
+  ]
+}

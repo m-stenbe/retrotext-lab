@@ -1,0 +1,1066 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R06 manager source/name editorial review",
+  "scenes": [
+    {
+      "id": "r06-flight-location-labels",
+      "records": [
+        "r06-location:0",
+        "r06-location:31",
+        "r06-star-name:011768",
+        "r06-star-name:011776",
+        "r06-star-name:011784",
+        "r06-star-name:011792",
+        "r06-star-name:0117a0",
+        "r06-star-name:0117ae",
+        "r06-star-name:0117bc",
+        "r06-star-name:0117ca",
+        "r06-star-name:0117dd",
+        "r06-star-name:0117d3",
+        "r06-landing-name:0165a6",
+        "r06-landing-name:0165ae",
+        "r06-landing-name:0165b7",
+        "r06-landing-name:0165c1",
+        "r06-landing-name:0165cb",
+        "r06-landing-name:0165d2",
+        "r06-landing-name:0165dc",
+        "r06-landing-name:0165e5",
+        "r06-landing-name:0165f0",
+        "r06-landing-name:0165f9",
+        "r06-landing-name:016604",
+        "r06-landing-name:016610",
+        "r06-landing-name:01661a",
+        "r06-landing-name:016623",
+        "r06-landing-name:01662d",
+        "r06-landing-name:016637",
+        "r06-landing-name:016641",
+        "r06-landing-name:016649",
+        "r06-landing-name:016652",
+        "r06-landing-name:01665a",
+        "r06-landing-name:016661",
+        "r06-landing-name:016669",
+        "r06-landing-name:016671",
+        "r06-landing-name:01667a",
+        "r06-landing-name:016683",
+        "r06-landing-name:01668e",
+        "r06-landing-name:016699",
+        "r06-landing-name:0166a4",
+        "r06-landing-name:0166af"
+      ],
+      "participants": [],
+      "location": "Space map and landing confirmation",
+      "storyState": "First flight to Zajil military station and rescue.",
+      "purpose": "Identify the current mode, station, all browsable star-system affiliations and landing targets.",
+      "previousContext": [
+        "First Zajil assignment and kidnapping."
+      ],
+      "followingContext": [
+        "Landing elsewhere can leave the translated route."
+      ],
+      "branchAlternatives": [
+        "All destination pointer aliases are included; a label is not a promise of translated exploration on its planet."
+      ],
+      "terminology": [
+        "place.space",
+        "place.military_station",
+        "system.m264",
+        "system.m861",
+        "system.w505",
+        "system.z091",
+        "system.w183",
+        "system.z127",
+        "system.z254",
+        "faction.mars_federation",
+        "faction.wyuria",
+        "faction.zolias",
+        "place.stea",
+        "place.mars",
+        "place.zajil",
+        "place.byuto",
+        "place.hom",
+        "place.juke",
+        "place.tils",
+        "place.wyultria",
+        "place.hyuris",
+        "place.baiden",
+        "place.byudos",
+        "place.byeza",
+        "place.nomike",
+        "place.sartalia",
+        "place.poreda",
+        "place.zokahel",
+        "place.yosnu",
+        "place.von",
+        "place.ask",
+        "place.sachi",
+        "place.trim",
+        "place.gor",
+        "place.borua",
+        "place.cs_station",
+        "place.supply_station",
+        "place.defense_station",
+        "place.hidden_station",
+        "place.barbas"
+      ],
+      "evidence": [
+        "r06_names.py original labels/pointer groups; RE flight source evidence and independent star-map/landing inventory."
+      ],
+      "uncertainty": [
+        "Official romanizations unverified."
+      ],
+      "notes": [
+        "Planet/Moon/Station/System qualifiers remain canonical even when abbreviated or omitted from narrow labels."
+      ],
+      "reviewNote": "Read all original map, system, affiliation and landing labels and compared known names with the bible. Preserve exact system IDs, place qualifiers and distinct station categories; new proper names remain provisional."
+    }
+  ],
+  "records": [
+    {
+      "id": "r06-location:0",
+      "sourceFingerprint": "33b76d3118a3d35b6574ec77d5aeb2cb543d2cc5ec8fded651b7ec793252c899",
+      "canonicalEnglish": "Space Mode",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.space"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-location:31",
+      "sourceFingerprint": "dbe09d203b2d6c34c65ed39784df84a1255b9d856603ee7e7071c756e7e90e66",
+      "canonicalEnglish": "Military Station",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.military_station"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:011768",
+      "sourceFingerprint": "6864272eb0053999ed441614a2b8b01878000288a5c15f0a7bee95f1d4da4bc7",
+      "canonicalEnglish": "M264 System",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "system.m264"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:011776",
+      "sourceFingerprint": "1049337e3cd5b23b31fe6fcba557b1b6be8e1676d8a61c834b2f71d8d6d1a268",
+      "canonicalEnglish": "M861 System",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "system.m861"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:011784",
+      "sourceFingerprint": "6bc3999699726845fe19ea823965a4ee8baee1f5ac10892a5843369091a7519e",
+      "canonicalEnglish": "W505 System",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "system.w505"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:011792",
+      "sourceFingerprint": "32c2ea4434f7e8b8235641e32634435b34bafbe418da10ffb45ad983ed1184e1",
+      "canonicalEnglish": "Z091 System",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "system.z091"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:0117a0",
+      "sourceFingerprint": "d67d4845d88eeaba6c8d3a31cb2c24b9bf11cdca43e0b7b219cab76ea8723208",
+      "canonicalEnglish": "W183 System",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "system.w183"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:0117ae",
+      "sourceFingerprint": "e2a5f1c37d3fe4304acc83ea6d49ac3dc7eeadfa0261e10b98f20b09747b0b84",
+      "canonicalEnglish": "Z127 System",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "system.z127"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:0117bc",
+      "sourceFingerprint": "d253583167f507faa1f80c0b14bea04fa1ffdc276619f9e66b3dae44ad686e21",
+      "canonicalEnglish": "Z254 System",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "system.z254"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:0117ca",
+      "sourceFingerprint": "5ad9457e1ab0d198567ab4a4a1a03a9758a0b289e976fada1591e761f5fd10bf",
+      "canonicalEnglish": "Mars Federation",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "faction.mars_federation"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:0117dd",
+      "sourceFingerprint": "4c0cb27aaf16f517775e3e9329b4caae0d3060eeb6a61cca8b5295d896202270",
+      "canonicalEnglish": "Kingdom of Wyuria",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "faction.wyuria"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-star-name:0117d3",
+      "sourceFingerprint": "e1e899d31c46b936274f39964d78ce22e787d8a3477f139323c1e58bb478a8d0",
+      "canonicalEnglish": "Zolias Empire",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "faction.zolias"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165a6",
+      "sourceFingerprint": "889915cf66dfa51f49a371c6507cbfbde87428cc7b54923c11d70bc0840ab066",
+      "canonicalEnglish": "Planet Stea",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.stea"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165ae",
+      "sourceFingerprint": "44c744f0e2038434d1cba5bfcf6d35de28dc54e19497c1aa90b8ed177bb49350",
+      "canonicalEnglish": "Planet Mars",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.mars"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165b7",
+      "sourceFingerprint": "983510785a7f9f3a2dba5a370e82d769ea732dfc0d5ab5ac88cba660588d2d59",
+      "canonicalEnglish": "Planet Zajil",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.zajil"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165c1",
+      "sourceFingerprint": "1da84dbeff75d2c55d44f5ece3eef9ac0f07e8c4ee833293c972643c5e940e60",
+      "canonicalEnglish": "Planet Byuto",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.byuto"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165cb",
+      "sourceFingerprint": "7892889c9c2c60506dae35b0eab889b694a7c474093645a084c7d00c20d57fae",
+      "canonicalEnglish": "Planet Hom",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.hom"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165d2",
+      "sourceFingerprint": "b43d5667653fef8075237f2a5af822b7d222b13cfee47da2bbafafeab0ff137b",
+      "canonicalEnglish": "Planet Juke",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.juke"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165dc",
+      "sourceFingerprint": "9a8fb71b7d88ecde43966e8f37a83cc8ea619a8d851f127ed8552477d4105e12",
+      "canonicalEnglish": "Planet Tils",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.tils"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165e5",
+      "sourceFingerprint": "ae52c09c84159b0303dd70175cbc9dee781fb7580dd2ff607552a5a492044df5",
+      "canonicalEnglish": "Planet Wyultria",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.wyultria"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165f0",
+      "sourceFingerprint": "41ef2aef3d909b29337580738bdf128ebd497298e5755f8327129321af2a642d",
+      "canonicalEnglish": "Planet Hyuris",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.hyuris"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0165f9",
+      "sourceFingerprint": "64c6668bf7428b1ce1955faf1eb26ef9fb11a490c607942641e52ba24363df8a",
+      "canonicalEnglish": "Planet Baiden",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.baiden"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016604",
+      "sourceFingerprint": "1ce56866c89ff89b04fd862d64546b72a523ddf2f9ef41ba4b6bce77ae47ecdc",
+      "canonicalEnglish": "Planet Byudos",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.byudos"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016610",
+      "sourceFingerprint": "d06f36f30f06919312e0821a9946d055800938b062a528ba1e306ddc46d83854",
+      "canonicalEnglish": "Planet Byeza",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.byeza"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:01661a",
+      "sourceFingerprint": "fd0cf2a582f0c538806014ac22b66b54c2000d8805ebd7cdbdfb187c4a64b664",
+      "canonicalEnglish": "Planet Nomike",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.nomike"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016623",
+      "sourceFingerprint": "e9d960b5f9ad8a100536cd3636473ea1481170ea6ec6de6596ab5a861dc2a6eb",
+      "canonicalEnglish": "Planet Sartalia",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.sartalia"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:01662d",
+      "sourceFingerprint": "aec42547482f7b3eb1d90d93ad5c6a1a30e3c64c5072592011da5edff3e1bafd",
+      "canonicalEnglish": "Planet Poreda",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.poreda"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016637",
+      "sourceFingerprint": "fd056d58ceb7eace692876834ddbf449981551e8798a8f268e086f3882ee2ed4",
+      "canonicalEnglish": "Planet Zokahel",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.zokahel"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016641",
+      "sourceFingerprint": "6195ed514a2bbdf1831d62160d729cec0e6cb3dd0e535b7ec126723eea2287e8",
+      "canonicalEnglish": "Planet Yosnu",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.yosnu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016649",
+      "sourceFingerprint": "24351215e2a1db253c56d3b0d8673e11b5aa48b683a050fb3d828aea571087bb",
+      "canonicalEnglish": "Planet Von",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.von"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016652",
+      "sourceFingerprint": "d4925aeee8415882987a455908bfce627d319a404aef2846286fed56eea1c6ea",
+      "canonicalEnglish": "Planet Ask",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.ask"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:01665a",
+      "sourceFingerprint": "3adeb37dddcd3c47b4a2a04f1801e7173b74e82dcd2282a7c21c0422883021f5",
+      "canonicalEnglish": "Planet Sachi",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.sachi"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016661",
+      "sourceFingerprint": "c280fa0304c02d077186c1b027b02e78280e4f98bedb2965c1e7a77c9c0fee90",
+      "canonicalEnglish": "Moon Trim",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.trim"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016669",
+      "sourceFingerprint": "cd2397dd1fba29ef2438a4588663762c709b61b98206a5fac98c6228ce5e29f0",
+      "canonicalEnglish": "Moon Gor",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.gor"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016671",
+      "sourceFingerprint": "17d89881f3089892a58680ba7271d550f68ffa641e897172488b550a931520f6",
+      "canonicalEnglish": "Moon Borua",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.borua"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:01667a",
+      "sourceFingerprint": "bd87d8a13ccc3bd1336c5714cb45eb402343538071beec5e58d311f46e7fb85e",
+      "canonicalEnglish": "CS Station",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.cs_station"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016683",
+      "sourceFingerprint": "1740d9ffc546443e72da17f5ea8ce8d1cf3e7aeacd8ca6966d214f1ada817820",
+      "canonicalEnglish": "Military Station",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.military_station"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:01668e",
+      "sourceFingerprint": "5a8e1f5601c3a621eeabccc8fa569c56ad08ed9f8dccb6d8e9ec4c10babedfb7",
+      "canonicalEnglish": "Supply Station",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.supply_station"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:016699",
+      "sourceFingerprint": "beae921d42d02ad819440ad6f07653ed52c36aae4a5819dcddd657573b78cb3f",
+      "canonicalEnglish": "Defense Station",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.defense_station"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0166a4",
+      "sourceFingerprint": "85552f88987743a5ce162e687ff62cb91e59bbd3ebc4c0069e7ccda6046de92a",
+      "canonicalEnglish": "Hidden Station",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.hidden_station"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r06-landing-name:0166af",
+      "sourceFingerprint": "7074b851f36d54317a1e3557843f6fe452723028b64d3e253ae7f90661b1b29d",
+      "canonicalEnglish": "Barbas Space Fortress",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify a displayed space-map or landing target.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.barbas"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Checked source label, all aliases and established English naming."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

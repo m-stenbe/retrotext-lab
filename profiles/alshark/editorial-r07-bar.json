@@ -1,0 +1,169 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R07 manager connected source/editorial review",
+  "scenes": [
+    {
+      "id": "kainan-bar",
+      "records": [
+        "script:053000:039",
+        "script:053000:040",
+        "script:053000:041",
+        "script:053000:042",
+        "script:053000:043"
+      ],
+      "participants": [
+        "Kainan bar staff and patrons"
+      ],
+      "location": "Byuto / Kainan / mine",
+      "storyState": "Byuto assignment through mine victory, before next Roy report.",
+      "purpose": "Provide mine warnings and eyewitness rumor in the optional town bar.",
+      "previousContext": [
+        "Town residents describe the mine infestation."
+      ],
+      "followingContext": [
+        "Investigate the mine and return after the boss."
+      ],
+      "branchAlternatives": [
+        "Bar text has no victory alternative."
+      ],
+      "terminology": [
+        "place.byuto",
+        "place.kainan"
+      ],
+      "evidence": [
+        "r07_names.py pointer guards; r07_flow.py and independent map component audit."
+      ],
+      "uncertainty": [
+        "Runtime display remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Reviewed original labels or all five Japanese bar interactions together. Keep warnings, reported evidence and suspicion distinct; do not turn rumors into proven facts."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:053000:039",
+      "sourceFingerprint": "a713ccde3a11771e301510bef660467453db0b7b40e4091e4e9d46e9d768c76a",
+      "canonicalEnglish": "Bartender: If you're heading into the mine, you'd better be careful.",
+      "context": {
+        "speaker": "Bartender",
+        "listener": "Player",
+        "intent": "Identify place or explain mine danger.",
+        "tone": "Plainspoken concern and speculation.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original source in connected route context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:040",
+      "sourceFingerprint": "ac220ea317f868683fb2e304800e425c451382eb24b7f0c200bf174b99086667",
+      "canonicalEnglish": "Woman: Ever since those monsters showed up, people have stopped coming to town.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player",
+        "intent": "Identify place or explain mine danger.",
+        "tone": "Plainspoken concern and speculation.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original source in connected route context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:041",
+      "sourceFingerprint": "4bc330af64ce4bb8162c6dc7a7c661d0cf0528b6a427f7914fce983c0485a3dc",
+      "canonicalEnglish": "Outlaw: I don't care how you do it. Just hurry up and finish off those monsters.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Player",
+        "intent": "Identify place or explain mine danger.",
+        "tone": "Plainspoken concern and speculation.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original source in connected route context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:042",
+      "sourceFingerprint": "6847a14db45008574064192e4884722a14b1e016925e49b46fd29a812839e49f",
+      "canonicalEnglish": "Man: They say most of the miners heard an eerie noise coming from deep in the mine when those monsters appeared.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player",
+        "intent": "Identify place or explain mine danger.",
+        "tone": "Plainspoken concern and speculation.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original source in connected route context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:043",
+      "sourceFingerprint": "c5b3730524a550169cd87695e70230833458a502d1ca8f0666ef8c339f9437ee",
+      "canonicalEnglish": "Myuntos Patron: My guess? There's some god-awful monster living deep inside that mine.",
+      "context": {
+        "speaker": "Myuntos Patron",
+        "listener": "Player",
+        "intent": "Identify place or explain mine danger.",
+        "tone": "Plainspoken concern and speculation.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original source in connected route context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

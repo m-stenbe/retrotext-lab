@@ -1,0 +1,193 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Luna localization proposal, R02",
+  "scenes": [
+    {
+      "id": "hamack-uncle-and-fortune",
+      "records": [
+        "script:052000:008",
+        "script:052000:012",
+        "script:052000:021",
+        "script:052000:035",
+        "script:052000:036",
+        "script:052000:037"
+      ],
+      "participants": [
+        "Sion",
+        "Hamack residents"
+      ],
+      "location": "Hamack street and pond.",
+      "storyState": "Sion and companions gather information in Hamack before following the spaceport lead.",
+      "purpose": "Translate the fortune-teller interaction, uncle’s optional remarks, and the job NPC speaker header.",
+      "previousContext": [
+        "The party has reached Hamack while searching for Joe and information about Lucia."
+      ],
+      "followingContext": [
+        "Other optional Hamack interactions provide the spaceport lead and available work."
+      ],
+      "branchAlternatives": [
+        "035/036/037 are random alternatives, not a sequence.",
+        "008 is a conditional header, not spoken dialogue."
+      ],
+      "terminology": [],
+      "evidence": [
+        "Fresh replay source text and direct script flow proof."
+      ],
+      "uncertainty": [
+        "Official English romanizations of local names are not proven here."
+      ],
+      "notes": [],
+      "reviewNote": "Reviewed source text and RE-reported branch closure against surrounding dialogue; independent optional Hamack interactions are not a fixed sequence.",
+      "sourceContext": "052000:012 offers a palm reading followed by a random fortune result. 052000:021 selects among 035–037 at random. 052000:008 is a conditional speaker header for the inventory job interaction.",
+      "storyFunction": "Optional town color and job branch context.",
+      "translatorNotes": [
+        "Keep the speaker header separate from dialogue.",
+        "The three uncle lines are alternatives, not a sequence."
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "script:052000:008",
+      "sourceFingerprint": "0ee8c9ea8d74210a65a42b2369e5d5e70ecaf3b0c473b1e6302d891dbbd0066c",
+      "canonicalEnglish": "Young Woman: [speaker label only; conditional branch header]",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Sion / player party",
+        "intent": "Header for a conditional job conversation; the young woman offers an inventory-sorting job if Karu is present.",
+        "tone": "Neutral, conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Speaker tag only; the branch decides which follow-up plays."
+        ],
+        "notes": [
+          "Part of early Hamack information gathering; optional interaction."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:012",
+      "sourceFingerprint": "0754c5b9e1750a851e66983956427bd9ce68763754ce511fc94112ba7c062165",
+      "canonicalEnglish": "Older Woman: I’ve been really into palm reading lately. Want me to tell your fortune?",
+      "context": {
+        "speaker": "Older Woman",
+        "listener": "Sion / player party",
+        "intent": "Offers to read Sion’s palm and predict his future after mentioning her recent interest in palm reading.",
+        "tone": "Casual, slightly coaxing.",
+        "terminology": [],
+        "uncertainty": [
+          "The source says she has lately been absorbed in palm reading; it does not establish that she is skilled or professionally trained."
+        ],
+        "notes": [
+          "Part of early Hamack information gathering; optional interaction."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:021",
+      "sourceFingerprint": "32a2fabcd3ccee0510ff5e3435d828402dd383032a5423b9f8ecb1d64a12272b",
+      "canonicalEnglish": "Man: [speaker label only; header for random remarks]",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion / player party",
+        "intent": "Header for an uncle’s random set of three small challenges and remarks near the pond.",
+        "tone": "Speaker tag only.",
+        "terminology": [],
+        "uncertainty": [
+          "おじさん is a generic/familiar address; biological relation and age are not established."
+        ],
+        "notes": [
+          "Part of early Hamack information gathering; optional interaction."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:035",
+      "sourceFingerprint": "5f0fdef227efa133ecec147e38d3a4cb7634d133ddf4286f1fb5a5c88e1298f9",
+      "canonicalEnglish": "Man: Go once around the pond over there.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion / player party",
+        "intent": "One of three random remarks: the uncle sends Sion around the pond.",
+        "tone": "Casual imperative.",
+        "terminology": [],
+        "uncertainty": [
+          "The source does not specify a direction or route around the pond."
+        ],
+        "notes": [
+          "Part of early Hamack information gathering; optional interaction."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:036",
+      "sourceFingerprint": "a8208101acd4626d6b0c9111edf259a78366cbcf4c553900b52eff424b9ad6c4",
+      "canonicalEnglish": "Man: How many streetlights do you think there are in this town?",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion / player party",
+        "intent": "One of three random remarks: the uncle asks Sion to guess the number of streetlights in town.",
+        "tone": "Playful question.",
+        "terminology": [],
+        "uncertainty": [
+          "No correct answer or number is supplied here."
+        ],
+        "notes": [
+          "Part of early Hamack information gathering; optional interaction."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:037",
+      "sourceFingerprint": "67e36a0a3a48872d1eea1f6eeccc95b681f5c08290d0b11902752c6fe090290b",
+      "canonicalEnglish": "Man: Better level up some more.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion / player party",
+        "intent": "One of three random remarks; the man advises that more leveling is needed without specifying whose level.",
+        "tone": "Self-deprecating, matter-of-fact.",
+        "terminology": [],
+        "uncertainty": [
+          "The line has no explicit subject and may refer to the speaker or listener; keep the English subject neutral."
+        ],
+        "notes": [
+          "Part of early Hamack information gathering; optional interaction."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

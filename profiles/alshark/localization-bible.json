@@ -402,6 +402,4202 @@
       "uncertainty": [
         "Exact event flags and map route not runtime-verified."
       ]
+    },
+    {
+      "id": "story.meteor_aftermath",
+      "category": "story",
+      "english": "Meteor-site aftermath",
+      "status": "source-supported",
+      "evidence": [
+        "051000:030: Jido directs both young people to Scrap Joe, wonders what happened to Mamon and names Alshark in a broken final utterance.",
+        "053000:000: Shoko asks Sion not to blame her father; Sion believes Zolias soldiers did something to Dr. Penrose and promises to rescue him. They decide to return to Cosma."
+      ],
+      "uncertainty": [
+        "The broken description of the pursuit does not establish Alshark's identity or nature.",
+        "Mamon/Penrose identification and Shoko's father are supported by this connected dialogue and the Opening cinematic, but no official romanizations are established."
+      ]
+    },
+    {
+      "id": "equipment.shirt",
+      "category": "equipment",
+      "english": "Shirt",
+      "legacyLabel": "SHIRT",
+      "status": "working",
+      "evidence": [
+        "System0x10a99; item pointer aliases0x5c..0x61 at0x100b8..0x100c2.",
+        "Player inventory/equipment screenshot2026-09-21 19.12.00 identifies Shirt."
+      ],
+      "uncertainty": [
+        "Protection values, upgrade aliases and original party equipment assignment not established by the label alone."
+      ]
+    },
+    {
+      "id": "ability.healing",
+      "category": "ability",
+      "english": "Healing",
+      "legacyLabel": "HEAL",
+      "status": "working",
+      "evidence": [
+        "System 0x110b3; ability-table aliases: ID 11 at 0x10316, ID 55 at 0x1036e.",
+        "Class3/4 learning table0x7965: ID 11: IQ > 250, ID 55: IQ > 250. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.sleep",
+      "category": "ability",
+      "english": "Sleep",
+      "legacyLabel": "SLEEP",
+      "status": "working",
+      "evidence": [
+        "System 0x110ba; ability-table aliases: ID 12 at 0x10318.",
+        "Class3/4 learning table0x7965: ID 12: IQ > 300. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.telekinesis",
+      "category": "ability",
+      "english": "Telekinesis",
+      "legacyLabel": "TELEKIN",
+      "status": "working",
+      "evidence": [
+        "System 0x110c0; ability-table aliases: ID 13 at 0x1031a.",
+        "Class3/4 learning table0x7965: ID 13: IQ > 330. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified.",
+        "The display label is an explicit eight-cell abbreviation; it does not replace the full canonical name."
+      ]
+    },
+    {
+      "id": "ability.illusion",
+      "category": "ability",
+      "english": "Illusion",
+      "legacyLabel": "ILLUSION",
+      "status": "working",
+      "evidence": [
+        "System 0x110c7; ability-table aliases: ID 14 at 0x1031c.",
+        "Class3/4 learning table0x7965: ID 14: IQ > 360. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.heat",
+      "category": "ability",
+      "english": "Heat",
+      "legacyLabel": "HEAT",
+      "status": "working",
+      "evidence": [
+        "System 0x110d0; ability-table aliases: ID 15 at 0x1031e.",
+        "Class3/4 learning table0x7965: ID 15: IQ > 400. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.freeze",
+      "category": "ability",
+      "english": "Freeze",
+      "legacyLabel": "FREEZE",
+      "status": "working",
+      "evidence": [
+        "System 0x110d4; ability-table aliases: ID 16 at 0x10320.",
+        "Class3/4 learning table0x7965: ID 16: IQ > 470. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.location",
+      "category": "ability",
+      "english": "Location",
+      "legacyLabel": "LOCATE",
+      "status": "working",
+      "evidence": [
+        "System 0x1119d; ability-table aliases: ID 57 at 0x10372.",
+        "Class3/4 learning table0x7965: ID 57: IQ > 500. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified.",
+        "Location effect unresolved."
+      ]
+    },
+    {
+      "id": "ability.thunderbolt",
+      "category": "ability",
+      "english": "Thunderbolt",
+      "legacyLabel": "THUNDER",
+      "status": "working",
+      "evidence": [
+        "System 0x110da; ability-table aliases: ID 17 at 0x10322.",
+        "Class3/4 learning table0x7965: ID 17: IQ > 540. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.teleport",
+      "category": "ability",
+      "english": "Teleport",
+      "legacyLabel": "WARP",
+      "status": "working",
+      "evidence": [
+        "System 0x11196; ability-table aliases: ID 54 at 0x1036c, ID 56 at 0x10370.",
+        "Class3/4 learning table0x7965: ID 56: IQ > 620. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.invisible",
+      "category": "ability",
+      "english": "Invisible",
+      "legacyLabel": "INVIS",
+      "status": "working",
+      "evidence": [
+        "System 0x111a4; ability-table aliases: ID 58 at 0x10374.",
+        "Class3/4 learning table0x7965: ID 58: IQ > 700. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified.",
+        "The display label is an explicit eight-cell abbreviation; it does not replace the full canonical name."
+      ]
+    },
+    {
+      "id": "ability.cure",
+      "category": "ability",
+      "english": "Cure",
+      "legacyLabel": "CURE",
+      "status": "working",
+      "evidence": [
+        "System 0x110fc; ability-table aliases: ID 21 at 0x1032a, ID 22 at 0x1032c.",
+        "Class3/4 learning table0x7965: ID 22: IQ > 740, ID 21: IQ > 1525. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.dimension",
+      "category": "ability",
+      "english": "Dimension",
+      "legacyLabel": "DIMENS",
+      "status": "working",
+      "evidence": [
+        "System 0x110e4; ability-table aliases: ID 18 at 0x10324.",
+        "Class3/4 learning table0x7965: ID 18: IQ > 1100. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified.",
+        "The display label is an explicit eight-cell abbreviation; it does not replace the full canonical name."
+      ]
+    },
+    {
+      "id": "ability.quake",
+      "category": "ability",
+      "english": "Quake",
+      "legacyLabel": "QUAKE",
+      "status": "working",
+      "evidence": [
+        "System 0x110ed; ability-table aliases: ID 19 at 0x10326.",
+        "Class3/4 learning table0x7965: ID 19: IQ > 1300. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified."
+      ]
+    },
+    {
+      "id": "ability.mind_storm",
+      "category": "ability",
+      "english": "Mind Storm",
+      "legacyLabel": "MINDSTRM",
+      "status": "working",
+      "evidence": [
+        "System 0x110f2; ability-table aliases: ID 20 at 0x10328.",
+        "Class3/4 learning table0x7965: ID 20: IQ > 1450. Condition is strict greater-than IQ at0x78dc, not a level requirement."
+      ],
+      "uncertainty": [
+        "Targeting, cost, potency and actual runtime acquisition not verified.",
+        "The display label is an explicit eight-cell abbreviation; it does not replace the full canonical name."
+      ]
+    },
+    {
+      "id": "place.ulyria",
+      "category": "place",
+      "english": "Ulyria",
+      "status": "provisional",
+      "evidence": [
+        "052000:000: a place where a helper robot could be obtained cheaply."
+      ],
+      "uncertainty": [
+        "Working sound-based English spelling from this source entry; official romanization and wider setting context remain unverified."
+      ]
+    },
+    {
+      "id": "place.wisperard",
+      "category": "place",
+      "english": "Wisperard",
+      "status": "provisional",
+      "evidence": [
+        "052000:017: settled/opened up 300 years earlier; ethnic conflict is lamented."
+      ],
+      "uncertainty": [
+        "Working sound-based English spelling from this source entry; official romanization and wider setting context remain unverified."
+      ]
+    },
+    {
+      "id": "character.wey_dumna",
+      "category": "character",
+      "english": "Wey Dumna",
+      "status": "provisional",
+      "evidence": [
+        "052000:017: described as the founder/pioneer associated with Wisperard 300 years earlier."
+      ],
+      "uncertainty": [
+        "Working sound-based English spelling from this source entry; official romanization and wider setting context remain unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.1b",
+      "category": "item",
+      "english": "Browning",
+      "status": "working",
+      "evidence": [
+        "r02-item:1b: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Source supports the name Browning; brand identity or real-world model unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.1d",
+      "category": "item",
+      "english": "Submachine Gun",
+      "status": "working",
+      "evidence": [
+        "r02-item:1d: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Generic source label; model and function unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.3d",
+      "category": "item",
+      "english": "Mask",
+      "status": "working",
+      "evidence": [
+        "r02-item:3d: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Specific kind and use unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.4d",
+      "category": "item",
+      "english": "Evasive Ring",
+      "status": "working",
+      "evidence": [
+        "r02-item:4d: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Source reads Evasive Ring; exact equipment effect unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.51",
+      "category": "item",
+      "english": "Titanium Shield",
+      "status": "working",
+      "evidence": [
+        "r02-item:51: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Literal material/name rendering; equipment statistics unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.75",
+      "category": "item",
+      "english": "Titanium Body",
+      "status": "working",
+      "evidence": [
+        "r02-item:75: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Literal material/name rendering; whether this denotes armor or another part is unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.a3",
+      "category": "item",
+      "english": "Basic Tool Set",
+      "status": "working",
+      "evidence": [
+        "r02-item:a3: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Literal item name; contents and use unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.9a",
+      "category": "item",
+      "english": "Hand Satellite",
+      "status": "working",
+      "evidence": [
+        "r02-item:9a: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Provisional literal rendering; device identity and use are unknown."
+      ]
+    },
+    {
+      "id": "r02.r02-item.93",
+      "category": "item",
+      "english": "Titanium Boomerang",
+      "status": "working",
+      "evidence": [
+        "r02-item:93: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Literal material/name rendering; equipment statistics unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.9c",
+      "category": "item",
+      "english": "Canned Food",
+      "status": "working",
+      "evidence": [
+        "r02-item:9c: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Generic food name; contents and effects unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.44",
+      "category": "item",
+      "english": "Aiming Device",
+      "status": "working",
+      "evidence": [
+        "r02-item:44: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Literal label for an aiming sight/device; exact equipment effect unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-item.23",
+      "category": "item",
+      "english": "Ray Blaster",
+      "status": "working",
+      "evidence": [
+        "r02-item:23: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Source-grounded name; device identity and function unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-ability.40",
+      "category": "ability",
+      "english": "Performance Analysis",
+      "status": "working",
+      "evidence": [
+        "r02-ability:40: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Literal ability label; exact mechanics unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-ability.41",
+      "category": "ability",
+      "english": "Customization",
+      "status": "working",
+      "evidence": [
+        "r02-ability:41: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Literal ability label; exact mechanics unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-ability.42",
+      "category": "ability",
+      "english": "Mech Repair",
+      "status": "working",
+      "evidence": [
+        "r02-ability:42: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Literal ability label; target and exact mechanics unverified."
+      ]
+    },
+    {
+      "id": "r02.r02-location.2",
+      "category": "location",
+      "english": "Underground Bar",
+      "status": "working",
+      "evidence": [
+        "r02-location:2: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Map title; menu/navigation function, not a claim about room ownership."
+      ]
+    },
+    {
+      "id": "r02.r02-location.103",
+      "category": "location",
+      "english": "Joe's Room",
+      "status": "working",
+      "evidence": [
+        "r02-location:103: original System name table, guarded pointer aliases and R02 route inventory."
+      ],
+      "uncertainty": [
+        "Source title; no extra ownership or story fact inferred."
+      ]
+    },
+    {
+      "id": "place.mars",
+      "category": "place",
+      "english": "Mars",
+      "status": "provisional",
+      "evidence": [
+        "053000:024 and 082000:021–023: possible destination of the ship; the lead is uncertain."
+      ],
+      "uncertainty": [
+        "Working source-based term; no official spelling or additional world facts asserted."
+      ]
+    },
+    {
+      "id": "people.myuntos",
+      "category": "people",
+      "english": "Myuntos",
+      "status": "provisional",
+      "evidence": [
+        "053000:035 speaker label and 053000:016 claim about informants. Official spelling unverified."
+      ],
+      "uncertainty": [
+        "Working source-based term; no official spelling or additional world facts asserted."
+      ]
+    },
+    {
+      "id": "faith.santana",
+      "category": "religion",
+      "english": "Santana",
+      "status": "provisional",
+      "evidence": [
+        "053000:010: speaker describes the influence of this faith/cult."
+      ],
+      "uncertainty": [
+        "Working source-based term; no official spelling or additional world facts asserted."
+      ]
+    },
+    {
+      "id": "character.rarawell",
+      "category": "character",
+      "english": "Rarawell",
+      "status": "provisional",
+      "evidence": [
+        "053000:010: NPC identifies her as Santana leader and Jaguma’s elder sister."
+      ],
+      "uncertainty": [
+        "Working source-based term; no official spelling or additional world facts asserted."
+      ]
+    },
+    {
+      "id": "character.jaguma",
+      "category": "character",
+      "english": "Jaguma",
+      "status": "provisional",
+      "evidence": [
+        "053000:010: named through the relationship to elder sister Rarawell."
+      ],
+      "uncertainty": [
+        "Working source-based term; no official spelling or additional world facts asserted."
+      ]
+    },
+    {
+      "id": "r02.r02-ability.23",
+      "category": "ability",
+      "english": "Universal Driver",
+      "status": "working",
+      "evidence": [
+        "Joe profile and class-7 learning table: docs/r02-qa-source-inventory.md."
+      ],
+      "uncertainty": [
+        "Ability mechanics are not inferred from the name."
+      ]
+    },
+    {
+      "id": "r02.r02-ability.24",
+      "category": "ability",
+      "english": "Electromagnetic Bubble",
+      "status": "working",
+      "evidence": [
+        "Joe profile and class-7 learning table: docs/r02-qa-source-inventory.md."
+      ],
+      "uncertainty": [
+        "Ability mechanics are not inferred from the name."
+      ]
+    },
+    {
+      "id": "place.wyultria",
+      "category": "planet",
+      "english": "Wyultria",
+      "status": "provisional",
+      "evidence": [
+        "054000:018: a woman from Wyuria praises this planet within Wisperard."
+      ],
+      "uncertainty": [
+        "Working romanization; do not equate this planet with Wyuria or Ulyria."
+      ]
+    },
+    {
+      "id": "faction.mars_federation",
+      "category": "faction",
+      "english": "Mars Federation",
+      "status": "provisional",
+      "evidence": [
+        "054000:029: Joe claims his ship cannot be bettered in the Mars Federation."
+      ],
+      "uncertainty": [
+        "Do not equate with previous generic Federation references without further evidence."
+      ]
+    },
+    {
+      "id": "ship.scrap_ii",
+      "category": "ship",
+      "english": "Scrap II",
+      "status": "provisional",
+      "evidence": [
+        "054000:031: Joe introduces his ship with this name, which Shoko dislikes."
+      ],
+      "uncertainty": [
+        "Working English name; original uses a second-generation/regnal-style designation."
+      ]
+    },
+    {
+      "id": "ship.atraia",
+      "category": "ship",
+      "english": "Atraia",
+      "status": "provisional",
+      "evidence": [
+        "054000:031: Shoko proposes this replacement name, accepted by Joe."
+      ],
+      "uncertainty": [
+        "Provisional romanization; Shoko begins with Ast... before settling on the name."
+      ]
+    },
+    {
+      "id": "place.atraia_bridge",
+      "category": "location",
+      "english": "Cockpit",
+      "status": "working",
+      "evidence": [
+        "r03-location:1: original map-title table and all guarded aliases; docs/r03-qa-source-inventory.md."
+      ],
+      "uncertainty": []
+    },
+    {
+      "id": "place.hom_spaceport",
+      "category": "location",
+      "english": "Hom Spaceport",
+      "status": "working",
+      "evidence": [
+        "r03-location:42: original map-title table and all guarded aliases; docs/r03-qa-source-inventory.md."
+      ],
+      "uncertainty": []
+    },
+    {
+      "id": "place.abandoned_mine",
+      "category": "location",
+      "english": "Abandoned Mine",
+      "status": "working",
+      "evidence": [
+        "r03-location:96: original map-title table and all guarded aliases; docs/r03-qa-source-inventory.md."
+      ],
+      "uncertainty": []
+    },
+    {
+      "id": "equipment.item.01",
+      "category": "item",
+      "english": "Ice Needle",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:01: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.02",
+      "category": "item",
+      "english": "Stun Knuckle",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:02: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.04",
+      "category": "item",
+      "english": "Heat Claw",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:04: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.05",
+      "category": "item",
+      "english": "Ray Knife",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:05: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.06",
+      "category": "item",
+      "english": "Heat Whip",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:06: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.07",
+      "category": "item",
+      "english": "G Knuckle",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:07: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.08",
+      "category": "item",
+      "english": "Titanium Blade",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:08: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.09",
+      "category": "item",
+      "english": "Beryllium Sword",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:09: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.0a",
+      "category": "item",
+      "english": "Heat Sword",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:0a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.0b",
+      "category": "item",
+      "english": "Stun Sword",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:0b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.0c",
+      "category": "item",
+      "english": "Cermet Sword",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:0c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.0d",
+      "category": "item",
+      "english": "Ice Blade",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:0d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.0e",
+      "category": "item",
+      "english": "Ray Sword",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:0e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.0f",
+      "category": "item",
+      "english": "Flame Sword",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:0f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.10",
+      "category": "item",
+      "english": "Soul Breaker",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:10: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.11",
+      "category": "item",
+      "english": "Great Ray S",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:11: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.12",
+      "category": "item",
+      "english": "Twin Ray Sword",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:12: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.13",
+      "category": "item",
+      "english": "Zaizer Sword",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:13: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.14",
+      "category": "item",
+      "english": "Ray Lancer",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:14: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.15",
+      "category": "item",
+      "english": "Night Bringer",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:15: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Night Bringer is a plausible working weapon name; the Night/Knight spelling is not established by this label alone."
+      ]
+    },
+    {
+      "id": "equipment.item.16",
+      "category": "item",
+      "english": "G Hammer",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:16: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.17",
+      "category": "item",
+      "english": "Plasma Axe",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:17: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.18",
+      "category": "item",
+      "english": "Plasma Gun",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:18: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.1c",
+      "category": "item",
+      "english": "Hand Blaster",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:1c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.1e",
+      "category": "item",
+      "english": "Beam Rifle",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:1e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.1f",
+      "category": "item",
+      "english": "Anti-Tank Rifle",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:1f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.20",
+      "category": "item",
+      "english": "Flamethrower",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:20: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.21",
+      "category": "item",
+      "english": "F Blaster",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:21: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.22",
+      "category": "item",
+      "english": "Thunderbolt",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:22: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.24",
+      "category": "item",
+      "english": "Mind Break",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:24: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.25",
+      "category": "item",
+      "english": "Z Blaster",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:25: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.26",
+      "category": "item",
+      "english": "Mega Machine Gun",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:26: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.27",
+      "category": "item",
+      "english": "Bazooka",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:27: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.28",
+      "category": "item",
+      "english": "Shoulder Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:28: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.29",
+      "category": "item",
+      "english": "F Buster",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:29: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.2a",
+      "category": "item",
+      "english": "Freeze Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:2a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.2b",
+      "category": "item",
+      "english": "Elecute",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:2b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Elecute is a working sound-based rendering of a coined electrical-looking name. Do not silently expand it to Electrocute or assign an effect."
+      ]
+    },
+    {
+      "id": "equipment.item.2c",
+      "category": "item",
+      "english": "Ray Buster",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:2c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.2d",
+      "category": "item",
+      "english": "Ray Storm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:2d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.2e",
+      "category": "item",
+      "english": "Photon Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:2e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.2f",
+      "category": "item",
+      "english": "Supergravity Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:2f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.30",
+      "category": "item",
+      "english": "Psycho Smash",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:30: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.31",
+      "category": "item",
+      "english": "Zaizer Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:31: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.32",
+      "category": "item",
+      "english": "Anti-Tank Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:32: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.33",
+      "category": "item",
+      "english": "M Launcher",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:33: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.34",
+      "category": "item",
+      "english": "Napalm Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:34: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.35",
+      "category": "item",
+      "english": "Freeze Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:35: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.36",
+      "category": "item",
+      "english": "Hyper Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:36: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.37",
+      "category": "item",
+      "english": "Multi-Warhead Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:37: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.38",
+      "category": "item",
+      "english": "BH Crusher",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:38: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.39",
+      "category": "item",
+      "english": "Night Mask",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:39: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Night Mask may refer to nighttime equipment; Knight Mask is also phonetically possible. Do not globally replace every Night based on armor context."
+      ]
+    },
+    {
+      "id": "equipment.item.3f",
+      "category": "item",
+      "english": "Half Helm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:3f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.40",
+      "category": "item",
+      "english": "Super Mask",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:40: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.41",
+      "category": "item",
+      "english": "Full Helm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:41: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.42",
+      "category": "item",
+      "english": "Fighter Helm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:42: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.43",
+      "category": "item",
+      "english": "SSS Helm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:43: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.45",
+      "category": "item",
+      "english": "Infrared Sight",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:45: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.46",
+      "category": "item",
+      "english": "Psycho Sight",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:46: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.47",
+      "category": "item",
+      "english": "Ray Sight",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:47: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.48",
+      "category": "item",
+      "english": "Sight Helm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:48: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.49",
+      "category": "item",
+      "english": "Psychic Helm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:49: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.4a",
+      "category": "item",
+      "english": "Scrap Helm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:4a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.4b",
+      "category": "item",
+      "english": "Ray Sight Helm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:4b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.4e",
+      "category": "item",
+      "english": "Magnet Ring",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:4e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.4f",
+      "category": "item",
+      "english": "Electromagnetic Bracelet",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:4f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.50",
+      "category": "item",
+      "english": "Ray Bracelet",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:50: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.52",
+      "category": "item",
+      "english": "Night Shield",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:52: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "The source Night/Knight homophone is unresolved. Knight Shield is plausible from the equipment type, but the label alone cannot establish it. Keep Night provisionally or choose Knight only as an explicitly provisional editorial decision."
+      ]
+    },
+    {
+      "id": "equipment.item.53",
+      "category": "item",
+      "english": "Psycho Shield",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:53: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.54",
+      "category": "item",
+      "english": "Electromagnetic Shield",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:54: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.55",
+      "category": "item",
+      "english": "Ray Shield",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:55: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.56",
+      "category": "item",
+      "english": "Zaizer Shield",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:56: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.57",
+      "category": "item",
+      "english": "Hyperdimensional Barrier",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:57: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.58",
+      "category": "item",
+      "english": "Ray Barrier",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:58: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.59",
+      "category": "item",
+      "english": "Super-Electromagnetic Barrier",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:59: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.5a",
+      "category": "item",
+      "english": "Hyper Barrier",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:5a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.5b",
+      "category": "item",
+      "english": "BH Barrier",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:5b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.62",
+      "category": "item",
+      "english": "Coat",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:62: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.64",
+      "category": "item",
+      "english": "Proto Cyber",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:64: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.65",
+      "category": "item",
+      "english": "Light Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:65: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.66",
+      "category": "item",
+      "english": "Polymer Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:66: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.67",
+      "category": "item",
+      "english": "Cosmo Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:67: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.68",
+      "category": "item",
+      "english": "Ceramic Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:68: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.69",
+      "category": "item",
+      "english": "Fighter Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:69: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.6a",
+      "category": "item",
+      "english": "Hyper Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:6a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.6b",
+      "category": "item",
+      "english": "Scrap Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:6b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.6c",
+      "category": "item",
+      "english": "Cyber Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:6c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.6d",
+      "category": "item",
+      "english": "Psycho Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:6d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.6e",
+      "category": "item",
+      "english": "Protective Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:6e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.6f",
+      "category": "item",
+      "english": "Titanium Armor",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:6f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.70",
+      "category": "item",
+      "english": "Armed Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:70: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.71",
+      "category": "item",
+      "english": "Battle Suit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:71: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.72",
+      "category": "item",
+      "english": "Night Armor",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:72: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Knight Armor is more natural for armor, but the source homophone also permits Night Armor. Do not claim either is officially established."
+      ]
+    },
+    {
+      "id": "equipment.item.73",
+      "category": "item",
+      "english": "Super Cyber",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:73: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.74",
+      "category": "item",
+      "english": "Steel Body",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:74: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.76",
+      "category": "item",
+      "english": "Cyber Frame",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:76: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.77",
+      "category": "item",
+      "english": "Super-Electromagnetic Frame",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:77: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.78",
+      "category": "item",
+      "english": "Scrap Body",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:78: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.79",
+      "category": "item",
+      "english": "Zaizer Frame",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:79: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.82",
+      "category": "item",
+      "english": "Medical Tool",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:82: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.83",
+      "category": "item",
+      "english": "Medical Set",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:83: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.84",
+      "category": "item",
+      "english": "High Medical",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:84: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.85",
+      "category": "item",
+      "english": "Psycho Cure",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:85: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.86",
+      "category": "item",
+      "english": "High Psycho Cure",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:86: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.87",
+      "category": "item",
+      "english": "Hand Grenade",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:87: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.88",
+      "category": "item",
+      "english": "High Grenade",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:88: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.89",
+      "category": "item",
+      "english": "Hand Napalm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:89: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.8a",
+      "category": "item",
+      "english": "Hyper Napalm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:8a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.8b",
+      "category": "item",
+      "english": "Freezing Bomb",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:8b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.8c",
+      "category": "item",
+      "english": "Lightning Bomb",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:8c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.8d",
+      "category": "item",
+      "english": "Ray Ball",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:8d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.8e",
+      "category": "item",
+      "english": "Gravity Bomb",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:8e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.8f",
+      "category": "item",
+      "english": "Stun Grenade",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:8f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.90",
+      "category": "item",
+      "english": "Sleep Gas",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:90: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.91",
+      "category": "item",
+      "english": "Paralysis Gas",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:91: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.92",
+      "category": "item",
+      "english": "Psycho Crash",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:92: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.94",
+      "category": "item",
+      "english": "Ray Ring",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:94: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.95",
+      "category": "item",
+      "english": "Beam Dart",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:95: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.96",
+      "category": "item",
+      "english": "Hyper-Spacetime Round",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:96: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.97",
+      "category": "item",
+      "english": "Tron Field",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:97: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.98",
+      "category": "item",
+      "english": "Super-Electromagnetic Field",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:98: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.99",
+      "category": "item",
+      "english": "Cure Medicine",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:99: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.9b",
+      "category": "item",
+      "english": "Myuntos Medicinal Herb",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:9b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.9d",
+      "category": "item",
+      "english": "Mars Ticket",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:9d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.9e",
+      "category": "item",
+      "english": "Zajil Ticket",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:9e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.9f",
+      "category": "item",
+      "english": "Stea Ticket",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:9f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.a0",
+      "category": "item",
+      "english": "Hom Ticket",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:a0: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.a1",
+      "category": "item",
+      "english": "Juke Ticket",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:a1: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.a4",
+      "category": "item",
+      "english": "Mech Repair Box",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:a4: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.a5",
+      "category": "item",
+      "english": "Video Letter",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:a5: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.a6",
+      "category": "item",
+      "english": "Mars Federation History Encyclopedia",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:a6: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.a7",
+      "category": "item",
+      "english": "Trefoil Emblem",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:a7: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.a8",
+      "category": "item",
+      "english": "Microchip",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:a8: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.aa",
+      "category": "item",
+      "english": "Travel Permit",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:aa: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.ab",
+      "category": "item",
+      "english": "Zaizer Ore Fragment",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:ab: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.ac",
+      "category": "item",
+      "english": "Byudos Key",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:ac: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.ad",
+      "category": "item",
+      "english": "Gol Key",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:ad: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.ae",
+      "category": "item",
+      "english": "Borua Key",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:ae: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.af",
+      "category": "item",
+      "english": "Moonlight",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:af: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.b0",
+      "category": "item",
+      "english": "Raw Zaizer Ore",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:b0: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.b1",
+      "category": "item",
+      "english": "Psycho Ring",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:b1: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.item.c0",
+      "category": "item",
+      "english": "Dumna's Jewel",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:item:c0: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.01",
+      "category": "ship equipment",
+      "english": "Hyper Shot",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:01: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.02",
+      "category": "ship equipment",
+      "english": "Flash Bolt",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:02: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.03",
+      "category": "ship equipment",
+      "english": "Mega Gatling Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:03: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.04",
+      "category": "ship equipment",
+      "english": "Grenade Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:04: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.05",
+      "category": "ship equipment",
+      "english": "250 mm Penetrating Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:05: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.06",
+      "category": "ship equipment",
+      "english": "Salamander",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:06: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.07",
+      "category": "ship equipment",
+      "english": "Plasma Buster",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:07: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.08",
+      "category": "ship equipment",
+      "english": "Power Sonic Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:08: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.09",
+      "category": "ship equipment",
+      "english": "Particle Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:09: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.0a",
+      "category": "ship equipment",
+      "english": "Multi-Ray Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:0a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.0b",
+      "category": "ship equipment",
+      "english": "Beam Cutter",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:0b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.0c",
+      "category": "ship equipment",
+      "english": "Heat Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:0c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.0d",
+      "category": "ship equipment",
+      "english": "Explosive Flash Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:0d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.0e",
+      "category": "ship equipment",
+      "english": "Super Napalm",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:0e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.0f",
+      "category": "ship equipment",
+      "english": "Wyvern",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:0f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.10",
+      "category": "ship equipment",
+      "english": "Photon Bomb",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:10: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.11",
+      "category": "ship equipment",
+      "english": "Aqua Jet Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:11: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.12",
+      "category": "ship equipment",
+      "english": "320 mm Penetrating Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:12: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.13",
+      "category": "ship equipment",
+      "english": "Zaizer Spark",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:13: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.14",
+      "category": "ship equipment",
+      "english": "Scatter Ray Buster",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:14: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.15",
+      "category": "ship equipment",
+      "english": "Plasma Ion Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:15: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.16",
+      "category": "ship equipment",
+      "english": "Photon Beam Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:16: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.17",
+      "category": "ship equipment",
+      "english": "Pulse Laser Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:17: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.18",
+      "category": "ship equipment",
+      "english": "Hyper Elementary-Particle Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:18: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.19",
+      "category": "ship equipment",
+      "english": "Neutron Beam Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:19: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.1a",
+      "category": "ship equipment",
+      "english": "560 mm Photon Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:1a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.1b",
+      "category": "ship equipment",
+      "english": "Hell Prominence",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:1b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.1c",
+      "category": "ship equipment",
+      "english": "Rapid-Fire Positron Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:1c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.1d",
+      "category": "ship equipment",
+      "english": "Scrap Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:1d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.1e",
+      "category": "ship equipment",
+      "english": "Zaizer Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:1e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.1f",
+      "category": "ship equipment",
+      "english": "Gebres Cannon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:1f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.20",
+      "category": "ship equipment",
+      "english": "Moon Slider",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:20: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.21",
+      "category": "ship equipment",
+      "english": "Stealth Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:21: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.22",
+      "category": "ship equipment",
+      "english": "Freezing Zero",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:22: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.23",
+      "category": "ship equipment",
+      "english": "G Pressure",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:23: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.24",
+      "category": "ship equipment",
+      "english": "Plasma Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:24: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.25",
+      "category": "ship equipment",
+      "english": "Multi-Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:25: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.26",
+      "category": "ship equipment",
+      "english": "Hydro Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:26: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.27",
+      "category": "ship equipment",
+      "english": "Antiproton Missile",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:27: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.28",
+      "category": "ship equipment",
+      "english": "Hyper-Spacetime Oscillation Round",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:28: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.29",
+      "category": "ship equipment",
+      "english": "Titanium",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:29: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.2a",
+      "category": "ship equipment",
+      "english": "Solenoid",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:2a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.2b",
+      "category": "ship equipment",
+      "english": "Beta Ceramic",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:2b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.2c",
+      "category": "ship equipment",
+      "english": "Tetra Titanium",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:2c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.2d",
+      "category": "ship equipment",
+      "english": "TRA Frame",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:2d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.2e",
+      "category": "ship equipment",
+      "english": "Uranium",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:2e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.2f",
+      "category": "ship equipment",
+      "english": "Hardened Plastic",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:2f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.30",
+      "category": "ship equipment",
+      "english": "Particle Frame",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:30: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.31",
+      "category": "ship equipment",
+      "english": "Sialon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:31: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.32",
+      "category": "ship equipment",
+      "english": "O-D Alloy",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:32: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.33",
+      "category": "ship equipment",
+      "english": "Demi-Carbonoid",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:33: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.34",
+      "category": "ship equipment",
+      "english": "Tuonela",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:34: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.35",
+      "category": "ship equipment",
+      "english": "Weeger Armor",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:35: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.36",
+      "category": "ship equipment",
+      "english": "Normal Engine",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:36: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.3a",
+      "category": "ship equipment",
+      "english": "J-S Engine",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:3a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.3b",
+      "category": "ship equipment",
+      "english": "Argo V",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:3b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.3c",
+      "category": "ship equipment",
+      "english": "Plasma",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:3c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.3d",
+      "category": "ship equipment",
+      "english": "G-Ion",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:3d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.3e",
+      "category": "ship equipment",
+      "english": "NEGA-J",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:3e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.3f",
+      "category": "ship equipment",
+      "english": "Mega Plasma",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:3f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.40",
+      "category": "ship equipment",
+      "english": "Helium Jet",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:40: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.41",
+      "category": "ship equipment",
+      "english": "Giga Plasma",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:41: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.42",
+      "category": "ship equipment",
+      "english": "Antiproton Engine",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:42: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.43",
+      "category": "ship equipment",
+      "english": "Sleipnir",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:43: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.44",
+      "category": "ship equipment",
+      "english": "Burajji",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:44: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Burajji closely transcribes the source but is not a demonstrated official spelling. Braggi is a smoother possible working rendering; the neighboring Sleipnir does not prove a mythological identification."
+      ]
+    },
+    {
+      "id": "equipment.ship.45",
+      "category": "ship equipment",
+      "english": "Falcon",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:45: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.4a",
+      "category": "ship equipment",
+      "english": "Phoenix",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:4a: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.4b",
+      "category": "ship equipment",
+      "english": "Falcon II",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:4b: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.4c",
+      "category": "ship equipment",
+      "english": "S Phoenix",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:4c: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.4d",
+      "category": "ship equipment",
+      "english": "Gurnard",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:4d: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.4e",
+      "category": "ship equipment",
+      "english": "King Gurnard",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:4e: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.4f",
+      "category": "ship equipment",
+      "english": "Task Battler",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:4f: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Task and Tusk share the source pronunciation here. Neither the vehicle table nor the label alone settles the intended English word. Avoid treating Task as verified."
+      ]
+    },
+    {
+      "id": "equipment.ship.50",
+      "category": "ship equipment",
+      "english": "Stingray",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:50: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.51",
+      "category": "ship equipment",
+      "english": "Aircar",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:51: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.52",
+      "category": "ship equipment",
+      "english": "Snow Tank",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:52: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.53",
+      "category": "ship equipment",
+      "english": "Hell Buster",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:53: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.54",
+      "category": "ship equipment",
+      "english": "Battle Buggy",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:54: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.55",
+      "category": "ship equipment",
+      "english": "Land Attacker",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:55: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "equipment.ship.56",
+      "category": "ship equipment",
+      "english": "Jet Hover",
+      "status": "provisional",
+      "evidence": [
+        "r03-equipment:ship:56: guarded original name and exact aliases; development list consumer."
+      ],
+      "uncertainty": [
+        "Working source-based name; no combat effects or official romanization inferred."
+      ]
+    },
+    {
+      "id": "character.welda",
+      "category": "character",
+      "english": "Welda",
+      "status": "provisional",
+      "evidence": [
+        "Shared name IDs8/9 and 055000:004,05c000:001; full name Welda Muretts."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ],
+      "fullName": "Welda Muretts"
+    },
+    {
+      "id": "character.shayna",
+      "category": "character",
+      "english": "Shayna",
+      "status": "provisional",
+      "evidence": [
+        "055000:004 speaker; 05c000 station conversation."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "character.roy_bester",
+      "category": "character",
+      "english": "Roy Bester",
+      "status": "provisional",
+      "evidence": [
+        "05c000:001 self-introduction as Brigadier General commanding Chausnomyu; 05d000:000 briefing."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "character.joe_compson",
+      "category": "character",
+      "english": "Joe Compson",
+      "status": "provisional",
+      "evidence": [
+        "05c000:001 explicit self-introduction; full-name disclosure supplements the opening-stage character.joe entry and its then-unknown legal name."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "faction.chausnomyu",
+      "category": "faction",
+      "english": "Chausnomyu",
+      "status": "provisional",
+      "evidence": [
+        "05c000:001: commander, members and ace; unit affiliation rather than an assumed planet."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "organization.cosmic_hawk",
+      "category": "organization",
+      "english": "Cosmic Hawk",
+      "status": "provisional",
+      "evidence": [
+        "055000:004 narrator attributes the station to Cosmic Hawk; precise relationship with Chausnomyu not established here."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "organization.perfect_technical",
+      "category": "organization",
+      "english": "Perfect Technical",
+      "status": "provisional",
+      "evidence": [
+        "Station Shayna dialogue describes the Mars Federation arms manufacturer; preserve her boast as attributed."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "drug.kidun",
+      "category": "fictional substance",
+      "english": "Kidun",
+      "status": "provisional",
+      "evidence": [
+        "05d000:000: addictive plant/drug from Zolias, habitual users suffer severe hallucinations."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "condition.biojunk",
+      "category": "fictional condition",
+      "english": "biojunk",
+      "status": "provisional",
+      "evidence": [
+        "05d000:000: mutation attributed to a Kidun compound, rapid internal/external evolution and degeneration, usually fatal."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "creature.bio_beast",
+      "category": "creature",
+      "english": "bio-beast",
+      "status": "provisional",
+      "evidence": [
+        "05d000:000: rare violent result of biojunk, described as one in tens of thousands."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "place.zajil",
+      "category": "place",
+      "english": "Zajil",
+      "status": "provisional",
+      "evidence": [
+        "05d000:000 mission destination; spelling matches existing equipment.item.9e Zajil Ticket."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "faction.karilas",
+      "category": "faction",
+      "english": "Karilas",
+      "status": "provisional",
+      "evidence": [
+        "05d000:000 names the drug syndicate operating on Zajil."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "character.tomyu",
+      "category": "character",
+      "english": "Tomyu",
+      "status": "provisional",
+      "evidence": [
+        "05d000:000 identifies the Myuntos syndicate leader."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "place.saibal",
+      "category": "place",
+      "english": "Saibal",
+      "status": "provisional",
+      "evidence": [
+        "081000:000 identifies the destination town in the mission party conversation."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "place.cs_station",
+      "category": "location",
+      "english": "CS Station",
+      "status": "provisional",
+      "evidence": [
+        "Map30 original title at System113fb; station recruitment and tour in05c000."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "place.civilian_ship",
+      "category": "location",
+      "english": "Ship Interior",
+      "status": "provisional",
+      "evidence": [
+        "Map104 original title at System11751; shared generic title aliases preserved across other ship maps."
+      ],
+      "uncertainty": [
+        "Working source-based terminology; official romanization and unstated world details remain unverified."
+      ]
+    },
+    {
+      "id": "place.porkin",
+      "category": "location",
+      "english": "Porkin",
+      "status": "provisional",
+      "evidence": [
+        "05b000:009 directions and035 kidnapping letter; 05a000:003; map50 title at System114c9."
+      ],
+      "uncertainty": [
+        "Working source-based spelling; official romanization unverified."
+      ]
+    },
+    {
+      "id": "place.stea",
+      "category": "location",
+      "english": "Stea",
+      "status": "provisional",
+      "evidence": [
+        "05f000:005/006 and Zajil bus destination menus; consistent with equipment.item.9f Stea Ticket."
+      ],
+      "uncertainty": [
+        "Working source-based spelling; official romanization unverified."
+      ]
+    },
+    {
+      "id": "place.zajil_spaceport",
+      "category": "location",
+      "english": "Zajil Spaceport",
+      "status": "provisional",
+      "evidence": [
+        "Map41 title at System1145e and initial05f000 ticket counters."
+      ],
+      "uncertainty": [
+        "Working source-based spelling; official romanization unverified."
+      ]
+    },
+    {
+      "id": "shop.weporkin",
+      "category": "shop",
+      "english": "Weporkin",
+      "status": "provisional",
+      "evidence": [
+        "05a000:004 shop header, wordplay on weapons and Porkin; working English rendering."
+      ],
+      "uncertainty": [
+        "Working source-based spelling; official romanization unverified."
+      ]
+    },
+    {
+      "id": "ability.mental_recovery",
+      "category": "ability",
+      "english": "Mental Recovery",
+      "status": "working",
+      "evidence": [
+        "Welda character5 profile skill25 and field61; original ability names11100/111ae, shared aliases25/24/23 and61/60/59."
+      ],
+      "uncertainty": [
+        "Name translated from source; exact effects, numbers and official English naming not inferred."
+      ]
+    },
+    {
+      "id": "ability.mental_attack",
+      "category": "ability",
+      "english": "Mental Attack",
+      "status": "working",
+      "evidence": [
+        "Welda character5 initial skill26; original ability name11109."
+      ],
+      "uncertainty": [
+        "Name translated from source; exact effects, numbers and official English naming not inferred."
+      ]
+    },
+    {
+      "id": "character.geist",
+      "category": "character",
+      "english": "Geist",
+      "status": "provisional",
+      "evidence": [
+        "05a000:017 names the commander of Zajil military station;05e000 confrontation."
+      ],
+      "uncertainty": [
+        "Working source-based spelling; official romanization and full name unknown."
+      ]
+    },
+    {
+      "id": "place.space",
+      "category": "location",
+      "english": "Space Mode",
+      "status": "provisional",
+      "evidence": [
+        "r06-location:0: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.military_station",
+      "category": "location",
+      "english": "Military Station",
+      "status": "provisional",
+      "evidence": [
+        "r06-location:31: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "system.m264",
+      "category": "star system",
+      "english": "M264 System",
+      "status": "provisional",
+      "evidence": [
+        "r06-star-name:011768: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "system.m861",
+      "category": "star system",
+      "english": "M861 System",
+      "status": "provisional",
+      "evidence": [
+        "r06-star-name:011776: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "system.w505",
+      "category": "star system",
+      "english": "W505 System",
+      "status": "provisional",
+      "evidence": [
+        "r06-star-name:011784: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "system.z091",
+      "category": "star system",
+      "english": "Z091 System",
+      "status": "provisional",
+      "evidence": [
+        "r06-star-name:011792: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "system.w183",
+      "category": "star system",
+      "english": "W183 System",
+      "status": "provisional",
+      "evidence": [
+        "r06-star-name:0117a0: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "system.z127",
+      "category": "star system",
+      "english": "Z127 System",
+      "status": "provisional",
+      "evidence": [
+        "r06-star-name:0117ae: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "system.z254",
+      "category": "star system",
+      "english": "Z254 System",
+      "status": "provisional",
+      "evidence": [
+        "r06-star-name:0117bc: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.byuto",
+      "category": "location",
+      "english": "Byuto",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:0165c1: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.juke",
+      "category": "location",
+      "english": "Juke",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:0165d2: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.tils",
+      "category": "location",
+      "english": "Tils",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:0165dc: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.hyuris",
+      "category": "location",
+      "english": "Hyuris",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:0165f0: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.baiden",
+      "category": "location",
+      "english": "Baiden",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:0165f9: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.byudos",
+      "category": "location",
+      "english": "Byudos",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016604: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.byeza",
+      "category": "location",
+      "english": "Byeza",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016610: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.nomike",
+      "category": "location",
+      "english": "Nomike",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:01661a: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.sartalia",
+      "category": "location",
+      "english": "Sartalia",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016623: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.poreda",
+      "category": "location",
+      "english": "Poreda",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:01662d: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.zokahel",
+      "category": "location",
+      "english": "Zokahel",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016637: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.yosnu",
+      "category": "location",
+      "english": "Yosnu",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016641: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.von",
+      "category": "location",
+      "english": "Von",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016649: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.ask",
+      "category": "location",
+      "english": "Ask",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016652: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.sachi",
+      "category": "location",
+      "english": "Sachi",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:01665a: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.trim",
+      "category": "location",
+      "english": "Trim",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016661: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.gor",
+      "category": "location",
+      "english": "Gor",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016669: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.borua",
+      "category": "location",
+      "english": "Borua",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016671: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.supply_station",
+      "category": "location",
+      "english": "Supply Station",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:01668e: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.defense_station",
+      "category": "location",
+      "english": "Defense Station",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:016699: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.hidden_station",
+      "category": "location",
+      "english": "Hidden Station",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:0166a4: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "place.barbas",
+      "category": "location",
+      "english": "Barbas Space Fortress",
+      "status": "provisional",
+      "evidence": [
+        "r06-landing-name:0166af: original source string and every pointer alias in r06_names.py."
+      ],
+      "uncertainty": [
+        "Working source-based spelling/label; official romanization unverified. Landing labels do not imply translated destination exploration."
+      ]
+    },
+    {
+      "id": "reference.atraia_flight_label",
+      "category": "source spelling variant",
+      "english": "Atraia",
+      "status": "working",
+      "evidence": [
+        "System1714e embeds Latin Atlia; Japanese ship name and existing reviewed terminology use Atraia. New HUD text uses Atraia consistently."
+      ],
+      "uncertainty": [
+        "Embedded Latin spelling is recorded as evidence, not silently claimed to be an official English localization."
+      ]
+    },
+    {
+      "id": "creature.eibe",
+      "category": "creature",
+      "english": "Eibe",
+      "status": "provisional",
+      "evidence": [
+        "060000:022 and081000:017/019 identify the mine creatures; plural Eibes."
+      ],
+      "uncertainty": [
+        "Working romanization; do not infer an ape etymology or biological origin."
+      ]
+    },
+    {
+      "id": "place.kainan",
+      "category": "location",
+      "english": "Kainan",
+      "status": "provisional",
+      "evidence": [
+        "Original map46 label and060000:000/001 shop headings."
+      ],
+      "uncertainty": [
+        "Working romanization; shop headings do not establish a named proprietor."
+      ]
+    },
+    {
+      "id": "technology.interstellar_engine",
+      "category": "technology",
+      "english": "interstellar engine",
+      "status": "provisional",
+      "evidence": [
+        "05c000:035/039/040: laboratory grants an engine enabling travel between star systems; flag49."
+      ],
+      "uncertainty": [
+        "Do not equate the generic engine description with an unproven model name."
+      ]
+    },
+    {
+      "id": "place.teswil",
+      "category": "location",
+      "english": "Teswil",
+      "status": "provisional",
+      "evidence": [
+        "057000:001/003/004/014/017 identify the capital and its businesses."
+      ],
+      "uncertainty": [
+        "Working source-based romanization; official English spelling unverified."
+      ]
+    },
+    {
+      "id": "place.daina",
+      "category": "location",
+      "english": "Daina",
+      "status": "provisional",
+      "evidence": [
+        "057000:019 and081000:025 locate the memorial and next lead across the sea."
+      ],
+      "uncertainty": [
+        "Working source-based romanization; official English spelling unverified."
+      ]
+    },
+    {
+      "id": "place.begi",
+      "category": "location",
+      "english": "Begi",
+      "status": "provisional",
+      "evidence": [
+        "057000:021 identifies the town south of Teswil and its residents."
+      ],
+      "uncertainty": [
+        "Working source-based romanization; official English spelling unverified."
+      ]
+    },
+    {
+      "id": "region.rasha",
+      "category": "location",
+      "english": "Rasha",
+      "status": "provisional",
+      "evidence": [
+        "057000:017 identifies the continent containing Teswil."
+      ],
+      "uncertainty": [
+        "Working source-based romanization; official English spelling unverified."
+      ]
+    },
+    {
+      "id": "region.wina",
+      "category": "location",
+      "english": "Wina",
+      "status": "provisional",
+      "evidence": [
+        "057000:017/019 identify the other continent, containing Daina."
+      ],
+      "uncertainty": [
+        "Working source-based romanization; official English spelling unverified."
+      ]
+    },
+    {
+      "id": "title.ice_rarawell",
+      "category": "character or setting reference",
+      "english": "Ice Rarawell",
+      "status": "provisional",
+      "evidence": [
+        "078000:001 describes Rarawell among three generals under Jaguma and assigns her to Barbas at Z127. Uses established Rarawell spelling from053000:010."
+      ],
+      "uncertainty": [
+        "Working source-based rendering; official romanization and further biographical details remain unverified."
+      ]
+    },
+    {
+      "id": "character.beast_baiden",
+      "category": "character or setting reference",
+      "english": "Beast Baiden",
+      "status": "provisional",
+      "evidence": [
+        "078000:001 identifies a general commanding the Black Beast biosoldier unit."
+      ],
+      "uncertainty": [
+        "Working source-based rendering; official romanization and further biographical details remain unverified."
+      ]
+    },
+    {
+      "id": "character.nobel_sullivan",
+      "category": "character or setting reference",
+      "english": "Nobel Sullivan",
+      "status": "provisional",
+      "evidence": [
+        "078000:001 identifies the Imperial Space Navy strategist among the three generals."
+      ],
+      "uncertainty": [
+        "Working source-based rendering; official romanization and further biographical details remain unverified."
+      ]
+    },
+    {
+      "id": "unit.black_beast",
+      "category": "character or setting reference",
+      "english": "Black Beast",
+      "status": "provisional",
+      "evidence": [
+        "078000:001 names the biosoldier unit commanded by Beast Baiden."
+      ],
+      "uncertainty": [
+        "Working source-based rendering; official romanization and further biographical details remain unverified."
+      ]
+    },
+    {
+      "id": "technology.biosoldier",
+      "category": "character or setting reference",
+      "english": "biosoldier",
+      "status": "provisional",
+      "evidence": [
+        "078000:001 describes the soldiers in Black Beast; no mechanics or origin established."
+      ],
+      "uncertainty": [
+        "Working source-based rendering; official romanization and further biographical details remain unverified."
+      ]
+    },
+    {
+      "id": "character.jaguma_full_name",
+      "category": "character or setting reference",
+      "english": "Jaguma Dorian",
+      "status": "provisional",
+      "evidence": [
+        "Shared name18 source at System11261–1126f, paired with established Jaguma/name17. Full form is distinct from the narrow display name."
+      ],
+      "uncertainty": [
+        "Working source-based rendering; official romanization and further biographical details remain unverified."
+      ]
+    },
+    {
+      "id": "character.shaina",
+      "category": "character",
+      "english": "Shaina",
+      "status": "provisional",
+      "evidence": [
+        "061000:004/017/018: recognizes the party, has moved out from her parents and offers tea in her Teswil home."
+      ],
+      "uncertainty": [
+        "Working romanization; earlier acquaintance and further relationships are not established here."
+      ]
+    },
+    {
+      "id": "species.tiryut",
+      "category": "species",
+      "english": "Tiryut",
+      "status": "provisional",
+      "evidence": [
+        "062000:009: Lucia/Alshark describes her people as beings of mental energy without physical bodies."
+      ],
+      "uncertainty": [
+        "Working source-based English form; official romanization unverified. Narrative claims retain their speaker and story-stage context."
+      ]
+    },
+    {
+      "id": "power.ralua",
+      "category": "faction or power",
+      "english": "Ralua",
+      "status": "provisional",
+      "evidence": [
+        "062000:009: Lucia/Alshark identifies Ralua and Karma as two opposing powers among the Tiryut, likening them to good and evil."
+      ],
+      "uncertainty": [
+        "Working source-based English form; official romanization unverified. Narrative claims retain their speaker and story-stage context."
+      ]
+    },
+    {
+      "id": "power.karma",
+      "category": "faction or power",
+      "english": "Karma",
+      "status": "provisional",
+      "evidence": [
+        "062000:009: Lucia/Alshark names the opposing power and says Mamon has fused with Karma."
+      ],
+      "uncertainty": [
+        "Working source-based English form; official romanization unverified. Narrative claims retain their speaker and story-stage context."
+      ]
+    },
+    {
+      "id": "character.alshark",
+      "category": "character",
+      "english": "Alshark",
+      "status": "provisional",
+      "evidence": [
+        "062000:009: the speaker identifies herself as Alshark, a warrior of Ralua, while explaining that she is also Lucia."
+      ],
+      "uncertainty": [
+        "Working source-based English form; official romanization unverified. Narrative claims retain their speaker and story-stage context."
+      ]
+    },
+    {
+      "id": "character.ramyu_kose",
+      "category": "character",
+      "english": "Ramyu Kose",
+      "status": "provisional",
+      "evidence": [
+        "062000:005 identifies the Wyurian builder of the memorial as one of Wey Dumna’s three disciples; 062000:010 signs the inscription with this name."
+      ],
+      "uncertainty": [
+        "Working source-based English form; official romanization unverified. Narrative claims retain their speaker and story-stage context."
+      ]
+    },
+    {
+      "id": "character.kasta_baiya",
+      "category": "character",
+      "english": "Kasta Baiya",
+      "status": "provisional",
+      "evidence": [
+        "063000:025: the historian attributes persecution in Dumna’s name after his death to the first president, Kasta Baiya."
+      ],
+      "uncertainty": [
+        "Working source-based spelling; official romanization unverified. Preserve attribution to the historian."
+      ]
+    },
+    {
+      "id": "character.sartos",
+      "category": "character",
+      "english": "Sartos",
+      "status": "provisional",
+      "evidence": [
+        "063000:025: the historian calls the Myuntos elder/master Sartos Dumna’s only friend."
+      ],
+      "uncertainty": [
+        "Working source-based spelling; official romanization unverified. Preserve attribution to the historian."
+      ]
     }
   ],
   "storyStages": [
@@ -445,6 +4641,79 @@
       "doNotAssume": [
         "Every adjacent bank entry is the next chronological scene.",
         "Joe encounter trigger or the required map path is already verified."
+      ]
+    },
+    {
+      "id": "r04_rescue_and_station",
+      "known": [
+        "055000:004 directly establishes Shoko addressing Mamon as her father; opening-stage uncertainty is resolved here.",
+        "05c000:001 reveals Joe Compson as Joe's full name; character.joe_compson records this later disclosure.",
+        "05c000:023 explains Chau as Cosmic Hawk and Snomyu as Mars Federation Space Navy; Chausnomyu is an affiliation/unit name, not a new planet.",
+        "Station tour flags23/24/25 lead to summons26 and first mission briefing16."
+      ],
+      "doNotAssume": [
+        "Statements about Mamon's mission or identity explain the full mystery.",
+        "The station border leads directly to the bridge; it targets map9.",
+        "The first Zajil mission or later exploration is included in this section."
+      ]
+    },
+    {
+      "id": "r05_zajil_initial",
+      "known": [
+        "CS Station border leads to Planet Zajil; world exits lead to Saibal, Porkin and Zajil Spaceport.",
+        "Saibal syndicate interrogation sets flag17; subsequent hotel stay triggers kidnapping and flag18.",
+        "Porkin Tomyu encounter is a pursuit-stage event visible after the kidnapping; pre-kidnapping guard battle is separate."
+      ],
+      "doNotAssume": [
+        "Claims about Tomyu being away establish his actual whereabouts.",
+        "Boarding a bus grants translated exploration of its destination.",
+        "The kidnapping identity/motive is resolved before the pursuit."
+      ]
+    },
+    {
+      "id": "r06_rescue",
+      "known": [
+        "Tomyu confrontation sets19; interrogation names Commander Geist and sets28.",
+        "Flight map0 object targets military station31; Geist fight sets1a, subsequent rescue rejoins Shoko.",
+        "Original star-map artwork uses Latin variants ZAZIL and CHAUSNOMU; retained artwork has no Japanese captions."
+      ],
+      "doNotAssume": [
+        "The next CS Station assignment or other planets are translated by this section.",
+        "Map artwork variants are official canonical romanizations."
+      ]
+    },
+    {
+      "id": "r07_byuto",
+      "known": [
+        "Roy post-rescue briefing assigns the Byuto investigation and sets29; lab grant sets49.",
+        "Mine boss060000:023 sets2c; later town dialogue thanks the party without confirming missing miners survived."
+      ],
+      "doNotAssume": [
+        "Roy knows why Shoko was kidnapped; he offers conjecture, not a finding.",
+        "The missing son returns safely or the mine creatures are naturally occurring."
+      ]
+    },
+    {
+      "id": "r08_mars_leave",
+      "known": [
+        "05d000:002 grants leave after the Byuto mission but forbids Atraia use; operator05c000:032 sends the party to Mars Spaceport.",
+        "The capital investigation yields a video letter with a lead to Daina."
+      ],
+      "doNotAssume": [
+        "Leave permits Atraia use or exploration of every bus destination is included.",
+        "The video letter establishes any ability beyond what its speaker describes."
+      ]
+    },
+    {
+      "id": "r09_daina_reunion",
+      "known": [
+        "062000:009 reunites the party with Lucia/Alshark at the Daina memorial; her account introduces Tiryut, Ralua and Karma.",
+        "The ambush presents Mamon’s claim about the expedition; the party escapes with a flash grenade, and party dialogue points toward a historian in Begi."
+      ],
+      "doNotAssume": [
+        "Lucia has ceased to exist; she explicitly qualifies her identity.",
+        "The two powers began before the universe; the speaker marks that possibility as uncertain.",
+        "The ambush dialogue independently verifies every expedition member’s fate."
       ]
     }
   ],

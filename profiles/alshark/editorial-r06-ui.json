@@ -1,0 +1,674 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R06 manager source/context interface editorial review",
+  "scenes": [
+    {
+      "id": "r06-flight-controls-and-feedback",
+      "records": [
+        "ui:Opening:004430",
+        "ui:Opening:004500",
+        "ui:Opening:00450e",
+        "ui:Opening:00477d",
+        "ui:Opening:004788",
+        "ui:Opening:0047b2",
+        "ui:Opening:0047bc",
+        "ui:Opening:0047e0",
+        "ui:Opening:004801",
+        "ui:Opening:004816",
+        "ui:Opening:004849",
+        "ui:Opening:00487a",
+        "ui:Opening:00488d",
+        "ui:Opening:004897",
+        "ui:Opening:004913",
+        "ui:Opening:004927",
+        "ui:Opening:004939",
+        "ui:Opening:004950",
+        "ui:Opening:00496b",
+        "ui:Opening:004988",
+        "ui:Opening:0049a1",
+        "ui:Opening:0049b8",
+        "ui:Opening:0049cf",
+        "ui:System:01714e",
+        "ui:System:01734f",
+        "ui:System:01a035"
+      ],
+      "participants": [
+        "Player"
+      ],
+      "location": "Atraia flight, navigation, vehicle and combat controls",
+      "storyState": "First flight to the military station, rescue and reunion before CS debrief.",
+      "purpose": "Make the flight route, choices, repair/control settings, destruction feedback and star information understandable.",
+      "previousContext": [
+        "Tomyu named Geist at the military station."
+      ],
+      "followingContext": [
+        "Actual arrival on other worlds or a new CS assignment is beyond the section."
+      ],
+      "branchAlternatives": [
+        "Both flight-menu variants, fighter launch/recall variants, auto/manual control, enabled/disabled repairs and failed navigation."
+      ],
+      "terminology": [
+        "ship.atraia",
+        "reference.atraia_flight_label"
+      ],
+      "evidence": [
+        "r06_ui.py guards original menu boxes, selector immediates, fixed overlay literals and protected runtime destination/star fields.",
+        "Independent R06 source inventory traces landing and space-map rendering."
+      ],
+      "uncertainty": [
+        "Final pixels, movement and all settings combinations require runtime playtest."
+      ],
+      "notes": [
+        "Atraia HUD replaces embedded Atlia variant consistently with established working English; source variation recorded in bible."
+      ],
+      "reviewNote": "Read all Japanese menu actions and messages with their source handlers and parent menu context. Distinguish settings from immediate actions, launch preparation from launch completion, and navigation to a star from landing on a planet/station. Preserve dynamic name/count fields and all original action order."
+    }
+  ],
+  "records": [
+    {
+      "id": "ui:Opening:004430",
+      "sourceFingerprint": "af2e82fad129cfc5fe153ad59ecc1a64714e613601aa40b6c0c1591e63fe60b4",
+      "canonicalEnglish": "Fire\nEmergency Repairs\nView Data\nFlee Battle",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Fire and emergency repairs remain distinct actions; command order unchanged."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004500",
+      "sourceFingerprint": "3e4c8647a2013c0439fc30cb35b516b9c0c43f9a4761f6d2e956279dd2941465",
+      "canonicalEnglish": "Develop\nCancel",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Short action labels for the weapon-development confirmation."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00450e",
+      "sourceFingerprint": "98c612ee25f03dce4a7da1c99e009469c6aaca0a1892005e62ff783b63cbc95c",
+      "canonicalEnglish": "Tank\nOn Foot",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "On Foot shortened to WALK in the movement-mode choice."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00477d",
+      "sourceFingerprint": "7d3414480393e8839ece8e54f9d7e3b0344724399c75df0dba3712793343bcbe",
+      "canonicalEnglish": "Interstellar Travel\nSpace Map\nView Data\nEmergency Repairs\nCockpit",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Interstellar Travel shortened to WARP; cockpit entry stays distinct from the map action."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004788",
+      "sourceFingerprint": "3520e7c7177ef23e21301bca9990dc347b6d857494cdf1f4678276df98eabe2d",
+      "canonicalEnglish": "Space Map\nView Data\nEmergency Repairs\nCockpit",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Four-action flight variant retains the source order."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0047b2",
+      "sourceFingerprint": "9cbe0dde39b0c036051c944dce9dfe598fecce56652f61bb3f3b62afd5db4476",
+      "canonicalEnglish": "Confirm\nChange",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "OK is the constrained confirmation label."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0047bc",
+      "sourceFingerprint": "9e3af069af1f87224e03f217583b398e3c88f6b46c8a0a66c8f7c1a8bff1c2b0",
+      "canonicalEnglish": "Select the destination star for subspace navigation.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Keeps the destination as a star, not an arbitrary planet."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0047e0",
+      "sourceFingerprint": "94a2a150ac5d99cf1efc355a1d16c4724f4625437ec2a238038804d984d74cd7",
+      "canonicalEnglish": "Set {destination} as the destination?",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Original destination line and blank separation reserved for runtime writes."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004801",
+      "sourceFingerprint": "bb2d8b753fa5866d8afeeadf56ec854adac699d417e88c0b1169cab260b132e2",
+      "canonicalEnglish": "Entering subspace navigation.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Compact transition announcement."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004816",
+      "sourceFingerprint": "b831743d4c7a99342b40782605f6bde0c1846b2ddfc779dbc9a16a3040479b76",
+      "canonicalEnglish": "The current engine cannot reach that destination.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Retains the current engine as the reason travel is impossible."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004849",
+      "sourceFingerprint": "d18a9a773e79ed3197a7e1f517bdddc41ab7b8cd67694a43556815e1d080d37d",
+      "canonicalEnglish": "Control Settings\nRepair Settings\nView Data\nFighter\nFlee Battle",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Battle action order preserved; setting submenus remain distinct."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00487a",
+      "sourceFingerprint": "f4880340e636037322627471b82707224e5fc0c19dd6b1b427a0a2c13b7d524a",
+      "canonicalEnglish": "Launch Order\nRepair Settings",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Fighter command variant with launch available."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00488d",
+      "sourceFingerprint": "696701d9038cef9d97dec1f5db2586cc51536e8f1a4278df4ebc22c543d85215",
+      "canonicalEnglish": "Recall Order",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Recall the deployed fighter."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004897",
+      "sourceFingerprint": "04d53b43d4c326f98020e140b7537d1fb965b6ba9723a1c557fc3e325228ecb7",
+      "canonicalEnglish": "Land on {destination}?",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Original destination line and blank separation reserved for runtime writes."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004913",
+      "sourceFingerprint": "00693836141dae95b36512b844f793fc3993a793e00f424174cea2ffefbf8ecc",
+      "canonicalEnglish": "Automatic Repairs\nDo Not Repair",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Repair setting; context supplied by the parent repair menu."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004927",
+      "sourceFingerprint": "2b85ad1cdf09c0223a38de9b4419f9115016ce788a88ba99b537f76a0ca5c603",
+      "canonicalEnglish": "Automatic Combat\nManual Combat",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Combat control mode, in source order."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004939",
+      "sourceFingerprint": "fdc87ac263b5290e9e88a0fb667b5dca91572b67e2152216857672e488f60ea9",
+      "canonicalEnglish": "Enabling automatic repairs.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Setting result, not an immediate repair-completion message."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004950",
+      "sourceFingerprint": "22b75e05d49366024cb9235c5f3b999fa1106100941ac8253560ae2a63443b3e",
+      "canonicalEnglish": "Disabling automatic repairs.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Setting result; no claim of cancellation of an already-completed repair."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00496b",
+      "sourceFingerprint": "07697eafa32e74430e7df9935f68a99e07af449047be52c752166144402026a2",
+      "canonicalEnglish": "Preparing to launch the fighter.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Preserves preparation, rather than asserting the fighter already launched."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004988",
+      "sourceFingerprint": "b790656db64a918abebb0c5410973ab89d2aacf5224ca464a23f74c466871c5e",
+      "canonicalEnglish": "Recalling the fighter.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Compact fighter-return announcement."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0049a1",
+      "sourceFingerprint": "f41791307e76bd22148c827d48bf300f6f1c1d3441eab7341bfe2bd2c1cae4aa",
+      "canonicalEnglish": "Switching to automatic control.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Mode-switch announcement."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0049b8",
+      "sourceFingerprint": "810d6e113348e030468e1629a6b3e32e4eab18f8b38c58b49ef318f27bffdef3",
+      "canonicalEnglish": "Switching to manual control.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Mode-switch announcement."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0049cf",
+      "sourceFingerprint": "9576c42bf37c957715da3e4d0cd216b88875bd8d06591ea37f1e4f9bb4460724",
+      "canonicalEnglish": "The fighter is deployed.",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Status of the fighter, not a launch order."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:01714e",
+      "sourceFingerprint": "277fbec5e56a95b0248639eaf81f05728a8f0563ce15d456943d3b033fd84d66",
+      "canonicalEnglish": "Atraia",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [
+          "ship.atraia",
+          "reference.atraia_flight_label"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Normalizes the embedded Atlia variant to the established provisional Atraia terminology; no claim of an official spelling."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:01734f",
+      "sourceFingerprint": "1a8243bd39bca78e773946d4bad355989932f16b0d3cb8f0324c6827617917e5",
+      "canonicalEnglish": "Star Name: {star}\nNation: {affiliation}\nEnemy Strength: {force}\nPlanets: {planet_count}    Moons: {moon_count}",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Source-guarded runtime fields stay at columns4–6 and12–14; shortened labels do not overwrite star, affiliation, strength or counts."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:01a035",
+      "sourceFingerprint": "5aa8532ea6fc7b3114f8ca57056df98bf3485cb5d07b9ef43d16a20672e99c7a",
+      "canonicalEnglish": "The fighter has been shot down!",
+      "context": {
+        "speaker": "Interface",
+        "listener": "Player",
+        "intent": "Offer actions or report the selected operation/status.",
+        "tone": "Direct interface wording.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Short battle destruction message; retains the fighter as the subject."
+        ]
+      },
+      "findings": [
+        "Reviewed original text and its menu/field context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Astra R03 source UI editorial review",
+  "scenes": [
+    {
+      "id": "atraia-bridge-menus",
+      "records": [
+        "ui:Opening:0048c6",
+        "ui:Opening:0044b1",
+        "ui:Opening:00451a",
+        "ui:Opening:0045d0",
+        "ui:Opening:00445c"
+      ],
+      "participants": [
+        "Player"
+      ],
+      "location": "Atraia bridge",
+      "storyState": "After naming the ship; immediate bridge actions before pilot controls.",
+      "purpose": "Translate the immediate bridge menu, hangar and development interfaces, including duplicate-tank refusal.",
+      "previousContext": [
+        "Joe has revealed the ship and accepted the name Atraia."
+      ],
+      "followingContext": [
+        "Pilot controls initiate the next rescue scene, outside this section."
+      ],
+      "branchAlternatives": [
+        "Hangar and development actions are optional bridge-menu branches."
+      ],
+      "terminology": [
+        "ship.atraia",
+        "material.scrap"
+      ],
+      "evidence": [
+        "RE/QA bridge menu consumer and menu table inventory; dynamic fighter/tank rows identified."
+      ],
+      "uncertainty": [
+        "Runtime UI smoke testing remains pending."
+      ],
+      "notes": [],
+      "reviewNote": "Reviewed the six labels and connected hangar/development prompts against original Japanese, preserving action distinctions and dynamic vehicle placeholders."
+    },
+    {
+      "id": "atraia-joe-services",
+      "records": [
+        "ui:System:0174c3",
+        "ui:System:0174c9",
+        "ui:System:0174ea",
+        "ui:System:017519",
+        "ui:System:017553",
+        "ui:System:01757c",
+        "ui:System:0175a3",
+        "ui:System:0175cc",
+        "ui:System:0175f2",
+        "ui:System:017633",
+        "ui:System:017669",
+        "ui:System:0176a1",
+        "ui:System:0176e8",
+        "ui:System:017777",
+        "ui:System:0177a8",
+        "ui:System:0177d5",
+        "ui:System:0177f0",
+        "ui:System:01780a"
+      ],
+      "participants": [
+        "Joe",
+        "Sion"
+      ],
+      "location": "Atraia bridge",
+      "storyState": "After naming the ship; immediate bridge actions before pilot controls.",
+      "purpose": "Cover every initial bridge hangar/development/repair prompt and refusal, including protected runtime item, scrap and Yes/No fields.",
+      "previousContext": [
+        "Joe has revealed the ship and accepted the name Atraia."
+      ],
+      "followingContext": [
+        "Pilot controls initiate the next rescue scene, outside this section."
+      ],
+      "branchAlternatives": [
+        "Hangar and development actions are optional bridge-menu branches."
+      ],
+      "terminology": [
+        "ship.atraia",
+        "material.scrap"
+      ],
+      "evidence": [
+        "RE/QA bridge menu consumer and menu table inventory; dynamic fighter/tank rows identified."
+      ],
+      "uncertainty": [
+        "Runtime UI smoke testing remains pending."
+      ],
+      "notes": [],
+      "reviewNote": "Read all service prompts against Japanese and in action order; preserved Joe's impatient encouragement, boastfulness and every refusal condition, item field, cost and confirmation."
+    }
+  ],
+  "records": [
+    {
+      "id": "ui:Opening:0048c6",
+      "sourceFingerprint": "8699591c8cffa7f2576a3bcbb2e3305c61626c6e9c4391507bff38255becd097",
+      "canonicalEnglish": "Hangar\nChange Armaments\nEmergency Repairs\nDevelop Weapons\nDisassemble Weapons\nSystem",
+      "context": {
+        "speaker": "Bridge action menu",
+        "listener": "Player",
+        "intent": "These are the six actions in the bridge menu. Development and disassembly refer to weapons; the selected-item context carries this noun in the short adaptation.",
+        "tone": "Concise interface text",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "These are the six actions in the bridge menu. Development and disassembly refer to weapons; the selected-item context carries this noun in the short adaptation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0044b1",
+      "sourceFingerprint": "f75bf1b3b7701e8b8e0b5ef8f036ab1d56c7d46d39a48849d0dfc5a0514fd552",
+      "canonicalEnglish": "Unload\nStore",
+      "context": {
+        "speaker": "Hangar action menu",
+        "listener": "Player",
+        "intent": "Take a stored item out of the hangar or store it aboard. Do not invent a combat launch action.",
+        "tone": "Concise interface text",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Take a stored item out of the hangar or store it aboard. Do not invent a combat launch action."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00451a",
+      "sourceFingerprint": "5adbd508ccd0b0df939b03baf4e0869bd4d2aa7527c1d72bbeb191548c9ea45e",
+      "canonicalEnglish": "Atraia\n{fighter name}\n{tank name}",
+      "context": {
+        "speaker": "Ship and carried vehicles",
+        "listener": "Player",
+        "intent": "Only the ship header is static; two subsequent rows are populated by runtime vehicle names. Preserve the blank runtime rows and offsets.",
+        "tone": "Concise interface text",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Only the ship header is static; two subsequent rows are populated by runtime vehicle names. Preserve the blank runtime rows and offsets."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0045d0",
+      "sourceFingerprint": "54a0ac0a93810e410d3773d7388f60d6be0bfb0b4a5a0bd34f001c091df499d1",
+      "canonicalEnglish": "Hangar Items\n{fighter name}\n{tank name}",
+      "context": {
+        "speaker": "Hangar contents",
+        "listener": "Player",
+        "intent": "Static hangar title followed by two runtime vehicle rows. Preserve runtime fields.",
+        "tone": "Concise interface text",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Static hangar title followed by two runtime vehicle rows. Preserve runtime fields."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00445c",
+      "sourceFingerprint": "cba68872085609355124ac0f432d82090c0a73956f21aacb35648c62b86eeb88",
+      "canonicalEnglish": "A tank is already loaded aboard.",
+      "context": {
+        "speaker": "Hangar error message",
+        "listener": "Player",
+        "intent": "Another tank cannot be loaded while one is already carried.",
+        "tone": "Concise interface text",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Another tank cannot be loaded while one is already carried."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0174c3",
+      "sourceFingerprint": "49d0218072e389854a1b33449fde4c79ce92ba7b7cf8a422bbd9e3b2cafe5ade",
+      "canonicalEnglish": "Joe\n",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Speaker header. Preserve the final newline.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Speaker header. Preserve the final newline."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0174c9",
+      "sourceFingerprint": "751b720abb425a661390def627a75d6a0feaf2f6458dba77c6a88ffc547836df",
+      "canonicalEnglish": "Joe: Well, Sion, what are we going to do now?",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Bridge service greeting.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Bridge service greeting."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0174ea",
+      "sourceFingerprint": "b1a6d172d8c326a158e57526d3ecb184162a1d5c99c4b85fba3358fbee7e5ed4",
+      "canonicalEnglish": "Joe: Hey, Sion! There’s nothing stored in the hangar!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Empty hangar refusal.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Empty hangar refusal."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:017519",
+      "sourceFingerprint": "f6b3f4da16b28ffab445c95e6423cb45d1c020a528f09e05980cdac478f9c85c",
+      "canonicalEnglish": "Joe: That much gear must be weighing you down. Why don’t you sort some of it out?!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Inventory-full refusal preserves Joe’s impatient practical advice.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Inventory-full refusal preserves Joe’s impatient practical advice."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:017553",
+      "sourceFingerprint": "8acb2790a59fb593e162be1697c0305be0c386aba61692728fac79029e77d907",
+      "canonicalEnglish": "Joe: All right, I’ll take {item} out of the hangar.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Keep row 1’s first nine cells blank for the item name.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Keep row 1’s first nine cells blank for the item name."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:01757c",
+      "sourceFingerprint": "ba7c5e431ebecec9cdead431a21fc82afa9e168593ab50bf3b7c00bbfdca47e4",
+      "canonicalEnglish": "Joe: The hangar’s full. There’s nowhere to put it!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Full hangar refusal.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Full hangar refusal."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0175a3",
+      "sourceFingerprint": "a7d021c0c484f12af91dc7d6494c95cee73a7dcc5bb9d68778d5696814e37eeb",
+      "canonicalEnglish": "Joe: What’s this? You haven’t got anything we can store!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "No eligible inventory items.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "No eligible inventory items."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0175cc",
+      "sourceFingerprint": "968262d5b77546a344d781b4485a318e230bbb2f5c809851b0bcf89b2029ac9d",
+      "canonicalEnglish": "Joe: All right, I’ll put {item} in the hangar.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Keep row 1’s first nine cells blank for the item name.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Keep row 1’s first nine cells blank for the item name."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0175f2",
+      "sourceFingerprint": "6d194ac72b6da34fe70c3dacfa5e66915a6c071e05aba58e8a4f9a94cd8f5717",
+      "canonicalEnglish": "Joe: Leave it to me! Whatever it is, Scrap Joe here will have it done in no time!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Development greeting retains his boast and epithet.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Development greeting retains his boast and epithet."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:017633",
+      "sourceFingerprint": "dbf5adbd9f5409bf9d7b0dcb2f789ab9b16228f6ddf575049b5bffe6654c59a6",
+      "canonicalEnglish": "Joe: Sion, there’s no point building weapons if there’s no room for them in the hangar!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "New weapon needs hangar capacity.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "New weapon needs hangar capacity."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:017669",
+      "sourceFingerprint": "3831fc744e6175cb21c9538455ee7610db8ed9d4922caca112f73b63167c18a8",
+      "canonicalEnglish": "Joe: {item}, eh? Building this will take {amount} scrap.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Keep row 0’s first nine cells blank for item and row 2’s first six cells blank for amount.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Keep row 0’s first nine cells blank for item and row 2’s first six cells blank for amount."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0176a1",
+      "sourceFingerprint": "0d3cf17dfc68c41d1359f27967e62dcd82534fe3b4277c7d386c0785b6be1c49",
+      "canonicalEnglish": "Joe: Come on, Sion. I may be a mechanical genius, but there’s nothing I can do without scrap!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Insufficient scrap refusal.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Insufficient scrap refusal."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0176e8",
+      "sourceFingerprint": "bd42bc6c026ef36e95bed0c89349c325dba996df5cd1f473e0003810f5ef6229",
+      "canonicalEnglish": "Joe: I’ll put the newly built {item} in the hangar.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Keep row 0 cells 3 through 11 blank for the item name. Hangar location supplied by the development interface.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Keep row 0 cells 3 through 11 blank for the item name. Hangar location supplied by the development interface."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:017777",
+      "sourceFingerprint": "2c19013921ab77f1621801b394c6e47e3c4f2e2c195c1ca2c569da81285ddcf7",
+      "canonicalEnglish": "Joe: Hey, Sion! There isn’t a fighter anywhere in sight.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "No fighter available.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "No fighter available."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0177a8",
+      "sourceFingerprint": "7d59ad92b5b221a72df8dfe957727ec91c16e2187eae5d4303da2fa656469370",
+      "canonicalEnglish": "Joe: Hey, Sion! There isn’t a tank anywhere in sight.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "No tank available.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "No tank available."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0177d5",
+      "sourceFingerprint": "b3293210126b82578cac0c016e2565d130233a65b67806b7dfb7e78b20b85fcb",
+      "canonicalEnglish": "Joe: All right! What needs emergency repairs?",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Repair target selection.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Repair target selection."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:0177f0",
+      "sourceFingerprint": "c810daf1f9450e57ca9df36b8eef8e7f955352887c70c250bb53c7bf82b7442f",
+      "canonicalEnglish": "Joe: What? Nothing’s damaged!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Repair unnecessary refusal.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Repair unnecessary refusal."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:01780a",
+      "sourceFingerprint": "864887e8bbfae634bcca30bb328116d5b8fd0d043e4a4c7c96c503405a560b33",
+      "canonicalEnglish": "Joe: That’s some serious damage! Repairs will take {amount} scrap.\n{Yes/No} Repair it?",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Keep row 1 cells 5 through 9 blank for amount and row 3 first eight cells blank for the runtime Yes/No choices.",
+        "tone": "Bluff, practical mechanic",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Keep row 1 cells 5 through 9 blank for amount and row 3 first eight cells blank for the runtime Yes/No choices."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R01 connected pickup-outcome editorial review",
+  "scenes": [
+    {
+      "id": "story-pickup-outcomes",
+      "records": [
+        "script:061000:020",
+        "script:061000:022"
+      ],
+      "participants": [
+        "System narrator"
+      ],
+      "location": "Starting-house item interactions; shared helper messages",
+      "storyState": "Inventory-capacity refusal or revisiting an emptied item location.",
+      "purpose": "Explain why an item cannot be taken and distinguish that from an empty location.",
+      "previousContext": [
+        "Pickup item name and found suffix may precede the cannot-carry branch."
+      ],
+      "followingContext": [
+        "Return to the item interaction caller and movement."
+      ],
+      "branchAlternatives": [
+        "061000:020 is called by 051000:038 through bank 16 entry 20.",
+        "061000:022 is called by 051000:040 through bank 16 entry 22.",
+        "These are alternative outcomes, not consecutive spoken dialogue."
+      ],
+      "terminology": [],
+      "evidence": [
+        "Complete original text and immutable controls for both shared helpers.",
+        "051000:038 and 051000:040 shared-call dispatch, reviewed with the found-item caller chain."
+      ],
+      "uncertainty": [
+        "Runtime inventory-full and revisited-container branches require testing."
+      ],
+      "notes": [],
+      "reviewNote": "Read both Japanese source helpers with the item/capacity/empty-location callers. Reviewed the English alternative outcomes for meaning, implicit subject, uncertainty and natural message wording. No runtime approval is implied."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:061000:020",
+      "sourceFingerprint": "daf2b659e224932ba31edf79b74bc83c5b56613da23fc3a0b38faef91943cd43",
+      "canonicalEnglish": "You couldn't carry it, so you gave up.",
+      "context": {
+        "speaker": "System narrator",
+        "listener": "Player",
+        "intent": "Explain the alternative pickup outcome.",
+        "tone": "Neutral factual system message.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed as a shared alternative outcome, not a new item acquisition or a mandatory following line."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:022",
+      "sourceFingerprint": "026a78b7a1e12ed2a9d3c355d21c5c9ff4c87f923b8686413d69ab99624fa48c",
+      "canonicalEnglish": "It looks like there's nothing left.",
+      "context": {
+        "speaker": "System narrator",
+        "listener": "Player",
+        "intent": "Explain the alternative pickup outcome.",
+        "tone": "Neutral factual system message.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed as a shared alternative outcome, not a new item acquisition or a mandatory following line."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

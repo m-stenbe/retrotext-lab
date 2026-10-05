@@ -1,0 +1,645 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Luna proposals; GPT-6 Sol QA and GPT-6 Astra manager review",
+  "scenes": [
+    {
+      "id": "r02-items-abilities-locations",
+      "records": [
+        "r02-ability:40",
+        "r02-ability:41",
+        "r02-ability:42",
+        "r02-item:1b",
+        "r02-item:1d",
+        "r02-item:23",
+        "r02-item:3d",
+        "r02-item:44",
+        "r02-item:4d",
+        "r02-item:51",
+        "r02-item:75",
+        "r02-item:93",
+        "r02-item:9a",
+        "r02-item:9c",
+        "r02-item:a3",
+        "r02-location:103",
+        "r02-location:2",
+        "r02-location:48",
+        "r02-location:98",
+        "r02-ability:23",
+        "r02-ability:24"
+      ],
+      "participants": [],
+      "location": "Dust, Joe room, Hamack and underground bar; inventory and ability windows",
+      "storyState": "Early Dust/Hamack route, including Joe joining and the optional delivery job.",
+      "purpose": "Readable, consistent item, ability and map labels exposed by this route.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.dust",
+        "place.hamack",
+        "r02.r02-ability.40",
+        "r02.r02-ability.41",
+        "r02.r02-ability.42",
+        "r02.r02-item.1b",
+        "r02.r02-item.1d",
+        "r02.r02-item.23",
+        "r02.r02-item.3d",
+        "r02.r02-item.44",
+        "r02.r02-item.4d",
+        "r02.r02-item.51",
+        "r02.r02-item.75",
+        "r02.r02-item.93",
+        "r02.r02-item.9a",
+        "r02.r02-item.9c",
+        "r02.r02-item.a3",
+        "r02.r02-location.103",
+        "r02.r02-location.2",
+        "r02.r02-ability.23",
+        "r02.r02-ability.24"
+      ],
+      "evidence": [
+        "Original pointer and renderer evidence: docs/r02-qa-source-inventory.md; guarded r02_names adapter."
+      ],
+      "uncertainty": [
+        "Ability mechanics are not inferred from names."
+      ],
+      "notes": [
+        "21 coordinated guarded labels. Ray Gun is translated bonus content, not asserted Joe starting equipment."
+      ],
+      "reviewNote": "Reviewed all 21 source labels, pointer aliases and UI abbreviations. Joe combat abilities corrected from profile offsets and class-7 learning table; Sol QA approved DRIVER and BUBBLE with qualifier omissions."
+    }
+  ],
+  "records": [
+    {
+      "id": "r02-ability:40",
+      "sourceFingerprint": "268cfcf57bc69d56249cb01e561014f8dc75fcf0ebc86a8758f3d73951fa518c",
+      "canonicalEnglish": "Performance Analysis",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-ability.40"
+        ],
+        "uncertainty": [
+          "Literal ability label; exact mechanics unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-ability:41",
+      "sourceFingerprint": "3050ff06f0a6c777267b32eac5ab48b1e75735d155097b46a9a74d2b8069f204",
+      "canonicalEnglish": "Customization",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-ability.41"
+        ],
+        "uncertainty": [
+          "Literal ability label; exact mechanics unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-ability:42",
+      "sourceFingerprint": "902e3c7d404e72587b05c82fe5360605c4990f159766efc4c74e368f24da146d",
+      "canonicalEnglish": "Mech Repair",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-ability.42"
+        ],
+        "uncertainty": [
+          "Literal ability label; target and exact mechanics unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:1b",
+      "sourceFingerprint": "5a351874e42f04b632404262e4ab8163f780aa3371be59feaaf9304a2ecf1008",
+      "canonicalEnglish": "Browning",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.1b"
+        ],
+        "uncertainty": [
+          "Source supports the name Browning; brand identity or real-world model unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:1d",
+      "sourceFingerprint": "5c75d8fdd7f5e21b20b7f3f0734848d884a10602c46757a6f59d8d9e76057b34",
+      "canonicalEnglish": "Submachine Gun",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.1d"
+        ],
+        "uncertainty": [
+          "Generic source label; model and function unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:23",
+      "sourceFingerprint": "5e22b1ecd05c4c47932d586c88b949d41a656af5e44f56fd40b4f38c748aca61",
+      "canonicalEnglish": "Ray Blaster",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.23"
+        ],
+        "uncertainty": [
+          "Source-grounded name; device identity and function unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:3d",
+      "sourceFingerprint": "56f58c5ccd4e09a68b985db889cfc71869b196d2827d43e97d4aacca82e5184c",
+      "canonicalEnglish": "Mask",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.3d"
+        ],
+        "uncertainty": [
+          "Specific kind and use unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:44",
+      "sourceFingerprint": "213bfee180f7a09c58bae8ab499d6af4ef2887e3b80ddd34a082100d064cf805",
+      "canonicalEnglish": "Aiming Device",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.44"
+        ],
+        "uncertainty": [
+          "Literal label for an aiming sight/device; exact equipment effect unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:4d",
+      "sourceFingerprint": "264b0ad108932062b9e07aae6e31918a11c6781b705cef6a7f176e1f643a82e0",
+      "canonicalEnglish": "Evasive Ring",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.4d"
+        ],
+        "uncertainty": [
+          "Source reads Evasive Ring; exact equipment effect unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:51",
+      "sourceFingerprint": "1a6217fd4288ab23538e9c466884681aaf896f391b7d38403287e791d10aaaa1",
+      "canonicalEnglish": "Titanium Shield",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.51"
+        ],
+        "uncertainty": [
+          "Literal material/name rendering; equipment statistics unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:75",
+      "sourceFingerprint": "6a32e1619036e8830afbadc42d033f7bf000bd5a96cfcfbff4215397224e5bdc",
+      "canonicalEnglish": "Titanium Body",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.75"
+        ],
+        "uncertainty": [
+          "Literal material/name rendering; whether this denotes armor or another part is unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:93",
+      "sourceFingerprint": "49298696730df65952de07d7ed6b4602f13fbfce3632a4f56bf62f5e9ab952de",
+      "canonicalEnglish": "Titanium Boomerang",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.93"
+        ],
+        "uncertainty": [
+          "Literal material/name rendering; equipment statistics unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:9a",
+      "sourceFingerprint": "5b34fa1353698c0ee38c06fb4934f11d0868f11dd0cbada13e7fad497a907a6d",
+      "canonicalEnglish": "Hand Satellite",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.9a"
+        ],
+        "uncertainty": [
+          "Provisional literal rendering; device identity and use are unknown."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:9c",
+      "sourceFingerprint": "7f9121becaa0767187016fb4210f10b50ae5b154893f70eaa8b76c39b9bebe35",
+      "canonicalEnglish": "Canned Food",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "Generic food name; contents and effects unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-item:a3",
+      "sourceFingerprint": "a86432c117a54962b18f74b726eec230cb6a3ac00c827f74028d73ad2a3ae854",
+      "canonicalEnglish": "Basic Tool Set",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-item.a3"
+        ],
+        "uncertainty": [
+          "Literal item name; contents and use unverified."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-location:103",
+      "sourceFingerprint": "f0410c845093a98e3078313424c3e0d8de75ba45be0168ffbd014909c10b5340",
+      "canonicalEnglish": "Joe's Room",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-location.103"
+        ],
+        "uncertainty": [
+          "Source title; no extra ownership or story fact inferred."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-location:2",
+      "sourceFingerprint": "5f5f353efbf72310b1356610772c5d7c519124fda42bd11857142be8b09a7863",
+      "canonicalEnglish": "Underground Bar",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-location.2"
+        ],
+        "uncertainty": [
+          "Map title; menu/navigation function, not a claim about room ownership."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-location:48",
+      "sourceFingerprint": "48a8d07aa9fbd80566c67eed9a18a4e50cb44cec72af1462f83221c5c689cbd9",
+      "canonicalEnglish": "Hamack Town",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Source title; Hamack is a working spelling."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-location:98",
+      "sourceFingerprint": "40292a1749bdceb30981b00c46de8873289bf7002d453e6be70f2c1b8e523778",
+      "canonicalEnglish": "Dust",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "place.dust"
+        ],
+        "uncertainty": [
+          "Source title; context identifies Dust as a waste facility."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-ability:23",
+      "sourceFingerprint": "8002ef026d20c7631d88d7e7ada9c35652b1d458fec00a5b37f6c0603b7e66e8",
+      "canonicalEnglish": "Universal Driver",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-ability.23"
+        ],
+        "uncertainty": [
+          "Ability mechanics are not inferred from the name."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r02-ability:24",
+      "sourceFingerprint": "4bcad7b30781404ba273a09607e70797f77f46bf79658f957231215f6233638b",
+      "canonicalEnglish": "Electromagnetic Bubble",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the source item, ability or location clearly.",
+        "tone": "Concise interface label.",
+        "terminology": [
+          "r02.r02-ability.24"
+        ],
+        "uncertainty": [
+          "Ability mechanics are not inferred from the name."
+        ],
+        "notes": [
+          "No additional statistics, effects or ownership inferred."
+        ]
+      },
+      "findings": [
+        "Reviewed source name and aliases; constrained UI spelling is separate from canonical terminology."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

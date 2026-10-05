@@ -1,0 +1,616 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Astra R03 connected source editorial review",
+  "scenes": [
+    {
+      "id": "spaceport-travelers",
+      "records": [
+        "script:054000:003",
+        "script:054000:006",
+        "script:054000:007",
+        "script:054000:008",
+        "script:054000:009",
+        "script:054000:010",
+        "script:054000:011",
+        "script:054000:012",
+        "script:054000:013",
+        "script:054000:014",
+        "script:054000:015",
+        "script:054000:016",
+        "script:054000:017",
+        "script:054000:018",
+        "script:054000:019",
+        "script:054000:020",
+        "script:054000:021",
+        "script:054000:022",
+        "script:054000:023",
+        "script:054000:024",
+        "script:054000:025",
+        "script:054000:026",
+        "script:054000:027",
+        "script:054000:033",
+        "script:054000:034"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Karu",
+        "Joe",
+        "Spaceport travelers and staff"
+      ],
+      "location": "Hom Spaceport",
+      "storyState": "After the Hamack informant points the party toward Mars; before acquiring Joe's ship.",
+      "purpose": "Cover the ticket counters and all early travelers while the party seeks passage to Mars.",
+      "previousContext": [
+        "The informant saw the missing woman heading to the spaceport and thinks she may have boarded a ship for Mars."
+      ],
+      "followingContext": [
+        "Joe proposes his unfinished ship, hidden in the abandoned mine north of here."
+      ],
+      "branchAlternatives": [
+        "Entries006–012 are early visibility16 travelers. Entry027 supplies the counter speaker for033/034. Entry034 denies entry and dispatches029 on flag11 until flag12 is set. Entry033 is the alternate ticket reminder."
+      ],
+      "terminology": [
+        "place.hom",
+        "place.mars",
+        "place.wisperard",
+        "faction.wyuria",
+        "place.wyultria"
+      ],
+      "evidence": [
+        "RE map42, metadata0x8ec00, bank054000: mapped objects and flag11/12/16 gate."
+      ],
+      "uncertainty": [
+        "Static source/trigger coverage; runtime traversal remains pending."
+      ],
+      "notes": [],
+      "reviewNote": "Read the full spaceport encounter and ambient alternatives against Japanese source; reviewed family references, ticket frustration, ship boast and scrap joke as connected English."
+    },
+    {
+      "id": "spaceport-joes-ship-lead",
+      "records": [
+        "script:054000:029"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Karu",
+        "Joe",
+        "Spaceport travelers and staff"
+      ],
+      "location": "Hom Spaceport",
+      "storyState": "After the Hamack informant points the party toward Mars; before acquiring Joe's ship.",
+      "purpose": "Preserve the full party exchange that replaces commercial passage with Joe’s unfinished ship and establishes the northern mine destination.",
+      "previousContext": [
+        "The informant saw the missing woman heading to the spaceport and thinks she may have boarded a ship for Mars."
+      ],
+      "followingContext": [
+        "Joe proposes his unfinished ship, hidden in the abandoned mine north of here."
+      ],
+      "branchAlternatives": [
+        "Triggered from the counter after flag11; sets flag12 so the conversation does not repeat."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.karu",
+        "character.joe",
+        "material.scrap",
+        "place.mars",
+        "faction.mars_federation"
+      ],
+      "evidence": [
+        "RE map42, metadata0x8ec00, bank054000: mapped objects and flag11/12/16 gate."
+      ],
+      "uncertainty": [
+        "Static source/trigger coverage; runtime traversal remains pending."
+      ],
+      "notes": [],
+      "reviewNote": "Read the full spaceport encounter and ambient alternatives against Japanese source; reviewed family references, ticket frustration, ship boast and scrap joke as connected English."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:054000:003",
+      "sourceFingerprint": "e62ddc650da408e7483757e1eedb004a56ddcdc13f59cc56d056753861070a22",
+      "canonicalEnglish": "Counter Clerk: I’m sorry. This counter is currently closed.",
+      "context": {
+        "speaker": "Counter Clerk",
+        "listener": "Sion and party",
+        "intent": "I’m sorry. This counter is currently closed.",
+        "tone": "Courteous",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:006",
+      "sourceFingerprint": "a0c8c7f0aae51a143483021e3d53791a95c35a907431694c21f6d23b0122e44e",
+      "canonicalEnglish": "Man: Damn it! I’ve queued for three days, and I’m still waiting for a cancellation!",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion and party",
+        "intent": "Damn it! I’ve queued for three days, and I’m still waiting for a cancellation!",
+        "tone": "Frustrated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:007",
+      "sourceFingerprint": "7875d4c038609bd2799144a6cb8ef98b2cf45f4c5228c03b9acb19647a8e3713",
+      "canonicalEnglish": "Woman: Oh, dear. If I miss this flight to Mars, there won’t be another for three days.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Sion and party",
+        "intent": "Oh, dear. If I miss this flight to Mars, there won’t be another for three days.",
+        "tone": "Worried",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:008",
+      "sourceFingerprint": "253c6e15925c5e93e8e38f1128ad98c706c7bb38bf20974314abd435db471fa7",
+      "canonicalEnglish": "Outlaw: Just my luck, getting stranded on a planet like this.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Sion and party",
+        "intent": "Just my luck, getting stranded on a planet like this.",
+        "tone": "Disgruntled",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:009",
+      "sourceFingerprint": "02389895cf20613dabf335deb62fc795c39d146c7c1807249f3fae1625c29e12",
+      "canonicalEnglish": "Young Man: Oh, God! Please let me buy a ticket!",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Sion and party",
+        "intent": "Oh, God! Please let me buy a ticket!",
+        "tone": "Desperate",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:010",
+      "sourceFingerprint": "fdfce2b65dd19f67199f6bfdf9b8941e2b0119eae85072fc2a549851b4118eae",
+      "canonicalEnglish": "Young Man: I’m begging you! Hurry up!",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Sion and party",
+        "intent": "I’m begging you! Hurry up!",
+        "tone": "Impatient",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:011",
+      "sourceFingerprint": "7234393bd2c4309f9f5933770a6bc4682ede34b9d75b76a5db65a8d6887d2ee6",
+      "canonicalEnglish": "Wyurian: Why should I have to stand in line?",
+      "context": {
+        "speaker": "Wyurian",
+        "listener": "Sion and party",
+        "intent": "Why should I have to stand in line?",
+        "tone": "Entitled",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:012",
+      "sourceFingerprint": "eabb0dc420367fb6bf091dcc113aabfe2d5c4db93c938d481f6540c86ed8ae05",
+      "canonicalEnglish": "Young Woman: Sigh... I missed my chance to buy a ticket again.",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Sion and party",
+        "intent": "Sigh... I missed my chance to buy a ticket again.",
+        "tone": "Deflated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:013",
+      "sourceFingerprint": "fe7bc8030cdcf1b75266a06ffb552030e3d0bc470652792c84b44e60ac216f78",
+      "canonicalEnglish": "Man: Even getting on the standby list is a distant dream.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion and party",
+        "intent": "Even getting on the standby list is a distant dream.",
+        "tone": "Resigned",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:014",
+      "sourceFingerprint": "e85629b6b7ea19081084f1686afaf9e9091ae4b9cd61ef79f3cc2c7efeeb111d",
+      "canonicalEnglish": "Wyurian Woman: I know he’ll get the tickets for me.",
+      "context": {
+        "speaker": "Wyurian Woman",
+        "listener": "Sion and party",
+        "intent": "I know he’ll get the tickets for me.",
+        "tone": "Confident",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:015",
+      "sourceFingerprint": "866e328d48aaeef68838d33b4a914388b5d3b4a6414a410ed9d57d89eff1258a",
+      "canonicalEnglish": "Young Man: I suppose you can’t travel freely through space until you have a ship of your own.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Sion and party",
+        "intent": "I suppose you can’t travel freely through space until you have a ship of your own.",
+        "tone": "Reflective",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:016",
+      "sourceFingerprint": "1f77190c0b491c420942b8f1f8b36eef4a9c0f086c3d3790ccc607151f94e848",
+      "canonicalEnglish": "Woman: If my husband were still alive, we could have kept traveling in our own ship...",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Sion and party",
+        "intent": "If my husband were still alive, we could have kept traveling in our own ship...",
+        "tone": "Wistful",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:017",
+      "sourceFingerprint": "a3f6de7fc1dc629c5cce86ac5d26e1c410868483ea602c3b60cc90fe4f228022",
+      "canonicalEnglish": "Young Man: Aaargh!",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Sion and party",
+        "intent": "Aaargh!",
+        "tone": "Exasperated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:018",
+      "sourceFingerprint": "c8f39f5c77db87c410dbe98ba3010a349595220ccdf44c80c25ebfd25f31f233",
+      "canonicalEnglish": "Wyurian Woman: Planet Wyultria is the most beautiful planet in all Wisperard.",
+      "context": {
+        "speaker": "Wyurian Woman",
+        "listener": "Sion and party",
+        "intent": "Planet Wyultria is the most beautiful planet in all Wisperard.",
+        "tone": "Proud",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:019",
+      "sourceFingerprint": "64e128119dd9ddc5107c053255fad7e7a7b012eeb4afc56567b1a8904d329de4",
+      "canonicalEnglish": "Young Man: I can’t wait! This is my very first trip on a spaceship.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Sion and party",
+        "intent": "I can’t wait! This is my very first trip on a spaceship.",
+        "tone": "Excited",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:020",
+      "sourceFingerprint": "20ad6b53f1f9b227abbdcebb067bb42ec2a8e489c027c4a1c150f1db7025c41d",
+      "canonicalEnglish": "Young Woman: Calm down, big brother. People will think we’re country bumpkins.",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Sion and party",
+        "intent": "Calm down, big brother. People will think we’re country bumpkins.",
+        "tone": "Embarrassed",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:021",
+      "sourceFingerprint": "00547d94ffbfa0d84818a6176f81085d70cfcf427a304eb0eee34f67bf53ac10",
+      "canonicalEnglish": "Man: I’ve earned enough now. I plan to spend my remaining years on Mars.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Sion and party",
+        "intent": "I’ve earned enough now. I plan to spend my remaining years on Mars.",
+        "tone": "Satisfied",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:022",
+      "sourceFingerprint": "71c469b289b9831d737b7c4f58189fd98c72f8e23dc5d933fc6cf7a68d1c7d46",
+      "canonicalEnglish": "Woman: Marrying my husband was the right choice.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Sion and party",
+        "intent": "Marrying my husband was the right choice.",
+        "tone": "Satisfied",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:023",
+      "sourceFingerprint": "d5d277a4bed3be201772f1aeb0d2969c27e1f43148003a2d62b139cdcb1cd7c1",
+      "canonicalEnglish": "Young Man: I’ll make my name out on the frontier. Just you watch!",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Sion and party",
+        "intent": "I’ll make my name out on the frontier. Just you watch!",
+        "tone": "Ambitious",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:024",
+      "sourceFingerprint": "0d096945304681c91008f8025a7125a5ed38598f170be6706cdb43f9d25376e6",
+      "canonicalEnglish": "Wyurian: Wandering without a destination is part of an outlaw’s job.",
+      "context": {
+        "speaker": "Wyurian",
+        "listener": "Sion and party",
+        "intent": "Wandering without a destination is part of an outlaw’s job.",
+        "tone": "Casual",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:025",
+      "sourceFingerprint": "62a08362eeb7a9e52d152c1bc70eabbb2abde25a64f3c91843eefd2533439346",
+      "canonicalEnglish": "Counter Clerk: Hazardous materials are not permitted aboard.",
+      "context": {
+        "speaker": "Counter Clerk",
+        "listener": "Sion and party",
+        "intent": "Hazardous materials are not permitted aboard.",
+        "tone": "Firm",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:026",
+      "sourceFingerprint": "280c266b7c7209b82b7155a66b8b7181fd502e1bf0c44fba375de988345b37a8",
+      "canonicalEnglish": "Counter Clerk: Please wait your turn in line. No cutting in.",
+      "context": {
+        "speaker": "Counter Clerk",
+        "listener": "Sion and party",
+        "intent": "Please wait your turn in line. No cutting in.",
+        "tone": "Firm",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:027",
+      "sourceFingerprint": "54f13f58dc12f1eebe89553c131931e50e160295b6e95cf0c6f51d396c7c19c2",
+      "canonicalEnglish": "Counter Clerk:",
+      "context": {
+        "speaker": "Counter Clerk",
+        "listener": "Sion and party",
+        "intent": "Counter Clerk:",
+        "tone": "Speaker header",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Shared speaker-only dispatcher; composed with033/034."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:033",
+      "sourceFingerprint": "cd8fb41b7537533893612e9d2858c5ef3b8016f79849d92dec5dabdc10471ef2",
+      "canonicalEnglish": "Counter Clerk: Please purchase a ticket before using the interstellar bus service. Have a safe trip.",
+      "context": {
+        "speaker": "Counter Clerk",
+        "listener": "Sion and party",
+        "intent": "Please purchase a ticket before using the interstellar bus service. Have a safe trip.",
+        "tone": "Courteous",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:034",
+      "sourceFingerprint": "b2a5a2c09fa308aceb6ee00c024421efe0857bd2ceb2e285471bf420fde424c8",
+      "canonicalEnglish": "Counter Clerk: I can’t let you through without a ticket.",
+      "context": {
+        "speaker": "Counter Clerk",
+        "listener": "Sion and party",
+        "intent": "I can’t let you through without a ticket.",
+        "tone": "Firm",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:029",
+      "sourceFingerprint": "1cc923abf65d779ac76de1b7eaf86fbe22bf8337629d189cc38623f76d24e197",
+      "canonicalEnglish": "Sion: Tickets? With a line that long, we’ll never get any!\nJoe: Bwahahaha! Well, there’s nothing for it.\nJoe: I didn’t want to fly her while she was still unfinished, but I suppose we’ll use the spacecraft I built!\nSion: What? Your spacecraft, Joe?!\nShoko: Don’t tell me it’s made of scrap...\nJoe: Don’t you worry. I built her myself! You won’t find a better ship in the Mars Federation.\nShoko: Are you sure about that...?\nJoe: Mind you, young lady, you’re right about the scrap. That’s what I built her from.\nJoe: Still, we can’t afford to be choosy now.\nKaru: Joe, where is your spaceship?\nJoe: Well, Karu? Eager to get aboard, are you? Unfortunately, she isn’t here.\nShoko: What?! Then where...?\nJoe: I’ve hidden her in an abandoned mine north of here.\nSion: (Hmm. Of course it couldn’t be that easy...)\nJoe: Hm? Did you say something, Sion?\nSion: No, nothing...\nSion: Well, shall we head off to explore the mine?",
+      "context": {
+        "speaker": "Sion / Joe / Shoko / Karu",
+        "listener": "Sion and party",
+        "intent": "Tickets? With a line that long, we’ll never get any!\nJoe: Bwahahaha! Well, there’s nothing for it.\nJoe: I didn’t want to fly her while she was still unfinished, but I suppose we’ll use the spacecraft I built!\nSion: What? Your spacecraft, Joe?!\nShoko: Don’t tell me it’s made of scrap...\nJoe: Don’t you worry. I built her myself! You won’t find a better ship in the Mars Federation.\nShoko: Are you sure about that...?\nJoe: Mind you, young lady, you’re right about the scrap. That’s what I built her from.\nJoe: Still, we can’t afford to be choosy now.\nKaru: Joe, where is your spaceship?\nJoe: Well, Karu? Eager to get aboard, are you? Unfortunately, she isn’t here.\nShoko: What?! Then where...?\nJoe: I’ve hidden her in an abandoned mine north of here.\nSion: (Hmm. Of course it couldn’t be that easy...)\nJoe: Hm? Did you say something, Sion?\nSion: No, nothing...\nSion: Well, shall we head off to explore the mine?",
+        "tone": "Comic banter; Joe boasts, Shoko doubts, Karu asks the practical question",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Scrap-built admission follows the boast. Continued pages preserve the Federation comparison and mine direction. Fixed name substitutions are retained without duplicating names."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

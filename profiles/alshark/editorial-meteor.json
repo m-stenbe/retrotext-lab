@@ -1,0 +1,191 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "Codex contextual editorial review, 2026-09-23",
+  "scenes": [
+    {
+      "id": "meteor-arrival",
+      "records": [
+        "script:051000:029"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Jido"
+      ],
+      "location": "Meteor crash site in Saxen Canyon",
+      "storyState": "Arrival / after the confrontation depicted in the Opening cinematic.",
+      "purpose": "Announce arrival and hand off to the cinematic.",
+      "previousContext": [
+        "Sion and Shoko investigate the meteor site. The cinematic shows their fathers with Zolias soldiers."
+      ],
+      "followingContext": [
+        "Return to Cosma; seek Scrap Joe."
+      ],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.jido",
+        "character.joe",
+        "character.mamon",
+        "faction.zolias",
+        "story.meteor_aftermath"
+      ],
+      "evidence": [
+        "Original complete decoded entries, shared calls and conditional entry-index dispatch.",
+        "Player screenshot 2026-09-23 13.51.10 matches Jido's first utterance.",
+        "Opening cinematic source at 0xD07B5 onward provides the preceding confrontation; its separate interpreter is not patched by this script pack."
+      ],
+      "uncertainty": [
+        "New adaptations require runtime playtesting.",
+        "Do not infer the identity or nature of Alshark from Jido's unfinished words."
+      ],
+      "notes": [],
+      "reviewNote": "Read all source turns continuously with the cinematic context and repeat branch; reviewed grief, broken speech, speaker relationships, uncertainty and the navigation instructions. Separately fitted English without changing any commands or page controls."
+    },
+    {
+      "id": "meteor-aftermath",
+      "records": [
+        "script:051000:030",
+        "script:053000:000",
+        "script:053000:013"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Jido"
+      ],
+      "location": "Meteor crash site in Saxen Canyon",
+      "storyState": "Arrival / after the confrontation depicted in the Opening cinematic.",
+      "purpose": "Jido's final instructions, Sion and Shoko's response, return to Cosma and the silent repeat interaction.",
+      "previousContext": [
+        "Sion and Shoko investigate the meteor site. The cinematic shows their fathers with Zolias soldiers."
+      ],
+      "followingContext": [
+        "Return to Cosma; seek Scrap Joe."
+      ],
+      "branchAlternatives": [
+        "051000:030 #B flag 4 dispatches to entry 33 on repeat.",
+        "First conversation calls bank 2 entry 0; entry 33 calls bank 2 entry 13. Calls preserve their original payloads."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.jido",
+        "character.joe",
+        "character.mamon",
+        "faction.zolias",
+        "story.meteor_aftermath"
+      ],
+      "evidence": [
+        "Original complete decoded entries, shared calls and conditional entry-index dispatch.",
+        "Player screenshot 2026-09-23 13.51.10 matches Jido's first utterance.",
+        "Opening cinematic source at 0xD07B5 onward provides the preceding confrontation; its separate interpreter is not patched by this script pack."
+      ],
+      "uncertainty": [
+        "New adaptations require runtime playtesting.",
+        "Do not infer the identity or nature of Alshark from Jido's unfinished words."
+      ],
+      "notes": [],
+      "reviewNote": "Read all source turns continuously with the cinematic context and repeat branch; reviewed grief, broken speech, speaker relationships, uncertainty and the navigation instructions. Separately fitted English without changing any commands or page controls."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:051000:029",
+      "sourceFingerprint": "03ad00afccb37a0925e825865776b37b7d120dd9d08c7d1cf456902adbfa06ee",
+      "canonicalEnglish": "Narrator: Sion and his companions arrived at the meteor crash site.",
+      "context": {
+        "speaker": "Sion / Shoko / Jido / narration",
+        "listener": "Each other / player",
+        "intent": "Preserve the connected meteor event and the next destination.",
+        "tone": "Grief, urgency and reassurance; retain uncertain claims as uncertain.",
+        "terminology": [
+          "story.meteor_aftermath"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Retains arrival, party and meteor site; all cinematic/event payloads and delay are preserved."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:030",
+      "sourceFingerprint": "79f248fa134f6bb61abcf6c8cf30cd2aeeeb53139304b6781b03cb1895a24bb9",
+      "canonicalEnglish": "Sion: Dad! Hang on, Dad!\nJido: S... Sion... Shoko... Why... are you here...?\nSion: Never mind that. We need to treat your wounds, quickly...\nJido: I... won't... make it.\nShoko: Please! Don't die! Oh, Father... why did this happen...?\nJido: Listen... both of you... listen carefully... Joe... Scrap Joe... Go to him. He should... be able... to help you. What... happened... to Mamon...? They... were pursuing... someone who came in this meteor... It was... Al... sha... rk...!!\nSion: Dad! DAAAD! Damn it! Those Zolias soldiers... I'll never forgive them!",
+      "context": {
+        "speaker": "Sion / Shoko / Jido / narration",
+        "listener": "Each other / player",
+        "intent": "Preserve the connected meteor event and the next destination.",
+        "tone": "Grief, urgency and reassurance; retain uncertain claims as uncertain.",
+        "terminology": [
+          "story.meteor_aftermath"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Keeps the Scrap Joe destination, qualified help, Mamon question, pursuit and broken Alshark name. Please replaces Shoko's familiar address to Jido without inventing kinship. Her Father remains separate. Reduces pauses and treats who came in the meteor as unknown. Sion's refusal to forgive becomes Unforgivable; urgency remains in commands and exclamations. No new wait/clear controls."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:000",
+      "sourceFingerprint": "fae048bf5c4f023d386dbc9745c4743409c19ed48b69dea610891e168c02e969",
+      "canonicalEnglish": "Shoko: S... Sion... I don't know what to say. But please don't hate my father. There must be some explanation...\nSion: I know, Shoko. It's those Zolias soldiers who are to blame. They must have done something to Dr. Penrose. I'll... I'll uncover their secret and rescue him! So don't worry.\nShoko: Thank you, Sion.\nSion: ...Come on. Let's leave this place for now. They might come back.\nShoko: Yes. Let's go back to Cosma.",
+      "context": {
+        "speaker": "Sion / Shoko / Jido / narration",
+        "listener": "Each other / player",
+        "intent": "Preserve the connected meteor event and the next destination.",
+        "tone": "Grief, urgency and reassurance; retain uncertain claims as uncertain.",
+        "terminology": [
+          "story.meteor_aftermath"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Shoko's speechlessness is conveyed through her stammer; the explicit I do not know what to say is omitted. Sion addresses her by name and retains the suspicion that Zolias did something to Dr. Penrose, without specifying what. Omits separate reassurance I know and reduces thanks and agreement. Cosma destination remains explicit."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:013",
+      "sourceFingerprint": "3c519cf2e4c4f6a0c13d761c00eb0c26a85deda7dcd70d88bac79efe80896217",
+      "canonicalEnglish": "Narrator: There was no reply when they spoke to him.",
+      "context": {
+        "speaker": "Sion / Shoko / Jido / narration",
+        "listener": "Each other / player",
+        "intent": "Preserve the connected meteor event and the next destination.",
+        "tone": "Grief, urgency and reassurance; retain uncertain claims as uncertain.",
+        "terminology": [
+          "story.meteor_aftermath"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Shortens the explicit action of speaking, already supplied by interacting; retains the lack of reply."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

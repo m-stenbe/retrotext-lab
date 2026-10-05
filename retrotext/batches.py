@@ -22,6 +22,12 @@ def prepare_batch(document, bible, plan, check_scene):
         editorial_error = str(exc)
     terms = index_unique(bible['terms'], 'term')
     referenced = set()
+    groups = plan.get('compileTogether', [])
+    grouped = set()
+    for group in groups:
+        if not group or len(group)!=len(set(group)) or set(group)-set(selected) or grouped & set(group):
+            raise ValueError('Invalid or overlapping coupled compilation group')
+        grouped.update(group)
     packets, ready = [], []
     for ident in selected:
         scene = scenes[ident]
@@ -47,7 +53,8 @@ def prepare_batch(document, bible, plan, check_scene):
         changes = []
         if not issues:
             try:
-                changes = check_scene([ident])
+                group = next((g for g in groups if ident in g), [ident])
+                changes = check_scene(group)
             except ValueError as exc:
                 issues.append('Profile validation: ' + str(exc))
         if not issues:

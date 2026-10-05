@@ -1,0 +1,176 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "mine-party-conversations",
+    "mine-ship-reveal",
+    "atraia-first-bridge"
+  ],
+  "records": [
+    {
+      "id": "script:082000:024",
+      "basedOn": "2524eb8a60d5ff843fcaecdf442adecf61311316b37313ba30a5bdda99ab5cde",
+      "inGameEnglish": {
+        "t001": " WILL GO\nTO MARS. FIND\n",
+        "t003": ".",
+        "t009": "TRUST ME\n",
+        "t011": ".\nI WILL TAKE\nYOU TO MARS!"
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries."
+      ]
+    },
+    {
+      "id": "script:07d000:032",
+      "basedOn": "2524eb8a60d5ff843fcaecdf442adecf61311316b37313ba30a5bdda99ab5cde",
+      "inGameEnglish": {
+        "t000": "ZOLIAS OR NOT,\n",
+        "t002": "! I'LL\nFIND OUT WHAT\nYOU'RE UP TO!"
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries.",
+        "Omits the insult directed at Mamon and the dismissive whatever-they-call-themselves aside; preserves Joe's anger and intent to find out what Mamon is doing."
+      ]
+    },
+    {
+      "id": "script:07d000:033",
+      "basedOn": "2524eb8a60d5ff843fcaecdf442adecf61311316b37313ba30a5bdda99ab5cde",
+      "inGameEnglish": {
+        "t000": "FATHER COULD\nBE HERE...",
+        "t006": "IF NEED BE,\nI WILL ACT.\nBE READY FOR\nTHAT, MISS."
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries."
+      ]
+    },
+    {
+      "id": "script:07d000:034",
+      "basedOn": "2524eb8a60d5ff843fcaecdf442adecf61311316b37313ba30a5bdda99ab5cde",
+      "inGameEnglish": {
+        "t001": ", ONE RIDE\nIN MY SHIP AND\nYOU'RE HOOKED!",
+        "t007": "MADE OF SCRAP,\nRIGHT? IS IT\nSAFE...?",
+        "t013": "A GENIUS LIKE\nME BUILT HER!\nA GREAT SHIP!",
+        "t019": "MAYBE SHE HAS\nA HOLE IN HER.",
+        "t025": "NOW, LISTEN...",
+        "t031": "EASY, YOU TWO.\nWHERE IS IT\nAGAIN?",
+        "t037": [
+          "THE OLD MINE\nNORTH OF\nHAMACK!",
+          "SEE FOR\nYOURSELVES.\nFOLLOW ME!"
+        ]
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries."
+      ]
+    },
+    {
+      "id": "script:054000:001",
+      "basedOn": "47907db7ae9bff6327bbbc43b33c6cb275f3185f8121abc481e70142029303bd",
+      "inGameEnglish": {
+        "t003": "MACHINERY...\n",
+        "t006": " CANNOT\n",
+        "t008": "OPERATE IT."
+      },
+      "notes": [
+        "The fixed name and narration-mode tokens divide one composed sentence; no speaker header is added."
+      ]
+    },
+    {
+      "id": "script:054000:002",
+      "basedOn": "47907db7ae9bff6327bbbc43b33c6cb275f3185f8121abc481e70142029303bd",
+      "inGameEnglish": {
+        "t004": "DON'T FAINT,\nYOU TWO!",
+        "t009": " ENTERED A\n",
+        "t011": "CODE AND\nPULLED A LEVER"
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries.",
+        "The dramatic reveal immediately follows; the short warning omits when you see this."
+      ]
+    },
+    {
+      "id": "script:054000:028",
+      "basedOn": "47907db7ae9bff6327bbbc43b33c6cb275f3185f8121abc481e70142029303bd",
+      "inGameEnglish": {
+        "t001": "DOOR IS OPEN"
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries.",
+        "The examined secret-door object supplies the specific door context; the short label omits secret."
+      ]
+    },
+    {
+      "id": "script:054000:031",
+      "basedOn": "47907db7ae9bff6327bbbc43b33c6cb275f3185f8121abc481e70142029303bd",
+      "inGameEnglish": {
+        "t003": "A... AMAZING!",
+        "t009": "MEET MY DEAR\nBOY, SCRAP II!",
+        "t015": "HOW TACKY!",
+        "t021": [
+          "TACKY?!\nNOW, MISS!",
+          "WHAT'S TACKY\nABOUT MY SHIP?"
+        ],
+        "t027": [
+          "SORRY! THE\nSHIP IS GREAT.\nIT'S THE NAME\nYOU GAVE HER.",
+          "RIGHT, SION?"
+        ],
+        "t033": "W... WELL, YES",
+        "t039": "OH, ALL OF YOU",
+        "t042": [
+          "DON'T LIKE MY\nNAME FOR HER?\nFINE!",
+          "LET'S HEAR\nYOUR IDEAS!"
+        ],
+        "t048": [
+          "HMM... AST...\nATRAIA.",
+          "HOW ABOUT\nATRAIA?"
+        ],
+        "t054": "ATRAIA?",
+        "t056": "\nNOT BAD, MISS.\nNOT BAD AT ALL",
+        "t059": [
+          "SCRAP II HAS\nMORE DIGNITY,\nOF COURSE...",
+          "BUT FOR YOUR\nSAKE, MISS,\nATRAIA IT IS!"
+        ],
+        "t065": "OH, BROTHER...",
+        "t071": "ALL RIGHT!\nLET'S GO!"
+      },
+      "notes": [
+        "The ship is praised; Shoko mocks its name. Scrap II and Atraia are provisional names in the bible. Her false start Ast... is retained. Joe calls the ship his darling boy; later English ship pronouns follow conventional she."
+      ]
+    },
+    {
+      "id": "script:083000:001",
+      "basedOn": "6fe4d9fd487c4cd62f80bba40e0692edb165192a1a341e10b5d7871b5409fd3c",
+      "inGameEnglish": {
+        "t010": "I WILL\nNAVIGATE!",
+        "t012": [
+          "\nWITH KARU AS\nCOPILOT,",
+          "YOU HAD\nBETTER STAY\nSHARP!"
+        ],
+        "t015": "GOOD LUCK,\n",
+        "t017": "!"
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries."
+      ]
+    },
+    {
+      "id": "script:083000:004",
+      "basedOn": "6fe4d9fd487c4cd62f80bba40e0692edb165192a1a341e10b5d7871b5409fd3c",
+      "inGameEnglish": {
+        "t020": "YOU DON'T NEED\nME TO TEACH\nYOU HOW TO\nFLY ATRAIA.",
+        "t023": "EVEN A CHILD\nCOULD DO IT.\nDON'T WORRY!"
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries."
+      ]
+    },
+    {
+      "id": "script:083000:005",
+      "basedOn": "6fe4d9fd487c4cd62f80bba40e0692edb165192a1a341e10b5d7871b5409fd3c",
+      "inGameEnglish": {
+        "t007": ", NOW YOU\nPILOT ATRAIA.\nKARU WILL DO\nHIS BEST"
+      },
+      "notes": [
+        "Preserves the connected source meaning and fixed name/control boundaries."
+      ]
+    }
+  ]
+}

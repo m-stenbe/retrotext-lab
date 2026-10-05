@@ -1,0 +1,109 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Astra manager source review; independent Astra QA source inventory",
+  "scenes": [
+    {
+      "id": "r03-route-location-labels",
+      "records": [
+        "r03-location:1",
+        "r03-location:42",
+        "r03-location:96"
+      ],
+      "participants": [],
+      "location": "Hom Spaceport, abandoned mine and the acquired ship bridge",
+      "storyState": "After the Hamack lead through ship acquisition, before cockpit departure trigger.",
+      "purpose": "Identify all newly entered locations.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.atraia_bridge",
+        "place.hom_spaceport",
+        "place.abandoned_mine"
+      ],
+      "evidence": [
+        "Original map-title pointers: profiles/alshark/r03_names.py. The pointer table ends at 0x1055c; subsequent 24-bit progression data is excluded."
+      ],
+      "uncertainty": [],
+      "notes": [
+        "Original location prefixes and all pointer aliases are preserved."
+      ],
+      "reviewNote": "Manager reviewed original three map labels and readable abbreviations; independent QA approved English. Revised pointer proof excludes numeric progression data previously mistaken for an interior mine alias."
+    }
+  ],
+  "records": [
+    {
+      "id": "r03-location:1",
+      "sourceFingerprint": "620da245e8e61fbf4d511ab68c9f907f8fe60210eba911b02224bf89fa7862a6",
+      "canonicalEnglish": "Cockpit",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the current location.",
+        "tone": "Concise location label.",
+        "terminology": [
+          "place.atraia_bridge"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original title, markers and all pointer aliases."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r03-location:42",
+      "sourceFingerprint": "ae90987b2913f287d460ba977eba3ee2a16a22c7f7fa0ff6db183b4e428e95c4",
+      "canonicalEnglish": "Hom Spaceport",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the current location.",
+        "tone": "Concise location label.",
+        "terminology": [
+          "place.hom_spaceport"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original title, markers and all pointer aliases."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r03-location:96",
+      "sourceFingerprint": "81f62406cdbd469978bf26839cc17451fe79a68e8d3c997cafc7b2ee7c846568",
+      "canonicalEnglish": "Abandoned Mine",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the current location.",
+        "tone": "Concise location label.",
+        "terminology": [
+          "place.abandoned_mine"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original title, markers and all pointer aliases."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "hamack-joe-rumor",
+    "route-joe-hamack"
+  ],
+  "records": [
+    {
+      "id": "script:052000:019",
+      "basedOn": "a0b44404f79469d31d1006e8a6458400037c7452e9715592484d152d4fd0fc36",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t004": "SCRAP ",
+        "t006": [
+          "\nAT DUST IS\nAN OLD WEIRDO.",
+          "I HEAR HE\nMAKES SHADY\nSTUFF."
+        ]
+      },
+      "notes": [
+        "With the immutable JOE name, the body reads “Scrap Joe at Dust is an old weirdo. I hear he makes shady stuff.” This preserves the Dust location, age, characterization, suspicious work, and hearsay within the source allocation. It omits the fuller waste-facility descriptor; recurring activity is phrased as a present-tense habit."
+      ]
+    },
+    {
+      "id": "script:052000:084",
+      "basedOn": "a0b44404f79469d31d1006e8a6458400037c7452e9715592484d152d4fd0fc36",
+      "inGameEnglish": {
+        "t000": "OH, HI!"
+      },
+      "notes": [
+        "Natural greeting for the conditional alternative; opaque tail remains source-controlled."
+      ]
+    },
+    {
+      "id": "script:082000:002",
+      "basedOn": "dd3381d49bdaca89e468e587d39d2981fb36eb460177b9d1bd404ee598230331",
+      "inGameEnglish": {
+        "t063": "LET'S GO TO\nHAMACK AND ASK\nAROUND ABOUT\nLUCIA.",
+        "t069": "BUT WHERE DO\nWE START?",
+        "t075": "THE BAR HAS\nINFORMANTS.\nTHEY MAY KNOW\nSOMETHING."
+      },
+      "notes": [
+        "Preserves Joe's practical search proposal, Sion's uncertainty, the bar and informants as the next lead, and uncertainty about what they know. RE proved the early flags select these default lines before the Mars lead; canonical content remains unrestricted."
+      ]
+    }
+  ]
+}

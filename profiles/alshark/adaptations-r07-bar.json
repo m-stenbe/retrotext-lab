@@ -1,0 +1,68 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "kainan-bar"
+  ],
+  "records": [
+    {
+      "id": "script:053000:039",
+      "basedOn": "732b07c9306555d9105d73fd311913b8816f92431a5032b2b8dda2ca78d0da88",
+      "inGameEnglish": {
+        "t001": "GOING TO THE\nMINE? BE\nCAREFUL."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:053000:040",
+      "basedOn": "732b07c9306555d9105d73fd311913b8816f92431a5032b2b8dda2ca78d0da88",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "MONSTERS CAME.\nFOLK STOPPED\nVISITING."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:053000:041",
+      "basedOn": "732b07c9306555d9105d73fd311913b8816f92431a5032b2b8dda2ca78d0da88",
+      "inGameEnglish": {
+        "t001": "JUST HURRY AND\nFINISH OFF\nTHOSE\nMONSTERS."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Omits I do not care how; retains urgency to finish the monsters."
+      ]
+    },
+    {
+      "id": "script:053000:042",
+      "basedOn": "732b07c9306555d9105d73fd311913b8816f92431a5032b2b8dda2ca78d0da88",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": [
+          "THEY SAY\nMINERS HEARD\nEERIE SOUNDS",
+          "DEEP BELOW AS\nMONSTERS CAME."
+        ]
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Retains hearsay, miners, eerie sounds from below and timing; most miners becomes miners, mine location follows scene context."
+      ]
+    },
+    {
+      "id": "script:053000:043",
+      "basedOn": "732b07c9306555d9105d73fd311913b8816f92431a5032b2b8dda2ca78d0da88",
+      "inGameEnglish": {
+        "t001": [
+          "MY GUESS? SOME\nAWFUL MONSTER",
+          "LIVES DEEP IN\nTHAT MINE."
+        ]
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    }
+  ]
+}

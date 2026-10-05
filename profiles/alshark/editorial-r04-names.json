@@ -1,0 +1,137 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Astra manager source/editorial review",
+  "scenes": [
+    {
+      "id": "r04-character-and-location-labels",
+      "records": [
+        "name:8",
+        "name:9",
+        "r04-location:30",
+        "r04-location:104"
+      ],
+      "participants": [
+        "Welda"
+      ],
+      "location": "Civilian ship and CS Station",
+      "storyState": "Rescue through station tour and first briefing, before leaving the station.",
+      "purpose": "Identify the new soldier and visited maps.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.welda",
+        "place.cs_station",
+        "place.civilian_ship"
+      ],
+      "evidence": [
+        "Original name8/9 and map30/104 pointer tables, reviewed aliases; profiles/alshark/r04_names.py."
+      ],
+      "uncertainty": [
+        "Official character romanization unverified."
+      ],
+      "notes": [
+        "Shared ship titles also affect later maps using the exact same original string; no claim of later dialogue coverage."
+      ],
+      "reviewNote": "Reviewed distinct original given/full names, map labels and alias evidence; canonical retains full identity, adaptations state explicit display shortening."
+    }
+  ],
+  "records": [
+    {
+      "id": "name:8",
+      "sourceFingerprint": "65304206588350bc5f29c3f95594c7e0b3e2c1900ff9dd006f586d3470a679fa",
+      "canonicalEnglish": "Welda",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the character or location.",
+        "tone": "Concise label.",
+        "terminology": [
+          "character.welda"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Compared original name/title source and all pointer aliases."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "name:9",
+      "sourceFingerprint": "9acd577dab08dede6ff7aadb53ec17f606129e17b5d84f60c1b7e4b2931194c7",
+      "canonicalEnglish": "Welda Muretts",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the character or location.",
+        "tone": "Concise label.",
+        "terminology": [
+          "character.welda"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Compared original name/title source and all pointer aliases."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r04-location:30",
+      "sourceFingerprint": "ca25e876eae9ff9a3496c846b55375defe8a4f246b3ffa086a74c97ff3214ad5",
+      "canonicalEnglish": "CS Station",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the character or location.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.cs_station"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Compared original name/title source and all pointer aliases."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r04-location:104",
+      "sourceFingerprint": "9bd0a59cdf808a38a55f698c42e9e643050c5111db1c1b13bb2520e1afae147e",
+      "canonicalEnglish": "Ship Interior",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Identify the character or location.",
+        "tone": "Concise label.",
+        "terminology": [
+          "place.civilian_ship"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Compared original name/title source and all pointer aliases."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

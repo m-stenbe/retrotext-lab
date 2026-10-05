@@ -1,0 +1,18 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "atraia-heavy-unload-refusal"
+  ],
+  "records": [
+    {
+      "id": "fixed:System:00209a",
+      "basedOn": "5910e9970ec6bfbceecce0b7a194dbf7e928f46f69fca063f348ae0bc6a77b07",
+      "inGameEnglish": {
+        "t004": "HEY! THAT'S\nTOO HEAVY TO\nCARRY!"
+      },
+      "notes": [
+        "Preserves the weight-based refusal and Joe\u2019s incredulous voice; immutable Joe header supplies his name."
+      ]
+    }
+  ]
+}

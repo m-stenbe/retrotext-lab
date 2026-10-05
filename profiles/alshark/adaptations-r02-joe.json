@@ -1,0 +1,116 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "dust-joe-meeting"
+  ],
+  "records": [
+    {
+      "id": "script:05a000:039",
+      "basedOn": "e9309ed03b1ca7d3068f12401262598823d8a9bb29488fa00b551c95c5499df5",
+      "inGameEnglish": {
+        "t005": "WHO THE HELL\nARE YOU?",
+        "t011": "HELLO. NICE\nTO MEET YOU.",
+        "t017": "OF COURSE!\nI DON'T KNOW\nPAMPERED KIDS\nLIKE YOU.",
+        "t023": "WHAT...?!",
+        "t029": "UM, WE'RE...",
+        "t035": "I'M NO NURSERY\nVOLUNTEER.\nWHAT DO YOU\nWANT? SAY IT.",
+        "t041": "HELLO, ",
+        "t043": ".",
+        "t049": "HUH... ",
+        "t051": "?\n",
+        "t053": "\nIS THAT YOU?!\nWHAT HAPPENED?",
+        "t060": " CAME WITH\n",
+        "t062": "\nTO SEE ",
+        "t064": ".",
+        "t071": "...\n",
+        "t073": "?!\n",
+        "t075": "'S BOY,\n",
+        "t077": [
+          "?!",
+          "WELL NOW!"
+        ],
+        "t079": "\nGLAD YOU CAME!",
+        "t082": [
+          "THAT TINY KID\nGREW UP!",
+          "AND NOW YOU\nBRING YOUR\nGIRLFRIEND\nTO SEE ME!"
+        ],
+        "t085": [
+          "YOU WON'T\nREMEMBER, BUT\nYOU SLEPT",
+          "IN MY ARMS."
+        ],
+        "t087": "\nWHAT BRINGS\nYOU HERE?",
+        "t094": "... WELL...",
+        "t100": "JUST CALL ME\n",
+        "t102": ", ",
+        "t104": [
+          ".\nOH... RIGHT.",
+          "I SHOULDN'T\nHAVE ASKED.\nSAY NO MORE."
+        ],
+        "t111": "NO, UNCLE!\nYOU'VE GOT IT\nWRONG...!\n...HH...!",
+        "t116": " AND SION\n",
+        "t118": "TALKED, AND\n",
+        "t120": "",
+        "t122": " BROKE\n",
+        "t124": "DOWN CRYING.",
+        "t131": "HEY, WHAT'S\nWRONG? BOYS\nDON'T CRY.",
+        "t137": [
+          "DAD... DAD'S\nDEAD...",
+          "AND MOM'S\nMISSING..."
+        ],
+        "t143": "WHAT?!\n",
+        "t145": "'S DEAD?!\n",
+        "t147": [
+          "'S GONE?!",
+          "WHY DIDN'T YOU\nSAY SO SOONER?"
+        ],
+        "t153": "I'M ",
+        "t155": "'S\nDAUGHTER,\n",
+        "t157": [
+          ".",
+          "MY DAD KILLED\n"
+        ],
+        "t159": "'S DAD...",
+        "t165": "WHAT?! DON'T\nTALK NONSENSE,\nLITTLE LADY.",
+        "t169": ", ",
+        "t171": [
+          "\nAND I WERE\nBEST FRIENDS,",
+          "LONG BEFORE\nYOU WERE BORN!"
+        ],
+        "t177": "BUT... I SAW\nIT TOO.",
+        "t184": "...\nNOT YOU TOO!",
+        "t187": [
+          "EVEN IF TRUE,\nSOMETHING MUST\nHAVE FORCED\nHIS HAND.",
+          "I'M SURE!"
+        ],
+        "t191": "THEY SOBBED.\n",
+        "t194": " WAS AT\nA LOSS.",
+        "t200": [
+          "CRYING WON'T\nHELP. LET'S GO\nTO HAMACK.",
+          "LET'S TRACE\n"
+        ],
+        "t202": " AND\n",
+        "t204": "'S STEPS.",
+        "t210": [
+          "WHEN DAD AND\nTHE OTHERS\nDIED, I\nPANICKED...",
+          "I LEFT THEIR\nBODIES THERE."
+        ],
+        "t216": [
+          "AH... WELL,\nIT'S TOO LATE.",
+          "YOU KNOW THOSE\nBUGS\nEAT ANYTHING."
+        ],
+        "t222": "BUT...",
+        "t228": [
+          "WE CAN'T HELP\nTHE DEAD.",
+          "FINDING "
+        ],
+        "t230": "\nCOMES FIRST.\n",
+        "t232": "LET'S GO!"
+      },
+      "notes": [
+        "Manager rewrote the failed Luna draft around every immutable name token, then measured complete dialogue windows. Additional wait/clear pages preserve the existing controls and fixed opaque tail.",
+        "The nursery-volunteer jab and familiar Uncle address are retained. Narration condenses the explanation of inner tension giving way to the natural phrase “broke down crying” during the conversation.",
+        "Keeps the girlfriend misunderstanding, childhood affection, deaths/disappearance, accusation and Joe’s denial, longtime friendship, bodies/bugs, and immediate Hamack search. Runtime display remains unverified."
+      ]
+    }
+  ]
+}

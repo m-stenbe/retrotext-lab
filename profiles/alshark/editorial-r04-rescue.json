@@ -1,0 +1,196 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R04 connected-scene source editorial review",
+  "scenes": [
+    {
+      "id": "atraia-distress-boarding",
+      "records": [
+        "script:054000:032"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Karu"
+      ],
+      "location": "Atraia and disabled civilian spacecraft",
+      "storyState": "After acquiring Atraia, before arrival at the Cosmic Hawk station.",
+      "purpose": "The distress signal and boarding",
+      "previousContext": [
+        "The first Atraia cockpit trigger leads to the distress signal."
+      ],
+      "followingContext": [
+        "The female soldier escorts the group to the station after the hostage is released."
+      ],
+      "branchAlternatives": [
+        "The warning is an approach interaction; wall conversation calls the confrontation. Control-only map entries retain all event commands."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.karu",
+        "character.mamon",
+        "character.jido",
+        "faction.zolias",
+        "place.mars",
+        "ship.atraia",
+        "character.welda",
+        "character.shayna",
+        "faction.chausnomyu",
+        "organization.cosmic_hawk",
+        "organization.perfect_technical"
+      ],
+      "evidence": [
+        "083000:000 dispatches 054000:032; map104 uses bank055000; 055000:001 calls004; 004 sets flag14 and transfers to map30."
+      ],
+      "uncertainty": [
+        "Shayna, Chausnomyu and Perfect Technical are provisional source-based spellings.",
+        "Runtime route traversal remains unverified."
+      ],
+      "notes": [
+        "Narration and immutable name insertions are a composed page, not separate utterances."
+      ],
+      "reviewNote": "Read all source and the complete English rescue in sequence: preserve Mamon’s chilling self-justification, Joe’s broken anger, Shoko’s doubt, Shayna’s entitled urgency, the soldier’s authority, hostage choreography and Karu’s injury. The initial Gal... is an interrupted name, not a confirmed identity."
+    },
+    {
+      "id": "civilian-craft-rescue",
+      "records": [
+        "script:055000:002",
+        "script:055000:001",
+        "script:055000:004"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Karu",
+        "Mamon",
+        "Shayna",
+        "Welda",
+        "Zolias soldiers"
+      ],
+      "location": "Atraia and disabled civilian spacecraft",
+      "storyState": "After acquiring Atraia, before arrival at the Cosmic Hawk station.",
+      "purpose": "The civilian craft rescue",
+      "previousContext": [
+        "The first Atraia cockpit trigger leads to the distress signal."
+      ],
+      "followingContext": [
+        "The female soldier escorts the group to the station after the hostage is released."
+      ],
+      "branchAlternatives": [
+        "The warning is an approach interaction; wall conversation calls the confrontation. Control-only map entries retain all event commands."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.karu",
+        "character.mamon",
+        "character.jido",
+        "faction.zolias",
+        "place.mars",
+        "ship.atraia",
+        "character.welda",
+        "character.shayna",
+        "faction.chausnomyu",
+        "organization.cosmic_hawk",
+        "organization.perfect_technical"
+      ],
+      "evidence": [
+        "083000:000 dispatches 054000:032; map104 uses bank055000; 055000:001 calls004; 004 sets flag14 and transfers to map30."
+      ],
+      "uncertainty": [
+        "Shayna, Chausnomyu and Perfect Technical are provisional source-based spellings.",
+        "Runtime route traversal remains unverified."
+      ],
+      "notes": [
+        "Narration and immutable name insertions are a composed page, not separate utterances."
+      ],
+      "reviewNote": "Read all source and the complete English rescue in sequence: preserve Mamon’s chilling self-justification, Joe’s broken anger, Shoko’s doubt, Shayna’s entitled urgency, the soldier’s authority, hostage choreography and Karu’s injury. The initial Gal... is an interrupted name, not a confirmed identity."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:054000:032",
+      "sourceFingerprint": "daac5049217f184108e4be5128aeb09ad4125acc2c3794056f60dc35baa0b7c0",
+      "canonicalEnglish": "The moment Sion sat down at the controls, an alarm rang shrilly throughout the ship.\nShoko: Sion! It's a distress signal.\nKaru: The identification code belongs to a civilian spacecraft from Mars. I have it on radar. Bringing it up on the monitor.\nThe civilian craft was disabled. And docked alongside, almost hidden behind it, was...\nShoko: That ship!!\nSion: Uncle Joe! That's the ship the Zolias soldiers were on—the ones who killed Dad and the others.\nShoko: Dad should be aboard, too.\nJoe: What?! You're both sure about this?\nSion: I'd know that ship even from beyond the grave!!\nJoe: Right, then!! Zolias military or whoever they are, I'll turn every last one of them into scrap!\nJoe: Let's go, Sion!!\nJoe strapped a large, cylinder-like object onto his back and handed guns to Sion and Shoko.\nJoe: Karu! Bring us alongside nice and quiet. Don't let them spot us.\nKaru: Understood!!\nSion and Shoko readied the guns Joe had given them and boarded the civilian craft.",
+      "context": {
+        "speaker": "Multiple speakers and narration",
+        "listener": "Party / present characters",
+        "intent": "Rescue the civilian craft and confront the soldiers; preserve the incomplete identity clues.",
+        "tone": "Urgent, then confrontational and shocked",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:055000:002",
+      "sourceFingerprint": "187f002965c0492713113a309baa60c9dd0ca5a36257f8a86c17c65ee4dc432e",
+      "canonicalEnglish": "Joe: Stay sharp, you two. Our friends should be showing up any minute now.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Party / present characters",
+        "intent": "Rescue the civilian craft and confront the soldiers; preserve the incomplete identity clues.",
+        "tone": "Urgent, then confrontational and shocked",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:055000:001",
+      "sourceFingerprint": "cf53ede0466e51eadc1c732cfef8eead3c151d00c2ac0812985fd1014a8bfdc6",
+      "canonicalEnglish": "Faint voices could be heard through the wall.\nMamon: He's not here!! He's not here either!\nShayna: Just who are you people?!\nZolias Soldier: Gal... I mean, Lord Mamon. Since you became that Martian, your instincts seem to have dulled...\nMamon: How unkind... Well, never mind. Shall we go?\nShayna: Hey! Answer my question!\nShayna: You realize you're speaking to the president's daughter? Perfect Technical is the largest arms manufacturer in the Mars Federation! Show some respect!\nZolias Soldier: Agh! Shut up, you little brat! I'll kill you!!",
+      "context": {
+        "speaker": "Multiple speakers and narration",
+        "listener": "Party / present characters",
+        "intent": "Rescue the civilian craft and confront the soldiers; preserve the incomplete identity clues.",
+        "tone": "Urgent, then confrontational and shocked",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:055000:004",
+      "sourceFingerprint": "2d925a947d4f569c1aed51a25817cd0d53afee0b6f96642c4d04e33802872677",
+      "canonicalEnglish": "Joe: You!! Mamon! What the hell do you think you're doing?\nJoe: Depending on your answer, I may not be able to forgive you—even you!\nMamon turned slowly toward Joe. For a moment, he seemed to compare Joe's face and figure with his memories. Then a strange light flashed in his eyes.\nMamon: Hmph. Well, if it isn't Joe. As shabby as ever, I see.\nShoko: Dad... what's happened to you?\nJoe stood squarely in Mamon's path. Shoko emerged from behind him, her face full of anxiety.\nMamon: ...Ah, Shoko. My dear little Shoko.\nMamon: Daddy won't be able to come home to you for a while. I have an important mission to fulfill.\nMamon: My darling Shoko. You understand, don't you?\nShoko: ...Dad... It really is you, isn't it?\nSion: Uncle Mamon...\nMamon: ...Sion. I'm truly sorry. Your father and the others stood in the way of my mission. I had no choice but to have them die.\nMamon: But what is a mere physical body compared with my great mission...?\nJoe: S-shut up!!\nJoe: Mamon! What's happened to you? You, Jido and I were the best of friends! Have you lost your mind?\nMamon: No, I'm perfectly sane, Joe. If anything, I've gained a power of will more absolute than anything I possessed before.\nShayna: Hey, you people! Stop talking nonsense. If you've come to rescue me, hurry up and get rid of these men!\nJoe: ...If... if you really did kill Jido... I'll... I'll never forgive you!!\nJoe started to aim his weapon at Mamon. But a split second before he could, the Zolias soldiers had their guns trained on the group.\nMamon: Joe... Are you going to stand in the way of my mission, too? Then I have no choice...?!\nA deafening noise shook the ship, making everyone stagger.\nMoments later, the airlock blew open, and in she came.\nThe woman stood with two long tails of blond hair whipping behind her. A miniature fusion reactor mounted on her right shoulder gave off the low whine of a spinning turbine.\nMamon: Hmph. Impressive.\nWelda: What are Zolias Imperial troops doing here?!\nMore than her voice, it was her overwhelming presence that made Sion recoil.\nZolias Soldier: Whoa, there. Keep that gun down.\nBefore the woman could react, a Zolias soldier had pulled Shayna in front of him as a shield and pressed his gun to her throat.\nWelda: You can't be serious...\nMamon: My apologies, young lady of the Federation. Our business here is finished, so we'll be taking our leave.\nMamon and the two Zolias soldiers backed away, circling around the others with Shayna still held as a shield.\nWelda: You're not getting away!!\nSuddenly, a single gunshot rang out.\nSion: K-Karu!!\nIt was horrifying. Karu had followed Sion and the others—and a Zolias soldier had blown his head off.\nThe woman reacted instantly, shooting through the arm of the soldier holding Shayna hostage.\nShayna: Aah!!\nBut Mamon and the two Zolias soldiers moved just as fast.\nThey shoved Shayna toward the woman and ran into the airlock. Mamon's voice rang out over the hiss of the airlock's hydraulics losing pressure.\nMamon: Joe!! Keep interfering, and next time you really will die!\nWelda: Get back here!!\nBut by the time she reached the airlock, a shudder told her the combat craft had already pulled away.\nWelda: Tch. Too late to catch them...\nMuttering as though convincing herself, she helped Shayna to her feet.\nSeeing the two women side by side, Sion was struck again by the soldier's size. She must have been well over two meters tall.\nShayna: Thank you...\nShayna blushed as she thanked the warrior. The woman turned back to Sion and the others.\nWelda: Who are you? That spacecraft outside, all these weapons... What are civilians doing with them? You're not space pirates, are you?\nJoe: You're looking at Scrap Joe, from the planet Hom!\nJoe stepped forward and announced his name. But there was no reason for the woman to have heard of him.\nWelda: ...What? Never mind. In any case, I can't just ignore a ship with no identification code.\nWelda: My patrol craft will lead the way. You'll accompany me to the Chausnomyu station.\nJoe: ...Looks like we have no choice.\nShayna: Um, what about me...?\nWelda: You'd better come aboard my ship for now. I've contacted headquarters, so a rescue team should be on its way as well.\nAnd so Sion and his companions found themselves all but marched off to the Cosmic Hawk station by the warrior.",
+      "context": {
+        "speaker": "Multiple speakers and narration",
+        "listener": "Party / present characters",
+        "intent": "Rescue the civilian craft and confront the soldiers; preserve the incomplete identity clues.",
+        "tone": "Urgent, then confrontational and shocked",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

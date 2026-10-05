@@ -1,0 +1,115 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R07 manager connected source/editorial review",
+  "scenes": [
+    {
+      "id": "r07-byuto-location-labels",
+      "records": [
+        "r07-location:10",
+        "r07-location:46",
+        "r07-location:97"
+      ],
+      "participants": [],
+      "location": "Byuto / Kainan / mine",
+      "storyState": "Byuto assignment through mine victory, before next Roy report.",
+      "purpose": "Identify route locations.",
+      "previousContext": [
+        "Town residents describe the mine infestation."
+      ],
+      "followingContext": [
+        "Investigate the mine and return after the boss."
+      ],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.byuto",
+        "place.kainan"
+      ],
+      "evidence": [
+        "r07_names.py pointer guards; r07_flow.py and independent map component audit."
+      ],
+      "uncertainty": [
+        "Runtime display remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Reviewed original labels or all five Japanese bar interactions together. Keep warnings, reported evidence and suspicion distinct; do not turn rumors into proven facts."
+    }
+  ],
+  "records": [
+    {
+      "id": "r07-location:10",
+      "sourceFingerprint": "c2ebe913f8f27a6f57abb14cff33422435ae21075dc3106a31e430dc9d2cf208",
+      "canonicalEnglish": "Planet Byuto",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify place or explain mine danger.",
+        "tone": "Place label.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original source in connected route context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r07-location:46",
+      "sourceFingerprint": "42414894b458d54d667d652f4644e3c937cf5011e26e2671e399d4c9997db68d",
+      "canonicalEnglish": "Kainan",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify place or explain mine danger.",
+        "tone": "Place label.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original source in connected route context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "r07-location:97",
+      "sourceFingerprint": "7957eafb7de17ba520a94f466a1228593146b17bcf796e771716ea78cfa0932d",
+      "canonicalEnglish": "Mine",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Identify place or explain mine danger.",
+        "tone": "Place label.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed original source in connected route context."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

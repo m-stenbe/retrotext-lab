@@ -1,0 +1,174 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "hamack-street-voices"
+  ],
+  "records": [
+    {
+      "id": "script:052000:000",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": [
+          "WISH I HAD A\nNEW HELPER\nROBOT, BUT\nMONEY IS TIGHT",
+          "CHEAPER ON\nULYRIA!"
+        ]
+      },
+      "notes": [
+        "Retains desire for a helper robot, the bad local economy and the contrast that it costs less on Ulyria. The subject is implicit in the last page."
+      ]
+    },
+    {
+      "id": "script:052000:002",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": [
+          "I NEED A\nSTEADY INCOME\nTO PROPOSE.\nI MAY RUN A",
+          "SCRAP SHOP\nAND MAKE A\nFORTUNE."
+        ]
+      },
+      "notes": [
+        "Retains the need for steady income before proposing and the hoped-for fortune from a scrap shop; the intended partner remains unnamed."
+      ]
+    },
+    {
+      "id": "script:052000:003",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": "HE'S NO OLD\nGEEZER! SCRAP\nSHOPS ARE SO\nOUT OF STYLE."
+      },
+      "notes": [
+        "Keeps her dismissive reaction to a non-elder running an unfashionable scrap shop; no objective claim about the trade is added."
+      ]
+    },
+    {
+      "id": "script:052000:004",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t005": "ORDERED\n",
+        "t007": "CANNED FOOD",
+        "t009": "\nNOT HERE YET?"
+      },
+      "notes": [
+        "Conversational subject omitted in the game line to keep the complete canned-food item and delayed delivery; explicit row breaks keep the colored item separate."
+      ]
+    },
+    {
+      "id": "script:052000:005",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "MAKEUP LADY",
+        "t003": [
+          "HEY, KID.\nSCARY MEN HANG\nOUT IN THE\nBAR BELOW.",
+          "KEEP AWAY."
+        ]
+      },
+      "notes": [
+        "The shortened header identifies her heavy makeup; “kid” retains her teasing address, and the warning keeps the underground bar, scary men and advice to avoid them."
+      ]
+    },
+    {
+      "id": "script:052000:006",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "SWORDS BEAT\nGUNS IF YOU'RE\nSTRONG.",
+        "t005": "\nNOT FOR KIDS."
+      },
+      "notes": [
+        "Keeps the conditional sword-over-gun advice and the speaker's claim that it is not for children; the second source span starts a new row after its wait."
+      ]
+    },
+    {
+      "id": "script:052000:007",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t003": "HEY, YOU!\nFOUND IT YET?",
+        "t005": "\nSUN'S GOING\nDOWN!"
+      },
+      "notes": [
+        "The unspecified object remains “it”; the second source span begins a new rendered row after a wait that does not clear the page."
+      ]
+    },
+    {
+      "id": "script:052000:010",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "HIC...\n",
+        "t005": "EH? NEED ME?",
+        "t007": "\nGOT A PROBLEM\nWITH ME?",
+        "t009": [
+          "...",
+          "LEAVE ME ALONE\nZZZ."
+        ]
+      },
+      "notes": [
+        "Preserves the drunk’s conditional-seeming sequence, irritation and sleep. An explicit continuation page is needed because source wait controls do not clear the dialogue box."
+      ]
+    },
+    {
+      "id": "script:052000:011",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": "GIANT BUGS\nHERE EAT\nANYTHING...",
+        "t006": "THEY SAY THEIR\nBELLIES HOLD\nEVEN SCRAP!"
+      },
+      "notes": [
+        "Retains oversized insects eating anything and the explicitly hearsay claim of scrap in their bellies."
+      ]
+    },
+    {
+      "id": "script:052000:016",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t003": "WORLD'S TOO\nRIGID FOR A\nFREE LIFE."
+      },
+      "notes": [
+        "Keeps the outlaw’s complaint that a rigid world leaves too little room to live freely; no plan or destination is implied."
+      ]
+    },
+    {
+      "id": "script:052000:017",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": [
+          "WEY DUMNA\nSETTLED\nWISPERARD\n300 YEARS AGO.",
+          "IF ITS PEOPLE\nGO TO WAR,\nIT'S ALL OVER."
+        ]
+      },
+      "notes": [
+        "Preserves both provisional proper names, the 300-year settlement reference and the man’s warning; “settled” condenses the founding pioneer description."
+      ]
+    },
+    {
+      "id": "script:052000:018",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": "NO MERCY IN\nWAR. HARDEN UP\nOR YOU'LL DIE!"
+      },
+      "notes": [
+        "Retains the older woman’s severe warning that mercy in war can get the listener killed."
+      ]
+    },
+    {
+      "id": "script:052000:020",
+      "basedOn": "2818883a8e2818f6756b469f2b8c3af5415efdb6c209aa5502af8f900ecce096",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "I'LL WORK HARD\nFOR A SHIP OF\nMY OWN, THEN\nSAIL THE STARS"
+      },
+      "notes": [
+        "“Sail the stars” retains the source’s ocean-of-space image while keeping his earnest ambition; the future departure remains a hope, not an accomplished plan."
+      ]
+    }
+  ]
+}

@@ -73,7 +73,7 @@
       "notes": [
         "043 is the name-sharing response; 042 is refusal. 044/045 are conditional repeat interactions, not consecutive dialogue."
       ],
-      "reviewNote": "Read the Japanese and connected context, then reviewed the complete canonical dialogue for intent, character voice, uncertainty, terminology and unsupported implications. Adaptation and runtime approval are separate."
+      "reviewNote": "Re-read the complete introduction, choice responses and repeats against source after the 2026-09-24 screenshot. The choice prompt follows Jane on the current body cursor; the repeated style command does not place it in a separate header row."
     },
     {
       "id": "hamack-scrap",
@@ -204,7 +204,8 @@
         "character.lucia"
       ],
       "evidence": [
-        "Original decoded entries and preserved name/control/command tokens."
+        "Original decoded entries and preserved name/control/command tokens.",
+        "Player screenshots 2026-09-23 14.29.46–14.30.18 confirm the complete sequence and speakers."
       ],
       "uncertainty": [
         "Runtime route and branch activation need playtesting."
@@ -311,7 +312,7 @@
         "notes": []
       },
       "findings": [
-        "The original name prompt uses the header area; kept within one row. Empty text span before the header retains its token and all controls. The town, self-introduction and question remain."
+        "2026-09-24 playtest: the repeated header/style command does not reset the body cursor. Restore the source newline and reserve a fourth body row for the yellow choice prompt."
       ],
       "adaptationAssessment": {
         "status": "needs_adaptation",
@@ -488,7 +489,7 @@
     },
     {
       "id": "script:051000:019",
-      "sourceFingerprint": "ad975c854bff1054ae5bb1b6ee3b8412e58993abf67beefb8c4ba73311c40eda",
+      "sourceFingerprint": "c1dddc02b247b5db35f367b7abab30c575e23e1ff050cd53c0148803eb1acc72",
       "canonicalEnglish": "Karu: Welcome home, Sion. Hello, Shoko.\nSion: Karu! Where did Mom go?\nKaru: Karu does not know.\nShoko: Your mother's gone out?\nKaru: She left without saying anything.\nSion: She didn't even say where she was going?\nKaru: Karu does not know.\nSion: No use. Karu's an older model with no image playback... Nothing we can do about that. Karu, will you come help me look for Mom?\nKaru: Karu will go with Sion.",
       "context": {
         "speaker": "Sion / Shoko / Karu",
@@ -499,15 +500,17 @@
         "uncertainty": [],
         "notes": []
       },
-      "findings": [],
+      "findings": [
+        "Revisited after the player's 2026-09-23 14.29.46–14.30.18 screenshots. Earlier all-detail fitting was blocked. Batch 05 retains the lack of video playback and invitation to find Mom while explicitly omitting the older-model explanation in the constrained adaptation; canonical English remains complete."
+      ],
       "adaptationAssessment": {
-        "status": "DOES_NOT_FIT",
-        "reason": "Sion's single existing page combines older-model/image-playback explanation, resignation, Karu name substitution and invitation to search for Mom. Preserving these naturally exceeds 14 cells by four rows; requires verified extra paging or narrower rendering. Control-flow review for reinsertion also remains pending."
+        "status": "needs_adaptation",
+        "reason": null
       }
     },
     {
       "id": "script:082000:002",
-      "sourceFingerprint": "5c4c98e7057d65e12a617ff3bffff2802ad392a9b4766d79d62f97fffc443456",
+      "sourceFingerprint": "d77e4f1d71a10b488e1447ea7f6d2107faa9d12fd2ec9018ac45dcb653085c3b",
       "canonicalEnglish": "Joe: Let's head into Hamack and ask around about Lucia.\nSion: But where do we even start?\nJoe: There should be informants at the bar. They might know something.",
       "context": {
         "speaker": "Joe / Sion",
@@ -528,7 +531,7 @@
     },
     {
       "id": "script:052000:019",
-      "sourceFingerprint": "a6bbb55540572d783d1461cb6499b356f18e0b114e862b2319265a930fe453b4",
+      "sourceFingerprint": "1f3ee6f46c8d17cc1852360b8bb729040c67cef01d87faeb56cb0116315ba0bf",
       "canonicalEnglish": "Girl: I hear there's a weird old man called Scrap Joe at Dust, the waste facility. He's always building shady-looking things.",
       "context": {
         "speaker": "Girl",
@@ -549,7 +552,7 @@
     },
     {
       "id": "script:052000:084",
-      "sourceFingerprint": "228e735bd70243827f61cbe65210e170624ddd182448174342086afe4ab2d471",
+      "sourceFingerprint": "704f10c2273ece4602bdb195a0d83e1f1ba2b3c98364ab511758c08df4d67470",
       "canonicalEnglish": "Girl: Oh, hello.",
       "context": {
         "speaker": "Girl",

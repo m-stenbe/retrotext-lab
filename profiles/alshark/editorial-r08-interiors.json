@@ -1,0 +1,417 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R08 localizer independent source and connected English review",
+  "scenes": [
+    {
+      "id": "teswil-building-residents",
+      "records": [
+        "script:061000:000",
+        "script:061000:001",
+        "script:061000:002",
+        "script:061000:003",
+        "script:061000:004",
+        "script:061000:005",
+        "script:061000:006",
+        "script:061000:007",
+        "script:061000:008",
+        "script:061000:009",
+        "script:061000:010",
+        "script:061000:011",
+        "script:061000:012",
+        "script:061000:014",
+        "script:061000:015",
+        "script:061000:016",
+        "script:061000:017",
+        "script:061000:018"
+      ],
+      "participants": [
+        "Teswil residents",
+        "Shaina",
+        "Party"
+      ],
+      "location": "Teswil buildings",
+      "storyState": "Mars mainland leave before the sea crossing to Daina.",
+      "purpose": "Every reachable building resident, cleaner repeats and Shaina visit",
+      "previousContext": [
+        "Roy grants leave while prohibiting Atraia use."
+      ],
+      "followingContext": [
+        "The video letter invites the party to Daina; that crossing starts the next section."
+      ],
+      "branchAlternatives": [
+        "Optional resident conversations are separate alternatives, not a continuous exchange.",
+        "The cleaner has several repeat responses; Shaina offers tea once and a welcome thereafter."
+      ],
+      "terminology": [
+        "place.mars",
+        "place.teswil",
+        "place.stea",
+        "place.juke",
+        "place.trim",
+        "faction.wyuria",
+        "faction.zolias",
+        "character.wey_dumna",
+        "place.wisperard",
+        "character.shaina"
+      ],
+      "evidence": [
+        "Original script bank and map roots inventoried in r08_flow.py.",
+        "Complete source read independently against manager canonical draft before this review.",
+        "Shaina004 checks/sets2f;017 checks/sets00 for tea, with018 as later welcome. No personal relationship to the party is inferred beyond her recognition."
+      ],
+      "uncertainty": [
+        "Place and person spellings remain provisional; runtime traversal unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Independently read original Japanese and complete English branch groups. Preserve fares, destinations, uncertainty in reports, NPC war anxiety, the educational-life/grave joke, and Shaina’s independence and hospitality."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:061000:000",
+      "sourceFingerprint": "9c11edccf811554bafb7214979a1cda993288339ec4fe3967612227118399146",
+      "canonicalEnglish": "Outlaw: What? Got a problem with me cleaning this building? Leave me alone!",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:001",
+      "sourceFingerprint": "b7b45b1d1075c342137e1525d9b8b1a90cbbbcab1e44521e27aba88b825f46ed",
+      "canonicalEnglish": "Young Man: Heh heh. I’m working hard to become a game programmer.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:002",
+      "sourceFingerprint": "c34d25c2800641ed59a2018958ce243b938eca4998d943ed0def5c28989d8ea6",
+      "canonicalEnglish": "Soldier: Instead of sitting around fretting over nothing, get out there and do something! That’s what matters.",
+      "context": {
+        "speaker": "Soldier",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:003",
+      "sourceFingerprint": "cf8f15866ee7b6e6cd28bda2d47074d635280b3cd1cc3f3b8c705ec83833ab16",
+      "canonicalEnglish": "Man: It’s rare nowadays, but it seems the women of Mars once had all sorts of special abilities.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:004",
+      "sourceFingerprint": "b5332455b607dbbdc2bb3b20c273bb738f5b67f80583845fcbdfafc33ba1b676",
+      "canonicalEnglish": "Shaina: Oh, it's you... I've left home and decided to live on my own. I can't keep relying on my parents forever.",
+      "context": {
+        "speaker": "Shaina",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:005",
+      "sourceFingerprint": "a3edba62b7e20f6a6d4df5522aa22a6fb7b54756b58ff82a6adf6fd9417b0c4b",
+      "canonicalEnglish": "Old Man: It’s so peaceful here. Hard to believe Wyuria and Zolias are at war.",
+      "context": {
+        "speaker": "Old Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:006",
+      "sourceFingerprint": "fdc007b8fabe7c89b0d80fa4ad1fb9e14ba7be3991dc2b91dc065cbabdbf3287",
+      "canonicalEnglish": "Woman: My husband serves in the Federation Space Navy. I’m so afraid of what might happen if war breaks out with Zolias that I can’t sleep at night.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:007",
+      "sourceFingerprint": "dd42c84414e2cc3b7f43d7aa1f2027d168c2b335310ace5c29ce25b7f2733889",
+      "canonicalEnglish": "Young Man: If war breaks out, I’m sure I’ll be drafted, too.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:008",
+      "sourceFingerprint": "d89e92ccbf134b336bdf8b074e6e31a278f3418ce40c66ebaebf3ba39d99188d",
+      "canonicalEnglish": "Young Woman: I'm interested in archaeology and have been studying it. Wisperard's greatest mystery has to be the legacy Dumna left behind. They say his vast legacy lies hidden somewhere in this universe.",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:009",
+      "sourceFingerprint": "43c697458caf293706abf3c2f99f34166cf0d1e265041ababbe63eb13e4d4264",
+      "canonicalEnglish": "Man: Sorry. I’m working.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:010",
+      "sourceFingerprint": "65910101dcbe03736272c95780dd7848272f8680be4b440d483da9ac405ac7fc",
+      "canonicalEnglish": "Old Woman: I’m trying to learn to use one of those personal computers. My, it’s difficult.",
+      "context": {
+        "speaker": "Old Woman",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:011",
+      "sourceFingerprint": "971a6f11f97e021848dc1b8c565a81ffb1fa4fee93c131ec363d33b1a5f7b73b",
+      "canonicalEnglish": "Young Man: “Study, study!” They never shut up about it. Honestly!",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:012",
+      "sourceFingerprint": "869fee6544e6f33b486a299677beb39f79eaf45f934b88a2213929f228b7aa31",
+      "canonicalEnglish": "Woman: Go to a good school, join a good company, marry a good wife, have good children... and end up in a good grave!",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:014",
+      "sourceFingerprint": "27914e91510620029196dc2b44ababdb8b4aa73951da2176d348d0c1ff726055",
+      "canonicalEnglish": "Outlaw: You’re persistent. I told you to leave me alone.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:015",
+      "sourceFingerprint": "15e79997c0415f28b27bc57010ac8a16dffaf225900129f0f2d99e503f1104d8",
+      "canonicalEnglish": "Outlaw: Shut up.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:016",
+      "sourceFingerprint": "5e43ea6609e8e87e5aa385bd9b24a0c68457e7a4fedafc20b72f5f7fae8a4672",
+      "canonicalEnglish": "Outlaw: Damn, you’re annoying.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:017",
+      "sourceFingerprint": "e0edb8adb502bb6d7fa6a28ac1cdb4cc7a3b1f19bf969edc77a5685c2d84b498",
+      "canonicalEnglish": "Shaina: It’s good to see you. Stay for some tea.\nNarration: Sion and the others spent a pleasant time with Shaina.",
+      "context": {
+        "speaker": "Shaina",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:061000:018",
+      "sourceFingerprint": "44dbc2d1d4967e6b28deb3cca07476d53e64cb95240d7afa5d645fc5bbbb9195",
+      "canonicalEnglish": "Shaina: Come by any time. You’re always welcome.",
+      "context": {
+        "speaker": "Shaina",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

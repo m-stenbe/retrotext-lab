@@ -1,0 +1,376 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R08 localizer independent source and connected English review",
+  "scenes": [
+    {
+      "id": "mars-spaceport",
+      "records": [
+        "script:05f000:031",
+        "script:05f000:032",
+        "script:05f000:033",
+        "script:05f000:034",
+        "script:05f000:035",
+        "script:05f000:036",
+        "script:05f000:037",
+        "script:05f000:038",
+        "script:05f000:039",
+        "script:05f000:040",
+        "script:05f000:041",
+        "script:05f000:042",
+        "script:05f000:043",
+        "script:05f000:056",
+        "script:05f000:058",
+        "script:05f000:059"
+      ],
+      "participants": [
+        "Mars residents and travelers",
+        "Party"
+      ],
+      "location": "Mars Spaceport",
+      "storyState": "Mars mainland leave before the sea crossing to Daina.",
+      "purpose": "Spaceport information and complete bus purchase/travel alternatives",
+      "previousContext": [
+        "Roy grants leave while prohibiting Atraia use."
+      ],
+      "followingContext": [
+        "The video letter invites the party to Daina; that crossing starts the next section."
+      ],
+      "branchAlternatives": [
+        "Optional resident conversations are separate alternatives, not a continuous exchange.",
+        "Bus departures do not promise exploration of other planets."
+      ],
+      "terminology": [
+        "place.mars",
+        "place.teswil",
+        "place.stea",
+        "place.juke",
+        "place.trim",
+        "faction.wyuria",
+        "faction.zolias",
+        "character.wey_dumna",
+        "place.wisperard",
+        "character.shaina",
+        "place.wyultria"
+      ],
+      "evidence": [
+        "Original script bank and map roots inventoried in r08_flow.py.",
+        "Complete source read independently against manager canonical draft before this review."
+      ],
+      "uncertainty": [
+        "Place and person spellings remain provisional; runtime traversal unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Independently read original Japanese and complete English branch groups. Preserve fares, destinations, uncertainty in reports, NPC war anxiety, the educational-life/grave joke, and Shaina’s independence and hospitality."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05f000:031",
+      "sourceFingerprint": "d41da3c0aff97abf267ba2cd61aba12ca847ea57764a78c453261b61fc0fa550",
+      "canonicalEnglish": "Ticket Clerk: Welcome. A ticket to Zajil is 100 credits. Would you like one?",
+      "context": {
+        "speaker": "Ticket Clerk",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:032",
+      "sourceFingerprint": "c5b5b857bf5a463111c080538500eafe97571a7bcb1104c0f23b51d43691339a",
+      "canonicalEnglish": "Ticket Clerk: Welcome. A ticket to Stea is 120 credits. Would you like one?",
+      "context": {
+        "speaker": "Ticket Clerk",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:033",
+      "sourceFingerprint": "26f21491725c7577414b92ee2a90be8c3d4fa9a8c71bc16dc6672bf3b49cc560",
+      "canonicalEnglish": "Ticket Clerk: Welcome. A ticket to Juke is 240 credits. Would you like one?",
+      "context": {
+        "speaker": "Ticket Clerk",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:034",
+      "sourceFingerprint": "c77a2c325d96039f8c8552b8ae3453c7385861e9a8281fe5e5d9d526505e055f",
+      "canonicalEnglish": "Man: If you've come to the Federation's main planet, you ought to pay your respects at Dumna's memorial.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:035",
+      "sourceFingerprint": "4cf0cb90b29d2dce351a73728fd504cae611dba0628201e30ed2098cbfe2acd1",
+      "canonicalEnglish": "Wyurian Noble: The Mars Federation is even more prosperous than I'd heard. Still, it has a long way to go to match our main world, Wyultria...",
+      "context": {
+        "speaker": "Wyurian Noble",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:036",
+      "sourceFingerprint": "e74df7d064a764574b2d5576b00dcd4a195e547b73b0b0a3c5523ff734580c0c",
+      "canonicalEnglish": "Young Man: That big city just outside is Teswil, the capital of Mars.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:037",
+      "sourceFingerprint": "aa78691240990eb3a084b0a7e4b94175630a552ccd5759d7838fd1de2a93a3f7",
+      "canonicalEnglish": "Girl: Hello. Are you taking the interstellar bus, too?",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:038",
+      "sourceFingerprint": "cef29492ee126b671a1448e1cf7e3b08c57a2cf70a612e757cef273033ae8ea6",
+      "canonicalEnglish": "Woman: Juke is an ice planet where development has only just begun. Apart from a few settled green areas, most of the land is covered in ice. It sounds like a harsh place to live.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:039",
+      "sourceFingerprint": "0f083b4230206e4c331d8fe6ac882c6f584bddee738952808493ec96fa0571f6",
+      "canonicalEnglish": "Girl: Be careful wandering around out on the land. Insects and things sometimes attack people.",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:040",
+      "sourceFingerprint": "24b6c18458d260179b8b5ccab6943c0115c2da9f5a2e1f971d3e32bd341c03e7",
+      "canonicalEnglish": "Young Man: I hear the Federation military headquarters is on Trim, a moon of Mars.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:041",
+      "sourceFingerprint": "8dddb16605b6bd5b888389c3aa9d984d51e82a9f521f5f9c14480ed098126b65",
+      "canonicalEnglish": "Ticket Clerk: Will you be taking the interstellar bus?",
+      "context": {
+        "speaker": "Ticket Clerk",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:042",
+      "sourceFingerprint": "47b52075254c4ae29a25ff59511a23254c53ae8633c8e0b583ccff67577ddf5f",
+      "canonicalEnglish": "Ticket Clerk: Which destination are you traveling to?",
+      "context": {
+        "speaker": "Ticket Clerk",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:043",
+      "sourceFingerprint": "07f983ff23f342637bf30a6fca7a77c28f1bdcc49c2d5bc20aad6a0ae874617d",
+      "canonicalEnglish": "Zajil\nStea\nJuke\nCancel",
+      "context": {
+        "speaker": "Zajil\nStea\nJuke\nCancel",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:056",
+      "sourceFingerprint": "479a70848bf27c282f89fbfdaae63f7db35a6f65c47cc5216637b486f1c9d661",
+      "canonicalEnglish": "Narration: The party boarded the interstellar bus bound for Zajil.",
+      "context": {
+        "speaker": "Narration",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:058",
+      "sourceFingerprint": "9d836405c185f4f2efe19ce1dcd904fcf58ed2f4f6e3508611ee8ecbb2aa71e8",
+      "canonicalEnglish": "Narration: The party boarded the interstellar bus bound for Juke.",
+      "context": {
+        "speaker": "Narration",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:059",
+      "sourceFingerprint": "8ab6113fdafa08a022159daa3dc1cf58d65e5a48f7a420b2f2dd6bb57576d982",
+      "canonicalEnglish": "Ticket Clerk: Would you like to return to CS Station?",
+      "context": {
+        "speaker": "Ticket Clerk",
+        "listener": "Party / customer",
+        "intent": "Local information, personal comment or service",
+        "tone": "As in canonical dialogue; concern, courtesy, humor or hostility",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

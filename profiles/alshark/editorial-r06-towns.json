@@ -1,0 +1,482 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R06 manager connected source/editorial review",
+  "scenes": [
+    {
+      "id": "r06-zajil-town-aftermath",
+      "records": [
+        "script:05a000:019",
+        "script:05a000:020",
+        "script:05a000:021",
+        "script:05a000:022",
+        "script:05a000:023",
+        "script:05a000:024",
+        "script:05a000:025",
+        "script:05a000:026",
+        "script:05a000:027",
+        "script:05a000:028",
+        "script:05b000:039",
+        "script:05b000:040",
+        "script:05b000:041",
+        "script:05b000:042",
+        "script:05b000:044",
+        "script:05b000:045"
+      ],
+      "participants": [
+        "Porkin and Saibal residents"
+      ],
+      "location": "Porkin and Saibal",
+      "storyState": "After the Tomyu fight sets19, including the optional100-credit reward and repeat27.",
+      "purpose": "Show the towns responding to the syndicate defeat, with conditional service and reward alternatives.",
+      "previousContext": [
+        "Tomyu has been confronted following the kidnapping."
+      ],
+      "followingContext": [
+        "Rescue Shoko at the military station; subsequent town visits retain these alternatives."
+      ],
+      "branchAlternatives": [
+        "05a003 supplies the Porkin introduction before post-victory020.",
+        "05a015 offers reward026 once, then028 after flag27.",
+        "05b042 still branches to043 denial after lamenting the lost Kidun supply."
+      ],
+      "terminology": [
+        "place.porkin",
+        "place.saibal",
+        "faction.mars_federation",
+        "drug.kidun"
+      ],
+      "evidence": [
+        "r06_flow.py exact flags/branches; original token packet and independent QA source review."
+      ],
+      "uncertainty": [
+        "Runtime appearance remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Read all Japanese reaction branches against their prior fearful or hostile dialogue, then read English together. Preserve the outlaw seeking honest work, Kidun joke/denial, mock-presidential greeting and exact100-credit one-time reward."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05a000:019",
+      "sourceFingerprint": "473cf848f912e5e521b41eba513b96cb76e1b5a26c4bef3f5721ca78a1f61242",
+      "canonicalEnglish": "Scrapper: Well done! I knew you lot would pull it off!",
+      "context": {
+        "speaker": "Scrapper",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:020",
+      "sourceFingerprint": "30b5a89027982b3bf23c6b330ff027a7018da73dc05f6d2c065cb5e76ea058bf",
+      "canonicalEnglish": "Young Man: This is Porkin, a country town on Zajil. It's a really nice place.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Canonical020 includes the shared introductory sentence for continuous reading; adaptation supplies only its continuation."
+        ]
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:021",
+      "sourceFingerprint": "7b2c8ffe95765481f95e91578d15d108be9911e7d89747a9ea027dd45043581b",
+      "canonicalEnglish": "Call Girl: You lot are really something!",
+      "context": {
+        "speaker": "Call Girl",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:022",
+      "sourceFingerprint": "780c8b6f4f08cc0cdafdb4bd2a527030fb1f6c064eb5ec2309520717d96673ae",
+      "canonicalEnglish": "Outlaw: Well, I was thinking of earning an honest living. Know of any work?",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:023",
+      "sourceFingerprint": "e57696640f1fd48e481d763a27d3e2d3f96e647136e5dd694baa1fe155518eb1",
+      "canonicalEnglish": "Man: Anything you want to know, just ask!",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:024",
+      "sourceFingerprint": "80220be30537eb4589a1bcf0f27cc4e2343fe7d4dba00f73f93b24e0e60b08c0",
+      "canonicalEnglish": "Woman: Why not stay for some tea and a chat with the old man?",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:025",
+      "sourceFingerprint": "0662f778b485fc57005e18156318b53acfaee4c630f671c46b33944e8589688b",
+      "canonicalEnglish": "Old Man: You remind me of myself when I was young.",
+      "context": {
+        "speaker": "Old Man",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:026",
+      "sourceFingerprint": "c3b663a7991b69bf9b81ee9e409987df7fa997a22260d387a1828dfb92b088d4",
+      "canonicalEnglish": "Man: It isn't much, but please take this.\nReceived 100 credits.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:027",
+      "sourceFingerprint": "84bd4dbe11b1c3e6581eb0ef2eae70a23315cbcc41c6c3e4f0eefae53d03d4a6",
+      "canonicalEnglish": "Girl: Thank you. Thanks to you, our town can be peaceful again.",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:028",
+      "sourceFingerprint": "08e8bb773bec8a41182b1386bb04fe582b9292fe2e8ddf08474eef777fbb4b67",
+      "canonicalEnglish": "Man: Keep at it!",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:039",
+      "sourceFingerprint": "df69983d1cd81131ab7e2a20b2e67a5beeefc782dbd96b0ddc482ac53680073c",
+      "canonicalEnglish": "Outlaw: Hey, Mr. President! Come on over!",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:040",
+      "sourceFingerprint": "3cb4d5b4bce63a0687d7536ea2010716da2553aa58abd14fc8d9ef39347e201d",
+      "canonicalEnglish": "Woman: I've decided to stay here a little longer.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:041",
+      "sourceFingerprint": "a75e63b080c4b56c370e2f14ed4919901222059fbc3582e91d14d865de33c6de",
+      "canonicalEnglish": "Young Man: The Federation really does come through, huh?",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:042",
+      "sourceFingerprint": "7cc893a9dbbebff3e4ffa62b436b50d85f1c39b0e08cb0d6ba57640ed4054ce1",
+      "canonicalEnglish": "Young Man: Hmm... It's a bit of a shame I can't get Kidun anymore.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:044",
+      "sourceFingerprint": "17a3df3182854caa4035f06044c5854cc9f6ef32a2deff413b5a85d99fc1e67d",
+      "canonicalEnglish": "Woman: Thank you so much. Now we can live here without worrying.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:045",
+      "sourceFingerprint": "151610dee9e2dbc8f30aabcc85d273b2d2816372859c3ee7c032223097011cbb",
+      "canonicalEnglish": "Man: Nice work. You're as good as they say.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player party",
+        "intent": "React to the syndicate defeat or offer a reward/service.",
+        "tone": "Relief, gratitude, opportunistic praise, or rueful humor as stated.",
+        "terminology": [
+          "place.porkin",
+          "place.saibal",
+          "faction.mars_federation",
+          "drug.kidun"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Read prior root and post-victory alternative together."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

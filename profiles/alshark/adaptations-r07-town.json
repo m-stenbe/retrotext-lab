@@ -1,0 +1,238 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "byuto-shops-and-scrap",
+    "byuto-town-and-ray-ball"
+  ],
+  "records": [
+    {
+      "id": "script:060000:000",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t002": "KAINAN'S SHOP",
+        "t004": "WELCOME! WHAT\nWILL IT BE?"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:001",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t002": "WEAPON KAINAN",
+        "t004": "A PLASMA GUN\nWORKS WELL ON\nTHOSE RED\nMONSTERS!"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:002",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t002": "SCRAP EXCHANGE",
+        "t004": "NEED SCRAP?\nCOME ANY TIME."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:003",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "KEEP SOME\nSCRAP. YOU MAY\nNEED IT."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Scrap-sale warning becomes advice to keep some for possible later need."
+      ]
+    },
+    {
+      "id": "script:060000:004",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t003": "THIS\nBACKWATER?\nWELL, GOOD\nLUCK TO YOU."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:005",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t004": "RED MONSTERS\nKILLED SO MANY\nPEOPLE."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Drops the adjective horrible; keeps red monsters and many deaths."
+      ]
+    },
+    {
+      "id": "script:060000:006",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t004": [
+          "MONSTERS POUR\nOUT OF THE\nMINE.",
+          "WE CAN'T GET\nANY WORK DONE!"
+        ]
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:007",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t004": "MY SON WENT TO\nTHE MINE. HE\nIS NOT BACK."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Retains missing son, mine destination and failure to return; omits investigation purpose and accompanying townsfolk in the small allocation."
+      ]
+    },
+    {
+      "id": "script:060000:008",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t001": "OLD MAN",
+        "t005": "MY WIFE HAS A\nGIFT. GO FIND\nHER."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Calls the useful item a gift; request instruction is implicit in finding the wife."
+      ]
+    },
+    {
+      "id": "script:060000:009",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t005": "HERE TO SLAY\nTHE MONSTERS?\nTHEN TAKE\nTHIS.",
+        "t011": "GOT A RAY\nBALL."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:010",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t001": "MAKE ROOM IN\nYOUR BAGS."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:011",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t000": "TOOLS\nLEAVE"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:012",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:013",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t001": "COME AGAIN!"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:014",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t001": "UM... NOT\nENOUGH MONEY."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:015",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t000": "ARMS\nARMOR\nLEAVE"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:016",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:017",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:018",
+      "basedOn": "7a9201729e8fd204a9e32f056ad0a71692ef62d6860a0f061395f9f7a875df23",
+      "inGameEnglish": {
+        "t001": "EARN CASH\nFIRST."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Short shop dismissal keeps earning money; explicit return invitation omitted."
+      ]
+    },
+    {
+      "id": "script:060000:019",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t000": "DO YOUR BEST!"
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    },
+    {
+      "id": "script:060000:020",
+      "basedOn": "ca773c0d1c69cac497da7f1c04885eb1878e3ffccf5b31701793f9b3da5d50c7",
+      "inGameEnglish": {
+        "t000": "SORRY, I ONLY\nHAD ONE."
+      },
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained."
+      ]
+    }
+  ]
+}

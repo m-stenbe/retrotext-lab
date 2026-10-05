@@ -1,0 +1,73 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "meteor-arrival",
+    "meteor-aftermath"
+  ],
+  "records": [
+    {
+      "id": "script:051000:029",
+      "basedOn": "002a4c49e436429282af1193c87bc420fb041b8e9cf7fe81a82af275768d7068",
+      "inGameEnglish": {
+        "t002": "'S PARTY\n",
+        "t004": "REACH THE\nMETEOR"
+      },
+      "notes": [
+        "Retains arrival, party and meteor site; all cinematic/event payloads and delay are preserved.",
+        "2026-09-24 fitting: small punctuation/acknowledgement adjustment pays for restoring narration attributes after line breaks; canonical meaning is unchanged."
+      ]
+    },
+    {
+      "id": "script:051000:030",
+      "basedOn": "5d4c2244fb103c981c9b0f5091ee46e8e113b6612439d3032649aacd58aeb7be",
+      "inGameEnglish": {
+        "t005": "DAD!\nHANG ON, DAD!",
+        "t012": "S...",
+        "t014": "...\n",
+        "t016": "...\nWHY... HERE?",
+        "t022": "NEVER MIND!\nWE MUST TREAT\nYOUR WOUNDS...",
+        "t028": "I... WON'T...\nMAKE IT.",
+        "t034": "PLEASE,\nDON'T DIE!\nFATHER...\nWHY...?!",
+        "t040": "BOTH OF YOU...\nLISTEN...\n",
+        "t042": "GO TO JOE...\nSCRAP JOE...",
+        "t045": "HE SHOULD...\nHELP YOU...\n",
+        "t047": "WHAT HAPPENED\nTO MAMON...?",
+        "t050": "THEY PURSUED\nWHOEVER CAME\nIN THE METEOR.\nAL...SHARK!",
+        "t057": "DAD! DAAAD!\nDAMN THOSE\nZOLIAS TROOPS!\nUNFORGIVABLE!"
+      },
+      "notes": [
+        "Keeps the Scrap Joe destination, qualified help, Mamon question, pursuit and broken Alshark name. Please replaces Shoko's familiar address to Jido without inventing kinship. Her Father remains separate. Reduces pauses and treats who came in the meteor as unknown. Sion's refusal to forgive becomes Unforgivable; urgency remains in commands and exclamations. No new wait/clear controls."
+      ]
+    },
+    {
+      "id": "script:053000:000",
+      "basedOn": "5d4c2244fb103c981c9b0f5091ee46e8e113b6612439d3032649aacd58aeb7be",
+      "inGameEnglish": {
+        "t004": "S...",
+        "t006": "...",
+        "t008": "\nDON'T HATE DAD\nHE MUST HAVE\nHAD A REASON.",
+        "t014": "",
+        "t016": ", ZOLIAS\nMUST HAVE DONE",
+        "t018": "\nSOMETHING TO\nDR. PENROSE.",
+        "t021": "I'LL EXPOSE\nTHEIR SECRET\nAND SAVE HIM!\nDON'T WORRY.",
+        "t027": "THANKS, SION.",
+        "t033": "LET'S GO.\nTHEY MIGHT\nCOME BACK.",
+        "t039": "YES. BACK\nTO COSMA."
+      },
+      "notes": [
+        "Shoko's speechlessness is conveyed through her stammer; the explicit I do not know what to say is omitted. Sion addresses her by name and retains the suspicion that Zolias did something to Dr. Penrose, without specifying what. Omits separate reassurance I know and reduces thanks and agreement. Cosma destination remains explicit."
+      ]
+    },
+    {
+      "id": "script:053000:013",
+      "basedOn": "5d4c2244fb103c981c9b0f5091ee46e8e113b6612439d3032649aacd58aeb7be",
+      "inGameEnglish": {
+        "t001": "THERE WAS",
+        "t003": "\nNO REPLY."
+      },
+      "notes": [
+        "Shortens the explicit action of speaking, already supplied by interacting; retains the lack of reply."
+      ]
+    }
+  ]
+}

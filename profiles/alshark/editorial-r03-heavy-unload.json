@@ -1,0 +1,68 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Astra R03 source editorial review",
+  "scenes": [
+    {
+      "id": "atraia-heavy-unload-refusal",
+      "records": [
+        "fixed:System:00209a"
+      ],
+      "participants": [
+        "Joe",
+        "Sion"
+      ],
+      "location": "Atraia hangar interface",
+      "storyState": "After ship acquisition, when trying to unload gear too heavy to carry.",
+      "purpose": "Cover the ship-gear unloading refusal in the shared field-script renderer.",
+      "previousContext": [
+        "The player selects an item or ship component to take out of the hangar."
+      ],
+      "followingContext": [
+        "The failed unloading attempt returns to the hangar interface."
+      ],
+      "branchAlternatives": [
+        "Separate from an empty hangar or a full inventory: this refusal concerns the selected object being too heavy to carry."
+      ],
+      "terminology": [
+        "character.joe"
+      ],
+      "evidence": [
+        "QA/RE ship hangar UNLOAD caller and fixed System script0x209a; immutable Joe name/header tokens."
+      ],
+      "uncertainty": [
+        "Runtime interaction remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Reviewed the source as Joe’s incredulous refusal: the object is too heavy to carry; no claim about storage capacity or character stats is added."
+    }
+  ],
+  "records": [
+    {
+      "id": "fixed:System:00209a",
+      "sourceFingerprint": "6b7edc4e6e17b1d57a5435a0fc1da31f592e94ef0a6acd48e63bc839edf4a54c",
+      "canonicalEnglish": "Joe: Hey, now! You can’t carry something that heavy!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion / player",
+        "intent": "Refuse to unload an object that cannot be carried because it is too heavy.",
+        "tone": "Incredulous, practical",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "The original Joe name/header token already supplies the speaker."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

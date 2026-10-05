@@ -1,0 +1,976 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R04 connected-scene source editorial review",
+  "scenes": [
+    {
+      "id": "cosmic-hawk-induction",
+      "records": [
+        "script:05c000:000",
+        "script:05c000:001"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Roy",
+        "Station personnel"
+      ],
+      "location": "Cosmic Hawk station and Atraia",
+      "storyState": "After the rescue, through the first briefing; before departing on the Zajil mission.",
+      "purpose": "The coerced induction",
+      "previousContext": [
+        "Welda escorted the group and their unregistered ship to the station."
+      ],
+      "followingContext": [
+        "The first mission is to investigate and destroy the Karilas drug syndicate on Zajil. Departure is the next section."
+      ],
+      "branchAlternatives": [
+        "Station meaning question has yes/no responses. Scientist, inspected-ship barrier and acronym interaction set tour flags; their conjunction summons the party.",
+        "Party and bridge lines are conditional alternatives, not consecutive conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "faction.zolias",
+        "faction.wyuria",
+        "people.myuntos",
+        "ship.atraia",
+        "character.welda",
+        "character.roy_bester",
+        "character.joe_compson",
+        "faction.chausnomyu",
+        "organization.cosmic_hawk",
+        "place.zajil",
+        "place.saibal",
+        "drug.kidun",
+        "condition.biojunk",
+        "creature.bio_beast",
+        "faction.karilas",
+        "character.tomyu"
+      ],
+      "evidence": [
+        "R04 RE route packet: map30 bank05c000 roots; Roy009 dispatches05d000:000; briefing sets flag16."
+      ],
+      "uncertainty": [
+        "New personal and organization spellings are provisional.",
+        "Runtime traversal remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Read each complete connected English scene against source and preceding rescue. Preserve coerced service, minder/babysitter joke, the conditional tour branches, the specific fictional drug effects and lethal mission risk; distinguish the photographic evidence from earlier failed infiltrations."
+    },
+    {
+      "id": "cosmic-hawk-station-tour",
+      "records": [
+        "script:05c000:002",
+        "script:05c000:003",
+        "script:05c000:004",
+        "script:05c000:005",
+        "script:05c000:006",
+        "script:05c000:007",
+        "script:05c000:008",
+        "script:05c000:010",
+        "script:05c000:011",
+        "script:05c000:012",
+        "script:05c000:013",
+        "script:05c000:014",
+        "script:05c000:016",
+        "script:05c000:017",
+        "script:05c000:018",
+        "script:05c000:020",
+        "script:05c000:021",
+        "script:05c000:022",
+        "script:05c000:023",
+        "script:05c000:024",
+        "script:05c000:026",
+        "script:05c000:036",
+        "script:05c000:037"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Roy",
+        "Station personnel"
+      ],
+      "location": "Cosmic Hawk station and Atraia",
+      "storyState": "After the rescue, through the first briefing; before departing on the Zajil mission.",
+      "purpose": "The station tour, alternatives and shared speaker headers",
+      "previousContext": [
+        "Welda escorted the group and their unregistered ship to the station."
+      ],
+      "followingContext": [
+        "The first mission is to investigate and destroy the Karilas drug syndicate on Zajil. Departure is the next section."
+      ],
+      "branchAlternatives": [
+        "Station meaning question has yes/no responses. Scientist, inspected-ship barrier and acronym interaction set tour flags; their conjunction summons the party.",
+        "Party and bridge lines are conditional alternatives, not consecutive conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "faction.zolias",
+        "faction.wyuria",
+        "people.myuntos",
+        "ship.atraia",
+        "character.welda",
+        "character.roy_bester",
+        "character.joe_compson",
+        "faction.chausnomyu",
+        "organization.cosmic_hawk",
+        "place.zajil",
+        "place.saibal",
+        "drug.kidun",
+        "condition.biojunk",
+        "creature.bio_beast",
+        "faction.karilas",
+        "character.tomyu"
+      ],
+      "evidence": [
+        "R04 RE route packet: map30 bank05c000 roots; Roy009 dispatches05d000:000; briefing sets flag16."
+      ],
+      "uncertainty": [
+        "New personal and organization spellings are provisional.",
+        "Runtime traversal remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Read each complete connected English scene against source and preceding rescue. Preserve coerced service, minder/babysitter joke, the conditional tour branches, the specific fictional drug effects and lethal mission risk; distinguish the photographic evidence from earlier failed infiltrations."
+    },
+    {
+      "id": "cosmic-hawk-first-briefing",
+      "records": [
+        "script:05d000:000",
+        "script:05d000:001"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Roy",
+        "Station personnel"
+      ],
+      "location": "Cosmic Hawk station and Atraia",
+      "storyState": "After the rescue, through the first briefing; before departing on the Zajil mission.",
+      "purpose": "The first mission briefing",
+      "previousContext": [
+        "Welda escorted the group and their unregistered ship to the station."
+      ],
+      "followingContext": [
+        "The first mission is to investigate and destroy the Karilas drug syndicate on Zajil. Departure is the next section."
+      ],
+      "branchAlternatives": [
+        "Station meaning question has yes/no responses. Scientist, inspected-ship barrier and acronym interaction set tour flags; their conjunction summons the party.",
+        "Party and bridge lines are conditional alternatives, not consecutive conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "faction.zolias",
+        "faction.wyuria",
+        "people.myuntos",
+        "ship.atraia",
+        "character.welda",
+        "character.roy_bester",
+        "character.joe_compson",
+        "faction.chausnomyu",
+        "organization.cosmic_hawk",
+        "place.zajil",
+        "place.saibal",
+        "drug.kidun",
+        "condition.biojunk",
+        "creature.bio_beast",
+        "faction.karilas",
+        "character.tomyu"
+      ],
+      "evidence": [
+        "R04 RE route packet: map30 bank05c000 roots; Roy009 dispatches05d000:000; briefing sets flag16."
+      ],
+      "uncertainty": [
+        "New personal and organization spellings are provisional.",
+        "Runtime traversal remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Read each complete connected English scene against source and preceding rescue. Preserve coerced service, minder/babysitter joke, the conditional tour branches, the specific fictional drug effects and lethal mission risk; distinguish the photographic evidence from earlier failed infiltrations."
+    },
+    {
+      "id": "cosmic-hawk-party-conversations",
+      "records": [
+        "script:07d000:030",
+        "script:07d000:031",
+        "script:081000:000",
+        "script:081000:001",
+        "script:081000:002",
+        "script:082000:003",
+        "script:083000:002",
+        "script:083000:007",
+        "script:083000:008",
+        "script:083000:012"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Roy",
+        "Station personnel"
+      ],
+      "location": "Cosmic Hawk station and Atraia",
+      "storyState": "After the rescue, through the first briefing; before departing on the Zajil mission.",
+      "purpose": "Conditional party and bridge conversations before mission departure",
+      "previousContext": [
+        "Welda escorted the group and their unregistered ship to the station."
+      ],
+      "followingContext": [
+        "The first mission is to investigate and destroy the Karilas drug syndicate on Zajil. Departure is the next section."
+      ],
+      "branchAlternatives": [
+        "Station meaning question has yes/no responses. Scientist, inspected-ship barrier and acronym interaction set tour flags; their conjunction summons the party.",
+        "Party and bridge lines are conditional alternatives, not consecutive conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "faction.zolias",
+        "faction.wyuria",
+        "people.myuntos",
+        "ship.atraia",
+        "character.welda",
+        "character.roy_bester",
+        "character.joe_compson",
+        "faction.chausnomyu",
+        "organization.cosmic_hawk",
+        "place.zajil",
+        "place.saibal",
+        "drug.kidun",
+        "condition.biojunk",
+        "creature.bio_beast",
+        "faction.karilas",
+        "character.tomyu"
+      ],
+      "evidence": [
+        "R04 RE route packet: map30 bank05c000 roots; Roy009 dispatches05d000:000; briefing sets flag16."
+      ],
+      "uncertainty": [
+        "New personal and organization spellings are provisional.",
+        "Runtime traversal remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Read each complete connected English scene against source and preceding rescue. Preserve coerced service, minder/babysitter joke, the conditional tour branches, the specific fictional drug effects and lethal mission risk; distinguish the photographic evidence from earlier failed infiltrations."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05c000:000",
+      "sourceFingerprint": "3d3c0b656968caea5a220de2c7ef627ea6e49c5021a8a0dc1c4e284afaf6ae8c",
+      "canonicalEnglish": "Roy: I'll contact you shortly. Until then, have Muretts show you around the base.",
+      "context": {
+        "speaker": "Roy",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:001",
+      "sourceFingerprint": "e8554dff9503aad1b9cdb19e7a02836888b39ccc7509264c8d61f4c4666c19b2",
+      "canonicalEnglish": "As Sion and his companions entered the command room, the man seated at the table ahead of them rose and offered Joe his right hand.\nRoy: I'm Brigadier General Roy Bester, commander of Chausnomyu.\nJoe: Joe Compson. Most folks call me Scrap Joe.\nRoy: I've heard a great deal about you.\nThe youthful commander smiled as he shook Joe's hand and offered the compliment.\nRoy: Sion, Shoko—and you too, Mr. Compson. You're all very fortunate.\nRoy: Normally, an illegally built ship like yours would be destroyed on sight, and its crew severely punished...\nJoe: ...So that's how it is.\nRoy: A perceptive man like you has already worked it out, I see.\nRoy: At the direction of Mars Federation Space Navy headquarters, you will be serving as members of Chausnomyu.\nShoko: What?! ...Sion!\nSion: Y-yeah...\nRoy: Allow me to introduce Chausnomyu's ace, who will be joining your team.\nRoy: Muretts! Come in!\nThe towering woman entered the command room at Roy's call.\nJoe: I see. So she's our minder... our watchdog.\nWelda: The word you're looking for is babysitter.\nJoe: Not much choice, is there? Can't go against military orders.\nRoy: Well, that about sums it up.\nRoy: I'll contact you later with your orders.",
+      "context": {
+        "speaker": "Narration / present speakers",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:002",
+      "sourceFingerprint": "bbb6d5073def92493dac52894b64d0acc8b242d99c34f95da1ba2fd38af2d2d1",
+      "canonicalEnglish": "Operator: I'm on duty. Sorry, but please don't distract me.",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:003",
+      "sourceFingerprint": "62b5ca8ae3ce8e8be37018d12fa76cc58b04b27693b44a2289080311ce0ef761",
+      "canonicalEnglish": "Operator: Oh, no. Another distress signal. At this rate, all-out war with Zolias looks unavoidable.",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:004",
+      "sourceFingerprint": "6729b1a79f6bb7e5a279938f8321463f7825bcef9f52eba95c106e6e69f75daf",
+      "canonicalEnglish": "Operator: You're new here. Do you know what Chausnomyu means?",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:005",
+      "sourceFingerprint": "7d3372b567057d2df93e3e17c11af4cc522a9f53731038205b27d4b4d02d9548",
+      "canonicalEnglish": "Operator: Oh, Welda!\nWelda: I'm showing the new recruits around. You'll have to excuse us.",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:006",
+      "sourceFingerprint": "2457a020cb2db4b9d3f988903d586d1737ada4b2e5dcfeee0417bb83475fb0f7",
+      "canonicalEnglish": "Soldier: This is the station's control room.",
+      "context": {
+        "speaker": "Soldier",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:007",
+      "sourceFingerprint": "a68fcac069b2c284602206871a37c4d671ede2cb56e7536acc2a36206d7a6343",
+      "canonicalEnglish": "Scientist: They expect us to catch up with Wyuria's science on a shoestring research budget? It's impossible!",
+      "context": {
+        "speaker": "Scientist",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:008",
+      "sourceFingerprint": "660090a15730f23b674be7b70c186365e74299787a31d9cb88dadf6da23cb71b",
+      "canonicalEnglish": "Soldier: With standard Mars military equipment, it's hard even to hold your own against Zolias soldiers.",
+      "context": {
+        "speaker": "Soldier",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:010",
+      "sourceFingerprint": "1d6d5592f864c9b02ee1fc3ee00fce86e71fec6e129278db381b3ab79317164a",
+      "canonicalEnglish": "Secretary: This is the commander's private room. If you need anything, please speak to me.",
+      "context": {
+        "speaker": "Secretary",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:011",
+      "sourceFingerprint": "cd4dcd64bf8fdc67d2f336a19d41d77710fdd9ff156e03c3daec969019ff2f7d",
+      "canonicalEnglish": "Operator: Leave your transportation arrangements to me when you're on leave.",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:012",
+      "sourceFingerprint": "760918efd0e32a26d3b313b1cd365f498be8a3642048d3ff57ca443d66d15325",
+      "canonicalEnglish": "Soldier: Atraia is being inspected. I can't let you through here.",
+      "context": {
+        "speaker": "Soldier",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:013",
+      "sourceFingerprint": "d7ab8a370e8ba85dcc8b167e722d2c5388183b0d3c0ce0a868fc2e96081f9b21",
+      "canonicalEnglish": "Operator: Handling spacecraft arrivals and departures isn't easy, you know.",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:014",
+      "sourceFingerprint": "0ed2e0bbcbdbf1453832f6b7499ac837162039184b16be7a6da8b57565180fbd",
+      "canonicalEnglish": "Welda received a transmission.\nWelda: ...Yes, understood.\nWelda: Looks like we've got our first assignment already. The commander wants us in his private room.",
+      "context": {
+        "speaker": "Narration / present speakers",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:016",
+      "sourceFingerprint": "bdcc7c1abd9d5732ea28dec949c56dd70c2764e094e144d6bd97ef90e4c79377",
+      "canonicalEnglish": "Welda: Hey, enough of this. Get moving!",
+      "context": {
+        "speaker": "Welda",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:017",
+      "sourceFingerprint": "d37ff9b9dc7159678170d9c6f0768d0d96cd06ec6894a7accc8fae1dfe70f418",
+      "canonicalEnglish": "Secretary: If you have no business here, please don't loiter.",
+      "context": {
+        "speaker": "Secretary",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:018",
+      "sourceFingerprint": "4f1a18797bdd489467d0b2330c68fc9a66e69b7865da77d227e55f9340f73ff1",
+      "canonicalEnglish": "Roy: I'm expecting great things from you.",
+      "context": {
+        "speaker": "Roy",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:020",
+      "sourceFingerprint": "9de409422bb2f54d71848b7eb800eaaeb0276566da044bd23e32af62a549e337",
+      "canonicalEnglish": "Secretary: This station orbits the planet Mars. Zajil is the outermost planet in the Mars system: a lush, green world suitable for settlement. Take care.",
+      "context": {
+        "speaker": "Secretary",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:021",
+      "sourceFingerprint": "8b9bdf10b518879fb305e30e83d93631750078ac6ef75036b1843cba3dcc692a",
+      "canonicalEnglish": "Operator: Ohh, isn't it time for my shift to end yet?",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:022",
+      "sourceFingerprint": "723885aa1694c2ba5e9aa3aadb1fb0d027e26e386628711e4dd692a1f32aa0f4",
+      "canonicalEnglish": "Operator: Oh, you do know! That's what I'd expect from a Cosmic Hawk member.",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:023",
+      "sourceFingerprint": "4a02048186969ccf5b40b7c925bb3176597ba58aeacb41f7113ecb65f6233d8f",
+      "canonicalEnglish": "Operator: Chau stands for Cosmic Hawk, and Snomyu stands for the Mars Federation Space Navy.",
+      "context": {
+        "speaker": "Operator",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:024",
+      "sourceFingerprint": "885ef38dc12c03f6125ab5dd80fc14327d1067082ee93fc0e406fb108053b185",
+      "canonicalEnglish": "Soldier: Please, go right through.",
+      "context": {
+        "speaker": "Soldier",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:026",
+      "sourceFingerprint": "73700931e3b381f933107ce2255b941c7e1d1c6589e68f3e7a8902e398599d97",
+      "canonicalEnglish": "Operator",
+      "context": {
+        "speaker": "Narration / present speakers",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:036",
+      "sourceFingerprint": "c41f66dc6ebbd7076c8648c1afbeb7a4968630e466541dbeb440485a342035fb",
+      "canonicalEnglish": "Secretary",
+      "context": {
+        "speaker": "Narration / present speakers",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:037",
+      "sourceFingerprint": "5b6b608f19a096e5654af24086d31e443e2a98d8103c5ebc873218d3672a449b",
+      "canonicalEnglish": "Roy",
+      "context": {
+        "speaker": "Narration / present speakers",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05d000:000",
+      "sourceFingerprint": "538b2f463b13c78e2f22435748358d39481345f926b10689aca5c1eb729c49cd",
+      "canonicalEnglish": "Roy: It's time for your first assignment.\nBrigadier General Bester dimmed the lights, switched on the monitor, and began the briefing.\nRoy: First, take a look at this photograph.\nAn image appeared on the monitor as he spoke.\nRoy: Federation intelligence obtained this film while infiltrating a drug syndicate on Zajil.\nThe photograph showed the inside of a domed growing facility, packed with Kidun plants.\nKidun: a drug introduced from the Zolias Empire. Besides being addictive, it caused severe hallucinations in habitual users.\nBut its most distinctive effect was biojunk.\nBiojunk occurred when a special compound in Kidun triggered genetic mutations, causing rapid evolution and degeneration inside and outside the body.\nThe symptoms usually led to a gruesome death. But in rare cases—one in tens of thousands—a vicious bio-beast was born instead.\nAs a result, mass killings had occurred across the Mars Federation over the past two or three months.\nRoy: I imagine you already know what you're looking at.\nRoy: We've long had unconfirmed reports of a large Kidun plantation run by a drug syndicate on Zajil.\nRoy: But the Federation government couldn't obtain conclusive proof. Intelligence agents attempted to infiltrate the organization several times, and every attempt ended in failure.\nJoe: So you want us to investigate this drug ring and wipe it out?\nWelda: Could you tell us what you know so far?\nRoy: Certainly. Here's what we've established.\nRoy: The syndicate on Zajil is called Karilas. Its leader is a Myuntos named Tomyu.\nRoy: Be careful. All three agents sent in so far have been killed.\nWelda: Well, I'll be there. As long as these people don't get in my way, we should be fine.\nSion: ...\nRoy: Then I'll be expecting a successful report.",
+      "context": {
+        "speaker": "Roy",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05d000:001",
+      "sourceFingerprint": "9c46e6753170025e635321aea2ae9411223ec0c5f57a521b4a4cfa06f27dadec",
+      "canonicalEnglish": "Roy",
+      "context": {
+        "speaker": "Narration / present speakers",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07d000:030",
+      "sourceFingerprint": "8b04d99568716594694ba27448926e5ff3623f760859bd041e9f281ca004d625",
+      "canonicalEnglish": "Joe: Hah! The Federation spotted Atraia's worth, did they? Give them that much.\nSion: Uncle Joe, how can you be so relaxed about this?\nJoe: Well, whatever happens, happens. We might as well find a way to use the military ourselves.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07d000:031",
+      "sourceFingerprint": "f133329a69a0b1f8affd095444602f4e31535a76adadc6bab4bce765f1b984e9",
+      "canonicalEnglish": "Shoko: We don't have time for this...\nJoe: Careful what you say, miss. For now, we sit tight and wait for our chance.",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:000",
+      "sourceFingerprint": "b46cdb8b1e2dea550e25520f15d082ae4c96d32d0c4ede6743f583734dd26024",
+      "canonicalEnglish": "Welda: If you lot slow me down, I'll dump you without a second thought!\nShoko: That's awful!\nWelda: Don't like it? Get some shooting practice, then!\nSion: So, where do we start investigating?\nWelda: Investigating? I haven't got time for half measures!\nWelda: We hit the town of Saibal on Zajil first, and crush the syndicate!",
+      "context": {
+        "speaker": "Welda",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:001",
+      "sourceFingerprint": "e9378b2d3475e1375761f9de552131ec94351f51bd85ffde6904b208b89faf19",
+      "canonicalEnglish": "Shoko: I wonder what Zajil is like...\nSion: Can we really handle a crime syndicate?\nWelda: Leave it to me. If anyone dies, it'll only be you lot!",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:002",
+      "sourceFingerprint": "7dfa8dc794ac61584ac1406fdeb5c9f1e40336feb0f7ff4f80c6e1bf515bbd3c",
+      "canonicalEnglish": "Joe: That Welda looks pretty tough. Best to keep our heads down for now.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:003",
+      "sourceFingerprint": "d3a83531b55ca0230440d2ab4c58fa60d74f59d3a5fb2120e6c986ad5a81e7a0",
+      "canonicalEnglish": "Welda: Come on! Quit your grumbling and move!",
+      "context": {
+        "speaker": "Welda",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:002",
+      "sourceFingerprint": "13c6bad62487d8edd72309b3717ea873a01b3855ca3bc09eaeb1f415796ddd65",
+      "canonicalEnglish": "Welda: Shut up and fly the ship!",
+      "context": {
+        "speaker": "Welda",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:007",
+      "sourceFingerprint": "b8dfb2f7d9331dfc62a774213437ea95bba3b1842e5e3fe64ed965d4cb6b382a",
+      "canonicalEnglish": "Joe: I can understand why you're worried. But instead of hanging around trying to get on my good side, why don't you go see how the young lady's doing? She must be hurting a lot more than you are.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:008",
+      "sourceFingerprint": "a45573ea3ee0e6cd3807b1ade4cb9e46cee77baae2531760dca7dcb70735c219",
+      "canonicalEnglish": "Sion: Atraia, launching.",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:012",
+      "sourceFingerprint": "a3a70ed64fd159a4d95cc08b9166a095efedcdb0b1b27a77e3cc9a89b48515b1",
+      "canonicalEnglish": "Shoko: If I'd known this would happen, I'd have gotten a communications technician's license.",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Party / player",
+        "intent": "Introduce the station and first assignment, or respond to the current story state.",
+        "tone": "Varies by speaker: formal Roy, brusque Welda, practical Joe, anxious younger companions.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R09 original-source and connected-scene English editorial review",
+  "scenes": [
+    {
+      "id": "daina-village",
+      "records": [
+        "script:062000:002",
+        "script:062000:003",
+        "script:062000:004",
+        "script:062000:005",
+        "script:062000:006",
+        "script:062000:007",
+        "script:062000:008",
+        "script:062000:013",
+        "script:062000:014",
+        "script:062000:015",
+        "script:062000:016"
+      ],
+      "participants": [
+        "Party",
+        "Local residents or historian"
+      ],
+      "location": "Daina",
+      "storyState": "After Lucia video letter, through Daina reunion/escape and Begi historian; before departure to Stea.",
+      "purpose": "Village residents and services",
+      "previousContext": [
+        "Lucia’s video letter asks Sion to meet her at Wey Dumna’s monument."
+      ],
+      "followingContext": [
+        "The historian directs the party to the Myuntos village on Stea."
+      ],
+      "branchAlternatives": [
+        "Resident interactions, service choices and party TALK branches are alternatives, not asserted chronological dialogue.",
+        "Memorial inspection before/after event, inventory-full book retrieval and repeat historian lead retain original triggers."
+      ],
+      "terminology": [
+        "character.wey_dumna",
+        "character.ramyu_kose",
+        "place.daina",
+        "place.mars",
+        "faction.wyuria"
+      ],
+      "evidence": [
+        "Original Japanese entries and counted command closure in work/r09-re-route-packet.json.",
+        "R09 RE map/object, vehicle and party-state inventory."
+      ],
+      "uncertainty": [
+        "Names remain provisional where marked in bible. Lore claims are attributed to their speaker; no independent truth is invented.",
+        "Runtime traversal and display remain unverified."
+      ],
+      "notes": [
+        "Canonical English has no ROM limits. Separate adaptation preserves immutable names and commands."
+      ],
+      "reviewNote": "Read complete original source and connected unrestricted English including every selected alternative. Checked simultaneous Lucia/Alshark identity, uncertainty about Tiryut origins, restrained reported lore, Mamon threat, familial forms of address without invented biological relationships, historian attribution and Welda’s reluctant cooperation."
+    },
+    {
+      "id": "daina-memorial-reunion",
+      "records": [
+        "script:062000:009",
+        "script:062000:010"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Lucia",
+        "Mamon"
+      ],
+      "location": "Daina memorial",
+      "storyState": "After Lucia video letter, through Daina reunion/escape and Begi historian; before departure to Stea.",
+      "purpose": "Reunion, revelation, ambush and escape",
+      "previousContext": [
+        "Lucia’s video letter asks Sion to meet her at Wey Dumna’s monument."
+      ],
+      "followingContext": [
+        "The historian directs the party to the Myuntos village on Stea."
+      ],
+      "branchAlternatives": [
+        "Resident interactions, service choices and party TALK branches are alternatives, not asserted chronological dialogue.",
+        "Memorial inspection before/after event, inventory-full book retrieval and repeat historian lead retain original triggers."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.lucia",
+        "character.mamon",
+        "character.jido",
+        "character.wey_dumna",
+        "character.ramyu_kose",
+        "species.tiryut",
+        "power.ralua",
+        "power.karma",
+        "character.alshark",
+        "place.wisperard"
+      ],
+      "evidence": [
+        "Original Japanese entries and counted command closure in work/r09-re-route-packet.json.",
+        "R09 RE map/object, vehicle and party-state inventory."
+      ],
+      "uncertainty": [
+        "Names remain provisional where marked in bible. Lore claims are attributed to their speaker; no independent truth is invented.",
+        "Runtime traversal and display remain unverified."
+      ],
+      "notes": [
+        "Canonical English has no ROM limits. Separate adaptation preserves immutable names and commands."
+      ],
+      "reviewNote": "Read complete original source and connected unrestricted English including every selected alternative. Checked simultaneous Lucia/Alshark identity, uncertainty about Tiryut origins, restrained reported lore, Mamon threat, familial forms of address without invented biological relationships, historian attribution and Welda’s reluctant cooperation."
+    },
+    {
+      "id": "daina-aftermath",
+      "records": [
+        "script:081000:029",
+        "script:081000:030",
+        "script:081000:031",
+        "script:082000:005",
+        "script:05f000:085"
+      ],
+      "participants": [
+        "Party",
+        "Local residents or historian"
+      ],
+      "location": "Mars mainland",
+      "storyState": "After Lucia video letter, through Daina reunion/escape and Begi historian; before departure to Stea.",
+      "purpose": "Post-escape party reactions, historian lead and military travel refusal",
+      "previousContext": [
+        "Lucia’s video letter asks Sion to meet her at Wey Dumna’s monument."
+      ],
+      "followingContext": [
+        "The historian directs the party to the Myuntos village on Stea."
+      ],
+      "branchAlternatives": [
+        "Resident interactions, service choices and party TALK branches are alternatives, not asserted chronological dialogue.",
+        "Memorial inspection before/after event, inventory-full book retrieval and repeat historian lead retain original triggers."
+      ],
+      "terminology": [
+        "character.lucia",
+        "character.welda",
+        "power.karma",
+        "species.tiryut",
+        "region.rasha",
+        "place.begi"
+      ],
+      "evidence": [
+        "Original Japanese entries and counted command closure in work/r09-re-route-packet.json.",
+        "R09 RE map/object, vehicle and party-state inventory."
+      ],
+      "uncertainty": [
+        "Names remain provisional where marked in bible. Lore claims are attributed to their speaker; no independent truth is invented.",
+        "Runtime traversal and display remain unverified."
+      ],
+      "notes": [
+        "Canonical English has no ROM limits. Separate adaptation preserves immutable names and commands."
+      ],
+      "reviewNote": "Read complete original source and connected unrestricted English including every selected alternative. Checked simultaneous Lucia/Alshark identity, uncertainty about Tiryut origins, restrained reported lore, Mamon threat, familial forms of address without invented biological relationships, historian attribution and Welda’s reluctant cooperation."
+    },
+    {
+      "id": "begi-historian",
+      "records": [
+        "script:063000:019",
+        "script:063000:021",
+        "script:063000:022",
+        "script:063000:023",
+        "script:063000:024",
+        "script:063000:025",
+        "script:063000:026"
+      ],
+      "participants": [
+        "Party",
+        "Local residents or historian"
+      ],
+      "location": "Begi",
+      "storyState": "After Lucia video letter, through Daina reunion/escape and Begi historian; before departure to Stea.",
+      "purpose": "Fetch encyclopedia, hear history and receive Trefoil Emblem",
+      "previousContext": [
+        "Lucia’s video letter asks Sion to meet her at Wey Dumna’s monument."
+      ],
+      "followingContext": [
+        "The historian directs the party to the Myuntos village on Stea."
+      ],
+      "branchAlternatives": [
+        "Resident interactions, service choices and party TALK branches are alternatives, not asserted chronological dialogue.",
+        "Memorial inspection before/after event, inventory-full book retrieval and repeat historian lead retain original triggers."
+      ],
+      "terminology": [
+        "character.wey_dumna",
+        "character.kasta_baiya",
+        "character.sartos",
+        "people.myuntos",
+        "equipment.item.a6",
+        "equipment.item.a7",
+        "place.stea"
+      ],
+      "evidence": [
+        "Original Japanese entries and counted command closure in work/r09-re-route-packet.json.",
+        "R09 RE map/object, vehicle and party-state inventory."
+      ],
+      "uncertainty": [
+        "Names remain provisional where marked in bible. Lore claims are attributed to their speaker; no independent truth is invented.",
+        "Runtime traversal and display remain unverified."
+      ],
+      "notes": [
+        "Canonical English has no ROM limits. Separate adaptation preserves immutable names and commands."
+      ],
+      "reviewNote": "Read complete original source and connected unrestricted English including every selected alternative. Checked simultaneous Lucia/Alshark identity, uncertainty about Tiryut origins, restrained reported lore, Mamon threat, familial forms of address without invented biological relationships, historian attribution and Welda’s reluctant cooperation."
+    },
+    {
+      "id": "begi-history-party",
+      "records": [
+        "script:080000:000",
+        "script:080000:001",
+        "script:080000:002",
+        "script:080000:003"
+      ],
+      "participants": [
+        "Party",
+        "Local residents or historian"
+      ],
+      "location": "Mars mainland",
+      "storyState": "After Lucia video letter, through Daina reunion/escape and Begi historian; before departure to Stea.",
+      "purpose": "Reactions and next lead before Stea departure",
+      "previousContext": [
+        "Lucia’s video letter asks Sion to meet her at Wey Dumna’s monument."
+      ],
+      "followingContext": [
+        "The historian directs the party to the Myuntos village on Stea."
+      ],
+      "branchAlternatives": [
+        "Resident interactions, service choices and party TALK branches are alternatives, not asserted chronological dialogue.",
+        "Memorial inspection before/after event, inventory-full book retrieval and repeat historian lead retain original triggers."
+      ],
+      "terminology": [
+        "character.shoko",
+        "character.sion",
+        "character.joe",
+        "character.welda",
+        "character.lucia",
+        "character.wey_dumna",
+        "people.myuntos",
+        "place.stea"
+      ],
+      "evidence": [
+        "Original Japanese entries and counted command closure in work/r09-re-route-packet.json.",
+        "R09 RE map/object, vehicle and party-state inventory."
+      ],
+      "uncertainty": [
+        "Names remain provisional where marked in bible. Lore claims are attributed to their speaker; no independent truth is invented.",
+        "Runtime traversal and display remain unverified."
+      ],
+      "notes": [
+        "Canonical English has no ROM limits. Separate adaptation preserves immutable names and commands."
+      ],
+      "reviewNote": "Read complete original source and connected unrestricted English including every selected alternative. Checked simultaneous Lucia/Alshark identity, uncertainty about Tiryut origins, restrained reported lore, Mamon threat, familial forms of address without invented biological relationships, historian attribution and Welda’s reluctant cooperation."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:062000:002",
+      "sourceFingerprint": "bb4ca5efcfea83ea0007c3891869d05003992a43da12710f11d6a8f9a47ac66b",
+      "canonicalEnglish": "Hotel: Welcome. A stay costs 10 credits. Would you like a room?",
+      "context": {
+        "speaker": "Hotel",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:003",
+      "sourceFingerprint": "39308e2e60be730f7611a2e05f1dee2cd4a427fb62a5a7d2d57275901509c7d1",
+      "canonicalEnglish": "Item Shop: Welcome. What can I get for you?",
+      "context": {
+        "speaker": "Item Shop",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:004",
+      "sourceFingerprint": "79c1656c50a0b9f758b8101fab6114198f376a01b80dda7a9eb7d7a5079cdb7e",
+      "canonicalEnglish": "Young Man: They say this village is the very first place Wey Dumna landed on Mars.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:005",
+      "sourceFingerprint": "271a1dffe13592ef6b1debd79add21845a4e661be71cd94a8dc09447b98ef74a",
+      "canonicalEnglish": "Young Woman: That monument was erected by a Wyurian named Ramyu Kose, one of Wey Dumna’s three disciples.",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:006",
+      "sourceFingerprint": "cb261f58437421e17515f311c37a3addf577bf78e954f68d6639fc6646566062",
+      "canonicalEnglish": "Man: It really is peaceful here, isn’t it?",
+      "context": {
+        "speaker": "Man",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:007",
+      "sourceFingerprint": "5a06c28c3b28f444856269f7f82a60e87d8d3cd5806cbaa1a5e8e6da6d51ff11",
+      "canonicalEnglish": "Woman: They say Wey Dumna had extraordinary powers. Well, he did bring the people of Mars to this universe, after all.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:008",
+      "sourceFingerprint": "3a55d05f6ed1b9bf9fff2565b232dfdd7365117ed4c302d359c301f178f67d42",
+      "canonicalEnglish": "Old Woman: Our country owes all its prosperity to Lord Dumna. Never forget that.",
+      "context": {
+        "speaker": "Old Woman",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:009",
+      "sourceFingerprint": "fb9bab18c46b1da6fc6e2943ce1280c62c63d2110541ed2543c175c1cb35df38",
+      "canonicalEnglish": "Narration: Sion and the others waited for Lucia in front of Dumna’s monument. How long had they been waiting?\nShoko: Oh! Is that...?!\nLucia: ...Sion...\nSion: ...Mom!\nLucia: I seem to have worried you.\nJoe: Lucia! What in blazes happened?!\nSion: Mom, I...\nLucia: Sion. Everyone. Please stay calm and listen to what I have to tell you.\nLucia: That day—the day the meteor fell on Hom—I was entrusted with a mission.\nLucia: From that moment on, I was no longer Lucia. No, to be precise, I am still Lucia as well.\nWelda: What does that mean...? What’s she talking about, Shoko?\nJoe: We haven’t a clue what you mean. Tell us plainly.\nLucia: I arrived in the meteor that fell that day, fused with bacteria, the simplest level of consciousness...\nWelda: Huh?\nLucia: In our universe, our kind are called Tiryut. We are beings of pure mental energy, without physical bodies.\nSion: Tiryut...\nLucia: Since the creation of the universe—perhaps even before it—there have been Ralua and Karma among the Tiryut.\nLucia: You can think of them as what this world calls good and evil.\nLucia: Both powers exist in this world by fusing with the minds of other species.\nWelda: Hah! Ridiculous. So what did you come here for?\nLucia: I am Alshark, a warrior of Ralua.\nLucia: Karma is now leading this universe toward destruction.\nLucia: I came to warn you of the danger, and to defeat Karma with the secret power Wey Dumna must have left behind. Like me, he was a warrior of Ralua.\nWelda: Wey Dumna, a warrior of Ralua? The Dumna who brought the people of Mars to this universe?\nWelda: Pfft! Ha ha ha! That’s a good one!\nLucia: I understand why you find it hard to believe. But it is the truth.\nSion: Mom, I believe you. The way Uncle Mamon changed back then—it must have been...\nLucia: Has something happened to Dr. Penrose?\nShoko: Aunt Lucia... Dad and the others were captured by Zolias soldiers at the meteor’s crash site...\nLucia: Then what about Jido...? What happened to the expedition?\nUnknown Voice: I had them killed.\nNarration: The sudden voice startled Sion and the others. Without noticing, they had been surrounded by Mamon and Zolias soldiers disguised as outlaws.\nMamon: At last I’ve found you, Alshark. Or would you prefer Mrs. Asman?\nJoe: Mamon! You bastard, what are you doing here?!\nLucia: Be careful, Joe. His mind has fused with Karma.\nSion: What are we supposed to do about that?!\nWelda: Still spouting that nonsense? I’ll crush the lot of them!\nNarration: Lucia stopped Welda as he started forward, then spoke in a low voice.\nLucia: Everyone, listen. We have no chance of winning if we fight them now.\nLucia: Leave this to me. On my signal, close your eyes and run back the way we came.\nWelda: Hah! Ridiculous. I’m not going to...\nShoko: Welda, please! Do as Aunt Lucia says.\nWelda: Tch! Suit yourselves!\nMamon: What are you discussing? Come along with me, now.\nLucia: All right. I’ll go with you. Just leave Sion and the others alone...\nMamon: Don’t be absurd. You’ve just told them everything, haven’t you?\nMamon: Now that they know our secret, I can hardly let them go.\nLucia: I see. Then you leave me no choice.\nNarration: The next instant, Lucia threw something at Mamon.\nLucia: Now!\nNarration: Sion and the others shut their eyes and ran. The object Lucia had thrown arced through the air, and Mamon shot it. A flash of light seared Mamon and his men’s eyes, making them realize it was a flash grenade. Yet even as he covered his eyes, Mamon remained eerily calm.\nMamon: Hmph, Alshark. I’ll let you think you’ve beaten me this time. But next time we meet, I’ll kill your friends before you can say a word!\nNarration: Did his voice reach Sion and the others as they fled?",
+      "context": {
+        "speaker": "Narration",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:010",
+      "sourceFingerprint": "f8049bf51fe0d0fa62826795fc4c6da37bd3b119e7d0311317e443c09c77e210",
+      "canonicalEnglish": "Narration: This monument marks the place where Wey Dumna, founder of Wisperard, landed with a colony ship. The following words are carved into the stone:\n“May the great deeds and the will of our founder, Wey Dumna, be passed down forever. —Ramyu Kose”",
+      "context": {
+        "speaker": "Narration",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:013",
+      "sourceFingerprint": "60dba04c0a3b888a4fddec9f6dc2c39bd572050117754363b9210f5d660c7d2d",
+      "canonicalEnglish": "Buy tools\nLeave the shop",
+      "context": {
+        "speaker": null,
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:014",
+      "sourceFingerprint": "3eda52d6be81b4b1e580f5138aa6a81c2a7f7ebac62d5c7eb0b12cc7df8b1a8e",
+      "canonicalEnglish": "Shopkeeper: Is there anything else you need?",
+      "context": {
+        "speaker": "Shopkeeper",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:015",
+      "sourceFingerprint": "fec91f28ca706da76ab164ef5f3c861b2fb47220bccc6616946224dbf5980587",
+      "canonicalEnglish": "Shopkeeper: We look forward to seeing you again.",
+      "context": {
+        "speaker": "Shopkeeper",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:062000:016",
+      "sourceFingerprint": "f0323a8dd1d3082372cdf31b2c0f1e774221d2242b3c5f8a82f39684ab537720",
+      "canonicalEnglish": "Shopkeeper: You could at least bring some money.",
+      "context": {
+        "speaker": "Shopkeeper",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:029",
+      "sourceFingerprint": "00da708cec33b2a7729ecac359400eb983a9d54ac8647b24b0eed9522de11816",
+      "canonicalEnglish": "Shoko: To think that Karma had taken over Dad...\nJoe: Lucia, can’t even your power do anything for him?\nLucia: Well...",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:030",
+      "sourceFingerprint": "ace351721339487e06609169720c472e43a2172e3dc354d0d66365b68fcda75e",
+      "canonicalEnglish": "Joe: Even if we’re after Dumna’s secret power, how do we find out about a man who died over three hundred years ago?\nLucia: I hear there’s a historian in Begi, on the Rasha continent, who knows a great deal about Dumna.\nJoe: I see. Never thought I’d be delving into Mars’s history at my age.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:031",
+      "sourceFingerprint": "737e2894438ab3f74955b952c41931f73016b7d74920b3a4c42076f3f5fea133",
+      "canonicalEnglish": "Welda: Tiryut, my foot! I’m never going to believe that rubbish!",
+      "context": {
+        "speaker": "Welda",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:005",
+      "sourceFingerprint": "4ab957baa049d47059b2c0c582377f3d8bf6c87c416ffc9fbfe5f1f1e48446de",
+      "canonicalEnglish": "Lucia: Our first priority is to find Dumna’s secret power. It’s the only way to stop the Zolias invasion.",
+      "context": {
+        "speaker": "Lucia",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05f000:085",
+      "sourceFingerprint": "0a6d73fe4acafd0504ed914dec1f513b8752151341d1d98801457479239f52e7",
+      "canonicalEnglish": "Welda: Hey, think about my position! I can’t take a civilian into a military station.",
+      "context": {
+        "speaker": "Welda",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:019",
+      "sourceFingerprint": "a45c92aaa5692fb9c594eaa4e60b7a49185a8ff81836c6d567414f60d6032aca",
+      "canonicalEnglish": "Historian: Oh? You’d like to learn about Wey Dumna? Then you’ll need to know the history of the Mars Federation.",
+      "context": {
+        "speaker": "Historian",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:021",
+      "sourceFingerprint": "5330365a228aaac1f025ba6635110612138a4917cbb25f9c30fed6a74a327ff2",
+      "canonicalEnglish": "Historian: Could you fetch the Mars Federation History Encyclopedia from the bookshelf in front of me?",
+      "context": {
+        "speaker": "Historian",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:022",
+      "sourceFingerprint": "e883634fbaca02e9509cf1e1127272709809e8de172765cf6ecee9eb01338b16",
+      "canonicalEnglish": "Narration: Sion found the Mars Federation History Encyclopedia among the many books.",
+      "context": {
+        "speaker": "Narration",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:023",
+      "sourceFingerprint": "5c0a162e4d15a674683af2be245b9f43c65763a501f16c6292b1c4b3b99c6990",
+      "canonicalEnglish": "Mars Federation History Encyclopedia",
+      "context": {
+        "speaker": null,
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:024",
+      "sourceFingerprint": "654ac5581e0d396daf8c53285c152b751dfbc0808b1076b1bdbdc3635b8f56e3",
+      "canonicalEnglish": "Sion: Oh, no! My inventory is full!",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:025",
+      "sourceFingerprint": "483d29e4c3c2e55b882d2ddd9119305cc22763c59d4694ed50d2040fa139012f",
+      "canonicalEnglish": "Historian: Ah, yes! That’s the book. Now, let me tell you about the history of the Mars Federation.\nHistorian: As you know, the people of Mars are not native to this universe. They migrated here from another planet.\nHistorian: Their leader then, three hundred years ago, was none other than Wey Dumna.\nHistorian: As this book says, people today believe that he persecuted the Myuntos during the colonization.\nHistorian: But no one now knows that it was the first president, Kasta Baiya, who did those things in Dumna’s name after his death.\nHistorian: In fact, if you visit the Myuntos village on Stea, you’ll find that Wey Dumna is still honored as an eternal friend.\nHistorian: We mustn’t overlook the fact that Master Sartos, a Myuntos, was the only person Dumna could call a friend.\nHistorian: If you want to learn more about Dumna, visit the Myuntos village on Stea.\nHistorian: Ah, take this with you.\nNarration: Received the Trefoil Emblem.\nHistorian: I’m sure it will be of some use. Whatever you do, don’t throw it away or break it.",
+      "context": {
+        "speaker": "Historian",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:026",
+      "sourceFingerprint": "c4b79c0db75b10bc9950dae56727099db8da6748befc6a237c65d64baca1b36b",
+      "canonicalEnglish": "Historian: If you want to learn more about Dumna, visit the Myuntos village on Stea.",
+      "context": {
+        "speaker": "Historian",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:080000:000",
+      "sourceFingerprint": "a9e9673c3ad9c1c4aa4d15a127aa6f32c1fe366fc0b086ee3ce0718b49c587ef",
+      "canonicalEnglish": "Shoko: Everything we were taught about Dumna persecuting the Myuntos was a lie.\nSion: So they were using Dumna’s name to sway public opinion on Mars.",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:080000:001",
+      "sourceFingerprint": "17b169725ed06fb3df057c8929df1f93c2ede215efe9db9b722abd416e774c8d",
+      "canonicalEnglish": "Joe: Never thought we’d end up visiting a Myuntos village on Stea.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:080000:002",
+      "sourceFingerprint": "1d8b5dd0a53e9ed7d497c55f2ce519e79f32cda34b91a2c7170d807b0f101658",
+      "canonicalEnglish": "Welda: What could those feeble Myuntos know?\nLucia: Whatever you think, it’s the only lead we have.\nWelda: Hah! I can’t put up with you lot!\nJoe: Then why don’t you just go home?\nWelda: Who, me?! I have a duty to keep an eye on you!\nJoe: (For all his griping, he’s still coming along.)",
+      "context": {
+        "speaker": "Welda",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:080000:003",
+      "sourceFingerprint": "cee498662aabc84f38687f53ce17881a0ac53575a9dbc3b3465ae2c219c2ccc9",
+      "canonicalEnglish": "Lucia: Dumna must have left some kind of clue somewhere. He would have foreseen this day coming.",
+      "context": {
+        "speaker": "Lucia",
+        "listener": "Party / customer",
+        "intent": "As shown in connected canonical scene",
+        "tone": "Preserve concern, explanation, hostility, courtesy or banter as indicated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

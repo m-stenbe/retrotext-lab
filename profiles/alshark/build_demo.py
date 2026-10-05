@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Build a scoped opening-conversation experiment, preserving scene allocation."""
+"""Build cumulative Alshark images; section candidates require a release plan."""
 import argparse
 import hashlib
 import json
 from pathlib import Path
 import re
 import struct
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('original', type=Path)
@@ -32,7 +35,27 @@ parser.add_argument('--localization', type=Path,
                     help='Overlay reviewed canonical-derived script adaptations; implies --include-review')
 parser.add_argument('--localization-scenes', nargs='+',
                     help='Explicit complete scenes to build; other reviewed work is listed as deferred')
+parser.add_argument('--release-plan', type=Path,
+                    help='Require complete section coverage; refuses a ready-subset release')
 args = parser.parse_args()
+release_assessment = None
+if args.release_plan:
+    if not args.localization:
+        parser.error('--release-plan requires --localization')
+    from profiles.alshark.localization import BIBLE, load_images, validate_sources, compile_adaptations
+    from retrotext.releases import assess_release
+    release_plan = json.loads(args.release_plan.read_text())
+    if args.localization_scenes is not None and args.localization_scenes != release_plan['scenes']:
+        parser.error('Release scenes must exactly match the complete release plan')
+    release_images = load_images(args.original)
+    release_document = json.loads(args.localization.read_text())
+    release_bible = json.loads(BIBLE.read_text())
+    validate_sources(release_images, release_document)
+    release_assessment = assess_release(release_document, release_bible, release_plan,
+        lambda scenes: compile_adaptations(release_images, release_document, release_bible, scenes=scenes)[1])
+    if release_assessment['status'] != 'candidate_ready':
+        parser.error('Section release blocked:\n' + '\n'.join(release_assessment['blockers']))
+    args.localization_scenes = release_plan['scenes']
 if args.localization_scenes and not args.localization:
     parser.error('--localization-scenes requires --localization')
 if args.localization:
@@ -328,10 +351,12 @@ if args.localization:
     localized, localization_records = compile_adaptations(
         {disk: images[f'Alshark ({disk} Disk).hdm'] for disk in ('Opening', 'System')},
         localization_document, json.loads(BIBLE.read_text(encoding='utf-8')),
-        scenes=args.localization_scenes)
+        scenes=args.localization_scenes, full_images=True)
     for record in localization_records:
-        a, n = record['offset'], record['size']
-        system[a:a+n] = localized[a:a+n]
+        for patch in record.get('patches', [record]):
+            a, n, disk = patch['offset'], patch['size'], patch.get('disk', 'System')
+            output_image = opening if disk == 'Opening' else system
+            output_image[a:a+n] = localized[disk][a:a+n]
 
 
 from profiles.alshark.trainer import patch_exp_multiplier
@@ -362,7 +387,9 @@ def make_ips(old, new):
     return patch
 
 
-manifest = dict(status='Reflowed after screenshot review; revised wrapping awaiting runtime verification',
+manifest = dict(status='Source, editorial, allocation and patch checks passed; gameplay runtime verification pending',
+                build_kind='section_candidate' if release_assessment else 'experimental',
+                release_assessment=release_assessment,
                 dialogue=dialogue_manifest, names=names, followup=followup, town=town, pickups=pickups,
                 area=area, menus=menus, combat_text=combat_text, menu_geometry=menu_geometry,
                 menu_strings=menu_strings,
@@ -390,6 +417,8 @@ for name, original in images.items():
 (OUT / 'Alshark-dialogue-test.cmd').write_text('np2kai ' + ' '.join(
     '"'+str(OUT/f'Alshark ({n} Disk).hdm')+'"' for n in ['Opening', 'Data'])+'\n')
 print(f'Built ten speech turns, farewell, {len(names)-1} character names and Cosma title: scene {len(new_scene)}/{len(scene)} bytes; IPS round-trips pass.')
+if args.localization:
+    print(f'Applied {len(localization_records)} canonical-derived record adaptations; build kind: {manifest["build_kind"]}.')
 
 if followup:
     print('Included Lucia follow-up via the script importer; branch and entry allocation preserved.')

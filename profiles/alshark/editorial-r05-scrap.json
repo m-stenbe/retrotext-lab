@@ -1,0 +1,63 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R05 manager source/context and connected-scene editorial review",
+  "scenes": [
+    {
+      "id": "r05-scrap-initial",
+      "records": [
+        "script:057000:033"
+      ],
+      "participants": [
+        "Scrapper"
+      ],
+      "location": "Saibal scrap exchange",
+      "storyState": "First Zajil assignment, through Saibal kidnapping, before pursuing Tomyu.",
+      "purpose": "Explain the bidirectional scrap/credit exchange and its controls.",
+      "previousContext": [
+        "CS Station first briefing completed."
+      ],
+      "followingContext": [
+        "Post-kidnapping pursuit and exploration after taking a bus off Zajil are beyond this section."
+      ],
+      "branchAlternatives": [
+        "Source-bound alternatives; not a single consecutive conversation."
+      ],
+      "terminology": [],
+      "evidence": [
+        "docs/r05-re-source-evidence.md; docs/r05-qa-source-inventory.md; original r05_flow bounded closure."
+      ],
+      "uncertainty": [
+        "Official romanizations unverified; full runtime traversal pending."
+      ],
+      "notes": [],
+      "reviewNote": "Read original Japanese and complete English scene alternatives together; checked tone, shop roles, pre-victory story state, destination/fare values and refusal branches. Technical shortening is separately documented."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:057000:033",
+      "sourceFingerprint": "153000505e66e1c1a4a6c4f721ef1fc8b8bea5f1fda8be0a09fc06261cc80c89",
+      "canonicalEnglish": "Exchange: 5 credits for 1 scrap. Press 8 to exchange scrap for credits, or 2 to exchange credits for scrap. Hold Space to speed up.\nScrapper: Thanks! Come back again!",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Shop service or local information appropriate to the first assignment.",
+        "tone": "Source-specific merchant politeness, local fear or syndicate hostility.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source against complete connected English alternatives."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}
