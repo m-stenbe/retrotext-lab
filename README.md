@@ -8,17 +8,28 @@ candidate blocks losslessly. Game profiles own offsets, encodings, script
 commands and patch rules. PC-88/PC-98 hardware alone does not imply compatible
 engines. **No other game or PC-88 format is currently supported.**
 
+The latest cumulative section is [R09: Daina reunion and the Begi historian](docs/r09-daina-begi.md),
+with 1,064 adapted records in 107 scenes and a runnable XP4 launcher. Full route
+playtesting remains pending.
+
+**Start here:** [Build and run the English patch](docs/getting-started.md).
+The guide covers original disks, the cumulative build, emulator disk changes,
+existing saves and generated IPS patches.
+See [translation progress](docs/progress.md) for measured coverage and what the
+percentages mean.
+
 ## Current capabilities
 
 - Alshark structural audit: candidate blocks, entry slices, diagnostic CP932
   text, source hashes and per-disk marker counts.
-- Reproducible Alshark demo: START/LOAD menu, breakfast conversation, selected
-  shared names and Cosma location title. Builds local images and IPS patches.
+- Reproducible cumulative Alshark section builds from versioned English packs
+  and original disks, producing local images, IPS patches and validation manifests.
 - Conservative command-aware export/import with immutable commands, stable IDs,
-  exact unchanged roundtrip, and thirty-two opening/town/pickup entries enabled for editing.
-- Optional area draft: nineteen more conversations/branches, Shoko's name,
-  basic field/system/text-speed menus and three common UI messages.
-- Synthetic tests for block slicing and script validation.
+  exact unchanged roundtrip and source-mapped entries enabled for editing.
+- Guarded dialogue, cinematic, menu, runtime UI and name adapters, with separate
+  canonical English and storage/layout fitting. Older partial demos remain available.
+- Regression tests for script preservation, pointers, layouts, section gates,
+  renderer behavior and the optional experience multiplier.
 - Separate canonical English, connected-scene context, editorial review,
   terminology impact and technical adaptations. See the
   [localization workflow](docs/localization-workflow.md) and
@@ -26,6 +37,10 @@ engines. **No other game or PC-88 format is currently supported.**
 
 New translation work follows source/context → canonical English → editorial
 review → technical adaptation → ROM validation → playtest → editorial feedback.
+Plan substantial playable sections with the [section release workflow](docs/section-release-workflow.md).
+The current cumulative boundary is described in the section handoff above;
+`--release-plan` blocks partial coverage from being packaged as a section candidate.
+Existing per-scene demo builds remain experiments.
 Existing compressed drafts remain provisional. Unacceptable fitting is recorded
 as `DOES_NOT_FIT`, not solved by silently degrading English. The generic editorial
 layer lives in `retrotext/localization.py`; encoding/layout remain profile-specific.
@@ -44,6 +59,9 @@ validation does not prove safe text relocation. See the
 and current limitations.
 
 ## Run
+
+For the cumulative translation, use the [getting-started guide](docs/getting-started.md).
+The optional demo commands below are smaller engineering experiments.
 
 Python 3.10+; standard library only. From the repository root:
 
@@ -103,3 +121,9 @@ finding applies to. Do not contribute game images or full extracted scripts.
 
 MIT license for the code and original documentation. Game content and third-party
 software remain subject to their respective rights.
+
+## Current playable section
+
+See the [R09 handoff](docs/r09-daina-begi.md) for the cumulative opening
+through Daina and the Begi historian candidate, launcher, reproducible build commands, source
+coverage and runtime limitations.

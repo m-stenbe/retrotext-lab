@@ -1,5 +1,10 @@
 # Canonical localization and technical adaptation
 
+Use the [section release workflow](section-release-workflow.md) to choose and ship
+work. The per-scene selection/readyScenes mechanisms below are for experimental
+work packets; player section candidates must pass the complete `--release-plan`
+gate. Discovery of routine missing text must precede player verification.
+
 The canonical English script is the intended English-language game, free of
 storage, font and layout constraints. The in-game adaptation is a separate
 technical deliverable. Existing uppercase drafts are **legacy provisional
@@ -32,9 +37,10 @@ does not prove conversational order. Follow counted commands and known branches
 and use playtest evidence; following dialogue may belong to another entry.
 
 The catalog includes all currently decoded bank entries and resident menu-table
-strings, reviewed UI spans, selected short/full shared names, and the two known
-fixed combat scripts. It does **not** claim complete game coverage: cinematic
-extraction, remaining name/item/ability tables and other text still need mapping.
+strings, reviewed UI spans, selected short/full shared names, the three known
+fixed combat scripts, the complete meteor cinematic, and the first-section
+equipment/ability names. It does **not** claim complete game coverage: other
+cinematics, remaining name/item/ability tables and other text still need mapping.
 Use the same canonical/context model as those sources become available.
 
 ## Working on a connected scene
@@ -235,3 +241,30 @@ on the playtest sheet. Editorial corrections go back to canonical English first.
 This automates gathering, reporting and technical checking. Translation and
 continuous-scene editorial judgment remain deliberate work; no external model
 service, credential, or automatic approval is introduced.
+
+## Reviewed continuation pages and coupled allocations
+
+R01 script adaptations may use a list of nonempty strings for a single text token.
+Only the explicitly opted-in compiler path emits a wait/clear pair between pages;
+the default importer rejects lists. It preserves all original commands and checks
+combined allocation and composed shared-call layout. A continuation clear removes
+the speaker header and resets display mode/color; pagination is rejected inside
+headers or nondefault text colors. Continue the body without promising a repeated
+speaker heading. Seven extra breaks are used by the town batch.
+
+R04 additionally supports explicitly opted-in narration pages using the original
+control36 attributes. These insert wait/clear/restore (`0_6`), guarded against the
+original interpreter bytes. Shared speaker-header calls have source-checked
+attribute effects, so subsequent ordinary dialogue uses `0_` instead. Other
+nondefault attributes, unknown call effects and header splits still fail closed.
+See `r04_pages.py`, the R04 source evidence, and the integration tests. This
+preserves original commands and allocations; actual appearance remains a playtest
+check.
+
+Cinematic text has its own interpreter, full-width encoding and immutable
+animation/timing controls. Resident UI uses guarded relocation, retaining each
+menu's geometry and every pointer alias. Shared names are compiled as one complete
+allocation group: release plans declare `compileTogether` for the three affected
+scenes. This never waives any scene's editorial or adaptation gate. Ability and item names are at most eight cells in their narrowest consumers.
+The September 24 playtest also established two-cell ASCII spaces in the generic
+name renderer; adapters use its one-cell skip for internal English spacing.

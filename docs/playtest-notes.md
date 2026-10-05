@@ -382,3 +382,51 @@ claim a new cinematic adapter exists. This audit adds no new story translations.
 
 The user also confirmed that the 4× EXP multiplier works in-game. This confirms
 observed multiplier behavior, not exhaustive character, cap or stat-growth tests.
+
+## Remaining meteor interactions and Karu return — 2026-09-23
+
+All twelve player screenshots at 14.26.42–14.30.18 show missing coverage:
+054000:000 (soldier, two frames), 052000:083 (crater, one frame), and
+051000:019 (Karu joining, nine frames). These are now included in build 07; see
+[batch 05](return-cosma-batch-05.md) for adaptation decisions and byte checks.
+The screenshots are source/context evidence, not validation of the new English.
+Check the complete Karu exchange, party join, soldier death narration and crater
+caption in the new build. This work does not translate the Opening cinematic.
+
+
+## 2026-09-23: proactive R01 candidate
+
+The [first proactive section pass](r01-first-pass.md) supersedes the earlier
+experimental builds for the Cosma–meteor–Cosma route. It includes the full meteor
+cinematic, Jido aftermath, town/pickup gaps, party TALK, gameplay UI and required
+names. Source discovery and branch coverage are now mapped before player handoff;
+the section candidate gate passes. Runtime traversal and appearance remain to be
+verified. Opening staff-credit artwork remains Japanese.
+
+## 2026-09-23: R02 Dust/Joe/Hamack candidate
+
+The [R02 handoff](r02-dust-hamack.md) extends the cumulative build to 266 adapted
+records across 44 scenes. The source inventory now precedes player verification,
+including optional jobs/services, shared bar objects and party alternatives.
+Use its new XP4 launcher and branch sheet; the original screenshot gaps in the
+meteor route remain covered by cumulative R01 content. Runtime route validation
+is still pending.
+
+## 2026-09-23: R03 spaceport and ship candidate
+
+[R03](r03-spaceport.md) adds the spaceport, abandoned mine, ship naming and
+initial bridge, including reachable ship services and equipment names. Its
+endpoint is before the cockpit rescue trigger. Prior R02 build files and the
+player's save data are preserved. Use the new candidate for its translated
+section; runtime route and menu validation remains pending.
+
+## 2026-09-24: R04 rescue and station candidate
+
+[R04](r04-rescue-station.md) extends the cumulative English through the cockpit
+distress call, civilian-ship rescue, station recruitment/tour and first mission
+briefing. Stop before leaving CS station. The candidate includes 595 adapted
+records across 61 scenes, preserving the prior 550. Check narration continuation
+pages and speaker transitions as well as the complete optional station dialogue.
+Static source, editorial and layout checks precede player verification; they do
+not establish runtime appearance or route traversal. Earlier candidates and
+their save data remain separate.
