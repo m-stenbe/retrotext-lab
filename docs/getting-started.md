@@ -25,6 +25,14 @@ git clone https://github.com/m-stenbe/retrotext-lab.git
 cd retrotext-lab
 ```
 
+Until [PR #1](https://github.com/m-stenbe/retrotext-lab/pull/1) is merged, select
+its version after cloning so the cumulative tools and packs are available:
+
+```sh
+git fetch origin pull/1/head
+git switch --detach FETCH_HEAD
+```
+
 Keep originals in a separate directory. Replace `/path/to/original` below with
 that directory, containing all six images. Use a new output directory for each
 candidate and close any emulator using its images before rebuilding.
