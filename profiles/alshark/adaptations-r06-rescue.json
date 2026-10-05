@@ -1,0 +1,479 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "porkin-tomyu-pursuit",
+    "zajil-military-station-rescue",
+    "zajil-military-station-staff",
+    "zajil-rescue-party-and-rest"
+  ],
+  "records": [
+    {
+      "id": "script:05a000:012",
+      "basedOn": "c6c90ea59f9255654dd6e29aa9e2bd976b6159ce5ec2b4a665034281f6974239",
+      "inGameEnglish": {
+        "t002": "TOMYU"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05a000:014",
+      "basedOn": "c6c90ea59f9255654dd6e29aa9e2bd976b6159ce5ec2b4a665034281f6974239",
+      "inGameEnglish": {
+        "t002": "HAH! YOU FELL\nFOR IT! BOYS,\nSHOW THEM A\nGOOD TIME!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "The taunt about coming all this way becomes fell for it in context of the kidnapping letter. Euphemistic show them a good time is retained before the battle."
+      ]
+    },
+    {
+      "id": "script:05a000:017",
+      "basedOn": "c6c90ea59f9255654dd6e29aa9e2bd976b6159ce5ec2b4a665034281f6974239",
+      "inGameEnglish": {
+        "t004": "NOW! GIVE\n",
+        "t006": " BACK!!",
+        "t010": "?! W...\nWHAT DO YOU\nMEAN?!",
+        "t016": "DON'T LIE,\nRAT! IF ",
+        "t018": [
+          "\nIS HURT...",
+          "EVERY LAST ONE\nOF YOU..."
+        ],
+        "t021": "WAIT! MY\nORDERS WERE TO\nKILL YOU...",
+        "t027": "ORDERED?!",
+        "t033": "WHAT? EXPLAIN\nYOURSELF!",
+        "t036": "N... NO...",
+        "t042": "I'LL KILL\nYOU!!",
+        "t045": [
+          "I'LL TALK!\nGEIST, THE\nMILITARY\nSTATION CHIEF,",
+          "IS BEHIND IT!\nI ONLY...\nKIDUN..."
+        ],
+        "t051": "TCH. AS I\nTHOUGHT.",
+        "t054": "I TALKED!\nPLEASE LET ME\nGO!",
+        "t060": "YOU WISH!",
+        "t066": " CALLED\n",
+        "t068": "FEDERATION\nPOLICE. THEY\nLED TOMYU OFF."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Sewer rat shortens to rat. The interrupted threat, orders to kill, Geist\u2019s station command and role behind events remain. Tomyu never completes his Kidun explanation; no supplied/traded action is invented.",
+        "The police narration compresses arrival in response to the call, preserving Federation police and Tomyu being taken away."
+      ]
+    },
+    {
+      "id": "script:05e000:000",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t007": "!!",
+        "t014": "!! ARE\nYOU OK?!",
+        "t017": "HAH! YOU GOT\nTHIS FAR.",
+        "t023": "YOUR CRIMES\nEND HERE!!",
+        "t026": "OH? YOU WILL\nDIE HERE."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "How far the party got, Shoko\u2019s safety question and Geist\u2019s death threat remain."
+      ]
+    },
+    {
+      "id": "script:05e000:001",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t001": "YOU CANNOT GO!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:002",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t001": "KILL YOU, I GO\nUP TWO RANKS!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:003",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t001": "SORRY. YOU DIE\nHERE."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:004",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t002": [
+          "CHAUSNOMYU IS\nFINALLY\nINVESTIGATING\nKIDUN.",
+          "HOW\nREASSURING."
+        ],
+        "t005": "I'M COUNTING\nON YOU."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:005",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t002": "THE SYNDICATE\nPLAYS DIRTY,\nTHEY SAY. TAKE\nCARE."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:006",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t002": "I'LL REPORT\nANYTHING ODD!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "At once is omitted; reporting suspicious activity remains."
+      ]
+    },
+    {
+      "id": "script:05e000:007",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t002": "WE CANNOT SPOT\nANY KIDUN\nFARMS FROM\nHERE."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:008",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t002": "ZAJIL MILITARY\nSTATION KEEPS\nPUBLIC ORDER."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:009",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t002": "DON'T TALK TO\nME ON DUTY!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Excuse me is omitted; on-duty refusal remains."
+      ]
+    },
+    {
+      "id": "script:05e000:010",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t002": [
+          "CAN A MERE\nFEDERATION\nPATROL HANDLE",
+          "THOSE\nSYNDICATE\nTHUGS?"
+        ]
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:011",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t002": "WELL, DO YOUR\nBEST"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:013",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t002": "CMDR GEIST"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "CMDR is the technical abbreviation of Commander in the original12-byte text allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:014",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t002": "SOLD"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "SOLD is the explicit four-byte display abbreviation of Soldier. No rank or guard duty is inferred."
+      ]
+    },
+    {
+      "id": "script:05e000:015",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t002": "OPERATOR"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:016",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t005": ", SO GLAD\nYOU ARE SAFE.",
+        "t012": "...",
+        "t018": "WHY DID THEY\nTAKE YOU?",
+        "t024": "I'M NOT\nSURE.",
+        "t026": "BUT...",
+        "t032": "BUT WHAT?",
+        "t038": "THEY SEEM TO\nTRADE KIDUN\nWITH ZOLIAS.",
+        "t044": "ZOLIAS?! THEN\nCOULD IT\nBE...?",
+        "t050": "VERY POSSIBLE.",
+        "t056": [
+          "ENOUGH BABBLE!\nI DON'T GET\nIT!",
+          "LET'S GO. THE\nJOB IS DONE."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Joe addresses Shoko directly in the adaptation, retaining the kidnapping question. Welda\u2019s dismissive departure order preserves her failure to follow the others implication and completed mission."
+      ]
+    },
+    {
+      "id": "script:05e000:017",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t001": "COMMANDER",
+        "t003": [
+          "NO IDEA WHAT\nMY PREDECESSOR\nWAS LIKE.",
+          "WITH ME, ZAJIL\nIS SAFE."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:018",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t000": "GOOD WORK."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "GOOD WORK compresses the courteous thanks for service."
+      ]
+    },
+    {
+      "id": "script:05e000:019",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t000": "CAN YOU TAKE\nIT EASY HERE?"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Rhetorical doubt about taking it easy here is retained."
+      ]
+    },
+    {
+      "id": "script:05e000:020",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t000": "WHEN ZOLIAS\nATTACKS, WE'LL\nBE READY!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:021",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t000": "OUR NEW\nCOMMANDER HAS\nTHE STATION\nWORKING RIGHT."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Proper station function under the new commander retained; now/finally is implicit."
+      ]
+    },
+    {
+      "id": "script:05e000:022",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t000": "BE CAREFUL.\nZOLIAS SPACE\nIS FULL OF\nENEMY FLEETS."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:023",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t000": "CHAUSNOMYU IS\nAS GOOD AS\nTHEY SAY."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:024",
+      "basedOn": "f98b438f493648f6c1ba5c9694113099926a932d55c28e3caf255c8abede4e1d",
+      "inGameEnglish": {
+        "t000": "GOOD LUCK."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:025",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t001": "NO WAY OUT\nALIVE!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "NO WAY OUT ALIVE preserves the threat within the16-byte text allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:026",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t001": "RELAX WHILE\nYOU STILL CAN."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Introductory scoff is omitted; enjoying ease only for now retains the threat."
+      ]
+    },
+    {
+      "id": "script:05e000:027",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t001": "YOU TALK TO\nME? YOU'RE ODD"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05e000:028",
+      "basedOn": "7b18f43a229b954c4d8d48eb4af02a1f20147923e240029f4aa02775bb69a8d2",
+      "inGameEnglish": {
+        "t001": "..."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:008",
+      "basedOn": "4ed21849a6a8934a2a2eb2a28da043a162fb81d8e77af71f7e99848eeed80366",
+      "inGameEnglish": {
+        "t000": "SO SOMEONE WAS\nBEHIND IT.",
+        "t007": " IS SAFE,\nI HOPE...",
+        "t013": "DAMN! IF ",
+        "t015": "\nIS HURT, I'LL\nCRUSH THE\nSTATION!!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:009",
+      "basedOn": "4ed21849a6a8934a2a2eb2a28da043a162fb81d8e77af71f7e99848eeed80366",
+      "inGameEnglish": {
+        "t000": "GO! ZAJIL\nMILITARY\nSTATION!"
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:010",
+      "basedOn": "4ed21849a6a8934a2a2eb2a28da043a162fb81d8e77af71f7e99848eeed80366",
+      "inGameEnglish": {
+        "t000": "I FEARED THE\nWORST. THANK\nYOU ALL."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:011",
+      "basedOn": "4ed21849a6a8934a2a2eb2a28da043a162fb81d8e77af71f7e99848eeed80366",
+      "inGameEnglish": {
+        "t000": "IF ZOLIAS HAD\nA HAND IN THE\nKIDNAPPING...",
+        "t006": "THEN IT WAS\nDAD...",
+        "t012": "THAT SEEMS\nLIKELY.",
+        "t018": "I'M JUST GLAD\nSHOKO IS SAFE.",
+        "t024": "HOW DOES HE\nKNOW WHAT WE\nDO?",
+        "t030": "STOP\nWHISPERING!\nGOT ANY IDEAS\nABOUT THIS?",
+        "t036": "HAH! IF I\nKNEW, I\nWOULDN'T TELL\nYOU.",
+        "t042": "HUH? SAY\nSOMETHING?",
+        "t048": "NO. YOUR\nIMAGINATION."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:012",
+      "basedOn": "4ed21849a6a8934a2a2eb2a28da043a162fb81d8e77af71f7e99848eeed80366",
+      "inGameEnglish": {
+        "t000": "JOB DONE.\nLET'S RETURN\nTO CS STATION."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:036",
+      "basedOn": "4ed21849a6a8934a2a2eb2a28da043a162fb81d8e77af71f7e99848eeed80366",
+      "inGameEnglish": {
+        "t006": ", UP! IT'S\nMORNING!",
+        "t012": "MM... I WANTED\nMORE SLEEP."
+      },
+      "notes": [
+        "Separate adaptation from the reviewed canonical connected scene; original commands and runtime-name ordering preserved.",
+        "Preserves core meaning and speaker intent; wording is compacted for the original allocation."
+      ]
+    }
+  ]
+}

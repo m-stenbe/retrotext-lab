@@ -24,21 +24,21 @@
     },
     {
       "id": "script:052000:013",
-      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "basedOn": "2e1c32489a378dcebe2e181fd7f9e5eefc4636a17fc28eef79e72c5861b3d64b",
       "inGameEnglish": {
         "t003": "GIRL",
-        "t005": "THIS IS\nHAMACK.",
+        "t005": "HAMACK.",
         "t007": "\nI'M JANE.\nAND YOU?",
-        "t009": "",
+        "t009": "\n",
         "t012": "GIVE NAME?"
       },
       "notes": [
-        "The original name prompt uses the header area; kept within one row. Empty text span before the header retains its token and all controls. The town, self-introduction and question remain."
+        "Town, self-introduction and question use three body rows. The original newline before the yellow prompt is restored, leaving the fourth row for GIVE NAME?; no cursor reset is assumed for the repeated style command. THIS IS is omitted from the town identification."
       ]
     },
     {
       "id": "script:052000:043",
-      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "basedOn": "2e1c32489a378dcebe2e181fd7f9e5eefc4636a17fc28eef79e72c5861b3d64b",
       "inGameEnglish": {
         "t001": "NICE NAME!\nHI, ",
         "t003": "."
@@ -49,7 +49,7 @@
     },
     {
       "id": "script:052000:042",
-      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "basedOn": "2e1c32489a378dcebe2e181fd7f9e5eefc4636a17fc28eef79e72c5861b3d64b",
       "inGameEnglish": {
         "t001": "HOW RUDE!"
       },
@@ -59,7 +59,7 @@
     },
     {
       "id": "script:052000:044",
-      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "basedOn": "2e1c32489a378dcebe2e181fd7f9e5eefc4636a17fc28eef79e72c5861b3d64b",
       "inGameEnglish": {
         "t001": "JANE",
         "t004": ",\nDOING OK?"
@@ -70,7 +70,7 @@
     },
     {
       "id": "script:052000:045",
-      "basedOn": "a20e5467021bfaed531cc752f81965f53d3e42f5e18886a58d6caa7d0647a6e5",
+      "basedOn": "2e1c32489a378dcebe2e181fd7f9e5eefc4636a17fc28eef79e72c5861b3d64b",
       "inGameEnglish": {
         "t001": "JANE",
         "t003": "NEED ANYTHING?"
@@ -106,10 +106,10 @@
       "basedOn": "75cf27dc4c3e92982db5dec4ad09471e9e255848a281fb7d401aaa88f91cea71",
       "inGameEnglish": {
         "t001": "WOMAN",
-        "t003": "ZOLIAS TROOPS\nWERE HERE. I\nTHOUGHT THEY'D\nKILL ME!"
+        "t003": "ZOLIAS TROOPS\nWERE HERE.\nI THOUGHT THEY\nWOULD KILL ME!"
       },
       "notes": [
-        "Fear is conveyed by thought they would kill me. Omits the precise recent-time phrase and the separate terrifying description."
+        "The original thought-they-would-kill-me wording is retained. A line break before I avoids the visually large gap after the full-cell period; WOULD expands the contraction to balance four rows. The recent-time detail and separate terrifying description remain compressed."
       ]
     },
     {

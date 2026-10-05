@@ -1,0 +1,216 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r06-flight-controls-and-feedback"
+  ],
+  "records": [
+    {
+      "id": "ui:Opening:004430",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "FIRE\nREPAIR\nDATA\nFLEE",
+      "notes": [
+        "Fire and emergency repairs remain distinct actions; command order unchanged."
+      ]
+    },
+    {
+      "id": "ui:Opening:004500",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "MAKE\nSTOP",
+      "notes": [
+        "Short action labels for the weapon-development confirmation."
+      ]
+    },
+    {
+      "id": "ui:Opening:00450e",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "TANK\nWALK",
+      "notes": [
+        "On Foot shortened to WALK in the movement-mode choice."
+      ]
+    },
+    {
+      "id": "ui:Opening:00477d",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "WARP\nMAP\nDATA\nREPAIR\nCOCKPIT",
+      "notes": [
+        "Interstellar Travel shortened to WARP; cockpit entry stays distinct from the map action."
+      ]
+    },
+    {
+      "id": "ui:Opening:004788",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "MAP\nDATA\nREPAIR\nCOCKPIT",
+      "notes": [
+        "Four-action flight variant retains the source order."
+      ]
+    },
+    {
+      "id": "ui:Opening:0047b2",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "OK\nCHANGE",
+      "notes": [
+        "OK is the constrained confirmation label."
+      ]
+    },
+    {
+      "id": "ui:Opening:0047bc",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "SELECT STAR\nFOR SUBSPACE",
+      "notes": [
+        "Keeps the destination as a star, not an arbitrary planet."
+      ]
+    },
+    {
+      "id": "ui:Opening:0047e0",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "\nSET COURSE?\n\nIS THIS OK?",
+      "notes": [
+        "Original destination line and blank separation reserved for runtime writes."
+      ]
+    },
+    {
+      "id": "ui:Opening:004801",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "SUBSPACE NOW",
+      "notes": [
+        "Compact transition announcement."
+      ]
+    },
+    {
+      "id": "ui:Opening:004816",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "THIS ENGINE\nCAN'T REACH\nTHAT TARGET",
+      "notes": [
+        "Retains the current engine as the reason travel is impossible."
+      ]
+    },
+    {
+      "id": "ui:Opening:004849",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "CONTROL\nREPAIR\nDATA\nFIGHTER\nFLEE",
+      "notes": [
+        "Battle action order preserved; setting submenus remain distinct."
+      ]
+    },
+    {
+      "id": "ui:Opening:00487a",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "LAUNCH\nREPAIR",
+      "notes": [
+        "Fighter command variant with launch available."
+      ]
+    },
+    {
+      "id": "ui:Opening:00488d",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "RECALL",
+      "notes": [
+        "Recall the deployed fighter."
+      ]
+    },
+    {
+      "id": "ui:Opening:004897",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "\nLAND HERE?\n\nIS THIS OK?",
+      "notes": [
+        "Original destination line and blank separation reserved for runtime writes."
+      ]
+    },
+    {
+      "id": "ui:Opening:004913",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "AUTO\nOFF",
+      "notes": [
+        "Repair setting; context supplied by the parent repair menu."
+      ]
+    },
+    {
+      "id": "ui:Opening:004927",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "AUTO\nMANUAL",
+      "notes": [
+        "Combat control mode, in source order."
+      ]
+    },
+    {
+      "id": "ui:Opening:004939",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "REPAIR ON",
+      "notes": [
+        "Setting result, not an immediate repair-completion message."
+      ]
+    },
+    {
+      "id": "ui:Opening:004950",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "REPAIR OFF",
+      "notes": [
+        "Setting result; no claim of cancellation of an already-completed repair."
+      ]
+    },
+    {
+      "id": "ui:Opening:00496b",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "PREPARE LAUNCH",
+      "notes": [
+        "Preserves preparation, rather than asserting the fighter already launched."
+      ]
+    },
+    {
+      "id": "ui:Opening:004988",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "RECALL CRAFT",
+      "notes": [
+        "Compact fighter-return announcement."
+      ]
+    },
+    {
+      "id": "ui:Opening:0049a1",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "AUTO MODE",
+      "notes": [
+        "Mode-switch announcement."
+      ]
+    },
+    {
+      "id": "ui:Opening:0049b8",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "MANUAL MODE",
+      "notes": [
+        "Mode-switch announcement."
+      ]
+    },
+    {
+      "id": "ui:Opening:0049cf",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "FIGHTER OUT",
+      "notes": [
+        "Status of the fighter, not a launch order."
+      ]
+    },
+    {
+      "id": "ui:System:01714e",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "ATRAIA",
+      "notes": [
+        "Normalizes the embedded Atlia variant to the established provisional Atraia terminology; no claim of an official spelling."
+      ]
+    },
+    {
+      "id": "ui:System:01734f",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "STAR\nGOVT\nFOES\nPLAN    MOON",
+      "notes": [
+        "Source-guarded runtime fields stay at columns4–6 and12–14; shortened labels do not overwrite star, affiliation, strength or counts."
+      ]
+    },
+    {
+      "id": "ui:System:01a035",
+      "basedOn": "7407b072e16a38392e8805ab02b228d07790d55ffaf938f592135ed995fd48ba",
+      "inGameEnglish": "FIGHTER DOWN!",
+      "notes": [
+        "Short battle destruction message; retains the fighter as the subject."
+      ]
+    }
+  ]
+}

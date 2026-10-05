@@ -1,0 +1,197 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "mars-spaceport"
+  ],
+  "records": [
+    {
+      "id": "script:05f000:031",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "WELCOME! ZAJIL\nTICKET. 100\nCREDITS. BUY\nONE?"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:032",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "WELCOME! STEA\nTICKET. 120\nCREDITS. BUY\nONE?"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:033",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "WELCOME! JUKE\nTICKET. 240\nCREDITS. BUY\nONE?"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:034",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "ON MARS? HONOR\nDUMNA'S\nMEMORIAL."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Mars replaces the Federation main-world description; the invitation to honor Dumna\u2019s memorial remains."
+      ]
+    },
+    {
+      "id": "script:05f000:035",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "WYURIAN NOBLE",
+        "t003": [
+          "MARS IS RICHER\nTHAN I HEARD.\nNO MATCH FOR\nOUR HOME,",
+          "WYULTRIA..."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Wyultria\u2019s main-world status shortens to home in the noble\u2019s boast; relative prosperity remains."
+      ]
+    },
+    {
+      "id": "script:05f000:036",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "THE BIG CITY\nOUTSIDE IS\nTESWIL, MARS\nCAPITAL."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:037",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": "HI! TAKING THE\nSTAR BUS TOO?"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "STAR BUS is the compact form of interstellar bus."
+      ]
+    },
+    {
+      "id": "script:05f000:038",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "JUKE IS ICY.\nDEVELOPMENT\nJUST BEGAN.",
+        "t006": "MOST LAND IS\nICE. FEW GREEN\nSETTLEMENTS.\nSOUNDS HARSH."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "A few green settlements versus mostly icy land retains the environmental contrast and uncertainty about harsh conditions."
+      ]
+    },
+    {
+      "id": "script:05f000:039",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": "WATCH OUT!\nBUGS SOMETIMES\nATTACK\nOUTSIDE."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:040",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "I HEAR FED HQ\nIS ON TRIM, A\nMOON OF MARS."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "FED HQ abbreviates Federation military headquarters; Trim\u2019s status as a moon of Mars and reported nature remain."
+      ]
+    },
+    {
+      "id": "script:05f000:041",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "TAKE THE STAR\nBUS?"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:042",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "YOUR\nDESTINATION?"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:043",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t000": "ZAJIL\nSTEA\nJUKE\nCANCEL"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:056",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t002": "BOARDED THE\nZAJIL ",
+        "t004": "STAR\nBUS."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:058",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t002": "BOARDED THE\nJUKE ",
+        "t004": "STAR BUS."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05f000:059",
+      "basedOn": "2c1e975aa88b7217b2e0f81716bb186509e8cd0b1557320cd0480e3ff105ba85",
+      "inGameEnglish": {
+        "t001": "RETURN TO CS\nSTATION?"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    }
+  ]
+}

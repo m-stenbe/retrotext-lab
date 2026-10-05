@@ -1,0 +1,57 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "return-karu-joins",
+    "meteor-soldier",
+    "meteor-crater"
+  ],
+  "records": [
+    {
+      "id": "script:054000:000",
+      "basedOn": "24510c7d03001274b7748b72f92caf9060c984b610e0f3ae237cea7f0ad1372e",
+      "inGameEnglish": {
+        "t001": "ZOLIAS SOLDIER",
+        "t003": "WH... WHERE?\nWH...!",
+        "t007": "HE QUIETLY\nSHUTS HIS EYES",
+        "t009": "\nAND DIES."
+      },
+      "notes": [
+        "Retains the unfinished reaction and quiet closing of the eyes. Narration uses he after the explicit speaker label and dies for breathed his last. No cause of injury or recognition is invented.",
+        "2026-09-24 fitting: small punctuation/acknowledgement adjustment pays for restoring narration attributes after line breaks; canonical meaning is unchanged."
+      ]
+    },
+    {
+      "id": "script:052000:083",
+      "basedOn": "5d733d245ba319dc9e0232e94855871cf405c152a2939e59565bb4f2d214de0b",
+      "inGameEnglish": {
+        "t001": "METEOR SMOKES\n",
+        "t003": "IN A HUGE PIT."
+      },
+      "notes": [
+        "The 33-byte allocation requires a compact environmental caption. Keeps meteor, smoke and large pit; omits the smoke's color and explicit bottom-of-pit position. Canonical English preserves both."
+      ]
+    },
+    {
+      "id": "script:051000:019",
+      "basedOn": "929037314ef5339234cb50d5bb82bdbd9991de0e0c85d9ea50df012d2800af20",
+      "inGameEnglish": {
+        "t004": "WELCOME HOME,\n",
+        "t006": ".\nHI, ",
+        "t008": ".",
+        "t015": "!\nWHERE'S MOM?",
+        "t022": " DOES NOT\nKNOW.",
+        "t028": "YOUR MOM LEFT?",
+        "t034": "SHE LEFT\nWITHOUT A\nWORD.",
+        "t040": "NOT EVEN\nWHERE TO?",
+        "t047": " DOES NOT\nKNOW.",
+        "t053": "HE CAN'T PLAY\nVIDEO. WELL,\n",
+        "t055": ", LET'S\nFIND MOM.",
+        "t062": " WILL GO\nWITH ",
+        "t064": "."
+      },
+      "notes": [
+        "Preserves every exchange, both greetings, Karu's named self-reference, Lucia leaving without a word, uncertainty about her destination, lack of video playback, invitation to find Mom and Karu joining. Omits the older-model rationale and the separate No use; Well conveys resignation. Canonical English remains unchanged. No waits, clears, commands, names or party/event payloads are added or edited."
+      ]
+    }
+  ]
+}

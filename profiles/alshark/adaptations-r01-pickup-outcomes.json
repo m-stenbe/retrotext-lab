@@ -1,0 +1,29 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "story-pickup-outcomes"
+  ],
+  "records": [
+    {
+      "id": "script:061000:020",
+      "basedOn": "0e1228f92e5d06c540f06937544680eff2890115d7428e7488914f221a150c74",
+      "inGameEnglish": {
+        "t002": "CAN'T CARRY\nIT"
+      },
+      "notes": [
+        "The capacity refusal implies abandoning the pickup; explicit gave up is omitted in the 20-byte helper.",
+        "2026-09-24 fitting: small punctuation/acknowledgement adjustment pays for restoring narration attributes after line breaks; canonical meaning is unchanged."
+      ]
+    },
+    {
+      "id": "script:061000:022",
+      "basedOn": "0e1228f92e5d06c540f06937544680eff2890115d7428e7488914f221a150c74",
+      "inGameEnglish": {
+        "t001": "SEEMS EMPTY."
+      },
+      "notes": [
+        "Preserves apparent emptiness and source uncertainty; empty in the revisited-location context conveys nothing left."
+      ]
+    }
+  ]
+}

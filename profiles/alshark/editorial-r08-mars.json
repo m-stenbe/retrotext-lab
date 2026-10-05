@@ -1,0 +1,1566 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R08 connected-scene source editorial review",
+  "scenes": [
+    {
+      "id": "mars-leave-debrief",
+      "records": [
+        "script:05d000:002",
+        "script:05c000:028",
+        "script:05c000:030",
+        "script:05c000:031",
+        "script:05c000:032",
+        "script:05c000:033",
+        "script:05c000:034"
+      ],
+      "participants": [
+        "Roy",
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Secretary",
+        "Operator",
+        "Soldier"
+      ],
+      "location": "CS Station",
+      "storyState": "After Byuto mine victory2c; Roy grants leave and sets2d.",
+      "purpose": "Report the mine incident, secure leave and arrange passage to Mars",
+      "previousContext": [
+        "The party destroyed the creature spawning monsters beneath Byuto. Joe suspected Zolias involvement, without proof."
+      ],
+      "followingContext": [
+        "The party may travel to Mars by arranged transport; use of Atraia is forbidden."
+      ],
+      "branchAlternatives": [
+        "Operator departure choice offers travel or waiting; the passage guard enforces the Atraia restriction.",
+        "Roy’s repeat line and secretary directions are optional follow-up interactions."
+      ],
+      "terminology": [
+        "character.roy_bester",
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "faction.zolias",
+        "faction.mars_federation",
+        "place.mars",
+        "place.teswil",
+        "place.daina",
+        "place.begi"
+      ],
+      "evidence": [
+        "Original05c027 calls05d002;05d002 sets2d and calls05c028.",
+        "Original05c028,030–034 retain travel choice and transfer commands."
+      ],
+      "uncertainty": [
+        "Roy reports evidence pointing to Zolias, not an unqualified eyewitness claim.",
+        "The science comparison is Roy’s claim; Joe immediately questions it."
+      ],
+      "notes": [
+        "Preserve Roy’s self-interested remark about his standing with the leadership, Joe’s bargaining for leave and Welda’s abrasive banter."
+      ],
+      "reviewNote": "Read the original complete Japanese debrief and logistical alternatives against continuous canonical English. Preserve hedged attribution, the science/military contrast and Joe’s skepticism, Roy’s personal advancement, the leave request and the Atraia restriction. Canonical text has no ROM limits."
+    },
+    {
+      "id": "begi-early-residents",
+      "records": [
+        "script:063000:004",
+        "script:063000:005",
+        "script:063000:006",
+        "script:063000:008",
+        "script:063000:009",
+        "script:063000:010",
+        "script:063000:011",
+        "script:063000:012",
+        "script:063000:013",
+        "script:063000:014",
+        "script:063000:015",
+        "script:063000:016",
+        "script:063000:017",
+        "script:063000:018",
+        "script:063000:020"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Begi residents"
+      ],
+      "location": "Begi on Mars",
+      "storyState": "After leave2d, before the sea crossing to Daina; video-letter receipt30 and playback32.",
+      "purpose": "Optional early Begi residents, library and pickups",
+      "previousContext": [
+        "Roy has granted leave on Mars while prohibiting use of Atraia. The party seeks news of Lucia."
+      ],
+      "followingContext": [
+        "Lucia asks the party to meet her by Wey Dumna’s monument in Daina. The sea crossing is the next section."
+      ],
+      "branchAlternatives": [
+        "Early Begi interactions precede the post-Daina history/encyclopedia branches; the latter are excluded.",
+        "The party’s initial search talk and video-message reactions are state-dependent alternatives."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.lucia",
+        "character.wey_dumna",
+        "place.mars",
+        "place.stea",
+        "people.myuntos",
+        "equipment.item.9f",
+        "equipment.item.a5",
+        "r02.r02-item.9a",
+        "place.teswil",
+        "place.daina",
+        "place.begi"
+      ],
+      "evidence": [
+        "Original063000 early town/services and081000022–028; RE bounded mainland closure before Daina.",
+        "Historian later branches34/36/37 and encyclopediaa6 are not available before the Daina revelation."
+      ],
+      "uncertainty": [
+        "Wey Dumna’s history is an NPC account, not an added omniscient claim.",
+        "Lucia says her foresight occurs unexpectedly; no precise control or mechanism is inferred."
+      ],
+      "notes": [
+        "Myuntos is the existing people term. Shoko’s polite address to Lucia does not establish literal kinship."
+      ],
+      "reviewNote": "Reviewed original Japanese against complete canonical branch groups. Preserve scholars’ interests, retirement context, item and service choices, the conditional hope of finding Lucia, Welda’s crude weaning taunt and subsequent offer of help, and Lucia’s uncertain explanation of sudden foresight."
+    },
+    {
+      "id": "begi-early-services",
+      "records": [
+        "script:063000:000",
+        "script:063000:001",
+        "script:063000:002",
+        "script:063000:003",
+        "script:063000:029",
+        "script:063000:030",
+        "script:063000:031",
+        "script:063000:032",
+        "script:063000:033",
+        "script:063000:034",
+        "script:063000:035",
+        "script:063000:036",
+        "script:063000:037"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Begi residents"
+      ],
+      "location": "Begi on Mars",
+      "storyState": "After leave2d, before the sea crossing to Daina; video-letter receipt30 and playback32.",
+      "purpose": "Begi hotel and shops",
+      "previousContext": [
+        "Roy has granted leave on Mars while prohibiting use of Atraia. The party seeks news of Lucia."
+      ],
+      "followingContext": [
+        "Lucia asks the party to meet her by Wey Dumna’s monument in Daina. The sea crossing is the next section."
+      ],
+      "branchAlternatives": [
+        "Early Begi interactions precede the post-Daina history/encyclopedia branches; the latter are excluded.",
+        "The party’s initial search talk and video-message reactions are state-dependent alternatives."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.lucia",
+        "character.wey_dumna",
+        "place.mars",
+        "place.stea",
+        "people.myuntos",
+        "equipment.item.9f",
+        "equipment.item.a5",
+        "r02.r02-item.9a",
+        "place.teswil",
+        "place.daina",
+        "place.begi"
+      ],
+      "evidence": [
+        "Original063000 early town/services and081000022–028; RE bounded mainland closure before Daina.",
+        "Historian later branches34/36/37 and encyclopediaa6 are not available before the Daina revelation."
+      ],
+      "uncertainty": [
+        "Wey Dumna’s history is an NPC account, not an added omniscient claim.",
+        "Lucia says her foresight occurs unexpectedly; no precise control or mechanism is inferred."
+      ],
+      "notes": [
+        "Myuntos is the existing people term. Shoko’s polite address to Lucia does not establish literal kinship."
+      ],
+      "reviewNote": "Reviewed original Japanese against complete canonical branch groups. Preserve scholars’ interests, retirement context, item and service choices, the conditional hope of finding Lucia, Welda’s crude weaning taunt and subsequent offer of help, and Lucia’s uncertain explanation of sudden foresight."
+    },
+    {
+      "id": "mars-search-party",
+      "records": [
+        "script:081000:022",
+        "script:081000:023",
+        "script:081000:024",
+        "script:081000:026",
+        "script:081000:027",
+        "script:081000:028"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Lucia"
+      ],
+      "location": "Mars mainland",
+      "storyState": "After leave2d, before the sea crossing to Daina; video-letter receipt30 and playback32.",
+      "purpose": "Party search discussion and video-letter reactions",
+      "previousContext": [
+        "Roy has granted leave on Mars while prohibiting use of Atraia. The party seeks news of Lucia."
+      ],
+      "followingContext": [
+        "Lucia asks the party to meet her by Wey Dumna’s monument in Daina. The sea crossing is the next section."
+      ],
+      "branchAlternatives": [
+        "Early Begi interactions precede the post-Daina history/encyclopedia branches; the latter are excluded.",
+        "The party’s initial search talk and video-message reactions are state-dependent alternatives."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.lucia",
+        "character.wey_dumna",
+        "place.mars",
+        "place.stea",
+        "people.myuntos",
+        "equipment.item.9f",
+        "equipment.item.a5",
+        "r02.r02-item.9a",
+        "place.teswil",
+        "place.daina",
+        "place.begi"
+      ],
+      "evidence": [
+        "Original063000 early town/services and081000022–028; RE bounded mainland closure before Daina.",
+        "Historian later branches34/36/37 and encyclopediaa6 are not available before the Daina revelation."
+      ],
+      "uncertainty": [
+        "Wey Dumna’s history is an NPC account, not an added omniscient claim.",
+        "Lucia says her foresight occurs unexpectedly; no precise control or mechanism is inferred."
+      ],
+      "notes": [
+        "Myuntos is the existing people term. Shoko’s polite address to Lucia does not establish literal kinship."
+      ],
+      "reviewNote": "Reviewed original Japanese against complete canonical branch groups. Preserve scholars’ interests, retirement context, item and service choices, the conditional hope of finding Lucia, Welda’s crude weaning taunt and subsequent offer of help, and Lucia’s uncertain explanation of sudden foresight."
+    },
+    {
+      "id": "lucia-video-message",
+      "records": [
+        "script:081000:025"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Lucia"
+      ],
+      "location": "Mars mainland",
+      "storyState": "After leave2d, before the sea crossing to Daina; video-letter receipt30 and playback32.",
+      "purpose": "Lucia video letter and invitation",
+      "previousContext": [
+        "Roy has granted leave on Mars while prohibiting use of Atraia. The party seeks news of Lucia."
+      ],
+      "followingContext": [
+        "Lucia asks the party to meet her by Wey Dumna’s monument in Daina. The sea crossing is the next section."
+      ],
+      "branchAlternatives": [
+        "Early Begi interactions precede the post-Daina history/encyclopedia branches; the latter are excluded.",
+        "The party’s initial search talk and video-message reactions are state-dependent alternatives."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.lucia",
+        "character.wey_dumna",
+        "place.mars",
+        "place.stea",
+        "people.myuntos",
+        "equipment.item.9f",
+        "equipment.item.a5",
+        "r02.r02-item.9a",
+        "place.teswil",
+        "place.daina",
+        "place.begi"
+      ],
+      "evidence": [
+        "Original063000 early town/services and081000022–028; RE bounded mainland closure before Daina.",
+        "Historian later branches34/36/37 and encyclopediaa6 are not available before the Daina revelation."
+      ],
+      "uncertainty": [
+        "Wey Dumna’s history is an NPC account, not an added omniscient claim.",
+        "Lucia says her foresight occurs unexpectedly; no precise control or mechanism is inferred."
+      ],
+      "notes": [
+        "Myuntos is the existing people term. Shoko’s polite address to Lucia does not establish literal kinship."
+      ],
+      "reviewNote": "Reviewed original Japanese against complete canonical branch groups. Preserve scholars’ interests, retirement context, item and service choices, the conditional hope of finding Lucia, Welda’s crude weaning taunt and subsequent offer of help, and Lucia’s uncertain explanation of sudden foresight."
+    },
+    {
+      "id": "teswil-video-letter-handover",
+      "records": [
+        "script:053000:054",
+        "script:053000:055",
+        "script:053000:056",
+        "script:053000:057"
+      ],
+      "participants": [
+        "Sion",
+        "Welda",
+        "Bartender"
+      ],
+      "location": "Teswil bar",
+      "storyState": "Leave2d; video-letter grant sets30, full inventory sets31.",
+      "purpose": "Receive Lucia’s video letter and inventory-full alternative",
+      "previousContext": [
+        "The party destroyed the creature spawning monsters beneath Byuto. Joe suspected Zolias involvement, without proof."
+      ],
+      "followingContext": [
+        "The party may travel to Mars by arranged transport; use of Atraia is forbidden."
+      ],
+      "branchAlternatives": [
+        "If inventory is full, the bartender asks the party to return; the original repeat/grant branches remain intact.",
+        "The bartender’s business complaint is a later repeat."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.welda",
+        "equipment.item.a5",
+        "currency.credits",
+        "place.teswil",
+        "place.daina",
+        "place.begi"
+      ],
+      "evidence": [
+        "Original053000054–057; #I itema5 grant and flags30/31."
+      ],
+      "uncertainty": [
+        "The woman’s identity becomes clear from playback; the bartender does not name her in the handover."
+      ],
+      "notes": [
+        "A 500-credit tip and the visit about two days earlier are retained."
+      ],
+      "reviewNote": "Reviewed handover dialogue, narration and inventory-full/repeat alternatives against Japanese. Preserve Sion’s surprise, Welda’s teasing, the timing and unusually large tip, and the physical video-letter handover."
+    },
+    {
+      "id": "teswil-bars",
+      "records": [
+        "script:053000:044",
+        "script:053000:045",
+        "script:053000:046",
+        "script:053000:047",
+        "script:053000:049",
+        "script:053000:050",
+        "script:053000:051",
+        "script:078000:000",
+        "script:078000:001",
+        "script:078000:002",
+        "script:078000:003",
+        "script:078000:004",
+        "script:078000:005"
+      ],
+      "participants": [
+        "Bartenders",
+        "Madam",
+        "Myuntos",
+        "Outlaw",
+        "Call Girl",
+        "Drunk",
+        "Dancer",
+        "Joe",
+        "Welda"
+      ],
+      "location": "Teswil bars",
+      "storyState": "Mars mainland leave before sea crossing to Daina.",
+      "purpose": "Optional bar conversation, war information and dancer interaction",
+      "previousContext": [
+        "The party destroyed the creature spawning monsters beneath Byuto. Joe suspected Zolias involvement, without proof."
+      ],
+      "followingContext": [
+        "The party may travel to Mars by arranged transport; use of Atraia is forbidden."
+      ],
+      "branchAlternatives": [
+        "Separate bar inhabitants are optional conversations, not a single chronological scene.",
+        "Closed-bar response is a pre-opening alternative retained with the original state checks."
+      ],
+      "terminology": [
+        "character.joe",
+        "character.welda",
+        "character.wey_dumna",
+        "people.myuntos",
+        "faction.zolias",
+        "faction.wyuria",
+        "place.barbas",
+        "system.z127",
+        "place.teswil",
+        "place.daina",
+        "place.begi",
+        "character.jaguma",
+        "character.rarawell",
+        "title.ice_rarawell",
+        "character.beast_baiden",
+        "character.nobel_sullivan",
+        "unit.black_beast",
+        "technology.biosoldier"
+      ],
+      "evidence": [
+        "Original053000044–051 wrappers and078000000–005 called bodies.",
+        "078001 explicitly enumerates three generals under runtime name17 and gives their commands.",
+        "Independent QA: full-name slot22 pointer1042c to11282 separates Nobel/Sullivan; short slot21 at11288 is Sullivan."
+      ],
+      "uncertainty": [
+        "General spellings and epithets are provisional source-based forms.",
+        "The account of Wyuria’s difficulties is reported information, not independent narration.",
+        "Nobel Sullivan romanization remains provisional; the original full-name slot supports the word division. No unstated personal history is inferred."
+      ],
+      "notes": [
+        "Preserve the call girl’s suggestive invitation without adding explicit sexual content. Welda directly rebukes Joe’s leering."
+      ],
+      "reviewNote": "Reviewed original Japanese bar wrappers and complete called dialogue. Preserve distinctions among the three commanders and their forces, uncertain war report, the bad-economy complaint, suggestive invitation and Joe/Welda exchange."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05d000:002",
+      "sourceFingerprint": "9852ea485899a6ac065595fac4a34b629edde97a47e9120067096f814563f365",
+      "canonicalEnglish": "Roy: Once again, you've done an excellent job. The investigation since then suggests that Zolias was behind the monsters being released into that mine.\nWelda: Tch. Zolias again?\nSion: Can't something be done about them, Commander?\nRoy: The Federation government isn't confident it can afford an all-out confrontation with Zolias. They are a military state, after all. However much Mars may lead in science, our overall fighting strength is still...\nJoe: I wonder just how good the Federation's science really is.\nRoy: ...Well, in any case, this has raised my standing with the Federation's leadership even higher. Thank you.\nJoe: Thanks are all very well, but sending us out on one mission after another is getting to be too much. What we need is a little leave!\nRoy: ...All right. Have it your way. Take a few days off for now.\nShoko: We did it!\nWelda: Tch. So I'm stuck babysitting the brats again.\nSion: Well, I suppose it can't be helped.\nWelda: Shut it, shorty!\nRoy: On one condition! You are forbidden to use the Atraia.\nSion: B-but...\nRoy: Those are the military's orders.",
+      "context": {
+        "speaker": "Source headers and canonical speaker labels",
+        "listener": "Party / present characters",
+        "intent": "Conclude Byuto mission and obtain leave on Mars",
+        "tone": "Formal self-interest, skeptical humor and impatient banter",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:028",
+      "sourceFingerprint": "b1d9c7c292b3d01cd33382d02a652054b045f1a411cb6867fef1329ece7017c4",
+      "canonicalEnglish": "Roy: Why not visit Planet Mars during your leave? I've had my secretary make the arrangements.",
+      "context": {
+        "speaker": "Source headers and canonical speaker labels",
+        "listener": "Party / present characters",
+        "intent": "Conclude Byuto mission and obtain leave on Mars",
+        "tone": "Formal self-interest, skeptical humor and impatient banter",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:030",
+      "sourceFingerprint": "fc60a874edd92f7454ba6f741a57c236c03f9ae1ed341e08249eaeb204f2641b",
+      "canonicalEnglish": "Secretary: I had the operator reserve passage to Planet Mars for you. Please speak to the young woman in the next room.",
+      "context": {
+        "speaker": "Source headers and canonical speaker labels",
+        "listener": "Party / present characters",
+        "intent": "Conclude Byuto mission and obtain leave on Mars",
+        "tone": "Formal self-interest, skeptical humor and impatient banter",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:031",
+      "sourceFingerprint": "ea80505f4f71fed9900623df045c5048895b5662812fa85d038018ecaa6ff6ca",
+      "canonicalEnglish": "Operator: Would you like to depart for the spaceport on Planet Mars?",
+      "context": {
+        "speaker": "Source headers and canonical speaker labels",
+        "listener": "Party / present characters",
+        "intent": "Conclude Byuto mission and obtain leave on Mars",
+        "tone": "Formal self-interest, skeptical humor and impatient banter",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:032",
+      "sourceFingerprint": "d7459b73dbecaf94d6b4fabdcbf58dbfb1871d9e7e45ba83e1b0b2ff94fcd794",
+      "canonicalEnglish": "Operator: Very well. Enjoy your leave.",
+      "context": {
+        "speaker": "Source headers and canonical speaker labels",
+        "listener": "Party / present characters",
+        "intent": "Conclude Byuto mission and obtain leave on Mars",
+        "tone": "Formal self-interest, skeptical humor and impatient banter",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:033",
+      "sourceFingerprint": "ddea08b05c00e386e565179e03f18396f268a90b6868250fa82d36f1b1fc6105",
+      "canonicalEnglish": "Operator: Just let me know whenever you’re ready.",
+      "context": {
+        "speaker": "Source headers and canonical speaker labels",
+        "listener": "Party / present characters",
+        "intent": "Conclude Byuto mission and obtain leave on Mars",
+        "tone": "Formal self-interest, skeptical humor and impatient banter",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05c000:034",
+      "sourceFingerprint": "291812175ff586b39e493c10761f5fdea3f8e97a13f2733164ac27a6fcc7907f",
+      "canonicalEnglish": "Soldier: By the commander's orders, I can't let you through here.",
+      "context": {
+        "speaker": "Source headers and canonical speaker labels",
+        "listener": "Party / present characters",
+        "intent": "Conclude Byuto mission and obtain leave on Mars",
+        "tone": "Formal self-interest, skeptical humor and impatient banter",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:000",
+      "sourceFingerprint": "bf11fd4794e2a8a4a291e8ded97ef832cc2923cd45ebf54d409b6d8c6af427fb",
+      "canonicalEnglish": "Begi Prince Hotel: Welcome. A stay costs 10 credits. Would you like a room?",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:001",
+      "sourceFingerprint": "62cfc927aac12037ec2dd2d33d358577b0c431cc5af6cda22ff82dc34d78e5f4",
+      "canonicalEnglish": "Item Shop: Welcooome! What would you like?",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:002",
+      "sourceFingerprint": "8a33b02548e8a20c88bcffcdff03fbd086a6847fc832d1f0d3b319c7e78d1968",
+      "canonicalEnglish": "Scrap Exchange: Thanks for your business! Remember us for all your scrap needs.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:003",
+      "sourceFingerprint": "9eee7f58bab465ddcca95129cbf7270772a580ccc77984d2e3f55b679629ab21",
+      "canonicalEnglish": "Weapon Shop: Welcome. I hope we have something to your liking...",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:004",
+      "sourceFingerprint": "ed320593f6e6a176423f1b5452bbe5b5b79834c3f35433de8833efe38ee1cf34",
+      "canonicalEnglish": "Mars Historian: Well, what brings you young people to see this old man?",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:005",
+      "sourceFingerprint": "dd6bdec3b82f09f376f1e6de525146fd6972250beb653292eaf47a93f6e2e3c9",
+      "canonicalEnglish": "Scholar: I study the plants that grow on different planets.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:006",
+      "sourceFingerprint": "3736e2980e577900c8886be5266819683e7d3c669b532c138a62272a9440f13a",
+      "canonicalEnglish": "Man: Begi is home to scholars who want a quiet place to immerse themselves in research, and elderly people who come here to spend their remaining years.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:008",
+      "sourceFingerprint": "9271c1b2243894cd05db8ca89027af8be3b374e7ffe404e5df8c9f7e9352be32",
+      "canonicalEnglish": "Myuntos Woman: I’m staying here to study the history of the Myuntos.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:009",
+      "sourceFingerprint": "12d5a7754eab0e0edced18c1029821d0772b9fbcc4ce7ee9fa5c8428209e5206",
+      "canonicalEnglish": "Woman: I’m thinking of spending my retirement here, too.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:010",
+      "sourceFingerprint": "99e97af4fc00959d669e2afd3f32e260e96c5b976fd018d8e61677272c5294af",
+      "canonicalEnglish": "Old Man: This really is a lovely town.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:011",
+      "sourceFingerprint": "8de8a3a9a47bfd5d2916a899dc337b165175730b06b36d362660281bd4800d12",
+      "canonicalEnglish": "Old Woman: If you’re going to Planet Stea, a Hand Satellite is essential. It’s such an enormous planet.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:012",
+      "sourceFingerprint": "7b53aa4d69619103ba88331109261c2ad7dee2ce7eaf951bb654958718b43575",
+      "canonicalEnglish": "Old Man: I hear Wey Dumna was a great man. He was the leader who united this universe, which has now split into three nations.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:013",
+      "sourceFingerprint": "18a402a9588d6fa2ab140d6bd15dff194588d97b7e65c5a4961deae2b467a035",
+      "canonicalEnglish": "Myuntos Man: My homeworld, Planet Stea, is a wonderful green world.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:014",
+      "sourceFingerprint": "0981a09feef8ca0c48ff264d6833e8620c6d5d42290e9a311f70494dbf5f5882",
+      "canonicalEnglish": "Narration: The shelves hold various books on the history of the Mars Federation.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:015",
+      "sourceFingerprint": "9083689beebf853d3dc5d96142e43b335b35c0a3b15331821e790c19a68e5c77",
+      "canonicalEnglish": "Narration: The shelves hold books about the Myuntos.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:016",
+      "sourceFingerprint": "df275bbce7ceb307f67b313483f4be5606959152649ca574ddd2a7237ac0340a",
+      "canonicalEnglish": "Narration: Found a Stea Ticket.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:017",
+      "sourceFingerprint": "d0708beee7f2b17df65b9cd1ef21bbfe8bcee40c8432effc827828e07ec767d5",
+      "canonicalEnglish": "Narration: Picked up 330 credits.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:018",
+      "sourceFingerprint": "5bbca170c7336c81a485addbbf8be06e7d4091580b8e8b8dd7ec182f36b93ed2",
+      "canonicalEnglish": "Narration: But they couldn’t carry it, so they left it behind.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:020",
+      "sourceFingerprint": "036f11c66dcbea52053d9c354a1d1ecbf5dede7b3d0e13c780818f5244493c0c",
+      "canonicalEnglish": "Speaker label: Mars Historian.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:029",
+      "sourceFingerprint": "938e7aea51fc9e30bf2fb61bbb9b5563b21e7a46d6c4cefcc89404be9a0ebfb4",
+      "canonicalEnglish": "Buy tools\nLeave the shop",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:030",
+      "sourceFingerprint": "9c73ecde4e5bc3eccd491e3f8a0077545f41310ed6cee7c116fbf82e04bf8b4a",
+      "canonicalEnglish": "Item Shop: Do you need anything else?",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:031",
+      "sourceFingerprint": "4c74eca2a4331cf2e355e5fda9378694ecbc774a482fd1d2e5fb5eaf35ae5a2a",
+      "canonicalEnglish": "Item Shop: Come agaaain!",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:032",
+      "sourceFingerprint": "de22ad8016ec9571e1fd2c3d66d7b1623cbe6c95764825007f38a8aac46227a2",
+      "canonicalEnglish": "Item Shop: No money? Then I can't sell you anything.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:033",
+      "sourceFingerprint": "f0469b295a165e82a8e0ee47eb16b842f4c24d8f7f97c3a0bcbd0754fe6933de",
+      "canonicalEnglish": "Buy weapons\nBuy armor\nLeave the shop",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:034",
+      "sourceFingerprint": "54518303331630137bad9033e5b90c98d7c69090f2673f9b0f56ad5d7bbcba7c",
+      "canonicalEnglish": "Weapon Shop: Is there anything else you need?",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:035",
+      "sourceFingerprint": "d9bc8d71d85c71395133f5cd185177d0dcd08070734aca2984b5c3a45cfa036f",
+      "canonicalEnglish": "Weapon Shop: Is there anything else you need?",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:036",
+      "sourceFingerprint": "af7548f135a94327efc7a39f393272ca6b352775d02a98ccb5d4cc0bd588f445",
+      "canonicalEnglish": "Weapon Shop: I think you can find better weapons in the capital, Teswil.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:063000:037",
+      "sourceFingerprint": "44840eee28628b7d3751cef577cd88d5b9aa48ae12ab9c8935febd56786204f2",
+      "canonicalEnglish": "Weapon Shop: If you don't have any money... Well, I do have a business to run...",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:022",
+      "sourceFingerprint": "1656897d4e11988ee3bd0313a1ce1ebffad677ba509fff189638a54b941b1616",
+      "canonicalEnglish": "Shoko: Isn’t this great, Sion? Let’s do our best to find Lucia.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:023",
+      "sourceFingerprint": "216a9aa141443ea80fce770558dfc7ca845ad4bd14f0f2479edd4e8bdf20b7b5",
+      "canonicalEnglish": "Joe: Lucia must be somewhere on Planet Mars. If we ask around Teswil, we're bound to learn something.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:024",
+      "sourceFingerprint": "2024c24be116e25d5d8ac8cb1b03e7e805ee000299959e796019bb3c3ed091db",
+      "canonicalEnglish": "Welda: You lot seemed awfully pleased about going to Mars. What's there?\nShoko: Welda, Sion's mother disappeared. She might be on Mars.\nWelda: His mother?! Tch. Sion, haven't you been weaned yet? Honestly!\nWell, all right. If that's how it is, I'll help you.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:025",
+      "sourceFingerprint": "5747675eb3ce472e0a6a21be679287d322d2a1f3a91bf2dd8877571bd78e2e1f",
+      "canonicalEnglish": "Narration: Sion and the others decided to watch the video letter right away. When Sion switched it on, a familiar image of Lucia appeared.\nLucia: “Sion, and everyone with you. There are reasons why I am in hiding.\n“You must have been surprised to receive this video letter. But I knew you would visit this shop today.\n“No, rather... it seems I can sometimes foresee the future, without warning.\n“I'll tell you everything: why I came to have this power, and why I had to go into hiding. And then, please help me.\n“I'll be waiting by the monument to Wey Dumna in the village of Daina.”",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:026",
+      "sourceFingerprint": "2e303eef6e94648b6504c803f4b8ebf1104b461618a63f8d562a6d3666cb3b34",
+      "canonicalEnglish": "Shoko: Sion, let’s hurry to Daina!",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:027",
+      "sourceFingerprint": "482e6aa9606cfa6c751d52c7b901cac047a324ff411da1c707f89ca6a7e691a9",
+      "canonicalEnglish": "Joe: I never expected Lucia to be the one to contact us. Well, whatever the case, this is good news, Sion.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:028",
+      "sourceFingerprint": "4d77df990138995f3116d7d4d542e896c3ba180113433b5a30022522b53e0189",
+      "canonicalEnglish": "Welda: Daina, huh... There's still far too much about you lot that I don't understand. You'll tell me about it sooner or later.",
+      "context": {
+        "speaker": "Source headers or proven party wrapper headers",
+        "listener": "Sion / party / customer",
+        "intent": "Search for Lucia, provide local information or services",
+        "tone": "As expressed in the canonical scene; scholarly, courteous, impatient or earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:054",
+      "sourceFingerprint": "d5f6d677774115f25616e1fc07a79b6138d9c3dd80a5604b1d0e50779fc192da",
+      "canonicalEnglish": "Narration: As Sion and the others entered the bar, the bartender looked surprised and asked:\nBartender: Excuse me, but would you happen to be Sion?\nSion: Huh?! How do you know my name...?\nWelda: Hmph. You've made quite a name for yourself, Sion.\nBartender: No, a woman came by about two days ago. She tipped me a whole 500 credits and asked me to give you this.\nNarration: He took out a video letter and handed it to Sion.",
+      "context": {
+        "speaker": "Source headers and narration",
+        "listener": "Sion / party",
+        "intent": "Deliver the video letter",
+        "tone": "Surprised, teasing, practical",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:055",
+      "sourceFingerprint": "7352aa70c1c7aa0a99b92a42f5ac894dcfd9eec7107574d02c812c33347633f0",
+      "canonicalEnglish": "Bartender: There. You’ve got it now.",
+      "context": {
+        "speaker": "Source headers and narration",
+        "listener": "Sion / party",
+        "intent": "Deliver the video letter",
+        "tone": "Surprised, teasing, practical",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:056",
+      "sourceFingerprint": "c9aa74e3ae8cbba7923ed2291c89d7c1db3d485ecc73ee7a6525103fbafbdab5",
+      "canonicalEnglish": "Bartender: Huh? You can't carry it because your belongings are full? Well, then you'll have to come back later.",
+      "context": {
+        "speaker": "Source headers and narration",
+        "listener": "Sion / party",
+        "intent": "Deliver the video letter",
+        "tone": "Surprised, teasing, practical",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:057",
+      "sourceFingerprint": "cf49f522e74241854024bc576bb307dca1ce91af35a0a8a40502ac2283259dcd",
+      "canonicalEnglish": "Bartender: This place doesn't make much money, either. I'm thinking of shutting it down.",
+      "context": {
+        "speaker": "Source headers and narration",
+        "listener": "Sion / party",
+        "intent": "Deliver the video letter",
+        "tone": "Surprised, teasing, practical",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:044",
+      "sourceFingerprint": "2e5c1f5cb30317b001f90020f44c094d4d2e4666fd76024f2e1456199fce092e",
+      "canonicalEnglish": "Bartender: Sorry, we haven't opened yet.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:045",
+      "sourceFingerprint": "8bf70555fdbf4a889ddd2dde84dc6dc3450807867888912c40a809a0ae6ad452",
+      "canonicalEnglish": "Madam: I hate a bad economy. It makes your spirit poor, too.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:046",
+      "sourceFingerprint": "53b359e9cb1695dfeed65ecab432ba1d0999e9b74d0fe09c3cf78eae5c803f2f",
+      "canonicalEnglish": "Speaker label: Bartender.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:047",
+      "sourceFingerprint": "2272cdc9af9c1cb38303cd3806f69eb7fa7357afd69f3812242a5bd57a2756d0",
+      "canonicalEnglish": "Speaker label: Myuntos.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:049",
+      "sourceFingerprint": "778a2863689db1af858b651dd141da497d94958eecbb72a9a4a37de64da54b68",
+      "canonicalEnglish": "Speaker label: Call Girl.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:050",
+      "sourceFingerprint": "bcfdfaa763f5ddf8d56b493b17b6b20525be05f13dc4c90380ec8c4db81fc7f4",
+      "canonicalEnglish": "Speaker label: Drunk.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:051",
+      "sourceFingerprint": "375f1162e2bcd9871fdea18e072689df2f9328534005e1910d98f8c30efa9dd5",
+      "canonicalEnglish": "Speaker label: Dancer.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:078000:000",
+      "sourceFingerprint": "ded9597f328941d509b4b0ac566869521e16d819dd83420aa028113925ccec2a",
+      "canonicalEnglish": "Bartender: Welcome. Make yourself comfortable.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:078000:001",
+      "sourceFingerprint": "e2856fae725144d125216c6d7f1d146bcd054e49ba22a801815be6d890bfb3ed",
+      "canonicalEnglish": "Myuntos: Did you know? The Zolias Empire has three generals serving under its supreme commander, Jaguma.\nOne is Rarawell, known as “Ice Rarawell,” who commands the fortress Barbas, recently deployed in the Z127 System.\nThen there's “Beast Baiden,” who leads the biosoldier unit called Black Beast.\nAnd finally, Nobel Sullivan, the Imperial Space Navy's brilliant strategist.\nThose three have apparently put the Kingdom of Wyuria in a very difficult position.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:078000:002",
+      "sourceFingerprint": "57bfb8bcb31e9fe1f7aca35439bdd16c6c77a4c3037d49d46ea9d41a0b8e6bb4",
+      "canonicalEnglish": "Outlaw: I can't take this! Leave me alone!",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:078000:003",
+      "sourceFingerprint": "e082f292a9d7f8ca8d349da28eb27076da8f90f303c6c45aa138c5745fe9eb91",
+      "canonicalEnglish": "Call Girl: Come back alone next time, young man.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:078000:004",
+      "sourceFingerprint": "1ce3e119ca64ca58f44115b367492f105a8fd89df1ae419a3fdbd94d8077b252",
+      "canonicalEnglish": "Drunk: They say Wey Dumna wielded some strange, unfathomable power.",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:078000:005",
+      "sourceFingerprint": "ef668cbfeef678e42734374e77d4f649cfe32efab693487fdd81ab98c1d231e1",
+      "canonicalEnglish": "Narration: A dancer performs a flashy routine onstage.\nJoe: Hey, looking good, sweetheart! Keep it up!\nWelda: Honestly, you dirty old man!",
+      "context": {
+        "speaker": "Source headers and call wrappers",
+        "listener": "Party",
+        "intent": "Optional information, greetings or character banter",
+        "tone": "Varied: courteous, weary, informative, suggestive or irritated",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

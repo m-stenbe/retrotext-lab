@@ -1,0 +1,243 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "teswil-building-residents"
+  ],
+  "records": [
+    {
+      "id": "script:061000:000",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t004": "I CLEAN HERE.\nGOT A PROBLEM?\nGO AWAY!"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Building-cleaning becomes clean here; indignation and leave-me-alone demand remain."
+      ]
+    },
+    {
+      "id": "script:061000:001",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "HEH. I AIM TO\nCODE GAMES."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "The aspiration to become a game programmer becomes aim to code games."
+      ]
+    },
+    {
+      "id": "script:061000:002",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "SOLDIER",
+        "t003": "QUIT FRETTING.\nGET OUT THERE\nAND ACT!"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "The contrast between pointless fretting and action remains; the closing importance emphasis is omitted."
+      ]
+    },
+    {
+      "id": "script:061000:003",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": [
+          "MARS WOMEN\nONCE HAD ALL\nSORTS OF\nPOWERS. RARE",
+          "NOW, IT SEEMS."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Special abilities become powers, preserving the hearsay and their present rarity."
+      ]
+    },
+    {
+      "id": "script:061000:004",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t002": "SHAINA",
+        "t005": "OH, YOU...",
+        "t009": "SHAINA",
+        "t011": [
+          "I LIVE ALONE\nNOW. I CAN'T\nRELY ON MY\nPARENTS",
+          "FOREVER."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Leaving home is implicit in living alone now; the refusal to keep relying on parents remains."
+      ]
+    },
+    {
+      "id": "script:061000:005",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "OLD MAN",
+        "t003": [
+          "SO PEACEFUL\nHERE. WYURIA\nAT WAR WITH\nZOLIAS?",
+          "UNREAL."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Hard to believe becomes unreal in the peaceful-town/war contrast."
+      ]
+    },
+    {
+      "id": "script:061000:006",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": [
+          "MY HUSBAND IS\nIN THE FED\nNAVY. FEAR OF\nWAR WITH",
+          "ZOLIAS KEEPS\nME AWAKE."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Federation Space Navy becomes FED NAVY; husband\u2019s service and fear of war causing insomnia remain."
+      ]
+    },
+    {
+      "id": "script:061000:007",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "WAR? I WILL\nGET DRAFTED\nTOO."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "The rhetorical war question retains the condition on being drafted."
+      ]
+    },
+    {
+      "id": "script:061000:008",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "YOUNG WOMAN",
+        "t003": [
+          "I STUDY\nARCHAEOLOGY.\nWISPERARD'S\nGREAT MYSTERY",
+          "IS DUMNA'S\nLEGACY."
+        ],
+        "t006": [
+          "HIS VAST\nLEGACY LIES\nHIDDEN IN\nSPACE, THEY",
+          "SAY."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Greatest mystery becomes great mystery; study, Dumna\u2019s vast legacy and the reported hidden location remain."
+      ]
+    },
+    {
+      "id": "script:061000:009",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "SORRY. AT\nWORK."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:061000:010",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": "TRYING TO\nLEARN\nCOMPUTERS...\nSO HARD!"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Personal computer becomes computers; difficulty learning remains."
+      ]
+    },
+    {
+      "id": "script:061000:011",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "STUDY, STUDY!\nSHUT UP!"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:061000:012",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "A GOOD SCHOOL,\nJOB, WIFE AND\nCHILDREN...",
+        "t005": "AND\nA GOOD GRAVE!"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "A good company becomes a good job; the repeated good-life list ends with the original grave joke."
+      ]
+    },
+    {
+      "id": "script:061000:014",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t000": "LEAVE ME\nALONE, WILL\nYOU?"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:061000:015",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t000": "SHUT UP"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:061000:016",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t000": "ANNOYING!"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:061000:017",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t001": "GOOD TO SEE\nYOU! HAVE TEA.",
+        "t005": "SION AND ALL\n",
+        "t007": "ENJOYED TIME\nWITH SHAINA."
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "The narration condenses Sion and the others to Sion and all; pleasant time with Shaina and tea remain."
+      ]
+    },
+    {
+      "id": "script:061000:018",
+      "basedOn": "688217afef5fd8af0423be420bc2df648ce41a24db62997ceb88663f1d6cad83",
+      "inGameEnglish": {
+        "t000": "COME ANY TIME.\nWELCOME!"
+      },
+      "notes": [
+        "Separate adaptation from source-reviewed canonical English. Original commands, prices and choices retained.",
+        "Core meaning and speaker intent retained in compact phrasing."
+      ]
+    }
+  ]
+}

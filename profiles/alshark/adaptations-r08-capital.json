@@ -1,0 +1,710 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "teswil-hotels-and-shops",
+    "teswil-streets",
+    "teswil-hovercraft-purchase"
+  ],
+  "records": [
+    {
+      "id": "script:057000:000",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t003": "EASTSIDE HOTEL",
+        "t005": "WELCOME! STAY\nFOR 10\nCREDITS?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Hotel name retained; customary welcome and stay question condensed."
+      ]
+    },
+    {
+      "id": "script:057000:001",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t003": "TESWIL ITEMS",
+        "t005": "WELCOME! WHAT\nWILL IT BE?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Shop heading shortens Teswil Item Shop to TESWIL ITEMS."
+      ]
+    },
+    {
+      "id": "script:057000:002",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "CLERK",
+        "t003": "WELCOME!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:003",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t002": "CENTRAL TESWIL",
+        "t004": "USE THE NEXT\nCOUNTER."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Central Teswil heading retained; next-counter instruction preserved."
+      ]
+    },
+    {
+      "id": "script:057000:004",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t003": "CENTRAL TESWIL",
+        "t005": "WELCOME!",
+        "t008": "30 CREDITS,\nALL FEES\nINCLUDED. WILL\nYOU STAY?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "All-inclusive price30 and stay choice retained."
+      ]
+    },
+    {
+      "id": "script:057000:005",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "SOLDIER",
+        "t003": "NEED\nSOMETHING?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Curt request shortened to NEED SOMETHING?"
+      ]
+    },
+    {
+      "id": "script:057000:006",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "TIME TO EARN!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:007",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t003": [
+          "PRICIER ARMS\nHIT HARDER,\nBUT WEIGH\nMORE.",
+          "CAN YOU HANDLE\nTHEM?"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Preserves cost/power/weight tradeoff and ability-to-handle warning."
+      ]
+    },
+    {
+      "id": "script:057000:008",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t002": "TESWIL ARMS",
+        "t004": [
+          "YOU LOOK LIKE\nA DANGEROUS\nLOT.",
+          "I CAN'T TALK,\nBUT YOU KILL\nTOO MUCH."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Store heading shortened; keeps dangerous appearance, self-deprecation and excessive killing criticism."
+      ]
+    },
+    {
+      "id": "script:057000:009",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "SOLDIER",
+        "t003": "CIVILIAN ARMS\nIMPRESS ME."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Civilian weapons technology reduced to the soldier being impressed by civilian arms."
+      ]
+    },
+    {
+      "id": "script:057000:010",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t003": "TURRETS",
+        "t006": "WE STOCK THE\nLATEST MARS\nFED TURRETS.",
+        "t009": "WHAT WILL IT\nBE?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Mars Federation abbreviated MARS FED; latest turret technology claim retained."
+      ]
+    },
+    {
+      "id": "script:057000:011",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t003": "ARMED",
+        "t005": "WELCOME! BUY\nWHAT YOU LIKE."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Welcome and buy-what-you-like invitation shortened."
+      ]
+    },
+    {
+      "id": "script:057000:012",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t003": "FRAME ENGINE",
+        "t005": "WHICH PARTS\nWOULD YOU\nLIKE?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Ampersand unsupported by font; FRAME ENGINE conveys both categories. Canonical business label retains ampersand."
+      ]
+    },
+    {
+      "id": "script:057000:013",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t000": "FRAMES\nENGINE\nLEAVE"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Menu keeps frames/engine/leave order and original6-cell rectangle."
+      ]
+    },
+    {
+      "id": "script:057000:014",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": [
+          "FIRST TIME IN\nTESWIL?",
+          "STOP GAWKING,\nCOUNTRY FOLK!"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Keeps first visit, gawking and country-folk teasing; dismissive opening shortened."
+      ]
+    },
+    {
+      "id": "script:057000:015",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "MYUNTOS",
+        "t003": [
+          "THEY SAY OUR\nFOREBEARS\nTHRIVED HERE",
+          "BEFORE MARS\nFOLK CAME."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Keeps reported ancestors flourishing before the Mars arrivals; forebears used for fit."
+      ]
+    },
+    {
+      "id": "script:057000:016",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": [
+          "I HEAR ZOLIAS\nIS HITTING THE\nWYURIAN",
+          "COLONIES HARD."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:017",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": [
+          "MARS HAS TWO\nCONTINENTS.",
+          "TESWIL IS ON\nRASHA. THE\nOTHER IS WINA."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains both continents and Teswil location; capital status is supplied in other nearby lines."
+      ]
+    },
+    {
+      "id": "script:057000:018",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "CALL GIRL",
+        "t003": "MONEY IS ALL\nTHAT MATTERS."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:019",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t003": [
+          "I HEAR DAINA\nON WINA HAS A\nDUMNA\nMEMORIAL.",
+          "COULD I STEAL\nIT FOR CASH?"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains hearsay and the idea of stealing the memorial for money; speculative question replaces speculation about its resale value."
+      ]
+    },
+    {
+      "id": "script:057000:020",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "SOLDIER",
+        "t003": [
+          "ZOLIAS IS UP\nTO SOMETHING.",
+          "SURELY THEY DO\nNOT MEAN TO\nATTACK MARS\nTOO?"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains suspicious Zolias moves and uncertain threat against Mars; formal country titles shortened."
+      ]
+    },
+    {
+      "id": "script:057000:021",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": [
+          "BEGI IS SOUTH.\nSCHOLARS STUDY\nTHERE.",
+          "OLD FOLK COME\nFOR A QUIET\nLIFE."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains southern Begi, scholars studying and old folk seeking quiet; explicitly spending remaining years becomes a quiet life."
+      ]
+    },
+    {
+      "id": "script:057000:022",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "GET A JET\nHOVER TO CROSS\nTHE SEA."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains Jet Hovercraft as the sea-crossing lead; in-game JET HOVER agrees with existing vehicle display name."
+      ]
+    },
+    {
+      "id": "script:057000:023",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t003": "SCRAPPERS CO.",
+        "t005": "HEY! WE HANDLE\nALL YOUR SCRAP\nNEEDS!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Business heading shortened to SCRAPPERS CO.; full scrap-service offer retained."
+      ]
+    },
+    {
+      "id": "script:057000:024",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "SPACE IS SO\nVAST, ISN'T\nIT?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:025",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": [
+          "THE MYUNTOS\nSCRAP DEALER\nHAD A USED",
+          "JET HOVER FOR\nSALE."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains Myuntos dealer, used condition and hovercraft sale; conversational come-to-think-of-it omitted."
+      ]
+    },
+    {
+      "id": "script:057000:026",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": [
+          "ZAJIL WAS\nAWFUL BEFORE\nMARS DEVELOPED\nIT, THEY SAY.",
+          "NOW IT IS A\nGREEN PLANET."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains hearsay about predevelopment Zajil and present greenery; beautiful omitted."
+      ]
+    },
+    {
+      "id": "script:057000:027",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": [
+          "SPACE IS OPEN\nTO YOU, BUT\nBEWARE ZOLIAS\nWARSHIPS!",
+          "THEY FIRE WITH\nNO WARNING!"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains open space travel and Zolias warships firing without warning."
+      ]
+    },
+    {
+      "id": "script:057000:028",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "YOUNG WOMAN",
+        "t003": [
+          "WISPERARD HAS\nMARS, ZOLIAS\nAND WYURIA.",
+          "THREE STAR\nSYSTEMS."
+        ],
+        "t005": "\nKNOW THAT?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains Wisperard and the source three-system claim; does not reinterpret its setting terminology from later map knowledge."
+      ]
+    },
+    {
+      "id": "script:057000:029",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "HUSTLER",
+        "t003": "WANT TO MEET A\nNICE GIRL?",
+        "t009": "NO, THANK YOU!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:030",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": [
+          "THAT UNIFORM!",
+          "YOU ARE WITH\nCHAUSNOMYU!"
+        ],
+        "t005": "\nCOOL!\nIMPRESSIVE!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains uniform recognition, Chausnomyu affiliation and impressed reaction; continuation page used."
+      ]
+    },
+    {
+      "id": "script:057000:031",
+      "basedOn": "81954e4426a1a92564d63d01a5a5286c16468e5dc6f3185a27b32d1e7adac997",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "I HEAR STEA\nHAS MYUNTOS\nVILLAGES."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Settlement report retained; still/even now omitted."
+      ]
+    },
+    {
+      "id": "script:057000:032",
+      "basedOn": "bab16cd0c98ef27bae0d99574f198e4588495b6496d4aad2896a490e40928857",
+      "inGameEnglish": {
+        "t003": "SCRAP DEALER",
+        "t006": "A BARGAIN FOR\n500 CREDITS!",
+        "t009": "A USED JET\nHOVER IN GOOD\nSHAPE!\n",
+        "t012": "BUY IT?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains500 credits, used condition, good remaining condition and separate buy choice. Final newline positions original colored buy question."
+      ]
+    },
+    {
+      "id": "script:057000:034",
+      "basedOn": "bab16cd0c98ef27bae0d99574f198e4588495b6496d4aad2896a490e40928857",
+      "inGameEnglish": {
+        "t000": "MY SERVICE CAN\nBEAT ANY MARS\nSCRAP DEALER!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Service boast versus Mars scrap dealers retained."
+      ]
+    },
+    {
+      "id": "script:057000:035",
+      "basedOn": "bab16cd0c98ef27bae0d99574f198e4588495b6496d4aad2896a490e40928857",
+      "inGameEnglish": {
+        "t002": "THANKS!",
+        "t004": "\nIT IS OUTSIDE.\nUSE IT AS YOU\nPLEASE."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains thanks, outside placement and freedom to use vehicle. Leading newline preserves continuation after wait."
+      ]
+    },
+    {
+      "id": "script:057000:036",
+      "basedOn": "bab16cd0c98ef27bae0d99574f198e4588495b6496d4aad2896a490e40928857",
+      "inGameEnglish": {
+        "t001": "SUCH A\nBARGAIN!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:038",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "COME ANY TIME."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Drop-by invitation shortened."
+      ]
+    },
+    {
+      "id": "script:057000:039",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t000": "TOOLS\nLEAVE"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Buy tools shortened to TOOLS; leave choice retained within6cells."
+      ]
+    },
+    {
+      "id": "script:057000:040",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:041",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "COME BACK"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Short return invitation fits original11-byte field."
+      ]
+    },
+    {
+      "id": "script:057000:042",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t004": "NOT ENOUGH\nCASH..."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Shoko money-shortfall reaction shortened."
+      ]
+    },
+    {
+      "id": "script:057000:043",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t002": "TO YOUR ROOM.",
+        "t009": "WOW! GREAT\nROOM! LUCKY\nUS, ",
+        "t011": ".",
+        "t018": "! NO FUNNY\nBUSINESS...",
+        "t024": [
+          "I KNOW...",
+          "HEARD THAT\nBEFORE?"
+        ],
+        "t026": "\nOH WELL! TIME\nTO SLEEP.",
+        "t033": "GOOD DAY."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains room delight, Shoko warning, familiar-line joke and sleep; honorific service wording shortened. Extra page preserves following cursor geometry."
+      ]
+    },
+    {
+      "id": "script:057000:044",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t004": "THAT IS A RIP\nOFF!",
+        "t006": "\nCOME ON, ",
+        "t008": "."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Keeps overcharging complaint and call to leave; explicit too-expensive question compressed into RIP OFF."
+      ]
+    },
+    {
+      "id": "script:057000:045",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "WE TAKE PAY UP\nFRONT, THANKS\nTO GUESTS LIKE\nYOU."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Keeps upfront-payment policy and pointed guests-like-you explanation; full-payment qualifier omitted."
+      ]
+    },
+    {
+      "id": "script:057000:046",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t000": "ARMS\nLEAVE"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Weapons abbreviated ARMS, preserving original5cell menu."
+      ]
+    },
+    {
+      "id": "script:057000:047",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained."
+      ]
+    },
+    {
+      "id": "script:057000:048",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "DO YOUR BEST"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Encouragement shortened."
+      ]
+    },
+    {
+      "id": "script:057000:049",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "BRING CASH."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Retains bringing money, omits next-time wording."
+      ]
+    },
+    {
+      "id": "script:057000:051",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t000": "GUNS\nMSLS\nEXIT"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Turrets displayed GUNS and missiles MSLS within original4cell menu, preserving choices and order."
+      ]
+    },
+    {
+      "id": "script:057000:056",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "COME AGAIN!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Return invitation shortened."
+      ]
+    },
+    {
+      "id": "script:057000:057",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "ENOUGH! NEVER\nCOME BACK, YOU\nBASTARD!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Keeps anger, insult and permanent refusal."
+      ]
+    },
+    {
+      "id": "script:057000:058",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t000": "NOTHING FOR\nYOU HERE!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Keeps refusing to sell to the party."
+      ]
+    },
+    {
+      "id": "script:057000:059",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Service repeat shortened."
+      ]
+    },
+    {
+      "id": "script:057000:060",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "NO CASH? DO\nNOT WASTE MY\nTIME."
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Keeps lack of money and warning not to waste time."
+      ]
+    },
+    {
+      "id": "script:057000:061",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Service repeat shortened."
+      ]
+    },
+    {
+      "id": "script:057000:062",
+      "basedOn": "05ed90424aed0d3b7d9a83fb46eaad62e4bc251952c9d8fdbfdeb49f0dadb6b0",
+      "inGameEnglish": {
+        "t001": "COME AGAIN!"
+      },
+      "notes": [
+        "Separate fitting adaptation; original commands, prices and choice order retained.",
+        "Return/look-again invitation shortened."
+      ]
+    }
+  ]
+}

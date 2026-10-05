@@ -91,7 +91,7 @@ class ImportTests(unittest.TestCase):
         for offset, raw in [(4, b'5HELLO WORLD0\0'),
                             (32, b'#B\x02\x02\x0e5HELLO WORLD0\0')]:
             data[base+offset:base+offset+len(raw)] = raw
-        base = 0x52000
+        base = 0x55000  # Unreviewed bank remains read-only after R02.
         struct.pack_into('<2H', data, base, 4, 32)
         raw = b'5READ ONLY0\0'
         for offset in (4, 32):
@@ -186,6 +186,6 @@ class HamackBranchTests(unittest.TestCase):
                         break
                 self.assertEqual(changed[start+end:start+80], data[start+end:start+80])
             # A neighboring, unreviewed conversation must remain locked.
-            doc['entries'][0]['tokens'][0]['translation'] = 'NO'
+            doc['entries'][38]['tokens'][0]['translation'] = 'NO'
             with self.assertRaisesRegex(ValueError, 'edits disabled'):
                 import_disk(data, doc)

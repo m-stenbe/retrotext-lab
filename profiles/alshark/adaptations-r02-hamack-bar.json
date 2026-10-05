@@ -1,0 +1,245 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "hamack-underground-bar"
+  ],
+  "records": [
+    {
+      "id": "script:053000:001",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t003": " WATCHED\n",
+        "t006": "A DAZZLING\nSTAGE DANCER."
+      },
+      "notes": [
+        "The source style commands do not reset the shared cursor. Explicit line breaks separate the narration; dazzling conveys the flashy performance holding Sion’s attention, and stage is retained."
+      ]
+    },
+    {
+      "id": "script:053000:002",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t002": "ZOLIAS OR\nULYRIANS? ALL\nTHE SAME TO\nUS."
+      },
+      "notes": [
+        "Zolias follows the established English term; both peoples are treated alike."
+      ]
+    },
+    {
+      "id": "script:053000:003",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "CYBORG",
+        "t003": "WHAT, STARING?\nNEVER SEEN A\nCYBORG?!"
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:004",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t002": "ASK THE WOMAN\nDRINKING AT\nTHAT TABLE."
+      },
+      "notes": [
+        "The woman drinking at that table remains the informant lead; the preceding branch establishes why the party should ask her."
+      ]
+    },
+    {
+      "id": "script:053000:005",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t004": "SOMETHING\nON MY FACE?"
+      },
+      "notes": [
+        "The short question keeps the possible mark on her face; the opening exclamation is omitted to fit the two-byte speaker header and 35-byte entry."
+      ]
+    },
+    {
+      "id": "script:053000:006",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "SHUT UP!"
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:007",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "ULYRIAN",
+        "t003": "MARS WOMEN\nARE ALL OVER."
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:008",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "MARS PUNK!\nDON'T TALK\nTO ME"
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:009",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "OLD MAN",
+        "t003": "KIDS, GET OUT!\nIF YOU WERE\nMY SON, I'D\nSLAP YOU!"
+      },
+      "notes": [
+        "Preserves the conditional parental threat without adding an actual son."
+      ]
+    },
+    {
+      "id": "script:053000:010",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "ZOLIAS",
+        "t003": [
+          "AT HOME, MOST\nFOLLOW THE\nSANTANA CULT.\nLADY RARAWELL,",
+          "JAGUMA'S ELDER\nSISTER, LEADS."
+        ],
+        "t006": "IT'S SAD."
+      },
+      "notes": [
+        "Retains Santana, Rarawell and her relation to Jaguma; the cult leader and sadness remain explicit."
+      ]
+    },
+    {
+      "id": "script:053000:011",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t003": "ON HOM, THIS\nBAR IS BEST\nFOR DRINKS."
+      },
+      "notes": [
+        "On Hom, the speaker recommends this very bar for drinks; the underground location is already visible in the scene."
+      ]
+    },
+    {
+      "id": "script:053000:012",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t003": "? MARS' TOP\nMECHANIC! HE\nCOMES BY HERE\nSOMETIMES."
+      },
+      "notes": [
+        "The dynamic name is Scrap Joe; his Mars mechanic reputation and occasional visits remain."
+      ]
+    },
+    {
+      "id": "script:053000:014",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "OH, SEEKING\nAN INFORMANT?"
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:015",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "I SUPPOSE."
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:016",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t002": "ONLY MYUNTOS\nWORK AS\nINFORMANTS."
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:017",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t000": "HUH? I'M NO\nINFORMANT!"
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:018",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": ", LONG TIME\nNO SEE! DRINK?",
+        "t007": "NO, NOT\nTODAY."
+      },
+      "notes": [
+        "The first dynamic JOE is bartender address, then the second is Joe’s speaker header."
+      ]
+    },
+    {
+      "id": "script:053000:019",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t000": "HA! NO\nLESSONS FOR\nBRATS!"
+      },
+      "notes": [
+        "Keeps the laugh and refusal to teach a brat without suggesting a lesson actually occurs."
+      ]
+    },
+    {
+      "id": "script:053000:020",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "CASH RULES!\nNO FREEBIES.",
+        "t003": "\n",
+        "t006": "WILL YOU PAY?"
+      },
+      "notes": [
+        "Separate cost warning and payment question preserve refusal and repeat branches."
+      ]
+    },
+    {
+      "id": "script:053000:021",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t002": "TRY LATER!"
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:023",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": "FINE. THAT'LL\nDO."
+      },
+      "notes": [
+        "Preserves the reviewed bar line within the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:024",
+      "basedOn": "ca842eaf0d7e34bcdd98af4308cad3aa9f7329653e631fb25869b278a9e43c9e",
+      "inGameEnglish": {
+        "t001": [
+          "SOMEONE SAW\nHER HEADING TO",
+          "THE SPACEPORT.\n"
+        ],
+        "t003": "MAYBE SHE\nTOOK A SHIP\nTO MARS."
+      },
+      "notes": [
+        "Keeps the witnessed spaceport lead distinct from the uncertain Mars-ship inference."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "playtest-seven-action-bridge"
+  ],
+  "records": [
+    {
+      "id": "ui:Opening:004478",
+      "basedOn": "a4db1bd08b9d736a940972ea30c2be3cc849515fa78aad5151246bd5729b736f",
+      "inGameEnglish": "HANGAR\nGEAR\nREPAIR\nDEVELOP\nSCRAP\nLAND\nTAKEOFF",
+      "notes": [
+        "Seven rows retain source order; guarded menu and selection widths expanded from four to seven cells."
+      ]
+    }
+  ]
+}

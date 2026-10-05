@@ -1,0 +1,85 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r01-party-talk"
+  ],
+  "records": [
+    {
+      "id": "script:082000:007",
+      "basedOn": "f32457cc93a565f3b61ab4ca3c99d3413eb184573cb91e4938d593900f200a8b",
+      "inGameEnglish": {
+        "t036": "BORED... MAYBE\nI'LL VISIT\n",
+        "t038": "."
+      },
+      "notes": [
+        "Retains boredom and tentative visit. Omits explicit play and house, implied by visiting Shoko."
+      ]
+    },
+    {
+      "id": "script:082000:000",
+      "basedOn": "f32457cc93a565f3b61ab4ca3c99d3413eb184573cb91e4938d593900f200a8b",
+      "inGameEnglish": {
+        "t062": "THE METEOR!\nCAN'T WAIT,\n",
+        "t064": "!"
+      },
+      "notes": [
+        "Retains meteor, impatience, excitement and direct address. Explicit see and separate agreement-seeking phrasing omitted in the30-byte text budget."
+      ]
+    },
+    {
+      "id": "script:07f000:038",
+      "basedOn": "f32457cc93a565f3b61ab4ca3c99d3413eb184573cb91e4938d593900f200a8b",
+      "inGameEnglish": {
+        "t000": "OH, ",
+        "t002": "!\nWE CAN'T LET\nDAD AND THE\nOTHERS SEE US."
+      },
+      "notes": [
+        "Oh, Shoko! conveys mild exasperation without a literal handful clause. Retains avoiding discovery by Dad and the other expedition members."
+      ]
+    },
+    {
+      "id": "script:082000:014",
+      "basedOn": "f32457cc93a565f3b61ab4ca3c99d3413eb184573cb91e4938d593900f200a8b",
+      "inGameEnglish": {
+        "t000": "DAD... DEAD?\nHOW COULD\nTHIS HAPPEN..."
+      },
+      "notes": [
+        "Disbelieving question and broken delivery preserve grief. Omits one repetition of Dad."
+      ]
+    },
+    {
+      "id": "script:07f000:039",
+      "basedOn": "f32457cc93a565f3b61ab4ca3c99d3413eb184573cb91e4938d593900f200a8b",
+      "inGameEnglish": {
+        "t000": "FATHER DID\nTHAT... WHAT\nCAN I DO,\n",
+        "t002": "?",
+        "t008": "LET'S RETURN\nTO COSMA AND\nTELL MOM."
+      },
+      "notes": [
+        "Broken Father did that delivery retains disbelief. Keeps distress, Sion, returning to Cosma and telling Mom; explicit for now and what happened are implicit."
+      ]
+    },
+    {
+      "id": "script:07f000:041",
+      "basedOn": "f32457cc93a565f3b61ab4ca3c99d3413eb184573cb91e4938d593900f200a8b",
+      "inGameEnglish": {
+        "t000": "MOM'S GONE\nTOO! WHAT'S\nGOING ON?"
+      },
+      "notes": [
+        "Preserves that Mom is missing too and bewilderment; omits intensifier on earth."
+      ]
+    },
+    {
+      "id": "script:07f000:042",
+      "basedOn": "f32457cc93a565f3b61ab4ca3c99d3413eb184573cb91e4938d593900f200a8b",
+      "inGameEnglish": {
+        "t001": "'S GONE\nTOO...",
+        "t007": "NO CHOICE\nLET'S FIND\nUNCLE ",
+        "t009": "\nFOR HELP."
+      },
+      "notes": [
+        "Retains Lucia, missing too, resignation, finding Uncle Joe and seeking help. Respectful address to Lucia is omitted rather than asserting a biological aunt relationship. Original opaque tail remains byte-identical at its original offset."
+      ]
+    }
+  ]
+}

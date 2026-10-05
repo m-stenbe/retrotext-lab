@@ -1,0 +1,661 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "saibal-streets",
+    "saibal-shops-and-hotel",
+    "saibal-syndicate-confrontation",
+    "saibal-hotel-kidnapping",
+    "saibal-underground-bar",
+    "saibal-party-reactions"
+  ],
+  "records": [
+    {
+      "id": "script:05b000:000",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t003": "PT HOTEL ZAJIL",
+        "t005": "A ROOM IS 20\nCREDITS. STAY\nHERE?"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:001",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t003": "ITEM SHOP",
+        "t005": "WELCOME! WHAT\nIS IT?"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:002",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "CLERK",
+        "t003": "WELCOME. BUY\nAT THE\nCOUNTER."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:003",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t004": [
+          "THIS TOWN WAS\nNICE ONCE.",
+          "THAT LOT\nBROUGHT US\nNOTHING BUT\nTROUBLE."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Omits repeated planet name; nice town and decline after syndicate arrival remain."
+      ]
+    },
+    {
+      "id": "script:05b000:004",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t004": "WHAT\nNOW?",
+        "t006": [
+          "GOVERNMENT\nDOGS!",
+          "SLEEP WITH\nONE EYE OPEN!"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Sleep with one eye open is the natural short warning for being killed in sleep; explicit throat detail omitted."
+      ]
+    },
+    {
+      "id": "script:05b000:005",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t002": "SCRAPPERS",
+        "t004": "HEY, HEY! WANT\nSCRAP? TAKE\nALL YOU LIKE!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "The fourfold vendor chant is reduced to two calls."
+      ]
+    },
+    {
+      "id": "script:05b000:006",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t002": "WEAPONS",
+        "t004": "MY GOODS WILL\nAMAZE YOU!!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:007",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t004": [
+          "WHAT A LETDOWN\nFOR A TOURIST!",
+          "ALL DRUGS\nHERE. WHAT ARE\nTHEY THINKING?"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Sightseeing disappointment and drugs retain the criticism; repetition reduced."
+      ]
+    },
+    {
+      "id": "script:05b000:008",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t004": "CROSS THE\nSYNDICATE,\nTHEY GET EVEN."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:009",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": "GO SOUTH BY\nTHE LAKE, THEN\nEAST TO\nPORKIN."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Directions keep south along lake then east to Porkin; little way omitted."
+      ]
+    },
+    {
+      "id": "script:05b000:010",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "MYUNTOS",
+        "t003": "RIGHT ARM\nGUN'S WORN. I\nMAY BUY A NEW\nONE."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Right arm gun and tentative replacement purchase both retained."
+      ]
+    },
+    {
+      "id": "script:05b000:011",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t004": "KIDUN? TRY THE\nBAR BELOW.",
+        "t006": "\n"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "The possibility of finding Kidun is conveyed by try the bar; denial remains separate043."
+      ]
+    },
+    {
+      "id": "script:05b000:012",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t002": "DEFENDER",
+        "t004": "TO LIVE, GET\nGOOD ARMOR!\nTHAT IS IT!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:013",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t004": [
+          "THE SYNDICATE\nHQ NEXT DOOR\nIS TROUBLE.",
+          "NO FEDERATION\nHELP."
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:014",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t004": [
+          "YOU'RE\nCHAUSNOMYU?",
+          "HURRY UP AND\nTHROW THAT\nLOT OUT!"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:015",
+      "basedOn": "485696391e7a0c2d40cdee776d104e3b3f8715b75512c460e985b8cb88cf020c",
+      "inGameEnglish": {
+        "t001": "SHUT UP! NO\nTIME FOR YOU\nLOT!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:017",
+      "basedOn": "485696391e7a0c2d40cdee776d104e3b3f8715b75512c460e985b8cb88cf020c",
+      "inGameEnglish": {
+        "t002": "SYNDICATE"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:018",
+      "basedOn": "485696391e7a0c2d40cdee776d104e3b3f8715b75512c460e985b8cb88cf020c",
+      "inGameEnglish": {
+        "t003": "W... WHAT? YOU\nTHINK YOU CAN\nGET AWAY WITH\nTHIS?!",
+        "t009": "TAKE ME TO\nTOMYU, YOUR\nBOSS!",
+        "t012": "AS IF I'D TAKE\nYOU... FOOLS!",
+        "t018": "SOME PAIN MAY\nMAKE YOU\nLISTEN.",
+        "t021": "I CAN BREAK\nYOUR ARMS\nWITHIN THE\nLAW, MAGGOTS!",
+        "t024": "WAIT! THE BOSS\nIS OFF PLANET\nON BUSINESS!",
+        "t030": "WHERE IS HE?!!",
+        "t033": "US SMALL FRY\nDON'T KNOW!\nBELIEVE ME!",
+        "t039": "TCH. NO CHOICE\n",
+        "t041": [
+          "WHEN HE\nRETURNS,",
+          "TELL HIM HIS\nDAYS ARE\nNUMBERED!"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Coercion, lawful arm-breaking claim, boss off planet on business, lack of lower-rank knowledge and death threat retained. One-or-two arms and slight pain are compressed."
+      ]
+    },
+    {
+      "id": "script:05b000:019",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t002": "HAVE A GOOD\nDAY."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:020",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t001": "COME STAY\nANYTIME."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:021",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t002": "CHECK OUT BY\nTEN, PLEASE."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:022",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t001": "SORRY. NO\nMONEY, NO\nROOM."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Polite hotel refusal compressed to apology and no-money/no-room condition."
+      ]
+    },
+    {
+      "id": "script:05b000:023",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t000": "BUY TOOLS\nLEAVE"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:024",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t002": "NEED ANYTHING\nELSE?"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:025",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t001": "THANK YOU."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:026",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t000": "BUY ARMS\nLEAVE"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "ARMS is the weapon-purchase label, distinct from BUY ARMOR."
+      ]
+    },
+    {
+      "id": "script:05b000:027",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:028",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t001": "COME AGAIN."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:029",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t001": "HEY, BRING\nMONEY!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:030",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t000": "BUY ARMOR\nLEAVE"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:031",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t002": "NEED MORE?"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:032",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t001": "DROP BY\nANYTIME."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:033",
+      "basedOn": "4f0b5d1300f33376a002be397292bfbe00d1da791ab4f5592c8a71542220a77b",
+      "inGameEnglish": {
+        "t001": "NO MONEY?!\nGIVE ME A\nBREAK!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:034",
+      "basedOn": "485696391e7a0c2d40cdee776d104e3b3f8715b75512c460e985b8cb88cf020c",
+      "inGameEnglish": {
+        "t005": "CHAUSNOMYU.\nLET US\nTHROUGH.",
+        "t008": "DON'T MOCK\nUS!! WE'LL\nKILL YOU!!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:035",
+      "basedOn": "bf560fbfe05bc127112a23faec9139b0357d7517e38c27900eb70ad204136aa9",
+      "inGameEnglish": {
+        "t007": "HEY, ",
+        "t009": "!\nWAKE UP! BAD\nNEWS!",
+        "t015": "MM... ",
+        "t017": "?\nWHAT IS IT?",
+        "t023": "WHAT IS IT?!\nTHE GIRL IS\nGONE!!",
+        "t029": "WHAT?!",
+        "t035": "TCH. TROUBLE.\nREAD THIS.",
+        "t040": "TO CHAUSNOMYU,\n",
+        "t043": "WELCOME.\n",
+        "t046": "YOUR MEDDLING\n",
+        "t049": "IS A NUISANCE.\n",
+        "t052": "WE TOOK HER.",
+        "t058": "COME DISCUSS\n",
+        "t061": "IT IN PORKIN.\n",
+        "t064": "FOR HER SAKE,\n",
+        "t067": "DO NOT TRY\n",
+        "t070": "ANY TRICKS.",
+        "t077": "SH... ",
+        "t079": "\nWAS\nKIDNAPPED?!",
+        "t085": "THAT SUMS IT\nUP.",
+        "t091": "NO CHOICE. WE\nMUST GO TO\nPORKIN."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Ransom letter constrained to ten original14-cell rows: omits explicit Zajil greeting and euphemistic care/custody but retains addressed unit, welcome, meddling motive, hostage taking, discussion in Porkin and warning.",
+        "The source letter mode does not advance rows automatically; explicit newlines preserve five physical rows on each original page, without inserted control commands.",
+        "Uncle is omitted around fixed Joe name in Sion waking; the address is retained in canonical."
+      ]
+    },
+    {
+      "id": "script:05b000:037",
+      "basedOn": "485696391e7a0c2d40cdee776d104e3b3f8715b75512c460e985b8cb88cf020c",
+      "inGameEnglish": {
+        "t000": "S... WANT\nMORE?"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:038",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t000": "WELL DONE!\nKEEP IT UP!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:05b000:043",
+      "basedOn": "854b97c992dbeb0efd7621e892e3345c90a2ba6c31a4843be1241cf20173e23a",
+      "inGameEnglish": {
+        "t000": "WHAT?! I NEVER\nUSED IT!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:029",
+      "basedOn": "43ab4a1d12336ca7ccca36b51b5982cfb970ed3ccac34a889c991f3f70caf9c9",
+      "inGameEnglish": {
+        "t001": "WHAT? YOUR\nSORT IS NOT\nWELCOME!",
+        "t003": "GET\nOUT."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:030",
+      "basedOn": "43ab4a1d12336ca7ccca36b51b5982cfb970ed3ccac34a889c991f3f70caf9c9",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "HUH? I DON'T\nKNOW ANY\nKIDUN."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:031",
+      "basedOn": "43ab4a1d12336ca7ccca36b51b5982cfb970ed3ccac34a889c991f3f70caf9c9",
+      "inGameEnglish": {
+        "t001": "AS IF! I LOOK\nLIKE A\nDEALER?!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Dismissive AS IF condenses the accusation of speaking nonsense."
+      ]
+    },
+    {
+      "id": "script:053000:032",
+      "basedOn": "43ab4a1d12336ca7ccca36b51b5982cfb970ed3ccac34a889c991f3f70caf9c9",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "PEST! GO AWAY!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "PEST condenses annoyance while retaining the command to leave."
+      ]
+    },
+    {
+      "id": "script:053000:033",
+      "basedOn": "43ab4a1d12336ca7ccca36b51b5982cfb970ed3ccac34a889c991f3f70caf9c9",
+      "inGameEnglish": {
+        "t002": "HEH. WANT TO\nKNOW WHO SELLS\nKIDUN?",
+        "t005": "TRY THE\nSYNDICATE IN\nTOWN."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:034",
+      "basedOn": "43ab4a1d12336ca7ccca36b51b5982cfb970ed3ccac34a889c991f3f70caf9c9",
+      "inGameEnglish": {
+        "t001": "THIS PLANET?\nNOT MY\nPROBLEM."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:053000:038",
+      "basedOn": "43ab4a1d12336ca7ccca36b51b5982cfb970ed3ccac34a889c991f3f70caf9c9",
+      "inGameEnglish": {
+        "t000": "GOOD LUCK."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:003",
+      "basedOn": "e37af6473b7deaa15e7ec5d040e4dc886c13a411d75f14de16250805a9dabebc",
+      "inGameEnglish": {
+        "t001": ", GREAT\nJOB!!",
+        "t007": "HAH! NONSENSE!",
+        "t013": "I TRIED TOO.",
+        "t019": "SURE, ",
+        "t021": " WAS\nGREAT!",
+        "t027": "HMPH! FORGET\nME?",
+        "t033": "...YOU TOO,\nUNCLE JOE.",
+        "t039": "YES! OF COURSE\nI WAS!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Praise and competitive hurt pride remain; Joe\u2019s repeated self-satisfaction is reduced."
+      ]
+    },
+    {
+      "id": "script:081000:004",
+      "basedOn": "e37af6473b7deaa15e7ec5d040e4dc886c13a411d75f14de16250805a9dabebc",
+      "inGameEnglish": {
+        "t000": "THAT WAS\nEASIER THAN I\nTHOUGHT.",
+        "t006": "IDIOT! WE MUST\nSTILL HAUL\nTOMYU IN!",
+        "t012": "I... IDIOT?!",
+        "t018": "CALM DOWN,\nUNCLE JOE.\nWELDA, THAT\nWAS TOO MUCH!",
+        "t024": [
+          "TCH. REST AT\nTHE HOTEL\nTODAY.",
+          "TOMORROW WE\nGET TO WORK!"
+        ]
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:005",
+      "basedOn": "e37af6473b7deaa15e7ec5d040e4dc886c13a411d75f14de16250805a9dabebc",
+      "inGameEnglish": {
+        "t000": "WATCH HOW I DO\nIT AND LEARN!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:006",
+      "basedOn": "e37af6473b7deaa15e7ec5d040e4dc886c13a411d75f14de16250805a9dabebc",
+      "inGameEnglish": {
+        "t000": "TERRIBLE! OF\nALL PEOPLE,\nTHEY TOOK THE\nGIRL...",
+        "t006": "ALL BECAUSE\nYOU LOT DRAG\nYOUR FEET!",
+        "t012": "WHAT?!",
+        "t018": "YOU TALK BIG!\nYOU NEVER\nNOTICED ",
+        "t020": "\nBEING TAKEN!",
+        "t026": "SHUT UP, YOU\nOLD BASTARD!!",
+        "t032": "HEY! ",
+        "t034": "!\n",
+        "t036": "! ENOUGH,\nBOTH OF YOU!",
+        "t042": "WAIT UNTIL WE\nSAVE ",
+        "t044": " TO\nFIGHT!",
+        "t050": "DAMN IT! GET\nMOVING TO\nPORKIN!"
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Preserves core meaning and intent; repetitions and politeness may be compacted to fit the original allocation."
+      ]
+    },
+    {
+      "id": "script:081000:007",
+      "basedOn": "e37af6473b7deaa15e7ec5d040e4dc886c13a411d75f14de16250805a9dabebc",
+      "inGameEnglish": {
+        "t000": "TOMYU'S DIRTY\nTRICKS!",
+        "t006": "I'LL PULP HIM,\nSPLIT HIS\nSKULL, RIP HIS\nGUTS OUT...",
+        "t012": "UH OH...\nTROUBLE."
+      },
+      "notes": [
+        "Separate fitting adaptation from reviewed canonical connected scene; original commands and runtime-name order preserved.",
+        "Keeps all three lurid threatened actions; introductory bastard and when found are omitted. Sion\u2019s inner alarm is shortened; parentheses unsupported by ROM font."
+      ]
+    }
+  ]
+}

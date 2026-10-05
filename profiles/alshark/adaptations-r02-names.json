@@ -1,0 +1,179 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r02-items-abilities-locations"
+  ],
+  "records": [
+    {
+      "id": "r02-ability:40",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "ANALYZE",
+      "notes": [
+        "ANALYZE omits performance in the ability field; no target or mechanical effect is invented."
+      ]
+    },
+    {
+      "id": "r02-ability:41",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "CUSTOM",
+      "notes": [
+        "CUSTOM abbreviates Customization to the source loanword form; no effect or level is inferred."
+      ]
+    },
+    {
+      "id": "r02-ability:42",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "MECH FIX",
+      "notes": [
+        "MECH FIX substitutes the shorter Fix for Repair and retains Mech."
+      ]
+    },
+    {
+      "id": "r02-item:1b",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "BROWNING",
+      "notes": [
+        "BROWNING retains the full source-grounded name; no real-world firearm model is asserted."
+      ]
+    },
+    {
+      "id": "r02-item:1d",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "SUBM GUN",
+      "notes": [
+        "SUBM GUN abbreviates Submachine Gun, keeping the weapon class in the nine-cell field."
+      ]
+    },
+    {
+      "id": "r02-item:23",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "RAY GUN",
+      "notes": [
+        "RAY GUN substitutes the shorter generic Gun for Blaster while retaining Ray; canonical English remains Ray Blaster."
+      ]
+    },
+    {
+      "id": "r02-item:3d",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "MASK",
+      "notes": [
+        "MASK retains the full canonical label; no specific mask function is inferred."
+      ]
+    },
+    {
+      "id": "r02-item:44",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "SIGHT",
+      "notes": [
+        "SIGHT is a concise equivalent for Aiming Device; no equipment effect is inferred."
+      ]
+    },
+    {
+      "id": "r02-item:4d",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "EVASRING",
+      "notes": [
+        "EVAS RING abbreviates Evasive to EVAS and retains Ring; canonical English keeps the full qualifier.",
+        "2026-09-24 icon-list width: EVAS RING is displayed as EVASRING within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r02-item:51",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "TISHIELD",
+      "notes": [
+        "TI SHIELD uses the chemical symbol TI for Titanium and retains Shield.",
+        "2026-09-24 icon-list width: TI SHIELD is displayed as TISHIELD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r02-item:75",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "TI BODY",
+      "notes": [
+        "TI BODY uses the chemical symbol TI for Titanium and retains Body without guessing the equipment subtype."
+      ]
+    },
+    {
+      "id": "r02-item:93",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "TIBOOMER",
+      "notes": [
+        "TI BOOMER abbreviates Titanium to TI and Boomerang to BOOMER in the nine-cell field.",
+        "2026-09-24 icon-list width: TI BOOMER is displayed as TIBOOMER within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r02-item:9a",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "HAND SAT",
+      "notes": [
+        "HAND SAT abbreviates Satellite to SAT and retains Hand; device mechanics remain unknown."
+      ]
+    },
+    {
+      "id": "r02-item:9c",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "CAN",
+      "notes": [
+        "CAN abbreviates canned food to its singular container; delivery dialogue retains the food context."
+      ]
+    },
+    {
+      "id": "r02-item:a3",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "TOOL SET",
+      "notes": [
+        "TOOL SET omits Basic in the constrained inventory field."
+      ]
+    },
+    {
+      "id": "r02-location:103",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "JOE",
+      "notes": [
+        "JOE omits the room descriptor in the map-title field; canonical English remains Joe’s Room."
+      ]
+    },
+    {
+      "id": "r02-location:2",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "BASEMENT BAR",
+      "notes": [
+        "BASEMENT BAR is a natural short equivalent for Underground Bar; this is a generic map title, not a newly invented venue name."
+      ]
+    },
+    {
+      "id": "r02-location:48",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "HAMACK",
+      "notes": [
+        "HAMACK omits the generic Town suffix from the map heading."
+      ]
+    },
+    {
+      "id": "r02-location:98",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "DUST",
+      "notes": [
+        "DUST retains the complete working place name."
+      ]
+    },
+    {
+      "id": "r02-ability:23",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "DRIVER",
+      "notes": [
+        "DRIVER omits Universal in the eight-cell ability field; canonical English retains the qualifier. No mechanical effect is inferred."
+      ]
+    },
+    {
+      "id": "r02-ability:24",
+      "basedOn": "8c2cb885d4b3c4b86fe73835de5e9df1347a4e960b407c67b150c690aa8a03dc",
+      "inGameEnglish": "BUBBLE",
+      "notes": [
+        "BUBBLE omits Electromagnetic in the eight-cell ability field; canonical English retains the qualifier. No mechanical effect is inferred."
+      ]
+    }
+  ]
+}

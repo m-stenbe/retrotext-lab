@@ -120,3 +120,11 @@ actually displayed. An area transition has not been proven to refresh all text.
 
 No running emulator, state files or player saves were changed. The new folder's
 User Disk is the builder's default, not a verified transfer of player progress.
+
+## Follow-up: 2026-09-23 batch 05
+
+Karu's joining conversation is now adapted in
+[return-to-Cosma batch 05](return-cosma-batch-05.md). Its full canonical English
+is unchanged. The fitted page explicitly omits the older-model rationale while
+retaining the lack of video playback and invitation to find Mom. The earlier
+fitting blocker above describes the all-detail attempt, not current readiness.

@@ -8,7 +8,7 @@ def text(value):
 
 class LayoutTests(unittest.TestCase):
     def test_wait_does_not_clear_rows(self):
-        tokens = [text('A\nB\nC\nD'), {'kind': 'control', 'raw': '30'}, text('\nE')]
+        tokens = [text('A\nB\nC\nD\nE'), {'kind': 'control', 'raw': '30'}, text('\nF')]
         with self.assertRaises(ValueError):
             validate_dialogue(tokens, {})
 

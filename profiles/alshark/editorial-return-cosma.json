@@ -1,0 +1,118 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "Codex source and screenshot editorial review, 2026-09-23",
+  "scenes": [
+    {
+      "id": "meteor-soldier",
+      "records": [
+        "script:054000:000"
+      ],
+      "participants": [
+        "Zolias soldier / narrator",
+        "Sion / player party"
+      ],
+      "location": "Meteor crash site",
+      "storyState": "Following the meteor-site confrontation.",
+      "purpose": "Describe the wounded soldier's last utterance and death.",
+      "previousContext": [
+        "Jido's final instructions and the departure of the Zolias force."
+      ],
+      "followingContext": [
+        "Return to Cosma; find Lucia and seek Joe."
+      ],
+      "branchAlternatives": [],
+      "terminology": [
+        "faction.zolias"
+      ],
+      "evidence": [
+        "Complete original 054000:000; no event commands or internal branching.",
+        "Screenshots 14.26.42 and 14.26.48."
+      ],
+      "uncertainty": [
+        "New English adaptation awaits runtime display testing."
+      ],
+      "notes": [],
+      "reviewNote": "Read the full source with the player screenshots and adjacent meteor-event context; reviewed the broken utterance, death narration and environmental observation without adding causes or plot claims."
+    },
+    {
+      "id": "meteor-crater",
+      "records": [
+        "script:052000:083"
+      ],
+      "participants": [
+        "Narrator",
+        "Sion / player party"
+      ],
+      "location": "Meteor crash site",
+      "storyState": "Following the meteor-site confrontation.",
+      "purpose": "Describe the smoking meteor in the crater.",
+      "previousContext": [
+        "Jido's final instructions and the departure of the Zolias force."
+      ],
+      "followingContext": [
+        "Return to Cosma; find Lucia and seek Joe."
+      ],
+      "branchAlternatives": [],
+      "terminology": [],
+      "evidence": [
+        "Complete original 052000:083; only text, color and terminator.",
+        "Screenshot 14.26.55."
+      ],
+      "uncertainty": [
+        "New English adaptation awaits runtime display testing."
+      ],
+      "notes": [],
+      "reviewNote": "Read the full source with the player screenshots and adjacent meteor-event context; reviewed the broken utterance, death narration and environmental observation without adding causes or plot claims."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:054000:000",
+      "sourceFingerprint": "4bb18fad1842b98a8ab5aa0acb8c16ebbcec4cd2abba790d6cfbb5b7a27339c3",
+      "canonicalEnglish": "Zolias soldier: ...Wh... where am I...? Wh...!!\nNarrator: The Zolias soldier quietly closed his eyes and breathed his last.",
+      "context": {
+        "speaker": "Zolias soldier / narrator",
+        "listener": "Player / party",
+        "intent": "Describe the wounded soldier's last utterance and death.",
+        "tone": "Disoriented, broken speech; quiet death narration.",
+        "terminology": [
+          "faction.zolias"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Retains the unfinished reaction and quiet closing of the eyes. Narration uses he after the explicit speaker label and dies for breathed his last. No cause of injury or recognition is invented."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:083",
+      "sourceFingerprint": "782e80f7ec0e1803ed7f9703eaa0721a38d5e856f5d4617ea340454f5abb5973",
+      "canonicalEnglish": "Narrator: At the bottom of a huge crater, the meteor was giving off white smoke.",
+      "context": {
+        "speaker": "Narrator",
+        "listener": "Player / party",
+        "intent": "Describe the smoking meteor in the crater.",
+        "tone": "Neutral environmental description.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "The 33-byte allocation requires a compact environmental caption. Keeps meteor, smoke and large pit; omits the smoke's color and explicit bottom-of-pit position. Canonical English preserves both."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

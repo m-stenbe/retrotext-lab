@@ -1,0 +1,31 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r05-scrap-initial"
+  ],
+  "records": [
+    {
+      "id": "script:057000:033",
+      "basedOn": "649d92e9d8aca1aea7f2461163670b61e6ffe05f558021e79ad14f6efd9cae6f",
+      "inGameEnglish": {
+        "t002": " ",
+        "t004": "5 CREDIT\n",
+        "t006": "",
+        "t008": "UP ",
+        "t010": "8 KEY\n",
+        "t012": "",
+        "t014": "2 KEY ",
+        "t016": "DOWN\n",
+        "t018": "",
+        "t020": "1 SCRAP\n",
+        "t023": "",
+        "t025": "SPACE",
+        "t027": " SPEED",
+        "t030": "THANKS! COME\nBACK AGAIN!"
+      },
+      "notes": [
+        "Arrows expressed as UP/DOWN; original 2/8 controls, exchange ratio and Space acceleration retained. Original formatting commands remain immutable."
+      ]
+    }
+  ]
+}

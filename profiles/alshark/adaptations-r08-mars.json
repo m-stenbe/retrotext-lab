@@ -1,0 +1,794 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "mars-leave-debrief",
+    "begi-early-residents",
+    "begi-early-services",
+    "mars-search-party",
+    "lucia-video-message",
+    "teswil-video-letter-handover",
+    "teswil-bars"
+  ],
+  "records": [
+    {
+      "id": "script:05d000:002",
+      "basedOn": "ebcc9473d6b7f68fc3e53151bcb15a1a42caa5f42550041051384b41773b554b",
+      "inGameEnglish": {
+        "t001": [
+          "WELL DONE\nAGAIN.\nINQUIRIES LINK\nZOLIAS TO THE",
+          "MINE MONSTERS."
+        ],
+        "t007": "TCH. ZOLIAS\nAGAIN?",
+        "t013": "CAN YOU DO\nNOTHING,\nCOMMANDER?",
+        "t016": "THE FEDERATION\nFEARS ALL OUT\nWAR WITH\nZOLIAS.",
+        "t019": "THEY ARE A\nMILITARY\nSTATE.",
+        "t021": [
+          "MARS\nLEADS IN",
+          "SCIENCE, BUT\nOUR TOTAL\nMIGHT IS\nSTILL..."
+        ],
+        "t027": "I WONDER HOW\nGOOD OUR\nSCIENCE IS.",
+        "t030": [
+          "THIS RAISED MY\nSTANDING WITH\nOUR LEADERS\nAGAIN. THANK",
+          "YOU."
+        ],
+        "t037": [
+          "THANKS ARE\nFINE, BUT\nENDLESS\nMISSIONS ARE",
+          "TOO MUCH."
+        ],
+        "t043": "WE NEED A\nLITTLE LEAVE!",
+        "t046": "ALL RIGHT.\nHAVE YOUR WAY.\nTAKE A FEW\nDAYS OFF.",
+        "t053": "WE DID IT!",
+        "t059": "TCH. BABYSIT\nTHE BRATS\nAGAIN.",
+        "t065": "WELL, IT\nCANNOT BE\nHELPED.",
+        "t071": "SHUT IT,\nSHORTY!",
+        "t074": "BUT YOU MAY\nNOT USE\nATRAIA!",
+        "t080": "B... BUT...",
+        "t083": "MILITARY\nORDERS."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Formal praise is compacted. The investigation still links Zolias to the incident rather than asserting an eyewitness certainty; Federation insecurity becomes fears all-out war. Roy\u2019s self-interest, Joe\u2019s request for leave, Welda\u2019s insult and the military Atraia ban remain."
+      ]
+    },
+    {
+      "id": "script:05c000:028",
+      "basedOn": "ebcc9473d6b7f68fc3e53151bcb15a1a42caa5f42550041051384b41773b554b",
+      "inGameEnglish": {
+        "t000": "VISIT MARS ON\nLEAVE. MY\nSECRETARY\nARRANGED IT."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "The suggestion becomes a compact instruction to visit Mars; secretary arrangements remain."
+      ]
+    },
+    {
+      "id": "script:05c000:030",
+      "basedOn": "ebcc9473d6b7f68fc3e53151bcb15a1a42caa5f42550041051384b41773b554b",
+      "inGameEnglish": {
+        "t000": "THE OPERATOR\nBOOKED YOUR\nMARS TRIP.",
+        "t002": "ASK\nHER NEXT DOOR."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05c000:031",
+      "basedOn": "ebcc9473d6b7f68fc3e53151bcb15a1a42caa5f42550041051384b41773b554b",
+      "inGameEnglish": {
+        "t000": "LEAVE FOR MARS\nSPACEPORT?"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05c000:032",
+      "basedOn": "ebcc9473d6b7f68fc3e53151bcb15a1a42caa5f42550041051384b41773b554b",
+      "inGameEnglish": {
+        "t001": "ENJOY YOUR\nLEAVE."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05c000:033",
+      "basedOn": "ebcc9473d6b7f68fc3e53151bcb15a1a42caa5f42550041051384b41773b554b",
+      "inGameEnglish": {
+        "t001": "TELL ME WHEN\nYOU ARE READY."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:05c000:034",
+      "basedOn": "ebcc9473d6b7f68fc3e53151bcb15a1a42caa5f42550041051384b41773b554b",
+      "inGameEnglish": {
+        "t001": "SOLDIER",
+        "t003": "COMMANDER SAYS\nNO ENTRY."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:000",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t003": "PRINCE HOTEL",
+        "t005": "WELCOME. A\nROOM IS 10\nCREDITS. STAY?"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Begi is omitted from the displayed Prince Hotel header; canonical full establishment name is retained."
+      ]
+    },
+    {
+      "id": "script:063000:001",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t003": "ITEM SHOP",
+        "t005": "WELCOOOME!\nWHAT FOR YOU?"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Elongated welcome preserves the clerk\u2019s stylized sales patter in a shorter question."
+      ]
+    },
+    {
+      "id": "script:063000:002",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t003": "SCRAP EXCHANGE",
+        "t005": "THANKS! CHOOSE\nUS FOR ALL\nYOUR SCRAP\nNEEDS!"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:003",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t003": "WEAPON SHOP",
+        "t005": "WELCOME. MAY\nYOU FIND A\nGOOD FIT."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Good fit is a compact rendering of finding something to one\u2019s liking."
+      ]
+    },
+    {
+      "id": "script:063000:004",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t005": "WHY VISIT THIS\nOLD MAN, YOUNG\nFOLK?"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:005",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "SCHOLAR",
+        "t003": "I STUDY PLANTS\nON OTHER\nWORLDS."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:006",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": [
+          "BEGI HAS\nSCHOLARS\nSEEKING QUIET\nRESEARCH AND",
+          "ELDERS IN\nRETIREMENT."
+        ]
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Remaining years becomes retirement; quiet scholarly research and elderly residents remain."
+      ]
+    },
+    {
+      "id": "script:063000:008",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "MYUNTOS WOMAN",
+        "t003": "I STAY HERE TO\nSTUDY MYUNTOS\nHISTORY."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:009",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "I MAY RETIRE\nHERE TOO."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "May retire preserves the resident\u2019s tentative retirement plan."
+      ]
+    },
+    {
+      "id": "script:063000:010",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "OLD MAN",
+        "t003": "A LOVELY TOWN."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:011",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": [
+          "GOING TO STEA?\nYOU NEED A\nHAND\nSATELLITE. IT",
+          "IS A VAST\nPLANET."
+        ]
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:012",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "OLD MAN",
+        "t003": [
+          "WEY DUMNA WAS\nGREAT, I HEAR.\nHE UNITED\nSPACE, NOW",
+          "SPLIT IN THREE\nNATIONS."
+        ]
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Universe becomes space; the three-nation division and Wey Dumna\u2019s unifying leadership remain."
+      ]
+    },
+    {
+      "id": "script:063000:013",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "MYUNTOS MAN",
+        "t003": "MY HOME STEA\nIS A FINE\nGREEN WORLD."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:014",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "BOOKS ON MARS\n",
+        "t003": "FEDERATION\nHISTORY."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:015",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "BOOKS ABOUT\n",
+        "t003": "THE MYUNTOS."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:016",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "STEA TICKET",
+        "t003": "\nFOUND."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:017",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t001": "330 CREDITS",
+        "t003": "\nFOUND."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:018",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t003": "CANNOT CARRY\nIT."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "The inventory failure is retained; leaving the item behind is implicit in the failure branch."
+      ]
+    },
+    {
+      "id": "script:063000:020",
+      "basedOn": "bfc7bfdae9c7e0a5da570bae3e38061dd2652a90a51d74d7bb78eaef8db5f030",
+      "inGameEnglish": {
+        "t002": "MARS SCHOLAR"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "MARS SCHOLAR is the fitted header for the canonical Mars Historian, within the original header allocation."
+      ]
+    },
+    {
+      "id": "script:063000:029",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t000": "TOOLS\nLEAVE"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "TOOLS is the six-cell buy-tools menu action; shop context supplies buy."
+      ]
+    },
+    {
+      "id": "script:063000:030",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t002": "NEED MORE?"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:031",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t001": "COME AGAAAIN!"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:032",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t001": "NO CASH? NO\nSALE."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:033",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t000": "ARMS\nARMOR\nLEAVE"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "ARMS is the five-cell buy-weapons menu action; ARMOR and LEAVE preserve the other choices."
+      ]
+    },
+    {
+      "id": "script:063000:034",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:035",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:036",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t001": "TESWIL, THE\nCAPITAL, MAY\nHAVE BETTER\nWEAPONS."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:063000:037",
+      "basedOn": "67f73b594f038a10cf692deaea0ebf82ea1e6ec11dd3e3010427d406c30c5310",
+      "inGameEnglish": {
+        "t001": "NO CASH? IT'S\nBUSINESS."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "The unfinished explanation of running a business becomes no cash, it is business."
+      ]
+    },
+    {
+      "id": "script:081000:022",
+      "basedOn": "200f4449074252c20b1121417cd97b5e2e651b774ea932d41230d42cced5d2a7",
+      "inGameEnglish": {
+        "t000": "GREAT, ",
+        "t002": "!\nLET US FIND\n",
+        "t004": "!"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Honorific auntie is omitted without implying biological kinship; enthusiasm and the search for Lucia remain."
+      ]
+    },
+    {
+      "id": "script:081000:023",
+      "basedOn": "200f4449074252c20b1121417cd97b5e2e651b774ea932d41230d42cced5d2a7",
+      "inGameEnglish": {
+        "t001": " MUST BE\nON MARS. ASK\nIN TESWIL TO\nFIND A LEAD."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:024",
+      "basedOn": "200f4449074252c20b1121417cd97b5e2e651b774ea932d41230d42cced5d2a7",
+      "inGameEnglish": {
+        "t000": "YOU SEEM GLAD\nTO VISIT MARS.\nWHY?",
+        "t007": ", ",
+        "t009": "'S\nMISSING MOTHER\nMAY BE ON\nMARS.",
+        "t015": "HIS MOTHER?!\nTCH. ",
+        "t017": ", NOT\nWEANED YET?\nHONESTLY!",
+        "t023": "FINE. IN THAT\nCASE, I'LL\nHELP."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:025",
+      "basedOn": "76c17030fa289484eda6e264b94779da58fc473bf3c50da372cf3c4981ca92d9",
+      "inGameEnglish": {
+        "t003": " AND ALL\n",
+        "t005": "WATCHED THE\nVIDEO LETTER.",
+        "t010": " SWITCHED\nIT ON. ",
+        "t012": "AN\nIMAGE OF ",
+        "t015": "\nAPPEARED.",
+        "t021": "SION,\nEVERYONE. I AM\nIN HIDING FOR\nA REASON.",
+        "t025": [
+          "YOU MUST BE\nSURPRISED BY\nTHIS LETTER. I\nKNEW YOU WOULD",
+          "VISIT THIS\nSHOP TODAY."
+        ],
+        "t029": [
+          "IT SEEMS I CAN\nSOMETIMES\nFORESEE THE\nFUTURE WITHOUT",
+          "WARNING."
+        ],
+        "t033": [
+          "I'LL TELL YOU\nHOW I GOT THIS\nPOWER AND WHY\nI HAD TO HIDE.",
+          "THEN PLEASE\nHELP ME."
+        ],
+        "t037": "I'LL WAIT IN\nDAINA BY ",
+        "t039": "WEY\nDUMNA'S\nMONUMENT",
+        "t041": "."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Introductory narration is condensed. Lucia\u2019s surprise prediction, uncertain sudden foresight, promise to explain her power and hiding, request for help and Daina monument meeting all remain."
+      ]
+    },
+    {
+      "id": "script:081000:026",
+      "basedOn": "200f4449074252c20b1121417cd97b5e2e651b774ea932d41230d42cced5d2a7",
+      "inGameEnglish": {
+        "t005": ", HURRY TO\nDAINA!"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:027",
+      "basedOn": "200f4449074252c20b1121417cd97b5e2e651b774ea932d41230d42cced5d2a7",
+      "inGameEnglish": {
+        "t004": "I NEVER\nTHOUGHT ",
+        "t006": "\nWOULD CONTACT\nUS.",
+        "t012": "STILL, GOOD\nNEWS, ",
+        "t014": "."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:081000:028",
+      "basedOn": "200f4449074252c20b1121417cd97b5e2e651b774ea932d41230d42cced5d2a7",
+      "inGameEnglish": {
+        "t004": "DAINA... YOU\nLOT ARE A\nMYSTERY.",
+        "t010": "YOU'LL TELL ME\nIN TIME."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Too much that Welda does not understand becomes you lot are a mystery. Her demand for an explanation in time remains."
+      ]
+    },
+    {
+      "id": "script:053000:054",
+      "basedOn": "a71ae1de6010c32d73a366b6847ec64a89d3fba4a7407d3d7b41c45e7b34cc22",
+      "inGameEnglish": {
+        "t003": " AND ALL\nENTERED. ",
+        "t005": [
+          "THE\nBARMAN,",
+          "SURPRISED,\n"
+        ],
+        "t007": "ASKED...",
+        "t010": "ARE YOU ",
+        "t012": "?",
+        "t018": "HUH?! HOW DO\nYOU KNOW MY\nNAME?",
+        "t024": "HMPH. QUITE\nFAMOUS NOW,\n",
+        "t026": ".",
+        "t029": [
+          "A WOMAN CAME\nTWO DAYS AGO.\nSHE TIPPED ME\n500 CREDITS TO",
+          "GIVE YOU THIS."
+        ],
+        "t033": "HE TOOK OUT ",
+        "t035": "A\nVIDEO LETTER\n",
+        "t037": "AND GAVE IT TO\nSION."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "The introductory surprised bartender narration is shortened. About two days becomes two days; 500-credit tip and video-letter handover remain."
+      ]
+    },
+    {
+      "id": "script:053000:055",
+      "basedOn": "a71ae1de6010c32d73a366b6847ec64a89d3fba4a7407d3d7b41c45e7b34cc22",
+      "inGameEnglish": {
+        "t003": "YOU HAVE IT."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:053000:056",
+      "basedOn": "a71ae1de6010c32d73a366b6847ec64a89d3fba4a7407d3d7b41c45e7b34cc22",
+      "inGameEnglish": {
+        "t001": "HUH? TOO MUCH\nGEAR TO CARRY\nIT?",
+        "t004": "WELL, COME\nBACK LATER."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:053000:057",
+      "basedOn": "a71ae1de6010c32d73a366b6847ec64a89d3fba4a7407d3d7b41c45e7b34cc22",
+      "inGameEnglish": {
+        "t001": "LITTLE PROFIT\nHERE.",
+        "t003": "I MAY\nCLOSE."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "The complaint is compressed to little profit and possible closure."
+      ]
+    },
+    {
+      "id": "script:053000:044",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t003": "SORRY. NOT\nOPEN YET."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:053000:045",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t001": "MADAM",
+        "t003": "BAD TIMES MAKE\nYOUR SPIRIT\nPOOR."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Economic downturn becomes bad times; the impoverished-spirit wordplay remains."
+      ]
+    },
+    {
+      "id": "script:053000:046",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t001": "BARMAN"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:053000:047",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t001": "MYUNTOS"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:053000:049",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t001": "CALL GIRL"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:053000:050",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t001": "DRUNK"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:053000:051",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t001": "DANCER"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:078000:000",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t000": "WELCOME. RELAX\nHERE."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:078000:001",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t000": [
+          "ZOLIAS HAS\nTHREE GENERALS\nUNDER ITS",
+          "LEADER,\n"
+        ],
+        "t002": ".",
+        "t006": "MYUNTOS",
+        "t008": [
+          "ICE RARAWELL\nCOMMANDS\nFORTRESS\nBARBAS, NEWLY",
+          "DEPLOYED IN\nZ127."
+        ],
+        "t012": "MYUNTOS",
+        "t014": [
+          "BEAST BAIDEN\nLEADS BLACK\nBEAST, A\nBIOSOLDIER",
+          "UNIT."
+        ],
+        "t018": "MYUNTOS",
+        "t020": "NOBEL SULLIVAN\nIS THE\nIMPERIAL NAVAL\nSTRATEGIST.",
+        "t024": "MYUNTOS",
+        "t026": [
+          "THEY SEEM TO\nHAVE PUT\nWYURIA IN A\nVERY TIGHT",
+          "SPOT."
+        ]
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Formal supreme-commander rank becomes leader, brilliant is omitted, and Wyuria\u2019s kingdom designation is implicit. The three generals, their forces, Barbas deployment and reported pressure on Wyuria remain."
+      ]
+    },
+    {
+      "id": "script:078000:002",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t000": "ENOUGH! GO\nAWAY!"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    },
+    {
+      "id": "script:078000:003",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t000": "COME ALONE\nNEXT TIME."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Young-man address is omitted; the suggestive invitation to return alone remains."
+      ]
+    },
+    {
+      "id": "script:078000:004",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t000": "WEY DUMNA USED\nSTRANGE\nPOWERS, THEY\nSAY."
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Unfathomable becomes strange; the reported nature of the power remains."
+      ]
+    },
+    {
+      "id": "script:078000:005",
+      "basedOn": "a64b81b27ac2a5518405b1d37e6f2c24a4869d93403233ef477d54babd5f019f",
+      "inGameEnglish": {
+        "t001": "ONSTAGE, ",
+        "t003": "A\nDANCER MOVES\nWITH FLAIR.",
+        "t009": "HEY, BABE!\nLOOKING GOOD!",
+        "t015": "YOU DIRTY OLD\nMAN!"
+      },
+      "notes": [
+        "Separate fitting from reviewed canonical English; original commands and runtime-name ordering retained.",
+        "Core meaning and voice retained in compact phrasing."
+      ]
+    }
+  ]
+}

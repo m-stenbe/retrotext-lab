@@ -1,0 +1,1911 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r03-development-equipment-names"
+  ],
+  "records": [
+    {
+      "id": "r03-equipment:item:01",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ICE NDL",
+      "notes": [
+        "Display 'ICE NDL' is the nine-cell rendering of 'Ice Needle'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:02",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "STUNFIST",
+      "notes": [
+        "Display 'STUN FIST' is the nine-cell rendering of 'Stun Knuckle'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: STUN FIST is displayed as STUNFIST within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:04",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HEATCLAW",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: HEAT CLAW is displayed as HEATCLAW within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:05",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAYKNIFE",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: RAY KNIFE is displayed as RAYKNIFE within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:06",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HEATWHIP",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: HEAT WHIP is displayed as HEATWHIP within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:07",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GKNUCKLE",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: G KNUCKLE is displayed as GKNUCKLE within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:08",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TI BLADE",
+      "notes": [
+        "Display 'TI BLADE' is the nine-cell rendering of 'Titanium Blade'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:09",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BE SWORD",
+      "notes": [
+        "Display 'BE SWORD' is the nine-cell rendering of 'Beryllium Sword'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:0a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HEAT SWD",
+      "notes": [
+        "Display 'HEAT SWD' is the nine-cell rendering of 'Heat Sword'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:0b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "STUN SWD",
+      "notes": [
+        "Display 'STUN SWD' is the nine-cell rendering of 'Stun Sword'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:0c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "CERSWORD",
+      "notes": [
+        "Display 'CER SWORD' is the nine-cell rendering of 'Cermet Sword'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: CER SWORD is displayed as CERSWORD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:0d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ICEBLADE",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: ICE BLADE is displayed as ICEBLADE within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:0e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAYSWORD",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: RAY SWORD is displayed as RAYSWORD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:0f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FLAMESWD",
+      "notes": [
+        "Display 'FLAME SWD' is the nine-cell rendering of 'Flame Sword'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: FLAME SWD is displayed as FLAMESWD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:10",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SOUL BRK",
+      "notes": [
+        "Display 'SOUL BRK' is the nine-cell rendering of 'Soul Breaker'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:11",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GREATRAY",
+      "notes": [
+        "Display 'GREAT RAY' is the nine-cell rendering of 'Great Ray S'; canonical English retains the full source name.",
+        "Omits the final S designation.",
+        "2026-09-24 icon-list width: GREAT RAY is displayed as GREATRAY within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:12",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TWIN RAY",
+      "notes": [
+        "Display 'TWIN RAY' is the nine-cell rendering of 'Twin Ray Sword'; canonical English retains the full source name.",
+        "Omits Sword; retains Twin Ray."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:13",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAIZERSW",
+      "notes": [
+        "Display 'ZAIZER SW' is the nine-cell rendering of 'Zaizer Sword'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: ZAIZER SW is displayed as ZAIZERSW within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:14",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAYLANCE",
+      "notes": [
+        "Display 'RAY LANCE' is the nine-cell rendering of 'Ray Lancer'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: RAY LANCE is displayed as RAYLANCE within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:15",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "NBRINGER",
+      "notes": [
+        "Display 'N BRINGER' is the nine-cell rendering of 'Night Bringer'; canonical English retains the full source name.",
+        "Working phonetic reading remains provisional; see canonical term uncertainty.",
+        "2026-09-24 icon-list width: N BRINGER is displayed as NBRINGER within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:16",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "G HAMMER",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:17",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PLAS AXE",
+      "notes": [
+        "Display 'PLAS AXE' is the nine-cell rendering of 'Plasma Axe'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:18",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PLASMAGN",
+      "notes": [
+        "Display 'PLASMA GN' is the nine-cell rendering of 'Plasma Gun'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PLASMA GN is displayed as PLASMAGN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:1c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HBLASTER",
+      "notes": [
+        "Display 'H BLASTER' is the nine-cell rendering of 'Hand Blaster'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: H BLASTER is displayed as HBLASTER within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:1e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BEAMRIFL",
+      "notes": [
+        "Display 'BEAM RIFL' is the nine-cell rendering of 'Beam Rifle'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: BEAM RIFL is displayed as BEAMRIFL within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:1f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "AT RIFLE",
+      "notes": [
+        "Display 'AT RIFLE' is the nine-cell rendering of 'Anti-Tank Rifle'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:20",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FLAMER",
+      "notes": [
+        "Display 'FLAMER' is the nine-cell rendering of 'Flamethrower'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:21",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FBLASTER",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: F BLASTER is displayed as FBLASTER within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:22",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "THUNDER",
+      "notes": [
+        "Display 'THUNDER' is the nine-cell rendering of 'Thunderbolt'; canonical English retains the full source name.",
+        "Omits Bolt."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:24",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MIND BRK",
+      "notes": [
+        "Display 'MIND BRK' is the nine-cell rendering of 'Mind Break'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:25",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZBLASTER",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: Z BLASTER is displayed as ZBLASTER within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:26",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MEGA MG",
+      "notes": [
+        "Display 'MEGA MG' is the nine-cell rendering of 'Mega Machine Gun'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:27",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BAZOOKA",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:28",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SHLDRGUN",
+      "notes": [
+        "Display 'SHLDR GUN' is the nine-cell rendering of 'Shoulder Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SHLDR GUN is displayed as SHLDRGUN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:29",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "F BUSTER",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:2a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FREEZECN",
+      "notes": [
+        "Display 'FREEZE CN' is the nine-cell rendering of 'Freeze Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: FREEZE CN is displayed as FREEZECN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:2b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ELECUTE",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "Working phonetic reading remains provisional; see canonical term uncertainty."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:2c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAY BSTR",
+      "notes": [
+        "Display 'RAY BSTR' is the nine-cell rendering of 'Ray Buster'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:2d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAYSTORM",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: RAY STORM is displayed as RAYSTORM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:2e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PHOTONCN",
+      "notes": [
+        "Display 'PHOTON CN' is the nine-cell rendering of 'Photon Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PHOTON CN is displayed as PHOTONCN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:2f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SGCANNON",
+      "notes": [
+        "Display 'SG CANNON' is the nine-cell rendering of 'Supergravity Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SG CANNON is displayed as SGCANNON within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:30",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PSYSMASH",
+      "notes": [
+        "Display 'PSY SMASH' is the nine-cell rendering of 'Psycho Smash'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PSY SMASH is displayed as PSYSMASH within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:31",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAIZERCN",
+      "notes": [
+        "Display 'ZAIZER CN' is the nine-cell rendering of 'Zaizer Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: ZAIZER CN is displayed as ZAIZERCN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:32",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "AT MSL",
+      "notes": [
+        "Display 'AT MSL' is the nine-cell rendering of 'Anti-Tank Missile'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:33",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "M LAUNCH",
+      "notes": [
+        "Display 'M LAUNCH' is the nine-cell rendering of 'M Launcher'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:34",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "NAPALMMS",
+      "notes": [
+        "Display 'NAPALM MS' is the nine-cell rendering of 'Napalm Missile'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: NAPALM MS is displayed as NAPALMMS within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:35",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FREEZEMS",
+      "notes": [
+        "Display 'FREEZE MS' is the nine-cell rendering of 'Freeze Missile'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: FREEZE MS is displayed as FREEZEMS within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:36",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYPERMSL",
+      "notes": [
+        "Display 'HYPER MSL' is the nine-cell rendering of 'Hyper Missile'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: HYPER MSL is displayed as HYPERMSL within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:37",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MW MSL",
+      "notes": [
+        "Display 'MW MSL' is the nine-cell rendering of 'Multi-Warhead Missile'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:38",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BH CRUSH",
+      "notes": [
+        "Display 'BH CRUSH' is the nine-cell rendering of 'BH Crusher'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:39",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "NIGHTMSK",
+      "notes": [
+        "Display 'NIGHT MSK' is the nine-cell rendering of 'Night Mask'; canonical English retains the full source name.",
+        "Working phonetic reading remains provisional; see canonical term uncertainty.",
+        "2026-09-24 icon-list width: NIGHT MSK is displayed as NIGHTMSK within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:3f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HALFHELM",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: HALF HELM is displayed as HALFHELM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:40",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SUPERMSK",
+      "notes": [
+        "Display 'SUPER MSK' is the nine-cell rendering of 'Super Mask'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SUPER MSK is displayed as SUPERMSK within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:41",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FULLHELM",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: FULL HELM is displayed as FULLHELM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:42",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FIGHTHLM",
+      "notes": [
+        "Display 'FIGHT HLM' is the nine-cell rendering of 'Fighter Helm'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: FIGHT HLM is displayed as FIGHTHLM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:43",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SSS HELM",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:45",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "IR SIGHT",
+      "notes": [
+        "Display 'IR SIGHT' is the nine-cell rendering of 'Infrared Sight'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:46",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PSYSIGHT",
+      "notes": [
+        "Display 'PSY SIGHT' is the nine-cell rendering of 'Psycho Sight'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PSY SIGHT is displayed as PSYSIGHT within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:47",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAYSIGHT",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: RAY SIGHT is displayed as RAYSIGHT within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:48",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SIGHTHLM",
+      "notes": [
+        "Display 'SIGHT HLM' is the nine-cell rendering of 'Sight Helm'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SIGHT HLM is displayed as SIGHTHLM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:49",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PSY HELM",
+      "notes": [
+        "Display 'PSY HELM' is the nine-cell rendering of 'Psychic Helm'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:4a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SCRAPHLM",
+      "notes": [
+        "Display 'SCRAP HLM' is the nine-cell rendering of 'Scrap Helm'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SCRAP HLM is displayed as SCRAPHLM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:4b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAY HELM",
+      "notes": [
+        "Display 'RAY HELM' is the nine-cell rendering of 'Ray Sight Helm'; canonical English retains the full source name.",
+        "Omits Sight; retains Ray and Helm."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:4e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MAG RING",
+      "notes": [
+        "Display 'MAG RING' is the nine-cell rendering of 'Magnet Ring'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:4f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "EM BRACE",
+      "notes": [
+        "Display 'EM BRACE' is the nine-cell rendering of 'Electromagnetic Bracelet'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:50",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAYBRACE",
+      "notes": [
+        "Display 'RAY BRACE' is the nine-cell rendering of 'Ray Bracelet'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: RAY BRACE is displayed as RAYBRACE within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:52",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "NIGHTSHD",
+      "notes": [
+        "Display 'NIGHT SHD' is the nine-cell rendering of 'Night Shield'; canonical English retains the full source name.",
+        "Working phonetic reading remains provisional; see canonical term uncertainty.",
+        "2026-09-24 icon-list width: NIGHT SHD is displayed as NIGHTSHD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:53",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PSY SHLD",
+      "notes": [
+        "Display 'PSY SHLD' is the nine-cell rendering of 'Psycho Shield'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:54",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "EMSHIELD",
+      "notes": [
+        "Display 'EM SHIELD' is the nine-cell rendering of 'Electromagnetic Shield'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: EM SHIELD is displayed as EMSHIELD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:55",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAY SHLD",
+      "notes": [
+        "Display 'RAY SHLD' is the nine-cell rendering of 'Ray Shield'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:56",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAIZERSH",
+      "notes": [
+        "Display 'ZAIZER SH' is the nine-cell rendering of 'Zaizer Shield'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: ZAIZER SH is displayed as ZAIZERSH within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:57",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HD BARR",
+      "notes": [
+        "Display 'HD BARR' is the nine-cell rendering of 'Hyperdimensional Barrier'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:58",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAY BARR",
+      "notes": [
+        "Display 'RAY BARR' is the nine-cell rendering of 'Ray Barrier'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:59",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SEM BARR",
+      "notes": [
+        "Display 'SEM BARR' is the nine-cell rendering of 'Super-Electromagnetic Barrier'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:5a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYP BARR",
+      "notes": [
+        "Display 'HYP BARR' is the nine-cell rendering of 'Hyper Barrier'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:5b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BH BARR",
+      "notes": [
+        "Display 'BH BARR' is the nine-cell rendering of 'BH Barrier'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:62",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "COAT",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:64",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PROTOCYB",
+      "notes": [
+        "Display 'PROTO CYB' is the nine-cell rendering of 'Proto Cyber'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PROTO CYB is displayed as PROTOCYB within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:65",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "LGT SUIT",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: LIGHTSUIT is displayed as LGT SUIT within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:66",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "POLYSUIT",
+      "notes": [
+        "Display 'POLY SUIT' is the nine-cell rendering of 'Polymer Suit'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: POLY SUIT is displayed as POLYSUIT within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:67",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "COSMO ST",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: COSMOSUIT is displayed as COSMO ST within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:68",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "CER SUIT",
+      "notes": [
+        "Display 'CER SUIT' is the nine-cell rendering of 'Ceramic Suit'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:69",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FIGHT ST",
+      "notes": [
+        "Display 'FIGHT ST' is the nine-cell rendering of 'Fighter Suit'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:6a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYP SUIT",
+      "notes": [
+        "Display 'HYP SUIT' is the nine-cell rendering of 'Hyper Suit'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:6b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SCRAP ST",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: SCRAPSUIT is displayed as SCRAP ST within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:6c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "CYBRSUIT",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: CYBERSUIT is displayed as CYBRSUIT within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:6d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PSY SUIT",
+      "notes": [
+        "Display 'PSY SUIT' is the nine-cell rendering of 'Psycho Suit'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:6e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PROTSUIT",
+      "notes": [
+        "Display 'PROT SUIT' is the nine-cell rendering of 'Protective Suit'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PROT SUIT is displayed as PROTSUIT within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:6f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TI ARMOR",
+      "notes": [
+        "Display 'TI ARMOR' is the nine-cell rendering of 'Titanium Armor'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:70",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ARMED ST",
+      "notes": [
+        "Display 'ARMED ST' is the nine-cell rendering of 'Armed Suit'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:71",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BATTLEST",
+      "notes": [
+        "Display 'BATTLE ST' is the nine-cell rendering of 'Battle Suit'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: BATTLE ST is displayed as BATTLEST within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:72",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "NIGHT AR",
+      "notes": [
+        "Display 'NIGHT AR' is the nine-cell rendering of 'Night Armor'; canonical English retains the full source name.",
+        "Working phonetic reading remains provisional; see canonical term uncertainty."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:73",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SUPERCYB",
+      "notes": [
+        "Display 'SUPER CYB' is the nine-cell rendering of 'Super Cyber'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SUPER CYB is displayed as SUPERCYB within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:74",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "STEEL BD",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: STEELBODY is displayed as STEEL BD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:76",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "CYBERFRM",
+      "notes": [
+        "Display 'CYBER FRM' is the nine-cell rendering of 'Cyber Frame'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: CYBER FRM is displayed as CYBERFRM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:77",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SEMFRAME",
+      "notes": [
+        "Display 'SEM FRAME' is the nine-cell rendering of 'Super-Electromagnetic Frame'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SEM FRAME is displayed as SEMFRAME within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:78",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SCRAP BD",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: SCRAPBODY is displayed as SCRAP BD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:79",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAIZERFR",
+      "notes": [
+        "Display 'ZAIZER FR' is the nine-cell rendering of 'Zaizer Frame'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: ZAIZER FR is displayed as ZAIZERFR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:82",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MED TOOL",
+      "notes": [
+        "Display 'MED TOOL' is the nine-cell rendering of 'Medical Tool'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:83",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MED SET",
+      "notes": [
+        "Display 'MED SET' is the nine-cell rendering of 'Medical Set'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:84",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HI MED",
+      "notes": [
+        "Display 'HI MED' is the nine-cell rendering of 'High Medical'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:85",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PSY CURE",
+      "notes": [
+        "Display 'PSY CURE' is the nine-cell rendering of 'Psycho Cure'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:86",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HIPSYCUR",
+      "notes": [
+        "Display 'HI PSYCUR' is the nine-cell rendering of 'High Psycho Cure'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: HI PSYCUR is displayed as HIPSYCUR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:87",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GRENADE",
+      "notes": [
+        "Display 'GRENADE' is the nine-cell rendering of 'Hand Grenade'; canonical English retains the full source name.",
+        "Omits Hand."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:88",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HI GREN",
+      "notes": [
+        "Display 'HI GREN' is the nine-cell rendering of 'High Grenade'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:89",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "H NAPALM",
+      "notes": [
+        "Display 'H NAPALM' is the nine-cell rendering of 'Hand Napalm'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:8a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYNAPALM",
+      "notes": [
+        "Display 'HY NAPALM' is the nine-cell rendering of 'Hyper Napalm'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: HY NAPALM is displayed as HYNAPALM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:8b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FREEZEBM",
+      "notes": [
+        "Display 'FREEZE BM' is the nine-cell rendering of 'Freezing Bomb'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: FREEZE BM is displayed as FREEZEBM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:8c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "LIGHTNBM",
+      "notes": [
+        "Display 'LIGHTN BM' is the nine-cell rendering of 'Lightning Bomb'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: LIGHTN BM is displayed as LIGHTNBM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:8d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAY BALL",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:8e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GRAVBOMB",
+      "notes": [
+        "Display 'GRAV BOMB' is the nine-cell rendering of 'Gravity Bomb'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: GRAV BOMB is displayed as GRAVBOMB within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:8f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "STUNGREN",
+      "notes": [
+        "Display 'STUN GREN' is the nine-cell rendering of 'Stun Grenade'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: STUN GREN is displayed as STUNGREN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:90",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SLEEPGAS",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: SLEEP GAS is displayed as SLEEPGAS within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:91",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PARA GAS",
+      "notes": [
+        "Display 'PARA GAS' is the nine-cell rendering of 'Paralysis Gas'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:92",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PSYCRASH",
+      "notes": [
+        "Display 'PSY CRASH' is the nine-cell rendering of 'Psycho Crash'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PSY CRASH is displayed as PSYCRASH within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:94",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "RAY RING",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:95",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BEAMDART",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: BEAM DART is displayed as BEAMDART within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:96",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYPERRND",
+      "notes": [
+        "Display 'HYPER RND' is the nine-cell rendering of 'Hyper-Spacetime Round'; canonical English retains the full source name.",
+        "Spacetime is omitted in the constrained label; canonical retains both space and time.",
+        "2026-09-24 icon-list width: HYPER RND is displayed as HYPERRND within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:97",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TRON FLD",
+      "notes": [
+        "Display 'TRON FLD' is the nine-cell rendering of 'Tron Field'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:98",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SEMFIELD",
+      "notes": [
+        "Display 'SEM FIELD' is the nine-cell rendering of 'Super-Electromagnetic Field'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SEM FIELD is displayed as SEMFIELD within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:99",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "CURE MED",
+      "notes": [
+        "Display 'CURE MED' is the nine-cell rendering of 'Cure Medicine'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:9b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MYUNTHRB",
+      "notes": [
+        "Display 'MYUNT HRB' is the nine-cell rendering of 'Myuntos Medicinal Herb'; canonical English retains the full source name.",
+        "Myuntos and Herb are shortened; Medicinal is omitted.",
+        "2026-09-24 icon-list width: MYUNT HRB is displayed as MYUNTHRB within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:9d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MARS TKT",
+      "notes": [
+        "Display 'MARS TKT' is the nine-cell rendering of 'Mars Ticket'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:9e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAJILTKT",
+      "notes": [
+        "Display 'ZAJIL TKT' is the nine-cell rendering of 'Zajil Ticket'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: ZAJIL TKT is displayed as ZAJILTKT within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:9f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "STEA TKT",
+      "notes": [
+        "Display 'STEA TKT' is the nine-cell rendering of 'Stea Ticket'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:a0",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HOM TKT",
+      "notes": [
+        "Display 'HOM TKT' is the nine-cell rendering of 'Hom Ticket'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:a1",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "JUKE TKT",
+      "notes": [
+        "Display 'JUKE TKT' is the nine-cell rendering of 'Juke Ticket'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:a4",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MECH BOX",
+      "notes": [
+        "Display 'MECH BOX' is the nine-cell rendering of 'Mech Repair Box'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:a5",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "VID MAIL",
+      "notes": [
+        "Display 'VID MAIL' is the nine-cell rendering of 'Video Letter'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:a6",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MARSHIST",
+      "notes": [
+        "Display 'MARS HIST' is the nine-cell rendering of 'Mars Federation History Encyclopedia'; canonical English retains the full source name.",
+        "Omits Federation and Encyclopedia; keeps Mars and History.",
+        "2026-09-24 icon-list width: MARS HIST is displayed as MARSHIST within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:a7",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TREFOIL",
+      "notes": [
+        "Display 'TREFOIL' is the nine-cell rendering of 'Trefoil Emblem'; canonical English retains the full source name.",
+        "Omits Emblem."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:a8",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MICROCHP",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: MICROCHIP is displayed as MICROCHP within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:aa",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PERMIT",
+      "notes": [
+        "Display 'PERMIT' is the nine-cell rendering of 'Travel Permit'; canonical English retains the full source name.",
+        "Omits Travel."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:ab",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAIZCHIP",
+      "notes": [
+        "Display 'ZAIZ CHIP' is the nine-cell rendering of 'Zaizer Ore Fragment'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: ZAIZ CHIP is displayed as ZAIZCHIP within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:ac",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BYUDOSKY",
+      "notes": [
+        "Display 'BYUDOS KY' is the nine-cell rendering of 'Byudos Key'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: BYUDOS KY is displayed as BYUDOSKY within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:ad",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GOL KEY",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:ae",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BORUAKEY",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: BORUA KEY is displayed as BORUAKEY within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:af",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MOONLITE",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: MOONLIGHT is displayed as MOONLITE within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:b0",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAIZ ORE",
+      "notes": [
+        "Display 'ZAIZ ORE' is the nine-cell rendering of 'Raw Zaizer Ore'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:b1",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PSY RING",
+      "notes": [
+        "Display 'PSY RING' is the nine-cell rendering of 'Psycho Ring'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:item:c0",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "DUMNAGEM",
+      "notes": [
+        "Display 'DUMNA GEM' is the nine-cell rendering of \"Dumna's Jewel\"; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: DUMNA GEM is displayed as DUMNAGEM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:01",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYP SHOT",
+      "notes": [
+        "Display 'HYP SHOT' is the nine-cell rendering of 'Hyper Shot'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:02",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FLASHBLT",
+      "notes": [
+        "Display 'FLASH BLT' is the nine-cell rendering of 'Flash Bolt'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: FLASH BLT is displayed as FLASHBLT within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:03",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MEGA GAT",
+      "notes": [
+        "Display 'MEGA GAT' is the nine-cell rendering of 'Mega Gatling Cannon'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:04",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GREN CN",
+      "notes": [
+        "Display 'GREN CN' is the nine-cell rendering of 'Grenade Cannon'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:05",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "250MMGUN",
+      "notes": [
+        "Display '250MM GUN' is the nine-cell rendering of '250 mm Penetrating Cannon'; canonical English retains the full source name.",
+        "Omits the penetrating qualifier; retains 250 mm and gun identity.",
+        "Caliber digits are full-width CP932 glyphs, following the original numeral path.",
+        "2026-09-24 icon-list width: 250MM GUN is displayed as 250MMGUN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:06",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SALAMNDR",
+      "notes": [
+        "Display 'SALAMANDR' is the nine-cell rendering of 'Salamander'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: SALAMANDR is displayed as SALAMNDR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:07",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PLASBUST",
+      "notes": [
+        "Display 'PLAS BUST' is the nine-cell rendering of 'Plasma Buster'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PLAS BUST is displayed as PLASBUST within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:08",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SONIC CN",
+      "notes": [
+        "Display 'SONIC CN' is the nine-cell rendering of 'Power Sonic Cannon'; canonical English retains the full source name.",
+        "Omits Power."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:09",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PARTCLCN",
+      "notes": [
+        "Display 'PARTCL CN' is the nine-cell rendering of 'Particle Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PARTCL CN is displayed as PARTCLCN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:0a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MULTIRAY",
+      "notes": [
+        "Display 'MULTI RAY' is the nine-cell rendering of 'Multi-Ray Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: MULTI RAY is displayed as MULTIRAY within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:0b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BEAM CUT",
+      "notes": [
+        "Display 'BEAM CUT' is the nine-cell rendering of 'Beam Cutter'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:0c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HEAT MSL",
+      "notes": [
+        "Display 'HEAT MSL' is the nine-cell rendering of 'Heat Missile'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:0d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FLASHMSL",
+      "notes": [
+        "Display 'FLASH MSL' is the nine-cell rendering of 'Explosive Flash Missile'; canonical English retains the full source name.",
+        "Omits Explosive.",
+        "2026-09-24 icon-list width: FLASH MSL is displayed as FLASHMSL within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:0e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "S NAPALM",
+      "notes": [
+        "Display 'S NAPALM' is the nine-cell rendering of 'Super Napalm'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:0f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "WYVERN",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:10",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PHOTBOMB",
+      "notes": [
+        "Display 'PHOT BOMB' is the nine-cell rendering of 'Photon Bomb'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PHOT BOMB is displayed as PHOTBOMB within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:11",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "AQUA JET",
+      "notes": [
+        "Display 'AQUA JET' is the nine-cell rendering of 'Aqua Jet Cannon'; canonical English retains the full source name.",
+        "Omits Cannon."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:12",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "320MMGUN",
+      "notes": [
+        "Display '320MM GUN' is the nine-cell rendering of '320 mm Penetrating Cannon'; canonical English retains the full source name.",
+        "Omits the penetrating qualifier; retains 320 mm and gun identity.",
+        "Caliber digits are full-width CP932 glyphs, following the original numeral path.",
+        "2026-09-24 icon-list width: 320MM GUN is displayed as 320MMGUN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:13",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAIZERSP",
+      "notes": [
+        "Display 'ZAIZER SP' is the nine-cell rendering of 'Zaizer Spark'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: ZAIZER SP is displayed as ZAIZERSP within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:14",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SCAT RAY",
+      "notes": [
+        "Display 'SCAT RAY' is the nine-cell rendering of 'Scatter Ray Buster'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:15",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PLAS ION",
+      "notes": [
+        "Display 'PLAS ION' is the nine-cell rendering of 'Plasma Ion Cannon'; canonical English retains the full source name.",
+        "Omits Cannon."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:16",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PHOTBEAM",
+      "notes": [
+        "Display 'PHOT BEAM' is the nine-cell rendering of 'Photon Beam Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PHOT BEAM is displayed as PHOTBEAM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:17",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PULSELSR",
+      "notes": [
+        "Display 'PULSE LSR' is the nine-cell rendering of 'Pulse Laser Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PULSE LSR is displayed as PULSELSR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:18",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYPER PC",
+      "notes": [
+        "Display 'HYPER PC' is the nine-cell rendering of 'Hyper Elementary-Particle Cannon'; canonical English retains the full source name.",
+        "PC abbreviates Particle Cannon; Elementary is omitted."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:19",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "NEUTBEAM",
+      "notes": [
+        "Display 'NEUT BEAM' is the nine-cell rendering of 'Neutron Beam Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: NEUT BEAM is displayed as NEUTBEAM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:1a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "560MM PH",
+      "notes": [
+        "Display '560MM PH' is the nine-cell rendering of '560 mm Photon Cannon'; canonical English retains the full source name.",
+        "Caliber digits are full-width CP932 glyphs, following the original numeral path."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:1b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HELLPROM",
+      "notes": [
+        "Display 'HELL PROM' is the nine-cell rendering of 'Hell Prominence'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: HELL PROM is displayed as HELLPROM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:1c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "POSITRON",
+      "notes": [
+        "Display 'POSITRON' is the nine-cell rendering of 'Rapid-Fire Positron Cannon'; canonical English retains the full source name.",
+        "Omits rapid-fire and cannon qualifiers; preserves Positron."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:1d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SCRAP CN",
+      "notes": [
+        "Display 'SCRAP CN' is the nine-cell rendering of 'Scrap Cannon'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:1e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ZAIZERCN",
+      "notes": [
+        "Display 'ZAIZER CN' is the nine-cell rendering of 'Zaizer Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: ZAIZER CN is displayed as ZAIZERCN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:1f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GEBRESCN",
+      "notes": [
+        "Display 'GEBRES CN' is the nine-cell rendering of 'Gebres Cannon'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: GEBRES CN is displayed as GEBRESCN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:20",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MOONSLDR",
+      "notes": [
+        "Display 'MOON SLDR' is the nine-cell rendering of 'Moon Slider'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: MOON SLDR is displayed as MOONSLDR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:21",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "STEALTHM",
+      "notes": [
+        "Display 'STEALTH M' is the nine-cell rendering of 'Stealth Missile'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: STEALTH M is displayed as STEALTHM within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:22",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FREEZE Z",
+      "notes": [
+        "Display 'FREEZE Z' is the nine-cell rendering of 'Freezing Zero'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:23",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "G PRESS",
+      "notes": [
+        "Display 'G PRESS' is the nine-cell rendering of 'G Pressure'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:24",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PLAS MSL",
+      "notes": [
+        "Display 'PLAS MSL' is the nine-cell rendering of 'Plasma Missile'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:25",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MULTIMSL",
+      "notes": [
+        "Display 'MULTI MSL' is the nine-cell rendering of 'Multi-Missile'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: MULTI MSL is displayed as MULTIMSL within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:26",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYDROMSL",
+      "notes": [
+        "Display 'HYDRO MSL' is the nine-cell rendering of 'Hydro Missile'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: HYDRO MSL is displayed as HYDROMSL within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:27",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "AP MSL",
+      "notes": [
+        "Display 'AP MSL' is the nine-cell rendering of 'Antiproton Missile'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:28",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HYPEROSC",
+      "notes": [
+        "Display 'HYPER OSC' is the nine-cell rendering of 'Hyper-Spacetime Oscillation Round'; canonical English retains the full source name.",
+        "Omits Spacetime and Round; OSC abbreviates Oscillation.",
+        "2026-09-24 icon-list width: HYPER OSC is displayed as HYPEROSC within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:29",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TITANIUM",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:2a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SOLENOID",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:2b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BETA CER",
+      "notes": [
+        "Display 'BETA CER' is the nine-cell rendering of 'Beta Ceramic'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:2c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TETRA TI",
+      "notes": [
+        "Display 'TETRA TI' is the nine-cell rendering of 'Tetra Titanium'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:2d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TRAFRAME",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: TRA FRAME is displayed as TRAFRAME within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:2e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "URANIUM",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:2f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HARDPLAS",
+      "notes": [
+        "Display 'HARD PLAS' is the nine-cell rendering of 'Hardened Plastic'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: HARD PLAS is displayed as HARDPLAS within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:30",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PARTCLFR",
+      "notes": [
+        "Display 'PARTCL FR' is the nine-cell rendering of 'Particle Frame'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: PARTCL FR is displayed as PARTCLFR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:31",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SIALON",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:32",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "OD ALLOY",
+      "notes": [
+        "Display 'OD ALLOY' is the nine-cell rendering of 'O-D Alloy'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:33",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "DEMICARB",
+      "notes": [
+        "Display 'DEMI CARB' is the nine-cell rendering of 'Demi-Carbonoid'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: DEMI CARB is displayed as DEMICARB within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:34",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TUONELA",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:35",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "WEEGERAR",
+      "notes": [
+        "Display 'WEEGER AR' is the nine-cell rendering of 'Weeger Armor'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: WEEGER AR is displayed as WEEGERAR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:36",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "STD ENG",
+      "notes": [
+        "Display 'STD ENG' is the nine-cell rendering of 'Normal Engine'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:3a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "JSENGINE",
+      "notes": [
+        "Display 'JS ENGINE' is the nine-cell rendering of 'J-S Engine'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: JS ENGINE is displayed as JSENGINE within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:3b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "ARGO V",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:3c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PLASMA",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:3d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "G ION",
+      "notes": [
+        "Display 'G ION' is the nine-cell rendering of 'G-Ion'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:3e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "NEGA J",
+      "notes": [
+        "Display 'NEGA J' is the nine-cell rendering of 'NEGA-J'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:3f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "MEGAPLAS",
+      "notes": [
+        "Display 'MEGA PLAS' is the nine-cell rendering of 'Mega Plasma'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: MEGA PLAS is displayed as MEGAPLAS within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:40",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HE JET",
+      "notes": [
+        "Display 'HE JET' is the nine-cell rendering of 'Helium Jet'; canonical English retains the full source name."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:41",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GIGAPLAS",
+      "notes": [
+        "Display 'GIGA PLAS' is the nine-cell rendering of 'Giga Plasma'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: GIGA PLAS is displayed as GIGAPLAS within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:42",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "APENGINE",
+      "notes": [
+        "Display 'AP ENGINE' is the nine-cell rendering of 'Antiproton Engine'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: AP ENGINE is displayed as APENGINE within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:43",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SLEIPNIR",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:44",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BURAJJI",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "Working phonetic reading remains provisional; see canonical term uncertainty."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:45",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FALCON",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:4a",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "PHOENIX",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:4b",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "FALCONII",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: FALCON II is displayed as FALCONII within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:4c",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SPHOENIX",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: S PHOENIX is displayed as SPHOENIX within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:4d",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "GURNARD",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:4e",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "KINGGURN",
+      "notes": [
+        "Display 'KING GURN' is the nine-cell rendering of 'King Gurnard'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: KING GURN is displayed as KINGGURN within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:4f",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "TASKBTLR",
+      "notes": [
+        "Display 'TASK BTLR' is the nine-cell rendering of 'Task Battler'; canonical English retains the full source name.",
+        "Working phonetic reading remains provisional; see canonical term uncertainty.",
+        "2026-09-24 icon-list width: TASK BTLR is displayed as TASKBTLR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:50",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "STINGRAY",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:51",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "AIRCAR",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:52",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "SNOWTANK",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: SNOW TANK is displayed as SNOWTANK within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:53",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "HELLBUST",
+      "notes": [
+        "Display 'HELL BUST' is the nine-cell rendering of 'Hell Buster'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: HELL BUST is displayed as HELLBUST within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:54",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "BTTLBUGY",
+      "notes": [
+        "Display 'BTTL BUGY' is the nine-cell rendering of 'Battle Buggy'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: BTTL BUGY is displayed as BTTLBUGY within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:55",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "LANDATKR",
+      "notes": [
+        "Display 'LAND ATKR' is the nine-cell rendering of 'Land Attacker'; canonical English retains the full source name.",
+        "2026-09-24 icon-list width: LAND ATKR is displayed as LANDATKR within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    },
+    {
+      "id": "r03-equipment:ship:56",
+      "basedOn": "a2c08ec96ce2afdb0dea880c0be4e7aa9cd3bbe412f0be02781e2a798ad13269",
+      "inGameEnglish": "JETHOVER",
+      "notes": [
+        "Full name retained; spacing compacted only where required by the nine-cell field.",
+        "2026-09-24 icon-list width: JET HOVER is displayed as JETHOVER within eight text cells; the category icon uses the remaining cell. Canonical name and numeric distinctions are unchanged."
+      ]
+    }
+  ]
+}

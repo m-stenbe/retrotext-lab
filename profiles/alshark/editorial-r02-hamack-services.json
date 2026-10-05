@@ -1,0 +1,1140 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Luna localization proposal, R02",
+  "scenes": [
+    {
+      "id": "hamack-shops-jobs-and-fortunes",
+      "records": [
+        "script:052000:022",
+        "script:052000:023",
+        "script:052000:025",
+        "script:052000:026",
+        "script:052000:027",
+        "script:052000:028",
+        "script:052000:029",
+        "script:052000:030",
+        "script:052000:031",
+        "script:052000:033",
+        "script:052000:034",
+        "script:052000:039",
+        "script:052000:040",
+        "script:052000:041",
+        "script:052000:046",
+        "script:052000:047",
+        "script:052000:048",
+        "script:052000:049",
+        "script:052000:050",
+        "script:052000:051",
+        "script:052000:052",
+        "script:052000:053",
+        "script:052000:054",
+        "script:052000:055",
+        "script:052000:056",
+        "script:052000:059",
+        "script:052000:060",
+        "script:052000:063",
+        "script:052000:065",
+        "script:052000:066",
+        "script:052000:067",
+        "script:052000:071",
+        "script:052000:074",
+        "script:052000:075",
+        "script:052000:076",
+        "script:052000:078",
+        "script:052000:079",
+        "script:052000:080"
+      ],
+      "participants": [
+        "Sion",
+        "Hamack residents",
+        "Hamack service workers"
+      ],
+      "location": "Hamack town, including the hotel, shops, bar counter, and street.",
+      "storyState": "The party is in Hamack gathering information; optional services and a delivery job are available before the spaceport lead.",
+      "purpose": "Translate directly reachable shop, hotel, drink, fortune, delivery job, and menu interactions.",
+      "previousContext": [
+        "The party reached Hamack while looking for Joe and information about Lucia."
+      ],
+      "followingContext": [
+        "The bar informant provides a possible spaceport/Mars lead; the optional job has its own branches."
+      ],
+      "branchAlternatives": [
+        "Records are independent service interactions or conditional job outcomes. The menu entries are selector labels, not spoken lines.",
+        "Fortune records 046–048 are randomized alternatives."
+      ],
+      "terminology": [
+        "place.hamack",
+        "place.hom",
+        "r02.r02-item.9c"
+      ],
+      "evidence": [
+        "Fresh source replay and RE-confirmed Hamack exterior objects; all listed objects are on the reachable town route."
+      ],
+      "uncertainty": [
+        "Fortune descriptions are impressions and may not establish objective character traits.",
+        "The item term is rendered canonically as canned food; UI display label may be abbreviated."
+      ],
+      "notes": [
+        "Only direct Hamack route service interactions are included."
+      ],
+      "reviewNote": "Read all entries with their map/branch context. Distinguish menu labels from dialogue, preserve the exact job delivery objective and fortune randomness, and keep hotel charges in credits."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:052000:022",
+      "sourceFingerprint": "e23c34c692393bad7b1343e491410b3fbdfa7e035a8ecbdef9cc7d48622d7767",
+      "canonicalEnglish": "Hamack Arms Shop\nYoung man, when you buy a weapon, you should stretch your budget a little and choose something good. So, what'll it be?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:023",
+      "sourceFingerprint": "18f98f267fa995f111615cc8458b4e2787f20775f54879e363e67f611a505c51",
+      "canonicalEnglish": "Hamack Item Shop\nWelcome! What can I get for you?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:025",
+      "sourceFingerprint": "5935b621b2241b74b05843dde271d3a2c084d71a793132411831d67f2bd4d3a4",
+      "canonicalEnglish": "Bartender: What can I get you to drink?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:026",
+      "sourceFingerprint": "740d4362d21cd5b4cbf6b5985b90b27b906e69be13056f5ced7cda9cb8e10a1a",
+      "canonicalEnglish": "Manager: The PT Hotel is cheap, clean, and safe. A room costs 10 credits. Will you be staying?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "PT Hotel is a proper name here; retain that source name."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:027",
+      "sourceFingerprint": "e5acc7787b0007f3ebab1b9f87aef305f4bf16a95fe16872a9e11d6838a95ed4",
+      "canonicalEnglish": "What else would you like?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:028",
+      "sourceFingerprint": "eea863a7ccd851637e6e6ea139c8563e9ae10691749ec92ee98ad28138fed442",
+      "canonicalEnglish": "Don't forget the Hamack Arms Shop!",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:029",
+      "sourceFingerprint": "f20027cfbd74bb09bdd791ed607e5ffee634a3c0ddb2238b8f70e1bbc0c4ceef",
+      "canonicalEnglish": "You'll need to earn some money before you can buy that!",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:030",
+      "sourceFingerprint": "deb5558c2218eea111838ed10cad9e62a3fc40d92289722004855ff43c873201",
+      "canonicalEnglish": "What else would you like?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:031",
+      "sourceFingerprint": "6e238ef2cd11bfe1a3345c8f838c03334566ec615c6d0c13149fc026ee7cc050",
+      "canonicalEnglish": "You just don't understand what an old man enjoys.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:033",
+      "sourceFingerprint": "c907f83f08d62228f6beef469f1895790d5d50b43a3aadd0b842a3f9462e9e0a",
+      "canonicalEnglish": "Keep up the good work!",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:034",
+      "sourceFingerprint": "5a5cbc2e8b22c94fe6a0aeca24fab63041bf2dc7fc562c85744fd84be2c83b41",
+      "canonicalEnglish": "Is there anything else you need?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:039",
+      "sourceFingerprint": "ec19dea47dda99842394987c573f6a17e19931a9c211453bf8d2727961f004d7",
+      "canonicalEnglish": "It looks like you don't have enough money...",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:040",
+      "sourceFingerprint": "3dc318781a2adb4966d250490feed29826486ab8ffd9831e3bd930ec9442e547",
+      "canonicalEnglish": "Whenever you need a room, stay at our hotel, with the best facilities and service on planet Hom.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:041",
+      "sourceFingerprint": "49bf62ce1809abad66ab47c191cf03708573d6ade1d47ac2ac74176f09cd1fb9",
+      "canonicalEnglish": "I'll show you to your room.\nYou spent the night at the hotel and fully recovered.\nWe look forward to seeing you again.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:046",
+      "sourceFingerprint": "e414541bc5c3ea112426fa913728cd5b7ad9a2c7f76d98ae95d0699512909b2a",
+      "canonicalEnglish": "You're kind at heart, but your temper seems surprisingly fierce.\nHmm...\nYou seem like the type to get absorbed in what you love.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:047",
+      "sourceFingerprint": "b41d0dff7a4aff818ca0bbd7b95b7e82a1e57c73b6773d654f547e26ccbf214b",
+      "canonicalEnglish": "You enjoy fun, but you do what’s right and won’t do anything underhanded.\nYou may seem detached, but deep down you might be stubborn.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:048",
+      "sourceFingerprint": "857601f89a373df50c6683b32995082458704975c73b1504a3460370592e7725",
+      "canonicalEnglish": "You're serious, dutiful, and substantial.\nYou're capable, but lack the flexibility to succeed anywhere.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:049",
+      "sourceFingerprint": "cbf156371ff913b5dddd9e542a5608edc6bfc9f6a54f66a219b30bdd33d753e7",
+      "canonicalEnglish": "It seems you don't have enough money...",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:050",
+      "sourceFingerprint": "6fced08c9af19ef9cfd790cc4da164b5df917eafbc0c1767b6b84093c62ac131",
+      "canonicalEnglish": "Please come by again anytime you need us.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:051",
+      "sourceFingerprint": "ee77f1309e6d7c7ff717ac075f48ec093f17ca5dfedcc2fea5fb1f39a6f67c16",
+      "canonicalEnglish": "Drinking alcohol is prohibited for minors.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:052",
+      "sourceFingerprint": "224e721c9b8e3f672e135a74085cff4c2fc198777a114305e9a4079f39b01ee7",
+      "canonicalEnglish": "That'll be 20 credits, please.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:053",
+      "sourceFingerprint": "0c5cd7d87340344a83ac2d0b6bc3cf18dfae3b30363384f8a9b1cf47426c9f66",
+      "canonicalEnglish": "Milk, huh? That'll be 10 credits.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:054",
+      "sourceFingerprint": "bb7063ec181135dc40db1feccb3bf3fe3c8d46068acf7fd0cabf29898780529f",
+      "canonicalEnglish": "It's still a business, after all.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:055",
+      "sourceFingerprint": "6b4e6f4b06d12703dda6952a7b2aa80a26d3250d596cbc865263d9ccb452f782",
+      "canonicalEnglish": "Gulp, gulp...\nJuice really is best\nfresh!",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:056",
+      "sourceFingerprint": "40b0450e5141b23549ae11f1110c16c03ddda12d6abb207129007c1fdf3edd8e",
+      "canonicalEnglish": "Glug, glug...\nMaybe I like milk.\n(Gurgle, gurgle...)\nUgh, my stomach...",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:059",
+      "sourceFingerprint": "94032d9b0fc0671709b00efabe5487240711dd8ac6937a1533a05f720cca0026",
+      "canonicalEnglish": "Busy, busy...",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:060",
+      "sourceFingerprint": "53eb7536df34677cd2f0ca8eaed7f67c147def28461e887fc1c32d6097fb7a20",
+      "canonicalEnglish": "I feel like we've been waiting here forever.\nShall we go, then?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:063",
+      "sourceFingerprint": "7f9e123ce67ef6db86db735b6156be9aa6a366223a89ea7fbf0988939cb818db",
+      "canonicalEnglish": "You're the new part-timer, right?\nThen let's get right to work.\nCould you deliver this canned food to the old woman's house in the north of town?\nDon't make any detours!",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "Canned Food is the canonical item name; any short shop/inventory display label is an adaptation only."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:065",
+      "sourceFingerprint": "54b67e0ac53d82a3f600a01d213fc24eb176c50b81be5764562f389a669300e1",
+      "canonicalEnglish": "Hey, what happened to the canned food?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "Canned Food is the canonical item name; any short shop/inventory display label is an adaptation only."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:066",
+      "sourceFingerprint": "918fa04c0349d69d7bf89e547f307f76bd187382b858dd314da4f0317e072f9f",
+      "canonicalEnglish": "Hurry and deliver it!",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:067",
+      "sourceFingerprint": "a3e9a59d04cfbb6b90f9475e979cfc249db4ab5bd0ee3c7c00d3ebe72526a3d7",
+      "canonicalEnglish": "Counter Girl [speaker label only]",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:071",
+      "sourceFingerprint": "85e3b371d31997e0544bb8800414fc5d96c9ec73b29964616940e43a3d782488",
+      "canonicalEnglish": "Keep it up!",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:074",
+      "sourceFingerprint": "99e940c297f2eb004b61a422088c5bea5a96f06d1d5350ca6e312e57392a1974",
+      "canonicalEnglish": "You didn't deliver the canned food, did you?",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "Canned Food is the canonical item name; any short shop/inventory display label is an adaptation only."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:075",
+      "sourceFingerprint": "f20596b055f218ce2b56574adc7dbcd5078670563fbcaa010f16b15252d04c8b",
+      "canonicalEnglish": "Thanks for delivering the canned food.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "Canned Food is the canonical item name; any short shop/inventory display label is an adaptation only."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:076",
+      "sourceFingerprint": "53864c6709273d8417219b4408c6c7ed1e996d47b094699f7e4460865da2d9a0",
+      "canonicalEnglish": "The world sure has become convenient.",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:078",
+      "sourceFingerprint": "0c0c4c10805f539f3514d8cfb7285b72718149a5b2432103b3b40b02233564df",
+      "canonicalEnglish": "Weapons\nArmor\nExit shop",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:079",
+      "sourceFingerprint": "f9a9ccaf0aa5a407a8a89a257716138c240faebaa00acdff7704b2defd943984",
+      "canonicalEnglish": "Buy tools\nExit shop",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:080",
+      "sourceFingerprint": "b1066fa5d9744e2c8f76f7979ca61b89d813cf6020ebc557cf88d3dfee4ba70f",
+      "canonicalEnglish": "Alcohol\nJuice\nMilk",
+      "context": {
+        "speaker": "Hamack service workers, residents, and fortune teller",
+        "listener": "Sion / player party",
+        "intent": "Optional Hamack shops, lodging, delivery job, and resident interactions.",
+        "tone": "Friendly service, casual resident speech, or dry fortune-telling.",
+        "terminology": [
+          "place.hamack",
+          "place.hom",
+          "r02.r02-item.9c"
+        ],
+        "uncertainty": [
+          "The fortune readings are playful impressions, not authoritative facts.",
+          "Menu text is canonical English; display labels must fit the audited UI allocation."
+        ],
+        "notes": [
+          "Independent optional map interactions and conditional job/merchant lines; not a linear conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r02-party-closure-and-remaining-labels"
+  ],
+  "records": [
+    {
+      "id": "script:053000:026",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t003": "TRY LATER."
+      },
+      "notes": [
+        "Condenses resignation and returning another time to the practical suggestion TRY LATER.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:053000:035",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t002": "MYUNTOS"
+      },
+      "notes": [
+        "Uses the provisional people name MYUNTOS as an NPC speaker heading; generic person is implicit.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:053000:036",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t002": "BARKEEP"
+      },
+      "notes": [
+        "BARKEEP is a natural gender-neutral short equivalent of Bartender.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:053000:037",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t002": "OUTLAW"
+      },
+      "notes": [
+        "Preserves the complete short reply and all immutable name insertions; measured as composed dialogue, not isolated strings.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:054000:035",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t003": "SNORRR... ZZZ.",
+        "t009": "MISTER!\n",
+        "t011": "!\nMISTEEER!",
+        "t017": "HUH...? MMPH.\nNO PAPER...",
+        "t023": "NO USE.\nHE WON'T WAKE\nTHAT EASILY."
+      },
+      "notes": [
+        "Preserves snoring, Sion’s repeated calls, uncertain sleepy newspaper refusal, and failure to wake Joe; no claim about an actual newspaper event.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:011",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t000": "THINKING ALONE\nGETS NOWHERE."
+      },
+      "notes": [
+        "First-person speaker is implicit in the brief complaint that thinking alone gets nowhere.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:012",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t000": "I TALK TO\nMYSELF MORE"
+      },
+      "notes": [
+        "The increase in self-talk remains; tentative guess and explicit lately are condensed in the tiny allocation.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:013",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t000": "WHO CAN I ASK?"
+      },
+      "notes": [
+        "Preserves the complete short reply and all immutable name insertions; measured as composed dialogue, not isolated strings.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:017",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t000": "FINISH WORK\nQUICKLY, THEN\nFIND ",
+        "t002": "."
+      },
+      "notes": [
+        "Preserves the complete short reply and all immutable name insertions; measured as composed dialogue, not isolated strings.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:018",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t001": "'S HARD TO\nAPPROACH, BUT\nINTERESTING."
+      },
+      "notes": [
+        "Preserves the complete short reply and all immutable name insertions; measured as composed dialogue, not isolated strings.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:019",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t005": ",\nWORK FAST.\nTHEN FIND ",
+        "t007": ".",
+        "t013": "YES, I KNOW."
+      },
+      "notes": [
+        "Preserves the complete short reply and all immutable name insertions; measured as composed dialogue, not isolated strings.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:020",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t005": " ASKS ",
+        "t007": "\nFOR UPGRADES",
+        "t013": "I'LL ",
+        "t015": "CUSTOMIZE",
+        "t017": "\nYOU TO THE\nLIMIT ANYTIME"
+      },
+      "notes": [
+        "Preserves Karu’s self-reference and request to Joe, and Joe’s promise of customization to the limit anytime; the highlighted verb is grammatical CUSTOMIZE.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:021",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t000": "IT SEEMS ",
+        "t002": "\nWENT TO PORT.\nNO IDEA WHY.",
+        "t008": "A MARS SHIP?\nREALLY?",
+        "t014": "WE'LL SEE\nTHERE."
+      },
+      "notes": [
+        "PORT is short for the previously established spaceport; keeps uncertainty about Lucia and the Mars ship and Joe’s proposed verification.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:022",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t001": "...\nWHY WOULD SHE\nHEAD TO MARS?"
+      },
+      "notes": [
+        "Preserves the complete short reply and all immutable name insertions; measured as composed dialogue, not isolated strings.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    },
+    {
+      "id": "script:082000:023",
+      "basedOn": "2fb698000c12d750f633e91d440af0df23cb993f0e126a607ebae979686ee90d",
+      "inGameEnglish": {
+        "t006": " SEEKS\n",
+        "t008": ".\nTO THE PORT."
+      },
+      "notes": [
+        "PORT abbreviates spaceport in the immediate lead context; preserves Karu seeking Lucia.",
+        "Manager technical fitting of Luna-authored, Sol-reviewed canonical English; independent adaptation QA pending."
+      ]
+    }
+  ]
+}

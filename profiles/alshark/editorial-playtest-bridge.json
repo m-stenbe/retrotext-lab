@@ -1,0 +1,64 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "Manager source/context review, September 24 playtest",
+  "scenes": [
+    {
+      "id": "playtest-seven-action-bridge",
+      "records": [
+        "ui:Opening:004478"
+      ],
+      "participants": [
+        "Player",
+        "Joe"
+      ],
+      "location": "Atraia bridge",
+      "storyState": "After the first station briefing; landed bridge variant.",
+      "purpose": "Translate the seven-action bridge menu reported during the clean R04 playthrough.",
+      "previousContext": [
+        "The first Zajil mission has been assigned."
+      ],
+      "followingContext": [
+        "Takeoff enters flight; further flight and mission content remains outside R04."
+      ],
+      "branchAlternatives": [
+        "Hangar, armaments, repairs, development, disassembly, land and takeoff."
+      ],
+      "terminology": [
+        "ship.atraia"
+      ],
+      "evidence": [
+        "2026-09-24 12:05:56 playtest; Opening table4033; Systemba43 menu handler and seven-way action dispatch."
+      ],
+      "uncertainty": [],
+      "notes": [],
+      "reviewNote": "Reviewed all seven Japanese action labels against the original table and parallel translated six-row menu. Preserve action order and distinguish land from takeoff."
+    }
+  ],
+  "records": [
+    {
+      "id": "ui:Opening:004478",
+      "sourceFingerprint": "4505980977820e76d74326ed6672dd72099c8557ff3a97bc6c4b732342a494cd",
+      "canonicalEnglish": "Hangar\nChange Armaments\nEmergency Repairs\nDevelop Weapons\nDisassemble Weapons\nLand\nTake Off",
+      "context": {
+        "speaker": "Bridge action menu",
+        "listener": "Player",
+        "intent": "Seven bridge actions in source order.",
+        "tone": "Concise interface text",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "GEAR and SCRAP retain the established six-row menu labels; canonical wording preserves the full actions."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

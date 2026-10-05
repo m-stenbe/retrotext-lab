@@ -1,0 +1,260 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "story-breakfast",
+    "story-young-man",
+    "story-war-news",
+    "story-old-man",
+    "story-pollution",
+    "story-lake-warning",
+    "story-karu-diagnostic",
+    "story-found-items"
+  ],
+  "records": [
+    {
+      "id": "script:051000:000",
+      "basedOn": "7c018e3c7b8221745689e02d3e95b06a341de35183e73527c6cf8e0d40fc92df",
+      "inGameEnglish": {
+        "t005": "FINISHED\nEATING, DEAR?",
+        "t012": "YES. ",
+        "t014": "\nAND THE OTHERS\nWILL STUDY THE\nMETEOR WITH ME",
+        "t020": "LUCKY YOU!\nI WANT TO SEE\nTHAT METEOR!",
+        "t026": "HEE HEE! NO,\n",
+        "t028": ". YOU'RE\nSTILL TOO\nYOUNG.",
+        "t034": "",
+        "t036": ", IF I'M\nOFF TOMORROW,\nSHALL WE VISIT\n",
+        "t038": "?",
+        "t045": "? UNCLE\n",
+        "t047": " IN DUST?",
+        "t053": "OH, ",
+        "t055": ", YOU\nREMEMBER HIM?\nYOU TWO OFTEN\nPLAYED.",
+        "t061": "OF COURSE! HE\nMADE ME TOYS\nOUT OF SCRAP!",
+        "t067": "I LIKE UNCLE\n",
+        "t069": "!",
+        "t075": "",
+        "t077": " WILL BE\nGLAD TO HEAR!",
+        "t079": "\nWELL, I'M OFF."
+      },
+      "notes": [
+        "Keeps all ten speaker turns, affectionate address, Uncle Joe, Mamon and others, and conditional day off. Omits yesterday timing, finally/rarity of day off, and the range of toys."
+      ]
+    },
+    {
+      "id": "script:051000:001",
+      "basedOn": "7c018e3c7b8221745689e02d3e95b06a341de35183e73527c6cf8e0d40fc92df",
+      "inGameEnglish": {
+        "t006": ",\nGO PLAY, BUT\nSTAY AWAY FROM\nTHE METEOR!"
+      },
+      "notes": [
+        "Reviewed from canonical permission and firm prohibition; imperative go play grants permission, and stay away retains the strong warning."
+      ]
+    },
+    {
+      "id": "script:051000:003",
+      "basedOn": "b1a28230758aed0f00f46e59a80342c62af9fefe332fe3843e44e0142406290f",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "HEY, ",
+        "t005": ".\n",
+        "t007": "SOME METEOR!",
+        "t010": [
+          "SEEMS DAD WENT\nWITH PENROSE",
+          "TO STUDY IT IN\nSAXEN CANYON."
+        ]
+      },
+      "notes": [
+        "Keeps tentative report, expedition purpose and Saxen Canyon. Omits last night timing, Dr. title and explicit additional expedition members; with Penrose does not assert they are alone."
+      ]
+    },
+    {
+      "id": "script:051000:004",
+      "basedOn": "ecaf5e6aacc26c06731c50d962ae2c07bf2ec389d9e951d36234636d5b1e481f",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": [
+          "I HEAR WYURIA\nAND ZOLIAS ARE\nAT WAR NOW.",
+          "DANGEROUS\nTIMES WE LIVE\nIN."
+        ]
+      },
+      "notes": [
+        "Retains reported news, outbreak and anxious reaction. Omits explicit finally and Kingdom and Empire political titles; working faction names remain provisional."
+      ]
+    },
+    {
+      "id": "script:051000:005",
+      "basedOn": "b4e3647962a6be316f235587bdd94ab2ec15fb7a009ef822bf4e5e290c90fc1a",
+      "inGameEnglish": {
+        "t001": "MAN"
+      },
+      "notes": [
+        "Original 23-byte dispatcher allocation cannot fit OLD MAN (25 bytes). MAN omits age without implying the formal community role suggested by ELDER."
+      ]
+    },
+    {
+      "id": "script:051000:006",
+      "basedOn": "6da16bfb61f33c6a84198ef93c075a1f73f4c211375b05389daddac9da631fa7",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": [
+          "HOM'S GREENER.\nBUT HAMACK TO\nTHE WEST HAS",
+          "RADIOACTIVE\nWASTE, I HEAR."
+        ],
+        "t006": [
+          "DUST'S WASTE\nSITE IS FULL\nOF GIGI.",
+          "THEY SAY THEY\nMUTATED AND\nGREW VICIOUS."
+        ]
+      },
+      "notes": [
+        "Preserves radioactive waste, western direction, greenery, hearsay, abundance and mutation causing viciousness. Omits development explanation and explicit contamination wording; hazardous waste in the area conveys the warning."
+      ]
+    },
+    {
+      "id": "script:051000:007",
+      "basedOn": "a7c34edb7c7c803de97a9c6a06c465de0803318967263457e944210d38dc0605",
+      "inGameEnglish": {
+        "t001": "YOUNG WOMAN",
+        "t003": [
+          "SO GREEN!\nI HEAR BIG\nBUGS",
+          "BREED BY THE\nLAKE. BEWARE!"
+        ]
+      },
+      "notes": [
+        "Keeps positive greenery reaction, large breeding insects, hearsay, lake and warning. Omits explicit recent increase and abundance; does not imply vegetation caused the insects."
+      ]
+    },
+    {
+      "id": "script:051000:010",
+      "basedOn": "da6471dcd58420e402172d3b7309d60868e142553ff802ff3595b2a798ce8b9d",
+      "inGameEnglish": {
+        "t007": [
+          ", PULSE\nAND SWEAT\nARE UP.",
+          "UP TO\nSOMETHING?"
+        ],
+        "t009": ""
+      },
+      "notes": [
+        "Measured diagnostic voice preserves both physiological observations and the suspicious question. Up conveys a relative increase; explicit usual baseline is omitted. Question moves into the second added page within t007; original wait and t009 token remain intact."
+      ]
+    },
+    {
+      "id": "script:051000:016",
+      "basedOn": "da6471dcd58420e402172d3b7309d60868e142553ff802ff3595b2a798ce8b9d",
+      "inGameEnglish": {
+        "t001": ", OK?"
+      },
+      "notes": [
+        "Retains a direct friendly question about Shoko rather than reducing it to a greeting. The tiny allocation requires the ordinary conversational OK."
+      ]
+    },
+    {
+      "id": "script:051000:017",
+      "basedOn": "b4e3647962a6be316f235587bdd94ab2ec15fb7a009ef822bf4e5e290c90fc1a",
+      "inGameEnglish": {
+        "t000": "SAY NO MORE.\nHERE, TAKE\nTHIS ",
+        "t002": "CAMP KIT",
+        "t004": "."
+      },
+      "notes": [
+        "Say no more conveys understanding without needing an explanation. Gift and friendly instruction retained."
+      ]
+    },
+    {
+      "id": "script:051000:018",
+      "basedOn": "b4e3647962a6be316f235587bdd94ab2ec15fb7a009ef822bf4e5e290c90fc1a",
+      "inGameEnglish": {
+        "t000": [
+          "SEEMS IT HIT\nTHE CANYON\nNORTH OF TOWN",
+          "NEVER IN MY\nYEARS ON HOM\nSEEN THE LIKE!"
+        ]
+      },
+      "notes": [
+        "Retains uncertain location, canyon north of town, long residence on Hom and unprecedented sight. Meteor is it in this contextual conversation."
+      ]
+    },
+    {
+      "id": "script:051000:020",
+      "basedOn": "b1a28230758aed0f00f46e59a80342c62af9fefe332fe3843e44e0142406290f",
+      "inGameEnglish": {
+        "t000": "YOU LOOK PALE.\nWHAT HAPPENED?"
+      },
+      "notes": [
+        "Concern conveyed through pale appearance and question; omits separate opening what is wrong."
+      ]
+    },
+    {
+      "id": "script:051000:034",
+      "basedOn": "9696f8a255d994054ae406e152f67db1e76384a6d7c3fc694d995a4d9a9b63c5",
+      "inGameEnglish": {
+        "t001": "SURVIVAL KNIFE\n"
+      },
+      "notes": [
+        "Full identifying weapon name retained.",
+        "2026-09-24 shared-call cursor fix: end the item line before #P records its new line origin. The FOUND helper must not start with another newline."
+      ]
+    },
+    {
+      "id": "script:051000:035",
+      "basedOn": "9696f8a255d994054ae406e152f67db1e76384a6d7c3fc694d995a4d9a9b63c5",
+      "inGameEnglish": {
+        "t001": "MEDS\n"
+      },
+      "notes": [
+        "Retains provisional existing MEDS display label for consistency; unresolved bible term does not establish whether this is loose medicine or a device.",
+        "2026-09-24 shared-call cursor fix: end the item line before #P records its new line origin. The FOUND helper must not start with another newline."
+      ]
+    },
+    {
+      "id": "script:051000:036",
+      "basedOn": "9696f8a255d994054ae406e152f67db1e76384a6d7c3fc694d995a4d9a9b63c5",
+      "inGameEnglish": {
+        "t002": "PROTECTOR\n"
+      },
+      "notes": [
+        "Retains provisional general equipment label; does not invent a specific armor piece.",
+        "2026-09-24 shared-call cursor fix: end the item line before #P records its new line origin. The FOUND helper must not start with another newline."
+      ]
+    },
+    {
+      "id": "script:051000:037",
+      "basedOn": "9696f8a255d994054ae406e152f67db1e76384a6d7c3fc694d995a4d9a9b63c5",
+      "inGameEnglish": {
+        "t001": "80 CREDITS\n"
+      },
+      "notes": [
+        "Keeps amount and currency together.",
+        "2026-09-24 shared-call cursor fix: end the item line before #P records its new line origin. The FOUND helper must not start with another newline."
+      ]
+    },
+    {
+      "id": "script:051000:041",
+      "basedOn": "9696f8a255d994054ae406e152f67db1e76384a6d7c3fc694d995a4d9a9b63c5",
+      "inGameEnglish": {
+        "t001": "FOUND"
+      },
+      "notes": [
+        "Shared suffix follows the item or amount. Each of the four callers advances the line before #P captures its line origin, so FOUND starts at the left edge without adding a second newline inside the helper. Canonical item-first meaning is unchanged."
+      ]
+    },
+    {
+      "id": "script:061000:019",
+      "basedOn": "9696f8a255d994054ae406e152f67db1e76384a6d7c3fc694d995a4d9a9b63c5",
+      "inGameEnglish": {
+        "t006": "!\nWHAT?!",
+        "t012": "TCH. CAUGHT!"
+      },
+      "notes": [
+        "Preserves parental challenge and irritated caught reaction. The very short shared-call allocation requires omitting the explicit words are you doing; Lucia challenges Sion directly in the pickup context."
+      ]
+    },
+    {
+      "id": "script:061000:021",
+      "basedOn": "9696f8a255d994054ae406e152f67db1e76384a6d7c3fc694d995a4d9a9b63c5",
+      "inGameEnglish": {
+        "t004": "I MUST ASK TO\nTAKE IT."
+      },
+      "notes": [
+        "Preserves permission requirement in natural first-person English. Ownership is implicit in needing permission."
+      ]
+    }
+  ]
+}

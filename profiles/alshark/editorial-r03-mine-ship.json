@@ -1,0 +1,355 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Astra R03 connected source editorial review",
+  "scenes": [
+    {
+      "id": "mine-party-conversations",
+      "records": [
+        "script:082000:024",
+        "script:07d000:032",
+        "script:07d000:033",
+        "script:07d000:034"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Karu"
+      ],
+      "location": "Hom route and abandoned mine",
+      "storyState": "After the spaceport ticket refusal; retrieve Joe's ship before using the cockpit controls.",
+      "purpose": "Cover the party menu alternatives available on the ship-retrieval route.",
+      "previousContext": [
+        "Joe offers his unfinished spacecraft, hidden in the mine north of Hamack."
+      ],
+      "followingContext": [
+        "Once the ship is named Atraia, the party can speak on the bridge; approaching the pilot controls begins the next rescue episode."
+      ],
+      "branchAlternatives": [
+        "Party talk records are conditional alternatives, not a linear exchange."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.karu",
+        "character.lucia",
+        "character.mamon",
+        "faction.zolias",
+        "place.mars",
+        "place.hamack",
+        "material.scrap"
+      ],
+      "evidence": [
+        "RE maps96–104 mine traversal, map104 lever and ship reveal; map1 bridge NPC triggers."
+      ],
+      "uncertainty": [
+        "Runtime traversal remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Reviewed source and connected English for mine directions, the reveal and name joke, conditional party responses and initial bridge roles."
+    },
+    {
+      "id": "mine-ship-reveal",
+      "records": [
+        "script:054000:001",
+        "script:054000:002",
+        "script:054000:028",
+        "script:054000:031"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Karu"
+      ],
+      "location": "Abandoned mine, hidden hangar",
+      "storyState": "After the spaceport ticket refusal; retrieve Joe's ship before using the cockpit controls.",
+      "purpose": "Cover the machinery, opening the secret door, ship reveal and complete naming conversation.",
+      "previousContext": [
+        "Joe offers his unfinished spacecraft, hidden in the mine north of Hamack."
+      ],
+      "followingContext": [
+        "Once the ship is named Atraia, the party can speak on the bridge; approaching the pilot controls begins the next rescue episode."
+      ],
+      "branchAlternatives": [
+        "Party talk records are conditional alternatives, not a linear exchange."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "ship.scrap_ii",
+        "ship.atraia"
+      ],
+      "evidence": [
+        "RE maps96–104 mine traversal, map104 lever and ship reveal; map1 bridge NPC triggers."
+      ],
+      "uncertainty": [
+        "Runtime traversal remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Reviewed source and connected English for mine directions, the reveal and name joke, conditional party responses and initial bridge roles."
+    },
+    {
+      "id": "atraia-first-bridge",
+      "records": [
+        "script:083000:001",
+        "script:083000:004",
+        "script:083000:005"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Karu"
+      ],
+      "location": "Atraia bridge",
+      "storyState": "After the spaceport ticket refusal; retrieve Joe's ship before using the cockpit controls.",
+      "purpose": "Cover the three initial bridge conversations before the pilot controls trigger the next episode.",
+      "previousContext": [
+        "Joe offers his unfinished spacecraft, hidden in the mine north of Hamack."
+      ],
+      "followingContext": [
+        "Once the ship is named Atraia, the party can speak on the bridge; approaching the pilot controls begins the next rescue episode."
+      ],
+      "branchAlternatives": [
+        "Party talk records are conditional alternatives, not a linear exchange."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.karu",
+        "ship.atraia"
+      ],
+      "evidence": [
+        "RE maps96–104 mine traversal, map104 lever and ship reveal; map1 bridge NPC triggers."
+      ],
+      "uncertainty": [
+        "Runtime traversal remains unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Reviewed source and connected English for mine directions, the reveal and name joke, conditional party responses and initial bridge roles."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:082000:024",
+      "sourceFingerprint": "64f017be8a8b58654d897d25a27359f8f8bbea544f0aad3dead20f19d0de74c7",
+      "canonicalEnglish": "Karu: Karu will go to Mars. Search for Lucia.\nJoe: Leave it to me, Karu. I’ll take you to Mars myself!",
+      "context": {
+        "speaker": "Karu / Joe",
+        "listener": "Sion and party",
+        "intent": "Karu will go to Mars. Search for Lucia.\nJoe: Leave it to me, Karu. I’ll take you to Mars myself!",
+        "tone": "Karu is direct; Joe reassuring",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07d000:032",
+      "sourceFingerprint": "9d5dbf8aa7c5dc1c76a5abb9f05f2821054a0589f22a2d3d85ba9b37e008db37",
+      "canonicalEnglish": "Joe: Zolias or whatever they call themselves—I’ll find out what that bastard Mamon is up to!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion and party",
+        "intent": "Zolias or whatever they call themselves—I’ll find out what that bastard Mamon is up to!",
+        "tone": "Angry",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07d000:033",
+      "sourceFingerprint": "1e210909d9f85bbdbd935ec720381c209a0bd2509b2b7213df1d3ae745f19ff7",
+      "canonicalEnglish": "Shoko: Father might be here, then...\nJoe: Depending on what we find, I won’t just stand by. Be ready for that, young lady.",
+      "context": {
+        "speaker": "Shoko / Joe",
+        "listener": "Sion and party",
+        "intent": "Father might be here, then...\nJoe: Depending on what we find, I won’t just stand by. Be ready for that, young lady.",
+        "tone": "Hopeful, followed by a stern warning",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07d000:034",
+      "sourceFingerprint": "7ff049e4bd78165af766dfe0af8845d07cfc295b9744911532f71dac5aa260f6",
+      "canonicalEnglish": "Joe: Sion, once you’ve flown in my spaceship, you’ll be hooked!\nShoko: But it’s made of scrap, isn’t it? Is it really safe...?\nJoe: Come on, young lady! A genius like me built her. She’s an incredible ship!\nShoko: Maybe there’s a hole in her somewhere.\nJoe: N-now, listen here...\nSion: All right, you two. So, where was it again?\nJoe: Hidden in the abandoned mine north of Hamack! Seeing is believing. Follow me and I’ll show you!",
+      "context": {
+        "speaker": "Joe / Shoko / Sion",
+        "listener": "Sion and party",
+        "intent": "Sion, once you’ve flown in my spaceship, you’ll be hooked!\nShoko: But it’s made of scrap, isn’t it? Is it really safe...?\nJoe: Come on, young lady! A genius like me built her. She’s an incredible ship!\nShoko: Maybe there’s a hole in her somewhere.\nJoe: N-now, listen here...\nSion: All right, you two. So, where was it again?\nJoe: Hidden in the abandoned mine north of Hamack! Seeing is believing. Follow me and I’ll show you!",
+        "tone": "Affectionate bickering and practical directions",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:001",
+      "sourceFingerprint": "0cd7483e850536dac960dfde2e523eb6486a907e1735486f3fd01f539d2358e0",
+      "canonicalEnglish": "Narration: Some kind of machinery is installed here, but Sion doesn’t know how to operate it.",
+      "context": {
+        "speaker": "Narration",
+        "listener": "Sion and party",
+        "intent": "Some kind of machinery is installed here, but Sion doesn’t know how to operate it.",
+        "tone": "Neutral",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "The fixed name and narration-mode tokens divide one composed sentence; no speaker header is added."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:002",
+      "sourceFingerprint": "ae42f55b2f6fb42c42dac51fc9494a79653721f84734a1245d8241001494c6f3",
+      "canonicalEnglish": "Joe: Now, don’t you two faint when you see this!\nNarration: Joe entered a code into the machine and pulled the lever.",
+      "context": {
+        "speaker": "Joe / narration",
+        "listener": "Sion and party",
+        "intent": "Now, don’t you two faint when you see this!\nNarration: Joe entered a code into the machine and pulled the lever.",
+        "tone": "Showman-like anticipation",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:028",
+      "sourceFingerprint": "adf8e6dadc43056e57db8284ba79750262f30d0d337a386a965ea36a830fe6de",
+      "canonicalEnglish": "Narration: The secret door is open.",
+      "context": {
+        "speaker": "Narration",
+        "listener": "Sion and party",
+        "intent": "The secret door is open.",
+        "tone": "Neutral",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:031",
+      "sourceFingerprint": "222a22a61fdf814d4983026a22fdf344a65febe61ca110266ab6812918df158b",
+      "canonicalEnglish": "Shoko: A-amazing!\nJoe: Allow me to introduce my darling boy: the Scrap II!\nShoko: How tacky!\nJoe: Tacky? I won’t have that, young lady! What’s tacky about my spaceship?\nShoko: I’m sorry. I think the ship is wonderful, but the name you chose is a little... Right, Sion?\nSion: ...W-well, yes.\nJoe: Honestly, the lot of you!\nJoe: You don’t like the name I gave her? Fine, I get it. Let’s see you come up with something you like!\nShoko: Let’s see... Ast... Atraia. How about Atraia?\nJoe: Atraia? ...That’s good, young lady. Not bad at all.\nJoe: Scrap II has more dignity, of course, but for your sake, young lady, we’ll call her Atraia this time!\nSion: Oh, brother...\nJoe: All right, then! Let’s get going!",
+      "context": {
+        "speaker": "Shoko / Joe / Sion",
+        "listener": "Sion and party",
+        "intent": "A-amazing!\nJoe: Allow me to introduce my darling boy: the Scrap II!\nShoko: What a tacky name!\nJoe: Tacky? I won’t have that, young lady! What’s tacky about my spaceship?\nShoko: I’m sorry. I think the ship is wonderful, but the name you chose is a little... Right, Sion?\nSion: ...W-well, yes.\nJoe: Honestly, the lot of you!\nJoe: You don’t like the name I gave her? Fine, I get it. Let’s see you come up with something you like!\nShoko: Let’s see... Ast... Atraia. How about Atraia?\nJoe: Atraia? ...That’s good, young lady. Not bad at all.\nJoe: Scrap II has more dignity, of course, but for your sake, young lady, we’ll call her Atraia this time!\nSion: Oh, brother...\nJoe: All right, then! Let’s get going!",
+        "tone": "Comic pride, polite teasing and reluctant concession",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "The ship is praised; Shoko mocks its name. Scrap II and Atraia are provisional names in the bible. Her false start Ast... is retained. Joe calls the ship his darling boy; later English ship pronouns follow conventional she."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:001",
+      "sourceFingerprint": "5c5391e930f57cb2ddb02c2461b9075e0f4599e0ff3176bd5806b9f04eed33cb",
+      "canonicalEnglish": "Shoko: Leave the navigation to me! But with Karu as your copilot, you’ll have to keep your wits about you. Good luck, Sion!",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Sion and party",
+        "intent": "Leave the navigation to me! But with Karu as your copilot, you’ll have to keep your wits about you. Good luck, Sion!",
+        "tone": "Confident, teasing encouragement",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:004",
+      "sourceFingerprint": "681ff917a3e66e0d9b5c6f30cba17e65fbdb90aaf957be291a1b0e75f9dad7d3",
+      "canonicalEnglish": "Joe: Anyway, I don’t need to teach you how to fly Atraia myself. Even a child could handle her, so don’t worry!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Sion and party",
+        "intent": "Anyway, I don’t need to teach you how to fly Atraia myself. Even a child could handle her, so don’t worry!",
+        "tone": "Bluff reassurance",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:083000:005",
+      "sourceFingerprint": "e50dab2978f37e0c59a75280f2a16b864c0afc495bec1d2f55197ea918957404",
+      "canonicalEnglish": "Karu: Sion, from today on, you’re Atraia’s pilot. Karu will do his best, too.",
+      "context": {
+        "speaker": "Karu",
+        "listener": "Sion and party",
+        "intent": "Sion, from today on, you’re Atraia’s pilot. Karu will do his best, too.",
+        "tone": "Earnest",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

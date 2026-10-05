@@ -1,0 +1,70 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "hamack-uncle-and-fortune"
+  ],
+  "records": [
+    {
+      "id": "script:052000:008",
+      "basedOn": "53b884f78d4e9b88ac2d1239f1e92a0369f66d15cc7e5bf568fbd629af48bf25",
+      "inGameEnglish": {
+        "t001": "GIRL"
+      },
+      "notes": [
+        "GIRL uses the reviewed R02 allocation shift: entry 008 gains two bytes from entry 009's verified zero padding, and only entry 009's bank-relative pointer moves. The #B/#G commands remain byte-identical."
+      ]
+    },
+    {
+      "id": "script:052000:012",
+      "basedOn": "53b884f78d4e9b88ac2d1239f1e92a0369f66d15cc7e5bf568fbd629af48bf25",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t004": "INTO PALM\nREADING NOW.",
+        "t006": "\nWANT YOUR\nFORTUNE?"
+      },
+      "notes": [
+        "The conversational fragment keeps her recent interest in palm reading and an offer to tell the listener’s fortune; the source wait does not clear the page."
+      ]
+    },
+    {
+      "id": "script:052000:021",
+      "basedOn": "53b884f78d4e9b88ac2d1239f1e92a0369f66d15cc7e5bf568fbd629af48bf25",
+      "inGameEnglish": {
+        "t001": "MAN"
+      },
+      "notes": [
+        "Header-only entry; its immutable #U randomly selects all three following remarks."
+      ]
+    },
+    {
+      "id": "script:052000:035",
+      "basedOn": "53b884f78d4e9b88ac2d1239f1e92a0369f66d15cc7e5bf568fbd629af48bf25",
+      "inGameEnglish": {
+        "t000": "LAP THE POND."
+      },
+      "notes": [
+        "“Lap” conveys going once around the pond, in the man’s brisk imperative voice."
+      ]
+    },
+    {
+      "id": "script:052000:036",
+      "basedOn": "53b884f78d4e9b88ac2d1239f1e92a0369f66d15cc7e5bf568fbd629af48bf25",
+      "inGameEnglish": {
+        "t000": "HOW MANY\nSTREETLIGHTS?"
+      },
+      "notes": [
+        "The town is implicit from this Hamack encounter; keeps the streetlight-count question."
+      ]
+    },
+    {
+      "id": "script:052000:037",
+      "basedOn": "53b884f78d4e9b88ac2d1239f1e92a0369f66d15cc7e5bf568fbd629af48bf25",
+      "inGameEnglish": {
+        "t000": "LEVEL UP MORE."
+      },
+      "notes": [
+        "Keeps the admonition to gain more levels without inventing a numeric threshold."
+      ]
+    }
+  ]
+}

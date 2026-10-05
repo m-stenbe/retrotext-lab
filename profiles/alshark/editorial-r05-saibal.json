@@ -1,0 +1,1328 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R05 source and connected-scene editorial review",
+  "scenes": [
+    {
+      "id": "saibal-streets",
+      "records": [
+        "script:05b000:002",
+        "script:05b000:003",
+        "script:05b000:004",
+        "script:05b000:007",
+        "script:05b000:008",
+        "script:05b000:009",
+        "script:05b000:010",
+        "script:05b000:011",
+        "script:05b000:013",
+        "script:05b000:014",
+        "script:05b000:038",
+        "script:05b000:043"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Saibal residents and staff"
+      ],
+      "location": "Saibal on Zajil",
+      "storyState": "After the CS Station briefing flag16; before syndicate victory flag19.",
+      "purpose": "Saibal street conversations",
+      "previousContext": [
+        "Welda and the party have orders to investigate the Karilas syndicate and its leader Tomyu."
+      ],
+      "followingContext": [
+        "Interrogation sets flag17; the subsequent hotel stay triggers Shoko disappearing and the letter directing the party to Porkin."
+      ],
+      "branchAlternatives": [
+        "Street and service interactions are player-selected alternatives, not a continuous conversation in offset order.",
+        "018 repeats via037 after flag17; the man003 responds via038 after17; the Kidun question011 continues through043.",
+        "Hotel includes payment refusal, cancellation, ordinary stay and the flag17 kidnapping branch. The later flag26 Shoko wake-up036 is excluded."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "place.saibal",
+        "place.zajil",
+        "faction.chausnomyu",
+        "faction.karilas",
+        "character.tomyu",
+        "drug.kidun",
+        "currency.credits",
+        "material.scrap",
+        "place.porkin"
+      ],
+      "evidence": [
+        "RE map9 departure exit targets map53; map53 uses05b000.",
+        "Initial guard015 dispatches034 battle; interaction018 sets17; hotel021 dispatches035 on17 and sets18."
+      ],
+      "uncertainty": [
+        "Porkin is a provisional source-based spelling, not an official romanization.",
+        "Runtime traversal and the exact displayed layout of the ransom letter remain to be checked."
+      ],
+      "notes": [
+        "Shared headers and immutable character names stay in their original command positions."
+      ],
+      "reviewNote": "Read the complete source and connected English scenes, including street reactions, shop outcomes, entrance threat, interrogation and kidnapping. Preserve the drug users denial, Welda’s coercive claim of lawful violence, the kidnappers mock politeness and the party’s alarm. Branch alternatives remain separate; no unstated kinship or unseen events added."
+    },
+    {
+      "id": "saibal-shops-and-hotel",
+      "records": [
+        "script:05b000:000",
+        "script:05b000:001",
+        "script:05b000:005",
+        "script:05b000:006",
+        "script:05b000:012",
+        "script:05b000:019",
+        "script:05b000:020",
+        "script:05b000:021",
+        "script:05b000:022",
+        "script:05b000:023",
+        "script:05b000:024",
+        "script:05b000:025",
+        "script:05b000:026",
+        "script:05b000:027",
+        "script:05b000:028",
+        "script:05b000:029",
+        "script:05b000:030",
+        "script:05b000:031",
+        "script:05b000:032",
+        "script:05b000:033"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Saibal residents and staff"
+      ],
+      "location": "Saibal on Zajil",
+      "storyState": "After the CS Station briefing flag16; before syndicate victory flag19.",
+      "purpose": "Saibal shops and ordinary hotel stays",
+      "previousContext": [
+        "Welda and the party have orders to investigate the Karilas syndicate and its leader Tomyu."
+      ],
+      "followingContext": [
+        "Interrogation sets flag17; the subsequent hotel stay triggers Shoko disappearing and the letter directing the party to Porkin."
+      ],
+      "branchAlternatives": [
+        "Street and service interactions are player-selected alternatives, not a continuous conversation in offset order.",
+        "018 repeats via037 after flag17; the man003 responds via038 after17; the Kidun question011 continues through043.",
+        "Hotel includes payment refusal, cancellation, ordinary stay and the flag17 kidnapping branch. The later flag26 Shoko wake-up036 is excluded."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "place.saibal",
+        "place.zajil",
+        "faction.chausnomyu",
+        "faction.karilas",
+        "character.tomyu",
+        "drug.kidun",
+        "currency.credits",
+        "material.scrap",
+        "place.porkin"
+      ],
+      "evidence": [
+        "RE map9 departure exit targets map53; map53 uses05b000.",
+        "Initial guard015 dispatches034 battle; interaction018 sets17; hotel021 dispatches035 on17 and sets18."
+      ],
+      "uncertainty": [
+        "Porkin is a provisional source-based spelling, not an official romanization.",
+        "Runtime traversal and the exact displayed layout of the ransom letter remain to be checked."
+      ],
+      "notes": [
+        "Shared headers and immutable character names stay in their original command positions."
+      ],
+      "reviewNote": "Read the complete source and connected English scenes, including street reactions, shop outcomes, entrance threat, interrogation and kidnapping. Preserve the drug users denial, Welda’s coercive claim of lawful violence, the kidnappers mock politeness and the party’s alarm. Branch alternatives remain separate; no unstated kinship or unseen events added."
+    },
+    {
+      "id": "saibal-syndicate-confrontation",
+      "records": [
+        "script:05b000:015",
+        "script:05b000:017",
+        "script:05b000:034",
+        "script:05b000:018",
+        "script:05b000:037"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Saibal residents and staff"
+      ],
+      "location": "Saibal on Zajil",
+      "storyState": "After the CS Station briefing flag16; before syndicate victory flag19.",
+      "purpose": "Syndicate entrance battle and interrogation",
+      "previousContext": [
+        "Welda and the party have orders to investigate the Karilas syndicate and its leader Tomyu."
+      ],
+      "followingContext": [
+        "Interrogation sets flag17; the subsequent hotel stay triggers Shoko disappearing and the letter directing the party to Porkin."
+      ],
+      "branchAlternatives": [
+        "Street and service interactions are player-selected alternatives, not a continuous conversation in offset order.",
+        "018 repeats via037 after flag17; the man003 responds via038 after17; the Kidun question011 continues through043.",
+        "Hotel includes payment refusal, cancellation, ordinary stay and the flag17 kidnapping branch. The later flag26 Shoko wake-up036 is excluded."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "place.saibal",
+        "place.zajil",
+        "faction.chausnomyu",
+        "faction.karilas",
+        "character.tomyu",
+        "drug.kidun",
+        "currency.credits",
+        "material.scrap",
+        "place.porkin"
+      ],
+      "evidence": [
+        "RE map9 departure exit targets map53; map53 uses05b000.",
+        "Initial guard015 dispatches034 battle; interaction018 sets17; hotel021 dispatches035 on17 and sets18."
+      ],
+      "uncertainty": [
+        "Porkin is a provisional source-based spelling, not an official romanization.",
+        "Runtime traversal and the exact displayed layout of the ransom letter remain to be checked."
+      ],
+      "notes": [
+        "Shared headers and immutable character names stay in their original command positions."
+      ],
+      "reviewNote": "Read the complete source and connected English scenes, including street reactions, shop outcomes, entrance threat, interrogation and kidnapping. Preserve the drug users denial, Welda’s coercive claim of lawful violence, the kidnappers mock politeness and the party’s alarm. Branch alternatives remain separate; no unstated kinship or unseen events added."
+    },
+    {
+      "id": "saibal-hotel-kidnapping",
+      "records": [
+        "script:05b000:035"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Saibal residents and staff"
+      ],
+      "location": "Saibal on Zajil",
+      "storyState": "After the CS Station briefing flag16; before syndicate victory flag19.",
+      "purpose": "The kidnapping letter and Porkin lead",
+      "previousContext": [
+        "Welda and the party have orders to investigate the Karilas syndicate and its leader Tomyu."
+      ],
+      "followingContext": [
+        "Interrogation sets flag17; the subsequent hotel stay triggers Shoko disappearing and the letter directing the party to Porkin."
+      ],
+      "branchAlternatives": [
+        "Street and service interactions are player-selected alternatives, not a continuous conversation in offset order.",
+        "018 repeats via037 after flag17; the man003 responds via038 after17; the Kidun question011 continues through043.",
+        "Hotel includes payment refusal, cancellation, ordinary stay and the flag17 kidnapping branch. The later flag26 Shoko wake-up036 is excluded."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "place.saibal",
+        "place.zajil",
+        "faction.chausnomyu",
+        "faction.karilas",
+        "character.tomyu",
+        "drug.kidun",
+        "currency.credits",
+        "material.scrap",
+        "place.porkin"
+      ],
+      "evidence": [
+        "RE map9 departure exit targets map53; map53 uses05b000.",
+        "Initial guard015 dispatches034 battle; interaction018 sets17; hotel021 dispatches035 on17 and sets18."
+      ],
+      "uncertainty": [
+        "Porkin is a provisional source-based spelling, not an official romanization.",
+        "Runtime traversal and the exact displayed layout of the ransom letter remain to be checked."
+      ],
+      "notes": [
+        "Shared headers and immutable character names stay in their original command positions."
+      ],
+      "reviewNote": "Read the complete source and connected English scenes, including street reactions, shop outcomes, entrance threat, interrogation and kidnapping. Preserve the drug users denial, Welda’s coercive claim of lawful violence, the kidnappers mock politeness and the party’s alarm. Branch alternatives remain separate; no unstated kinship or unseen events added."
+    },
+    {
+      "id": "saibal-underground-bar",
+      "records": [
+        "script:053000:029",
+        "script:053000:030",
+        "script:053000:031",
+        "script:053000:032",
+        "script:053000:033",
+        "script:053000:034",
+        "script:053000:038"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Saibal residents and staff"
+      ],
+      "location": "Saibal on Zajil",
+      "storyState": "After the CS Station briefing flag16; before syndicate victory flag19.",
+      "purpose": "Kidun inquiries in Saibal underground bar",
+      "previousContext": [
+        "Welda and the party have orders to investigate the Karilas syndicate and its leader Tomyu."
+      ],
+      "followingContext": [
+        "Interrogation sets flag17; the subsequent hotel stay triggers Shoko disappearing and the letter directing the party to Porkin."
+      ],
+      "branchAlternatives": [
+        "The bar lead033 becomes038 after flag17.",
+        "Party entries003/004/005 are post-interrogation alternatives;006/007 react after kidnapping flag18. The initial speaker is supplied by the calling party header, not guessed from adjacency."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "place.saibal",
+        "place.zajil",
+        "faction.chausnomyu",
+        "faction.karilas",
+        "character.tomyu",
+        "drug.kidun",
+        "currency.credits",
+        "material.scrap",
+        "place.porkin"
+      ],
+      "evidence": [
+        "RE traced map2 Saibal bar roots029–034 and source branches.",
+        "RE traced party081000003–007 in initial Saibal interval."
+      ],
+      "uncertainty": [
+        "Porkin is a provisional source-based spelling, not an official romanization.",
+        "Runtime traversal and the exact displayed layout of the ransom letter remain to be checked."
+      ],
+      "notes": [
+        "Shared headers and immutable character names stay in their original command positions."
+      ],
+      "reviewNote": "Read Japanese and the complete English exchanges continuously. Preserve the bar patrons evasiveness and hostility, Shoko’s praise and peacekeeping, Joe’s wounded pride, Welda’s crude threats and Sion’s insistence that rescue comes first. Her threat is an angry intention, not narration of an event."
+    },
+    {
+      "id": "saibal-party-reactions",
+      "records": [
+        "script:081000:003",
+        "script:081000:004",
+        "script:081000:005",
+        "script:081000:006",
+        "script:081000:007"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Saibal residents and staff"
+      ],
+      "location": "Saibal on Zajil",
+      "storyState": "After the CS Station briefing flag16; before syndicate victory flag19.",
+      "purpose": "Party reactions to the interrogation and kidnapping",
+      "previousContext": [
+        "Welda and the party have orders to investigate the Karilas syndicate and its leader Tomyu."
+      ],
+      "followingContext": [
+        "Interrogation sets flag17; the subsequent hotel stay triggers Shoko disappearing and the letter directing the party to Porkin."
+      ],
+      "branchAlternatives": [
+        "The bar lead033 becomes038 after flag17.",
+        "Party entries003/004/005 are post-interrogation alternatives;006/007 react after kidnapping flag18. The initial speaker is supplied by the calling party header, not guessed from adjacency."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "place.saibal",
+        "place.zajil",
+        "faction.chausnomyu",
+        "faction.karilas",
+        "character.tomyu",
+        "drug.kidun",
+        "currency.credits",
+        "material.scrap",
+        "place.porkin"
+      ],
+      "evidence": [
+        "RE traced map2 Saibal bar roots029–034 and source branches.",
+        "RE traced party081000003–007 in initial Saibal interval."
+      ],
+      "uncertainty": [
+        "Porkin is a provisional source-based spelling, not an official romanization.",
+        "Runtime traversal and the exact displayed layout of the ransom letter remain to be checked."
+      ],
+      "notes": [
+        "Shared headers and immutable character names stay in their original command positions."
+      ],
+      "reviewNote": "Read Japanese and the complete English exchanges continuously. Preserve the bar patrons evasiveness and hostility, Shoko’s praise and peacekeeping, Joe’s wounded pride, Welda’s crude threats and Sion’s insistence that rescue comes first. Her threat is an angry intention, not narration of an event."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05b000:000",
+      "sourceFingerprint": "d8781437c3193a425e730adc3439d3d5ac1807d26ab1b449108c2737965fb9f3",
+      "canonicalEnglish": "PT Hotel in Zajil: A night here is 20 credits. Would you like a room?",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:001",
+      "sourceFingerprint": "3fe4b677382eb29051e891bb75e6eb027501b4abbe75f91a57456fc1a6ba6f91",
+      "canonicalEnglish": "Item Shop: Welcome! What can I get you?",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:002",
+      "sourceFingerprint": "96b969eca64b40d158b2d2955aa6e7be080b4fd8a83a2de2ef8624f76e35b2b4",
+      "canonicalEnglish": "Clerk: Welcome. Please go to the counter to make a purchase.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:003",
+      "sourceFingerprint": "30cddffefa26612b020c70358efbb04dd5d145e17331186be85c30bb01e4db95",
+      "canonicalEnglish": "Man: This used to be such a nice town here on Zajil. But ever since that bunch arrived, it's been one thing after another.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:004",
+      "sourceFingerprint": "c231cb499c09d2bcea0d561fe23cacade67b7de7af6a42ee16c9afc2aa74c077",
+      "canonicalEnglish": "Outlaw: What do you lot want?\nGovernment dogs! Watch your backs. Someone might slit your throats in your sleep.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:005",
+      "sourceFingerprint": "132b8abdd360874886e4078130143bc1e89ad1c5a2a614e55064ff739893e405",
+      "canonicalEnglish": "Scrappers: Hey, hey, hey, hey! If you want scrap, take as much as you like!",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:006",
+      "sourceFingerprint": "dd8eafcb4d73412607200939b182c815d7c428072e4e9915307c00781593d7b3",
+      "canonicalEnglish": "Weapons Dealer: Wait till you see what I've got for sale!!",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:007",
+      "sourceFingerprint": "bcdf040213cd561bd4a2eacb9acac3a918e1d9b42e6aef2d5b6920e4e8cb8148",
+      "canonicalEnglish": "Woman: I've never been so disappointed on a sightseeing trip. Everyone on this planet goes on and on about drugs. What are they thinking...?",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:008",
+      "sourceFingerprint": "136fde66c19a572557cca5275ba044198b2552b1e75f7b82105053cb97d51b8b",
+      "canonicalEnglish": "Young Man: Don't cross the syndicate. They always get even.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:009",
+      "sourceFingerprint": "1a9dbd90ca14a781a746df0f03ad6197d36369a6a43b0bc3a090df16e7e8eb4f",
+      "canonicalEnglish": "Girl: Follow the lake south, then go a little way east. You'll reach the town of Porkin.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:010",
+      "sourceFingerprint": "b012186f88a0f4af506f85269c4e1c00fee3e7c468b85c76e6d00af491dfb5d3",
+      "canonicalEnglish": "Myuntos: The gun in my right arm's getting worn out. I'm thinking of buying a replacement.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:011",
+      "sourceFingerprint": "e41622d4854b4f1cfa5396d74fd611deb156e18aa2fb7cb61367d08b4c234091",
+      "canonicalEnglish": "Young Man: If it's Kidun you're after, I think you can get it at the underground bar.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:012",
+      "sourceFingerprint": "b54aeaad69b6df47537d5051a3de1ee7bc599130eaf8b02b4c400126f441e85b",
+      "canonicalEnglish": "Defender: If you don't want to die, get yourself some good armor! That's the way to do it.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:013",
+      "sourceFingerprint": "b65914bf03caef9bf48fcfa532045901ab0bc9b4bd1b4e37b55b42cb218f0cd5",
+      "canonicalEnglish": "Woman: The syndicate set up its headquarters next door... It's been nothing but trouble, but the Federation government won't do anything for us.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:014",
+      "sourceFingerprint": "5da7bb36415774aeb3eeb96d8722b40390f745e92a885f539e0213bfd777de95",
+      "canonicalEnglish": "Man: Hey, you're with Chausnomyu, aren't you? Then hurry up and throw that bunch out!",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:015",
+      "sourceFingerprint": "9d3edc5a51e66f909b240aec240c51b8d2e32b262628b5dd46632d8b85356071",
+      "canonicalEnglish": "Syndicate Member: Shut up! I haven't got time for you lot.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:017",
+      "sourceFingerprint": "c6a4690520579fdcb389ec058412cd0ca3c724895963c88b81bf7108fb2485c2",
+      "canonicalEnglish": "Speaker label: Syndicate Member.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:018",
+      "sourceFingerprint": "8f8364df38d9f51915327d108aa765cf65e35f8d7c1363710fa672b93b8eb411",
+      "canonicalEnglish": "Syndicate Member: W-what the hell is this? You think you can do this and get away with it?!\nWelda: Take me to your boss, Tomyu!\nSyndicate Member: Don't be stupid! Like I'd take you to...\nWelda: Looks like you won't understand until I hurt you a little.\nWelda: I could break an arm or two on you maggots and still be well within the law.\nSyndicate Member: W-wait a minute! The boss isn't here. He's off the planet on business.\nJoe: Then where is he?!!\nSyndicate Member: We small fry don't know. It's true! Believe me!\nWelda: Tch. Nothing for it, then.\nWelda: When he gets back, tell him his days are numbered.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:019",
+      "sourceFingerprint": "1fd84db7dd1b1f3b2c7994bbb311dd5a7f95705fed9615d677f8a70e59d6015f",
+      "canonicalEnglish": "Hotel Clerk: Have a good day.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:020",
+      "sourceFingerprint": "10b2d6e2618665fe4f19ebcb4db1852cfaf8ad4a6289d1e58adc420bbcf6d9ce",
+      "canonicalEnglish": "Hotel Clerk: Please stay with us whenever you like.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:021",
+      "sourceFingerprint": "5e2a48a0350b54d68d47fdad2982a07ced9dffcafb804a362a1e7523fd014de3",
+      "canonicalEnglish": "Hotel Clerk: Please check out by ten o'clock.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:022",
+      "sourceFingerprint": "b084904e052343fc24bd167632b48c895389bb5248cdd3a72c1621e60381a29c",
+      "canonicalEnglish": "Hotel Clerk: I'm sorry, but we can't accommodate guests who haven't the money.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:023",
+      "sourceFingerprint": "8d72e2db3df5b99d2db9f516f8ceac67fbbc2aff5b865dae664520232659a100",
+      "canonicalEnglish": "Buy tools\nLeave shop",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:024",
+      "sourceFingerprint": "a159f25fb5f66b8b1294b57c921e237bd3bfbe5df2e72d23a790cc1bd23604f4",
+      "canonicalEnglish": "Item Shop: Is there anything else you need?",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:025",
+      "sourceFingerprint": "ea74afe7b9388f18cdfb2e9f880a8c36e9868cc98ef2dbb3d921d0c23088892e",
+      "canonicalEnglish": "Item Shop: Thank you very much.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:026",
+      "sourceFingerprint": "883d5fe0555737c615e28311150714f9d36f6215f3b4deb686fbcccbfa866d88",
+      "canonicalEnglish": "Buy weapons\nLeave shop",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:027",
+      "sourceFingerprint": "8777917679b75bbd03fb0226a81c9ba9fab68d90c869fd612ce266a51b21c1e1",
+      "canonicalEnglish": "Weapons Dealer: How about something else?",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:028",
+      "sourceFingerprint": "6d483877ead21e2b89b2bd9ea8297417f5ee0a698d84efdda8393d0c3d2ee5ce",
+      "canonicalEnglish": "Weapons Dealer: Come back anytime.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:029",
+      "sourceFingerprint": "002f6cc158d9bf70a83c9cf843f4c26b22edb33cfb2e0235623be15b3a38e696",
+      "canonicalEnglish": "Weapons Dealer: Hey, come back with some money, will you?",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:030",
+      "sourceFingerprint": "b270e036cc6be530d04611534ae2ce8c108648311b09a5f27eeb484e4403b86e",
+      "canonicalEnglish": "Buy armor\nLeave shop",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:031",
+      "sourceFingerprint": "b9c2d853d22df760a1f664adea37a78a6a65bc2f81e76b2838d1114b7da781cc",
+      "canonicalEnglish": "Defender: Do you need anything else?",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:032",
+      "sourceFingerprint": "8471d7f5dd3a1b0bc7fe3cdfdc7e0a0f8ef495ed8eb55e95d974c856e7dffa7a",
+      "canonicalEnglish": "Defender: Drop by again whenever you feel like it.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:033",
+      "sourceFingerprint": "3840c782e3b1a2613455456a41717658b9ba5afa366bfbcee609cac8390d8dc0",
+      "canonicalEnglish": "Defender: What?! You don't have any money? Oh, give me a break!",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:034",
+      "sourceFingerprint": "5511ea3aeacf9f9bd0d7635429d2af82400eb10eca006b7c6119c8b4dfb5d03a",
+      "canonicalEnglish": "Welda: Chausnomyu. You're going to let us through.\nSyndicate Member: Don't screw with us!! We'll kill you!!\n[A battle begins.]",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:035",
+      "sourceFingerprint": "15d8632257d664ebdcd6cd90c4115d3512fdfd82558c76dd13749f7750f713b9",
+      "canonicalEnglish": "Joe: Hey, Sion! Wake up!! Something terrible's happened!\nSion: Mm... Uncle Joe? What's the matter?\nJoe: What do you mean, what's the matter?! The girl's gone missing!!\nSion: What?!\nWelda: Tch. Now we're in trouble. Read this.\n[Letter]\nTo our friends in Chausnomyu,\nWelcome to Zajil.\nAll your noisy activities have become quite a nuisance, so we've taken the young lady into our care.\nThere are a few things we'd very much like to discuss. Please come to the town of Porkin.\nIf you care about the girl, don't try anything foolish.\n[End of letter]\nSion: Sh-Shoko's been kidnapped?!\nWelda: That's about the size of it.\nJoe: No choice, then. Looks like we'll have to go to Porkin.",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:037",
+      "sourceFingerprint": "ab308667037fce253e9f56443c4def0d0c63deec21980cef23181dfcd71dc36b",
+      "canonicalEnglish": "Syndicate Member: D-do you still want something?",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:038",
+      "sourceFingerprint": "136a4a66e82e8d77b6212ca073a65b302f251c7ab1915f6477edf69aad3365a5",
+      "canonicalEnglish": "Man: Well, now! That's more like it. Keep up the good work!",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:043",
+      "sourceFingerprint": "bd46935f487d2746112beab9e295d2330d8a15247be354a4b6250bdc26194e59",
+      "canonicalEnglish": "Young Man: What?! I-I've never touched the stuff!",
+      "context": {
+        "speaker": "As identified in canonical scene; shared header for continuations",
+        "listener": "Party / present characters",
+        "intent": "Initial Saibal investigation and available local interactions",
+        "tone": "Context-specific: wary residents, blunt intimidation, alarm and mock politeness",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:029",
+      "sourceFingerprint": "858fab972402d649cc2464589caaa01e9f5e71db0740ae36ee9a29bcccba40f7",
+      "canonicalEnglish": "Bartender: What do you want? This isn't a place for your sort! Get out.",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:030",
+      "sourceFingerprint": "bddfc414a78c81a2473179cc7bf5c160c69dc44b9ccfcabca56a98e5844d8819",
+      "canonicalEnglish": "Man: Huh? I don't know anything about Kidun.",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:031",
+      "sourceFingerprint": "5b4df8bf50ca782772527e4b4a414008cbf5665f83af949290ad0afebf237060",
+      "canonicalEnglish": "Myuntos: Don't be ridiculous! Do I look like a dealer to you?!",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:032",
+      "sourceFingerprint": "988f947ccb911699d88a7ab75d29bbf24ffe80a530ce4a06c12555eae8a3db32",
+      "canonicalEnglish": "Woman: Oh, you're so annoying. Go away.",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:033",
+      "sourceFingerprint": "4aefbe7484700a0cba7113b2da5e33c5a5e62b61f719556be2f0fc2f51f81edd",
+      "canonicalEnglish": "Outlaw: Heh. Want to know who's peddling Kidun? Then try the syndicate here in town.",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:034",
+      "sourceFingerprint": "650b42643443b0783987aec392029f2f4fb1f37460c43b7ae98978b44f5b65f8",
+      "canonicalEnglish": "Outlaw: Whatever happens to this planet is none of my concern.",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:038",
+      "sourceFingerprint": "0f905ed77f5b50a2cb64155a453b84eab04c7cd5e2f0923bf1b055bd1657134c",
+      "canonicalEnglish": "Outlaw: Well, good luck with that.",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:003",
+      "sourceFingerprint": "503d6db9e7c7f0d8cc1c10d3cbe918f9c5ee6aa980d725583397d415ef62f62d",
+      "canonicalEnglish": "Shoko: Welda, you were amazing!!\nWelda: Hah! Don't be ridiculous!\nSion: Aw, come on. I did my best, too.\nShoko: Of course you were amazing too, Sion.\nJoe: Hmph! Aren't you forgetting someone?!\nShoko: ...You were wonderful too, Uncle Joe.\nJoe: Yes, yes. Of course I was! Of course!",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:004",
+      "sourceFingerprint": "8968cc62d8add0a7d7effe766f65315ce0ed2e06616094d0946ba6910f2b561b",
+      "canonicalEnglish": "Joe: Well, that was surprisingly easy to wrap up.\nWelda: Are you an idiot?! We've still got the big job of hauling Tomyu in!\nJoe: Wh-what do you mean, idiot?!\nShoko: Don't get angry, Uncle Joe. Welda, that was going too far!\nWelda: Tch. Anyway, we rest up at the hotel today. Tomorrow we get down to business!",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:005",
+      "sourceFingerprint": "50a55e4450c41bc068a4efcf8c415760e1fdefafc7de0c9ce79558dda5dad588",
+      "canonicalEnglish": "Welda: Just watch how I do things and learn!",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:006",
+      "sourceFingerprint": "666f76ae4a69270564e9b9377d3ee5ee6804583b4e82440b28402fe86adf3818",
+      "canonicalEnglish": "Joe: This is terrible! Of all people, the girl had to get kidnapped...\nWelda: It's all because you lot keep dragging your feet!\nJoe: What did you say?!\nJoe: You talk so damn big, but you didn't even notice Shoko getting kidnapped!\nWelda: Tch! Shut up, you old bastard!!\nSion: Hey! Uncle Joe! Welda! That's enough, both of you!\nSion: If you want to fight, at least wait until we've rescued Shoko!\nWelda: Damn it all! Let's get moving to Porkin!",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:007",
+      "sourceFingerprint": "97428e65112d301b8dd15811177ec77d539e8aa5f706bbed9dd06627a9755a27",
+      "canonicalEnglish": "Welda: That bastard Tomyu. Playing dirty like that...\nWelda: When I find him, I'll beat him to a pulp, crack his skull open, drag his guts out...\nSion: (Oh, boy... This isn't going to end quietly.)",
+      "context": {
+        "speaker": "As identified in canonical scene; initial header supplied by source caller",
+        "listener": "Party / present characters",
+        "intent": "Investigate Kidun or respond to initial Saibal events",
+        "tone": "Wary, defensive or heated according to speaker",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

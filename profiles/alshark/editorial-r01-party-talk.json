@@ -1,0 +1,210 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R01 connected party-talk editorial review",
+  "scenes": [
+    {
+      "id": "r01-party-talk",
+      "records": [
+        "script:082000:007",
+        "script:082000:000",
+        "script:07f000:038",
+        "script:082000:014",
+        "script:07f000:039",
+        "script:07f000:041",
+        "script:07f000:042"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko"
+      ],
+      "location": "Global party TALK on Cosma, Hom and Saxen route maps.",
+      "storyState": "Opening default, Shoko joined (flag02), meteor event (flag10), and Karu joining/search for Lucia (flag0e).",
+      "purpose": "Provide state-appropriate party conversation and direction through the complete first section.",
+      "previousContext": [
+        "Shoko invitation051000:011 sets flag02; meteor arrival051000:029 sets flag10; return conversation051000:019 sets flag0e."
+      ],
+      "followingContext": [
+        "Karu party TALK082000:001 already provides the Dust/Joe lead in route-karu-dust."
+      ],
+      "branchAlternatives": [
+        "SystemB3F1..B43D dispatches global TALK by selected party ID: Sion1\u2192082000:007; Shoko2\u2192082000:000; Karu3\u2192082000:001.",
+        "Sion007 branches: flag02\u2192008\u219207f000:038; flag10\u2192014; flag0e\u2192015\u219207f000:041.",
+        "Shoko000 branches: flag10\u2192009\u219207f000:039; flag0e\u2192016\u219207f000:042.",
+        "These are alternative story-state messages, not consecutive conversation. Later flags in the global dispatchers remain outside this section."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.lucia",
+        "character.joe",
+        "place.cosma"
+      ],
+      "evidence": [
+        "Complete original Japanese source and immutable command/name tokens for all seven text-bearing entries.",
+        "RE global party TALK dispatch atB3F1/B3FD and party-index mappingB43D.",
+        "Flag writes in051000:011,029,019 and the explicit shared calls in082000:008,009,015,016."
+      ],
+      "uncertainty": [
+        "New English party-talk display and all state branches await runtime verification.",
+        "Later flags in the global dispatcher are not claimed translated by this scene."
+      ],
+      "notes": [
+        "Readonly dispatch wrappers082000:008/009/015/016 are dependencies, not fabricated dialogue records."
+      ],
+      "reviewNote": "Read the seven original Japanese messages with their flag alternatives and actor dispatch. Reviewed the connected English across boredom, enthusiasm, concealment, grief and the Lucia/Joe lead. Later-game branches are explicitly outside scope; no speculative event ordering added."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:082000:007",
+      "sourceFingerprint": "bb9cff453566054c6beddae905e283d588306bde2be265dbaff8e72cfa256f36",
+      "canonicalEnglish": "Sion: Well, I'm bored. Maybe I'll go over to Shoko's place and play.",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Party / player",
+        "intent": "Before Shoko joins; default Sion party-talk branch.",
+        "tone": "State-dependent: excitement, mild exasperation, grief or uncertainty.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Retains boredom and tentative visit. Omits explicit play and house, implied by visiting Shoko."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:000",
+      "sourceFingerprint": "0fe8a0239c392d67cfdfe40e3bdaca0a166d99a45e5685e136ae66e7ab9e88ba",
+      "canonicalEnglish": "Shoko: Oh, I can't wait to see the meteor! This is exciting, isn't it, Sion?",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Party / player",
+        "intent": "Before the meteor event; Shoko party-talk default.",
+        "tone": "State-dependent: excitement, mild exasperation, grief or uncertainty.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Retains meteor, impatience, excitement and direct address. Explicit see and separate agreement-seeking phrasing omitted in the30-byte text budget."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07f000:038",
+      "sourceFingerprint": "a3b6d50999932515cca85ef2d0e0fa8be5bf1bfbcd32eb040501e6926afc3eab",
+      "canonicalEnglish": "Sion: Honestly, Shoko can be such a handful. We'd better be careful Dad and the others don't spot us...",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Party / player",
+        "intent": "Flag02; Sion party-talk calls shared helper via082000:008.",
+        "tone": "State-dependent: excitement, mild exasperation, grief or uncertainty.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Oh, Shoko! conveys mild exasperation without a literal handful clause. Retains avoiding discovery by Dad and the other expedition members."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:014",
+      "sourceFingerprint": "3e3f6c7e2339af16e9e3a31a8bb0f49e81010e895b89891f79be847c8aa5220a",
+      "canonicalEnglish": "Sion: How could this happen? Dad... I can't believe Dad is dead...",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Party / player",
+        "intent": "Flag10; Sion grieving after the meteor event.",
+        "tone": "State-dependent: excitement, mild exasperation, grief or uncertainty.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Disbelieving question and broken delivery preserve grief. Omits one repetition of Dad."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07f000:039",
+      "sourceFingerprint": "6441af957f0103e96e79b3d80777dd15a9f3b4a21c845ac7e1bda2afa214817c",
+      "canonicalEnglish": "Shoko: I can't believe Father would do something like that... What am I supposed to do, Sion?\nSion: For now, let's go back to Cosma and tell Mom what happened.",
+      "context": {
+        "speaker": "Shoko / Sion",
+        "listener": "Party / player",
+        "intent": "Flag10; Shoko aftermath party-talk via082000:009.",
+        "tone": "State-dependent: excitement, mild exasperation, grief or uncertainty.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Broken Father did that delivery retains disbelief. Keeps distress, Sion, returning to Cosma and telling Mom; explicit for now and what happened are implicit."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07f000:041",
+      "sourceFingerprint": "c23dc9afbb835aa76a23ea1475c8c90a7da942d0bfafc708062e9a89f9302787",
+      "canonicalEnglish": "Sion: Even Mom has disappeared now. What on earth is going on?",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Party / player",
+        "intent": "Flag0e set by051000:019; Sion missing-Lucia party-talk via082000:015.",
+        "tone": "State-dependent: excitement, mild exasperation, grief or uncertainty.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Preserves that Mom is missing too and bewilderment; omits intensifier on earth."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:07f000:042",
+      "sourceFingerprint": "243426076e4b4db21fea82e62e84e75ead532817ec425756f120362cbd200aca",
+      "canonicalEnglish": "Shoko: Even Lucia has disappeared...\nSion: There's nothing else for it. Let's find Uncle Joe and ask him to help.",
+      "context": {
+        "speaker": "Shoko / Sion",
+        "listener": "Party / player",
+        "intent": "Flag0e; Shoko missing-Lucia party-talk via082000:016.",
+        "tone": "State-dependent: excitement, mild exasperation, grief or uncertainty.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Retains Lucia, missing too, resignation, finding Uncle Joe and seeking help. Respectful address to Lucia is omitted rather than asserting a biological aunt relationship. Original opaque tail remains byte-identical at its original offset."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

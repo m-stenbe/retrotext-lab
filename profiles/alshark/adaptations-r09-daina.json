@@ -1,0 +1,543 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "daina-village",
+    "daina-memorial-reunion",
+    "daina-aftermath",
+    "begi-historian",
+    "begi-history-party"
+  ],
+  "records": [
+    {
+      "id": "script:062000:002",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t003": "HOTEL",
+        "t005": "WELCOME. STAY\nFOR 10\nCREDITS?"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:003",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t003": "ITEM SHOP",
+        "t005": "WELCOME. WHAT\nDO YOU NEED?"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:004",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "THEY SAY WEY\nDUMNA FIRST\nLANDED ON MARS\nHERE."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:005",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t001": "YOUNG WOMAN",
+        "t003": [
+          "RAMYU KOSE,\nWYURIAN, ONE\nOF DUMNA'S\nTHREE PUPILS,",
+          "BUILT THAT\nSTONE."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:006",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "SO PEACEFUL\nHERE!"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:007",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": [
+          "THEY SAY WEY\nDUMNA HAD\nGREAT POWERS.\nHE DID BRING",
+          "MARS FOLK TO\nTHIS UNIVERSE."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:008",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t001": "OLD WOMAN",
+        "t003": "WE OWE OUR\nPROSPERITY TO\nLORD DUMNA.\nNEVER FORGET."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:009",
+      "basedOn": "3e180d6fcb6528553ca4444809adc65da7af6fe4fdbe1b588146e64ca72e3976",
+      "inGameEnglish": {
+        "t003": " AND ALL\nWAITED AT\nDUMNA'S STONE\n",
+        "t005": "FOR ",
+        "t007": "\nTO APPEAR.",
+        "t014": "HOW LONG HAD\nTHEY WAITED?",
+        "t020": "OH! IS THAT?!",
+        "t054": "...",
+        "t056": "...",
+        "t062": "...MOM!",
+        "t068": "I SEEM TO HAVE\nWORRIED YOU.",
+        "t075": "! WHAT IN\nBLAZES\nHAPPENED?!",
+        "t081": "MOM, I...",
+        "t088": ". ALL OF\nYOU, STAY CALM\nAND LISTEN.",
+        "t094": [
+          "WHEN THE\nMETEOR HIT\nHOM,",
+          "I WAS GIVEN\nA MISSION."
+        ],
+        "t100": "I WAS NO\nLONGER ",
+        "t102": ".\nNO, I AM STILL\n",
+        "t104": " AS WELL.",
+        "t110": "WHAT DOES THAT\nMEAN, ",
+        "t112": "?",
+        "t118": "WE HAVE NO\nCLUE. SPEAK\nPLAINLY.",
+        "t124": [
+          "I CAME IN THAT\nMETEOR, FUSED\nWITH BACTERIA,",
+          "THE LOWEST\nMINDS..."
+        ],
+        "t130": "HUH?",
+        "t136": "WE ARE TIRYUT,\nMENTAL ENERGY\nWITH NO\nBODIES.",
+        "t142": "TIRYUT...",
+        "t148": [
+          "SINCE THE\nUNIVERSE\nBEGAN,",
+          "MAYBE BEFORE,\n"
+        ],
+        "t150": "TIRYUT HAVE\nHAD RALUA\nAND KARMA.",
+        "t156": "THINK OF THEM\nAS YOUR GOOD\nAND EVIL.",
+        "t162": "BOTH FUSE WITH\nMINDS OF OTHER\nSPECIES TO\nEXIST HERE.",
+        "t168": "HAH! NONSENSE.\nSO WHY COME\nHERE?",
+        "t174": "I AM ALSHARK,\nA WARRIOR OF\nRALUA.",
+        "t180": "KARMA IS\nLEADING THIS\nUNIVERSE TO\nRUIN.",
+        "t186": [
+          "TO WARN YOU,\nAND BEAT KARMA\nWITH THE\nSECRET POWER",
+          "WEY DUMNA MUST\nHAVE LEFT. HE\nTOO WAS A\nRALUA WARRIOR."
+        ],
+        "t192": [
+          "WEY DUMNA? A\nRALUA WARRIOR?\nHE WHO LED\nMARS FOLK",
+          "TO THIS\nUNIVERSE?"
+        ],
+        "t198": "HA HA HA! THAT\nIS A GOOD ONE!",
+        "t204": "IT IS HARD,\nBUT BELIEVE\nME.",
+        "t210": "I BELIEVE YOU,\nMOM. UNCLE\nMAMON CHANGED.\nIT MUST BE...",
+        "t216": "WHAT HAPPENED\nTO DR.\nPENROSE?",
+        "t223": [
+          ", DAD AND\nTHE OTHERS\nWERE CAPTURED\nBY ZOLIAS",
+          "AT THE CRASH\nSITE..."
+        ],
+        "t229": "THEN WHAT OF\n",
+        "t231": " AND THE\nEXPEDITION?",
+        "t235": "I HAD THEM\nKILLED.",
+        "t242": "THE VOICE\nSTARTLED SION\nAND ALL.\n",
+        "t244": "MAMON AND\n",
+        "t246": [
+          "ZOLIAS TROOPS",
+          "DISGUISED AS\nOUTLAWS "
+        ],
+        "t248": "HAD\nSURROUNDED\nTHEM.",
+        "t256": "AT LAST,\nALSHARK. OR DO\nYOU PREFER\nMRS. ASMAN?",
+        "t263": "! YOU\nBASTARD! WHY\nARE YOU HERE?!",
+        "t270": "CAREFUL, ",
+        "t272": ".\nHIS MIND HAS\nFUSED WITH\nKARMA.",
+        "t278": "WHAT CAN WE DO\nABOUT THAT?!",
+        "t284": "STILL THAT\nNONSENSE? I\nWILL CRUSH\nTHEM!",
+        "t288": "AS ",
+        "t290": "\nSTEPPED UP,\n",
+        "t293": " STOPPED\nHIM ",
+        "t295": "AND\nWHISPERED.",
+        "t301": "LISTEN. WE\nCANNOT WIN\nNOW.",
+        "t307": "LEAVE THIS\nTO ME. ",
+        "t309": [
+          "AT MY\nSIGNAL,",
+          "SHUT YOUR EYES\nAND RUN BACK."
+        ],
+        "t315": "HAH! NONSENSE.\nI WILL NOT...",
+        "t322": ", PLEASE\nDO AS LUCIA\nSAYS.",
+        "t328": "TCH! HAVE IT\nYOUR WAY!",
+        "t334": "YOUR TALK IS\nDONE? COME\nALONG.",
+        "t340": [
+          "ALL RIGHT.",
+          "I WILL GO.\n"
+        ],
+        "t342": "JUST LEAVE\n",
+        "t344": "\nAND THE OTHERS\nALONE...",
+        "t350": "DO NOT BE\nABSURD. ",
+        "t352": "YOU\nJUST TOLD THEM\nEVERYTHING.",
+        "t358": "THEY KNOW OUR\nSECRET. I\nCANNOT LET\nTHEM GO.",
+        "t364": "I SEE. NO\nCHOICE, THEN.",
+        "t369": "THEN, ",
+        "t371": "\nAIMED AT ",
+        "t373": "\nAND ",
+        "t375": "THREW.",
+        "t381": "NOW!",
+        "t386": " AND ALL\nSHUT THEIR\nEYES ",
+        "t388": "AND RAN.",
+        "t393": " THREW AN\nOBJECT.\n",
+        "t395": [
+          "IT ARCED",
+          "THROUGH THE\nAIR.\n"
+        ],
+        "t397": "THEN ",
+        "t399": "\nSHOT ",
+        "t401": "IT.",
+        "t407": "LIGHT SEARED\n",
+        "t409": " AND HIS\nMEN. ",
+        "t411": "IT WAS ",
+        "t413": "A\nFLASH BOMB.",
+        "t417": "YET ",
+        "t419": "\nCOVERED ",
+        "t421": "HIS\nEYES, ",
+        "t423": "EERILY\nCALM.",
+        "t429": "HMPH, ALSHARK.\nTHINK YOU WON.",
+        "t435": "NEXT TIME, I\nWILL KILL YOUR\nFRIENDS BEFORE\nYOU CAN SPEAK!",
+        "t439": "DID HIS VOICE\nREACH ",
+        "t442": " AND\nTHE OTHERS ",
+        "t444": "AS\nTHEY FLED?"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending.",
+        "Tiryut introduction omits in our universe; bacteria retain lowest-mind status. The difficult-to-believe/truth acknowledgment becomes believe me. Shoko\u2019s Aunt address is omitted where fixed name order/allocation prevents it. Sion\u2019s uncertainty remains must be followed by ellipsis. Flash grenade becomes flash bomb. At last compresses Mamon\u2019s explicit found-you wording. Mamon\u2019s let-you-think-you-won threat is retained. Narration is rearranged across immutable names; aimed at and threw preserves the directed throw, followed by the object\u2019s flight."
+      ]
+    },
+    {
+      "id": "script:062000:010",
+      "basedOn": "3e180d6fcb6528553ca4444809adc65da7af6fe4fdbe1b588146e64ca72e3976",
+      "inGameEnglish": {
+        "t001": "THIS STONE\nMARKS WHERE\n",
+        "t003": [
+          "WEY DUMNA,",
+          "WISPERARD'S\nFOUNDER,\n"
+        ],
+        "t005": "LANDED WITH A\nCOLONY SHIP.\n",
+        "t007": "IT ",
+        "t009": "READS...",
+        "t014": "WEY DUMNA\n",
+        "t017": "HIS DEEDS\n",
+        "t020": "AND HIS WILL\n",
+        "t023": "LIVE FOREVER\n",
+        "t026": "RAMYU KOSE"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending.",
+        "Inscription omits founder and the explicit telling-across-generations phrase; deeds and will living forever retain the memorial intent. Narration retains founder, colony ship and landing site."
+      ]
+    },
+    {
+      "id": "script:062000:013",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t000": "TOOLS\nLEAVE"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:014",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:015",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t001": "PLEASE COME\nAGAIN."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:062000:016",
+      "basedOn": "dab8dd7429d10a911d6f571223e1c6f01b0d0020a8ab97adfe04969be33c2103",
+      "inGameEnglish": {
+        "t000": "AT LEAST BRING\nSOME MONEY."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:081000:029",
+      "basedOn": "37f095036c7654270e14f049ab5868932070008122c1e4319e98d9d57aaba227",
+      "inGameEnglish": {
+        "t004": "KARMA TOOK\nOVER DAD...",
+        "t011": ", CAN\nYOUR POWER NOT\nHELP HIM?",
+        "t017": "WELL..."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:081000:030",
+      "basedOn": "37f095036c7654270e14f049ab5868932070008122c1e4319e98d9d57aaba227",
+      "inGameEnglish": {
+        "t004": [
+          "HOW CAN WE\nLEARN OF\nDUMNA'S POWER?",
+          "HE DIED OVER\n300 YEARS AGO!"
+        ],
+        "t010": "A SCHOLAR IN\nBEGI ON RASHA\nKNOWS MUCH OF\nDUMNA, I HEAR.",
+        "t016": [
+          "I SEE.\nSTUDYING MARS\nHISTORY AT MY\nAGE!",
+          "I NEVER\nTHOUGHT I\nWOULD."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:081000:031",
+      "basedOn": "37f095036c7654270e14f049ab5868932070008122c1e4319e98d9d57aaba227",
+      "inGameEnglish": {
+        "t004": "TIRYUT? I WILL\nNEVER BELIEVE\nTHAT RUBBISH!"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:082000:005",
+      "basedOn": "37f095036c7654270e14f049ab5868932070008122c1e4319e98d9d57aaba227",
+      "inGameEnglish": {
+        "t023": [
+          "FIND DUMNA'S\nSECRET POWER\nFIRST.",
+          "ONLY IT CAN\nSTOP ZOLIAS\nINVADING."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:05f000:085",
+      "basedOn": "37f095036c7654270e14f049ab5868932070008122c1e4319e98d9d57aaba227",
+      "inGameEnglish": {
+        "t004": [
+          "THINK OF MY\nPOSITION!",
+          "NO CIVILIANS\nON A MILITARY\nSTATION."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:063000:019",
+      "basedOn": "409e4a772686271e5f803be37319dc16b4b4822b472fbf944314df32104f9ce5",
+      "inGameEnglish": {
+        "t000": "OH? YOU ASK OF\nWEY DUMNA?",
+        "t003": "THEN LEARN\nMARS\nFEDERATION\nHISTORY."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:063000:021",
+      "basedOn": "409e4a772686271e5f803be37319dc16b4b4822b472fbf944314df32104f9ce5",
+      "inGameEnglish": {
+        "t001": "FROM THE SHELF\nFETCH\n",
+        "t004": "."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending.",
+        "The exact shelf position in front of me is omitted; fetching the named book from the shelf remains."
+      ]
+    },
+    {
+      "id": "script:063000:022",
+      "basedOn": "409e4a772686271e5f803be37319dc16b4b4822b472fbf944314df32104f9ce5",
+      "inGameEnglish": {
+        "t004": " FOUND\n",
+        "t007": "\nIN THE ",
+        "t009": "BOOKS."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending.",
+        "Among the many books becomes in the books. Original book-title call and full-inventory branch remain."
+      ]
+    },
+    {
+      "id": "script:063000:023",
+      "basedOn": "409e4a772686271e5f803be37319dc16b4b4822b472fbf944314df32104f9ce5",
+      "inGameEnglish": {
+        "t001": "MARS HISTORY"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending.",
+        "Full Mars Federation History Encyclopedia title is the compact MARS HISTORY within the composed request/retrieval layout; canonical title and item identity unchanged."
+      ]
+    },
+    {
+      "id": "script:063000:024",
+      "basedOn": "409e4a772686271e5f803be37319dc16b4b4822b472fbf944314df32104f9ce5",
+      "inGameEnglish": {
+        "t005": "OH NO! BAG\nFULL!"
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:063000:025",
+      "basedOn": "409e4a772686271e5f803be37319dc16b4b4822b472fbf944314df32104f9ce5",
+      "inGameEnglish": {
+        "t002": "YES! THAT IS\nTHE BOOK.",
+        "t005": "NOW FOR THE\nHISTORY OF THE\nMARS\nFEDERATION.",
+        "t008": [
+          "AS YOU KNOW,\nMARS FOLK ARE\nNOT NATIVE TO\nTHIS UNIVERSE.",
+          "THEY CAME FROM\nANOTHER\nPLANET."
+        ],
+        "t011": "WEY DUMNA LED\nTHEM 300 YEARS\nAGO.",
+        "t014": [
+          "AS THIS BOOK\nSAYS, PEOPLE\nTHINK DUMNA",
+          "PERSECUTED THE\nMYUNTOS WHEN\nSETTLING HERE."
+        ],
+        "t017": [
+          "BUT NO ONE\nKNOWS IT WAS\nTHE FIRST\nPRESIDENT,",
+          "KASTA BAIYA,\nACTING IN HIS\nNAME AFTER HIS\nDEATH."
+        ],
+        "t020": [
+          "ON STEA, THE\nMYUNTOS\nVILLAGE STILL\nHONORS DUMNA",
+          "AS AN ETERNAL\nFRIEND."
+        ],
+        "t023": "DUMNA HAD ONLY\nONE FRIEND.\nMASTER SARTOS,\nA MYUNTOS.",
+        "t028": "AH, TAKE THIS.",
+        "t032": "TREFOIL",
+        "t034": " EMBLEM\nFOUND.",
+        "t038": "IT SHOULD BE\nOF USE. ",
+        "t040": "DO NOT\nTHROW IT AWAY\nOR BREAK IT."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:063000:026",
+      "basedOn": "409e4a772686271e5f803be37319dc16b4b4822b472fbf944314df32104f9ce5",
+      "inGameEnglish": {
+        "t001": [
+          "TO LEARN MORE\nOF DUMNA,",
+          "VISIT THE\nMYUNTOS\nVILLAGE ON\nSTEA."
+        ]
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    },
+    {
+      "id": "script:080000:000",
+      "basedOn": "1e26554bbba72220bff0321116e7c698930e35e2d30a3dfde242f843029cb752",
+      "inGameEnglish": {
+        "t004": [
+          "ALL WE LEARNED\nOF DUMNA\nHURTING THE\nMYUNTOS",
+          "WAS A LIE."
+        ],
+        "t010": "THEY USED HIS\nNAME TO SWAY\nMARS PUBLIC\nOPINION."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending.",
+        "Persecuting becomes hurting within allocation; canonical retains persecution and the historical accusation remains."
+      ]
+    },
+    {
+      "id": "script:080000:001",
+      "basedOn": "1e26554bbba72220bff0321116e7c698930e35e2d30a3dfde242f843029cb752",
+      "inGameEnglish": {
+        "t004": "NEVER THOUGHT\nWE WOULD VISIT\nMYUNTOS ON\nSTEA."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending.",
+        "Village is implicit in visiting the Myuntos on Stea; the historian\u2019s full destination remains nearby."
+      ]
+    },
+    {
+      "id": "script:080000:002",
+      "basedOn": "1e26554bbba72220bff0321116e7c698930e35e2d30a3dfde242f843029cb752",
+      "inGameEnglish": {
+        "t004": "WHAT COULD\nTHOSE FEEBLE\nMYUNTOS KNOW?",
+        "t010": "IT IS OUR ONLY\nLEAD FOR NOW.",
+        "t016": "HAH! I CANNOT\nSTAND YOU LOT!",
+        "t022": "THEN GO HOME.",
+        "t028": "WHO, ME?! MY\nDUTY IS TO\nWATCH YOU!",
+        "t034": "HE COMES ALONG\nDESPITE HIS\nGRIPING."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending.",
+        "Parentheses marking Joe\u2019s aside are unavailable in the ROM font; aside intent remains recorded canonically."
+      ]
+    },
+    {
+      "id": "script:080000:003",
+      "basedOn": "1e26554bbba72220bff0321116e7c698930e35e2d30a3dfde242f843029cb752",
+      "inGameEnglish": {
+        "t004": "DUMNA MUST\nHAVE LEFT SOME\nCLUE\nSOMEWHERE.",
+        "t010": "HE WOULD HAVE\nFORESEEN THIS\nDAY."
+      },
+      "notes": [
+        "Separate adaptation from original-source reviewed unrestricted canonical English; original commands and runtime-name order preserved.",
+        "Compact phrasing retains central meaning, uncertainty and intent; visual runtime verification pending."
+      ]
+    }
+  ]
+}

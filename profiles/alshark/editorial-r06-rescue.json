@@ -1,0 +1,972 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R06 connected-scene source editorial review",
+  "scenes": [
+    {
+      "id": "porkin-tomyu-pursuit",
+      "records": [
+        "script:05a000:012",
+        "script:05a000:014",
+        "script:05a000:017"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Tomyu"
+      ],
+      "location": "Porkin on Zajil",
+      "storyState": "After the Saibal kidnapping flag18; Tomyu fight19, interrogation28, station victory1a and rescue.",
+      "purpose": "Tomyu fight and interrogation",
+      "previousContext": [
+        "The kidnapping letter lured the party to Porkin to pursue Tomyu. Shoko remains missing."
+      ],
+      "followingContext": [
+        "Tomyu exposes Commander Geist; the party confronts him at the military station and rescues Shoko.",
+        "Shoko reports apparent Kidun trade with Zolias; Sion and Joe leave their possible connection unspoken."
+      ],
+      "branchAlternatives": [
+        "The Tomyu fight014 sets19; repeating it enters017 and sets28.",
+        "Station boss000 sets1a; repeating the interaction enters016 and restores Shoko. Staff switches to017–024 after1a.",
+        "Station greetings, threats and post-rescue barks are optional alternatives, not an asserted chronological conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.tomyu",
+        "place.porkin",
+        "place.zajil",
+        "faction.chausnomyu",
+        "drug.kidun",
+        "faction.zolias",
+        "character.geist"
+      ],
+      "evidence": [
+        "RE original script and map roots: Porkin map50 bank05a000; military station map31 System8c000 bank05e000.",
+        "05a000014 battle sets19;017 sets28 and enables visibility45–49;05e000000 sets1a;016 rejoins Shoko.",
+        "RE flight proof: map0 System843e0 object0b6874e86e1f2234 targets map31 at spaceX7468,Y6ee8; overlay2449 scans eight-byte objects and uses byte+5 as target map. Nearby CS Station30 is at X744c,Y6e2d. No ground link is asserted."
+      ],
+      "uncertainty": [
+        "Official Geist romanization is unverified; no full name or rank beyond commander is inferred.",
+        "Sion and Joe do not say which connection they suspect; preserve their unfinished implication.",
+        "Physical flight traversal and runtime appearance remain unverified."
+      ],
+      "notes": [
+        "Repeated interactions are real progression triggers; their original commands remain unchanged."
+      ],
+      "reviewNote": "Read complete Japanese and English connected confrontation, interrogation and rescue, including optional station branches. Preserve Tomyu’s evasiveness, Welda’s intimidation, the soldiers’ hostility, Geist’s earlier civility, the relief at Shoko’s safety, and the incomplete Zolias implication. Do not turn the unsaid inference into a confirmed revelation. Reviewed the mapped flight context: the station is reached through the space object target, not an invented surface connection. This does not establish runtime traversal."
+    },
+    {
+      "id": "zajil-military-station-rescue",
+      "records": [
+        "script:05e000:000",
+        "script:05e000:001",
+        "script:05e000:002",
+        "script:05e000:003",
+        "script:05e000:013",
+        "script:05e000:014",
+        "script:05e000:015",
+        "script:05e000:016",
+        "script:05e000:025",
+        "script:05e000:026",
+        "script:05e000:027",
+        "script:05e000:028"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Commander Geist",
+        "Station soldiers and operators"
+      ],
+      "location": "Zajil military station",
+      "storyState": "After the Saibal kidnapping flag18; Tomyu fight19, interrogation28, station victory1a and rescue.",
+      "purpose": "Station confrontation and Shoko rescue",
+      "previousContext": [
+        "The kidnapping letter lured the party to Porkin to pursue Tomyu. Shoko remains missing."
+      ],
+      "followingContext": [
+        "Tomyu exposes Commander Geist; the party confronts him at the military station and rescues Shoko.",
+        "Shoko reports apparent Kidun trade with Zolias; Sion and Joe leave their possible connection unspoken."
+      ],
+      "branchAlternatives": [
+        "The Tomyu fight014 sets19; repeating it enters017 and sets28.",
+        "Station boss000 sets1a; repeating the interaction enters016 and restores Shoko. Staff switches to017–024 after1a.",
+        "Station greetings, threats and post-rescue barks are optional alternatives, not an asserted chronological conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.tomyu",
+        "place.porkin",
+        "place.zajil",
+        "faction.chausnomyu",
+        "drug.kidun",
+        "faction.zolias",
+        "character.geist"
+      ],
+      "evidence": [
+        "RE original script and map roots: Porkin map50 bank05a000; military station map31 System8c000 bank05e000.",
+        "05a000014 battle sets19;017 sets28 and enables visibility45–49;05e000000 sets1a;016 rejoins Shoko.",
+        "RE flight proof: map0 System843e0 object0b6874e86e1f2234 targets map31 at spaceX7468,Y6ee8; overlay2449 scans eight-byte objects and uses byte+5 as target map. Nearby CS Station30 is at X744c,Y6e2d. No ground link is asserted."
+      ],
+      "uncertainty": [
+        "Official Geist romanization is unverified; no full name or rank beyond commander is inferred.",
+        "Sion and Joe do not say which connection they suspect; preserve their unfinished implication.",
+        "Physical flight traversal and runtime appearance remain unverified."
+      ],
+      "notes": [
+        "Repeated interactions are real progression triggers; their original commands remain unchanged."
+      ],
+      "reviewNote": "Read complete Japanese and English connected confrontation, interrogation and rescue, including optional station branches. Preserve Tomyu’s evasiveness, Welda’s intimidation, the soldiers’ hostility, Geist’s earlier civility, the relief at Shoko’s safety, and the incomplete Zolias implication. Do not turn the unsaid inference into a confirmed revelation. Reviewed the mapped flight context: the station is reached through the space object target, not an invented surface connection. This does not establish runtime traversal."
+    },
+    {
+      "id": "zajil-military-station-staff",
+      "records": [
+        "script:05e000:004",
+        "script:05e000:005",
+        "script:05e000:006",
+        "script:05e000:007",
+        "script:05e000:008",
+        "script:05e000:009",
+        "script:05e000:010",
+        "script:05e000:011",
+        "script:05e000:017",
+        "script:05e000:018",
+        "script:05e000:019",
+        "script:05e000:020",
+        "script:05e000:021",
+        "script:05e000:022",
+        "script:05e000:023",
+        "script:05e000:024"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda",
+        "Commander Geist",
+        "Station soldiers and operators"
+      ],
+      "location": "Zajil military station",
+      "storyState": "After the Saibal kidnapping flag18; Tomyu fight19, interrogation28, station victory1a and rescue.",
+      "purpose": "Station staff before and after the rescue",
+      "previousContext": [
+        "The kidnapping letter lured the party to Porkin to pursue Tomyu. Shoko remains missing."
+      ],
+      "followingContext": [
+        "Tomyu exposes Commander Geist; the party confronts him at the military station and rescues Shoko.",
+        "Shoko reports apparent Kidun trade with Zolias; Sion and Joe leave their possible connection unspoken."
+      ],
+      "branchAlternatives": [
+        "The Tomyu fight014 sets19; repeating it enters017 and sets28.",
+        "Station boss000 sets1a; repeating the interaction enters016 and restores Shoko. Staff switches to017–024 after1a.",
+        "Station greetings, threats and post-rescue barks are optional alternatives, not an asserted chronological conversation."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.tomyu",
+        "place.porkin",
+        "place.zajil",
+        "faction.chausnomyu",
+        "drug.kidun",
+        "faction.zolias",
+        "character.geist"
+      ],
+      "evidence": [
+        "RE original script and map roots: Porkin map50 bank05a000; military station map31 System8c000 bank05e000.",
+        "05a000014 battle sets19;017 sets28 and enables visibility45–49;05e000000 sets1a;016 rejoins Shoko.",
+        "RE flight proof: map0 System843e0 object0b6874e86e1f2234 targets map31 at spaceX7468,Y6ee8; overlay2449 scans eight-byte objects and uses byte+5 as target map. Nearby CS Station30 is at X744c,Y6e2d. No ground link is asserted."
+      ],
+      "uncertainty": [
+        "Official Geist romanization is unverified; no full name or rank beyond commander is inferred.",
+        "Sion and Joe do not say which connection they suspect; preserve their unfinished implication.",
+        "Physical flight traversal and runtime appearance remain unverified."
+      ],
+      "notes": [
+        "Repeated interactions are real progression triggers; their original commands remain unchanged."
+      ],
+      "reviewNote": "Read complete Japanese and English connected confrontation, interrogation and rescue, including optional station branches. Preserve Tomyu’s evasiveness, Welda’s intimidation, the soldiers’ hostility, Geist’s earlier civility, the relief at Shoko’s safety, and the incomplete Zolias implication. Do not turn the unsaid inference into a confirmed revelation. Reviewed the mapped flight context: the station is reached through the space object target, not an invented surface connection. This does not establish runtime traversal."
+    },
+    {
+      "id": "zajil-rescue-party-and-rest",
+      "records": [
+        "script:081000:008",
+        "script:081000:009",
+        "script:081000:010",
+        "script:081000:011",
+        "script:081000:012",
+        "script:05b000:036"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Joe",
+        "Welda"
+      ],
+      "location": "Zajil route and Saibal hotel",
+      "storyState": "After the Saibal kidnapping flag18; Tomyu fight19, interrogation28, station victory1a and rescue.",
+      "purpose": "Party responses to the lead and reunion; restored hotel wake-up",
+      "previousContext": [
+        "The kidnapping letter lured the party to Porkin to pursue Tomyu. Shoko remains missing."
+      ],
+      "followingContext": [
+        "Tomyu exposes Commander Geist; the party confronts him at the military station and rescues Shoko.",
+        "Shoko reports apparent Kidun trade with Zolias; Sion and Joe leave their possible connection unspoken."
+      ],
+      "branchAlternatives": [
+        "Flag28 gives Joe008/Welda009; flag1a gives Shoko010/Joe011/Welda012.",
+        "Saibal hotel021 selects036 after1a; ordinary payment/rest controls remain unchanged."
+      ],
+      "terminology": [
+        "character.sion",
+        "character.shoko",
+        "character.joe",
+        "character.welda",
+        "character.tomyu",
+        "place.porkin",
+        "place.zajil",
+        "faction.chausnomyu",
+        "drug.kidun",
+        "faction.zolias",
+        "character.geist"
+      ],
+      "evidence": [
+        "RE packet work/r06-re-route-packet.json; original082000 party roots supply Shoko02,Joe06,Welda08 headers.",
+        "082000002 flag28→038→081000008;003 flag28→039→009.",
+        "082000000 flag1a→040→010;002→041→011;003→042→012.",
+        "05b000021 flag1a→036.",
+        "RE flight proof: map0 System843e0 object0b6874e86e1f2234 targets map31 at spaceX7468,Y6ee8; overlay2449 scans eight-byte objects and uses byte+5 as target map. Nearby CS Station30 is at X744c,Y6e2d. No ground link is asserted."
+      ],
+      "uncertainty": [
+        "Mamon’s involvement remains a party inference, not a confirmed narrator statement.",
+        "Runtime route traversal and visual verification remain pending.",
+        "Physical flight traversal and runtime appearance remain unverified."
+      ],
+      "notes": [
+        "Repeated interactions are real progression triggers; their original commands remain unchanged."
+      ],
+      "reviewNote": "Read the complete pursuit and reunion party alternatives against source, following their original caller headers. Preserve Welda’s furious threat, Shoko’s relief, the party’s inference about her father as inference, Joe’s private refusal to confide in Welda, and the ordinary warm morning after rescue. Rest repeats are not a new plot event. Reviewed the mapped flight context: the station is reached through the space object target, not an invented surface connection. This does not establish runtime traversal."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05a000:012",
+      "sourceFingerprint": "db36002da0acc95470bebdde16fb151a3ece5f07a2843c256fc3e39f79ca8bb4",
+      "canonicalEnglish": "Speaker label: Tomyu.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:014",
+      "sourceFingerprint": "15e839456f2eeef1be3f1e4864fa13bbc53bd575d8318e858904ef00b65329f2",
+      "canonicalEnglish": "Tomyu: Hah! You walked right into our hands! Boys, show them a good time!\n[A battle begins.]",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05a000:017",
+      "sourceFingerprint": "bf307add5e4fb2d2dcfe4066499f10cd242e746ead1fcb5fdbe920fe89b3ca29",
+      "canonicalEnglish": "Welda: All right! Give Shoko back!!\nTomyu: Shoko?! W-what are you talking about?!\nWelda: Don't play dumb, you sewer rat! If anything's happened to Shoko, every last one of you will...\nTomyu: W-wait! I was only ordered to get rid of you...\nSion: Ordered?!\nJoe: What do you mean?! You'd better explain yourself!\nTomyu: N-no, I... er... that's...\nWelda: I'll kill you! You hear me?!\nTomyu: A-all right, I'll talk! Commander Geist at this planet's military station is behind it all. I only... The Kidun...\nWelda: Tch. I thought as much.\nTomyu: Please! I've told you everything. Let me go!\nWelda: You wish!\nNarration: The Federation police arrived in response to Welda's call and took Tomyu away.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:000",
+      "sourceFingerprint": "6dae1c7491fd48df8c86d03658d797c8b871817720ff9ba4ba17c32a5d681f35",
+      "canonicalEnglish": "Shoko: Sion!!\nSion: Shoko!! Are you all right?!\nCommander Geist: Hah! So you managed to get this far.\nWelda: Your dirty work ends here!!\nCommander Geist: We'll see about that. You're going to die here.\n[A battle begins.]",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:001",
+      "sourceFingerprint": "5feb79a90857628573a5e3c033ffd09311d407d1ef7b1ecda8bd91a00b5b3587",
+      "canonicalEnglish": "Soldier: I can't let you through!\n[A battle begins.]",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:002",
+      "sourceFingerprint": "d2b014dbfb1be38b5eabf08916bbcc7ce26b5c28fac90255fee460a472723183",
+      "canonicalEnglish": "Soldier: Kill you lot and I'll jump two ranks!\n[A battle begins.]",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:003",
+      "sourceFingerprint": "3c94455b98fca09f414fa4a6f4bf660fbf777bee613c38a5e52ab2ce38135238",
+      "canonicalEnglish": "Soldier: Sorry, but you'll have to die here.\n[A battle begins.]",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:004",
+      "sourceFingerprint": "2749dfd5cb551fafcfec3308c623ca619f23ab13b768d59153200f650b74a813",
+      "canonicalEnglish": "Commander Geist: I see. So Chausnomyu has finally begun investigating Kidun. How reassuring.\nI'm counting on you.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:005",
+      "sourceFingerprint": "8dbea72ff1bc8647c3283e4def151aa35844612dae5f579e2843a958481d97ce",
+      "canonicalEnglish": "Operator: They say the syndicate plays dirty. Please be careful.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:006",
+      "sourceFingerprint": "0767b1b7d5149dfa04d229cbeeb7063ef174075e3b8ccbf2d69d74e2cd473581",
+      "canonicalEnglish": "Operator: I'll contact you as soon as we notice anything suspicious.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:007",
+      "sourceFingerprint": "58524686066a471b45f2b0c16c43954df2c55d1808f33aa83a2a64a9da2c6f42",
+      "canonicalEnglish": "Operator: We haven't spotted any Kidun plantations from our surveillance here.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:008",
+      "sourceFingerprint": "fe95d6cdc177744622764d776d55b2feca1b0519d2421693ea7399814599548e",
+      "canonicalEnglish": "Operator: Zajil's military station was established to maintain public order.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:009",
+      "sourceFingerprint": "1a23c987ff3380830054175d7c63edda9413e0ddc1833e7cef36ac5206ce1655",
+      "canonicalEnglish": "Soldier: Excuse me, but don't talk to me while I'm on duty!",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:010",
+      "sourceFingerprint": "d0c13a2a152ac7a33e4ad4900d2ce955ec07e83f0bb310d74038b75e7009c590",
+      "canonicalEnglish": "Soldier: I wonder if a mere Federation patrol unit can handle those syndicate thugs.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:011",
+      "sourceFingerprint": "7ca0961ff5e389cec71197610eb0fe84a8ba25cae78114b0c7e84e25aa3e0b47",
+      "canonicalEnglish": "Soldier: Well, do the best you can.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:013",
+      "sourceFingerprint": "8bcc9a14fe9f3329d7b427c8b103d32a51c3ae4d724dc6e1a785550fce90b4b0",
+      "canonicalEnglish": "Speaker label: Commander Geist.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:014",
+      "sourceFingerprint": "8be18c8f71b41803a265bc6a10c4669bbdc4e2329adbcd56855aa35a425c0b1e",
+      "canonicalEnglish": "Speaker label: Soldier.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:015",
+      "sourceFingerprint": "afd421d7114b8d874f9c98c98342f22b270c802479fe1677abdc0388602fef28",
+      "canonicalEnglish": "Speaker label: Operator.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:016",
+      "sourceFingerprint": "05575354f81562df893538a8eec1a45a9de968402e7cf44e9433e08dcc65233b",
+      "canonicalEnglish": "Sion: Shoko, I'm so glad you're safe.\nShoko: Sion...\nJoe: Still, why did that lot kidnap you?\nShoko: I'm not really sure myself. But...\nWelda: But what?\nShoko: It seems they were trading Kidun with Zolias.\nSion: Zolias?! Then could it be...?\nJoe: That's certainly possible.\nWelda: Quit babbling about things I don't understand. We're leaving! The mission's over.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:017",
+      "sourceFingerprint": "3844d5863f73326790166e187ca5dc2045e3941ce01385c83b83480f548fb967",
+      "canonicalEnglish": "Commander: I don't know what sort of man my predecessor was, but now that I'm here, Zajil is in safe hands.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Source uses an apparent one-syllable typo for Zajil; established planetary context is preserved."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:018",
+      "sourceFingerprint": "3f0aa04bdb0677d0f85ee18024f118bc229e50f07699a2bb3d7f165fbd4f1175",
+      "canonicalEnglish": "Operator: Thank you for your service.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:019",
+      "sourceFingerprint": "e36d4862c7b2dec666d49d62cf652bf8aeda8d66cc0d3e3d8187cde3f9e185bc",
+      "canonicalEnglish": "Operator: Should you really be taking it easy here?",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:020",
+      "sourceFingerprint": "d101eaf1963a7baec9204c9c90daf835ea7ae28be188acb34dd9eebd9ccfdbaa",
+      "canonicalEnglish": "Operator: Whenever the Zolias Empire attacks, we'll be fully prepared to meet them.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:021",
+      "sourceFingerprint": "9c547290e386edd243e7b0fa39a6e29a4dffa726540b2f1c94fa3c2472521fc9",
+      "canonicalEnglish": "Operator: With the new commander here, this station is finally working properly.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:022",
+      "sourceFingerprint": "e7db3cf622f3c485a66e3d4a15cea4a176be3c25ca589ff78f752cebdcf6296d",
+      "canonicalEnglish": "Soldier: Be careful. Zolias Imperial space is swarming with enemy fleets.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:023",
+      "sourceFingerprint": "778fb4a9fa3e9be185b9c02a61da372952541832f62c97c089199d46490a5ca3",
+      "canonicalEnglish": "Soldier: So Chausnomyu really is as good as they say.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:024",
+      "sourceFingerprint": "adfdbf487c5561eedabd5022b1f3fcee538513eeb370fb032645b252473f3a22",
+      "canonicalEnglish": "Soldier: Good luck out there.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:025",
+      "sourceFingerprint": "34c5a0337487056024aed4d3217042ebdb87d92491d9b0b46ef023d8cb12a6d9",
+      "canonicalEnglish": "Soldier: Don't think you're getting out of here alive.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:026",
+      "sourceFingerprint": "675e36398e38e0c544e8f157abe8e60ebae0681e213991284a370ce2c324f26a",
+      "canonicalEnglish": "Soldier: Hmph. Enjoy taking it easy while you still can.",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:027",
+      "sourceFingerprint": "c986e8c4a07f08e1847f2e8cd2bf5d3df674658ab5fb399ba4fd36d8addcf715",
+      "canonicalEnglish": "Soldier: You must have quite a contrary streak to come and talk to me!",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05e000:028",
+      "sourceFingerprint": "1bcdaf8f1127067f700fd0a227d19a92c974705fcf9033e6726e7ae046b287a7",
+      "canonicalEnglish": "Commander Geist: ...",
+      "context": {
+        "speaker": "As identified in the canonical scene; original shared headers retained",
+        "listener": "Party / present characters",
+        "intent": "Find Shoko and investigate those behind the kidnapping; optional station interactions",
+        "tone": "Context-dependent: evasive, threatening, courteous, relieved",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:008",
+      "sourceFingerprint": "db3153ce59903a1a8a23d07559f7332c398e05270a821d2b243f4348966e52e2",
+      "canonicalEnglish": "Joe: So there was someone behind it all, after all.\nSion: I hope Shoko's all right...\nWelda: Damn it! If anything's happened to Shoko, I'll smash the whole station to pieces!!",
+      "context": {
+        "speaker": "As identified in canonical script and RE-confirmed caller header",
+        "listener": "Party; Joe’s aside is private",
+        "intent": "Discuss the culprit and kidnapping, express relief, plan return and rest",
+        "tone": "Angry concern, then relief and guarded suspicion",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:009",
+      "sourceFingerprint": "1a47b7fe9755c47a59365ace94585c4281ea2334ff4b214d2fab8deba9580957",
+      "canonicalEnglish": "Welda: Let's go! To Zajil's military station!",
+      "context": {
+        "speaker": "As identified in canonical script and RE-confirmed caller header",
+        "listener": "Party; Joe’s aside is private",
+        "intent": "Discuss the culprit and kidnapping, express relief, plan return and rest",
+        "tone": "Angry concern, then relief and guarded suspicion",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:010",
+      "sourceFingerprint": "46c9b9f933cf0f3ab57dee5ed95a4316b0205c203d376b341a811847c9fdcbc3",
+      "canonicalEnglish": "Shoko: There was a moment when I didn't know what would happen to me. Thank you, everyone.",
+      "context": {
+        "speaker": "As identified in canonical script and RE-confirmed caller header",
+        "listener": "Party; Joe’s aside is private",
+        "intent": "Discuss the culprit and kidnapping, express relief, plan return and rest",
+        "tone": "Angry concern, then relief and guarded suspicion",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:011",
+      "sourceFingerprint": "b51427132d65efd53d7dc2386475b8cb555372c6ca9f5f4152db4cf9a32c639a",
+      "canonicalEnglish": "Joe: Still, if Zolias was involved in the girl's kidnapping...\nShoko: Then it really was Dad...\nJoe: That's the most likely explanation.\nSion: Whatever happened, I'm just glad Shoko's safe.\nJoe: But how the hell does he know what we're doing?\nWelda: What?! Stop whispering! You lot don't happen to have any ideas about this, do you?\nJoe: (Hah! Even if I knew something, I wouldn't tell you.)\nWelda: Huh? Did you say something?\nJoe: No. Must be your imagination.",
+      "context": {
+        "speaker": "As identified in canonical script and RE-confirmed caller header",
+        "listener": "Party; Joe’s aside is private",
+        "intent": "Discuss the culprit and kidnapping, express relief, plan return and rest",
+        "tone": "Angry concern, then relief and guarded suspicion",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:081000:012",
+      "sourceFingerprint": "189129a239c4ac1c96dc6eeb89bb1ae85b05002957eb0aee79f7c476603fe8f1",
+      "canonicalEnglish": "Welda: Well, the mission's finished. Let's head back to CS Station.",
+      "context": {
+        "speaker": "As identified in canonical script and RE-confirmed caller header",
+        "listener": "Party; Joe’s aside is private",
+        "intent": "Discuss the culprit and kidnapping, express relief, plan return and rest",
+        "tone": "Angry concern, then relief and guarded suspicion",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:05b000:036",
+      "sourceFingerprint": "3947046046342bcec9df4ca7f5585f991aae4a684408302f9e8c880cde6648a5",
+      "canonicalEnglish": "Shoko: Sion, wake up. It's morning!\nSion: Mmm... mumble... I wanted to sleep a little longer.",
+      "context": {
+        "speaker": "As identified in canonical script and RE-confirmed caller header",
+        "listener": "Party; Joe’s aside is private",
+        "intent": "Discuss the culprit and kidnapping, express relief, plan return and rest",
+        "tone": "Angry concern, then relief and guarded suspicion",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

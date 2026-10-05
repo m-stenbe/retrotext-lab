@@ -1,0 +1,320 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "spaceport-travelers",
+    "spaceport-joes-ship-lead"
+  ],
+  "records": [
+    {
+      "id": "script:054000:003",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "CLERK",
+        "t003": "SORRY. THIS\nCOUNTER IS\nCLOSED."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:006",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "DAMN! 3 DAYS\nIN LINE, ON\nSTANDBY!"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:007",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "MISS THE MARS\nFLIGHT? WAIT\n3 MORE DAYS!"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:008",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t003": "BAD LUCK!\nSTUCK HERE."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls.",
+        "The short complaint omits the contemptuous description of this planet; bad luck and being stranded remain."
+      ]
+    },
+    {
+      "id": "script:054000:009",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "GOD, PLEASE!\nLET ME BUY\nA TICKET!"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:010",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "PLEASE!\nHURRY UP!"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:011",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "WYURIAN",
+        "t003": "WHY MUST I\nWAIT IN LINE?"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:012",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": "SIGH... NO\nTICKET AGAIN."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:013",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "EVEN STANDBY\nIS A DREAM."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:014",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "WYURIAN WOMAN",
+        "t003": "HE WILL GET\nMY TICKET."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:015",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "TO ROAM SPACE\nFREELY, I NEED\nMY OWN SHIP."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:016",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "IF MY HUSBAND\nLIVED, WE'D\nTOUR IN OUR\nSHIP"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:017",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "YOUTH",
+        "t003": "ARGH!"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:018",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "WYURIAN WOMAN",
+        "t003": "WYULTRIA IS\nWISPERARD'S\nFINEST PLANET"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:019",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "YOUTH",
+        "t003": "WOW! MY FIRST\nSPACESHIP TRIP"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:020",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": "CALM DOWN BRO!\nWE LOOK LIKE\nHICKS!"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:021",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "I'VE EARNED\nENOUGH. I'LL\nRETIRE ON MARS"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:022",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "I WED\nTHE RIGHT MAN"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:023",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "YOUTH",
+        "t003": "I'LL MAKE IT\nBIG OUT THERE!"
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:024",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "WYURIAN",
+        "t003": "ROAMING IS\nPART OF AN\nOUTLAW'S JOB."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls.",
+        "Omits the explicit lack of a destination; preserves wandering as part of outlaw work."
+      ]
+    },
+    {
+      "id": "script:054000:025",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "CLERK",
+        "t003": "NO HAZARDOUS\nGOODS ABOARD."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:026",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "CLERK",
+        "t003": "JOIN THE LINE.\nNO CUTTING IN."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:027",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t001": "CLERK"
+      },
+      "notes": [
+        "Shared speaker-only dispatcher; composed with033/034."
+      ]
+    },
+    {
+      "id": "script:054000:033",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t000": "BUY A TICKET\nTO USE THE\nSPACE BUS.",
+        "t002": "\nTRAVEL SAFELY."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:034",
+      "basedOn": "e9d5f005b69e3bae3e17df293b7c963493203e3490a4a4cd66326cccfff640ac",
+      "inGameEnglish": {
+        "t000": "NO ENTRY\nWITHOUT A\nTICKET."
+      },
+      "notes": [
+        "Preserves the source intent within the existing speaker and text controls."
+      ]
+    },
+    {
+      "id": "script:054000:029",
+      "basedOn": "94a3c8a617b2a3a3e0bfedaf3b040f7bb8b139979aec6308e14a9fa218f637e4",
+      "inGameEnglish": {
+        "t006": "NO TICKETS\nWITH THAT LINE",
+        "t012": "BWAHAHA!\nNO CHOICE!",
+        "t015": "NOT DONE YET,\nBUT WE'LL USE\nMY OWN SHIP!",
+        "t021": "WHAT? ",
+        "t023": "'S\nSPACESHIP?!",
+        "t029": "NOT MADE OF\nSCRAP, IS IT?",
+        "t035": [
+          "RELAX. I BUILT\nHER MYSELF!",
+          "BEST SHIP IN\nTHE MARS\nFEDERATION!"
+        ],
+        "t041": "ARE YOU SURE?",
+        "t047": "BUILT FROM\nSCRAP, YES.",
+        "t049": "\nBUT WE CAN'T\nBE CHOOSY.",
+        "t056": ", WHERE IS\nYOUR SPACESHIP",
+        "t062": "WELL, ",
+        "t064": [
+          "?\nWANT A RIDE?",
+          "SHE ISN'T\nHERE, THOUGH."
+        ],
+        "t070": "WHAT? WHERE,\nTHEN...?",
+        "t076": "I HID HER IN\nAN OLD MINE\nNORTH OF HERE.",
+        "t082": "OF COURSE IT\nISN'T EASY...",
+        "t088": "HM? ",
+        "t090": ",\nSAY SOMETHING?",
+        "t096": "NO, NOTHING.",
+        "t098": "\nLET'S EXPLORE\nTHE MINE!"
+      },
+      "notes": [
+        "Scrap-built admission follows the boast. Continued pages preserve the Federation comparison and mine direction. Fixed name substitutions are retained without duplicating names.",
+        "Omits Joe explicitly saying he was reluctant to use the unfinished ship. Sion's internal aside retains the resigned thought, but unsupported parentheses are omitted in game."
+      ]
+    }
+  ]
+}

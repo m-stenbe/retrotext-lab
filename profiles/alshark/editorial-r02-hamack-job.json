@@ -1,0 +1,190 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Luna localization proposal, R02",
+  "scenes": [
+    {
+      "id": "hamack-inventory-job",
+      "records": [
+        "script:052000:072",
+        "script:052000:073",
+        "script:052000:057",
+        "script:051000:027",
+        "script:051000:022",
+        "script:051000:023"
+      ],
+      "participants": [
+        "Sion",
+        "Karu",
+        "Shoko",
+        "Hamack residents"
+      ],
+      "location": "Hamack street and shop.",
+      "storyState": "The party is gathering information in Hamack; if the job branch is active, Sion and Karu can help with inventory.",
+      "purpose": "Translate the complete early inventory-job offer, refusal, acceptance, and later job-ending dialogue.",
+      "previousContext": [
+        "The party has arrived in Hamack and can speak to a young woman offering inventory work."
+      ],
+      "followingContext": [
+        "The accept branch reaches a short shop-clerk sequence; other job records are later conditional interactions."
+      ],
+      "branchAlternatives": [
+        "052000:072 is the offer; 057 responds to declining, while 051000:027 resolves acceptance. 073 is a conditional alternative line. 051000:022 and 023 are distinct conditional job outcomes, not adjacent stages."
+      ],
+      "terminology": [],
+      "evidence": [
+        "Fresh replay decoded text and RE-confirmed job branch closure."
+      ],
+      "uncertainty": [
+        "The employer/shop identity is not named in the cited dialogue."
+      ],
+      "notes": [
+        "Control-only dispatcher 052000:058 is not given a canonical line."
+      ],
+      "reviewNote": "Re-read the whole offer, acceptance, refusal, repeat and dismissal alternatives against source after the 2026-09-24 playtest. The woman sorts stock as a part-time job and asks for help; preserve the distinction between no-pay dismissal and the 200-credit outcome."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:052000:072",
+      "sourceFingerprint": "782e841ed68c0f1cf2ac397419d3a6f2f130f43babb35124fc1576eed8750841",
+      "canonicalEnglish": "Young Woman: I have a part-time job sorting stock, but it’s a lot to handle alone... Say, could you give me a hand?",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Sion / player party",
+        "intent": "Offers the party part-time work organizing inventory.",
+        "tone": "Friendly and slightly overwhelmed.",
+        "terminology": [],
+        "uncertainty": [
+          "The task is inventory organization; no employer or exact pay terms are stated here."
+        ],
+        "notes": [
+          "Connected to the conditional inventory-work branch in Hamack."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:073",
+      "sourceFingerprint": "1cd736221c5db3a7a1876d0702e2a54283d9406439603ab0da0535bda4e427ca",
+      "canonicalEnglish": "Young Woman: I may look busy, but sometimes I’m actually free.",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Sion / player party",
+        "intent": "Ambient alternate line when her job offer is unavailable.",
+        "tone": "Light, conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "This is an alternative response, not a continuation of the job offer."
+        ],
+        "notes": [
+          "Connected to the conditional inventory-work branch in Hamack."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:052000:057",
+      "sourceFingerprint": "4e437ddcf54a3f6ed624dbc3a9477e4ddb43be62033a94acf1f9e6deb6107722",
+      "canonicalEnglish": "Young Woman: Aw, darn! I was going to pay you generously for the part-time work.",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Sion / player party",
+        "intent": "Responds to a refusal by lamenting that she meant to offer generous part-time wages.",
+        "tone": "Disappointed, casual.",
+        "terminology": [],
+        "uncertainty": [
+          "No precise wage or work schedule is stated."
+        ],
+        "notes": [
+          "Connected to the conditional inventory-work branch in Hamack."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:027",
+      "sourceFingerprint": "b4fc2bda175257a455283f812f248dbe4ba60b04178c11900b409e76f5b35a39",
+      "canonicalEnglish": "Sion: OK! Leave it to me!\nShoko: Honestly, Sion is weak around girls. Karu, what will you do?\nKaru: I’ll work with Sion.\nShoko: All right, I suppose I’ll wait at the hotel. Make sure you earn plenty!\nNarration: And so, Sion became a shop clerk.",
+      "context": {
+        "speaker": "Mixed party / narration",
+        "listener": "Sion, Karu, Joe, Shoko",
+        "intent": "Resolves acceptance of the inventory job: Karu volunteers, Shoko waits at the hotel, and Sion/Karu work as clerks.",
+        "tone": "Supportive, teasing, and practical.",
+        "terminology": [],
+        "uncertainty": [
+          "The source identifies the pair as shop clerks; it does not name the employer or shop."
+        ],
+        "notes": [
+          "Connected to the conditional inventory-work branch in Hamack."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:022",
+      "sourceFingerprint": "87d49e519125c05d31f3768c3ae061ac91ed4f4007b13fd63b869ff0ec7cdb03",
+      "canonicalEnglish": "Shop Woman: I’m sorry, but I only need people who can work seriously.\nShop Woman: I’m afraid I have to let you go.\nShop Woman: I can’t pay you any wages, either.",
+      "context": {
+        "speaker": "Shop Woman",
+        "listener": "Sion / player party",
+        "intent": "A later conditional job interaction dismisses the worker and says no wages can be paid.",
+        "tone": "Formal but apologetic.",
+        "terminology": [],
+        "uncertainty": [
+          "The source says she cannot pay wages; it does not specify a raise or explain why the worker is unsuitable."
+        ],
+        "notes": [
+          "Connected to the conditional inventory-work branch in Hamack."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:051000:023",
+      "sourceFingerprint": "20d4f3152212cbb46c1457c43d492c91589b0f30c4d05b145eb65c6a031f9271",
+      "canonicalEnglish": "Shop Woman: Good work.\nShop Woman: This is sudden, but we’re fully staffed now, so we don’t need you anymore.\nShop Woman: I’ve added a little extra to your pay, so please accept it.\nNarration: You received 200 credits.",
+      "context": {
+        "speaker": "Shop Woman / narration",
+        "listener": "Sion / player party",
+        "intent": "Ends a job after staffing needs change and awards 200 credits.",
+        "tone": "Apologetic and appreciative.",
+        "terminology": [],
+        "uncertainty": [
+          "The source says staffing is now sufficient; it gives no duration of employment or breakdown of the bonus."
+        ],
+        "notes": [
+          "Connected to the conditional inventory-work branch in Hamack."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

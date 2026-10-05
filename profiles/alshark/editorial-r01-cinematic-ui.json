@@ -1,0 +1,975 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "Codex manager source/context review, R01",
+  "scenes": [
+    {
+      "id": "r01-item-ability-names",
+      "records": [
+        "item-name:shirt",
+        "item-name:protector",
+        "item-name:camp-kit",
+        "ability-name:11",
+        "ability-name:12",
+        "ability-name:13",
+        "ability-name:14",
+        "ability-name:15",
+        "ability-name:16",
+        "ability-name:17",
+        "ability-name:18",
+        "ability-name:19",
+        "ability-name:20",
+        "ability-name:21",
+        "ability-name:54",
+        "ability-name:57",
+        "ability-name:58"
+      ],
+      "participants": [
+        "Player / game interface"
+      ],
+      "location": "Opening, Cosma and meteor route",
+      "storyState": "First playable section.",
+      "purpose": "Required first-section equipment and every class 3/4 learned ability name.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [],
+      "evidence": [
+        "Original source spans and existing menu table records; R01 source coverage audit."
+      ],
+      "uncertainty": [
+        "Runtime display and event path checks remain pending."
+      ],
+      "notes": [],
+      "reviewNote": "Read Japanese source and its UI/cinematic context, reviewed the full connected English and adapted separately with explicit storage/runtime constraints."
+    },
+    {
+      "id": "meteor-cinematic",
+      "records": [
+        "cinematic:meteor"
+      ],
+      "participants": [
+        "Player / game interface"
+      ],
+      "location": "Opening, Cosma and meteor route",
+      "storyState": "First playable section.",
+      "purpose": "The complete confrontation between arrival and Jido's aftermath.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [],
+      "evidence": [
+        "Original source spans and existing menu table records; R01 source coverage audit."
+      ],
+      "uncertainty": [
+        "Runtime display and event path checks remain pending."
+      ],
+      "notes": [],
+      "reviewNote": "Read Japanese source and its UI/cinematic context, reviewed the full connected English and adapted separately with explicit storage/runtime constraints."
+    },
+    {
+      "id": "r01-interface-gaps",
+      "records": [
+        "ui:Opening:00421c",
+        "ui:Opening:004268",
+        "ui:Opening:0045e2",
+        "ui:Opening:00461e",
+        "ui:Opening:004662",
+        "ui:Opening:00466b",
+        "ui:Opening:00467b",
+        "ui:Opening:0046a6",
+        "ui:Opening:0046c4",
+        "ui:Opening:0046d7",
+        "ui:System:001d5e",
+        "ui:System:001d86",
+        "ui:System:001d99",
+        "ui:System:001e47",
+        "ui:System:001e50",
+        "ui:System:001ed2",
+        "ui:System:001ebc",
+        "fixed:System:001fd8"
+      ],
+      "participants": [
+        "Player / game interface"
+      ],
+      "location": "Opening, Cosma and meteor route",
+      "storyState": "First playable section.",
+      "purpose": "Item actions/capacity, battle/field ability headings, escape/weight errors, learning an ability and full disk-format interaction.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [],
+      "terminology": [],
+      "evidence": [
+        "Original source spans and existing menu table records; R01 source coverage audit."
+      ],
+      "uncertainty": [
+        "Runtime display and event path checks remain pending."
+      ],
+      "notes": [],
+      "reviewNote": "Read Japanese source and its UI/cinematic context, reviewed the full connected English and adapted separately with explicit storage/runtime constraints."
+    }
+  ],
+  "records": [
+    {
+      "id": "item-name:shirt",
+      "sourceFingerprint": "0d76b3a4f8f91bcd3820a88c92f0b8d9fea5b1e94074480f33521d611f76da59",
+      "canonicalEnglish": "Shirt",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "equipment.shirt"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter."
+        ]
+      },
+      "findings": [
+        "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "item-name:protector",
+      "sourceFingerprint": "cd7a939d5988ed38f93c383a24b28f3366e83dd7a2e7caf85be2aefaede5fbea",
+      "canonicalEnglish": "{item.protector}",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter."
+        ]
+      },
+      "findings": [
+        "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "item-name:camp-kit",
+      "sourceFingerprint": "2fa1b19bffb99deb19053cbc93f84da81a9544b2375659273140737e6a179517",
+      "canonicalEnglish": "Camp Kit",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter."
+        ]
+      },
+      "findings": [
+        "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:11",
+      "sourceFingerprint": "54458573a2726ff39f1a3c4f534623526582178ddcc82618176c85d7b130fe10",
+      "canonicalEnglish": "Healing",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.healing"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "HEAL is a natural concise ability label; effect magnitude, resource and targeting unverified. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "HEAL is a natural concise ability label; effect magnitude, resource and targeting unverified. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:12",
+      "sourceFingerprint": "af2a9482539a76dd468d1557334c1169dc63c6b485f138be5b165e5fc9702db0",
+      "canonicalEnglish": "Sleep",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.sleep"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:13",
+      "sourceFingerprint": "d92b0cb21907307ce0d351981a68835d17ce60d452ec5f5a4f19722c2ad79416",
+      "canonicalEnglish": "Telekinesis",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.telekinesis"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Full name needs verified relocation; do not substitute an invented lifting or damage effect. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Full name needs verified relocation; do not substitute an invented lifting or damage effect. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:14",
+      "sourceFingerprint": "f8d25cb5a924ae5a86ac0aa3e69b92f58690109cc5c001994aa0e0e4dc074189",
+      "canonicalEnglish": "Illusion",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.illusion"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:15",
+      "sourceFingerprint": "3724d4e021d6952b5c11b41a87188967a2e49edc98550e8d2d320cc3fed916ef",
+      "canonicalEnglish": "Heat",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.heat"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:16",
+      "sourceFingerprint": "f448a20391df38362250cd7a4c21f789790000423c1129d8c9e52c1b96190e9f",
+      "canonicalEnglish": "Freeze",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.freeze"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:17",
+      "sourceFingerprint": "5a8b1607c2b878f447db3848deed48151b322b788b09017b858df266a6c5cbb8",
+      "canonicalEnglish": "Thunderbolt",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.thunderbolt"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "THUNDER omits bolt from the compound name; retains the named lightning phenomenon without inventing mechanics. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "THUNDER omits bolt from the compound name; retains the named lightning phenomenon without inventing mechanics. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:18",
+      "sourceFingerprint": "e8e3a9cd33652fcd855da64d01ef6187dd8d445066105ff6fff0d6ee4c138cab",
+      "canonicalEnglish": "Dimension",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.dimension"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Full name requires verified relocation; no known effect justifies inventing another name. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Full name requires verified relocation; no known effect justifies inventing another name. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:19",
+      "sourceFingerprint": "bb2927c5dbcd9a4a6a706973df77215719eb025ad7eb7ae0ae7d96a5d3cb4fbf",
+      "canonicalEnglish": "Quake",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.quake"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Full name requires one extra byte; do not truncate to QUAK. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Full name requires one extra byte; do not truncate to QUAK. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:20",
+      "sourceFingerprint": "ab29939b5cbba2e7153e5960142f89fab720e02e9633db43c975843aaebc6578",
+      "canonicalEnglish": "Mind Storm",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.mind_storm"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "MINDSTORM concatenates the compound for a readable ability label. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "MINDSTORM concatenates the compound for a readable ability label. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:21",
+      "sourceFingerprint": "7db3add054ca269b9d6dbc53d38709184308e5879466820e09cb46d0e7ced0eb",
+      "canonicalEnglish": "Cure",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.cure"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:54",
+      "sourceFingerprint": "a3de2172e38a349af4bb17c8a0953f4be58d7acb57d9a28e4fc4f785a6f70cc9",
+      "canonicalEnglish": "Teleport",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.teleport"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "WARP is a conventional concise synonym for teleport; exact destination restrictions unverified. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "WARP is a conventional concise synonym for teleport; exact destination restrictions unverified. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:57",
+      "sourceFingerprint": "ab7e3d3bcee2d5be98fbcaf4d8cbc65f1201a049d782796c12eb6f8a517c7092",
+      "canonicalEnglish": "Location",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.location"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Source Location has an unresolved gameplay function. LOCATE is a provisional generic verb label, with no invented target such as items or enemies. Targeting, cost, potency and actual runtime acquisition not verified. Location effect unresolved. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Source Location has an unresolved gameplay function. LOCATE is a provisional generic verb label, with no invented target such as items or enemies. Targeting, cost, potency and actual runtime acquisition not verified. Location effect unresolved. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ability-name:58",
+      "sourceFingerprint": "417f9a1e831542378557333970da2a67e5d08867ad6218917aaab73652079ce8",
+      "canonicalEnglish": "Invisible",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [
+          "ability.invisible"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+        ]
+      },
+      "findings": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "cinematic:meteor",
+      "sourceFingerprint": "84b1d2ad3e05c8e371e63603bd61a2b60374bde00a9d4f995651c5b2bf6f2e73",
+      "canonicalEnglish": "The canyon's meteor crash site lay silent. Sion and Shoko hid behind the rocks\nand watched. The survey team, including both their fathers, should have been\nthere. But alongside the team's jet hovercraft, an unfamiliar spacecraft had\nlanded.\n\n**Shoko:** What's that? A Federation military ship? I've never seen that type before.\n\n**Sion:** No way. That's a Zolias Empire combat craft!\n\n**Shoko:** Zolias...? What are they doing here?!\n\n**Sion:** Shh! Someone's coming out.\n\nThe spacecraft's ramp opened silently. The two watched with bated breath.\n\n**Shoko:** Father... Sion! They've captured our fathers!\n\n**Sion:** Quiet! If they spot us, we'll be captured too.\n\n**Shoko:** But... Sion, can't we do something? If we leave them like this,\nyour father will be killed too!\n\n**Sion:** Calm down, Shoko. We don't know that they're going to kill them.\n\n**Shoko:** But...\n\nA gunshot suddenly rang out. Startled, the two turned back. Seizing a momentary\nlapse in the soldiers' attention, Jido and the others had attacked the Zolias\ncommander. Jido struck the commander hard in the forehead, sending him sprawling.\nDr. Penrose rushed in to seize the gun in his hand. But the moment the doctor\ntouched it, something happened.\n\n**Dr. Penrose:** Aaaaaargh!\n\n**Jido:** Mamon!\n\n**Jido:** Mamon... Are you all right...?\n\n**Dr. Penrose:** ...Hmph. Not bad...\n\n**Jido:** Hey, Mamon! What's wrong?\n\n**Dr. Penrose:** ...Kill them!\n\nThree merciless gunshots echoed through the canyon. Sion and Shoko could not\neven cry out. Dr. Penrose, now seemingly an entirely different person, barked an\norder.\n\n**Dr. Penrose:** Hurry! Alshark can't have gone far!",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Complete 74-span adaptation reviewed independently against the original Japanese. All timing/animation/page controls preserved. Full-width Latin is required by this interpreter."
+        ]
+      },
+      "findings": [
+        "Complete 74-span adaptation reviewed independently against the original Japanese. All timing/animation/page controls preserved. Full-width Latin is required by this interpreter."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00421c",
+      "sourceFingerprint": "062185bf4c80340517832d5d501675b851d5d36db06df2e334a8a5b86edadb61",
+      "canonicalEnglish": "Create a User Disk. Insert a blank disk into drive 2, then press any key.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004268",
+      "sourceFingerprint": "f6e767da32c2143d467679f3de5c30f88384e38ce67ec77b7aa662e81eb335dc",
+      "canonicalEnglish": "Creating the User Disk. Please wait.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0045e2",
+      "sourceFingerprint": "cd2668f8151720fe3d8eabd02c4ff0cf56badf65b87d5ef26edccfcc91c8b2d4",
+      "canonicalEnglish": "This disk is write-protected. Press any key when ready.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00461e",
+      "sourceFingerprint": "1140c8f3ef803f435f10c3b66afc495128e5c0382fbbccbcce2f3871145e4f5d",
+      "canonicalEnglish": "Formatting failed.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:004662",
+      "sourceFingerprint": "93a35c6eee1143e7a3ec01b8493d6ae70d7d062a46273d4b819ab80a03bd1cc2",
+      "canonicalEnglish": "Use\nDiscard",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00466b",
+      "sourceFingerprint": "ffa073eb365f371c927557591c01d99e1c3e80a6a3c3d9b515158d6dc4562a05",
+      "canonicalEnglish": "Use\nDiscard\nDisassemble",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. PART is the four-cell label for disassembly; only this optional menu label is shortened."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. PART is the four-cell label for disassembly; only this optional menu label is shortened."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:00467b",
+      "sourceFingerprint": "4ac32c97647d0508afc41b53914dcc9400a9e31df597b97559a176c1a6b0135b",
+      "canonicalEnglish": "Your inventory is full. You cannot remove the equipment.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0046a6",
+      "sourceFingerprint": "8b9cc91cc2b675faff85922240faebd79c539b08b41c0729678d4a18d1e9d0dc",
+      "canonicalEnglish": "You cannot use that item here.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0046c4",
+      "sourceFingerprint": "24a265bca0c5fad14f57433c826c7a4e097810202da2048ed287ec71e9387672",
+      "canonicalEnglish": "Using it has no effect.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:Opening:0046d7",
+      "sourceFingerprint": "873ca17f36037257acceecee47905b2cd6df318a585cc97fd34bdeae5c6adc48",
+      "canonicalEnglish": "That item cannot be discarded.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001d5e",
+      "sourceFingerprint": "397acac9479f9a493ca58fc95fc749ec831dd7d2ec00b96950792e7a0f273625",
+      "canonicalEnglish": "Your inventory is full!",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001d86",
+      "sourceFingerprint": "1be323287fe66a4d7f955941da3f21fd5c465fc2199aa67f87f115be6fcdcd7f",
+      "canonicalEnglish": "Battle abilities",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001d99",
+      "sourceFingerprint": "47a59cd24e0c021efbefb10e016470a973f1fbfd41a15da89589ff52482e9d5d",
+      "canonicalEnglish": "Field abilities",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001e47",
+      "sourceFingerprint": "4f451df269bd62f3d71df0962d75928995ba999dcfefa0be3ff45a5cdc845235",
+      "canonicalEnglish": "Discard {item}.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. Confirmation follows the selected DROP action; retains item reference and question, omitting the repeated verb."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. Confirmation follows the selected DROP action; retains item reference and question, omitting the repeated verb."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001e50",
+      "sourceFingerprint": "1b81fed08c1507be32b1ca117fe04ff2240c0472172e9b74eacb2013421ef02e",
+      "canonicalEnglish": "Are you sure?",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001ed2",
+      "sourceFingerprint": "f95f1def9fe7e171d49b5c097c1b60402ed229951adadc8009d391cf588d635a",
+      "canonicalEnglish": "Failed to escape from battle.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. FAILED appears only in the escape-failure context; the action is supplied by the FLEE selection."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. FAILED appears only in the escape-failure context; the action is supplied by the FLEE selection."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001ebc",
+      "sourceFingerprint": "d244ae0089f372941178ea567774c6433baa2ee2fe080d974716a2c986a4d141",
+      "canonicalEnglish": "The right-hand weapon is too heavy.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "fixed:System:001fd8",
+      "sourceFingerprint": "792d66474c68aa0202e0ff615a194ad2cf7c0447dfeae7e08b025ca22ca8cd24",
+      "canonicalEnglish": "You also learned {ability}.",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Provide the complete first-section story or interface action.",
+        "tone": "Clear UI / source-grounded narrative.",
+        "terminology": [],
+        "uncertainty": [],
+        "notes": [
+          "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. Runtime ability operand and byte offsets remain unchanged; fixed-text encoding fills original spans without shifting controls."
+        ]
+      },
+      "findings": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. Runtime ability operand and byte offsets remain unchanged; fixed-text encoding fills original spans without shifting controls."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

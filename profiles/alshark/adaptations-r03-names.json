@@ -1,0 +1,32 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r03-route-location-labels"
+  ],
+  "records": [
+    {
+      "id": "r03-location:1",
+      "basedOn": "b977a3543df86a77c06a619fbda9bffc00389864693897df751b88ee64850ae9",
+      "inGameEnglish": "BRIDGE",
+      "notes": [
+        "BRIDGE names the same ship control room within six available cells; canonical retains Cockpit."
+      ]
+    },
+    {
+      "id": "r03-location:42",
+      "basedOn": "b977a3543df86a77c06a619fbda9bffc00389864693897df751b88ee64850ae9",
+      "inGameEnglish": "HOM PORT",
+      "notes": [
+        "HOM PORT abbreviates Spaceport within eight available cells; preserves Hom."
+      ]
+    },
+    {
+      "id": "r03-location:96",
+      "basedOn": "b977a3543df86a77c06a619fbda9bffc00389864693897df751b88ee64850ae9",
+      "inGameEnglish": "MINE",
+      "notes": [
+        "MINE omits Abandoned within five available cells; surrounding dialogue retains the full destination."
+      ]
+    }
+  ]
+}

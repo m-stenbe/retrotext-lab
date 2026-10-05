@@ -1,0 +1,16 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r09-daina-location-label"
+  ],
+  "records": [
+    {
+      "id": "r09-location:71",
+      "basedOn": "ea7ddeaff65d0735752587e0fead67223a2293601207507c879f327fca5d2537",
+      "inGameEnglish": "DAINA",
+      "notes": [
+        "Existing provisional spelling; full label retained."
+      ]
+    }
+  ]
+}

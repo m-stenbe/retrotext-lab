@@ -91,22 +91,44 @@ def encode_translation(text):
     return bytes(result)
 
 
-def rebuild_entry(original, edited):
+def translation_pages(value):
+    """Explicit pages only; arbitrary script bytes remain unrepresentable."""
+    if (not isinstance(value, list) or len(value) < 2
+            or any(not isinstance(page, str) or not page.strip() for page in value)):
+        raise ValueError('Extra pages require at least two nonempty text strings')
+    return value
+
+
+def rebuild_entry(original, edited, *, allow_pages=False, allow_narration_pages=False,
+                  preserve_narration=False):
     """Immutable commands and source metadata; text changes stay in allocation."""
     expected = decode_entry(original)
     if len(expected) != len(edited):
         raise ValueError('Token list changed')
     parts = []
+    from profiles.alshark.r04_pages import advance_colour, page_separator
+    from profiles.alshark.playtest_narration import encode_text
+    colour = 'default'
     for source, token in zip(expected, edited):
+        colour = advance_colour(colour, source)
         candidate = dict(token)
         translation = candidate.get('translation')
         if source['kind'] == 'text':
             candidate['translation'] = None
         if candidate != source:
             raise ValueError('Only translation fields may be edited')
-        parts.append(encode_translation(translation)
-                     if source['kind'] == 'text' and translation is not None
-                     else bytes.fromhex(source['raw']))
+        if source['kind'] == 'text' and isinstance(translation, list):
+            if not allow_pages:
+                raise ValueError('Extra pages require the reviewed adaptation compiler')
+            # Existing wait and body-clear opcodes; no original control is removed
+            # or changed. Original allocation/tail checks below remain mandatory.
+            separator = page_separator(colour) if allow_narration_pages else b'0_'
+            parts.append(separator.join(encode_text(page, colour, preserve_narration=preserve_narration)
+                                   for page in translation_pages(translation)))
+        else:
+            parts.append(encode_text(translation, colour, preserve_narration=preserve_narration)
+                         if source['kind'] == 'text' and translation is not None
+                         else bytes.fromhex(source['raw']))
     result = b''.join(parts)
     if len(result) > len(original):
         raise ValueError(f'Entry needs {len(result)} bytes; allocation is {len(original)}')

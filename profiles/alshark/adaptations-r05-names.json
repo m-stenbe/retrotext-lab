@@ -1,0 +1,64 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r05-map-and-ability-labels"
+  ],
+  "records": [
+    {
+      "id": "r05-location:9",
+      "basedOn": "8aff9e39d5a2ac163e78b6bce70d8fe2ae48432eaa7acf3c2ac9305e907da8f0",
+      "inGameEnglish": "ZAJIL",
+      "notes": [
+        "Planet qualifier stays canonical; the map title is centered in its original twelve-cell field."
+      ]
+    },
+    {
+      "id": "r05-location:41",
+      "basedOn": "8aff9e39d5a2ac163e78b6bce70d8fe2ae48432eaa7acf3c2ac9305e907da8f0",
+      "inGameEnglish": "ZAJIL PORT",
+      "notes": [
+        "Spaceport shortened to PORT in the original map-title allocation."
+      ]
+    },
+    {
+      "id": "r05-location:50",
+      "basedOn": "8aff9e39d5a2ac163e78b6bce70d8fe2ae48432eaa7acf3c2ac9305e907da8f0",
+      "inGameEnglish": "PORKIN",
+      "notes": [
+        "Source-based provisional town spelling."
+      ]
+    },
+    {
+      "id": "r05-location:53",
+      "basedOn": "8aff9e39d5a2ac163e78b6bce70d8fe2ae48432eaa7acf3c2ac9305e907da8f0",
+      "inGameEnglish": "SAIBAL",
+      "notes": [
+        "Retains established source-based town spelling."
+      ]
+    },
+    {
+      "id": "r05-ability:25",
+      "basedOn": "8aff9e39d5a2ac163e78b6bce70d8fe2ae48432eaa7acf3c2ac9305e907da8f0",
+      "inGameEnglish": "MINDHEAL",
+      "notes": [
+        "Eight-cell abbreviation; all three original aliases retained."
+      ]
+    },
+    {
+      "id": "r05-ability:26",
+      "basedOn": "8aff9e39d5a2ac163e78b6bce70d8fe2ae48432eaa7acf3c2ac9305e907da8f0",
+      "inGameEnglish": "MINDATK",
+      "notes": [
+        "Eight-cell field abbreviates Attack as ATK."
+      ]
+    },
+    {
+      "id": "r05-ability:61",
+      "basedOn": "8aff9e39d5a2ac163e78b6bce70d8fe2ae48432eaa7acf3c2ac9305e907da8f0",
+      "inGameEnglish": "MINDHEAL",
+      "notes": [
+        "Field ability retains its distinct source record and all three original aliases."
+      ]
+    }
+  ]
+}

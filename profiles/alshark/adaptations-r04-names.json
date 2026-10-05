@@ -1,0 +1,40 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r04-character-and-location-labels"
+  ],
+  "records": [
+    {
+      "id": "name:8",
+      "basedOn": "4a31f5f89324d958a76a286a94a846e51db43c9985804a0f0e0101ecbdec366a",
+      "inGameEnglish": "WELDA",
+      "notes": [
+        "Provisional given-name spelling from original shared name8."
+      ]
+    },
+    {
+      "id": "name:9",
+      "basedOn": "4a31f5f89324d958a76a286a94a846e51db43c9985804a0f0e0101ecbdec366a",
+      "inGameEnglish": "WELDA",
+      "notes": [
+        "Full name remains canonical; in-game full-name slot shares WELDA, following earlier party-name adaptation conventions. Station dialogue retains Muretts where spoken."
+      ]
+    },
+    {
+      "id": "r04-location:30",
+      "basedOn": "4a31f5f89324d958a76a286a94a846e51db43c9985804a0f0e0101ecbdec366a",
+      "inGameEnglish": "CS STN",
+      "notes": [
+        "Abbreviates Station as STN to preserve the original CS identifier and location prefix within its ten-byte allocation."
+      ]
+    },
+    {
+      "id": "r04-location:104",
+      "basedOn": "4a31f5f89324d958a76a286a94a846e51db43c9985804a0f0e0101ecbdec366a",
+      "inGameEnglish": "SHIP",
+      "notes": [
+        "Shortens generic Ship Interior to SHIP; preserves both prefix spaces and all22 original map-title aliases."
+      ]
+    }
+  ]
+}

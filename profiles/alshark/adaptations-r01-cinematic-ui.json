@@ -1,0 +1,749 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r01-item-ability-names",
+    "meteor-cinematic",
+    "r01-interface-gaps",
+    "ui-menus-and-messages",
+    "ui-battle-results",
+    "reference-shared-names"
+  ],
+  "records": [
+    {
+      "id": "item-name:shirt",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "SHIRT",
+      "notes": [
+        "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter."
+      ]
+    },
+    {
+      "id": "item-name:protector",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "PROTECTR",
+      "notes": [
+        "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter.",
+        "2026-09-24 icon-list fit: PROTECTR is the eight-cell display abbreviation; canonical Protector is unchanged."
+      ]
+    },
+    {
+      "id": "item-name:camp-kit",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "CAMP KIT",
+      "notes": [
+        "Explicit working item label; no unverified equipment type, recovery value or mechanics inferred. Pointer aliases are preserved by the coordinated name adapter."
+      ]
+    },
+    {
+      "id": "ability-name:11",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "HEAL",
+      "notes": [
+        "HEAL is a natural concise ability label; effect magnitude, resource and targeting unverified. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:12",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "SLEEP",
+      "notes": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:13",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "TELEKIN",
+      "notes": [
+        "Full name needs verified relocation; do not substitute an invented lifting or damage effect. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:14",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "ILLUSION",
+      "notes": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:15",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "HEAT",
+      "notes": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:16",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "FREEZE",
+      "notes": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:17",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "THUNDER",
+      "notes": [
+        "THUNDER omits bolt from the compound name; retains the named lightning phenomenon without inventing mechanics. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:18",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "DIMENS",
+      "notes": [
+        "Full name requires verified relocation; no known effect justifies inventing another name. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:19",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "QUAKE",
+      "notes": [
+        "Full name requires one extra byte; do not truncate to QUAK. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:20",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "MINDSTRM",
+      "notes": [
+        "MINDSTORM concatenates the compound for a readable ability label. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:21",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "CURE",
+      "notes": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:54",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "WARP",
+      "notes": [
+        "WARP is a conventional concise synonym for teleport; exact destination restrictions unverified. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:57",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "LOCATE",
+      "notes": [
+        "Source Location has an unresolved gameplay function. LOCATE is a provisional generic verb label, with no invented target such as items or enemies. Targeting, cost, potency and actual runtime acquisition not verified. Location effect unresolved. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "ability-name:58",
+      "basedOn": "e02992405f053ba75ef792c95a37e9eae5d6f97bf81eecccdd359e078fbf1c45",
+      "inGameEnglish": "INVIS",
+      "notes": [
+        "Conventional English rendering of source ability name; no gameplay effect added. Targeting, cost, potency and actual runtime acquisition not verified. The learned-name field permits eight cells; TELEKIN, DIMENS, MINDSTRM and INVIS are explicit display abbreviations of the complete canonical names."
+      ]
+    },
+    {
+      "id": "cinematic:meteor",
+      "basedOn": "f9d5f2dd019dd051c8be96003d727cb2728dae6785d558fc5c837034bbd4db16",
+      "inGameEnglish": {
+        "t004": "The meteor crash site",
+        "t006": "lay silent in the canyon.",
+        "t009": "Sion and Shoko watched",
+        "t011": "from behind the rocks.",
+        "t014": "Their fathers and the",
+        "t016": "survey team should have  been there.",
+        "t019": "Beside the team's jet    hovercraft, an unfamiliar spacecraft had landed.",
+        "t034": "SHOKO",
+        "t037": "What's that ship?",
+        "t039": "Federation military?",
+        "t042": "I've never seen that     type.",
+        "t047": "SION",
+        "t050": "No way.",
+        "t052": "That's a Zolias Empire   combat craft!",
+        "t057": "SHOKO",
+        "t061": "Zolias...?",
+        "t064": "What are they doing      here?!",
+        "t069": "SION",
+        "t073": "Shh! Someone's coming    out.",
+        "t083": "The spacecraft's ramp    opened silently.",
+        "t088": "The two watched with     bated breath.",
+        "t109": "SHOKO",
+        "t112": "Father...",
+        "t115": "Sion!",
+        "t117": " They've captured   our fathers!",
+        "t122": "SION",
+        "t126": "",
+        "t128": "Quiet!",
+        "t130": " ",
+        "t133": "If they spot us, they'll capture us too!",
+        "t138": "SHOKO",
+        "t142": "But... But...",
+        "t145": "Sion! Can't we help?",
+        "t148": "If we leave them here,",
+        "t150": "your dad gets killed too",
+        "t155": "SION",
+        "t158": "Calm down, Shoko.",
+        "t161": "We don't know that       they're going to kill    them.",
+        "t166": "SHOKO",
+        "t169": "But...",
+        "t176": "A gunshot rang out.      Startled, the two turned back.",
+        "t181": "The soldiers let their   guard down.",
+        "t183": "Jido and the others      seized the chance to     attack their commander.",
+        "t189": "Jido struck him hard",
+        "t191": "in the forehead!",
+        "t196": "The Zolias commander     fell.",
+        "t199": "Dr. Penrose rushed in",
+        "t201": "to seize his gun.",
+        "t205": "But the moment Dr.       Penrose touched the gun, something happened!",
+        "t215": "DR. PENROSE",
+        "t219": "Aaaaaargh!",
+        "t226": "JIDO",
+        "t229": "",
+        "t231": "Mamon!!",
+        "t240": "JIDO",
+        "t244": "Mamon... Are you all     right...?",
+        "t249": "DR. PENROSE",
+        "t253": "......",
+        "t256": "Hmph.",
+        "t258": " Not bad...",
+        "t268": "JIDO",
+        "t272": "Hey, Mamon!",
+        "t276": " What's       wrong?!",
+        "t283": "DR. PENROSE",
+        "t286": "...",
+        "t289": "Kill them!",
+        "t296": "     ",
+        "t298": "  ",
+        "t301": "Three merciless gunshots echoed through the       canyon.",
+        "t304": "Sion and Shoko could not even cry out.",
+        "t308": "Dr. Penrose, now         seemingly a different    person, barked an order.",
+        "t312": "DR. PENROSE",
+        "t316": "Hurry!",
+        "t319": "Alshark can't have gone  far!"
+      },
+      "notes": [
+        "Complete 74-span adaptation reviewed independently against the original Japanese. All timing/animation/page controls preserved. Full-width Latin is required by this interpreter.",
+        "2026-09-24 screenshots confirm the 25-column renderer wraps individual glyphs, not words. English word boundaries now use explicit padding spaces; original animation, wait, line and clear controls remain unchanged."
+      ]
+    },
+    {
+      "id": "ui:Opening:00421c",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "MAKE USER DISK\nBLANK IN DRV 2\nPRESS ANY KEY",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:Opening:004268",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "MAKING DISK.\nPLEASE WAIT.",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:Opening:0045e2",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "WRITE PROTECTED\nWHEN READY,\nPRESS ANY KEY",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:Opening:00461e",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "FORMAT FAILED",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:Opening:004662",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "USE\nDROP",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:Opening:00466b",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "USE\nDROP\nPART",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. PART is the four-cell label for disassembly; only this optional menu label is shortened."
+      ]
+    },
+    {
+      "id": "ui:Opening:00467b",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "PACK FULL.\nCANNOT UNEQUIP.",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:Opening:0046a6",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "CANNOT USE\nTHAT ITEM HERE.",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:Opening:0046c4",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "NO EFFECT!",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:Opening:0046d7",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "CAN'T DROP IT!",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:System:001d5e",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "PACK FULL",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:System:001d86",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "BATTLE",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:System:001d99",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "FIELD",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:System:001e47",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "?",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. Confirmation follows the selected DROP action; retains item reference and question, omitting the repeated verb."
+      ]
+    },
+    {
+      "id": "ui:System:001e50",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "SURE?",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "ui:System:001ed2",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "FAILED",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. FAILED appears only in the escape-failure context; the action is supplied by the FLEE selection."
+      ]
+    },
+    {
+      "id": "ui:System:001ebc",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": "TOO HEAVY.",
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields."
+      ]
+    },
+    {
+      "id": "fixed:System:001fd8",
+      "basedOn": "1da8a10861cd300d651805463aede293788e39b95c39fe623e71db7ac9b7d283",
+      "inGameEnglish": {
+        "t000": "LEARNED\n     ",
+        "t002": "\nAS WELL."
+      },
+      "notes": [
+        "Menu strings retain their original row count and box geometry through guarded resident relocation. Fixed strings retain original allocation and dynamic fields. Runtime ability operand and byte offsets remain unchanged; fixed-text encoding fills original spans without shifting controls."
+      ]
+    },
+    {
+      "id": "ui:Opening:00414d",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "DATA\nSTATUS\nITEMS\nPARTY\nEQUIP\nSKILLS\nSYSTEM",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:004158",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "STATUS\nITEMS\nPARTY\nEQUIP\nSKILLS\nSYSTEM",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:004294",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "DONE. DATA DISK\nIN DRIVE 2\nPRESS ANY KEY",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:0042d5",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "SYSTEM\nSAVE\nLOAD\nTEXT\nFORMAT",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:004306",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "SAVE USER DISK\nDRIVE 2\nPRESS KEY",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:004348",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "LOAD USER DISK\nDRIVE 2\nPRESS KEY",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:0043f8",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "ATTACK\nSKILLS\nITEMS\nEQUIP\nSTATUS\nFLEE",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:004637",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "SPEED\nFAST\nNORMAL\nSLOW",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:0046ec",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "NO GEAR\nTO EQUIP",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:004aec",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "NO GEAR\nTO EQUIP",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:0048af",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "YES\nNO",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:0048b6",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "TALK\nROW",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:00470c",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "START",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:00471b",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "LOAD",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:004b0c",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "START",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:Opening:004b1b",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "LOAD",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:001d72",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "WHO?",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:001d7c",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "WHO?",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:001dac",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "ORDER",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:001db7",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "REORDER",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:001dc7",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "NEW ORDER\n1\n2\n3\n4\n5",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:001e2b",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": " ",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:001e2f",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "CANNOT USE.",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations.",
+        "CANNOT USE. retains inability, not absence. The abilities-menu context supplies the omitted object; caller B25A..B266 positions this suffix on its own line."
+      ]
+    },
+    {
+      "id": "ui:System:001e98",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "NO ITEMS.",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:0107aa",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "KNIFE",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:010875",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "GUN",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:010b74",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "MEDS",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:011329",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "PLANET HOM",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "ui:System:011723",
+      "basedOn": "1f3cc4e542f7a4ab889c7c32c8310ff80991d3c2558c9d5f1ed8038ecd4c813c",
+      "inGameEnglish": "SAXEN CANYON",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "fixed:System:001edf",
+      "basedOn": "9c6861f89adfdebbb77b1d04d1f57f43e5fdde1a859cfab11f4ff6ae420527ae",
+      "inGameEnglish": {
+        "t000": "PARTY GAINS\nEXP   ",
+        "t004": "\nCREDITS ",
+        "t008": "\nSCRAP   ",
+        "t012": "\nGAINED."
+      },
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "fixed:System:001f28",
+      "basedOn": "9c6861f89adfdebbb77b1d04d1f57f43e5fdde1a859cfab11f4ff6ae420527ae",
+      "inGameEnglish": {
+        "t001": "LEVEL UP!!",
+        "t006": "\nPP   ",
+        "t008": " PTS\nMP  ",
+        "t010": " PTS\nIQ  ",
+        "t012": " PTS\n",
+        "t025": " PTS\nL",
+        "t035": " PTS\nA",
+        "t041": " PTS\nD",
+        "t047": " PTS\nSTATS IMPROVED"
+      },
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:0",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "SION",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:1",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "SION",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:2",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "SHOKO",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:3",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "SHOKO",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:4",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "KARU",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:6",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "JOE",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:7",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "JOE",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:12",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "LUCIA",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:13",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "LUCIA",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:14",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "MAMON",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:15",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "MAMON",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:16",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "JIDO",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    },
+    {
+      "id": "name:81",
+      "basedOn": "d1c6daea377f4f6177805e313bd8aacb3cfe5992afa83a52b4ac9e0821cd090f",
+      "inGameEnglish": "COSMA",
+      "notes": [
+        "Compared with complete canonical UI/result intent; adopts the existing reviewed short labels, with original dynamic fields preserved. Location qualifiers remain in canonical text; the current short area labels are explicit fitting abbreviations."
+      ]
+    }
+  ]
+}

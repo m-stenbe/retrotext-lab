@@ -1,0 +1,61 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R09 original-source Daina location review",
+  "scenes": [
+    {
+      "id": "r09-daina-location-label",
+      "records": [
+        "r09-location:71"
+      ],
+      "participants": [],
+      "location": "Daina",
+      "storyState": "Sea crossing to Daina",
+      "purpose": "Name the destination on the map",
+      "previousContext": [
+        "Lucia requests a meeting at Daina."
+      ],
+      "followingContext": [
+        "Explore Daina and the memorial."
+      ],
+      "branchAlternatives": [],
+      "terminology": [
+        "place.daina"
+      ],
+      "evidence": [
+        "Source-guarded map71 location label and existing bible Daina spelling."
+      ],
+      "uncertainty": [
+        "Romanization remains provisional."
+      ],
+      "notes": [],
+      "reviewNote": "Read original label against established source-backed Daina spelling and route context."
+    }
+  ],
+  "records": [
+    {
+      "id": "r09-location:71",
+      "sourceFingerprint": "59c1dc7ba5b0ddaec9c09a2cba56058341911747f771c15fa192e67ae7af192c",
+      "canonicalEnglish": "Daina",
+      "context": {
+        "speaker": null,
+        "listener": null,
+        "intent": "Location identification",
+        "tone": "Neutral label",
+        "terminology": [
+          "place.daina"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

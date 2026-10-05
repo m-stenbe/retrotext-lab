@@ -1,0 +1,638 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Luna localization proposal, R02",
+  "scenes": [
+    {
+      "id": "hamack-underground-bar",
+      "records": [
+        "script:053000:001",
+        "script:053000:002",
+        "script:053000:003",
+        "script:053000:004",
+        "script:053000:005",
+        "script:053000:006",
+        "script:053000:007",
+        "script:053000:008",
+        "script:053000:009",
+        "script:053000:010",
+        "script:053000:011",
+        "script:053000:012",
+        "script:053000:014",
+        "script:053000:015",
+        "script:053000:016",
+        "script:053000:017",
+        "script:053000:018",
+        "script:053000:019",
+        "script:053000:020",
+        "script:053000:021",
+        "script:053000:023",
+        "script:053000:024"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Karu",
+        "Hamack bar patrons"
+      ],
+      "location": "Hamack entrance area of the shared underground bar.",
+      "storyState": "The party is seeking Joe and information about Lucia; the informant can point them toward the spaceport and Mars.",
+      "purpose": "Translate the R02-accessible Hamack section of the shared underground bar, including its rumor lead and conditional responses.",
+      "previousContext": [
+        "The party has entered Hamack and learned that the underground bar may have information."
+      ],
+      "followingContext": [
+        "The informant’s paid lead points toward the spaceport and a possible Mars destination."
+      ],
+      "branchAlternatives": [
+        "These are separate patrons and alternate responses, not a linear conversation. Entries 020/021/023/024 are parts of conditional information-for-money interaction."
+      ],
+      "terminology": [
+        "character.jaguma",
+        "character.rarawell",
+        "faction.zolias",
+        "faith.santana",
+        "people.myuntos",
+        "place.hamack",
+        "place.mars",
+        "place.ulyria"
+      ],
+      "evidence": [
+        "Fresh source replay and RE-confirmed Hamack door/coordinate partition; 001–012 and 014–024 are direct R02 region."
+      ],
+      "uncertainty": [
+        "Zorias/Ulyria and the religious group/leader spellings are provisional; retain Bible spellings when referenced.",
+        "The final rumor is hearsay, not verified destination information."
+      ],
+      "notes": [
+        "The map is shared by several towns; this packet includes only the Hamack-accessible region."
+      ],
+      "reviewNote": "Checked each source text token and the reachable Hamack bar region. Preserve the separation of distinct patrons, and keep the spaceport/Mars statement as rumor."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:053000:001",
+      "sourceFingerprint": "f33d2653a4d3be3d100de13fb28581e713541756e9a500024587613df3dae521",
+      "canonicalEnglish": "Sion was captivated by a dancer putting on a flashy performance onstage.",
+      "context": {
+        "speaker": "Narration",
+        "listener": "Sion and companions",
+        "intent": "Narrates Sion being captivated by a dancer performing onstage.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:002",
+      "sourceFingerprint": "7984beb57f3635a8a01fa0daedd85b5b74c8aeca4f2305be981d3a45a5f9e0e7",
+      "canonicalEnglish": "Whether they're Zolias or Ulyrians, it makes no difference to us.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack",
+          "faction.zolias",
+          "place.ulyria"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:003",
+      "sourceFingerprint": "56b2e5622c26ced3932975699eab6c2da99a64fc96df6608b16cd12db14cbd69",
+      "canonicalEnglish": "What, staring at me like I'm some curiosity? Never seen a cyborg before?!",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:004",
+      "sourceFingerprint": "a5ddd1baba5b3932159187c842c6e1030d22293b4aeec23d77fbd096db8d2496",
+      "canonicalEnglish": "If you're looking for an informant, ask the woman drinking at that table.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:005",
+      "sourceFingerprint": "67cd6efcf8e87d5ccd8c6c908d0c66521ae794825c0d32d585987a7b42dfe87c",
+      "canonicalEnglish": "Oh my! Is there something on my face?",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:006",
+      "sourceFingerprint": "f6598ac885bd396647d0f804611c32f1839353894cee65f0b2f215f54b2340e9",
+      "canonicalEnglish": "Shut up!",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:007",
+      "sourceFingerprint": "e783a7bd7d69e0f8f56c09ae3515bff38ca194a2bc4899ce6cfb3f7ad7ddcad4",
+      "canonicalEnglish": "Mars women can be found anywhere.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack",
+          "place.mars"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:008",
+      "sourceFingerprint": "84bd842a9b5693372ec2c491bc80f640ba05e865b76ee8a3ba37423da7809ede",
+      "canonicalEnglish": "Mars punk! Don't you talk to me!",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack",
+          "place.mars"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:009",
+      "sourceFingerprint": "4765cdff3f18c2a9bfd08a3233b4642e9c79b88c8a4e30e671dc3a66c7dac670",
+      "canonicalEnglish": "Kids shouldn't come to a place like this. If you were my son, I'd slap you upside the head!",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:010",
+      "sourceFingerprint": "10ea6e2e7b14417d7ccea04ef40c659097385730a1b9fc7187b6de071ab65134",
+      "canonicalEnglish": "Most people back home have fallen under the influence of the Santana faith, which takes Lady Rarawell, Jaguma’s elder sister, as its cult leader. It’s sad.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack",
+          "faith.santana",
+          "character.rarawell",
+          "character.jaguma"
+        ],
+        "uncertainty": [
+          "The names and faction references use provisional spellings; the source does not specify the group beyond its doctrine and cult leader."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:011",
+      "sourceFingerprint": "8dbcf01e366e81c2d08f1f55a573655d8271dd211f843d9e62b886c55f99a0c6",
+      "canonicalEnglish": "If you want a drink on Hom, this underground bar is the place.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:012",
+      "sourceFingerprint": "1d61814451b65dbf82abeac377b1cf99e68c496cca0f982b0e2c4e0429c0a5ea",
+      "canonicalEnglish": "So you mean Scrap Joe, the number-one mechanic on Mars? He shows up here now and then.",
+      "context": {
+        "speaker": "Hamack resident speaking about Scrap Joe",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack",
+          "place.mars"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:014",
+      "sourceFingerprint": "3628caf00e14e70399bd214ce82990ee5f89b17e43ff9463f34e5224ee36a736",
+      "canonicalEnglish": "Oh, so you're looking for an informant, young man?",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:015",
+      "sourceFingerprint": "96d3f0f222b3324afc4ee5cd33c726fa4f1cd92a008deaffa6409ba609cb590e",
+      "canonicalEnglish": "...I suppose so.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:016",
+      "sourceFingerprint": "70a874b6ce1ca829ae9af77bbef621184be73d3bfd3893e1a913b4a5be4faa16",
+      "canonicalEnglish": "Only Myuntos people make a living as informants.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack",
+          "people.myuntos"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:017",
+      "sourceFingerprint": "087941c35c5794437bd4d16751923025e54849d7c79fc6c447169f86d7eba2f8",
+      "canonicalEnglish": "Huh? I'm not an informant!",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:018",
+      "sourceFingerprint": "a57ded81e96b1ac72c186ad233f567429c8a757cf1f1a5cfab71bdbdb216a2b5",
+      "canonicalEnglish": "Bartender: Long time no see, Joe. What will you have today?\nJoe: No, I’ll pass today.",
+      "context": {
+        "speaker": "Bartender and Joe",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:019",
+      "sourceFingerprint": "b387a8a932f43eb3c113ae98b0ce32f08fd0d049b0d6f16b8b5e26dbead73586",
+      "canonicalEnglish": "Hah! I've got nothing to teach a brat like you!",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:020",
+      "sourceFingerprint": "e48b5d0dfdd1f7a4312ba5493c7ce936117f2918ae6e222a14adf67c0a93e133",
+      "canonicalEnglish": "Everything's about money! I don't give things away for free. Will you pay?",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:021",
+      "sourceFingerprint": "faacc3c63449fd0e72a14cd3e39a8a9333421723c79dc5bc8db3af4dd6a7b307",
+      "canonicalEnglish": "Come back later!",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:023",
+      "sourceFingerprint": "3d89cc1c7739833afc8a02423c44503956a330bf9246a9d3b4e302ebed95905c",
+      "canonicalEnglish": "Well, I suppose I'll let you off with that much.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:024",
+      "sourceFingerprint": "afd4582e90cfcd2dca7e0723e6625b5803790b328a0c2ab04d7efeeb4521e42d",
+      "canonicalEnglish": "If it's the woman you're looking for, someone saw her heading to the spaceport. Maybe she boarded a ship bound for Mars.",
+      "context": {
+        "speaker": "Hamack bar patrons / informant",
+        "listener": "Sion and companions",
+        "intent": "Optional conversation in the Hamack section of the underground bar; information dialogue culminates in a paid lead to the spaceport.",
+        "tone": "Varies by speaker; blunt, conversational, or suspicious.",
+        "terminology": [
+          "place.hamack",
+          "place.mars"
+        ],
+        "uncertainty": [
+          "Character identities and several ethnic references remain provisional where source does not establish them."
+        ],
+        "notes": [
+          "The source is a set of separate map interactions and conditional responses, not one continuous conversation."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

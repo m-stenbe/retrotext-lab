@@ -1,0 +1,304 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "atraia-distress-boarding",
+    "civilian-craft-rescue"
+  ],
+  "records": [
+    {
+      "id": "script:054000:032",
+      "basedOn": "4a465c589bdf3df017d2092a712eae127e8e923c1d5c2663fda5107dbbbf8ff0",
+      "inGameEnglish": {
+        "t004": " SAT DOWN.\n",
+        "t006": "THE SHIP ALARM\n",
+        "t008": "SHRIEKED!",
+        "t016": "! A\nDISTRESS\nSIGNAL!",
+        "t023": "MARS CIVILIAN\nSHIP. ON\nRADAR. ON\nSCREEN NOW.",
+        "t029": "A DISABLED\n",
+        "t031": "CIVILIAN SHIP.\n",
+        "t033": "HIDDEN BEHIND\nIT, ",
+        "t035": "DOCKED...",
+        "t042": "THAT SHIP!",
+        "t049": [
+          "UNCLE JOE! THE\nZOLIAS SHIP!\nTHEY KILLED\nDAD AND THE",
+          "OTHERS!"
+        ],
+        "t055": "DAD MUST BE\nABOARD TOO.",
+        "t062": "WHAT?! YOU TWO\nARE SURE?",
+        "t068": "I'D KNOW IT\nBEYOND THE\nGRAVE!",
+        "t074": "RIGHT!! ZOLIAS\nOR NOT, I'LL\nSCRAP THE LOT\nOF THEM!",
+        "t077": "LET'S GO,\n",
+        "t079": "!",
+        "t084": " STRAPPED\nON A ",
+        "t086": "BIG\nCYLINDER. ",
+        "t088": "\nAND ",
+        "t091": [
+          " GOT",
+          "GUNS."
+        ],
+        "t098": "! DOCK\nQUIETLY. STAY\nOUT OF SIGHT!",
+        "t105": "ROGER!",
+        "t110": " AND ",
+        "t112": "\nTOOK ",
+        "t114": "'S\nGUNS ",
+        "t116": "AND\nBOARDED ",
+        "t118": [
+          "THE",
+          "CIVILIAN SHIP."
+        ]
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Opening alarm loses the exact moment of sitting and its shipwide extent. Karu identification omits explicit code wording, retained in canonical English. The final narration omits readying the guns; boarding and Joe supplying them remain.",
+        "2026-09-24 fitting: small punctuation/acknowledgement adjustment pays for restoring narration attributes after line breaks; canonical meaning is unchanged."
+      ]
+    },
+    {
+      "id": "script:055000:002",
+      "basedOn": "29398aeb94f5f417040484db3b5fec03df550854667d48d05439f37bdd21137a",
+      "inGameEnglish": {
+        "t003": "STAY SHARP,\nYOU TWO.\nENEMIES DUE\nSOON."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "The teasing our friends becomes enemies in the constrained warning; both young listeners and imminent threat remain."
+      ]
+    },
+    {
+      "id": "script:055000:001",
+      "basedOn": "29398aeb94f5f417040484db3b5fec03df550854667d48d05439f37bdd21137a",
+      "inGameEnglish": {
+        "t002": "VOICES ",
+        "t004": "THROUGH\nTHE WALL.",
+        "t010": "HE'S NOT HERE!\nNOT HERE\nEITHER!",
+        "t014": "SHAYNA",
+        "t016": "WHO ARE YOU\nPEOPLE?!",
+        "t020": "ZOLIAS SOLDIER",
+        "t022": "GAL... NO,\nLORD ",
+        "t024": [
+          ".\nYOU SEEM LESS\nSHARP IN THAT",
+          "MARTIAN\nFORM..."
+        ],
+        "t030": "UNKIND... LET\nUS GO.",
+        "t034": "SHAYNA",
+        "t036": "ANSWER ME!",
+        "t039": [
+          "MY DAD RUNS\nPERFECT\nTECHNICAL,\nMARS",
+          "FEDERATION'S\nTOP ARMS\nMAKER! SHOW\nRESPECT!"
+        ],
+        "t043": "ZOLIAS SOLDIER",
+        "t045": "QUIET, BRAT!\nDIE!"
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "The faintness of the voices is omitted. Gal... no, Lord retains the interrupted name and self-correction; the identity is not resolved."
+      ]
+    },
+    {
+      "id": "script:055000:004",
+      "basedOn": "29398aeb94f5f417040484db3b5fec03df550854667d48d05439f37bdd21137a",
+      "inGameEnglish": {
+        "t008": "YOU! ",
+        "t010": "!\nWHAT THE HELL\nIS THIS?",
+        "t013": "I MAY NOT\nFORGIVE YOU,\nEVEN YOU!\nEXPLAIN!",
+        "t023": " TURNED\nSLOWLY TO ",
+        "t025": ".\n",
+        "t027": "HE SEEMED TO\n",
+        "t029": [
+          "SEARCH HIS",
+          "MEMORY FOR\nTHAT FACE. "
+        ],
+        "t031": "HIS\nEYES ",
+        "t033": "GLINTED\nODDLY.",
+        "t039": "OH, IT IS ",
+        "t041": ".\nAS SHABBY AS\nEVER.",
+        "t047": "DAD... WHAT\nHAPPENED?",
+        "t052": " FACED\n",
+        "t055": ". ",
+        "t057": "\nEMERGED ",
+        "t059": "BEHIND\nJOE, ",
+        "t061": "ANXIOUS.",
+        "t067": "AH, ",
+        "t069": ". MY\nDEAR ",
+        "t071": ".",
+        "t074": [
+          "DADDY CANNOT\nCOME HOME FOR\nA WHILE. I\nHAVE A VITAL",
+          "MISSION."
+        ],
+        "t077": "DEAR ",
+        "t079": ".\nYOU\nUNDERSTAND?",
+        "t085": "DAD... IS IT\nREALLY YOU?",
+        "t092": "...",
+        "t098": "... ",
+        "t100": [
+          ", I AM\nSORRY. YOUR\nFATHER AND THE\nOTHERS",
+          "OBSTRUCTED MY\nMISSION. THEY\nHAD TO DIE."
+        ],
+        "t103": "WHAT IS A MERE\nBODY NEXT TO\nMY GREAT\nMISSION...?",
+        "t109": "S... SHUT UP!!",
+        "t113": "! WHAT\nHAPPENED? ",
+        "t115": [
+          "\nAND US! BEST\nFRIENDS! ARE",
+          "YOU MAD?"
+        ],
+        "t121": "I AM QUITE\nSANE, ",
+        "t123": ". MY\nWILL IS NOW\nABSOLUTE.",
+        "t128": "SHAYNA",
+        "t130": [
+          "STOP BABBLING!\nIF YOU CAME TO\nSAVE ME, GET\nRID OF THESE",
+          "MEN!"
+        ],
+        "t136": "IF... IF YOU\nKILLED ",
+        "t138": "...\nI'LL NEVER\nFORGIVE YOU!!",
+        "t143": " STARTED TO\nAIM AT ",
+        "t146": ".\n",
+        "t148": "ZOLIAS GUNS\n",
+        "t150": [
+          "BEAT HIM TO",
+          "IT."
+        ],
+        "t158": [
+          "... YOU\nTOO? YOU WOULD\nHINDER ME?\nTHEN I",
+          "MUST...?!"
+        ],
+        "t163": "A CRASH! THE\nSHIP ",
+        "t165": "SHOOK.\nEVERYONE\n",
+        "t167": "STAGGERED.",
+        "t177": "THE AIRLOCK\nBLEW! ",
+        "t179": "A WOMAN\nENTERED.",
+        "t185": "TWO BLOND\nTAILS FLEW\n",
+        "t187": "BEHIND HER. ",
+        "t189": [
+          "A\nFUSION REACTOR",
+          "ON HER RIGHT\nSHOULDER\n"
+        ],
+        "t191": "WHINED ",
+        "t193": "SOFTLY.",
+        "t200": "HMPH. NOT BAD.",
+        "t207": "ZOLIAS TROOPS!\nWHAT ARE YOU\nDOING HERE?!",
+        "t211": "HER PRESENCE\n",
+        "t213": "MADE ",
+        "t215": "\nRECOIL.",
+        "t221": "ZOLIAS SOLDIER",
+        "t223": "EASY. KEEP\nTHAT GUN DOWN.",
+        "t227": "BEFORE ",
+        "t229": "\nCOULD ACT, ",
+        "t231": "A\nSOLDIER HELD\nSHAYNA. ",
+        "t233": [
+          "HIS",
+          "GUN PRESSED\n"
+        ],
+        "t235": "AGAINST HER\nTHROAT.",
+        "t242": "YOU CAN'T BE\nSERIOUS...",
+        "t249": [
+          "PARDON US,\nFEDERATION\nMISS. OUR WORK\nIS DONE. WE",
+          "WILL LEAVE."
+        ],
+        "t255": " AND TWO\nTROOPS ",
+        "t257": "BACKED\nAWAY, USING\n",
+        "t259": [
+          "SHAYNA AS A",
+          "SHIELD."
+        ],
+        "t269": "STOP RIGHT\nTHERE!!",
+        "t277": "A SINGLE\nGUNSHOT!",
+        "t286": "K... ",
+        "t288": "!!",
+        "t292": "HORROR! ",
+        "t294": "HE HAD\nFOLLOWED ",
+        "t296": ".\nNOW ",
+        "t299": [
+          "'S\nHEAD WAS SHOT",
+          "OFF BY "
+        ],
+        "t301": "A\nSOLDIER!",
+        "t305": "IN A FLASH,\n",
+        "t308": " SHOT ",
+        "t311": "THE\nHOSTAGE\nTAKER'S ARM.",
+        "t316": "SHAYNA",
+        "t318": "AAH!!",
+        "t322": "JUST AS FAST,\n",
+        "t325": " AND BOTH\n",
+        "t327": "SOLDIERS\nMOVED.",
+        "t331": "THEY SHOVED\nSHAYNA AT\n",
+        "t333": ". ",
+        "t335": [
+          "THEY\nRAN INTO THE",
+          "AIRLOCK. "
+        ],
+        "t337": "IT\nHISSED. ",
+        "t340": "OVER\nTHE SOUND,\n",
+        "t342": "",
+        "t344": " CALLED.",
+        "t352": "! INTERFERE\nAGAIN AND NEXT\nTIME YOU DIE!",
+        "t359": "GET BACK\nHERE!!",
+        "t366": "AS ",
+        "t368": "\nREACHED ",
+        "t370": "THE\nAIRLOCK, ",
+        "t373": [
+          "THE\nENEMY SHIP",
+          "UNDOCKED."
+        ],
+        "t380": "TCH. TOO LATE\nTO CATCH\nTHEM...",
+        "t385": " MUTTERED\nTO HERSELF,\n",
+        "t387": "THEN HELPED\n",
+        "t389": "SHAYNA UP.",
+        "t394": " SAW ",
+        "t396": "\nBESIDE SHAYNA.\n",
+        "t398": "SO HUGE! ",
+        "t400": "WELL\nOVER ",
+        "t402": [
+          "TWO",
+          "METERS TALL."
+        ],
+        "t407": "SHAYNA",
+        "t409": "THANK YOU...",
+        "t413": "SHAYNA BLUSHED\n",
+        "t415": [
+          "AND THANKED",
+          "HER. "
+        ],
+        "t418": "\nFACED ",
+        "t420": " AND\n",
+        "t422": "THE OTHERS.",
+        "t429": [
+          "WHO ARE YOU?\nYOUR SHIP,\nYOUR GUNS...\nCIVILIANS?",
+          "SPACE PIRATES?"
+        ],
+        "t435": "FROM HOM, ",
+        "t437": "!\nTHAT IS ME!",
+        "t442": " STEPPED UP\n",
+        "t444": "AND GAVE HIS\nNAME. ",
+        "t447": [
+          "\nHAD NEVER",
+          "HEARD OF HIM."
+        ],
+        "t453": "WHAT? WELL, I\nCANNOT IGNORE\nA SHIP WITH NO\nID CODE.",
+        "t456": "FOLLOW MY\nPATROL SHIP TO\nTHE CHAUSNOMYU\nSTATION.",
+        "t462": "...NO CHOICE,\nTHEN.",
+        "t466": "SHAYNA",
+        "t468": "UM, WHAT ABOUT\nME?",
+        "t474": [
+          "COME ON MY\nSHIP FOR NOW.\nI CALLED HQ. A\nRESCUE TEAM",
+          "SHOULD COME."
+        ],
+        "t480": "SO, ",
+        "t482": " AND\nFRIENDS ",
+        "t484": "WERE\nESCORTED UNDER\nDURESS ",
+        "t486": [
+          "TO THE",
+          "COSMIC HAWK\n"
+        ],
+        "t488": "STATION."
+      },
+      "notes": [
+        "Separate adaptation of the reviewed canonical scene. Explicit continuation pages preserve the original colour and commands.",
+        "Narration compresses the memory comparison to the face, omitting the separate figure reference; Shoko remains anxious behind Joe.",
+        "The shoulder-mounted fusion reactor and twin blond hair tails remain; miniature size and explicit turbine mechanism are omitted.",
+        "Gunfight narration keeps the hostage, throat gun, arm shot, Karu following and head destruction; exact split-second comparisons are compressed.",
+        "Escape narration compresses circling, hydraulic pressure and the reassuring-self quality of Welda’s mutter; destination and coerced escort remain.",
+        "Joe’s boast and unknown reputation remain; civilian suspicion retains the ship, guns and space-pirate question."
+      ]
+    }
+  ]
+}

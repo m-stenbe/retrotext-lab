@@ -1,0 +1,119 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Astra manager UI review; independent GPT-6 Sol QA pending",
+  "scenes": [
+    {
+      "id": "r02-joe-disassembly-ui",
+      "records": [
+        "ui:System:001e5b",
+        "ui:System:001e63",
+        "ui:System:001e6e"
+      ],
+      "participants": [
+        "Joe"
+      ],
+      "location": "Resident item disassembly confirmation window",
+      "storyState": "Joe is available to dismantle items into scrap.",
+      "purpose": "Translate the Joe heading, confirmation and item-to-scrap result without covering runtime fields.",
+      "previousContext": [],
+      "followingContext": [],
+      "branchAlternatives": [
+        "Existing yes/no selection and cancellation remain unchanged."
+      ],
+      "terminology": [
+        "character.joe"
+      ],
+      "evidence": [
+        "docs/r02-resident-ui.md: exact string loads, renderer and item/amount drawing coordinates."
+      ],
+      "uncertainty": [
+        "Runtime disassembly transition and display have not been exercised."
+      ],
+      "notes": [
+        "Manager-authored UI supplement discovered by independent Sol QA."
+      ],
+      "reviewNote": "Compared the three original strings, inspected their connected window and runtime field writes, then reviewed the English heading, scrap confirmation and result template as one interaction."
+    }
+  ],
+  "records": [
+    {
+      "id": "ui:System:001e5b",
+      "sourceFingerprint": "3f94a9674c7e38b67c5489f4489ff61321c0d03c4607cf0ec2e704e7eec82e50",
+      "canonicalEnglish": "Joe",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Confirm dismantling the selected item into the displayed amount of scrap.",
+        "tone": "Clear concise interface.",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Nine item cells and five amount cells are reserved; no amount or item name is hardcoded."
+        ]
+      },
+      "findings": [
+        "Reviewed original resident UI; compact uppercase encoding uses the guarded existing renderer."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001e63",
+      "sourceFingerprint": "18509149ab88dcb6e290cfdc59289127f5e981ee40c8610dbaaca9bfe1d4e497",
+      "canonicalEnglish": "Disassemble?",
+      "context": {
+        "speaker": null,
+        "listener": "Player",
+        "intent": "Confirm dismantling the selected item into the displayed amount of scrap.",
+        "tone": "Clear concise interface.",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Nine item cells and five amount cells are reserved; no amount or item name is hardcoded."
+        ]
+      },
+      "findings": [
+        "Reviewed original resident UI; compact uppercase encoding uses the guarded existing renderer."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "ui:System:001e6e",
+      "sourceFingerprint": "1d344aa20ac13c5a18ee1816fbc2caf38acddc434cab51460226d9227054bcf6",
+      "canonicalEnglish": "Disassembling [item] yields [amount] scrap.",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Player",
+        "intent": "Confirm dismantling the selected item into the displayed amount of scrap.",
+        "tone": "Clear concise interface.",
+        "terminology": [
+          "character.joe"
+        ],
+        "uncertainty": [],
+        "notes": [
+          "Nine item cells and five amount cells are reserved; no amount or item name is hardcoded."
+        ]
+      },
+      "findings": [
+        "Reviewed original resident UI; compact uppercase encoding uses the guarded existing renderer."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

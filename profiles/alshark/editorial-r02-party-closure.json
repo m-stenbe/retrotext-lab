@@ -1,0 +1,418 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Luna localization proposal, R02",
+  "scenes": [
+    {
+      "id": "r02-party-closure-and-remaining-labels",
+      "records": [
+        "script:053000:026",
+        "script:053000:035",
+        "script:053000:036",
+        "script:053000:037",
+        "script:054000:035",
+        "script:082000:011",
+        "script:082000:012",
+        "script:082000:013",
+        "script:082000:017",
+        "script:082000:018",
+        "script:082000:019",
+        "script:082000:020",
+        "script:082000:021",
+        "script:082000:022",
+        "script:082000:023"
+      ],
+      "participants": [
+        "Sion",
+        "Shoko",
+        "Karu",
+        "Joe",
+        "Hamack bar patrons"
+      ],
+      "location": "Hamack bar and post-Joe party interactions.",
+      "storyState": "After Joe joins, the party gathers the bar lead and heads toward the spaceport before Mars.",
+      "purpose": "Translate all remaining R02 required interaction headers and the connected post-Joe party TALK alternatives.",
+      "previousContext": [
+        "Joe has joined the party after Sion explained Lucia’s disappearance. The bar informant reported that Lucia may have left for Mars."
+      ],
+      "followingContext": [
+        "The party plans to check the spaceport and investigate the report."
+      ],
+      "branchAlternatives": [
+        "082000:011–013 are randomized Sion lines; 017/019 are job branch variants; 018/020 are party character remarks; 021–023 are selected after the Mars lead.",
+        "053000:035–037 are display speaker labels only."
+      ],
+      "terminology": [
+        "people.myuntos",
+        "place.mars"
+      ],
+      "evidence": [
+        "Fresh source replay and RE-confirmed post-Joe flag and party branch closure."
+      ],
+      "uncertainty": [
+        "The informant’s sighting and Mars ship destination remain hearsay.",
+        "A phrase spoken while Joe sleeps is unclear."
+      ],
+      "notes": [
+        "Speaker labels and runtime name tokens are preserved separately."
+      ],
+      "reviewNote": "Reviewed the complete token order, character assignments, and source-proven flag branches. Keep rumor uncertainty and avoid treating randomized lines as a sequence."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:053000:026",
+      "sourceFingerprint": "64856562312b8fa4cc807ee1adbfdeb9c1226405e72b05570f290de4adc19792",
+      "canonicalEnglish": "Well, it can’t be helped. Let’s try again later.",
+      "context": {
+        "speaker": "Informant / Sion",
+        "listener": "Sion / party or player",
+        "intent": "The party ends an unsuccessful interaction and plans to try again.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:035",
+      "sourceFingerprint": "1035ab0edc1c44781c60fc12444fb1143a7745d33475025c5081395a026017c7",
+      "canonicalEnglish": "Myuntos person [speaker label only]",
+      "context": {
+        "speaker": "Hamack bar patron",
+        "listener": "Sion / party or player",
+        "intent": "Speaker label only for a bar patron.",
+        "tone": "Conversational.",
+        "terminology": [
+          "people.myuntos"
+        ],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:036",
+      "sourceFingerprint": "6a576cc78f4f7899b8ccbe9d4685fd7900de1b313cb8d89b380c0051d4de6e4f",
+      "canonicalEnglish": "Bartender [speaker label only]",
+      "context": {
+        "speaker": "Bartender",
+        "listener": "Sion / party or player",
+        "intent": "Speaker label only for the bartender.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:053000:037",
+      "sourceFingerprint": "5d79f732898503136e1e58d462d9aeabd6124d65b50aa291fd0ea3ef3a780855",
+      "canonicalEnglish": "Outlaw [speaker label only]",
+      "context": {
+        "speaker": "Hamack bar patron",
+        "listener": "Sion / party or player",
+        "intent": "Speaker label only for an outlaw patron.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:054000:035",
+      "sourceFingerprint": "13e870c253fa70bac31ac3fcad3711942ddab9f0d82142bc06278beeaf0cab57",
+      "canonicalEnglish": "Joe: (Snoring and mumbling.)\nSion: Mister!\nSion: Joe! Misteeer!!!\nJoe: Huh...? Mumblemumble... Don’t need the newspaper...\nSion: This is hopeless. A little nudge won’t wake him...",
+      "context": {
+        "speaker": "Joe and Sion",
+        "listener": "Sion / party or player",
+        "intent": "Sion tries to wake a sleeping man; the man remains mostly asleep.",
+        "tone": "Comic, sleepy.",
+        "terminology": [],
+        "uncertainty": [
+          "The sleeping mumble 「ヒンブンハイラン」 plausibly says “don’t need the newspaper”; retain it as sleepy, uncertain mumbling rather than a firm statement."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:011",
+      "sourceFingerprint": "fddc2e676855e4511ffb6c53f43b1da44558ae8be940a50275df73760e9eaaee",
+      "canonicalEnglish": "Thinking it over by myself isn’t getting me anywhere.",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Sion / party or player",
+        "intent": "One random post-Joe self-talk line.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:012",
+      "sourceFingerprint": "3abbb144a8bee342ef97fa598f19e0e9a8a0444c32c41942a836d700eeddb4c3",
+      "canonicalEnglish": "I guess I’ve been talking to myself more lately.",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Sion / party or player",
+        "intent": "One random post-Joe self-talk line.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:013",
+      "sourceFingerprint": "897c6eafaebd371f59ce1f6796b2a0466b5860149d1cd6c26ccc5308a428eb64",
+      "canonicalEnglish": "Now, who should I talk to?",
+      "context": {
+        "speaker": "Sion",
+        "listener": "Sion / party or player",
+        "intent": "One random post-Joe self-talk line.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:017",
+      "sourceFingerprint": "cb0fb951cacad5e4af0576f341a13cb27aa78edf07426cf8415a2214de96bb75",
+      "canonicalEnglish": "Sion: All right, I’d better finish the job quickly, then go look for Joe.",
+      "context": {
+        "speaker": "Sion / Joe",
+        "listener": "Sion / party or player",
+        "intent": "Sion’s job-branch self-talk about finishing work and finding Joe.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:018",
+      "sourceFingerprint": "492395a886dfe5f21efc1a4534257894b1ad2efe4aaf2fedbb03b3537183219e",
+      "canonicalEnglish": "Shoko: Joe seems kind of hard to approach... But he’s an interesting person.",
+      "context": {
+        "speaker": "Shoko / Joe",
+        "listener": "Sion / party or player",
+        "intent": "Shoko reflects on Joe after meeting him.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:019",
+      "sourceFingerprint": "f214dc6901e8a045200caf34a5465ddd61400d9ee7168ba11f6c31b7b476ae7e",
+      "canonicalEnglish": "Karu: Sion, hurry and finish your work, then let’s find Joe.\nSion: Yes, yes, I know.",
+      "context": {
+        "speaker": "Karu / Sion / Joe",
+        "listener": "Sion / party or player",
+        "intent": "Karu urges Sion to finish work; Sion responds.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:020",
+      "sourceFingerprint": "0cf0033b5f7ba84dd046b4c86025c5dff3670899b443808d34178545ac4dd0f1",
+      "canonicalEnglish": "Karu: Karu wants Joe to provide an upgrade.\nJoe: Leave it to me. I’ll customize you to your limits, anytime!",
+      "context": {
+        "speaker": "Karu / Joe",
+        "listener": "Sion / party or player",
+        "intent": "Karu asks Joe for a power-up and Joe offers customization.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:021",
+      "sourceFingerprint": "c6c37e5db1d80f0ab86b714707692b736cf6728e1e5880e9ccc32c239975c954",
+      "canonicalEnglish": "Joe: I don’t know why, but Lucia seems to have headed for the spaceport.\nShoko: Did she really board a ship bound for Mars?\nJoe: Well, we’ll find out when we get there.",
+      "context": {
+        "speaker": "Joe / Shoko / Lucia",
+        "listener": "Sion / party or player",
+        "intent": "Post-informant party TALK reflects on the report that Lucia headed to the spaceport and may be on a Mars-bound ship.",
+        "tone": "Conversational.",
+        "terminology": [
+          "place.mars"
+        ],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:022",
+      "sourceFingerprint": "201d5d54dafedf20553fcc81d14a6131658783e1aaeaafef29e3d3b8fa182e4e",
+      "canonicalEnglish": "Shoko: Lucia... Why would she be heading to Mars...?",
+      "context": {
+        "speaker": "Shoko / Lucia",
+        "listener": "Sion / party or player",
+        "intent": "Shoko wonders why Lucia would go to Mars.",
+        "tone": "Conversational.",
+        "terminology": [
+          "place.mars"
+        ],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:082000:023",
+      "sourceFingerprint": "bcc1918770a984dc9a600aaf2520d85c53fb8b351a0944b806b9e38bf626e2da",
+      "canonicalEnglish": "Karu: Karu will look for Lucia. Let’s go to the spaceport.",
+      "context": {
+        "speaker": "Karu / Lucia",
+        "listener": "Sion / party or player",
+        "intent": "Karu proposes searching for Lucia at the spaceport.",
+        "tone": "Conversational.",
+        "terminology": [],
+        "uncertainty": [
+          "Optional party talk does not add new verified facts."
+        ],
+        "notes": [
+          "Reachable R02 interaction; keep flags and alternatives distinct."
+        ]
+      },
+      "findings": [],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

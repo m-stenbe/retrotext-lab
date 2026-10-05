@@ -1,0 +1,2042 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R08 manager connected Japanese/source and English editorial review",
+  "scenes": [
+    {
+      "id": "teswil-hotels-and-shops",
+      "records": [
+        "script:057000:000",
+        "script:057000:001",
+        "script:057000:002",
+        "script:057000:003",
+        "script:057000:004",
+        "script:057000:008",
+        "script:057000:010",
+        "script:057000:011",
+        "script:057000:012",
+        "script:057000:013",
+        "script:057000:023",
+        "script:057000:038",
+        "script:057000:039",
+        "script:057000:040",
+        "script:057000:041",
+        "script:057000:042",
+        "script:057000:043",
+        "script:057000:044",
+        "script:057000:045",
+        "script:057000:046",
+        "script:057000:047",
+        "script:057000:048",
+        "script:057000:049",
+        "script:057000:051",
+        "script:057000:056",
+        "script:057000:057",
+        "script:057000:058",
+        "script:057000:059",
+        "script:057000:060",
+        "script:057000:061",
+        "script:057000:062"
+      ],
+      "participants": [
+        "Mars residents, shop staff and the player party"
+      ],
+      "location": "Mars Spaceport, Teswil or its buildings",
+      "storyState": "Leave after Byuto; capital search and video letter, before sea crossing to Daina.",
+      "purpose": "Offer hotel, tools, weapons and ship parts with all refusal/repeat alternatives.",
+      "previousContext": [
+        "Roy grants leave while forbidding Atraia use."
+      ],
+      "followingContext": [
+        "Video letter points to the memorial at Daina; sea crossing begins the next section."
+      ],
+      "branchAlternatives": [
+        "Shop menus, repeat/refusal responses and hotel alternatives retain original conditions.",
+        "Optional purchases do not imply translated exploration beyond the stated mainland route."
+      ],
+      "terminology": [
+        "place.mars",
+        "place.teswil",
+        "place.begi",
+        "place.daina",
+        "region.rasha",
+        "region.wina",
+        "people.myuntos",
+        "character.wey_dumna",
+        "place.wisperard",
+        "technology.jet_hovercraft",
+        "faction.chausnomyu"
+      ],
+      "evidence": [
+        "r08_flow.py exact source commands and map roots; original entry packet; independent interior/bar collision inventory."
+      ],
+      "uncertainty": [
+        "Place and person romanizations remain provisional; runtime traversal not verified."
+      ],
+      "notes": [],
+      "reviewNote": "Read the complete original Japanese packet and connected service/branch context, then the canonical English continuously. Preserve costs, rumors versus fact, social humor and distinct speakers; fit separately with documented secondary omissions."
+    },
+    {
+      "id": "teswil-streets",
+      "records": [
+        "script:057000:005",
+        "script:057000:006",
+        "script:057000:007",
+        "script:057000:009",
+        "script:057000:014",
+        "script:057000:015",
+        "script:057000:016",
+        "script:057000:017",
+        "script:057000:018",
+        "script:057000:019",
+        "script:057000:020",
+        "script:057000:021",
+        "script:057000:022",
+        "script:057000:024",
+        "script:057000:025",
+        "script:057000:026",
+        "script:057000:027",
+        "script:057000:028",
+        "script:057000:029",
+        "script:057000:030",
+        "script:057000:031"
+      ],
+      "participants": [
+        "Mars residents, shop staff and the player party"
+      ],
+      "location": "Mars Spaceport, Teswil or its buildings",
+      "storyState": "Leave after Byuto; capital search and video letter, before sea crossing to Daina.",
+      "purpose": "Introduce the capital and mainland geography through residents, war rumors and local advice.",
+      "previousContext": [
+        "Roy grants leave while forbidding Atraia use."
+      ],
+      "followingContext": [
+        "Video letter points to the memorial at Daina; sea crossing begins the next section."
+      ],
+      "branchAlternatives": [
+        "Shop menus, repeat/refusal responses and hotel alternatives retain original conditions.",
+        "Optional purchases do not imply translated exploration beyond the stated mainland route."
+      ],
+      "terminology": [
+        "place.mars",
+        "place.teswil",
+        "place.begi",
+        "place.daina",
+        "region.rasha",
+        "region.wina",
+        "people.myuntos",
+        "character.wey_dumna",
+        "place.wisperard",
+        "technology.jet_hovercraft",
+        "faction.chausnomyu"
+      ],
+      "evidence": [
+        "r08_flow.py exact source commands and map roots; original entry packet; independent interior/bar collision inventory."
+      ],
+      "uncertainty": [
+        "Place and person romanizations remain provisional; runtime traversal not verified."
+      ],
+      "notes": [],
+      "reviewNote": "Read the complete original Japanese packet and connected service/branch context, then the canonical English continuously. Preserve costs, rumors versus fact, social humor and distinct speakers; fit separately with documented secondary omissions."
+    },
+    {
+      "id": "teswil-hovercraft-purchase",
+      "records": [
+        "script:057000:032",
+        "script:057000:034",
+        "script:057000:035",
+        "script:057000:036"
+      ],
+      "participants": [
+        "Mars residents, shop staff and the player party"
+      ],
+      "location": "Mars Spaceport, Teswil or its buildings",
+      "storyState": "Leave after Byuto; capital search and video letter, before sea crossing to Daina.",
+      "purpose": "Offer the used Jet Hovercraft for500 credits, including refusal, payment failure and repeat.",
+      "previousContext": [
+        "Roy grants leave while forbidding Atraia use."
+      ],
+      "followingContext": [
+        "Video letter points to the memorial at Daina; sea crossing begins the next section."
+      ],
+      "branchAlternatives": [
+        "Shop menus, repeat/refusal responses and hotel alternatives retain original conditions.",
+        "Optional purchases do not imply translated exploration beyond the stated mainland route."
+      ],
+      "terminology": [
+        "place.mars",
+        "place.teswil",
+        "place.begi",
+        "place.daina",
+        "region.rasha",
+        "region.wina",
+        "people.myuntos",
+        "character.wey_dumna",
+        "place.wisperard",
+        "technology.jet_hovercraft",
+        "faction.chausnomyu"
+      ],
+      "evidence": [
+        "r08_flow.py exact source commands and map roots; original entry packet; independent interior/bar collision inventory."
+      ],
+      "uncertainty": [
+        "Place and person romanizations remain provisional; runtime traversal not verified."
+      ],
+      "notes": [],
+      "reviewNote": "Read the complete original Japanese packet and connected service/branch context, then the canonical English continuously. Preserve costs, rumors versus fact, social humor and distinct speakers; fit separately with documented secondary omissions."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:057000:000",
+      "sourceFingerprint": "41324b9e316ad44317cc7d86f3a771f6f4973400d122413320b2f6bc58e30481",
+      "canonicalEnglish": "Eastside Hotel: Welcome. A room is 10 credits. Would you like to stay?",
+      "context": {
+        "speaker": "Eastside Hotel",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:001",
+      "sourceFingerprint": "24e797edabb084de7cd9e2c1e67b2b34d158ff5fd620c397cd44ba326f6c493a",
+      "canonicalEnglish": "Teswil Item Shop: Welcome! What can I get you?",
+      "context": {
+        "speaker": "Teswil Item Shop",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:002",
+      "sourceFingerprint": "cd634d5b805c2e336454546e880d8a2e31a0b0e852957149c41887b6b4ec8f61",
+      "canonicalEnglish": "Clerk: Welcome!",
+      "context": {
+        "speaker": "Clerk",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:003",
+      "sourceFingerprint": "eb2ec9a23cfe4356988f5f640161e07a7b6ec669eff9f63129bcd9e4600fdf42",
+      "canonicalEnglish": "Central Teswil: Please use the next counter.",
+      "context": {
+        "speaker": "Central Teswil",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:004",
+      "sourceFingerprint": "81ffa40895cf3be33e18ec05f7fb43f3727e0ae893b9407814812cf8c849fde5",
+      "canonicalEnglish": "Central Teswil: Welcome to our hotel. Including all service charges, a room is 30 credits. Will you be staying with us?",
+      "context": {
+        "speaker": "Central Teswil",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:005",
+      "sourceFingerprint": "d67df5e588d99487836c4f7566d8adf66aa6123738209d9fde3535dc416c0475",
+      "canonicalEnglish": "Soldier: What? You want something from me?",
+      "context": {
+        "speaker": "Soldier",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:006",
+      "sourceFingerprint": "a7dcb0fdda93c7ed9c815f52abc428bd830fab844580d24c4bddf19c96191247",
+      "canonicalEnglish": "Woman: Right, time to make some money!",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:007",
+      "sourceFingerprint": "520b27c2a1654a6e68ce659a3a0eeca88f6f381965cd483c6866d13c814318e0",
+      "canonicalEnglish": "Outlaw: Sure, the more you pay, the harder a weapon hits. But powerful weapons are heavier, too. It all comes down to what you can handle.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:008",
+      "sourceFingerprint": "ab817dacad4cc11ff3e7a8ccffc7349ead2e2ac8ff06ab72a6e334ac6654292c",
+      "canonicalEnglish": "Weapons, Teswil Branch: Well, look who's here. You lot look dangerous. Not that I can talk, but you do an awful lot of killing.",
+      "context": {
+        "speaker": "Weapons, Teswil Branch",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:009",
+      "sourceFingerprint": "96755cfb4e21116989c575026f41a41041d095359fe399935ddf26cd9e8136d9",
+      "canonicalEnglish": "Soldier: You can't dismiss the private sector's weapons technology.",
+      "context": {
+        "speaker": "Soldier",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:010",
+      "sourceFingerprint": "c327ee32f78bf7bce5b735c233fbeba3397f401506200bf0e9c42dbe342326f6",
+      "canonicalEnglish": "TURRETS: We stock turrets developed using the Mars Federation's very latest technology. What can I get you?",
+      "context": {
+        "speaker": "TURRETS",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:011",
+      "sourceFingerprint": "22b481226bf4d098287f2a6530da0ef4c87110bf4da4fdfcd0dd37817b0ffa5e",
+      "canonicalEnglish": "ARMED: Welcome. See anything you like? Go ahead and buy it.",
+      "context": {
+        "speaker": "ARMED",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:012",
+      "sourceFingerprint": "82feee454c06f21b1ee656bb90a6742f62383a946b6ce6242689e9ed77cd378c",
+      "canonicalEnglish": "FRAME & ENGINE: Now, what sort of parts are you looking for?",
+      "context": {
+        "speaker": "FRAME & ENGINE",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:013",
+      "sourceFingerprint": "4e637c529aef572a6cb41ffab0e5e829c64589938012e659a384e78336fa6412",
+      "canonicalEnglish": "Frames\nEngines\nBuy nothing",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:014",
+      "sourceFingerprint": "1f28b31996fdfad2b4c2f887f95bc635200914f180edf6e39b2065b3607f0e71",
+      "canonicalEnglish": "Girl: Looking all around like that... This is your first time in Teswil, isn't it? Honestly, you country folk!",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:015",
+      "sourceFingerprint": "d3f9771fea964df3918a6aeb45b80181fc42823f18ae1250ac9f46f5ffb065bd",
+      "canonicalEnglish": "Myuntos Person: They say our ancestors flourished on this planet before the people of Mars arrived...",
+      "context": {
+        "speaker": "Myuntos Person",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:016",
+      "sourceFingerprint": "6c9f9bdc1ead5ab2db877c572ec08ce9f58682307f4dcd6051865d25dc31c9e9",
+      "canonicalEnglish": "Man: I hear the Wyurian colonies are coming under fierce attack from Zolias.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:017",
+      "sourceFingerprint": "4507a33e47bdd7b9b76361abfff8f08faf55f4048c674ed307731920c2669092",
+      "canonicalEnglish": "Young Man: Mars has two continents. Rasha is the one with Teswil, the capital. The other is called Wina.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:018",
+      "sourceFingerprint": "a2560eac572cd2a03ef356e5641363568a022b239a222a5cea6331458170f63d",
+      "canonicalEnglish": "Call Girl: As far as I’m concerned, money is everything.",
+      "context": {
+        "speaker": "Call Girl",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:019",
+      "sourceFingerprint": "d7a4e094c9cf4c2ffe9d7e22a44d1d83ba9bf4167e3b938bd857ce5623855eaa",
+      "canonicalEnglish": "Outlaw: I hear Daina, over on Wina, has a stone memorial to Dumna. Bet it'd fetch a nice price if I stole it.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:020",
+      "sourceFingerprint": "3b2b607ac36701ddbe0f59dbc18d92a179a6cb7bd2639233f7a0318b5176e697",
+      "canonicalEnglish": "Soldier: The Zolias Empire has been making some worrying moves lately. I can hardly believe it, but could they mean to attack the Mars Federation, too?",
+      "context": {
+        "speaker": "Soldier",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:021",
+      "sourceFingerprint": "d95e13f5975d17caedf4df715ac2dc230814f0d0859d948efe65b678df501bca",
+      "canonicalEnglish": "Girl: Begi, the town to the south, is home to scholars who want peace and quiet for their research, and old people who came to spend their remaining years there.",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:022",
+      "sourceFingerprint": "77bbaaa25d2458d1b430e351ab69d2fcaf524def1b97d0b5ded0e3e62054a425",
+      "canonicalEnglish": "Man: To cross the sea, you'll have to get something like a Jet Hovercraft.",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:023",
+      "sourceFingerprint": "335c2badd61a953d5f57ae7573258fe7de89fd0e216e1a3f3f910c928cd77d3b",
+      "canonicalEnglish": "Scrappers Trading Company: Hey! Welcome! Whatever you need when it comes to scrap, we can take care of it.",
+      "context": {
+        "speaker": "Scrappers Trading Company",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:024",
+      "sourceFingerprint": "49b1b225a1e1846e788d179a3b5ca68c49d6543a8f5f2cc101eff55f37f9c43a",
+      "canonicalEnglish": "Woman: Space really is awfully big, isn’t it?",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:025",
+      "sourceFingerprint": "ae15a014dd0295f62b3936429a9bcb7ce34bdb4755b26f70c00c3764f07df137",
+      "canonicalEnglish": "Young Man: Come to think of it, that Myuntos scrap dealer had a used Jet Hovercraft for sale.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:026",
+      "sourceFingerprint": "d5e68480d0fdb3a5a37e40c17609002de94cf712bd2ab064a8dd70356720c8be",
+      "canonicalEnglish": "Woman: I hear Zajil was a dreadful place before the Mars Federation began developing it. Now it’s a beautiful, green planet.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:027",
+      "sourceFingerprint": "a94ccad7726c5f9cc362cff4f227a69c0834de4e703b0ea71de97b4c7bd8d938",
+      "canonicalEnglish": "Man: Once you're out in space, you can go anywhere. But watch out for the Zolias Empire's fleet. They'll open fire without warning!",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:028",
+      "sourceFingerprint": "c2118799f18409700182cee87f54210a346932dff831865f9466f89530b1e4f2",
+      "canonicalEnglish": "Young Woman: This part of the universe, with Mars, Zolias and Wyuria, is called Wisperard. It has three star systems. Did you know that?",
+      "context": {
+        "speaker": "Young Woman",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:029",
+      "sourceFingerprint": "1773a2892eee6e2b2ac05d1a3c5130580d7c2ec4501cb5bfde90377ea85b5dad",
+      "canonicalEnglish": "Hustler: Hey, pal. Interested? I can introduce you to a nice girl!\nShoko: No, thank you!",
+      "context": {
+        "speaker": "Hustler",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:030",
+      "sourceFingerprint": "6733c98cae6a432708f402aac30d157ce34800182ba63481a0fd414e8174069f",
+      "canonicalEnglish": "Young Man: That uniform...! You’re with Chausnomyu, aren’t you? You look so cool! I’m impressed!",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:031",
+      "sourceFingerprint": "3b46ed4214e123c2231912fed4f4575675c5990ae010b81b956fb9089f8a6447",
+      "canonicalEnglish": "Woman: I hear there are still Myuntos settlements on Stea.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:032",
+      "sourceFingerprint": "566bd159bfb292a9734b7920ce5dab1c3e355b8604b0b24a144719a51f085ab7",
+      "canonicalEnglish": "Scrap Dealer: I’ve got a real bargain for you! How about 500 credits? It’s a used Jet Hovercraft, but there’s plenty of life in it yet!\nBuy it?",
+      "context": {
+        "speaker": "Scrap Dealer",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:034",
+      "sourceFingerprint": "c3d5b54bb5862da632cb2492f93e4316394cdb97bfbd88982aee3700086db16c",
+      "canonicalEnglish": "Scrap Dealer: When it comes to service, I won't be outdone by the Mars scrap dealers!",
+      "context": {
+        "speaker": "Scrap Dealer",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:035",
+      "sourceFingerprint": "61bfeaf13f8496fca1fe5e57dd983249c884b422870cfc031ed6a916447f4492",
+      "canonicalEnglish": "Scrap Dealer: Thanks! I’ll leave it outside. You can use it as you please.",
+      "context": {
+        "speaker": "Scrap Dealer",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:036",
+      "sourceFingerprint": "1966655899f81b4e0a707e2663a671236fce002f8f6188091aaf1b5ac0d8883c",
+      "canonicalEnglish": "Scrap Dealer: But it’s such a bargain...",
+      "context": {
+        "speaker": "Scrap Dealer",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:038",
+      "sourceFingerprint": "6b315d2bbdaab39c56e257b419bc96ba391646c40825ef06252d43d4c2a67c41",
+      "canonicalEnglish": "Eastside Hotel: Drop by any time.",
+      "context": {
+        "speaker": "Eastside Hotel",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:039",
+      "sourceFingerprint": "8ded82788194b6ea6148cac7edd521187dbdffda573aea9f4c02b8a7c1caa172",
+      "canonicalEnglish": "Buy tools\nLeave shop",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:040",
+      "sourceFingerprint": "c8a8ef8987137fc270a6baad4ee95f7112cf404a15a2b5a18a537b7951199ed4",
+      "canonicalEnglish": "Teswil Item Shop: Do you need anything else?",
+      "context": {
+        "speaker": "Teswil Item Shop",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:041",
+      "sourceFingerprint": "67893e3e880d0b57a8b31aefb459f16bde9a69ebefc4f91da9975c9d4fb2945d",
+      "canonicalEnglish": "Teswil Item Shop: Come again.",
+      "context": {
+        "speaker": "Teswil Item Shop",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:042",
+      "sourceFingerprint": "b6d3ccf9c08ff2da61b627df50eb966ac858e3378b6f20e5a1e5781a7e6b9c35",
+      "canonicalEnglish": "Shoko: Oh, it looks like we don’t have enough money...",
+      "context": {
+        "speaker": "Shoko",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:043",
+      "sourceFingerprint": "27dbfb5d0b4cba5bf4a14e5e4fb07241adabb9b21b996ba8f3de8a12eb192723",
+      "canonicalEnglish": "Central Teswil: Let me show you to your room.\nSion: Wow, what a great room! We lucked out, Shoko.\nShoko: Sion! Don't get any funny ideas...\nSion: I know... Huh? Haven't I heard that somewhere before? Oh, well! Let's get some sleep.\nCentral Teswil: Have a pleasant day.",
+      "context": {
+        "speaker": "Central Teswil",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:044",
+      "sourceFingerprint": "afd20e2bb16e498759279a241f40d1a09825d07dd892b6fe2283e8f00d01e4ea",
+      "canonicalEnglish": "Joe: Hey, you’re taking advantage of us! Isn’t that a bit steep? Come on, Sion, let’s go!",
+      "context": {
+        "speaker": "Joe",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:045",
+      "sourceFingerprint": "84d96cfff53247eafdf2467ca12f37a009bf8cd44cd889d64a6f474871f58425",
+      "canonicalEnglish": "Central Teswil: It’s because of guests like you that we insist on full payment in advance.",
+      "context": {
+        "speaker": "Central Teswil",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:046",
+      "sourceFingerprint": "d064b1702d3624e766efe01d7f647b3e941e97039147f4220e8cdca12e6a3a81",
+      "canonicalEnglish": "Buy weapons\nLeave shop",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:047",
+      "sourceFingerprint": "ca63ab7e13803d1fd1d6d120fbd2c3e6abbf099c1dfd91fb3134a1abe95442e6",
+      "canonicalEnglish": "Weapons, Teswil Branch: How about something else?",
+      "context": {
+        "speaker": "Weapons, Teswil Branch",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:048",
+      "sourceFingerprint": "172f4440c601fed7806d7dcc97b8c75c4ad715b626a162c6749f2692c85f8dc3",
+      "canonicalEnglish": "Weapons, Teswil Branch: Well, give it your best.",
+      "context": {
+        "speaker": "Weapons, Teswil Branch",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:049",
+      "sourceFingerprint": "134849caa2eced7edd6a1df209fad0e7ad27e91b6c4473794610ff70f444bc5f",
+      "canonicalEnglish": "Weapons, Teswil Branch: Bring some money next time.",
+      "context": {
+        "speaker": "Weapons, Teswil Branch",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:051",
+      "sourceFingerprint": "d7e063af2d8b03c46af3e9f64b5567c9c981c573fb5cfe7313de648c93c9b306",
+      "canonicalEnglish": "Turrets\nMissiles\nLeave shop",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:056",
+      "sourceFingerprint": "b2253dc81b4b644864bdb852699d1980ab0e21f2d13d23cd00e2b25986048b62",
+      "canonicalEnglish": "Shopkeeper: We look forward to seeing you again.",
+      "context": {
+        "speaker": "Shopkeeper",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:057",
+      "sourceFingerprint": "efd6c781294844803123da70914a2f195b08677ac881a55f2c45d4cf92e0ed4a",
+      "canonicalEnglish": "TURRETS: Quit messing around! You bastard—don’t ever come back!",
+      "context": {
+        "speaker": "TURRETS",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:058",
+      "sourceFingerprint": "bbf917a9a1c027a9bbb8b3b63a960523c6e69e73c5ae562c561ddb271f2cd654",
+      "canonicalEnglish": "TURRETS: There’s nothing here I’ll sell to you!",
+      "context": {
+        "speaker": "TURRETS",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:059",
+      "sourceFingerprint": "3f45ea0928c40252f0e9d72b49de9ffe38fc3abd064a39474c246d67f0719890",
+      "canonicalEnglish": "Shopkeeper: Would you like anything else?",
+      "context": {
+        "speaker": "Shopkeeper",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:060",
+      "sourceFingerprint": "d7e8329caea1883deadcc86f064a4d629ff36db5275f14faa83dc435cfb9cc5a",
+      "canonicalEnglish": "Shopkeeper: Don’t waste my time if you don’t have the money.",
+      "context": {
+        "speaker": "Shopkeeper",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:061",
+      "sourceFingerprint": "d8e73bf7bd354559c794295e142f782fb56b6b3aac07c73bdd28d67e693f7cbc",
+      "canonicalEnglish": "ARMED: Need anything else?",
+      "context": {
+        "speaker": "ARMED",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:057000:062",
+      "sourceFingerprint": "20a861bbfb18f3f9d10c90ecad871fbf1c290a5d588f791b1d8024416badfb9a",
+      "canonicalEnglish": "ARMED: Come and take another look any time.",
+      "context": {
+        "speaker": "ARMED",
+        "listener": "Player party",
+        "intent": "Provide route context, personal response or service.",
+        "tone": "Plainspoken or customary service tone; retain source humor, concern and hostility.",
+        "terminology": [
+          "place.mars",
+          "place.teswil",
+          "place.begi",
+          "place.daina",
+          "region.rasha",
+          "region.wina",
+          "people.myuntos",
+          "character.wey_dumna",
+          "place.wisperard",
+          "technology.jet_hovercraft",
+          "faction.chausnomyu"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed Japanese source and full connected English reading, separate from ROM wording."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

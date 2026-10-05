@@ -1,0 +1,32 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r02-joe-disassembly-ui"
+  ],
+  "records": [
+    {
+      "id": "ui:System:001e5b",
+      "basedOn": "d1f588d03058e4dec33e08d5dffb3b336c38be3a4de778284a28092c9c3f196b",
+      "inGameEnglish": "JOE\n",
+      "notes": [
+        "Retains Joe and the final newline required before the result template."
+      ]
+    },
+    {
+      "id": "ui:System:001e63",
+      "basedOn": "d1f588d03058e4dec33e08d5dffb3b336c38be3a4de778284a28092c9c3f196b",
+      "inGameEnglish": "SCRAP?",
+      "notes": [
+        "SCRAP? uses Scrap as the verb for disassembly, in the existing DISASSEMBLE action context."
+      ]
+    },
+    {
+      "id": "ui:System:001e6e",
+      "basedOn": "d1f588d03058e4dec33e08d5dffb3b336c38be3a4de778284a28092c9c3f196b",
+      "inGameEnglish": "          FOR\n      SCRAP",
+      "notes": [
+        "The result abbreviates the sentence to [item] FOR [amount] SCRAP; protected blank cells receive the original runtime fields."
+      ]
+    }
+  ]
+}

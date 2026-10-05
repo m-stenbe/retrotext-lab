@@ -1,0 +1,35 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r07-byuto-location-labels"
+  ],
+  "records": [
+    {
+      "id": "r07-location:10",
+      "basedOn": "3e888c73f4d8a37d0c1554c4cd481f1f120cc31348e4da60694f73d2717b172b",
+      "inGameEnglish": "BYUTO",
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Planet qualifier omitted from Byuto map label; canonical place name remains unrestricted."
+      ]
+    },
+    {
+      "id": "r07-location:46",
+      "basedOn": "3e888c73f4d8a37d0c1554c4cd481f1f120cc31348e4da60694f73d2717b172b",
+      "inGameEnglish": "KAINAN",
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Planet qualifier omitted from Byuto map label; canonical place name remains unrestricted."
+      ]
+    },
+    {
+      "id": "r07-location:97",
+      "basedOn": "3e888c73f4d8a37d0c1554c4cd481f1f120cc31348e4da60694f73d2717b172b",
+      "inGameEnglish": "MINE",
+      "notes": [
+        "Separate reviewed fitting adaptation; all original commands and choices retained.",
+        "Planet qualifier omitted from Byuto map label; canonical place name remains unrestricted."
+      ]
+    }
+  ]
+}

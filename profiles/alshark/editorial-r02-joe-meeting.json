@@ -1,0 +1,93 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "GPT-6 Astra manager canonical draft; independent GPT-6 Sol source review",
+  "scenes": [
+    {
+      "id": "dust-joe-meeting",
+      "records": [
+        "script:05a000:039"
+      ],
+      "participants": [
+        "Joe",
+        "Sion",
+        "Shoko",
+        "Karu"
+      ],
+      "location": "Joe’s room in Dust.",
+      "storyState": "After the meteor disaster, Karu leads Sion and Shoko to Joe; Sion seeks help finding Lucia.",
+      "purpose": "Adapt the complete reunion scene while preserving the emotional turn and core story information.",
+      "previousContext": [
+        "Sion and Shoko have searched for Joe in Dust; Joe is an old friend of Sion’s father."
+      ],
+      "followingContext": [
+        "Joe joins the party and travels with them to Hamack."
+      ],
+      "branchAlternatives": [],
+      "terminology": [
+        "character.joe",
+        "character.sion",
+        "character.shoko",
+        "character.karu",
+        "character.jido",
+        "character.lucia",
+        "character.mamon",
+        "place.hamack"
+      ],
+      "evidence": [
+        "Fresh replay of full 05a000:039 source; canonical draft checked against every source text token."
+      ],
+      "uncertainty": [
+        "The source keeps uncertainty around Penrose/Mamon’s reason for killing Jido.",
+        "The uncle relationship is familiar, not confirmed biological."
+      ],
+      "notes": [
+        "Keep text across #V/#Z and name controls composed; preserve speaker changes and narration."
+      ],
+      "reviewNote": "Manager-author canonical draft is used as the source-backed base. QA independently checked core plot and all source tokens; this record requires a technical adaptation review."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:05a000:039",
+      "sourceFingerprint": "064c48be1a807cee929e36cb173f8ca63c5c937b5e02c0c871a417cfba8feeac",
+      "canonicalEnglish": "Joe: Who the hell are you?\nShoko: Hello. It's nice to meet you.\nJoe: Course we've never met. I don't know any pampered little boys and girls like you.\nShoko: What...?!\nSion: Um, we're...\nJoe: I don't volunteer at the nursery, either. If you've got business here, spit it out.\nKaru: Hello, Joe.\nJoe: Huh? Karu? Is that you?! What's happened?\nKaru: Karu came with Sion to see Joe.\nJoe: Sion...? Sion?! Jido's boy? Well, would you look at that! Am I glad you came!\nJoe: That little squirt's grown up enough to bring his girlfriend round to see me!\nJoe: You won't remember, but you used to fall asleep in my arms, you know. So, what brings you here?\nSion: Uncle Joe, the thing is...\nJoe: No need to be so formal, Sion. Just Joe'll do. Hm...? Oh, right. Maybe I shouldn't have asked. You don't have to spell it out.\nSion: No, Uncle Joe, that's not...! ...Hh...!\nNarration: As Sion spoke with Joe, something inside him seemed to give way. The tension he'd been holding in broke, and before he knew it, he was crying.\nJoe: Hey, hey, what's got into you? Boys aren't supposed to cry.\nSion: Dad... Dad's dead... And Mom... I don't even know where she is.\nJoe: What?! Jido's dead?! And Lucia's missing?! Why the hell didn't you say so sooner?!\nShoko: I'm Shoko, Mamon's daughter. My father... killed Sion's father...\nJoe: ...! Don't talk nonsense, little lady.\nJoe: Mamon, Jido and me were the best of friends long before you were born.\nSion: ...But I saw it too.\nJoe: Sion... Not you too...\nJoe: No. Even if it's true, something must have forced his hand. I'm sure of it!\nNarration: With both children sobbing, Joe was at a loss.\nJoe: Come on, crying won't get us anywhere. Let's head into Hamack and see if we can find out where Lucia and Mamon went.\nSion: Before that... When Dad and the others died, I panicked. I left their bodies there...\nJoe: Ah... Yeah... But it's too late for that. You know those bugs will eat anything.\nShoko: But...\nJoe: There's nothing we can do for the dead. Finding Lucia comes first. Right! Let's get moving.",
+      "context": {
+        "speaker": "Joe, Shoko, Sion, Karu, narration",
+        "listener": "The party at Joe’s room",
+        "intent": "Joe first fails to recognize the group, recognizes Sion and hears their story, then joins the search for Lucia in Hamack.",
+        "tone": "Abrasive at first, familiar and gruff, then emotionally direct and practical.",
+        "terminology": [
+          "character.joe",
+          "character.sion",
+          "character.shoko",
+          "character.karu",
+          "character.jido",
+          "character.lucia",
+          "character.mamon",
+          "place.hamack"
+        ],
+        "uncertainty": [
+          "Joe believes Mamon must have had a reason; the story does not confirm this.",
+          "Joe is a familiar uncle figure, not proven to be a biological uncle."
+        ],
+        "notes": [
+          "Manager-authored canonical draft independently reviewed by QA; Luna authors the adaptation."
+        ]
+      },
+      "findings": [
+        "Preserve Joe's abrasive first impression, mistaken assumption, affectionate recognition, grief, denial about Mamon, and practical urgency; do not convert his insistence about Mamon into an established story fact.",
+        "Keep Jido, Mamon and Joe's longstanding friendship, both missing people, the abandoned bodies and the insects; these are substantive story information.",
+        "No technical-fit claim; no runtime evidence. Manager assistance must be counted separately from Luna-authored canonical translation.",
+        "Independent GPT-6 Sol QA corrected recognition question and removed unsupported invitation inside; changes applied."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r08-mars-location-and-jaguma-labels"
+  ],
+  "records": [
+    {
+      "id": "name:17",
+      "basedOn": "2d156813bfad3fe9216b50359184790d818cc287b92f713cf47e9304f87860f9",
+      "inGameEnglish": "JAGUMA",
+      "notes": [
+        "Display uses given name JAGUMA for both name slots; canonical full name retained. Planet qualifier omitted, Spaceport becomes PORT, Building becomes BLDG in map labels."
+      ]
+    },
+    {
+      "id": "name:18",
+      "basedOn": "2d156813bfad3fe9216b50359184790d818cc287b92f713cf47e9304f87860f9",
+      "inGameEnglish": "JAGUMA",
+      "notes": [
+        "Display uses given name JAGUMA for both name slots; canonical full name retained. Planet qualifier omitted, Spaceport becomes PORT, Building becomes BLDG in map labels."
+      ]
+    },
+    {
+      "id": "r08-location:8",
+      "basedOn": "2d156813bfad3fe9216b50359184790d818cc287b92f713cf47e9304f87860f9",
+      "inGameEnglish": "MARS",
+      "notes": [
+        "Display uses given name JAGUMA for both name slots; canonical full name retained. Planet qualifier omitted, Spaceport becomes PORT, Building becomes BLDG in map labels."
+      ]
+    },
+    {
+      "id": "r08-location:40",
+      "basedOn": "2d156813bfad3fe9216b50359184790d818cc287b92f713cf47e9304f87860f9",
+      "inGameEnglish": "MARS PORT",
+      "notes": [
+        "Display uses given name JAGUMA for both name slots; canonical full name retained. Planet qualifier omitted, Spaceport becomes PORT, Building becomes BLDG in map labels."
+      ]
+    },
+    {
+      "id": "r08-location:61",
+      "basedOn": "2d156813bfad3fe9216b50359184790d818cc287b92f713cf47e9304f87860f9",
+      "inGameEnglish": "BEGI",
+      "notes": [
+        "Display uses given name JAGUMA for both name slots; canonical full name retained. Planet qualifier omitted, Spaceport becomes PORT, Building becomes BLDG in map labels."
+      ]
+    },
+    {
+      "id": "r08-location:73",
+      "basedOn": "2d156813bfad3fe9216b50359184790d818cc287b92f713cf47e9304f87860f9",
+      "inGameEnglish": "TESWIL",
+      "notes": [
+        "Display uses given name JAGUMA for both name slots; canonical full name retained. Planet qualifier omitted, Spaceport becomes PORT, Building becomes BLDG in map labels."
+      ]
+    },
+    {
+      "id": "r08-location:3",
+      "basedOn": "2d156813bfad3fe9216b50359184790d818cc287b92f713cf47e9304f87860f9",
+      "inGameEnglish": "TESWIL BLDG",
+      "notes": [
+        "Display uses given name JAGUMA for both name slots; canonical full name retained. Planet qualifier omitted, Spaceport becomes PORT, Building becomes BLDG in map labels."
+      ]
+    }
+  ]
+}

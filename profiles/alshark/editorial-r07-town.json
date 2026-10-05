@@ -1,0 +1,676 @@
+{
+  "format": "retrotext-editorial-review-v1",
+  "sourceHashes": {
+    "Opening": "0d556eea3827b232ab18519e6841d53e987ca36af29902e508b867aadfe56a1f",
+    "System": "7df885bfe0bacb7c37809364a993e6ad506e5cd25eac1882eac6c7627bce75d5"
+  },
+  "reviewer": "R07 manager connected town source/editorial review",
+  "scenes": [
+    {
+      "id": "byuto-shops-and-scrap",
+      "records": [
+        "script:060000:000",
+        "script:060000:001",
+        "script:060000:002",
+        "script:060000:011",
+        "script:060000:012",
+        "script:060000:013",
+        "script:060000:014",
+        "script:060000:015",
+        "script:060000:016",
+        "script:060000:017",
+        "script:060000:018"
+      ],
+      "participants": [
+        "Byuto shopkeepers and residents"
+      ],
+      "location": "Byuto mining settlement",
+      "storyState": "After Roy assigns the Byuto mission; pre-victory town roots and optional gift flag2a.",
+      "purpose": "Offer equipment, tools and scrap with all service and refusal branches.",
+      "previousContext": [
+        "Roy reports mutated creatures attacking people on Byuto."
+      ],
+      "followingContext": [
+        "The party investigates the mine; separate flag2c town alternatives follow its boss."
+      ],
+      "branchAlternatives": [
+        "Gift09 branches to full-inventory10 or repeat20; old man08 selects19 after gift2a.",
+        "Shop choices preserve weapons/armor/tools order, buy-again and insufficient-funds branches.",
+        "Town roots05–09 select separately reviewed aftermath24–28 after2c."
+      ],
+      "terminology": [
+        "place.byuto",
+        "place.kainan",
+        "material.scrap",
+        "equipment.item.18",
+        "equipment.item.8d"
+      ],
+      "evidence": [
+        "Original060000 tokens and r07_flow.py source closure."
+      ],
+      "uncertainty": [
+        "Kainan is an unverified working shop-name romanization.",
+        "Runtime traversal and visual display remain unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese town and service branches continuously, including gift refusal and repeats. Retain missing son uncertainty, scale of casualties, scrap warning and item identity; shop headings are labels, not invented personal identities."
+    },
+    {
+      "id": "byuto-town-and-ray-ball",
+      "records": [
+        "script:060000:003",
+        "script:060000:004",
+        "script:060000:005",
+        "script:060000:006",
+        "script:060000:007",
+        "script:060000:008",
+        "script:060000:009",
+        "script:060000:010",
+        "script:060000:019",
+        "script:060000:020"
+      ],
+      "participants": [
+        "Byuto shopkeepers and residents"
+      ],
+      "location": "Byuto mining settlement",
+      "storyState": "After Roy assigns the Byuto mission; pre-victory town roots and optional gift flag2a.",
+      "purpose": "Establish the missing miners and monster threat, and the optional gift with repeat/full-inventory branches.",
+      "previousContext": [
+        "Roy reports mutated creatures attacking people on Byuto."
+      ],
+      "followingContext": [
+        "The party investigates the mine; separate flag2c town alternatives follow its boss."
+      ],
+      "branchAlternatives": [
+        "Gift09 branches to full-inventory10 or repeat20; old man08 selects19 after gift2a.",
+        "Shop choices preserve weapons/armor/tools order, buy-again and insufficient-funds branches.",
+        "Town roots05–09 select separately reviewed aftermath24–28 after2c."
+      ],
+      "terminology": [
+        "place.byuto",
+        "place.kainan",
+        "material.scrap",
+        "equipment.item.18",
+        "equipment.item.8d"
+      ],
+      "evidence": [
+        "Original060000 tokens and r07_flow.py source closure."
+      ],
+      "uncertainty": [
+        "Kainan is an unverified working shop-name romanization.",
+        "Runtime traversal and visual display remain unverified."
+      ],
+      "notes": [],
+      "reviewNote": "Read the Japanese town and service branches continuously, including gift refusal and repeats. Retain missing son uncertainty, scale of casualties, scrap warning and item identity; shop headings are labels, not invented personal identities."
+    }
+  ],
+  "records": [
+    {
+      "id": "script:060000:000",
+      "sourceFingerprint": "c879491bac94b8ca5713e20367cff8e407e7bc06323096f44bc9d97f31188251",
+      "canonicalEnglish": "Kainan's Shop: Welcome! What can I get you?",
+      "context": {
+        "speaker": "Kainan's Shop",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:001",
+      "sourceFingerprint": "9f53d4e1b005e84f28debc4e4f4fd9337a740bab9b47636e8f9f5d3e59cbf72c",
+      "canonicalEnglish": "Weapon Kainan: A Plasma Gun works wonders on those red monsters!",
+      "context": {
+        "speaker": "Weapon Kainan",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:002",
+      "sourceFingerprint": "bf5b0da8e3d5543adc052851736ccdc43f37f9c2d50e86620c0f523d7346e7d7",
+      "canonicalEnglish": "Scrap Exchange: Need scrap? Come by any time.",
+      "context": {
+        "speaker": "Scrap Exchange",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:003",
+      "sourceFingerprint": "3beab95252cbf7cbf3c53d457c5ab6e6cc62b2dac33ca481577d6a5529dcf710",
+      "canonicalEnglish": "Young Man: Sell too much of your scrap and you might regret it later.",
+      "context": {
+        "speaker": "Young Man",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:004",
+      "sourceFingerprint": "a76f7644bfe39693081c60f3b4b2b9570e2784c7e7ed4cebe51767ba2beebbe3",
+      "canonicalEnglish": "Outlaw: You came all the way out to this backwater? Well, good luck to you.",
+      "context": {
+        "speaker": "Outlaw",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:005",
+      "sourceFingerprint": "950ec875e69f933ef0f7c9716de3acb7e3e3a92ff91464b4179a789ed66275c0",
+      "canonicalEnglish": "Girl: Those horrible red monsters have killed so many people.",
+      "context": {
+        "speaker": "Girl",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:006",
+      "sourceFingerprint": "22d4dc3628642473218209cfcaac6a37467adcbc2df2cc43cc4c534de3bb2401",
+      "canonicalEnglish": "Man: Monsters keep pouring out of the mine. We can't get any work done!",
+      "context": {
+        "speaker": "Man",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:007",
+      "sourceFingerprint": "e7fe5e2bcdd1ca5ecb281d69e2d871825ffd747cf54743c4c3c07a9df1877bae",
+      "canonicalEnglish": "Woman: My son went to investigate the mine with some people from town. He still hasn't come back.",
+      "context": {
+        "speaker": "Woman",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:008",
+      "sourceFingerprint": "c8317ee8c00550f3055fa6b15baa2944f367cb7d8d56f7116b18914002705a17",
+      "canonicalEnglish": "Old Man: My wife has something useful. Go find her and ask for it.",
+      "context": {
+        "speaker": "Old Man",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:009",
+      "sourceFingerprint": "3f0f37430100ae81d7438a91acb7d6f7d941a604c403381db3c55a43deca90ca",
+      "canonicalEnglish": "Old Woman: You're here to get rid of those monsters, aren't you? Then take this with you.\nReceived a Ray Ball.",
+      "context": {
+        "speaker": "Old Woman",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:010",
+      "sourceFingerprint": "6e35b4ded3ca7c2b5bb507c5e36716301fced8d726be5505c7e7a5804fb45820",
+      "canonicalEnglish": "Old Woman: You'd better make some room in your bags.",
+      "context": {
+        "speaker": "Old Woman",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:011",
+      "sourceFingerprint": "2b292faf2f9cc40574c46b54d9fc4aa7703ea025bd38b4f88034e4add9eb0ec1",
+      "canonicalEnglish": "Buy tools\nLeave shop",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:012",
+      "sourceFingerprint": "b13ed13eda5c0b3933c44ae4d4e133705a179e5bd6d2e21272b3bd2acc31b94a",
+      "canonicalEnglish": "Kainan's Shop: Is there anything else you need?",
+      "context": {
+        "speaker": "Kainan's Shop",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:013",
+      "sourceFingerprint": "82bbc7f944c0aa916d4cfb8753d974195967b51eb78c07c304c237f305f30d93",
+      "canonicalEnglish": "Kainan's Shop: Do come again!",
+      "context": {
+        "speaker": "Kainan's Shop",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:014",
+      "sourceFingerprint": "346c797f309e443e1d644ef4ee02eebe40179b6bd8f8729ce71c8bbfbc5fee23",
+      "canonicalEnglish": "Kainan's Shop: Um... you don't have enough money.",
+      "context": {
+        "speaker": "Kainan's Shop",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:015",
+      "sourceFingerprint": "c69361c418726cd43e5678932c46f3e518a7744ff733ad037854d3f4cb58cb9c",
+      "canonicalEnglish": "Buy weapons\nBuy armor\nLeave shop",
+      "context": {
+        "speaker": null,
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:016",
+      "sourceFingerprint": "601c5c63cf4678aca1c97d42270de30d3f3ed0c8a6f02d0df11b7d68550d76f2",
+      "canonicalEnglish": "Weapon Kainan: Need anything else?",
+      "context": {
+        "speaker": "Weapon Kainan",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:017",
+      "sourceFingerprint": "3660ac766cf41f31102a15512deaf54b9a9ee9d581dfcbc45c81a0a562243cc1",
+      "canonicalEnglish": "Weapon Kainan: Need anything else?",
+      "context": {
+        "speaker": "Weapon Kainan",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:018",
+      "sourceFingerprint": "abf0801a9578913ec8b3f8906ab8c544b4568b978751cb2cd7a35c43fdbf8a69",
+      "canonicalEnglish": "Weapon Kainan: Earn some money and come back.",
+      "context": {
+        "speaker": "Weapon Kainan",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:019",
+      "sourceFingerprint": "79529e576331263245032ffbf2fbbefcc1584681e1650735409f783833b9d58c",
+      "canonicalEnglish": "Old Man: Give it your best!",
+      "context": {
+        "speaker": "Old Man",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    },
+    {
+      "id": "script:060000:020",
+      "sourceFingerprint": "0b40529a043878d76bfdf98ac55a7f749f44b9be500f10450c8968557acc04cc",
+      "canonicalEnglish": "Old Woman: Sorry, that was the only one I had.",
+      "context": {
+        "speaker": "Old Woman",
+        "listener": "Player party",
+        "intent": "Provide town context, aid or shop service.",
+        "tone": "Plainspoken concern or customary shop politeness, according to the source.",
+        "terminology": [
+          "place.byuto",
+          "place.kainan",
+          "material.scrap",
+          "equipment.item.18",
+          "equipment.item.8d"
+        ],
+        "uncertainty": [],
+        "notes": []
+      },
+      "findings": [
+        "Reviewed complete Japanese town/shop flow and separate natural English reading."
+      ],
+      "adaptationAssessment": {
+        "status": "needs_adaptation",
+        "reason": null
+      }
+    }
+  ]
+}

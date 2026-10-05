@@ -1,0 +1,336 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r06-flight-location-labels"
+  ],
+  "records": [
+    {
+      "id": "r06-location:0",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "SPACE",
+      "notes": [
+        "Canonical Space Mode; constrained label SPACE. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-location:31",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "MIL STN",
+      "notes": [
+        "Canonical Military Station; constrained label MIL STN. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:011768",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "M264 SYS",
+      "notes": [
+        "Canonical M264 System; constrained label M264 SYS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:011776",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "M861 SYS",
+      "notes": [
+        "Canonical M861 System; constrained label M861 SYS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:011784",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "W505 SYS",
+      "notes": [
+        "Canonical W505 System; constrained label W505 SYS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:011792",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "Z091 SYS",
+      "notes": [
+        "Canonical Z091 System; constrained label Z091 SYS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:0117a0",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "W183 SYS",
+      "notes": [
+        "Canonical W183 System; constrained label W183 SYS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:0117ae",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "Z127 SYS",
+      "notes": [
+        "Canonical Z127 System; constrained label Z127 SYS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:0117bc",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "Z254 SYS",
+      "notes": [
+        "Canonical Z254 System; constrained label Z254 SYS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:0117ca",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "MARS FED",
+      "notes": [
+        "Canonical Mars Federation; constrained label MARS FED. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:0117dd",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "WYURIA",
+      "notes": [
+        "Canonical Kingdom of Wyuria; constrained label WYURIA. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-star-name:0117d3",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "ZOLIAS",
+      "notes": [
+        "Canonical Zolias Empire; constrained label ZOLIAS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165a6",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "STEA",
+      "notes": [
+        "Canonical Planet Stea; constrained label STEA. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165ae",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "MARS",
+      "notes": [
+        "Canonical Planet Mars; constrained label MARS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165b7",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "ZAJIL",
+      "notes": [
+        "Canonical Planet Zajil; constrained label ZAJIL. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165c1",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "BYUTO",
+      "notes": [
+        "Canonical Planet Byuto; constrained label BYUTO. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165cb",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "HOM",
+      "notes": [
+        "Canonical Planet Hom; constrained label HOM. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165d2",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "JUKE",
+      "notes": [
+        "Canonical Planet Juke; constrained label JUKE. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165dc",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "TILS",
+      "notes": [
+        "Canonical Planet Tils; constrained label TILS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165e5",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "WYULTRIA",
+      "notes": [
+        "Canonical Planet Wyultria; constrained label WYULTRIA. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165f0",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "HYURIS",
+      "notes": [
+        "Canonical Planet Hyuris; constrained label HYURIS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0165f9",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "BAIDEN",
+      "notes": [
+        "Canonical Planet Baiden; constrained label BAIDEN. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016604",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "BYUDOS",
+      "notes": [
+        "Canonical Planet Byudos; constrained label BYUDOS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016610",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "BYEZA",
+      "notes": [
+        "Canonical Planet Byeza; constrained label BYEZA. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:01661a",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "NOMIKE",
+      "notes": [
+        "Canonical Planet Nomike; constrained label NOMIKE. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016623",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "SARTALIA",
+      "notes": [
+        "Canonical Planet Sartalia; constrained label SARTALIA. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:01662d",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "POREDA",
+      "notes": [
+        "Canonical Planet Poreda; constrained label POREDA. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016637",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "ZOKAHEL",
+      "notes": [
+        "Canonical Planet Zokahel; constrained label ZOKAHEL. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016641",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "YOSNU",
+      "notes": [
+        "Canonical Planet Yosnu; constrained label YOSNU. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016649",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "VON",
+      "notes": [
+        "Canonical Planet Von; constrained label VON. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016652",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "ASK",
+      "notes": [
+        "Canonical Planet Ask; constrained label ASK. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:01665a",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "SACHI",
+      "notes": [
+        "Canonical Planet Sachi; constrained label SACHI. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016661",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "TRIM",
+      "notes": [
+        "Canonical Moon Trim; constrained label TRIM. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016669",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "GOR",
+      "notes": [
+        "Canonical Moon Gor; constrained label GOR. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016671",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "BORUA",
+      "notes": [
+        "Canonical Moon Borua; constrained label BORUA. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:01667a",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "CS STN",
+      "notes": [
+        "Canonical CS Station; constrained label CS STN. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016683",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "MIL STN",
+      "notes": [
+        "Canonical Military Station; constrained label MIL STN. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:01668e",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "SUPPLY STN",
+      "notes": [
+        "Canonical Supply Station; constrained label SUPPLY STN. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:016699",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "DEF STN",
+      "notes": [
+        "Canonical Defense Station; constrained label DEF STN. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0166a4",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "HIDDEN STN",
+      "notes": [
+        "Canonical Hidden Station; constrained label HIDDEN STN. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    },
+    {
+      "id": "r06-landing-name:0166af",
+      "basedOn": "3751a172d149f40f6822742cfbed0825c493d7ef3dd728c42fb13a61e7adeed4",
+      "inGameEnglish": "BARBAS",
+      "notes": [
+        "Canonical Barbas Space Fortress; constrained label BARBAS. SYS/STN/FED abbreviate System/Station/Federation; Planet/Moon and political titles may be omitted from the narrow field, without changing canonical terminology."
+      ]
+    }
+  ]
+}

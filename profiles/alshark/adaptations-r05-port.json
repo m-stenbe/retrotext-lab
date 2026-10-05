@@ -1,0 +1,227 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r05-port-initial"
+  ],
+  "records": [
+    {
+      "id": "script:05f000:001",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "WELCOME! USING\nTHE STAR BUS?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:002",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "BUY A TICKET,\nTHEN GO TO THE\nGATE FOR THE\nSTAR BUS."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:003",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "STAR BUS? GO\nTO THE\nDEPARTURE\nGATE."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:004",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t003": "MARS IS THE\nFEDERATION'S\nHUB. BUSES GO\nTHERE."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:005",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t003": "THE STAR BUS\nIS HANDY FOR\nSTEA."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:006",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "YOUNG MAN",
+        "t003": "I HEAR MANY\nNATIVE MYUNTOS\nLIVE ON STEA."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:007",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t003": "BUS TO MOST\nFEDERATION\nWORLDS IN AN\nINSTANT!"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:008",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "ZAJIL BUSES",
+        "t003": "\n",
+        "t006": "MARS 100\n",
+        "t009": "STEA 150\nWHICH ONE?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:009",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "PLEASE COME\nAGAIN."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:010",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t000": "MARS\nSTEA\nLEAVE"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:013",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "NOT ENOUGH\nMONEY..."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:014",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "ALL READY, BUT\nYOU CAN'T\nCARRY IT."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:015",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "THANK YOU."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:018",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "USING THE STAR\nBUS?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:019",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t002": "CLERK"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:020",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "TAKE CARE.\nSAFE TRIP"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:021",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "WHICH BUS?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:022",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t000": "MARS\nSTEA\nCANCEL"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:027",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t001": "NO TICKET...?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:050",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t002": "BOARDED THE\n",
+        "t004": "MARS STAR BUS."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    },
+    {
+      "id": "script:05f000:057",
+      "basedOn": "0aee339b57e72f53103392bfb5c64a1b49022ea752fcbbba1d4543271994503a",
+      "inGameEnglish": {
+        "t002": "BOARDED THE\n",
+        "t004": "STEA STAR BUS."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation. STAR BUS shortens interstellar bus; COUNTER CLERK becomes CLERK. Prices, destinations and original menu choice order retained."
+      ]
+    }
+  ]
+}

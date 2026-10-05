@@ -1,0 +1,87 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "hamack-inventory-job"
+  ],
+  "records": [
+    {
+      "id": "script:052000:072",
+      "basedOn": "a8eec8fe7190d004a1c9d593c94f0b40c7899a4aa743e0c537071d562ae09b8c",
+      "inGameEnglish": {
+        "t005": [
+          "I SORT STOCK\nPART TIME.",
+          "IT'S TOO MUCH\nON MY OWN."
+        ],
+        "t007": "\nCAN YOU HELP?"
+      },
+      "notes": [
+        "The inventory work is expressed naturally as sorting stock. One reviewed continuation page preserves her part-time work, difficulty working alone, and the invitation without making inventory itself part-time."
+      ]
+    },
+    {
+      "id": "script:052000:073",
+      "basedOn": "a8eec8fe7190d004a1c9d593c94f0b40c7899a4aa743e0c537071d562ae09b8c",
+      "inGameEnglish": {
+        "t000": "I LOOK BUSY,\nFREE AT TIMES."
+      },
+      "notes": [
+        "An ambient alternative to the offer, with the sometimes-free contrast intact."
+      ]
+    },
+    {
+      "id": "script:052000:057",
+      "basedOn": "a8eec8fe7190d004a1c9d593c94f0b40c7899a4aa743e0c537071d562ae09b8c",
+      "inGameEnglish": {
+        "t001": "TOO BAD!\nI'D HAVE PAID\nWELL."
+      },
+      "notes": [
+        "Her disappointed refusal response promises good pay without inventing an amount."
+      ]
+    },
+    {
+      "id": "script:051000:027",
+      "basedOn": "a8eec8fe7190d004a1c9d593c94f0b40c7899a4aa743e0c537071d562ae09b8c",
+      "inGameEnglish": {
+        "t004": "OK\nLEAVE IT TO ME",
+        "t010": "HA, ",
+        "t012": ".\nGIRLS GET TO\nYOU. KARU,\nWHAT NOW?",
+        "t019": ", I'LL\nWORK WITH YOU.",
+        "t025": "FINE.\nI'LL WAIT AT\nTHE HOTEL.\nEARN LOTS!",
+        "t033": "SO ",
+        "t035": "\nBECAME A\n",
+        "t037": "SHOP CLERK."
+      },
+      "notes": [
+        "Name ID 2 is Shoko, ID 4 is Karu, and the narration describes Sion alone as a shop clerk. The paired source controls highlight SHOP CLERK.",
+        "2026-09-24 fitting: small punctuation/acknowledgement adjustment pays for restoring narration attributes after line breaks; canonical meaning is unchanged."
+      ]
+    },
+    {
+      "id": "script:051000:022",
+      "basedOn": "a8eec8fe7190d004a1c9d593c94f0b40c7899a4aa743e0c537071d562ae09b8c",
+      "inGameEnglish": {
+        "t000": "SORRY. I NEED\nSERIOUS HELP.",
+        "t003": "I HAVE TO\nLET YOU GO.",
+        "t005": "\nNO PAY, SORRY."
+      },
+      "notes": [
+        "This conditional dismissal explicitly gives no wages; no amount or raise is implied."
+      ]
+    },
+    {
+      "id": "script:051000:023",
+      "basedOn": "a8eec8fe7190d004a1c9d593c94f0b40c7899a4aa743e0c537071d562ae09b8c",
+      "inGameEnglish": {
+        "t000": "GOOD WORK.",
+        "t002": "\nSUDDENLY,\nWE'RE STAFFED.\nNO MORE WORK.",
+        "t005": "I PAID YOU\nWELL. FORGIVE\nME.",
+        "t010": " RECEIVED\n",
+        "t012": "200 CREDITS",
+        "t014": "."
+      },
+      "notes": [
+        "Distinct from the no-pay dismissal: staffing ends this job, and Sion receives exactly 200 credits in generous pay. The colored amount begins the next screen row."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "format": "retrotext-adaptations-v1",
+  "scenes": [
+    "r05-porkin-initial"
+  ],
+  "records": [
+    {
+      "id": "script:05a000:000",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t003": "PORKIN MART",
+        "t005": "WELCOME! NEED\nANYTHING?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:001",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t003": "PORKIN MART",
+        "t005": "WELCOME! WHAT\nDO YOU NEED?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:002",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "CLERK",
+        "t003": [
+          "LEFT, SUPPLIES\nLIKE MEDS.\nRIGHT,\nDANGEROUS",
+          "GOODS TO USE\nAS WEAPONS."
+        ]
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:003",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "YOUTH",
+        "t003": "THIS IS PORKIN\nON ZAJIL",
+        "t005": [
+          ". IT\nWAS A NICE\nTOWN BEFORE",
+          "THEY CAME."
+        ]
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:004",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t003": "WEPORKIN",
+        "t005": [
+          "COME IN!\nZAJIL'S MOST\nSTYLISH SHOP!",
+          "BUY WEAPONS\nHERE!"
+        ]
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:005",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "SYNDICATE",
+        "t004": "HUH? WHAT?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:006",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "CALL GIRL",
+        "t004": "MANY ARE AFTER\nYOU. WATCH\nOUT."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:007",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "OUTLAW",
+        "t004": "HEH. CROSS THE\nSYNDICATE AND\nLIVE?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:008",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t002": "SCRAPPER",
+        "t005": "SORRY.\nOUTSIDERS? NO\nDEAL. TRY\nELSEWHERE."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:009",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t004": "I KNOW\nNOTHING!"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:010",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "WOMAN",
+        "t004": "LEAVE, PLEASE.\nNO TROUBLE."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:011",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "OLD MAN",
+        "t004": "IF I WERE\nYOUNG, I'D\nBEAT THEM\nBAREHANDED..."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:013",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "THUG",
+        "t003": "WHAT? WHAT DID\nI DO?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:015",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "MAN",
+        "t005": "PLEASE DRIVE\nTHOSE THUGS\nOUT!"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:016",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "GIRL",
+        "t004": "TOMYU? THAT\nMYUNTOS TAKES\nSHADY FOLK TO\nTHAT HOUSE."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:018",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t000": "NEW FACES...\n",
+        "t002": "Y...YOU!\nCHAUSNOMYU?!\n",
+        "t004": "DAMN! COME ON!"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:029",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t000": "ARMS\nARMOR\nLEAVE"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:030",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:031",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:032",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "COME AGAIN."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:033",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t000": "TOOLS\nLEAVE"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:034",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:035",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "THANK YOU."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:036",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t002": "ANYTHING ELSE?"
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:037",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "NEED MORE\nCASH."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    },
+    {
+      "id": "script:05a000:038",
+      "basedOn": "9dd6e595754a751542cdc40e94a4c1fc1b56c141e03f544162d82b20068d8635",
+      "inGameEnglish": {
+        "t001": "UM... YOU NEED\nMONEY."
+      },
+      "notes": [
+        "Separate source-reviewed adaptation; local repetition and secondary sales patter shortened. MEDS retains existing provisional item display; MYUNTOS and CHAUSNOMYU remain explicit."
+      ]
+    }
+  ]
+}
